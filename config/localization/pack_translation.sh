@@ -35,7 +35,8 @@ cd "${LOCALIZATION_ROOT_DIR}"
 
 #:special
 echo "dumping charset..."
-"${TOOL_DIR}\I18NConv.exe" --charset -i "${LOCALIZATION_ROOT_DIR}\i18n.xml" -i "${LOCALIZATION_ROOT_DIR}\addition_${LANGUAGE}.xml" -l "${LANGUAGE}" -o "${TEMP_DIR}\default_unicode.txt"
+#"${TOOL_DIR}\I18NConv.exe" --charset -i "${LOCALIZATION_ROOT_DIR}\i18n.xml" -i "${LOCALIZATION_ROOT_DIR}\addition_${LANGUAGE}.xml" -l "${LANGUAGE}" -o "${TEMP_DIR}\default_unicode.txt"
+"${TOOL_DIR}/I18NConv.exe" --charset -i "${LOCALIZATION_ROOT_DIR}/i18n.xml" -i "${LOCALIZATION_ROOT_DIR}/addition_${LANGUAGE}.xml" -l "${LANGUAGE}" -o "${TEMP_DIR}/default_unicode.txt"
 echo "ERROR_LEVEL = %errorlevel%"
 #if %errorlevel% NEQ 0 goto error_exit
 
