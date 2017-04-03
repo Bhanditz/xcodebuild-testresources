@@ -204,6 +204,7 @@ if [ "$OPT_GEN_LOCALIZATION" = "true" ]; then
 	echo "LANGUAGE = $LANGUAGE"
 	echo "LOCALIZATION_ROOT = $LOCALIZATION_ROOT"
 #	cmd /c pack_translation.bat $LANGUAGE
+    cmd /c pack_translation.bat $LANGUAGE
     bash pack_translation.sh $LANGUAGE
 	if [ ! "$?" = "0" ]; then
 		echo "Error, generate localization $LANGUAGE resources failed ..."
