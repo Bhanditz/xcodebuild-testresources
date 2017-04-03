@@ -1,3 +1,4 @@
+echo "inside pack_translation.bat"
 @echo off
 
 if "%1"=="" goto restart
