@@ -205,7 +205,7 @@ if [ "$OPT_GEN_LOCALIZATION" = "true" ]; then
 	echo "LOCALIZATION_ROOT = $LOCALIZATION_ROOT"
 #	cmd /c pack_translation.bat $LANGUAGE
     cmd /c pack_translation.bat $LANGUAGE
-    bash pack_translation.sh $LANGUAGE
+#    bash pack_translation.sh $LANGUAGE
 	if [ ! "$?" = "0" ]; then
 		echo "Error, generate localization $LANGUAGE resources failed ..."
 #		exit 1
@@ -236,6 +236,10 @@ fi
 
 # get svn number
 export LC_MESSAGES=en_US
+DEBUG_CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+echo "DEBUG_CURRENT_DIR = ${DEBUG_CURRENT_DIR}"
+SVN_NUMBER=$(svn info ../../ | awk '/^Revision:/{print $2}')
+echo "SVN_NUMBER = $SVN_NUMBER"
 SVN_NUMBER=$(svn info ../../../ | awk '/^Revision:/{print $2}')
 echo "SVN_NUMBER = $SVN_NUMBER"
 
@@ -246,7 +250,7 @@ echo "NOW_DATE = $NOW_DATE"
 NOW_TIME=$(date "+%H%M")
 echo "NOW_TIME = $NOW_TIME"
 
-cd $DIR
+cd "${DIR}"
 # update config file
 if [ "$OPT_UPDATE_CONFIG" = "true" ]; then
     echo "updating config.cpp"
