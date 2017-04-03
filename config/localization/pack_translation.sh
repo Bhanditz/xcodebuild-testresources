@@ -4,7 +4,7 @@ LANGUAGE=$1
 
 echo "LANGUAGE=${LANGUAGE}"
 
-cd ..\..\
+#cd ..\..\
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo "ROOT_DIR=${ROOT_DIR}"
 
