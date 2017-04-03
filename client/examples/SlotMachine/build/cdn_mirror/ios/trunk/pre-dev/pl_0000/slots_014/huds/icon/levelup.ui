@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="160" height="145" window_state="6">
+    <Sprite id="m_Sprite" x="-43" y="-187" z="0" width="240" height="400" window_state="6">
+        <sprite_file value="slots_014/sprites/levelup.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_SpriteSide" x="-43" y="-150" z="0" width="240" height="400" window_state="6">
+        <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+        <sprite_file value="slots_014/sprites/levelup.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

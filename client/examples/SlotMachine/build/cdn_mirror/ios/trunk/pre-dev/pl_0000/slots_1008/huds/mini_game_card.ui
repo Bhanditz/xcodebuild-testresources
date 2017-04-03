@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="133" height="140" window_state="6">
+    <Picture id="m_Picture" x="66" y="6" z="0" width="0" height="0" window_state="262">
+        <RichLabel id="m_Value" x="-90" y="-17" z="0" width="181" height="50" window_state="6">
+            <text value="36,000"/>
+            <font_size value="60"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.37"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="4.5"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Value_Yellow_1" x="-50" y="-17" z="0" width="101" height="50" window_state="4">
+            <text value="999"/>
+            <font_size value="60"/>
+            <text_color value="cs_yellowTxt"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="4.5"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Value_Yellow_2" x="-50" y="-17" z="0" width="101" height="50" window_state="4">
+            <text value="999"/>
+            <font_size value="60"/>
+            <text_color value="cs_yellowTxt"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="4.5"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <Button id="m_Button" x="31" y="45" z="0" width="70" height="70" window_state="6" style="bs_slots_1008_button012">
+        <scale x="1.35" y="1.35" z="1.35"/>
+        <line_height value="30"/>
+    </Button>
+    <Sprite id="m_Sprite" x="-62" y="-47" z="0" width="256" height="256" window_state="4">
+        <sprite_file value="slots_1008/sprites/minigame_hit.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="-64" y="-49" z="0" width="256" height="256" window_state="4">
+        <sprite_file value="slots_1008/sprites/minigame_miss.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

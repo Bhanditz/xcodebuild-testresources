@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_Bg_Anim" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_Background3" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <piece_info value="slots_009_bg_03"/>
+        </Picture>
+        <SpineSprite id="m_SpineSprite_Cloud2" x="555" y="240" z="0" width="100" height="100" window_state="6">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="cloud2"/>
+        </SpineSprite>
+        <SkinMesh id="m_Dragon_Fire" x="-220" y="-200" z="0" width="1560" height="920" window_state="2052">
+            <action_id value="animation_slot009_long@long02"/>
+            <mesh_file value="slots_009/models/long.model"/>
+            <mesh_position x="36" y="-20" z="0"/>
+            <mesh_scale x="40" y="40" z="40"/>
+            <far_clip_distance value="10000"/>
+            <lights>
+                <element/>
+                <element/>
+            </lights>
+            <mesh_materials>
+                <mesh_id_0>
+                    <material_id value="0"/>
+                </mesh_id_0>
+                <mesh_id_1>
+                    <material_id value="0"/>
+                </mesh_id_1>
+                <mesh_id_2>
+                    <material_id value="0"/>
+                </mesh_id_2>
+            </mesh_materials>
+        </SkinMesh>
+        <SpineSprite id="m_SpineSprite_Cloud1" x="555" y="240" z="0" width="100" height="100" window_state="4">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="cloud1"/>
+        </SpineSprite>
+        <SpineSprite id="m_SpineSprite_Wave4" x="518" y="245" z="0" width="100" height="100" window_state="6">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave4"/>
+        </SpineSprite>
+        <SpineSprite id="m_SpineSprite_Wave3" x="518" y="250" z="0" width="100" height="100" window_state="6">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave3"/>
+        </SpineSprite>
+        <SkinMesh id="m_Dragon_Flyup" x="-134" y="-83" z="0" width="1560" height="920" window_state="2052">
+            <action_id value="animation_slot009_long@long00"/>
+            <mesh_file value="slots_009/models/long.model"/>
+            <mesh_scale x="50" y="50" z="50"/>
+            <far_clip_distance value="10000"/>
+            <lights>
+                <element/>
+                <element/>
+            </lights>
+            <mesh_materials>
+                <mesh_id_0>
+                    <material_id value="0"/>
+                </mesh_id_0>
+                <mesh_id_1>
+                    <material_id value="0"/>
+                </mesh_id_1>
+                <mesh_id_2>
+                    <material_id value="0"/>
+                </mesh_id_2>
+            </mesh_materials>
+        </SkinMesh>
+        <SpineSprite id="m_SpineSprite_Wave2" x="518" y="278" z="0" width="100" height="100" window_state="6">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave2"/>
+        </SpineSprite>
+        <SpineSprite id="m_SpineSprite_Wave1" x="518" y="280" z="0" width="100" height="100" window_state="6">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave1"/>
+        </SpineSprite>
+        <Sprite id="m_Sprite_Fire" x="398" y="225" z="0" width="340" height="190" window_state="4">
+            <scale x="3.4000001" y="3.4000001" z="3.4000001"/>
+            <sprite_file value="slots_009/sprites/Dragon Fire.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+</Panel>

@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Root" x="505" y="437" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Pages" x="1" y="2" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <piece_info value="lots_002_paytable_01"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Panel id="m_Page1" x="13" y="107" z="0" width="1107" height="502" window_state="4">
+            <RichLabel id="m_RichLabel" x="317" y="29" z="0" width="439" height="48" window_state="6" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_SPARTA_PAYTABLE_TITLE_HIGHLIGHTS"/>
+                <font_size value="48"/>
+                <rich_label_state value="1"/>
+                <smooth value="0"/>
+                <glyph_center value="0.31"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="40"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="225" y="95" z="0" width="665" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_HIGHLIGHTS_TEXT_1"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="224" y="153" z="0" width="256" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_HIGHLIGHTS_TEXT_2A"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="225" y="206" z="0" width="729" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_HIGHLIGHT_TEXT_3"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="224" y="263" z="0" width="236" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_HIGHLIGHTS_TEXT_4"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture" x="142" y="70" z="0" width="96" height="96" window_state="6">
+                <scale x="0.30000001" y="0.30000001" z="0.30000001"/>
+                <piece_info value="slots_002_icon9"/>
+            </Picture>
+            <Picture id="m_Picture1" x="141" y="127" z="0" width="96" height="96" window_state="6">
+                <scale x="0.30000001" y="0.30000001" z="0.30000001"/>
+                <piece_info value="slots_002_icon22"/>
+            </Picture>
+            <Picture id="m_Picture2" x="142" y="290" z="0" width="96" height="96" window_state="6">
+                <scale x="0.30000001" y="0.30000001" z="0.30000001"/>
+                <piece_info value="slots_002_icon14"/>
+            </Picture>
+            <Picture id="m_Picture3" x="142" y="234" z="0" width="96" height="96" window_state="6">
+                <scale x="0.30000001" y="0.30000001" z="0.30000001"/>
+                <piece_info value="slots_002_icon15"/>
+            </Picture>
+            <Picture id="m_Picture5" x="142" y="324" z="0" width="96" height="96" window_state="6">
+                <scale x="0.30000001" y="0.30000001" z="0.30000001"/>
+                <piece_info value="slots_002_icon14"/>
+            </Picture>
+            <Picture id="m_Picture6" x="130" y="170" z="0" width="116" height="116" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="slots_002_icon21"/>
+            </Picture>
+            <RichLabel id="m_RichLabel1" x="224" y="328" z="0" width="606" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_HIGHLIGHTS_TEXT_5"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="130" y="99" z="0" width="32" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="130" y="149" z="0" width="32" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="130" y="206" z="0" width="32" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM3"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="129" y="262" z="0" width="32" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM4"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="130" y="323" z="0" width="32" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page2" x="14" y="107" z="0" width="1108" height="502" window_state="4">
+            <RichLabel id="m_RichLabel" x="365" y="30" z="0" width="752" height="48" window_state="262" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_SPARTA_PAYTABLE_TITLE_EXTRABONUS"/>
+                <font_size value="48"/>
+                <rich_label_state value="1"/>
+                <smooth value="0"/>
+                <glyph_center value="0.31"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="40"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="171" y="96" z="0" width="646" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_EXTRABONUS_TEXT_1"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="130" y="100" z="0" width="32" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="124" y="149" z="0" width="44" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="124" y="206" z="0" width="44" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM3"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="124" y="266" z="0" width="44" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM4"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="124" y="323" z="0" width="44" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="124" y="371" z="0" width="44" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM6"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="173" y="147" z="0" width="416" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_EXTRABONUS_TEXT_2"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="225" y="320" z="0" width="736" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_EXTRABONUS_TEXT_5"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="314" y="199" z="0" width="266" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_EXTRABONUS_TEXT_3"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture" x="234" y="169" z="0" width="96" height="96" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="slots_002_icon16"/>
+            </Picture>
+            <RichLabel id="m_RichLabel3" x="225" y="259" z="0" width="326" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_EXTRABONUS_TEXT_4"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture" x="188" y="169" z="0" width="96" height="96" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="slots_002_icon17"/>
+            </Picture>
+            <Picture id="m_Picture1" x="142" y="169" z="0" width="96" height="96" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="slots_002_icon18"/>
+            </Picture>
+            <Picture id="m_Picture2" x="142" y="290" z="0" width="96" height="96" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="slots_002_icon20"/>
+            </Picture>
+            <Picture id="m_Picture3" x="142" y="236" z="0" width="96" height="96" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="slots_002_icon19"/>
+            </Picture>
+            <Picture id="m_Picture5" x="143" y="343" z="0" width="96" height="96" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="slots_002_icon21"/>
+            </Picture>
+            <RichLabel id="m_RichLabel1" x="222" y="373" z="0" width="386" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_EXTRABONUS_TEXT_6"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page3" x="15" y="117" z="0" width="1108" height="502" window_state="4">
+            <RichLabel id="m_RichLabel" x="407" y="20" z="0" width="809" height="48" window_state="262" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_SPARTA_PAYTABLE_TITLE_FREESPINBATTLE"/>
+                <font_size value="48"/>
+                <rich_label_state value="1"/>
+                <smooth value="0"/>
+                <glyph_center value="0.31"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="40"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="168" y="86" z="0" width="266" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_FREESPINBATTLE_TEXT_1A"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="169" y="144" z="0" width="556" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_FREESPINBATTLE_TEXT_2"/>
+                <font_size value="28"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="122" y="90" z="0" width="44" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="122" y="140" z="0" width="44" height="30" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_TEXT_NUM2"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page4" x="13" y="107" z="0" width="1107" height="502" window_state="6">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <Panel id="m_Group1" x="69" y="90" z="0" width="203" height="101" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="12,15"/>
+                <Picture id="m_Picture1" x="-33" y="-33" z="0" width="172" height="172" window_state="262">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_002_icon14"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="136" y="10" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="136" y="40" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_29"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="136" y="70" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_30"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="87" y="10" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_1"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="85" y="40" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_2"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="86" y="70" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="51" y="281" z="0" width="292" height="133" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Picture id="m_Picture2" x="27" y="17" z="0" width="156" height="100" window_state="262">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_002_icon13"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="237" y="12" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_4"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="237" y="41" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_5"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="237" y="70" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_6"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="237" y="100" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_7"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="177" y="11" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_8"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="175" y="41" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_9"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="176" y="71" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="177" y="101" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_11"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <RichLabel id="m_RichLabel" x="441" y="31" z="0" width="715" height="48" window_state="262" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_SPARTA_PAYTABLE_TITLE_PAYTABLE1"/>
+                <font_size value="48"/>
+                <rich_label_state value="1"/>
+                <smooth value="0"/>
+                <glyph_center value="0.31"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="40"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="858" y="104" z="0" width="235" height="73" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_PAYTABLE1_TEXT_SCATTER"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture" x="42" y="182" z="0" width="156" height="100" window_state="262">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <piece_info value="slots_002_icon10"/>
+            </Picture>
+            <Picture id="m_Picture3" x="698" y="70" z="0" width="200" height="145" window_state="262">
+                <scale x="0.5" y="0.5" z="0.5"/>
+                <piece_info value="slots_002_icon9"/>
+            </Picture>
+            <Picture id="m_Picture4" x="349" y="57" z="0" width="172" height="172" window_state="262">
+                <scale x="0.5" y="0.5" z="0.5"/>
+                <piece_info value="slots_002_icon15"/>
+            </Picture>
+            <Panel id="m_Group3" x="419" y="285" z="0" width="278" height="130" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Picture id="m_Picture5" x="23" y="14" z="0" width="156" height="100" window_state="262">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_002_icon12"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="224" y="8" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_12"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="221" y="38" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_13"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="220" y="68" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_14"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="221" y="98" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_15"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="172" y="8" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_16"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="170" y="38" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_17"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="171" y="68" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_18"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="172" y="98" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_19"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="773" y="280" z="0" width="274" height="136" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Picture id="m_Picture5" x="28" y="17" z="0" width="156" height="100" window_state="262">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_002_icon11"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="221" y="14" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_20"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="221" y="44" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_21"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="221" y="75" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_22"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="221" y="106" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_23"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="176" y="14" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_24"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="174" y="44" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_25"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="175" y="74" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="176" y="104" z="0" width="42" height="20" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE4_TEXT_NUM_27"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <RichLabel id="m_RichLabel1" x="179" y="199" z="0" width="175" height="65" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_PAYTABLE1_TEXT_WILD"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4" x="490" y="104" z="0" width="220" height="73" window_state="6">
+                <text value="SLOTS_SPARTA_PAYTABLE_PAYTABLE1_TEXT_2XWILD"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page5" x="14" y="107" z="0" width="0" height="0" window_state="260">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <RichLabel id="m_RichLabel" x="449" y="31" z="0" width="715" height="48" window_state="262" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_SPARTA_PAYTABLE_TITLE_PAYTABLE2"/>
+                <font_size value="48"/>
+                <rich_label_state value="1"/>
+                <smooth value="0"/>
+                <glyph_center value="0.31"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="40"/>
+            </RichLabel>
+            <Panel id="m_Group1" x="45" y="130" z="0" width="242" height="82" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Picture4" x="-2" y="-9" z="0" width="156" height="100" window_state="262">
+                    <piece_info value="slots_002_icon7"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="166" y="-8" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_1"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="166" y="20" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_2"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="166" y="48" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="192" y="-7" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_4"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="192" y="21" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_5"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="192" y="48" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_6"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="45" y="275" z="0" width="242" height="82" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Picture id="m_Picture4" x="-2" y="-9" z="0" width="156" height="100" window_state="262">
+                    <piece_info value="slots_002_icon8"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="166" y="-8" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_7"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="166" y="20" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_8"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="166" y="48" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_9"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="192" y="-7" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="192" y="21" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_11"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="192" y="48" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_12"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="321" y="110" z="0" width="230" height="110" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="11"/>
+                <Picture id="m_Picture1" x="-9" y="7" z="0" width="156" height="100" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_002_icon1"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="147" y="14" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_13"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="147" y="42" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_14"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="147" y="69" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_15"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="169" y="13" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_16"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="169" y="41" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_17"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="170" y="68" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_18"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="321" y="260" z="0" width="230" height="110" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Picture1" x="-9" y="7" z="0" width="156" height="100" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_002_icon5"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="147" y="14" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_19"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="147" y="42" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_20"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="147" y="69" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_21"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="169" y="13" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_22"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="169" y="41" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_23"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="170" y="68" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_24"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="585" y="110" z="0" width="230" height="110" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="10"/>
+                <Picture id="m_Picture1" x="-9" y="7" z="0" width="156" height="100" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_002_icon2"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="147" y="14" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_25"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="147" y="42" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="147" y="69" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_27"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="169" y="13" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="169" y="41" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_29"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="170" y="68" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_30"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="585" y="255" z="0" width="230" height="110" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="8"/>
+                <Picture id="m_Picture1" x="-9" y="7" z="0" width="156" height="100" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_002_icon4"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="147" y="14" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_31"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="147" y="42" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_32"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="147" y="69" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_33"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="169" y="13" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_34"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="169" y="41" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_35"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="170" y="68" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_36"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group7" x="849" y="110" z="0" width="230" height="110" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="9"/>
+                <Picture id="m_Picture1" x="-9" y="7" z="0" width="156" height="100" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_002_icon3"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="147" y="14" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_37"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="147" y="42" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_38"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="147" y="69" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_39"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="169" y="13" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_40"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="169" y="41" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_41"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="170" y="68" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_42"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group8" x="849" y="252" z="0" width="230" height="110" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Picture1" x="-9" y="7" z="0" width="156" height="100" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_002_icon6"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="147" y="14" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_43"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="147" y="42" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_44"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="147" y="69" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_45"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="169" y="13" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_46"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="169" y="41" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_47"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="170" y="68" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SPARTA_PAYTABLE_PAGE5_TEXT_NUM_48"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page6" x="-2" y="15" z="0" width="1136" height="610" window_state="4">
+            <Panel id="m_row1" x="20" y="194" z="0" width="1112" height="80" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <Picture id="m_Picture1" x="117" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="70" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="16" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_2"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="229" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="70" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-23" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_3"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="342" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_4"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="454" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="2" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="2" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_5"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="1019" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="2" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="70" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_10"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="1" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="53" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_1"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="566" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_6"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="679" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="21" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="53" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_7"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="792" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_8"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="905" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="19" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="36" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="19" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_9"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row2" x="19" y="270" z="0" width="1113" height="80" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <Picture id="m_Picture1" x="117" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_12"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="229" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_13"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="343" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_14"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="455" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_15"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="1020" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_20"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="2" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="21" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="21" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="53" y="21" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_11"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="567" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_16"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="680" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_17"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="793" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="19" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="55" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_18"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="906" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_19"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row3" x="19" y="349" z="0" width="1114" height="80" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <Picture id="m_Picture1" x="116" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="53" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="17" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_22"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="228" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="19" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_23"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="343" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="19" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="70" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_24"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="455" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="36" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_25"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="1020" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="53" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="53" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_30"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="2" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="36" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="53" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_21"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="567" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_26"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="680" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_27"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="793" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="55" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="38" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="55" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-23" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_28"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="906" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_29"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row4" x="18" y="427" z="0" width="1116" height="80" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <Picture id="m_Picture1" x="117" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-23" y="16" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_32"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="229" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_33"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="344" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="19" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_34"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="456" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_35"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="1021" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_40"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="3" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="38" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_31"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="568" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="36" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="53" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_36"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="681" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="52" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_37"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="794" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="2" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_38"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="907" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_002_icon26"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="19" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="53" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_001_panel20"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SPARTA_PAYTABLE_PAGE6_TEXT_NUM_39"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <RichLabel id="m_RichLabel4" x="283" y="165" z="0" width="431" height="25" window_state="262">
+                <text value="SLOTS_SPARTA_PAYTABLE_PAYLINES_TEXT_40LINES"/>
+                <font_size value="25"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="489" y="123" z="0" width="691" height="48" window_state="262" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_SPARTA_PAYTABLE_TITLE_PAYLINES"/>
+                <font_size value="48"/>
+                <rich_label_state value="1"/>
+                <smooth value="0"/>
+                <glyph_center value="0.31"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="40"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+    <Button id="m_NextBtn" x="764" y="532" z="0" width="88" height="70" window_state="262" style="bs_lots_002_paytable_03">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BackBtn" x="362" y="502" z="0" width="410" height="135" window_state="262" style="bs_lots_002_paytable_02">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt02"/>
+        <text_style value="1"/>
+        <text_offset x="0" y="-6" z="0"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.41999999"/>
+        <outline_center value="0.49000001"/>
+        <outline_color value="cs_Purple1Txt"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="101" y="39" z="0" width="209" height="45" window_state="14">
+            <text value="SLOTS_SPARTA_PAYTABLE_BUTTON_BACKGAME"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt02"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.41999999"/>
+            <outline_center value="0.49000001"/>
+            <outline_color value="cs_Purple1Txt"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_PrevBtn" x="289" y="535" z="0" width="88" height="70" window_state="262" style="bs_lots_002_paytable_03">
+        <rotation x="0" y="3.1415927" z="0"/>
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

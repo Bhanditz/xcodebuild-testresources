@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skelecton>
+    <BoneList>
+        <Bone id="0" name="Bone001" offset="0.00557262,-1.01422,2.63172e-006,0.0819702,-1.01422,-0.00557262,-3.51999e-007,0.000450432,4.43324e-008,-3.18141e-007,-8.38364,-1.87799,0,0,0,1"/>
+    </BoneList>
+    <MeshBoneList>
+        <MeshBone mesh_id="0" mesh_name="Cylinder013" num_bones="1" bones="0"/>
+    </MeshBoneList>
+</Skelecton>

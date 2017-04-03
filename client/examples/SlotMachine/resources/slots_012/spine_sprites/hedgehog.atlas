@@ -1,0 +1,27 @@
+
+hedgehog.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chi1
+  rotate: false
+  xy: 2, 2
+  size: 131, 86
+  orig: 131, 86
+  offset: 0, 0
+  index: -1
+chi2
+  rotate: false
+  xy: 135, 2
+  size: 131, 86
+  orig: 131, 86
+  offset: 0, 0
+  index: -1
+qj
+  rotate: false
+  xy: 268, 51
+  size: 178, 37
+  orig: 178, 37
+  offset: 0, 0
+  index: -1

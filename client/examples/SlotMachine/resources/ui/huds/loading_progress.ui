@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanelLoading" x="0" y="0" z="0" width="960" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture implement_class="PictureLoading" id="m_PicLoading" x="436" y="276" z="0" width="88" height="88" window_state="6">
+        <piece_info value="poker_profile_icon4"/>
+        <Picture id="m_PicCircle" x="-1" y="-1" z="0" width="90" height="90" window_state="14">
+            <action_id value="action_loading"/>
+        </Picture>
+        <RichLabel id="m_LblDesc" x="-323" y="101" z="0" width="734" height="107" window_state="6" style="cs_black">
+            <text value="RichLabel"/>
+            <text_style value="8"/>
+            <line_height value="30"/>
+            <font_type value="1"/>
+        </RichLabel>
+    </Picture>
+</Panel>

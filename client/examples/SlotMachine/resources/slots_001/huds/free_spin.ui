@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel_BigBonus" x="0" y="0" z="0" width="1156" height="660" window_state="6">
+    <Picture id="m_Bg" x="-1" y="0" z="0" width="1156" height="660" window_state="6">
+        <piece_info value="slots_001_bg07"/>
+        <scale_mode value="3"/>
+        <Picture id="m_meteor" x="-1" y="0" z="0" width="1158" height="662" window_state="6" style="ngs_slots_001_panel07">
+            <color_scale x="1" y="1" z="1" w="0.5"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_PicHalo" x="435" y="250" z="0" width="284" height="160" window_state="6">
+        <scale x="4.0999999" y="4.0999999" z="4.0999999"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_7freegame04"/>
+        <piece_info value="freegame01"/>
+    </Picture>
+    <Particle id="m_Particle" x="969" y="-141" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+        <particle_state value="0"/>
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="freegame rockshow"/>
+    </Particle>
+    <Picture id="m_PicFireBall" x="238" y="-137" z="0" width="898" height="726" window_state="6">
+        <action_id value="animation_7freegame01"/>
+        <piece_info value="slots_001_freegame04"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_TextFreeSpin" x="174" y="66" z="0" width="823" height="498" window_state="14">
+        <action_id value="animation_7freegame03"/>
+        <Picture id="m_Picture" x="-42" y="-44" z="0" width="891" height="149" window_state="6">
+            <piece_info value="slots_001_freegame01"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_Picture" x="257" y="385" z="0" width="291" height="54" window_state="6">
+            <piece_info value="slots_001_freegame02"/>
+            <Picture id="m_Picture1" x="51" y="-228" z="0" width="189" height="213" window_state="6">
+                <piece_info value="slots_001_freegame03"/>
+                <scale_mode value="3"/>
+            </Picture>
+        </Picture>
+    </Panel>
+    <Panel id="m_BtnPanel" x="385" y="530" z="0" width="377" height="117" window_state="6">
+        <action_id value="animation_7freegame08"/>
+        <Picture id="m_Picture" x="34" y="2" z="0" width="314" height="115" window_state="6" style="ngs_slots_001_panel28">
+            <blend_mode value="2"/>
+            <action_id value="animation_slot001_freegame_glow"/>
+        </Picture>
+        <Button id="m_Button" x="51" y="17" z="0" width="281" height="86" window_state="6" style="bs_slots_001_button_019">
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="75" y="22" z="0" width="131" height="42" window_state="14">
+                <piece_info value="slots_001_text45"/>
+            </Picture>
+        </Button>
+    </Panel>
+    <Picture id="m_PicRock" x="3556" y="-3104" z="0" width="168" height="624" window_state="6">
+        <scale x="12" y="12" z="12"/>
+        <rotation x="0" y="0" z="0.78539819"/>
+        <action_id value="animation_7freegame05"/>
+        <piece_info value="rockshow"/>
+    </Picture>
+</Panel>

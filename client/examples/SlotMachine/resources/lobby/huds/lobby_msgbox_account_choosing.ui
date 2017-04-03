@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanSwitchGmail" x="0" y="0" z="0" width="766" height="420" window_state="6">
+    <Picture id="m_Black" x="-185" y="-110" z="0" width="1136" height="640" window_state="14" style="cs_black">
+        <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="0.80000001"/>
+    </Picture>
+    <Picture id="m_Base" x="82" y="13" z="0" width="602" height="393" window_state="6" style="ngs_casino_common_panel10">
+        <color_scale x="1.16" y="1.16" z="1.16" w="1.16"/>
+        <RichLabel id="m_RichLabel" x="128" y="26" z="0" width="346" height="50" window_state="6">
+            <text value="PLATFORM_LOGIN_SWITCHACCOUNT_GGACOUNT"/>
+            <font_size value="55"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_BtnClose" x="544" y="21" z="0" width="35" height="35" window_state="6" style="bs_casino_common_btn010">
+            <line_height value="30"/>
+        </Button>
+        <List id="m_ListAccounts" x="54" y="80" z="0" width="494" height="307" window_state="262150">
+            <scroll_state value="6"/>
+            <content_size x="0" y="103" z="0"/>
+            <page_size x="1" y="100" z="1"/>
+            <Panel implement_class="PanelAccountItem" id="m_PanelAccountItem" x="0" y="0" z="0" width="494" height="103" window_state="6">
+                <Button id="m_BtnAccount" x="2" y="6" z="0" width="490" height="80" window_state="6" style="ngs_casino_lobby_btn08a">
+                    <font_size value="45"/>
+                    <text_offset x="30" y="0" z="0"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                    <Picture id="m_Picture" x="50" y="10" z="0" width="71" height="49" window_state="6">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="casino_lobby_icon016b"/>
+                    </Picture>
+                    <RichLabel id="m_Email" x="125" y="7" z="0" width="306" height="50" window_state="14">
+                        <text value="igg@gmail.com"/>
+                        <font_size value="45"/>
+                        <text_color value="cs_white"/>
+                        <text_style value="32"/>
+                        <font_id value="MyraidPro"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Button>
+            </Panel>
+        </List>
+    </Picture>
+</Panel>

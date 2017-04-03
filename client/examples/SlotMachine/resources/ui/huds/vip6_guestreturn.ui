@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_VIPPopup" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_BG" x="0" y="0" z="0" width="1136" height="640" window_state="12" style="ngs_casino_common_panel11">
+        <piece_info value="lobby_bg01"/>
+    </Picture>
+    <Picture id="m_BG2" x="56" y="31" z="0" width="1024" height="577" window_state="14">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="casino_vip_return_bg"/>
+    </Picture>
+    <Picture id="m_Light" x="222" y="18" z="0" width="262" height="280" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.6457718"/>
+        <anchor_point x="0.5" y="0.1" z="0"/>
+        <action_id value="animation_slot005_fortune_lightl"/>
+        <piece_info value="casino_common_panel33b"/>
+    </Picture>
+    <Picture id="m_Light2" x="886" y="28" z="0" width="262" height="280" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="0.66322511"/>
+        <anchor_point x="0.5" y="0.1" z="0"/>
+        <action_id value="animation_slot005_fortune_lightr"/>
+        <piece_info value="casino_common_panel33b"/>
+    </Picture>
+    <Particle id="m_Particle" x="667" y="257" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="0"/>
+        <package_file value="ui/particles/common.ptc"/>
+        <particle_name value="vip back"/>
+    </Particle>
+    <Picture id="m_Picture" x="654" y="358" z="0" width="101" height="97" window_state="6">
+        <scale x="0.30000001" y="0.30000001" z="0.30000001"/>
+        <piece_info value="casino_common_icon02"/>
+    </Picture>
+    <RichLabel id="m_LbDes" x="411" y="100" z="0" width="567" height="79" window_state="6">
+        <text value="PLATFORM_STAR_NOLOGIN_TEXT_DAYS_#0"/>
+        <font_size value="45"/>
+        <text_color value="cs_lightgrey"/>
+        <text_style value="8"/>
+        <font_id value="MyraidPro"/>
+        <rich_label_state value="4"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="35"/>
+    </RichLabel>
+    <RichLabel id="m_Text" x="468" y="396" z="0" width="207" height="29" window_state="6">
+        <text value="PLATFORM_STAR_NOLOGIN_TEXT_CHIPS_#0"/>
+        <font_size value="40"/>
+        <text_color value="cs_lightgrey"/>
+        <text_align_h value="3"/>
+        <text_style value="8"/>
+        <font_id value="MyraidPro"/>
+        <rich_label_state value="4"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="29"/>
+    </RichLabel>
+    <RichLabel id="m_Text0" x="489" y="422" z="0" width="417" height="49" window_state="6">
+        <text value="PLATFORM_STAR_NOLOGIN_TEXT_GOODLUCK"/>
+        <font_size value="40"/>
+        <text_color value="cs_lightgrey"/>
+        <text_style value="8"/>
+        <font_id value="MyraidPro"/>
+        <rich_label_state value="4"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="29"/>
+    </RichLabel>
+    <RichLabel id="m_AwardCoinsValue" x="729" y="382" z="0" width="177" height="49" window_state="6">
+        <text value="-"/>
+        <font_size value="50"/>
+        <text_color value="cs_yellow"/>
+        <text_align_h value="1"/>
+        <text_style value="8"/>
+        <font_id value="MyraidPro"/>
+        <rich_label_state value="4"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="29"/>
+    </RichLabel>
+    <Button id="m_BtnCollect" x="473" y="474" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn012">
+        <font_size value="50"/>
+        <text_offset x="0" y="-5" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <line_height value="30"/>
+        <Picture id="m_Collect" x="89" y="16" z="0" width="263" height="54" window_state="14">
+            <scale x="1.1" y="1.1" z="1.1"/>
+            <piece_info value="casino_common_btn028a"/>
+        </Picture>
+    </Button>
+</Panel>

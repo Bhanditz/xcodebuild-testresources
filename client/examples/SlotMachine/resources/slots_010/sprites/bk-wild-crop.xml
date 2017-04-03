@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bk-wild-crop.png" width="256" height="512" scale_x="3.1500001" scale_y="3.1500001" blend="1" loop="1">
+    <sprite n="bk-wild-crop_00000.png" x="2" y="477" w="97" h="30" oX="38" oY="49" oW="106" oH="177" r="y" dr="80"/>
+    <sprite n="bk-wild-crop_00001.png" x="194" y="278" w="36" h="121" oX="33" oY="34" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00002.png" x="212" y="139" w="42" h="131" oX="29" oY="28" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00003.png" x="2" y="282" w="48" h="139" oX="28" oY="20" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00004.png" x="2" y="2" w="54" h="139" oX="21" oY="22" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00005.png" x="98" y="278" w="48" h="135" oX="27" oY="23" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00006.png" x="164" y="2" w="46" h="137" oX="29" oY="24" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00007.png" x="148" y="278" w="44" h="137" oX="31" oY="24" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00008.png" x="114" y="2" w="48" h="137" oX="26" oY="20" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00009.png" x="162" y="141" w="48" h="135" oX="27" oY="22" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00010.png" x="58" y="2" w="54" h="137" oX="20" oY="22" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00011.png" x="2" y="143" w="54" h="137" oX="20" oY="22" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00012.png" x="212" y="2" w="42" h="135" oX="31" oY="25" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00013.png" x="52" y="282" w="44" h="137" oX="29" oY="23" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00014.png" x="112" y="141" w="48" h="135" oX="25" oY="25" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00015.png" x="58" y="141" w="52" h="135" oX="21" oY="24" oW="106" oH="177" dr="80"/>
+    <sprite n="bk-wild-crop_00016.png" x="2" y="423" w="117" h="52" oX="18" oY="26" oW="106" oH="177" r="y" dr="80"/>
+    <sprite n="bk-wild-crop_00017.png" x="121" y="417" w="117" h="46" oX="24" oY="25" oW="106" oH="177" r="y" dr="80"/>
+    <sprite n="bk-wild-crop_00018.png" x="232" y="272" w="20" h="73" oX="45" oY="54" oW="106" oH="177" dr="80"/>
+</TextureAtlas>

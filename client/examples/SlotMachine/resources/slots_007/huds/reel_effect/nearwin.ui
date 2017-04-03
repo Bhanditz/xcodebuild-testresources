@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="390" window_state="6">
+    <Panel id="m_clip" x="-145" y="0" z="0" width="450" height="396" window_state="786438">
+        <color_scale x="0.5" y="0.5" z="0.5" w="0.5"/>
+        <SpineSprite id="m_chengmao" x="-54" y="478" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_007/spine_sprites/near_chengmao.json"/>
+            <auto_anim_name value="chengmao_one"/>
+        </SpineSprite>
+        <SpineSprite id="m_huangmao" x="-3" y="478" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_007/spine_sprites/near_huangmao.json"/>
+            <auto_anim_name value="huangmao_one"/>
+        </SpineSprite>
+        <SpineSprite id="m_lanmao" x="-24" y="478" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_007/spine_sprites/near_lanmao.json"/>
+            <auto_anim_name value="lanmao_one"/>
+        </SpineSprite>
+        <SpineSprite id="m_mao2" x="-3" y="478" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_007/spine_sprites/near_mao2.json"/>
+            <auto_anim_name value="baimao_one"/>
+        </SpineSprite>
+        <Panel id="m_include_r" x="305" y="0" z="0" width="145" height="396" window_state="1048582"/>
+        <Panel id="m_include_l" x="0" y="0" z="0" width="145" height="396" window_state="1048582"/>
+    </Panel>
+    <Sprite id="m_Sprite" x="-78" y="-52" z="0" width="300" height="500" window_state="6">
+        <sprite_file value="slots_007/sprites/nearwin_arise.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="-78" y="-52" z="0" width="300" height="500" window_state="6">
+        <sprite_file value="slots_007/sprites/nearwin.spr"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

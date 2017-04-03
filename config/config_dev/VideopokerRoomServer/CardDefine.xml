@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+
+<root>
+	<Card>
+		<Id> 1 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 1 </Value>
+	</Card>
+	<Card>
+		<Id> 2 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 2 </Value>
+	</Card>
+	<Card>
+		<Id> 3 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 3 </Value>
+	</Card>
+	<Card>
+		<Id> 4 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 4 </Value>
+	</Card>
+	<Card>
+		<Id> 5 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 5 </Value>
+	</Card>
+	<Card>
+		<Id> 6 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 6 </Value>
+	</Card>
+	<Card>
+		<Id> 7 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 7 </Value>
+	</Card>
+	<Card>
+		<Id> 8 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 8 </Value>
+	</Card>
+	<Card>
+		<Id> 9 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 9 </Value>
+	</Card>
+	<Card>
+		<Id> 10 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 10 </Value>
+	</Card>
+	<Card>
+		<Id> 11 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 11 </Value>
+	</Card>
+	<Card>
+		<Id> 12 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 12 </Value>
+	</Card>
+	<Card>
+		<Id> 13 </Id>
+		<Type> HEART </Type>
+		<TypeId> 1  </TypeId>
+		<Value> 13 </Value>
+	</Card>
+	<Card>
+		<Id> 14 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 1 </Value>
+	</Card>
+	<Card>
+		<Id> 15 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 2 </Value>
+	</Card>
+	<Card>
+		<Id> 16 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 3 </Value>
+	</Card>
+	<Card>
+		<Id> 17 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 4 </Value>
+	</Card>
+	<Card>
+		<Id> 18 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 5 </Value>
+	</Card>
+	<Card>
+		<Id> 19 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 6 </Value>
+	</Card>
+	<Card>
+		<Id> 20 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 7 </Value>
+	</Card>
+	<Card>
+		<Id> 21 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 8 </Value>
+	</Card>
+	<Card>
+		<Id> 22 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 9 </Value>
+	</Card>
+	<Card>
+		<Id> 23 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 10 </Value>
+	</Card>
+	<Card>
+		<Id> 24 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 11 </Value>
+	</Card>
+	<Card>
+		<Id> 25 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 12 </Value>
+	</Card>
+	<Card>
+		<Id> 26 </Id>
+		<Type> CLUB </Type>
+		<TypeId> 2  </TypeId>
+		<Value> 13 </Value>
+	</Card>
+	<Card>
+		<Id> 27 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 1 </Value>
+	</Card>
+	<Card>
+		<Id> 28 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 2 </Value>
+	</Card>
+	<Card>
+		<Id> 29 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 3 </Value>
+	</Card>
+	<Card>
+		<Id> 30 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 4 </Value>
+	</Card>
+	<Card>
+		<Id> 31 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 5 </Value>
+	</Card>
+	<Card>
+		<Id> 32 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 6 </Value>
+	</Card>
+	<Card>
+		<Id> 33 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 7 </Value>
+	</Card>
+	<Card>
+		<Id> 34 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 8 </Value>
+	</Card>
+	<Card>
+		<Id> 35 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 9 </Value>
+	</Card>
+	<Card>
+		<Id> 36 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 10 </Value>
+	</Card>
+	<Card>
+		<Id> 37 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 11 </Value>
+	</Card>
+	<Card>
+		<Id> 38 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 12 </Value>
+	</Card>
+	<Card>
+		<Id> 39 </Id>
+		<Type> DIAMOND </Type>
+		<TypeId> 3  </TypeId>
+		<Value> 13 </Value>
+	</Card>
+	<Card>
+		<Id> 40 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 1 </Value>
+	</Card>
+	<Card>
+		<Id> 41 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 2 </Value>
+	</Card>
+	<Card>
+		<Id> 42 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 3 </Value>
+	</Card>
+	<Card>
+		<Id> 43 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 4 </Value>
+	</Card>
+	<Card>
+		<Id> 44 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 5 </Value>
+	</Card>
+	<Card>
+		<Id> 45 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 6 </Value>
+	</Card>
+	<Card>
+		<Id> 46 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 7 </Value>
+	</Card>
+	<Card>
+		<Id> 47 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 8 </Value>
+	</Card>
+	<Card>
+		<Id> 48 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 9 </Value>
+	</Card>
+	<Card>
+		<Id> 49 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 10 </Value>
+	</Card>
+	<Card>
+		<Id> 50 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 11 </Value>
+	</Card>
+	<Card>
+		<Id> 51 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 12 </Value>
+	</Card>
+	<Card>
+		<Id> 52 </Id>
+		<Type> SPADE </Type>
+		<TypeId> 4  </TypeId>
+		<Value> 13 </Value>
+	</Card>
+	<Card>
+		<Id> 53 </Id>
+		<Type> JOKER </Type>
+		<TypeId> 5  </TypeId>
+		<Value> 21 </Value>
+	</Card>
+	<Card>
+		<Id> 54 </Id>
+		<Type> JOKER </Type>
+		<TypeId> 5  </TypeId>
+		<Value> 22 </Value>
+	</Card>
+</root>

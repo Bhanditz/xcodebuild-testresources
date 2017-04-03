@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="mega_particles.png" width="512" height="512" scale_x="2.25" scale_y="2.25" blend="2" loop="-1">
+    <sprite n="a_00000" x="72" y="72" w="68" h="240" oX="13" oY="14" oW="260" oH="100" r="y" dr="120"/>
+    <sprite n="a_00003" x="2" y="314" w="240" h="68" oX="13" oY="14" oW="260" oH="100" dr="120"/>
+    <sprite n="a_00006" x="282" y="72" w="68" h="238" oX="15" oY="14" oW="260" oH="100" r="y" dr="120"/>
+    <sprite n="a_00009" x="244" y="312" w="238" h="68" oX="15" oY="13" oW="260" oH="100" dr="120"/>
+    <sprite n="a_00012" x="2" y="72" w="68" h="240" oX="11" oY="13" oW="260" oH="100" r="y" dr="120"/>
+    <sprite n="a_00015" x="212" y="72" w="68" h="238" oX="10" oY="13" oW="260" oH="100" r="y" dr="120"/>
+    <sprite n="a_00018" x="142" y="72" w="68" h="238" oX="10" oY="14" oW="260" oH="100" r="y" dr="120"/>
+    <sprite n="a_00021" x="352" y="72" w="68" h="234" oX="14" oY="14" oW="260" oH="100" r="y" dr="120"/>
+    <sprite n="a_00024" x="244" y="2" w="240" h="68" oX="12" oY="14" oW="260" oH="100" dr="120"/>
+    <sprite n="a_00027" x="2" y="2" w="240" h="68" oX="13" oY="14" oW="260" oH="100" dr="120"/>
+</TextureAtlas>

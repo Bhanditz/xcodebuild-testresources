@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:614d494060e66671264f5937840bc082:b00c8739d378a3a4ab83449824975b4e:b8d48776e358f0b908c15bf229f8c992$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Dragon Fire.png" width="1024" height="1024">
+    <sprite n="ph0001.png" x="735" y="735" w="156" h="148" oX="84" oY="37" oW="340" oH="190"/>
+    <sprite n="ph0002.png" x="197" y="735" w="190" h="232" oX="45" oY="0" oW="340" oH="190" r="y"/>
+    <sprite n="ph0003.png" x="691" y="3" w="320" h="190" oX="0" oY="0" oW="340" oH="190"/>
+    <sprite n="ph0004.png" x="391" y="779" w="340" h="190"/>
+    <sprite n="ph0005.png" x="391" y="585" w="340" h="190"/>
+    <sprite n="ph0006.png" x="735" y="391" w="190" h="340" r="y"/>
+    <sprite n="ph0007.png" x="391" y="391" w="340" h="190"/>
+    <sprite n="ph0008.png" x="197" y="391" w="190" h="340" r="y"/>
+    <sprite n="ph0009.png" x="541" y="197" w="340" h="190"/>
+    <sprite n="ph0010.png" x="197" y="197" w="340" h="190"/>
+    <sprite n="ph0011.png" x="3" y="541" w="190" h="340" r="y"/>
+    <sprite n="ph0012.png" x="3" y="197" w="190" h="340" r="y"/>
+    <sprite n="ph0013.png" x="347" y="3" w="340" h="190"/>
+    <sprite n="ph0014.png" x="3" y="3" w="340" h="190"/>
+</TextureAtlas>

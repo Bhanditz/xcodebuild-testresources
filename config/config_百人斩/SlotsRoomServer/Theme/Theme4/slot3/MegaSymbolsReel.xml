@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+	Mega symbols reel 大图标轮子
+			MegaSymbolReel: 绑定列配置
+					Reel：绑在一定的列 id范围从1开始
+-->
+<root>
+		<MegaSymbolReel>
+				<Reel id="1" />
+				<Reel id="2" />
+		</MegaSymbolReel>
+		<MegaSymbolReel>
+				<Reel id="3" />
+				<Reel id="4" />
+		</MegaSymbolReel>
+		<MegaSymbolReel>
+				<Reel id="5" />
+				<Reel id="6" />
+		</MegaSymbolReel>
+</root>

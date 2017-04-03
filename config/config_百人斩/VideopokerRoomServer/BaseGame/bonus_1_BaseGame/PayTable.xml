@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+
+<root>
+		<BasePayRange>	
+			<Level maxlev="49">
+				<Range value="20" />
+				<Range value="200" />
+				<Range value="2000" />
+				<Range value="20000" />
+				<Range value="100000" />
+			</Level>
+			<Level maxlev="79">
+				<Range value="200" />
+				<Range value="1000" />
+				<Range value="5000" />
+				<Range value="50000" />
+				<Range value="200000" />
+			</Level>
+			<Level maxlev="119">
+				<Range value="300" />
+				<Range value="1500" />
+				<Range value="10000" />
+				<Range value="100000" />
+				<Range value="500000" />
+			</Level>
+			<Level maxlev="159">
+				<Range value="600" />
+				<Range value="3000" />
+				<Range value="20000" />
+				<Range value="200000" />
+				<Range value="1000000" />
+			</Level>
+			<Level maxlev="199">
+				<Range value="1000" />
+				<Range value="5000" />
+				<Range value="25000" />
+				<Range value="200000" />
+				<Range value="1000000" />
+			</Level>
+			<Level maxlev="239">
+				<Range value="1500" />
+				<Range value="6000" />
+				<Range value="30000" />
+				<Range value="300000" />
+				<Range value="1500000" />
+			</Level>
+			<Level maxlev="299">
+				<Range value="2000" />
+				<Range value="8000" />
+				<Range value="35000" />
+				<Range value="300000" />
+				<Range value="1500000" />
+			</Level>
+			<Level maxlev="359">
+				<Range value="2500" />
+				<Range value="10000" />
+				<Range value="50000" />
+				<Range value="500000" />
+				<Range value="2000000" />
+			</Level>
+			<Level maxlev="10000">
+				<Range value="3000" />
+				<Range value="15000" />
+				<Range value="50000" />
+				<Range value="500000" />
+				<Range value="2000000" />
+			</Level>
+		</BasePayRange>
+		
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	            <Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 HAND_TYPE_ROYALFLUSH -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 250 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId> <!-- HAND_TYPE_STRAIGHTFLUSH -->
+	            <BetMultiplier> 50 </BetMultiplier>
+	        </BasePayPropety>	        
+
+	        <BasePayPropety>
+	            <Id> 3 </Id>
+	            <HandTypeId> 13 </HandTypeId>  <!-- HAND_TYPE_FOUR_ACE -->
+	            <BetMultiplier> 80 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 4 </Id>
+	            <HandTypeId> 14 </HandTypeId> <!-- HAND_TYPE_FOUR_2_3_4 -->
+	            <BetMultiplier> 40 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 5 </Id>
+	            <HandTypeId> 15 </HandTypeId> <!-- HAND_TYPE_FOUR_5__K -->
+	            <BetMultiplier> 25 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 6 </Id>
+	            <HandTypeId> 7 </HandTypeId> <!-- HAND_TYPE_FULLHOUSE -->
+	            <BetMultiplier> 8 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 7 </Id>
+	            <HandTypeId> 8 </HandTypeId> <!-- HAND_TYPE_FLUSH -->
+	            <BetMultiplier> 5 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 8 </Id>
+	            <HandTypeId> 9 </HandTypeId> <!-- HAND_TYPE_STRAIGHT -->
+	            <BetMultiplier> 4 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 9 </Id>
+	            <HandTypeId> 10 </HandTypeId> <!-- HAND_TYPE_THREEOFAKIND -->
+	            <BetMultiplier> 3 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 10 </Id>
+	            <HandTypeId> 11 </HandTypeId> <!-- HAND_TYPE_TWOPAIR -->
+	            <BetMultiplier> 2 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 11 </Id>
+	            <HandTypeId> 12 </HandTypeId> <!-- HAND_TYPE_PAIROFJACKSORBETTER -->
+	            <BetMultiplier> 1 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+		
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	            <Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 HAND_TYPE_ROYALFLUSH -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 500 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId> <!-- HAND_TYPE_STRAIGHTFLUSH -->
+	            <BetMultiplier> 100 </BetMultiplier>
+	        </BasePayPropety>	        
+
+	        <BasePayPropety>
+	            <Id> 3 </Id>
+	            <HandTypeId> 13 </HandTypeId>  <!-- HAND_TYPE_FOUR_ACE -->
+	            <BetMultiplier> 160 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 4 </Id>
+	            <HandTypeId> 14 </HandTypeId> <!-- HAND_TYPE_FOUR_2_3_4 -->
+	            <BetMultiplier> 80 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 5 </Id>
+	            <HandTypeId> 15 </HandTypeId> <!-- HAND_TYPE_FOUR_5__K -->
+	            <BetMultiplier> 50 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 6 </Id>
+	            <HandTypeId> 7 </HandTypeId> <!-- HAND_TYPE_FULLHOUSE -->
+	            <BetMultiplier> 16 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 7 </Id>
+	            <HandTypeId> 8 </HandTypeId> <!-- HAND_TYPE_FLUSH -->
+	            <BetMultiplier> 10 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 8 </Id>
+	            <HandTypeId> 9 </HandTypeId> <!-- HAND_TYPE_STRAIGHT -->
+	            <BetMultiplier> 8 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 9 </Id>
+	            <HandTypeId> 10 </HandTypeId> <!-- HAND_TYPE_THREEOFAKIND -->
+	            <BetMultiplier> 6 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 10 </Id>
+	            <HandTypeId> 11 </HandTypeId> <!-- HAND_TYPE_TWOPAIR -->
+	            <BetMultiplier> 4 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 11 </Id>
+	            <HandTypeId> 12 </HandTypeId> <!-- HAND_TYPE_PAIROFJACKSORBETTER -->
+	            <BetMultiplier> 2 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+		
+		
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	            <Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 HAND_TYPE_ROYALFLUSH -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 750 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId> <!-- HAND_TYPE_STRAIGHTFLUSH -->
+	            <BetMultiplier> 150 </BetMultiplier>
+	        </BasePayPropety>	        
+
+	        <BasePayPropety>
+	            <Id> 3 </Id>
+	            <HandTypeId> 13 </HandTypeId>  <!-- HAND_TYPE_FOUR_ACE -->
+	            <BetMultiplier> 240 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 4 </Id>
+	            <HandTypeId> 14 </HandTypeId> <!-- HAND_TYPE_FOUR_2_3_4 -->
+	            <BetMultiplier> 120 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 5 </Id>
+	            <HandTypeId> 15 </HandTypeId> <!-- HAND_TYPE_FOUR_5__K -->
+	            <BetMultiplier> 75 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 6 </Id>
+	            <HandTypeId> 7 </HandTypeId> <!-- HAND_TYPE_FULLHOUSE -->
+	            <BetMultiplier> 24 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 7 </Id>
+	            <HandTypeId> 8 </HandTypeId> <!-- HAND_TYPE_FLUSH -->
+	            <BetMultiplier> 15 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 8 </Id>
+	            <HandTypeId> 9 </HandTypeId> <!-- HAND_TYPE_STRAIGHT -->
+	            <BetMultiplier> 12 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 9 </Id>
+	            <HandTypeId> 10 </HandTypeId> <!-- HAND_TYPE_THREEOFAKIND -->
+	            <BetMultiplier> 9 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 10 </Id>
+	            <HandTypeId> 11 </HandTypeId> <!-- HAND_TYPE_TWOPAIR -->
+	            <BetMultiplier> 6 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 11 </Id>
+	            <HandTypeId> 12 </HandTypeId> <!-- HAND_TYPE_PAIROFJACKSORBETTER -->
+	            <BetMultiplier> 3 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+				
+		
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	            <Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 HAND_TYPE_ROYALFLUSH -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 1000 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId> <!-- HAND_TYPE_STRAIGHTFLUSH -->
+	            <BetMultiplier> 200 </BetMultiplier>
+	        </BasePayPropety>	        
+
+	        <BasePayPropety>
+	            <Id> 3 </Id>
+	            <HandTypeId> 13 </HandTypeId>  <!-- HAND_TYPE_FOUR_ACE -->
+	            <BetMultiplier> 320 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 4 </Id>
+	            <HandTypeId> 14 </HandTypeId> <!-- HAND_TYPE_FOUR_2_3_4 -->
+	            <BetMultiplier> 160 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 5 </Id>
+	            <HandTypeId> 15 </HandTypeId> <!-- HAND_TYPE_FOUR_5__K -->
+	            <BetMultiplier> 100 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 6 </Id>
+	            <HandTypeId> 7 </HandTypeId> <!-- HAND_TYPE_FULLHOUSE -->
+	            <BetMultiplier> 32 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 7 </Id>
+	            <HandTypeId> 8 </HandTypeId> <!-- HAND_TYPE_FLUSH -->
+	            <BetMultiplier> 20 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 8 </Id>
+	            <HandTypeId> 9 </HandTypeId> <!-- HAND_TYPE_STRAIGHT -->
+	            <BetMultiplier> 16 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 9 </Id>
+	            <HandTypeId> 10 </HandTypeId> <!-- HAND_TYPE_THREEOFAKIND -->
+	            <BetMultiplier> 12 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 10 </Id>
+	            <HandTypeId> 11 </HandTypeId> <!-- HAND_TYPE_TWOPAIR -->
+	            <BetMultiplier> 8 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 11 </Id>
+	            <HandTypeId> 12 </HandTypeId> <!-- HAND_TYPE_PAIROFJACKSORBETTER -->
+	            <BetMultiplier> 4 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+		
+		
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	            <Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 HAND_TYPE_ROYALFLUSH -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 1250 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId> <!-- HAND_TYPE_STRAIGHTFLUSH -->
+	            <BetMultiplier> 250 </BetMultiplier>
+	        </BasePayPropety>	        
+
+	        <BasePayPropety>
+	            <Id> 3 </Id>
+	            <HandTypeId> 13 </HandTypeId>  <!-- HAND_TYPE_FOUR_ACE -->
+	            <BetMultiplier> 400 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 4 </Id>
+	            <HandTypeId> 14 </HandTypeId> <!-- HAND_TYPE_FOUR_2_3_4 -->
+	            <BetMultiplier> 200 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 5 </Id>
+	            <HandTypeId> 15 </HandTypeId> <!-- HAND_TYPE_FOUR_5__K -->
+	            <BetMultiplier> 125 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 6 </Id>
+	            <HandTypeId> 7 </HandTypeId> <!-- HAND_TYPE_FULLHOUSE -->
+	            <BetMultiplier> 40 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 7 </Id>
+	            <HandTypeId> 8 </HandTypeId> <!-- HAND_TYPE_FLUSH -->
+	            <BetMultiplier> 25 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 8 </Id>
+	            <HandTypeId> 9 </HandTypeId> <!-- HAND_TYPE_STRAIGHT -->
+	            <BetMultiplier> 20 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 9 </Id>
+	            <HandTypeId> 10 </HandTypeId> <!-- HAND_TYPE_THREEOFAKIND -->
+	            <BetMultiplier> 15 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 10 </Id>
+	            <HandTypeId> 11 </HandTypeId> <!-- HAND_TYPE_TWOPAIR -->
+	            <BetMultiplier> 10 </BetMultiplier>
+	        </BasePayPropety>
+
+	        <BasePayPropety>
+	            <Id> 11 </Id>
+	            <HandTypeId> 12 </HandTypeId> <!-- HAND_TYPE_PAIROFJACKSORBETTER -->
+	            <BetMultiplier> 5 </BetMultiplier>
+	        </BasePayPropety>
+	  </PayPropetyColumn>
+</root>

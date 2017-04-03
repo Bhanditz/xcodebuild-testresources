@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="5" game="777">
+		<BonusGames>
+			<BonusGame id="1" game="volcano_pick_card">
+			</BonusGame>
+			<BonusGame id="2" game="volcano_match">
+			</BonusGame>
+		</BonusGames>
+		<Icons>
+      <Icon id="1" pieceId="slots_005_icon008"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- 1 Bar -->
+			<Icon id="2" pieceId="slots_005_icon007"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- 2 Bar -->
+			<Icon id="3" pieceId="slots_005_icon006"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- 3 Bar -->
+			<Icon id="4" pieceId="slots_005_icon003"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- Fruit -->
+			<Icon id="5" pieceId="slots_005_icon001"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- Diamond -->
+			<Icon id="6" pieceId="slots_005_icon005"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- Wheel -->
+			<Icon id="7" pieceId="slots_005_icon004"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- Seven -->
+			<Icon id="8" pieceId="slots_005_icon002"  bgPieceId="" sprite="" sequenceTime="1.88"/>		<!-- Bonus -->
+		</Icons>
+		<Reel>
+			<NearWinReel name="basegame" id="2" /> 
+			<NearWinReel name="freegame" id="2" />
+			<BlankSpace value="10.0"/>
+			<SpinType name="normal">
+				<BestSpinIconCount value="12"/>
+				<OneReelStartDelayTime value="0.125"/>
+				<OneReelStopDelayTime value="0.5"/>
+				<OneReelPullDownTime value="0.04"/>
+				<OneReelRollBackTime value="0.08"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="7"/>
+				<OneReelStartDelayTime value="0.107"/>
+				<OneReelStopDelayTime value="0.3"/>
+				<OneReelPullDownTime value="0.035"/>
+				<OneReelRollBackTime value="0.07"/>
+				<BestSpinCostTime value="0.5"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.0" pieceId="slots_ingame_lines00">  
+			<Payline id="1" lineColor="0xFFFFFFFF" />
+		</Paylines>
+		
+		<Paytables winTextColor="cs_white" /> 
+		
+	</Theme>
+</SlotsConfig>

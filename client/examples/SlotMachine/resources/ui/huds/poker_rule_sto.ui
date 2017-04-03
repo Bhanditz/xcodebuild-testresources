@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_shootout2" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_BG" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="lobby_bg02"/>
+        <Picture id="m_Picture" x="0" y="38" z="0" width="1024" height="538" window_state="6" style="cs_black">
+            <color_scale x="0.30000001" y="0.30000001" z="0.30000001" w="0.30000001"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="70" window_state="6" style="ngs_casino_common_panel01a">
+        <Picture id="m_PicTitle" x="359" y="8" z="0" width="417" height="67" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_common_panel12b"/>
+        </Picture>
+        <RichLabel id="m_LblTitle" x="268" y="5" z="0" width="600" height="65" window_state="6">
+            <text value="TEXASPOKER_SHOOTOUT_RULES_TITLE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <RichLabel id="m_RichLabel" x="76" y="245" z="0" width="439" height="35" window_state="262">
+        <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_TIPS5"/>
+        <font_size value="35"/>
+        <text_color value="cs_yellow"/>
+        <text_align_h value="1"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel" x="76" y="89" z="0" width="620" height="35" window_state="262">
+        <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_TIPS1"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblRound1Prize" x="96" y="124" z="0" width="500" height="30" window_state="6">
+        <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_TIPS2"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblRound2Prize" x="96" y="154" z="0" width="500" height="30" window_state="6">
+        <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_TIPS3"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblRound3Prize" x="96" y="184" z="0" width="600" height="30" window_state="6">
+        <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_TIPS4"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel1" x="76" y="113" z="0" width="7" height="35" window_state="262">
+        <text value="."/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel1" x="0" y="30" z="0" width="7" height="35" window_state="262">
+            <text value="."/>
+            <font_size value="35"/>
+            <text_color value="cs_Sallow"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel2" x="0" y="62" z="0" width="7" height="35" window_state="262">
+            <text value="."/>
+            <font_size value="35"/>
+            <text_color value="cs_Sallow"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </RichLabel>
+    <Panel id="m_PanelRuleTable" x="76" y="280" z="0" width="984" height="329" window_state="6">
+        <Picture id="m_Picture2" x="5" y="67" z="0" width="966" height="251" window_state="6" style="ngs_poker_common_league_panel5"/>
+        <Picture id="m_Picture1" x="3" y="12" z="0" width="968" height="55" window_state="14" style="ngs_poker_common_league_panel6"/>
+        <Picture id="m_grid vert" x="173" y="15" z="0" width="2" height="302" window_state="6" style="ngs_poker_common_league_panel8">
+            <Picture id="m_Picture" x="264" y="0" z="0" width="2" height="302" window_state="6" style="ngs_poker_common_league_panel8"/>
+            <Picture id="m_Picture" x="529" y="0" z="0" width="2" height="302" window_state="6" style="ngs_poker_common_league_panel8"/>
+        </Picture>
+        <Picture id="m_grid hori" x="5" y="66" z="0" width="966" height="2" window_state="6" style="ngs_poker_common_league_panel7">
+            <Picture id="m_Picture3" x="0" y="49" z="0" width="966" height="2" window_state="6" style="ngs_poker_common_league_panel7"/>
+            <Picture id="m_Picture3" x="0" y="99" z="0" width="966" height="2" window_state="6" style="ngs_poker_common_league_panel7"/>
+            <Picture id="m_Picture3" x="0" y="149" z="0" width="966" height="2" window_state="6" style="ngs_poker_common_league_panel7"/>
+            <Picture id="m_Picture3" x="0" y="199" z="0" width="966" height="2" window_state="6" style="ngs_poker_common_league_panel7"/>
+        </Picture>
+        <RichLabel id="m_1st col text" x="24" y="23" z="0" width="128" height="35" window_state="6">
+            <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_PRIZETABLE"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <RichLabel id="m_RichLabel" x="41" y="249" z="0" width="550" height="30" window_state="262">
+                <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_RANK5"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="41" y="200" z="0" width="550" height="30" window_state="262">
+                <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_RANK4"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="40" y="150" z="0" width="550" height="30" window_state="262">
+                <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_RANK3"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="38" y="101" z="0" width="51" height="35" window_state="6">
+                <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_RANK2"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="43" y="50" z="0" width="550" height="30" window_state="262">
+                <text value="TEXASPOKER_SHOOTOUT_RULES_TEXT_RANK1"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </RichLabel>
+        <RichLabel id="m_LblRound1" x="265" y="23" z="0" width="456" height="35" window_state="262">
+            <text value="TEXASPOKER_SHOOTOUT_RULE_TEXT_ROUND1"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <RichLabel id="m_LblReward0" x="-29" y="52" z="0" width="144" height="30" window_state="6">
+                <text value="$2K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward1" x="-29" y="103" z="0" width="144" height="30" window_state="6">
+                <text value="$1K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward2" x="-29" y="152" z="0" width="144" height="30" window_state="6">
+                <text value="$500"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward3" x="-29" y="202" z="0" width="144" height="30" window_state="6">
+                <text value="$2K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward4" x="-29" y="251" z="0" width="144" height="30" window_state="6">
+                <text value="$2K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </RichLabel>
+        <RichLabel id="m_LblRound2" x="529" y="23" z="0" width="85" height="35" window_state="6">
+            <text value="TEXASPOKER_SHOOTOUT_RULE_TEXT_ROUND2"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <RichLabel id="m_LblReward0" x="-29" y="52" z="0" width="144" height="30" window_state="6">
+                <text value="$15K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward1" x="-29" y="103" z="0" width="144" height="30" window_state="6">
+                <text value="$10K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward2" x="-29" y="152" z="0" width="144" height="30" window_state="6">
+                <text value="$5K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward3" x="-29" y="202" z="0" width="144" height="30" window_state="6">
+                <text value="$5K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward4" x="-29" y="251" z="0" width="144" height="30" window_state="6">
+                <text value="$5K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </RichLabel>
+        <RichLabel id="m_LblRound3" x="793" y="23" z="0" width="456" height="35" window_state="262">
+            <text value="TEXASPOKER_SHOOTOUT_RULE_TEXT_ROUND3"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <RichLabel id="m_LblReward0" x="-29" y="52" z="0" width="144" height="30" window_state="6">
+                <text value="$15K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward1" x="-29" y="103" z="0" width="144" height="30" window_state="6">
+                <text value="$15K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward2" x="-29" y="152" z="0" width="144" height="30" window_state="6">
+                <text value="$15K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward3" x="-29" y="202" z="0" width="144" height="30" window_state="6">
+                <text value="$15K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblReward4" x="-29" y="251" z="0" width="144" height="30" window_state="6">
+                <text value="$15K"/>
+                <text_color value="cs_Sallow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </RichLabel>
+        <Picture id="m_Picture" x="3" y="13" z="0" width="969" height="305" window_state="14" style="ngs_poker_common_league_panel11"/>
+    </Panel>
+    <Button id="m_BtnClose" x="1033" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+</Panel>

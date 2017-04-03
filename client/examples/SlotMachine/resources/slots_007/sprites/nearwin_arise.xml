@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="nearwin_arise.png" width="512" height="512" scale_x="2.5" scale_y="2.5" blend="1" loop="1">
+    <sprite n="00000" x="118" y="74" w="36" h="26" oX="44" oY="4" oW="120" oH="200" dr="60"/>
+    <sprite n="00001" x="118" y="2" w="36" h="70" oX="27" oW="120" oH="200" r="y" dr="60"/>
+    <sprite n="00002" x="2" y="406" w="50" h="104" oX="9" oW="120" oH="200" r="y" dr="60"/>
+    <sprite n="00003" x="366" y="416" w="108" h="74" oX="8" oW="120" oH="200" dr="60"/>
+    <sprite n="00004" x="54" y="406" w="108" h="96" oX="8" oW="120" oH="200" dr="60"/>
+    <sprite n="00005" x="366" y="112" w="116" h="108" oX="8" oW="120" oH="200" r="y" dr="60"/>
+    <sprite n="00006" x="366" y="2" w="138" h="108" oX="8" oW="120" oH="200" r="y" dr="60"/>
+    <sprite n="00007" x="118" y="232" w="112" h="160" oX="8" oW="120" oH="200" dr="60"/>
+    <sprite n="00008" x="366" y="222" w="110" h="192" oX="7" oW="120" oH="200" dr="60"/>
+    <sprite n="00009" x="164" y="394" w="200" h="112" oX="7" oW="120" oH="200" r="y" dr="60"/>
+    <sprite n="00010" x="164" y="118" w="200" h="112" oX="7" oW="120" oH="200" r="y" dr="60"/>
+    <sprite n="00011" x="164" y="2" w="200" h="114" oX="6" oW="120" oH="200" r="y" dr="60"/>
+    <sprite n="00012" x="2" y="204" w="114" h="200" oX="6" oW="120" oH="200" dr="60"/>
+    <sprite n="00013" x="2" y="2" w="114" h="200" oX="6" oW="120" oH="200" dr="60"/>
+</TextureAtlas>

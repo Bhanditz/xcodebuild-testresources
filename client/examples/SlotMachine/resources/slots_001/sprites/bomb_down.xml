@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bomb_down.png" width="512" height="512" scale_x="5" scale_y="5" blend="1" loop="1">
+    <sprite n="00000" x="262" y="392" w="128" h="96" oX="132" oW="364" oH="128" r="y" dr="50"/>
+    <sprite n="00001" x="262" y="262" w="178" h="128" oX="92" oW="364" oH="128" dr="50"/>
+    <sprite n="00002" x="346" y="2" w="152" h="128" oX="105" oW="364" oH="128" dr="60"/>
+    <sprite n="00003" x="132" y="262" w="128" h="222" oX="69" oW="364" oH="128" r="y" dr="60"/>
+    <sprite n="00004" x="132" y="132" w="298" h="128" oX="33" oW="364" oH="128" dr="60"/>
+    <sprite n="00005" x="2" y="2" w="342" h="128" oX="20" oW="364" oH="128" dr="60"/>
+    <sprite n="00006" x="2" y="132" w="128" h="324" oX="40" oW="364" oH="128" r="y" dr="60"/>
+</TextureAtlas>

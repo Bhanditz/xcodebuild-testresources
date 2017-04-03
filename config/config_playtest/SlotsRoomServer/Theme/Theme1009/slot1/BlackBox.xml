@@ -1,0 +1,249 @@
+﻿<?xml version="1.0"?>
+<!-- 
+	ID结：黑盒游戏的编号
+	MaxKindType:最大选出的选择类别
+	
+	KindCollect结点元素：
+		Type :类型编号 从1开始
+		AppearWeight:显示类型的权重
+		ConditionAppear:显示条件，0表示都显示  1表示最大注显示  2表示非最大注时显示
+	
+	ChoiceList结点元素wq 
+		id:选项的编号 ，不可以重复
+		kindType:归属类型id
+		selectWeight:选择权重
+		ChoiceCondition:选项的附加条件
+				ChoicePriority：优项优先级 当前选项：ChoiceID 前置选项：PreChoiceID
+				EndCondition：触发结束的选项组合
+				
+		
+	Trigger结点元素
+		KindID:命中的类型id
+		CollectedAmount:需要收集的个数
+		LastTrigger: 1时是最后一个选项
+		
+		CollectedAmount:需要收集个数
+		TriggerType:满足条件，触发游戏类型  上前的类型有：BonusGame,Jackpot,PayCoins,Freespin
+		TriggerTargetID:触发的目标id,如果类型是BonusGame,则该属性为BonusGame的id
+		TriggerTargetInput:输入参数
+		
+		如果类型BonusGame
+		TriggerTargetID:表示bounsgameid
+		TriggerTargetInput:附加参数
+		
+		如果类型Jackpot
+		TriggerTargetID:表示basegame的主题id(SlotList.xml中的id属性)
+		TriggerTargetInput:表示JackpotID
+		
+		如果类型PayCoins
+		TriggerTargetID:填0
+		TriggerTargetInput:表示赠送的筹码数
+		
+		如果类型Freespin
+				TriggerTargetID:packid
+		TriggerTargetInput:免费次数
+		
+		如果类型MultiplePayCredit 抽取金币 如果TriggerTargetInput有配置值，则直接用这个固定值
+		如果类型MultiplePayLevelUp 升级抽取的金币分组
+		如果类型End 结束Trigger
+		如果类型MultiplePayExtraCredit 额外奖励抽取
+		
+-->
+
+<root>
+	
+	<!-- 埃及的黑盒 Bonus X 3 -->
+	<BlackBox>
+		<ID>1</ID>
+		<MaxKindType>11</MaxKindType>
+		<KindCollect>
+			<KindType Type="1" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="2" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="3" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="4" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="5" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="6" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="7" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="8" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="9" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="10" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="11" AppearWeight="100" ConditionAppear="0" />
+		</KindCollect>
+		
+		<ChoiceList>
+			<ChoiceKind id = "1" kindType="1" selectWeight="170"/>
+			<ChoiceKind id = "2" kindType="2" selectWeight="160"/>
+			<ChoiceKind id = "3" kindType="3" selectWeight="150"/>
+			<ChoiceKind id = "4" kindType="4" selectWeight="90"/>
+			<ChoiceKind id = "5" kindType="5" selectWeight="60"/>
+			<ChoiceKind id = "6" kindType="6" selectWeight="50"/>
+			<ChoiceKind id = "7" kindType="7" selectWeight="20"/>
+			<ChoiceKind id = "8" kindType="8" selectWeight="15"/>
+			<ChoiceKind id = "9" kindType="9" selectWeight="12"/>
+			<ChoiceKind id = "10" kindType="10" selectWeight="3"/>
+			<ChoiceKind id = "11" kindType="11" selectWeight="270"/>
+			<ChoiceKind id = "12" kindType="11" selectWeight="170"/>
+			<ChoiceKind id = "13" kindType="11" selectWeight="170"/>
+			<ChoiceCondition>
+				<ChoicePriority ChoiceID="13" PreChoiceID="1"/>
+				<EndCondition>
+					<Choice id="1"/>
+					<Choice id="2"/>
+					<Choice id="3"/>
+					<Choice id="4"/>
+					<Choice id="5"/>
+					<Choice id="6"/>
+					<Choice id="7"/>
+					<Choice id="8"/>
+					<Choice id="9"/>
+					<Choice id="10"/>
+				</EndCondition>
+			</ChoiceCondition>
+		</ChoiceList>
+
+		<TriggerList>            
+			
+			<Trigger KindID="1" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="2" /><!-- 直接赔付 2 X TotalBet -->
+			<Trigger KindID="2" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="3" /><!-- 直接赔付 3 X TotalBet -->
+			<Trigger KindID="3" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="4" /><!-- 直接赔付 4 X TotalBet -->
+			<Trigger KindID="4" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="7" /><!-- 直接赔付 7 X TotalBet -->
+			<Trigger KindID="5" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="10" /><!-- 直接赔付 10 X TotalBet -->
+			<Trigger KindID="6" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="15" /><!-- 直接赔付 15 X TotalBet -->
+			<Trigger KindID="7" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="20" /><!-- 直接赔付 20 X TotalBet -->
+			<Trigger KindID="8" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="30" /><!-- 直接赔付 30 X TotalBet -->
+			<Trigger KindID="9" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="50" /><!-- 直接赔付 50 X TotalBet -->
+			<Trigger KindID="10" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="100" /><!-- 直接赔付 100 X TotalBet -->
+			<Trigger KindID="11" CollectedAmount="3" TriggerType="End" TriggerTargetID="0" TriggerTargetInput="0" LastTrigger="1"/> <!-- 翻到3张骷髅牌后结束 -->
+		</TriggerList>
+	</BlackBox>
+	
+		<!-- 埃及的黑盒 Bonus X 4 -->
+	<BlackBox>
+		<ID>2</ID>
+		<MaxKindType>11</MaxKindType>
+		<KindCollect>
+			<KindType Type="1" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="2" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="3" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="4" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="5" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="6" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="7" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="8" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="9" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="10" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="11" AppearWeight="100" ConditionAppear="0" />
+		</KindCollect>
+		
+		<ChoiceList>
+			<ChoiceKind id = "1" kindType="1" selectWeight="170"/>
+			<ChoiceKind id = "2" kindType="2" selectWeight="160"/>
+			<ChoiceKind id = "3" kindType="3" selectWeight="150"/>
+			<ChoiceKind id = "4" kindType="4" selectWeight="90"/>
+			<ChoiceKind id = "5" kindType="5" selectWeight="60"/>
+			<ChoiceKind id = "6" kindType="6" selectWeight="50"/>
+			<ChoiceKind id = "7" kindType="7" selectWeight="20"/>
+			<ChoiceKind id = "8" kindType="8" selectWeight="15"/>
+			<ChoiceKind id = "9" kindType="9" selectWeight="12"/>
+			<ChoiceKind id = "10" kindType="10" selectWeight="3"/>
+			<ChoiceKind id = "11" kindType="11" selectWeight="270"/>
+			<ChoiceKind id = "12" kindType="11" selectWeight="170"/>
+			<ChoiceKind id = "13" kindType="11" selectWeight="170"/>
+			<ChoiceCondition>
+				<ChoicePriority ChoiceID="13" PreChoiceID="1"/>
+				<EndCondition>
+					<Choice id="1"/>
+					<Choice id="2"/>
+					<Choice id="3"/>
+					<Choice id="4"/>
+					<Choice id="5"/>
+					<Choice id="6"/>
+					<Choice id="7"/>
+					<Choice id="8"/>
+					<Choice id="9"/>
+					<Choice id="10"/>
+				</EndCondition>
+			</ChoiceCondition>
+		</ChoiceList>
+
+		<TriggerList>            
+			
+			<Trigger KindID="1" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="4" /><!-- 直接赔付 4 X TotalBet -->
+			<Trigger KindID="2" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="7" /><!-- 直接赔付 7 X TotalBet -->
+			<Trigger KindID="3" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="10" /><!-- 直接赔付 10 X TotalBet -->
+			<Trigger KindID="4" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="15" /><!-- 直接赔付 15 X TotalBet -->
+			<Trigger KindID="5" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="20" /><!-- 直接赔付 20 X TotalBet -->
+			<Trigger KindID="6" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="30" /><!-- 直接赔付 30 X TotalBet -->
+			<Trigger KindID="7" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="50" /><!-- 直接赔付 50 X TotalBet -->
+			<Trigger KindID="8" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="100" /><!-- 直接赔付 100 X TotalBet -->
+			<Trigger KindID="9" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="150" /><!-- 直接赔付 150 X TotalBet -->
+			<Trigger KindID="10" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="300" /><!-- 直接赔付 300 X TotalBet -->
+			<Trigger KindID="11" CollectedAmount="3" TriggerType="End" TriggerTargetID="0" TriggerTargetInput="0" LastTrigger="1"/> <!-- 翻到3张骷髅牌后结束 -->
+		</TriggerList>
+	</BlackBox>
+	
+		<!-- 埃及的黑盒 Bonus X 5 -->
+	<BlackBox>
+		<ID>3</ID>
+		<MaxKindType>11</MaxKindType>
+		<KindCollect>
+			<KindType Type="1" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="2" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="3" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="4" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="5" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="6" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="7" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="8" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="9" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="10" AppearWeight="100" ConditionAppear="0" />
+			<KindType Type="11" AppearWeight="100" ConditionAppear="0" />
+		</KindCollect>
+		
+		<ChoiceList>
+			<ChoiceKind id = "1" kindType="1" selectWeight="170"/>
+			<ChoiceKind id = "2" kindType="2" selectWeight="160"/>
+			<ChoiceKind id = "3" kindType="3" selectWeight="150"/>
+			<ChoiceKind id = "4" kindType="4" selectWeight="90"/>
+			<ChoiceKind id = "5" kindType="5" selectWeight="60"/>
+			<ChoiceKind id = "6" kindType="6" selectWeight="50"/>
+			<ChoiceKind id = "7" kindType="7" selectWeight="20"/>
+			<ChoiceKind id = "8" kindType="8" selectWeight="15"/>
+			<ChoiceKind id = "9" kindType="9" selectWeight="12"/>
+			<ChoiceKind id = "10" kindType="10" selectWeight="3"/>
+			<ChoiceKind id = "11" kindType="11" selectWeight="270"/>
+			<ChoiceKind id = "12" kindType="11" selectWeight="170"/>
+			<ChoiceKind id = "13" kindType="11" selectWeight="170"/>
+			<ChoiceCondition>
+				<ChoicePriority ChoiceID="13" PreChoiceID="1"/>
+				<EndCondition>
+					<Choice id="1"/>
+					<Choice id="2"/>
+					<Choice id="3"/>
+					<Choice id="4"/>
+					<Choice id="5"/>
+					<Choice id="6"/>
+					<Choice id="7"/>
+					<Choice id="8"/>
+					<Choice id="9"/>
+					<Choice id="10"/>
+				</EndCondition>
+			</ChoiceCondition>
+		</ChoiceList>
+
+		<TriggerList>            
+			
+			<Trigger KindID="1" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="7" /><!-- 直接赔付 7 X TotalBet -->
+			<Trigger KindID="2" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="10" /><!-- 直接赔付 10 X TotalBet -->
+			<Trigger KindID="3" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="15" /><!-- 直接赔付 15 X TotalBet -->
+			<Trigger KindID="4" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="20" /><!-- 直接赔付 20 X TotalBet -->
+			<Trigger KindID="5" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="30" /><!-- 直接赔付 30 X TotalBet -->
+			<Trigger KindID="6" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="50" /><!-- 直接赔付 50 X TotalBet -->
+			<Trigger KindID="7" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="100" /><!-- 直接赔付 100 X TotalBet -->
+			<Trigger KindID="8" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="150" /><!-- 直接赔付 150 X TotalBet -->
+			<Trigger KindID="9" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="300" /><!-- 直接赔付 300 X TotalBet -->
+			<Trigger KindID="10" CollectedAmount="1" TriggerType="MultiplePayCredit" TriggerTargetID="0" TriggerTargetInput="800" /><!-- 直接赔付 800 X TotalBet -->
+			<Trigger KindID="11" CollectedAmount="3" TriggerType="End" TriggerTargetID="0" TriggerTargetInput="0" LastTrigger="1"/> <!-- 翻到3张骷髅牌后结束 -->
+		</TriggerList>
+	</BlackBox>
+</root>

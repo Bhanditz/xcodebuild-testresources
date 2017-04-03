@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1006_panel029"/>
+    <Picture id="m_Picture" x="315" y="92" z="0" width="523" height="455" window_state="6">
+        <piece_info value="slots_1006_panel027"/>
+    </Picture>
+    <Button id="m_StartBtn" x="468" y="483" z="0" width="228" height="108" window_state="6" style="bs_slots_1006_button017">
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="THE" x="390" y="236" z="0" width="372" height="28" window_state="4">
+        <text value="THE"/>
+        <font_size value="43"/>
+        <text_color value="cs_yellowTxt02"/>
+        <text_style value="8"/>
+        <rich_label_state value="5"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_redTxt02"/>
+        <line_height value="17"/>
+    </RichLabel>
+    <RichLabel id="BONUS GAME" x="383" y="314" z="0" width="372" height="28" window_state="6">
+        <text value="SLOTS_MEOWING20S2_MINIGAMEINTRO_TEXT_BONUSGAME"/>
+        <font_size value="53"/>
+        <text_color value="cs_yellowTxt02"/>
+        <text_style value="8"/>
+        <rich_label_state value="5"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_redTxt02"/>
+        <line_height value="17"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel" x="503" y="212" z="0" width="157" height="62" window_state="6">
+        <text value="SLOTS_MEOWING20S2_MINIGAMEINTRO_TEXT_YOUWIN"/>
+        <font_size value="50"/>
+        <text_color value="cs_yellowTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.46000001"/>
+        <word_spacing value="1"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

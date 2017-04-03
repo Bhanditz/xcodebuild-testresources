@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="red diamond.png" width="128" height="256" blend="1" loop="-1">
+    <sprite n="00000" x="58" y="50" w="54" h="46" oX="3" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00002" x="2" y="50" w="54" h="46" oX="3" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00004" x="58" y="2" w="54" h="46" oX="3" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00006" x="2" y="2" w="54" h="46" oX="3" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00008" x="2" y="98" w="52" h="46" oX="5" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00010" x="56" y="144" w="52" h="44" oX="4" oY="8" oW="60" oH="60" dr="120"/>
+    <sprite n="00012" x="56" y="98" w="52" h="44" oX="4" oY="8" oW="60" oH="60" dr="120"/>
+    <sprite n="00014" x="2" y="146" w="50" h="44" oX="5" oY="8" oW="60" oH="60" dr="120"/>
+    <sprite n="00016" x="2" y="146" w="50" h="44" oX="5" oY="8" oW="60" oH="60" dr="120"/>
+    <sprite n="00018" x="56" y="98" w="52" h="44" oX="4" oY="8" oW="60" oH="60" dr="120"/>
+    <sprite n="00020" x="56" y="144" w="52" h="44" oX="4" oY="8" oW="60" oH="60" dr="120"/>
+    <sprite n="00022" x="2" y="98" w="52" h="46" oX="5" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00024" x="2" y="2" w="54" h="46" oX="3" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00026" x="58" y="2" w="54" h="46" oX="3" oY="7" oW="60" oH="60" dr="120"/>
+    <sprite n="00028" x="2" y="50" w="54" h="46" oX="3" oY="7" oW="60" oH="60" dr="120"/>
+</TextureAtlas>

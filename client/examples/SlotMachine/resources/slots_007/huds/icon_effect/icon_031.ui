@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="130" window_state="6">
+    <Picture id="ref" x="-3" y="-2" z="0" width="155" height="134" window_state="4">
+        <piece_info value="slots_007_icon_020"/>
+    </Picture>
+    <Picture id="m_Picture" x="-4" y="-3" z="0" width="158" height="136" window_state="6">
+        <piece_info value="slots_007_icon_020a"/>
+    </Picture>
+    <PictureMask id="m_PictureMask" x="-5" y="-3" z="0" width="158" height="136" window_state="6">
+        <blend_mode value="2"/>
+        <piece_info value="wild_mask"/>
+        <mask_piece value="icon_017_light"/>
+        <mask_offset x="0.07" y="0" z="0"/>
+    </PictureMask>
+    <Sprite id="m_Sprite" x="-22" y="58" z="0" width="200" height="100" window_state="6">
+        <sprite_file value="slots_007/sprites/wild.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <PictureMask id="m_PictureMask1" x="-1" y="-3" z="0" width="156" height="129" window_state="6">
+        <blend_mode value="2"/>
+        <piece_info value="wild_mask01"/>
+        <mask_piece value="icon_017_light"/>
+        <mask_offset x="0.07" y="0" z="0"/>
+    </PictureMask>
+    <Picture id="m_Picture1" x="-5" y="-16" z="0" width="44" height="44" window_state="6">
+        <blend_mode value="2"/>
+        <piece_info value="freegame_star"/>
+    </Picture>
+    <Picture id="m_Picture2" x="74" y="-19" z="0" width="44" height="44" window_state="6">
+        <blend_mode value="2"/>
+        <piece_info value="freegame_star"/>
+    </Picture>
+    <Picture id="m_Picture3" x="115" y="1" z="0" width="44" height="44" window_state="6">
+        <blend_mode value="2"/>
+        <piece_info value="freegame_star"/>
+    </Picture>
+    <Picture id="m_Picture4" x="7" y="68" z="0" width="44" height="44" window_state="6">
+        <blend_mode value="2"/>
+        <piece_info value="freegame_star"/>
+    </Picture>
+    <Picture id="m_Picture5" x="88" y="65" z="0" width="44" height="44" window_state="6">
+        <blend_mode value="2"/>
+        <piece_info value="freegame_star"/>
+    </Picture>
+</Panel>

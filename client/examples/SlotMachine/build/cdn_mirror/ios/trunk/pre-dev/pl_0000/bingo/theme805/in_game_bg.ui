@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Panel id="m_PanelContent" x="6" y="121" z="0" width="1280" height="720" window_state="6">
+    <Panel id="m_PanelBg" x="-7" y="-124" z="0" width="1280" height="960" window_state="6">
+        <Picture id="m_PicBg" x="0" y="0" z="0" width="0" height="0" window_state="6" />
+    </Panel>
+    <Panel implement_class="PanelBingoSavingFish" id="m_PanelBingo" x="324" y="9" z="0" width="510" height="559" window_state="6">
+        <Panel id="m_PanelContent" x="0" y="1" z="0" width="510" height="559" window_state="6">
+            <Picture id="m_PicBg" x="-1" y="7" z="0" width="494" height="579" window_state="6">
+                <piece_info value="theme805_bg02" />
+            </Picture>
+            <Panel id="m_PanelBottom" x="65" y="102" z="0" width="375" height="375" window_state="6" />
+            <Button implement_class="ButtonLotteryFish" id="m_BtnLottery" x="65" y="102" z="0" width="75" height="75" window_state="6">
+                <line_height value="30" />
+                <font_type value="1" />
+                <Panel implement_class="ClipPanel" id="m_PanelWater" x="0" y="0" z="0" width="75" height="75" window_state="14">
+                    <Picture id="m_PicWater" x="0" y="0" z="0" width="75" height="75" window_state="14">
+                        <piece_info value="theme805_icon07" />
+                    </Picture>
+                </Panel>
+                <Picture id="m_PicBg" x="0" y="0" z="0" width="75" height="75" window_state="14">
+                    <piece_info value="theme805_icon06" />
+                </Picture>
+                <Picture id="m_PicReward" x="0" y="0" z="0" width="75" height="75" window_state="12">
+                    <piece_info value="formal_icon_a40" />
+                    <scale_mode value="3" />
+                </Picture>
+                <Picture id="m_PicState" x="-1" y="0" z="0" width="75" height="75" window_state="12">
+                    <scale_mode value="3" />
+                </Picture>
+                <Panel id="m_PanelAnim" x="0" y="0" z="0" width="72" height="72" window_state="12" />
+                <RichLabel id="m_LblNum" x="0" y="0" z="0" width="75" height="75" window_state="14">
+                    <text value="50" />
+                    <font_size value="40" />
+                    <text_color value="cs_BrownTxt" />
+                    <text_style value="1" />
+                    <line_height value="30" />
+                    <font_type value="1" />
+                </RichLabel>
+                <Picture id="m_PicCount" x="51" y="-11" z="0" width="30" height="30" window_state="6">
+                    <piece_info value="icon_buy_a04" />
+                    <scale_mode value="3" />
+                    <RichLabel id="m_LblCount" x="8" y="1" z="0" width="15" height="28" window_state="14">
+                        <text value="5" />
+                        <font_size value="20" />
+                        <text_style value="1" />
+                        <line_height value="30" />
+                        <font_type value="1" />
+                    </RichLabel>
+                </Picture>
+            </Button>
+            <Button id="m_BtnCoordH" x="140" y="102" z="0" width="75" height="75" window_state="4">
+                <text value="50" />
+                <font_size value="40" />
+                <text_color value="cs_BrownTxt" />
+                <text_style value="1" />
+                <line_height value="30" />
+                <font_type value="1" />
+            </Button>
+            <Button id="m_BtnCoordV" x="65" y="177" z="0" width="75" height="75" window_state="4">
+                <text value="50" />
+                <font_size value="40" />
+                <text_color value="cs_BrownTxt" />
+                <text_style value="1" />
+                <line_height value="30" />
+                <font_type value="1" />
+            </Button>
+            <Button id="m_BtnBingo" x="33" y="446" z="0" width="4" height="4" window_state="6">
+                <font_size value="35" />
+                <text_style value="1" />
+                <line_height value="30" />
+                <font_type value="1" />
+            </Button>
+            <Button id="m_BtnSwitch" x="27" y="15" z="0" width="441" height="544" window_state="4" style="ngs_bingo_border_mask0">
+                <font_size value="50" />
+                <text_color value="cs_Redtxt" />
+                <text_style value="1" />
+                <line_height value="30" />
+                <font_type value="1" />
+            </Button>
+            <Panel id="m_PanelTop" x="21" y="14" z="0" width="460" height="550" window_state="4" />
+            <Picture implement_class="PictureLightSweep" id="m_PicRank" x="159" y="229" z="0" width="210" height="200" window_state="14">
+                <piece_info value="formal_icon_rank_normal" />
+                <RichLabel id="m_LblRank" x="79" y="62" z="0" width="33" height="28" window_state="6">
+                    <text value="1st" />
+                    <font_size value="20" />
+                    <text_color value="cs_BrownTxt" />
+                    <text_style value="1" />
+                    <line_height value="30" />
+                    <font_type value="1" />
+                </RichLabel>
+            </Picture>
+        </Panel>
+        <Panel implement_class="ClipPanel" id="m_PanelWaterLayer" x="62" y="479" z="0" width="385" height="65" window_state="6">
+            <Panel id="m_PanelWater" x="0" y="0" z="0" width="385" height="65" window_state="6">
+                <Picture id="m_PicWater" x="3" y="0" z="0" width="75" height="75" window_state="6">
+                    <piece_info value="theme805_icon07" />
+                </Picture>
+                <Picture id="m_Picture2" x="78" y="0" z="0" width="75" height="75" window_state="6">
+                    <piece_info value="theme805_icon07" />
+                </Picture>
+                <Picture id="m_Picture3" x="153" y="0" z="0" width="75" height="75" window_state="6">
+                    <piece_info value="theme805_icon07" />
+                </Picture>
+                <Picture id="m_Picture4" x="228" y="0" z="0" width="75" height="75" window_state="6">
+                    <piece_info value="theme805_icon07" />
+                </Picture>
+                <Picture id="m_Picture5" x="303" y="0" z="0" width="75" height="75" window_state="6">
+                    <piece_info value="theme805_icon07" />
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_PanelDyingFish" x="270" y="495" z="0" width="60" height="30" window_state="14" />
+        <Panel id="m_PanelAliveFish" x="355" y="480" z="0" width="65" height="50" window_state="14" />
+        <Picture id="m_PicBottomMask" x="-2" y="479" z="0" width="494" height="88" window_state="14">
+            <piece_info value="theme805_bg01" />
+        </Picture>
+    </Panel>
+</Panel>

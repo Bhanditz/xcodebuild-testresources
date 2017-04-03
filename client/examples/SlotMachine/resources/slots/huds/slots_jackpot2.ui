@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_BG" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="casino_jackpot_bg"/>
+    </Picture>
+    <Button id="m_BtnClose" x="1034" y="6" z="0" width="78" height="83" window_state="6">
+        <line_height value="30"/>
+    </Button>
+    <Panel id="m_Panel" x="312" y="120" z="0" width="520" height="470" window_state="6">
+        <Picture id="m_Base" x="-12" y="-44" z="0" width="536" height="472" window_state="14">
+            <action_id value="animation_jackpot_congra02"/>
+            <Picture id="m_Light" x="-35" y="293" z="0" width="350" height="80" window_state="14">
+                <blend_mode value="2"/>
+                <piece_info value="casino_light02"/>
+            </Picture>
+            <Picture id="m_Light1" x="176" y="360" z="0" width="350" height="80" window_state="14">
+                <blend_mode value="2"/>
+                <piece_info value="casino_light02"/>
+            </Picture>
+            <Picture id="m_Light2" x="30" y="137" z="0" width="244" height="79" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_jackpot_panel05c"/>
+            </Picture>
+            <Picture id="m_Light3" x="307" y="300" z="0" width="244" height="79" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_jackpot_panel05c"/>
+            </Picture>
+        </Picture>
+        <Panel id="m_WinNamePanel" x="-82" y="45" z="0" width="678" height="49" window_state="6">
+            <Picture id="m_WinIcon" x="222" y="5" z="0" width="55" height="49" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <piece_info value="slots_jackpot_icon0"/>
+            </Picture>
+            <RichLabel id="m_WinLevel" x="286" y="16" z="0" width="865" height="55" window_state="270">
+                <text value="SLOTS_COMMON_JACKPOT_POPUP_TEXT_WINLEVEL_#0"/>
+                <font_size value="55"/>
+                <text_color value="cs_White"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="5"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.41"/>
+                <outline_center value="0.51999998"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="29"/>
+            </RichLabel>
+        </Panel>
+        <RichLabel id="m_WinValue" x="1" y="276" z="0" width="453" height="69" window_state="6">
+            <text value="100,000,000"/>
+            <text_style value="8"/>
+            <font_id value="jackpot"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="5"/>
+            <line_height value="29"/>
+        </RichLabel>
+        <Picture id="m_Picture" x="44" y="286" z="0" width="424" height="80" window_state="14">
+            <scale x="0.95999998" y="1" z="1"/>
+            <piece_info value="jackpot_marquee"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="-58" y="226" z="0" width="625" height="200" window_state="14">
+            <scale x="0.76999998" y="0.80000001" z="0.80000001"/>
+            <sprite_file value="lobby/sprites/jackpot_marquee.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Button id="m_BtnCollect" x="35" y="374" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn012">
+            <text value="SLOTS_COMMON_JACKPOT_POPUP_BUTTON_GREAT"/>
+            <font_size value="80"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <ToggleButton id="m_ShareToggleButton" x="453" y="594" z="0" width="30" height="30" window_state="6">
+        <anchor_point x="3.5" y="0.5" z="0"/>
+        <line_height value="30"/>
+        <checked value="1"/>
+        <checked_bg_style value="bs_slots_btn03"/>
+        <unchecked_bg_style value="bs_slots_btn02"/>
+        <RichLabel id="m_RichLabel_2" x="85" y="0" z="0" width="96" height="30" window_state="6">
+            <text value="SLOTS_COMMON_JACKPOT_POPUP_TEXT_SHARE"/>
+            <font_size value="35"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.34999999"/>
+            <outline_center value="0.5"/>
+            <outline_color value="cs_BrownTxt"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </ToggleButton>
+</Panel>

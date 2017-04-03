@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+  <Image id="slots_018_bg_basegame01" file_name="slots_018_bg_basegame01.jpg" width="455" height="640"/>
+  <Image id="slots_018_bg_basegame02" file_name="slots_018_bg_basegame02.jpg" width="455" height="640"/>
+  <Image id="slots_018_bg_basegame03" file_name="slots_018_bg_basegame03.jpg" width="228" height="251"/>
+  <Image id="slots_018_bg_freegame" file_name="slots_018_bg_freegame.jpg" width="1136" height="1400"/>
+  <Image id="slots_018_bg_paytable" file_name="slots_018_bg_paytable.jpg" width="1136" height="640"/>
+  </ImageList>
+  
+  <PieceList>
+  <Piece id="slots_018_bg_basegame01" image_id="slots_018_bg_basegame01" x="0" y="0" width="455" height="640"/>
+  <Piece id="slots_018_bg_basegame02" image_id="slots_018_bg_basegame02" x="0" y="0" width="455" height="640"/>
+  <Piece id="slots_018_bg_basegame03" image_id="slots_018_bg_basegame03" x="0" y="0" width="228" height="251"/>
+  <Piece id="slots_018_bg_freegame" image_id="slots_018_bg_freegame" x="0" y="0" width="1136" height="1400"/>
+  <Piece id="slots_018_bg_paytable" image_id="slots_018_bg_paytable" x="0" y="0" width="1136" height="640"/>
+  </PieceList>
+ 
+</ImagePiece>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="frameGlow3.png" width="256" height="512" scale_x="2.8599999" scale_y="2.8599999" blend="1" loop="1">
+    <sprite n="frameGlow3_00000.png" x="137" y="209" w="70" h="133" oX="7" oY="13" oW="86" oH="159" dr="85"/>
+    <sprite n="frameGlow3_00001.png" x="2" y="218" w="133" h="68" oX="9" oY="13" oW="86" oH="159" r="y" dr="85"/>
+    <sprite n="frameGlow3_00002.png" x="2" y="146" w="133" h="70" oX="7" oY="13" oW="86" oH="159" r="y" dr="85"/>
+    <sprite n="frameGlow3_00003.png" x="137" y="74" w="70" h="133" oX="8" oY="13" oW="86" oH="159" dr="85"/>
+    <sprite n="frameGlow3_00004.png" x="2" y="74" w="133" h="70" oX="8" oY="13" oW="86" oH="159" r="y" dr="85"/>
+    <sprite n="frameGlow3_00005.png" x="2" y="288" w="131" h="70" oX="8" oY="14" oW="86" oH="159" r="y" dr="85"/>
+    <sprite n="frameGlow3_00006.png" x="74" y="360" w="70" h="127" oX="8" oY="16" oW="86" oH="159" dr="85"/>
+    <sprite n="frameGlow3_00007.png" x="137" y="2" w="85" h="70" oX="8" oY="36" oW="86" oH="159" r="y" dr="85"/>
+    <sprite n="frameGlow3_00008.png" x="146" y="344" w="70" h="69" oX="8" oY="43" oW="86" oH="159" dr="85"/>
+    <sprite n="frameGlow3_00009.png" x="2" y="360" w="70" h="129" oX="8" oY="13" oW="86" oH="159" dr="85"/>
+    <sprite n="frameGlow3_00010.png" x="2" y="2" w="133" h="70" oX="8" oY="13" oW="86" oH="159" r="y" dr="85"/>
+</TextureAtlas>

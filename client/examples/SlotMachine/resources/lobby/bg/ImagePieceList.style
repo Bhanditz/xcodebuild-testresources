@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+	<Image id="casino_lobby_icon021a" file_name="casino_lobby_icon021a.jpg" width="269" height="309"/>
+	<Image id="casino_lobby_icon021b" file_name="casino_lobby_icon021b.jpg" width="269" height="309"/>
+	<Image id="casino_lobby_friend_mask" file_name="casino_lobby_friend_mask.jpg" width="269" height="309"/>
+	<Image id="casino_lobby_panel50" file_name="casino_lobby_panel50.jpg" width="1018" height="446"/>
+	<Image id="casino_lobby_jackpot_mask" file_name="casino_lobby_jackpot_mask.jpg" width="1018" height="446"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="casino_lobby_icon021a" image_id="casino_lobby_icon021a" x="0" y="0" width="269" height="309"/>
+	<Piece id="casino_lobby_icon021b" image_id="casino_lobby_icon021b" x="0" y="0" width="269" height="309"/>
+	<Piece id="casino_lobby_friend_mask" image_id="casino_lobby_friend_mask" x="0" y="0" width="269" height="309"/>
+	<Piece id="casino_lobby_panel50" image_id="casino_lobby_panel50" x="0" y="0" width="1018" height="446"/>
+	<Piece id="casino_lobby_jackpot_mask" image_id="casino_lobby_jackpot_mask" x="0" y="0" width="1018" height="446"/>
+  </PieceList>
+</ImagePiece>

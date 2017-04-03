@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="75" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="150" height="75" window_state="6">
+        <Picture id="m_Bg" x="-15" y="-25" z="0" width="181" height="126" window_state="262">
+            <piece_info value="slots_012_icon_01"/>
+        </Picture>
+        <Sprite id="m_Sprite1" x="-20" y="-30" z="0" width="180" height="140" window_state="260">
+            <sprite_file value="slots_012/sprites/bonus_vfx02.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="-74" y="-133" z="0" width="300" height="300" window_state="4">
+            <sprite_file value="slots_012/sprites/bonus_vfx03.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_Picture" x="-45" y="-85" z="0" width="187" height="180" window_state="6">
+            <piece_info value="slots_012_icon_02"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="-106" y="-207" z="0" width="380" height="400" window_state="4">
+            <sprite_file value="slots_012/sprites/bonus_release.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Particle id="m_Particle" x="59" y="22" z="0" width="20" height="20" window_state="4">
+            <particle_state value="0"/>
+            <package_file value="slots_012/particles/fairy queen.ptc"/>
+            <particle_name value="bonus bomb"/>
+        </Particle>
+        <Particle id="m_Particle1" x="70" y="21" z="0" width="20" height="20" window_state="4">
+            <particle_state value="0"/>
+            <package_file value="slots_012/particles/fairy queen.ptc"/>
+            <particle_name value="bonus bomb2"/>
+        </Particle>
+        <Sprite id="m_Sprite3" x="-80" y="-159" z="0" width="320" height="320" window_state="4">
+            <sprite_file value="slots_012/sprites/bonus_vfx04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_Bonus" x="-1" y="54" z="0" width="154" height="46" window_state="6">
+            <piece_info value="slots_012_fonts_07"/>
+            <PictureMask id="m_PictureMask" x="-7" y="1" z="0" width="171" height="44" window_state="4">
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_bonus_sweep01"/>
+                <piece_info value="bonus_mask"/>
+                <mask_piece value="bonus_sweep"/>
+                <mask_offset x="-0.55000001" y="0" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="6" y="4" z="0" width="144" height="35" window_state="4">
+                <color_scale x="2" y="2" z="2" w="1"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_bonus_sweep02"/>
+                <piece_info value="bonus_mask01"/>
+                <mask_piece value="bonus_sweep01"/>
+                <mask_offset x="-0.40000001" y="0" z="0"/>
+            </PictureMask>
+        </Picture>
+    </Panel>
+</Panel>

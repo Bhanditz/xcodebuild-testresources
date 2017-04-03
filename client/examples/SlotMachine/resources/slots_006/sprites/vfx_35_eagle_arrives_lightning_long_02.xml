@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_35_eagle_arrives_lightning_long_02.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="eagle_00000.png" x="1" y="56" w="51" h="331" oX="208" oY="171" oW="750" oH="499" r="y" dr="80"/>
+    <sprite n="eagle_00001.png" x="313" y="56" w="49" h="330" oX="209" oY="173" oW="750" oH="499" r="y" dr="80"/>
+    <sprite n="eagle_00002.png" x="54" y="56" w="49" h="331" oX="208" oY="173" oW="750" oH="499" r="y" dr="80"/>
+    <sprite n="eagle_00003.png" x="105" y="56" w="49" h="331" oX="208" oY="173" oW="750" oH="499" r="y" dr="80"/>
+    <sprite n="eagle_00004.png" x="1" y="443" w="329" h="49" oX="210" oY="173" oW="750" oH="499" dr="80"/>
+    <sprite n="eagle_00005.png" x="207" y="56" w="51" h="330" oX="209" oY="171" oW="750" oH="499" r="y" dr="80"/>
+    <sprite n="eagle_00006.png" x="260" y="56" w="51" h="330" oX="208" oY="171" oW="750" oH="499" r="y" dr="80"/>
+    <sprite n="eagle_00007.png" x="1" y="1" w="331" h="53" oX="208" oY="168" oW="750" oH="499" dr="80"/>
+    <sprite n="eagle_00008.png" x="156" y="56" w="49" h="331" oX="208" oY="172" oW="750" oH="499" r="y" dr="80"/>
+    <sprite n="eagle_00009.png" x="1" y="389" w="330" h="52" oX="209" oY="169" oW="750" oH="499" dr="80"/>
+</TextureAtlas>

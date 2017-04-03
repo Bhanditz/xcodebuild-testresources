@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+	<Image id="poker_room_bg_01" file_name="poker_room_bg_01.jpg" width="1040" height="594"/>
+	<Image id="poker_room_bg_02" file_name="poker_room_bg_02.jpg" width="1040" height="594"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="poker_room_bg_01" image_id="poker_room_bg_01" x="0" y="0" width="1040" height="594"/>
+	<Piece id="poker_room_bg_02" image_id="poker_room_bg_02" x="0" y="0" width="1040" height="594"/>
+  </PieceList>
+</ImagePiece>

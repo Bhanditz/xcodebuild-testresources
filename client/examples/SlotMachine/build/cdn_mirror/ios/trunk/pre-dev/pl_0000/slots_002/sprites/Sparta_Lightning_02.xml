@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Sparta_Lightning_02.png" width="256" height="256" scale_x="2.5" scale_y="2.5" blend="2" loop="1">
+    <sprite n="00000" x="2" y="196" w="112" h="48" oX="4" oW="120" oH="92" dr="60"/>
+    <sprite n="00001" x="116" y="162" w="64" h="72" oX="43" oW="120" oH="92" r="y" dr="60"/>
+    <sprite n="00002" x="2" y="2" w="114" h="78" oX="3" oW="120" oH="92" dr="60"/>
+    <sprite n="00003" x="80" y="82" w="72" h="78" oX="43" oW="120" oH="92" dr="60"/>
+    <sprite n="00004" x="2" y="82" w="76" h="112" oX="4" oW="120" oH="92" r="y" dr="60"/>
+    <sprite n="00005" x="118" y="2" w="112" h="78" oX="4" oW="120" oH="92" dr="60"/>
+</TextureAtlas>

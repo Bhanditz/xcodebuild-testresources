@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_44_eagle_gone_02.png" width="512" height="1024" blend="1" loop="1">
+    <sprite n="Comp_00000.png" x="1" y="1" w="357" h="161" oX="72" oY="45" oW="311" oH="449" r="y" dr="80"/>
+    <sprite n="Comp_00001.png" x="1" y="164" w="310" h="200" oX="35" oY="88" oW="311" oH="449" r="y" dr="80"/>
+    <sprite n="Comp_00002.png" x="1" y="366" w="227" h="208" oX="11" oY="185" oW="311" oH="449" dr="80"/>
+    <sprite n="Comp_00003.png" x="313" y="179" w="184" h="210" oX="45" oY="205" oW="311" oH="449" r="y" dr="80"/>
+    <sprite n="Comp_00004.png" x="230" y="391" w="182" h="156" oX="98" oY="206" oW="311" oH="449" r="y" dr="80"/>
+    <sprite n="Comp_00005.png" x="360" y="1" w="132" h="176" oX="120" oY="207" oW="311" oH="449" dr="80"/>
+</TextureAtlas>

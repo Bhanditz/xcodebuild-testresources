@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="viplvup_vfx02.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="a00001" x="128" y="322" w="80" h="140" oX="83" oY="125" oW="300" oH="300" r="y" dr="80"/>
+    <sprite n="a00003" x="2" y="322" w="124" h="184" oX="63" oY="90" oW="300" oH="300" r="y" dr="80"/>
+    <sprite n="a00005" x="2" y="166" w="222" h="154" oX="46" oY="73" oW="300" oH="300" dr="80"/>
+    <sprite n="a00007" x="2" y="2" w="228" h="162" oX="46" oY="73" oW="300" oH="300" dr="80"/>
+    <sprite n="a00009" x="232" y="2" w="226" h="160" oX="46" oY="73" oW="300" oH="300" dr="80"/>
+    <sprite n="a00011" x="232" y="164" w="224" h="132" oX="47" oY="74" oW="300" oH="300" dr="80"/>
+</TextureAtlas>

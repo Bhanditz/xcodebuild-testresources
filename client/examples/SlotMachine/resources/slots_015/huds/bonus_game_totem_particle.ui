@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="100" height="100" window_state="14">
+    <Panel id="m_Particlefly" x="0" y="0" z="0" width="100" height="100" window_state="14">
+        <dynamic_attr key="velocity" type="float" value="450.000000"/>
+        <Panel id="m_Panelparticle1" x="0" y="0" z="0" width="100" height="100" window_state="14">
+            <Particle id="m_Particle" x="40" y="40" z="0" width="20" height="20" window_state="14">
+                <particle_state value="1"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp fly copper"/>
+            </Particle>
+        </Panel>
+        <Panel id="m_Panelparticle2" x="0" y="0" z="0" width="100" height="100" window_state="14">
+            <Particle id="m_Particle" x="40" y="40" z="0" width="20" height="20" window_state="14">
+                <particle_state value="1"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp fly blue"/>
+            </Particle>
+        </Panel>
+        <Panel id="m_Panelparticle3" x="0" y="0" z="0" width="100" height="100" window_state="14">
+            <Particle id="m_Particle" x="40" y="40" z="0" width="20" height="20" window_state="14">
+                <particle_state value="1"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp fly golden"/>
+            </Particle>
+        </Panel>
+        <Panel id="m_Panelparticle4" x="0" y="0" z="0" width="100" height="100" window_state="14">
+            <Particle id="m_Particle" x="40" y="40" z="0" width="20" height="20" window_state="14">
+                <particle_state value="1"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp fly red"/>
+            </Particle>
+        </Panel>
+    </Panel>
+</Panel>

@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Root" x="1" y="2" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Pages" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <piece_info value="slots_018_bg_paytable"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Panel id="m_Logo" x="272" y="-5" z="0" width="590" height="110" window_state="6">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <PictureMirror id="m_Ribbon" x="1" y="9" z="0" width="588" height="98" window_state="6">
+                <piece_info value="slots_018_panel_001"/>
+            </PictureMirror>
+            <Picture id="m_LogoTxt" x="105" y="0" z="0" width="380" height="110" window_state="6">
+                <piece_info value="slots_018_logo"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Page1" x="13" y="107" z="0" width="1107" height="502" window_state="4">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <Picture id="m_Picture" x="82" y="8" z="0" width="460" height="150" window_state="6" style="ngs_slots_018_panel_012"/>
+            <Picture id="m_Picture1" x="573" y="8" z="0" width="460" height="150" window_state="6" style="ngs_slots_018_panel_012"/>
+            <Picture id="m_Icon_Scatter" x="98" y="9" z="0" width="175" height="160" window_state="6">
+                <piece_info value="slots_018_icon_041"/>
+            </Picture>
+            <Picture id="m_Icon_Wild" x="591" y="21" z="0" width="170" height="128" window_state="6">
+                <piece_info value="slots_018_icon_031"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="286" y="25" z="0" width="250" height="115" window_state="6">
+                <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="772" y="9" z="0" width="250" height="80" window_state="6">
+                <text value="SLOTS_SANTA_PAYTABLE_TEXT_WILD"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Label1" x="772" y="87" z="0" width="12" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="5"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM1"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Label2" x="772" y="117" z="0" width="12" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="4"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM2"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Label3" x="912" y="87" z="0" width="12" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="3"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM3"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Label4" x="912" y="117" z="0" width="12" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="2"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM4"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Reward1" x="822" y="87" z="0" width="58" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="5"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM5"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Reward2" x="822" y="117" z="0" width="58" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="4"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM6"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Reward3" x="962" y="88" z="0" width="58" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="3"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM7"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Reward4" x="962" y="117" z="0" width="58" height="30" window_state="6">
+                <dynamic_attr key="icon_reward" type="int" value="2"/>
+                <text value="SLOTS_SANTA_PAYTABLE_WILD_NUM8"/>
+                <text_color value="cs_white"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Group1" x="80" y="174" z="0" width="185" height="235" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Picture id="m_Picture" x="2" y="3" z="0" width="180" height="228" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="6" y="6" z="0" width="171" height="111" window_state="262">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <piece_info value="slots_018_icon_001"/>
+                </Picture>
+                <RichLabel id="m_Label4" x="68" y="198" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM4"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="68" y="169" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM3"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="68" y="141" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM2"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="68" y="113" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM1"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="95" y="198" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM8"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="95" y="169" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM7"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="95" y="141" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM6"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="95" y="113" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM5"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="272" y="174" z="0" width="185" height="235" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Picture id="m_Picture" x="2" y="3" z="0" width="180" height="228" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="6" y="6" z="0" width="171" height="111" window_state="262">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <piece_info value="slots_018_icon_002"/>
+                </Picture>
+                <RichLabel id="m_Label4" x="68" y="198" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM12"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="68" y="169" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM11"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="68" y="141" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM10"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="68" y="113" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM9"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="95" y="198" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM16"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="95" y="169" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM15"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="95" y="141" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM14"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="95" y="113" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM13"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="464" y="174" z="0" width="185" height="235" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Picture id="m_Picture" x="2" y="3" z="0" width="180" height="228" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="6" y="6" z="0" width="171" height="111" window_state="262">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <piece_info value="slots_018_icon_003"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="68" y="169" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM19"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="68" y="141" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM18"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="68" y="113" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM17"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="95" y="169" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM22"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="95" y="141" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM21"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="95" y="113" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM20"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="656" y="174" z="0" width="185" height="235" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Picture" x="2" y="3" z="0" width="180" height="228" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="6" y="6" z="0" width="171" height="111" window_state="262">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <piece_info value="slots_018_icon_004"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="68" y="169" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM25"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="68" y="141" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM24"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="68" y="113" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM23"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="95" y="169" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM28"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="95" y="141" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM27"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="95" y="113" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM26"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="848" y="174" z="0" width="185" height="235" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Picture id="m_Picture" x="2" y="3" z="0" width="180" height="228" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="6" y="6" z="0" width="171" height="111" window_state="262">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <piece_info value="slots_018_icon_005"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="68" y="169" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM31"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="68" y="141" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM30"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="68" y="113" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM29"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="95" y="169" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM34"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="95" y="141" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM33"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="95" y="113" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM32"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page2" x="13" y="107" z="0" width="1107" height="502" window_state="4">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <Panel id="m_Group1" x="237" y="37" z="0" width="100" height="132" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Picture" x="-134" y="-3" z="0" width="245" height="146" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="-144" y="13" z="0" width="165" height="105" window_state="262">
+                    <piece_info value="slots_018_icon_006"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="12" y="81" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM37"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="12" y="49" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM36"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="12" y="17" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM35"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="33" y="81" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM40"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="33" y="49" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM39"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="33" y="17" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM38"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="571" y="37" z="0" width="100" height="132" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Picture" x="-134" y="-3" z="0" width="245" height="146" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="-139" y="13" z="0" width="165" height="105" window_state="6">
+                    <piece_info value="slots_018_icon_007"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="22" y="81" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM43"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="22" y="49" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM42"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="22" y="17" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM41"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="43" y="81" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM46"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="43" y="49" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM45"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="43" y="17" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM44"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="907" y="37" z="0" width="100" height="132" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="8"/>
+                <Picture id="m_Picture" x="-134" y="-3" z="0" width="245" height="146" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="-144" y="13" z="0" width="165" height="105" window_state="6">
+                    <piece_info value="slots_018_icon_008"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="12" y="81" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM49"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="12" y="49" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM48"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="12" y="17" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM47"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="33" y="81" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM52"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="33" y="49" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM51"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="33" y="17" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM50"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="237" y="230" z="0" width="100" height="132" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="9"/>
+                <Picture id="m_Picture" x="-134" y="-3" z="0" width="245" height="146" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="-144" y="18" z="0" width="165" height="105" window_state="6">
+                    <piece_info value="slots_018_icon_009"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="12" y="81" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM55"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="12" y="49" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM54"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="12" y="17" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM53"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="33" y="81" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM58"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="33" y="49" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM57"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="33" y="17" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM56"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="571" y="230" z="0" width="100" height="132" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="10"/>
+                <Picture id="m_Picture" x="-134" y="-3" z="0" width="245" height="146" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="-144" y="18" z="0" width="165" height="105" window_state="6">
+                    <piece_info value="slots_018_icon_010"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="22" y="81" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM61"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="22" y="49" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM60"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="22" y="17" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM59"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="43" y="81" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM64"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="43" y="49" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM63"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="43" y="17" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM62"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="907" y="230" z="0" width="100" height="132" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="11"/>
+                <Picture id="m_Picture" x="-134" y="-3" z="0" width="245" height="146" window_state="6" style="ngs_slots_018_panel_012"/>
+                <Picture id="m_Icon" x="-144" y="18" z="0" width="165" height="105" window_state="6">
+                    <piece_info value="slots_018_icon_011"/>
+                </Picture>
+                <RichLabel id="m_Label3" x="12" y="81" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM67"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="12" y="49" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM66"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="12" y="17" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM65"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="33" y="81" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM70"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="33" y="49" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM69"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="33" y="17" z="0" width="58" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_NUM68"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page3" x="13" y="107" z="0" width="1107" height="502" window_state="6">
+            <Picture id="m_Picture" x="100" y="127" z="0" width="920" height="268" window_state="6" style="ngs_slots_018_panel_012"/>
+            <RichLabel id="m_RichLabel" x="125" y="32" z="0" width="870" height="42" window_state="6">
+                <text value="SLOTS_SANTA_PAYTABLE_TEXT_FREEGAME"/>
+                <font_size value="42"/>
+                <text_color value="cs_slots_018_text_06"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Group1" x="118" y="134" z="0" width="350" height="260" window_state="6">
+                <RichLabel id="m_Label1" x="7" y="5" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER9"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="7" y="47" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER10"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="7" y="89" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER11"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="7" y="131" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER12"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label5" x="7" y="173" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER13"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label6" x="7" y="215" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER14"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="586" y="134" z="0" width="350" height="260" window_state="6">
+                <RichLabel id="m_Label1" x="7" y="5" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER15"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="7" y="47" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER16"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="7" y="89" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER17"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="7" y="131" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER18"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label5" x="7" y="173" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER19"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label6" x="7" y="215" z="0" width="330" height="28" window_state="6">
+                    <text value="SLOTS_SANTA_PAYTABLE_TEXT_SCATTER20"/>
+                    <font_size value="28"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page4" x="-2" y="15" z="0" width="1136" height="610" window_state="4">
+            <Picture id="m_Picture" x="74" y="180" z="0" width="990" height="326" window_state="6" style="ngs_slots_018_panel_012"/>
+            <Panel id="m_row1" x="20" y="184" z="0" width="1112" height="80" window_state="6">
+                <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                <Picture id="m_Picture1" x="1" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM1"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="117" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="16" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM2"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="229" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-23" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM3"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="342" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM4"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="454" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM5"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="566" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM6"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="679" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM7"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="792" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM8"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture9" x="905" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM9"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture10" x="1019" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM10"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row2" x="19" y="260" z="0" width="1113" height="80" window_state="6">
+                <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                <Picture id="m_Picture1" x="2" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM11"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="117" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM12"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="229" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM13"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="343" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM14"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="455" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM15"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="567" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM16"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="680" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM17"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="793" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM18"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture9" x="906" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM19"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture10" x="1020" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM20"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row3" x="19" y="339" z="0" width="1114" height="80" window_state="6">
+                <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                <Picture id="m_Picture1" x="2" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM21"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="116" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="17" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM22"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="228" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="19" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM23"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="343" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM24"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="455" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM25"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="567" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM26"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="680" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM27"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="793" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-23" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM28"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture9" x="906" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM29"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture10" x="1020" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM30"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row4" x="18" y="417" z="0" width="1116" height="80" window_state="6">
+                <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                <Picture id="m_Picture1" x="3" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM31"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="117" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-23" y="16" z="0" width="25" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM32"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="229" y="4" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM33"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="344" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM34"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="456" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM35"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="568" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM36"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="681" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM37"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture8" x="794" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM38"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture9" x="907" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-25" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM39"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture10" x="1021" y="5" z="0" width="90" height="73" window_state="262">
+                    <piece_info value="slots_018_panel_011"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_018_panel_010"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-24" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_SANTA_PAYTABLE_PAYLINES_NUM40"/>
+                        <font_size value="25"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <RichLabel id="m_RichLabel" x="235" y="93" z="0" width="665" height="48" window_state="6">
+                <text value="SLOTS_SANTA_PAYTABLE_TEXT_PAYLINES"/>
+                <font_size value="48"/>
+                <text_color value="cs_slots_018_text_06"/>
+                <glyph_center value="0.47999999"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="40"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="327" y="140" z="0" width="480" height="32" window_state="6">
+                <text value="SLOTS_SANTA_PAYTABLE_TEXT_PLAY40LINES"/>
+                <font_size value="25"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+    <Button id="m_NextBtn" x="691" y="528" z="0" width="64" height="71" window_state="262" style="bs_slots_018_btn_009">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BackBtn" x="447" y="520" z="0" width="240" height="87" window_state="6" style="ngs_slots_018_btn_007">
+        <text_color value="cs_slots_018_text_01"/>
+        <text_offset x="0" y="-5" z="0"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.44999999"/>
+        <outline_center value="0.2"/>
+        <word_spacing value="1"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="27" y="20" z="0" width="185" height="43" window_state="14">
+            <text value="SLOTS_SANTA_PAYTABLE_BUTTON_BACKTOGAME"/>
+            <font_size value="32"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_PrevBtn" x="382" y="528" z="0" width="64" height="71" window_state="262" style="bs_slots_018_btn_008">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

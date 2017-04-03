@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Theme" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Tomb1" x="209" y="1" z="0" width="241" height="252" window_state="4">
+        <Picture id="m_PicBrightTomb" x="-56" y="1" z="0" width="301" height="300" window_state="262">
+            <blend_mode value="2"/>
+            <piece_info value="tombstone_1b"/>
+        </Picture>
+        <Picture id="m_PicBrightFront" x="62" y="169" z="0" width="192" height="75" window_state="262">
+            <piece_info value="tombstone_1ba"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Tomb2" x="484" y="3" z="0" width="180" height="233" window_state="4">
+        <action_id value="animation_slot004_cemetery_light"/>
+        <Picture id="m_PicBrightTomb" x="-23" y="-3" z="0" width="248" height="300" window_state="262">
+            <blend_mode value="2"/>
+            <piece_info value="tombstone_2b"/>
+        </Picture>
+        <Picture id="m_PicBrightFront" x="-43" y="163" z="0" width="252" height="79" window_state="262">
+            <piece_info value="tombstone_2ba"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Tomb3" x="717" y="26" z="0" width="199" height="204" window_state="4">
+        <Picture id="m_PicBrightTomb" x="-28" y="-25" z="0" width="281" height="300" window_state="262">
+            <blend_mode value="2"/>
+            <piece_info value="tombstone_3b"/>
+        </Picture>
+        <Picture id="m_PicBrightFront" x="-81" y="115" z="0" width="164" height="104" window_state="6">
+            <piece_info value="tombstone_3ba"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_TombEffect1" x="-1" y="-2" z="0" width="1139" height="271" window_state="4">
+        <Picture id="m_PicMask" x="-105" y="65" z="0" width="822" height="131" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <piece_info value="mask"/>
+        </Picture>
+        <Picture id="m_PicBrightTomb" x="154" y="4" z="0" width="301" height="300" window_state="262">
+            <color_scale x="1" y="1" z="1" w="0.5"/>
+            <blend_mode value="2"/>
+            <piece_info value="tombstone_1b"/>
+        </Picture>
+        <Picture id="m_PicBrightFront" x="272" y="172" z="0" width="192" height="75" window_state="262">
+            <piece_info value="tombstone_1ba"/>
+        </Picture>
+        <Picture id="m_PicLight" x="214" y="70" z="0" width="222" height="139" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="winning_light"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_TombEffect2" x="-1" y="-2" z="0" width="1139" height="271" window_state="4">
+        <Picture id="m_PicMask" x="147" y="65" z="0" width="822" height="131" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <piece_info value="mask"/>
+        </Picture>
+        <Picture id="m_PicBrightTomb" x="462" y="2" z="0" width="248" height="300" window_state="262">
+            <color_scale x="1" y="1" z="1" w="0.5"/>
+            <piece_info value="tombstone_2b"/>
+        </Picture>
+        <Picture id="m_PicBrightFront" x="442" y="168" z="0" width="252" height="79" window_state="262">
+            <piece_info value="tombstone_2ba"/>
+        </Picture>
+        <Picture id="m_PicLight" x="465" y="69" z="0" width="222" height="139" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="winning_light"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_TombEffect3" x="-1" y="-2" z="0" width="1139" height="271" window_state="4">
+        <Picture id="m_PicMask" x="398" y="65" z="0" width="822" height="131" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <piece_info value="mask"/>
+        </Picture>
+        <Picture id="m_PicBrightTomb" x="691" y="2" z="0" width="281" height="300" window_state="262">
+            <color_scale x="1" y="1" z="1" w="0.5"/>
+            <piece_info value="tombstone_3b"/>
+        </Picture>
+        <Picture id="m_PicBrightFront" x="637" y="143" z="0" width="164" height="104" window_state="6">
+            <piece_info value="tombstone_3ba"/>
+        </Picture>
+        <Picture id="m_PicLight" x="712" y="68" z="0" width="222" height="139" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="winning_light"/>
+        </Picture>
+    </Panel>
+</Panel>

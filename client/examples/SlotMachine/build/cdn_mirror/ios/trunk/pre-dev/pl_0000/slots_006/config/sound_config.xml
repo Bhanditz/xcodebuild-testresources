@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_006/sound/10a_Spin_Stop_Btn.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="REEL_READY_STOP" value="slots_006/sound/19_ReelStop.ogg"/>
+		<Sound name="NEAR_WIN" value=""/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_SPINNING" value=""/>
+		<Sound name="REEL_STOP" value=""/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		
+		<Sound name="BASEGAME_NORMAL_SPIN_1" value="slots_006/sound/9_Base_BGM_fix_01.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_2" value="slots_006/sound/9_Base_BGM_fix_02.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_3" value="slots_006/sound/9_Base_BGM_fix_03.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_4" value="slots_006/sound/9_Base_BGM_fix_04.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_5" value="slots_006/sound/9_Base_BGM_fix_05.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_6" value="slots_006/sound/9_Base_BGM_fix_06.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_7" value="slots_006/sound/9_Base_BGM_fix_07.ogg"/>
+		
+		<!--
+		<Sound name="BASEGAME_FAST_SPIN_1" value="slots_006/sound/Fast_Spin_01.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_2" value="slots_006/sound/Fast_Spin_02.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_3" value="slots_006/sound/Fast_Spin_03.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_4" value="slots_006/sound/Fast_Spin_04.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_5" value="slots_006/sound/Fast_Spin_05.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_6" value="slots_006/sound/Fast_Spin_06.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_7" value="slots_006/sound/Fast_Spin_07.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_8" value="slots_006/sound/Fast_Spin_08.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_9" value="slots_006/sound/Fast_Spin_09.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_10" value="slots_006/sound/Fast_Spin_10.ogg"/ -->
+		
+		<!-- BaseGame -->
+		<Sound name="SUNNY_CLOUD" value="slots_006/sound/7_Suny_weather_Eq_LOOP.ogg" />
+		
+		<!-- FreeGame -->
+		<Sound name="STORM_CLOUD" value="slots_006/sound/8_Dark_weather_LOOP.ogg" />
+		<Sound name="FREEGAME_BGM" value="slots_006/sound/10_FS_BGM_fix_loop.ogg" />
+		<Sound name="THUNDER" value="slots_006/sound/1_thunder.ogg" />
+		
+		<!-- Effects -->
+		<Sound name="LIGHTNING_LOOP" value="slots_006/sound/31_static_loop.ogg" />
+		<Sound name="START_BTN_CLICK" value="slots_006/sound/36_Start_btn.ogg" />
+		<Sound name="GLITTERING" value="slots_006/sound/34_Glitter.ogg" volume="0.7"/>
+		<Sound name="NEAR_WIN_START" value="slots_006/sound/27_Focus_Anticip.ogg"/>
+		<Sound name="NEAR_WIN_END" value="slots_006/sound/27_Focus_Anticip_Endmiss.ogg"/>
+		
+		<!-- Scatters -->
+		<Sound name="SCATTER_1" value="slots_006/sound/20_scatter_icon_01.ogg"/>
+		<Sound name="SCATTER_2" value="slots_006/sound/20_scatter_icon_02.ogg"/>
+		<Sound name="SCATTER_3" value="slots_006/sound/20_scatter_icon_03.ogg"/>
+		<Sound name="SCATTER_4" value="slots_006/sound/20_scatter_icon_04.ogg"/>
+		<Sound name="SCATTER_5" value="slots_006/sound/20_scatter_icon_05.ogg"/>
+		<Sound name="SCATTER_LIGHTNING" value="slots_006/sound/28_Lighting_strike_scatter_icns_.ogg"/>
+		
+		
+		<!-- Paylines -->
+		<Sound name="PAYLINE_1" value="slots_006/sound/26_1_Payline.ogg"/>
+		<Sound name="PAYLINE_2" value="slots_006/sound/26_2_Payline.ogg"/>
+		<Sound name="PAYLINE_3" value="slots_006/sound/26_3_Payline.ogg"/>
+		<Sound name="PAYLINE_4" value="slots_006/sound/26_4_Payline.ogg"/>
+		<Sound name="PAYLINE_5" value="slots_006/sound/26_5_Payline.ogg"/>
+		<Sound name="PAYLINE_6" value="slots_006/sound/26_6_Payline.ogg"/>
+		
+		<!-- Mega Icon--> 
+		<Sound name="MEGA_LIGHTNING" value="slots_006/sound/Lightning_Hit.ogg" />
+		<Sound name="MEGA_ELECTRIC" value="slots_006/sound/Electric.ogg" />
+		<Sound name="MEGA_SCROLL1" value="slots_006/sound/Stretch_SFX1_short.ogg" />
+		<Sound name="MEGA_SCROLL2" value="slots_006/sound/Stretch_SFX1_short.ogg" />
+		<Sound name="MEGA_SCROLL3" value="slots_006/sound/Stretch_SFX1_medium.ogg" />
+		<Sound name="MEGA_SCROLL4" value="slots_006/sound/Stretch_SFX1_medium.ogg" />
+		<Sound name="MEGA_SCROLL5" value="slots_006/sound/Stretch_SFX1_long.ogg" />
+		<Sound name="MEGA_SCROLL6" value="slots_006/sound/Stretch_SFX1_long.ogg" />
+		<Sound name="MEGA_SCROLL_END" value="slots_006/sound/Reel_Jerk_Back .ogg" />
+		
+	</SoundInfo>
+</SlotsConfig>

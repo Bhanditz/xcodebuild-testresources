@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_MainPanel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_PicBG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11"/>
+    <Panel id="m_PanNotice" x="153" y="40" z="0" width="830" height="560" window_state="6">
+        <Picture id="m_PicBase" x="-1" y="5" z="0" width="833" height="553" window_state="6" style="ngs_casino_common_panel12">
+            <Picture id="m_PicBaseGlow" x="317" y="244" z="0" width="199" height="124" window_state="14">
+                <scale x="4" y="4" z="4"/>
+                <piece_info value="casino_common_panel12d"/>
+            </Picture>
+            <Picture id="m_PicTop" x="18" y="19" z="0" width="797" height="89" window_state="6" style="ngs_casino_common_panel12a">
+                <Picture id="m_Picture" x="173" y="9" z="0" width="419" height="68" window_state="14">
+                    <scale x="1.25" y="1.25" z="1.25"/>
+                    <piece_info value="casino_common_panel12e"/>
+                </Picture>
+            </Picture>
+            <RichLabel id="m_LblNote" x="177" y="24" z="0" width="479" height="65" window_state="6">
+                <text value="PLATFORM_COMPANSATION_TITLE"/>
+                <font_size value="55"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <RichLabel id="m_Label" x="127" y="182" z="0" width="576" height="110" window_state="6">
+            <text value="PLATFORM_COMPANSATION_TEXT1"/>
+            <font_size value="40"/>
+            <text_color value="cs_lightgrey"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="35"/>
+        </RichLabel>
+        <RichLabel id="m_win" x="20" y="285" z="0" width="796" height="90" window_state="6">
+            <text value="PLATFORM_COMPANSATION_TEXT_WIN_#0"/>
+            <font_size value="55"/>
+            <text_color value="cs_White"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="33"/>
+        </RichLabel>
+    </Panel>
+    <Button id="m_BtnClose" x="864" y="70" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+    <Button id="m_Btn" x="416" y="487" z="0" width="305" height="70" window_state="6" style="ngs_casino_common_btn08">
+        <text value="PLATFORM_COMPANSATION_BUTTON_OK"/>
+        <font_size value="55"/>
+        <text_offset x="0" y="-4" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <Panel id="m_FlyEffectPanel" x="463" y="427" z="0" width="221" height="171" window_state="14">
+        <Panel id="m_FlyEffectBeginPos" x="94" y="55" z="0" width="26" height="26" window_state="6"/>
+        <Panel id="m_FlyEffectEndPos" x="-437" y="-408" z="0" width="26" height="26" window_state="6"/>
+    </Panel>
+</Panel>

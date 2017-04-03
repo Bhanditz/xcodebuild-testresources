@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <PictureMirror id="m_Background" x="0" y="-10" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_Panel1" x="-1" y="0" z="0" width="1136" height="640" window_state="6"/>
+        <Panel id="m_panel2" x="87" y="68" z="0" width="1023" height="519" window_state="6">
+            <Panel id="m_light" x="187" y="-51" z="0" width="510" height="250" window_state="6">
+                <Picture id="m_Picture3" x="170" y="-32" z="0" width="66" height="136" window_state="262">
+                    <scale x="2" y="2" z="2"/>
+                    <rotation x="0" y="0" z="-0.52359879"/>
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47999999" y="0.22" z="0"/>
+                </Picture>
+                <Picture id="m_Picture4" x="63" y="-30" z="0" width="66" height="136" window_state="262">
+                    <scale x="2" y="2" z="2"/>
+                    <rotation x="0" y="0" z="-0.52359879"/>
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.46000001" y="0.22" z="0"/>
+                </Picture>
+                <Picture id="m_Picture2" x="354" y="-30" z="0" width="66" height="136" window_state="262">
+                    <scale x="2" y="2" z="2"/>
+                    <rotation x="0" y="3.1415927" z="0.52359879"/>
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.22" z="0"/>
+                </Picture>
+                <Picture id="m_Picture1" x="468" y="-33" z="0" width="66" height="136" window_state="262">
+                    <scale x="2" y="2" z="2"/>
+                    <rotation x="0" y="3.1415927" z="0.52359879"/>
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.5" y="0.22" z="0"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_PictureMirror" x="-17" y="21" z="0" width="1010" height="470" window_state="6">
+                <Picture id="m_Picture2" x="111" y="398" z="0" width="96" height="108" window_state="6"/>
+                <Picture id="m_Picture3" x="473" y="398" z="0" width="96" height="108" window_state="6"/>
+                <Picture id="m_Picture4" x="292" y="398" z="0" width="96" height="108" window_state="6"/>
+                <Picture id="m_Picture1" x="653" y="398" z="0" width="96" height="108" window_state="6"/>
+                <Picture id="m_Picture5" x="834" y="397" z="0" width="96" height="108" window_state="6"/>
+                <Panel id="m_TransformPanel" x="69" y="47" z="0" width="897" height="396" window_state="6"/>
+            </Panel>
+        </Panel>
+    </PictureMirror>
+    <ScrollContainer id="m_ScrollContainer" x="0" y="0" z="0" width="1136" height="640" window_state="262158">
+        <Picture id="m_Picture" x="93" y="45" z="0" width="953" height="639" window_state="14">
+            <piece_info value="slots_007_panel_008"/>
+        </Picture>
+        <Picture id="m_Picture1" x="-134" y="-102" z="0" width="795" height="780" window_state="14">
+            <piece_info value="slots_007_panel_010"/>
+        </Picture>
+        <Picture id="m_Picture" x="367" y="-80" z="0" width="1075" height="780" window_state="14">
+            <piece_info value="slots_007_panel_009"/>
+        </Picture>
+        <Picture id="m_Picture2" x="-25" y="507" z="0" width="202" height="117" window_state="14">
+            <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+            <piece_info value="slots_007_panel_011"/>
+        </Picture>
+        <Picture id="m_Picture3" x="727" y="38" z="0" width="371" height="224" window_state="14">
+            <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+            <piece_info value="slots_007_panel_012"/>
+        </Picture>
+    </ScrollContainer>
+    <Panel id="m_IconAnimationPanel" x="173" y="82" z="0" width="802" height="406" window_state="14">
+        <window_layout_align_h value="0"/>
+    </Panel>
+    <Panel id="m_PayLinesPanel" x="175" y="82" z="0" width="798" height="409" window_state="14">
+        <window_layout_align_h value="0"/>
+    </Panel>
+    <PictureMirror id="m_Foreground" x="0" y="0" z="0" width="1136" height="640" window_state="14"/>
+    <Picture id="m_Picture2" x="997" y="473" z="0" width="139" height="167" window_state="6">
+        <piece_info value="slots_007_panel_007"/>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="68" z="0" width="0" height="0" window_state="262">
+        <PictureMirror id="m_PictureMirror" x="65" y="-50" z="0" width="988" height="587" window_state="6">
+            <piece_info value="slots_007_panel_013"/>
+        </PictureMirror>
+        <Picture id="m_disco" x="419" y="-48" z="0" width="296" height="98" window_state="262">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <piece_info value="slots_007_icon_008"/>
+        </Picture>
+    </Picture>
+    <PictureMirror id="m_Effectground" x="0" y="0" z="0" width="1136" height="640" window_state="14"/>
+    <Panel id="m_Pages" x="23" y="67" z="0" width="1090" height="510" window_state="6">
+        <Panel id="m_Page1" x="0" y="0" z="0" width="1090" height="510" window_state="4">
+            <Panel id="m_Panel" x="-12" y="183" z="0" width="1094" height="207" window_state="6">
+                <scale x="0.73000002" y="0.73000002" z="0.73000002"/>
+                <Picture id="m_Picture" x="28" y="0" z="0" width="257" height="202" window_state="6" style="ngs_slots_007_panel_014">
+                    <Panel id="m_Panel1" x="-21" y="6" z="0" width="165" height="143" window_state="6">
+                        <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="4">
+                            <piece_info value="slots_007_icon_002"/>
+                        </Picture>
+                        <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                            <piece_info value="slots_007_icon_001"/>
+                        </Picture>
+                        <Picture id="m_Picture2" x="33" y="3" z="0" width="101" height="96" window_state="6">
+                            <piece_info value="slots_007_icon_003"/>
+                        </Picture>
+                        <Picture id="m_Picture3" x="33" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture4" x="61" y="150" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture5" x="89" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                    </Panel>
+                    <Picture id="m_Picture" x="113" y="14" z="0" width="156" height="156" window_state="6">
+                        <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                        <piece_info value="slots_007_icon_022"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="46" y="126" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="74" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="100" y="52" z="0" width="34" height="41" window_state="6">
+                        <rotation x="0" y="0" z="1.7976891"/>
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Panel" x="289" y="0" z="0" width="257" height="202" window_state="6" style="ngs_slots_007_panel_014">
+                    <Panel id="m_Panel1" x="-21" y="6" z="0" width="165" height="143" window_state="6">
+                        <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="4">
+                            <piece_info value="slots_007_icon_002"/>
+                        </Picture>
+                        <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                            <piece_info value="slots_007_icon_001"/>
+                        </Picture>
+                        <Picture id="m_Picture2" x="33" y="3" z="0" width="104" height="100" window_state="6">
+                            <piece_info value="slots_007_icon_004"/>
+                        </Picture>
+                        <Picture id="m_Picture3" x="33" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture4" x="61" y="150" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture5" x="89" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                    </Panel>
+                    <Picture id="m_Picture" x="112" y="14" z="0" width="156" height="156" window_state="6">
+                        <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                        <piece_info value="slots_007_icon_017"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="46" y="126" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="74" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="100" y="52" z="0" width="34" height="41" window_state="6">
+                        <rotation x="0" y="0" z="1.7976891"/>
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Panel2" x="550" y="0" z="0" width="257" height="202" window_state="6" style="ngs_slots_007_panel_014">
+                    <Panel id="m_Panel1" x="-21" y="6" z="0" width="165" height="143" window_state="6">
+                        <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="4">
+                            <piece_info value="slots_007_icon_002"/>
+                        </Picture>
+                        <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                            <piece_info value="slots_007_icon_001"/>
+                        </Picture>
+                        <Picture id="m_Picture2" x="42" y="10" z="0" width="72" height="88" window_state="6">
+                            <piece_info value="slots_007_icon_005"/>
+                        </Picture>
+                        <Picture id="m_Picture3" x="33" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture4" x="61" y="150" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture5" x="89" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                    </Panel>
+                    <Picture id="m_Picture" x="110" y="14" z="0" width="156" height="156" window_state="6">
+                        <scale x="0.88" y="0.88" z="0.88"/>
+                        <piece_info value="slots_007_icon_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="46" y="126" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="74" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="100" y="52" z="0" width="34" height="41" window_state="6">
+                        <rotation x="0" y="0" z="1.7976891"/>
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Panel3" x="811" y="0" z="0" width="257" height="202" window_state="6" style="ngs_slots_007_panel_014">
+                    <Panel id="m_Panel1" x="-21" y="6" z="0" width="165" height="143" window_state="6">
+                        <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="4">
+                            <piece_info value="slots_007_icon_002"/>
+                        </Picture>
+                        <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                            <piece_info value="slots_007_icon_001"/>
+                        </Picture>
+                        <Picture id="m_Picture2" x="32" y="9" z="0" width="97" height="89" window_state="6">
+                            <piece_info value="slots_007_icon_006"/>
+                        </Picture>
+                        <Picture id="m_Picture3" x="33" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture4" x="61" y="150" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                        <Picture id="m_Picture5" x="89" y="144" z="0" width="35" height="35" window_state="6">
+                            <piece_info value="slots_007_icon_007"/>
+                        </Picture>
+                    </Panel>
+                    <Picture id="m_Picture" x="109" y="14" z="0" width="156" height="156" window_state="6">
+                        <scale x="0.88" y="0.88" z="0.88"/>
+                        <piece_info value="slots_007_icon_018"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="46" y="126" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="74" y="114" z="0" width="34" height="41" window_state="6">
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="100" y="52" z="0" width="34" height="41" window_state="6">
+                        <rotation x="0" y="0" z="1.7976891"/>
+                        <piece_info value="slots_007_button_014"/>
+                    </Picture>
+                </Picture>
+            </Panel>
+            <Picture id="m_Picture" x="171" y="55" z="0" width="148" height="138" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <piece_info value="slots_007_icon_024"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="344" y="57" z="0" width="729" height="49" window_state="6">
+                <text value="SLOTS_MOEWMONEY_PAYTABLE_WILDFEATURE_TITLE"/>
+                <font_size value="55"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="1"/>
+                <smooth value="0.050000001"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="344" y="106" z="0" width="528" height="99" window_state="6">
+                <text value="SLOTS_MOEWMONEY_PAYTABLE_WILDFEATURE_TEXT_COLLECTSYMBOL"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="8"/>
+                <rich_label_state value="4"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="156" y="204" z="0" width="761" height="3" window_state="6" style="ngs_slots_007_panel_015"/>
+        </Panel>
+        <Panel id="m_Page2" x="0" y="0" z="0" width="1090" height="510" window_state="4">
+            <Picture id="m_Picture" x="99" y="175" z="0" width="159" height="138" window_state="6">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <piece_info value="slots_007_icon_020"/>
+            </Picture>
+            <RichLabel id="m_RichLabel1" x="262" y="214" z="0" width="528" height="59" window_state="6">
+                <text value="SLOTS_MEOWMONEY_PAYTABLE_WILDFEATURE_TEXT_WILD"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="94" y="277" z="0" width="158" height="156" window_state="6">
+                <scale x="0.63" y="0.63" z="0.63"/>
+                <piece_info value="slots_007_icon_019"/>
+            </Picture>
+            <Picture id="m_Picture3" x="298" y="279" z="0" width="158" height="156" window_state="6">
+                <scale x="0.63" y="0.63" z="0.63"/>
+                <piece_info value="slots_007_icon_014"/>
+            </Picture>
+            <Picture id="m_Picture2" x="400" y="279" z="0" width="158" height="156" window_state="6">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <piece_info value="slots_007_icon_016"/>
+            </Picture>
+            <Picture id="m_Picture4" x="196" y="277" z="0" width="158" height="156" window_state="6">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <piece_info value="slots_007_icon_015"/>
+            </Picture>
+            <Picture id="m_Picture5" x="531" y="309" z="0" width="96" height="96" window_state="6">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <piece_info value="slots_007_icon_009"/>
+            </Picture>
+            <Picture id="m_Picture6" x="701" y="309" z="0" width="96" height="96" window_state="6">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <piece_info value="slots_007_icon_010"/>
+            </Picture>
+            <Picture id="m_Picture7" x="758" y="290" z="0" width="155" height="134" window_state="6">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <piece_info value="slots_007_icon_011"/>
+            </Picture>
+            <Picture id="m_Picture8" x="835" y="290" z="0" width="155" height="134" window_state="6">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <piece_info value="slots_007_icon_012"/>
+            </Picture>
+            <Picture id="m_Picture9" x="616" y="309" z="0" width="96" height="96" window_state="6">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <piece_info value="slots_007_icon_013"/>
+            </Picture>
+            <Picture id="m_Picture10" x="97" y="21" z="0" width="168" height="190" window_state="6">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <piece_info value="slots_007_icon_023"/>
+            </Picture>
+            <RichLabel id="m_RichLabel2" x="262" y="71" z="0" width="618" height="99" window_state="6">
+                <text value="SLOTS_MOEWMONEY_PAYTABLE_WILDFEATURE_TEXT_TRIGGERFREESPIN"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page3" x="0" y="0" z="0" width="1090" height="510" window_state="4">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <Panel id="m_Group1" x="394" y="46" z="0" width="258" height="127" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Picture id="m_Picture1" x="-4" y="-11" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_019"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="199" y="20" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_4"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="199" y="53" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_5"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="199" y="86" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_6"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="182" y="19" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_1"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="182" y="53" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_2"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="182" y="86" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_3"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="120" y="166" z="0" width="258" height="127" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Picture id="m_Picture1" x="-4" y="-11" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_015"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="199" y="20" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_10"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="199" y="53" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_11"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="199" y="86" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_12"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="182" y="19" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_7"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="182" y="53" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_8"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="182" y="86" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_9"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="394" y="166" z="0" width="258" height="127" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Picture id="m_Picture1" x="-4" y="-11" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_014"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="199" y="20" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_16"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="199" y="53" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_17"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="199" y="86" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_18"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="182" y="19" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_13"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="182" y="53" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_14"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="182" y="86" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_15"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="668" y="166" z="0" width="258" height="127" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Picture1" x="-4" y="-11" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_016"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="199" y="20" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_22"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="199" y="53" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_23"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="199" y="86" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_24"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="182" y="19" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_19"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="182" y="53" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_20"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="182" y="86" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_21"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="110" y="293" z="0" width="178" height="87" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Picture id="m_Picture1" x="-36" y="-31" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_009"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="135" y="7" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_28"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="135" y="32" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_29"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="135" y="57" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_30"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="117" y="7" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_25"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="117" y="32" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_26"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="117" y="57" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_27"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="277" y="293" z="0" width="178" height="87" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Picture1" x="-36" y="-31" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_013"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="135" y="7" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_34"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="135" y="32" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_35"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="135" y="57" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_36"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="117" y="7" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_31"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="117" y="32" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_32"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="117" y="57" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_33"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group7" x="444" y="293" z="0" width="178" height="87" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Picture1" x="-36" y="-31" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_010"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="135" y="7" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_40"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="135" y="32" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_41"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="135" y="57" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_42"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="117" y="7" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_37"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="117" y="32" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="117" y="57" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_39"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group8" x="611" y="293" z="0" width="178" height="87" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="8"/>
+                <Picture id="m_Picture1" x="-36" y="-31" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_011"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="135" y="7" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_46"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="135" y="32" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_47"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="135" y="57" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_47"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="117" y="7" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_43"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="117" y="32" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_44"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="117" y="57" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_45"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group9" x="778" y="293" z="0" width="178" height="87" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <dynamic_attr key="icon_ids" type="string" value="9"/>
+                <Picture id="m_Picture1" x="-36" y="-31" z="0" width="158" height="156" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="slots_007_icon_012"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="135" y="7" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_52"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="135" y="32" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_53"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="135" y="57" z="0" width="96" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_54"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="117" y="7" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_49"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="117" y="32" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_50"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="117" y="57" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_TEXT_NUM_51"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page4" x="0" y="-10" z="0" width="1090" height="510" window_state="4">
+            <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+            <RichLabel id="m_RichLabel" x="310" y="43" z="0" width="470" height="38" window_state="6">
+                <text value="SLOTS_MEOWMONEY_PAYTABLE_WILDFEATURE_TITLE_30LINES"/>
+                <font_size value="45"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.43000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Panel" x="54" y="90" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="22" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="22" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="22" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="22" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="22" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-8" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_1"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel1" x="217" y="90" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_2"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel2" x="385" y="90" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="42" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="42" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="42" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="42" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="42" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_3"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel3" x="554" y="90" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_4"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel4" x="721" y="90" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="20" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="41" z="0" width="23" height="23" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_5"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel5" x="888" y="90" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_6"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel6" x="54" y="164" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_7"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel7" x="217" y="164" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_8"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel8" x="385" y="164" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_9"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel9" x="554" y="164" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_10"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel10" x="721" y="164" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_11"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel11" x="888" y="164" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_12"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel12" x="53" y="237" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_13"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel13" x="217" y="237" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_14"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel14" x="385" y="237" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_15"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel15" x="554" y="237" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_16"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel16" x="721" y="237" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_17"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel17" x="888" y="237" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="1" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_18"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel18" x="54" y="310" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="42" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_19"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel19" x="217" y="310" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture2" x="14" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_20"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel20" x="385" y="310" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="22" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_21"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel21" x="554" y="310" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_22"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel22" x="721" y="310" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_23"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel23" x="888" y="310" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="43" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="43" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="43" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_24"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel24" x="54" y="383" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_25"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel25" x="217" y="383" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_26"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel26" x="385" y="383" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="40" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="40" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_27"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel27" x="554" y="383" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_28"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel28" x="721" y="383" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_29"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel29" x="888" y="383" z="0" width="120" height="108" window_state="6">
+                <Picture id="m_Picture" x="33" y="-11" z="0" width="73" height="86" window_state="6">
+                    <piece_info value="slots_007_panel_016"/>
+                </Picture>
+                <Picture id="m_Picture2" x="14" y="20" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture1" x="36" y="0" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture3" x="58" y="21" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture4" x="79" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture5" x="101" y="41" z="0" width="23" height="22" window_state="6" style="ngs_slots_007_panel_017"/>
+                <Picture id="m_Picture6" x="35" y="-9" z="0" width="69" height="82" window_state="6">
+                    <piece_info value="slots_007_panel_018"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-12" y="0" z="0" width="19" height="20" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_PAYTABLE_30LINES_TEXT_NUM_30"/>
+                    <font_size value="28"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Button id="m_BackBtn" x="424" y="484" z="0" width="287" height="78" window_state="6" style="bs_slots_007_button_012">
+        <text value="SLOTS_MEOWMONEY_PAYTABLE_BUTTON_BACKTOGAME"/>
+        <font_size value="35"/>
+        <text_color value="cs_yellowTxt02"/>
+        <text_offset x="0" y="-4" z="0"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.41"/>
+        <outline_center value="0.47999999"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_PrevBtn" x="345" y="494" z="0" width="68" height="58" window_state="6" style="bs_slots_007_button_013">
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_NextBtn" x="722" y="494" z="0" width="68" height="58" window_state="6" style="bs_slots_007_button_013">
+        <rotation x="0" y="-3.1415927" z="0"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

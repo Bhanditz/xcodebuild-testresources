@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_23_throne_lightnings_01.png" width="512" height="256" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="vfx_232_00001.png" x="236" y="1" w="116" h="127" oX="377" oY="215" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="vfx_232_00002.png" x="126" y="136" w="123" h="118" oX="380" oY="215" oW="1136" oH="640" dr="80"/>
+    <sprite n="vfx_232_00003.png" x="251" y="130" w="121" h="123" oX="381" oY="215" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="vfx_232_00004.png" x="114" y="1" w="120" h="133" oX="378" oY="215" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="vfx_232_00005.png" x="1" y="1" w="111" h="142" oX="378" oY="215" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="vfx_232_00006.png" x="1" y="145" w="123" h="108" oX="380" oY="215" oW="1136" oH="640" dr="80"/>
+    <sprite n="vfx_232_00007.png" x="354" y="1" w="95" h="104" oX="382" oY="215" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="vfx_232_00008.png" x="374" y="107" w="65" h="62" oX="386" oY="215" oW="1136" oH="640" dr="80"/>
+    <sprite n="vfx_232_00009.png" x="451" y="1" w="52" h="29" oX="386" oY="215" oW="1136" oH="640" dr="80"/>
+</TextureAtlas>

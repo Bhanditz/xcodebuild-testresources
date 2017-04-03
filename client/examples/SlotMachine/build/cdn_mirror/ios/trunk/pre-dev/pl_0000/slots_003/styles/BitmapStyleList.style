@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BitmapStyleList>
+  <BitmapStyle id="bs_slots_003_button_007b" auto_bitmap="true">
+    <normal piece_id="slots_003_button_007b"/>
+    <down piece_id="slots_003_button_007b0"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_007b0" auto_bitmap="true">
+    <normal piece_id="slots_003_button_007b0"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_008a" auto_bitmap="true">
+    <normal piece_id="slots_003_button_008a"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_008b" auto_bitmap="true">
+    <normal piece_id="slots_003_button_008b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_009a" auto_bitmap="true">
+    <normal piece_id="slots_003_button_009a"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_009b" auto_bitmap="true">
+    <normal piece_id="slots_003_button_009b"/>
+    <down piece_id="slots_003_button_009a"/>
+    <disabled piece_id="slots_003_button_009a"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_012" auto_bitmap="true">
+    <normal piece_id="slots_003_button_012"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_013" auto_bitmap="true">
+    <normal piece_id="slots_003_button_013"/>
+    <down piece_id="slots_003_button_012"/>
+    <disabled piece_id="slots_003_button_013b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_014" auto_bitmap="true">
+    <normal piece_id="slots_003_button_014"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_015a" auto_bitmap="true">
+    <normal piece_id="slots_003_button_015a"/>
+    <down piece_id="slots_003_button_015b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_015b" auto_bitmap="true">
+    <normal piece_id="slots_003_button_015b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_016" auto_bitmap="true">
+    <normal piece_id="slots_003_button_016"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_017" auto_bitmap="true">
+    <normal piece_id="slots_003_button_017"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_003_button_020" auto_bitmap="true">
+    <normal piece_id="slots_003_button_020"/>
+  </BitmapStyle>
+</BitmapStyleList>

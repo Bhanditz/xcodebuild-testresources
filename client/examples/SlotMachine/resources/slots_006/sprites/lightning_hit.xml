@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="lightning_hit.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="00000" x="80" y="266" w="79" h="56" oX="50" oY="56" oW="175" oH="150" dr="40"/>
+    <sprite n="00001" x="2" y="383" w="76" h="107" oX="34" oY="40" oW="175" oH="150" r="y" dr="40"/>
+    <sprite n="00002" x="356" y="2" w="149" h="96" oX="15" oY="25" oW="175" oH="150" dr="40"/>
+    <sprite n="00003" x="356" y="206" w="118" h="175" oY="7" oW="175" oH="150" r="y" dr="40"/>
+    <sprite n="00004" x="2" y="142" w="175" h="122" oY="8" oW="175" oH="150" dr="40"/>
+    <sprite n="00005" x="179" y="2" w="175" h="128" oY="7" oW="175" oH="150" dr="40"/>
+    <sprite n="00006" x="179" y="132" w="175" h="126" oY="11" oW="175" oH="150" dr="40"/>
+    <sprite n="00007" x="2" y="2" w="175" h="138" oY="7" oW="175" oH="150" dr="40"/>
+    <sprite n="00008" x="179" y="260" w="175" h="112" oY="14" oW="175" oH="150" dr="40"/>
+    <sprite n="00009" x="356" y="100" w="135" h="104" oX="33" oY="22" oW="175" oH="150" dr="40"/>
+</TextureAtlas>

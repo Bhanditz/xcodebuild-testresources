@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+triggerpoint:1-	登入弹窗2-商城无消费弹窗3-In Game破产弹窗4-In Game返回大厅弹窗5-领取倒计时奖励弹窗6-领取好友送礼弹窗7-领取info center信息弹窗8-通用lobby破产弹窗
+  
+  triggertimes : 触发次数，
+  resetbuytype ： 重置触发次数方式，1每隔多少天后，2按每周的第几天，3按每月的第几天。
+  resettime	 ： 重置时间点，结合重置方式。
+  
+  chargeday : 判断建号天数，并且判断天数内的充值额度
+  mincharge:最小充值
+  maxcharge:最大充值
+  
+  loginday(登入天数)，keeptime(持续时间,相对登入天数开始计时)
+  
+  cointype 筹码条件判断方式：1(大于mincoin小于maxcoin)，2(按conditionlevelcoin)
+  
+  隐藏配置：begintime(开始时间)endtime(持续小时),
+ 
+-->
+<root>
+	<triggertable>
+		<trigger triggerid="1" triggerpoint="1" chargeday="2" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="3" uidisplay="86400" saleid="1" /><!-- 7日卡 1 USD 登录弹窗 20161230暂时下架处理，20170106修改为登录弹窗触发事件 -->
+		<trigger triggerid="2" triggerpoint="4" chargeday="2" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="3" uidisplay="86400" saleid="1" /><!-- 7日卡 1 USD In Game返回大厅弹窗 20161230暂时下架处理，20170106修改为In Game返回大厅弹窗触发事件 -->
+		<trigger triggerid="3" triggerpoint="4" chargeday="2" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="7" uidisplay="86400" saleid="20" /><!-- 10日卡 2 USD In Game返回大厅弹窗 调整为2日内充值为0-90 -->
+		<trigger triggerid="4" triggerpoint="2" loginday="8" keeptime="192" chargeday="0" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="4" uidisplay="86400" saleid="2" /><!-- 终身卡限时促销(累积登录7天后) 20 USD 商城无消费弹窗 -->
+		<trigger triggerid="5" triggerpoint="3" loginday="8" keeptime="192" chargeday="0" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="4" uidisplay="86400" saleid="2" /><!-- 终身卡限时促销(累积登录7天后) 20 USD In Game破产弹窗 20161230暂时下架处理 -->
+		<trigger triggerid="6" triggerpoint="4" loginday="8" keeptime="192" chargeday="0" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="4" uidisplay="86400" saleid="2" /><!-- 终身卡限时促销(累积登录7天后) 20 USD In Game返回大厅弹窗 20161230暂时下架处理 -->
+		<trigger triggerid="7" triggerpoint="3" chargeday="31" mincharge="99" maxcharge="1980" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="2" uidisplay="86400" saleid="17" /><!-- 破产订单常规不促销 2 USD In Game破产弹窗 20161230变更为 2 USD -->
+		<trigger triggerid="8" triggerpoint="3" chargeday="31" mincharge="1981" maxcharge="9900" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="2" uidisplay="86400" saleid="8" /><!-- 破产订单常规不促销 5 USD In Game破产弹窗 -->
+		<trigger triggerid="9" triggerpoint="3" chargeday="31" mincharge="9901" maxcharge="100000000" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="2" uidisplay="86400" saleid="9" /><!-- 破产订单常规不促销 10 USD In Game破产弹窗 -->
+		<trigger triggerid="10" triggerpoint="3" chargeday="31" mincharge="99" maxcharge="1980" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="2" uidisplay="86400" saleid="18" /><!-- 破产订单有促销 2 USD In Game破产弹窗 20161230变更为 2 USD -->
+		<trigger triggerid="11" triggerpoint="3" chargeday="31" mincharge="1981" maxcharge="9900" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="2" uidisplay="86400" saleid="11" /><!-- 破产订单有促销 5 USD In Game破产弹窗 -->
+		<trigger triggerid="12" triggerpoint="3" chargeday="31" mincharge="9901" maxcharge="100000000" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="2" uidisplay="86400" saleid="12" /><!-- 破产订单有促销 10 USD In Game破产弹窗 -->
+		<trigger triggerid="13" triggerpoint="8" chargeday="31" mincharge="0" maxcharge="1980" cointype="2" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="18" /><!-- 破产订单有促销 2 USD 通用lobby破产弹窗 20161230变更为 2 USD -->
+		<trigger triggerid="14" triggerpoint="8" chargeday="31" mincharge="1981" maxcharge="9900" cointype="2" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="11" /><!-- 破产订单有促销 5 USD 通用lobby破产弹窗 -->
+		<trigger triggerid="15" triggerpoint="8" chargeday="31" mincharge="9901" maxcharge="100000000" cointype="2" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="12" /><!-- 破产订单 10 USD 通用lobby破产弹窗 -->
+		<trigger triggerid="16" triggerpoint="1" chargeday="2" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="3" resetbuytype="1" resettime="1" uitemplate="1" uidisplay="86400" saleid="13" /><!-- 2日无消费特价 2 USD 登录弹窗 20161230暂时下架处理 -->
+		<trigger triggerid="17" triggerpoint="2" chargeday="2" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="3" resetbuytype="1" resettime="1" uitemplate="1" uidisplay="86400" saleid="13" /><!-- 2日无消费特价 2 USD 商城无消费弹窗 -->
+		<trigger triggerid="18" triggerpoint="4" chargeday="2" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="3" resetbuytype="1" resettime="1" uitemplate="1" uidisplay="86400" saleid="13" /><!-- 2日无消费特价 2 USD In Game返回大厅弹窗 20161230暂时下架处理 -->
+		<trigger triggerid="19" triggerpoint="1" chargeday="31" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="21" /><!-- 圣诞节3日累计消费促销订单 25 USD 登录弹窗 改为无消费订单 1 USD 20170208新增 -->
+		<trigger triggerid="20" triggerpoint="1" chargeday="31" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="22" /><!-- 圣诞节3日累计消费促销订单 50 USD 登录弹窗 改为无消费订单 2 USD 20170208新增 -->
+		<trigger triggerid="21" triggerpoint="1" chargeday="3" mincharge="10000" maxcharge="100000000" cointype="0" mincoin="0" maxcoin="0" triggertimes="2" resetbuytype="1" resettime="1" uitemplate="5" uidisplay="86400" saleid="16" /><!-- 圣诞节3日累计消费促销订单 100 USD 登录弹窗 -->
+		<trigger triggerid="22" triggerpoint="4" chargeday="31" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="21" /><!-- 圣诞节3日累计消费促销订单 25 USD In Game返回大厅弹窗 改为无消费订单 1 USD 20170208新增 -->
+		<trigger triggerid="23" triggerpoint="4" chargeday="31" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="22" /><!-- 圣诞节3日累计消费促销订单 50 USD In Game返回大厅弹窗 改为无消费订单 2 USD 20170208新增 -->
+		<trigger triggerid="24" triggerpoint="4" chargeday="3" mincharge="10000" maxcharge="100000000" cointype="0" mincoin="0" maxcoin="0" triggertimes="2" resetbuytype="1" resettime="1" uitemplate="5" uidisplay="86400" saleid="16" /><!-- 圣诞节3日累计消费促销订单 100 USD In Game返回大厅弹窗 -->
+		<trigger triggerid="25" triggerpoint="1" chargeday="2" mincharge="0" maxcharge="90" cointype="0" mincoin="0" maxcoin="0" triggertimes="3" resetbuytype="1" resettime="1" uitemplate="7" uidisplay="86400" saleid="20" /><!-- 累计消费为0时触发 10日卡 2 USD 登录弹窗 20161230新增 -->
+		<trigger triggerid="26" triggerpoint="3" chargeday="31" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="3" resetbuytype="1" resettime="1" uitemplate="2" uidisplay="86400" saleid="7" /><!-- 历史无消费触发破产订单常规不促销 1 USD In Game破产弹窗 -->
+		<trigger triggerid="27" triggerpoint="3" chargeday="31" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="3" resetbuytype="1" resettime="1" uitemplate="2" uidisplay="86400" saleid="10" /><!-- 历史无消费触发破产订单有促销 1 USD In Game破产弹窗 -->
+		<trigger triggerid="28" triggerpoint="1" loginday="1" keeptime="72" chargeday="0" mincharge="0" maxcharge="0" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="1" uidisplay="86400" saleid="19" /><!-- 新手登录前三日促销订单 5 USD 登录弹窗 20161230新增 -->
+		<trigger triggerid="29" triggerpoint="1" loginday="1" keeptime="168" chargeday="31" mincharge="91" maxcharge="1299" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="6" uidisplay="86400" saleid="6" /><!-- 新手登录前七日促销买一送一 13 USD 登录弹窗 20161230新增 -->
+		<trigger triggerid="30" triggerpoint="4" loginday="1" keeptime="168" chargeday="31" mincharge="91" maxcharge="1299" cointype="0" mincoin="0" maxcoin="0" triggertimes="0" resetbuytype="0" resettime="0" uitemplate="6" uidisplay="86400" saleid="6" /><!-- 新手登录前七日促销买一送一 13 USD In Game返回大厅弹窗 20161230新增 -->
+	</triggertable>
+	
+	<conditionlevelcoin>
+		<level maxlev="49" coin="3000" />
+		<level maxlev="79" coin="6000" />
+		<level maxlev="99" coin="9000" />
+		<level maxlev="119" coin="12000" />
+		<level maxlev="139" coin="15000" />
+		<level maxlev="159" coin="18000" />
+		<level maxlev="179" coin="21000" />
+		<level maxlev="199" coin="25000" />
+		<level maxlev="219" coin="29000" />
+		<level maxlev="239" coin="33000" />
+		<level maxlev="269" coin="39000" />
+		<level maxlev="299" coin="45000" />
+		<level maxlev="329" coin="51000" />
+		<level maxlev="10000" coin="60000" />
+	</conditionlevelcoin>
+
+ </root>
+ 

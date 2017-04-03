@@ -1,0 +1,194 @@
+//// material.sf
+
+///////////////////////////////////////////////////////////////////////////////
+struct FMaterialVertexParameters
+{
+	vec4	worldPosition;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+/**
+* Parameters needed by fragment shader material inputs.
+* These are independent of vertex factory.
+*/
+struct FMaterialPixelParameters
+{
+#ifdef NUM_MATERIAL_TEXCOORDS
+	vec2	textureCoords[NUM_MATERIAL_TEXCOORDS];
+#endif
+
+	/** Interpolated vertex color, in linear color space. */
+	vec4	vertexColor;
+
+#ifdef SUPPORT_TANGENT_NORMAL
+	/** Normalized tangent space normal. */
+	vec3    tangentNormal;
+#endif
+
+	/** Normalized world space normal. */
+	vec3	worldNormal;
+
+	/**
+	* Orthonormal rotation-only transform from tangent space to world space
+	* The transpose(TangentToWorld) is WorldToTangent, and TangentToWorld[2] is WorldVertexNormal
+	*/
+	mat3	tangentToWorld;
+
+#ifdef SUPPORT_SCREEN_POSITION
+	/** Post projection position, before the divide by W. */
+	vec4    screenPosition;
+#endif
+
+	float	twoSidedSign;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+//// Uniform expressions
+#ifdef COLOUR_MATERIAL
+uniform vec4				u_colorDiffuse;
+
+#else
+uniform sampler2D			u_texDiffuse;
+uniform sampler2D			u_texDiffuseAlpha;
+#define	HAS_TEX2D_DIFFUSE
+
+#ifdef TRANSPARENT_MATERIAL
+uniform sampler2D			u_texOpacity;
+#define HAS_TEX2D_OPACITY
+#endif
+
+#ifndef BASIC_MATERIAL
+uniform sampler2D			u_texNormal;
+uniform sampler2D			u_texSpecular;
+#define	HAS_TEX2D_NORMAL
+#define HAS_TEX2D_SPECULAR
+
+#endif	// ifndef BASIC_MATERIAL
+#endif
+
+#ifdef VERTEX_SHADER
+FMaterialVertexParameters	parameters;
+#endif
+
+#ifdef PIXEL_SHADER
+FMaterialPixelParameters	parameters;
+#endif
+
+///////////////////////////////////////////////////////////////////////////////
+#ifdef VERTEX_SHADER
+vec4 getMaterialVertexWorldPosition()
+{
+	return parameters.worldPosition;
+}
+#endif
+///////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////
+#ifdef PIXEL_SHADER
+/** Assemble the transform from tangent space into world space */
+mat3 assembleTangentToWorld(vec3 tangentToWorldX, vec4 tangentToWorldZ)
+{
+	// Will not be orthonormal after interpolation. This perfectly matches xNormal.
+	// Any mismatch with xNormal will cause distortions for baked normal maps.
+
+	// Derive the third basis vector off of the other two. Flip based on the determinant sign
+	vec3 tangentToWorldY = cross(tangentToWorldX, tangentToWorldZ.xyz) * tangentToWorldZ.w;
+	return mat3(tangentToWorldX, tangentToWorldY, tangentToWorldZ.xyz);
+}
+///////////////////////////////////////////////////////////////////////////////
+vec4 getMaterialBaseColor()
+{
+#ifdef HAS_TEX2D_DIFFUSE
+	vec4 materialBaseColor = texture2D(u_texDiffuse, parameters.textureCoords[0]);
+	return vec4(materialBaseColor.rgb, materialBaseColor.a * texture2D(u_texDiffuseAlpha, parameters.textureCoords[0]).r);
+#elif defined(COLOUR_MATERIAL)
+	return u_colorDiffuse;
+#else
+	return vec4(1.0);
+#endif
+}
+///////////////////////////////////////////////////////////////////////////////
+// return tangent in world space
+vec3 getMaterialNormal()
+{
+#ifdef HAS_TEX2D_NORMAL
+	vec3 tangentNormal = (2.0 * texture2D(u_texNormal, parameters.textureCoords[0]).xyz - 1.0);
+	return tangentNormal;
+#else
+	return vec3(0.0, 0.0, 1.0);
+#endif
+}
+///////////////////////////////////////////////////////////////////////////////
+vec4 getMaterialSpecularColor()
+{
+#ifdef HAS_TEX2D_SPECULAR
+	return texture2D(u_texSpecular, parameters.textureCoords[0]);
+#else
+	return vec4(1.0);
+#endif
+}
+///////////////////////////////////////////////////////////////////////////////
+float getMaterialSpecularPower()
+{
+	return 30.0;
+}
+///////////////////////////////////////////////////////////////////////////////
+float getMaterialOpacity()
+{
+#ifdef HAS_TEX2D_OPACITY
+	vec4 opacityColor = texture2D(u_texOpacity, parameters.textureCoords[0]);
+	return opacityColor.r * 0.299 + opacityColor.g * 0.587 + opacityColor.b * 0.114;
+#else
+	return 1.0;
+#endif
+}
+///////////////////////////////////////////////////////////////////////////////
+#ifdef METAL_MATERIAL
+float getMaterialMetallic()
+{
+#ifdef HAS_TEX2D_SPECULAR
+	return texture2D(u_texSpecular, parameters.textureCoords[0]).b;
+#else
+	return 0.0;
+#endif
+}
+
+float getMaterialRoughness()
+{
+#ifdef HAS_TEX2D_SPECULAR
+	return texture2D(u_texSpecular, parameters.textureCoords[0]).a;
+#else
+	return 0.0;
+#endif
+}
+#endif
+///////////////////////////////////////////////////////////////////////////////
+void calculateMaterialParameters()
+{
+	vec3 tangentNormal = getMaterialNormal();
+	parameters.worldNormal = normalize(parameters.tangentToWorld * tangentNormal);
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// EnvBRDF
+vec3 envBRDFApprox(vec3 specularColor, float roughness, float NoV)
+{
+	// [ Lazarov 2013, "Getting More Physical in Call of Duty: Black Ops II" ]
+	// Adaptation to fit our G term.
+	const vec4 c0 = vec4(-1.0, -0.0275, -0.572, 0.022);
+	const vec4 c1 = vec4(1.0, 0.0425, 1.04, -0.04);
+	vec4 r = roughness * c0 + c1;
+	float a004 = min(r.x * r.x, exp2(-9.28 * NoV)) * r.x + r.y;
+	vec2 AB = vec2(-1.04, 1.04) * a004 + r.zw;
+	return specularColor * AB.x + AB.y;
+}///////////////////////////////////////////////////////////////////////////////
+float envBRDFApproxNonmetal(float roughness, float NoV)
+{
+	// Same as envBRDFApprox( 0.04, Roughness, NoV )
+	const vec2 c0 = vec2(-1.0, -0.0275);
+	const vec2 c1 = vec2(1.0, 0.0425);
+	vec2 r = roughness * c0 + c1;
+	return min(r.x * r.x, exp2(-9.28 * NoV)) * r.x + r.y;
+}
+///////////////////////////////////////////////////////////////////////////////
+#endif

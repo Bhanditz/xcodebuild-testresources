@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+	<Image id="slots_005_bg_01" file_name="slots_005_bg_01.jpg" width="1136" height="640"/>	
+	<Image id="slots_005_bg_02" file_name="slots_005_bg_02.jpg" width="1136" height="640"/>
+	<Image id="slots_005_bg_06" file_name="slots_005_bg_06.jpg" width="568" height="320"/>	
+	<Image id="slots_005_bg_03" file_name="slots_005_bg_03.jpg" width="568" height="320"/>
+	<Image id="slots_005_bg_04" file_name="slots_005_bg_03.jpg" width="568" height="529"/>
+	<Image id="slots_005_bg_07" file_name="slots_005_bg_07.jpg" width="243" height="432"/>
+	<Image id="slots_005_bg_08" file_name="slots_005_bg_08.jpg" width="243" height="432"/>
+	<Image id="slots_005_bg_09" file_name="slots_005_bg_09.jpg" width="243" height="432"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="slots_005_bg_01" image_id="slots_005_bg_01" x="0" y="0" width="1136" height="640"/> 
+    <Piece id="slots_005_bg_02" image_id="slots_005_bg_02" x="0" y="0" width="1136" height="640"/>	
+	<Piece id="lots_002_paytable_01" image_id="lots_002_paytable_01" x="0" y="0" width="1136" height="640"/>
+    <Piece id="slots_005_bg_06" image_id="slots_005_bg_06" x="0" y="0" width="568" height="320"/>	
+    <Piece id="slots_005_bg_03" image_id="slots_005_bg_03" x="0" y="0" width="568" height="320"/>	
+    <Piece id="slots_005_bg_04" image_id="slots_005_bg_04" x="0" y="0" width="568" height="529"/>	
+    <Piece id="slots_005_bg_07" image_id="slots_005_bg_07" x="0" y="0" width="243" height="432"/>	
+    <Piece id="slots_005_bg_08" image_id="slots_005_bg_08" x="0" y="0" width="243" height="432"/>	
+    <Piece id="slots_005_bg_09" image_id="slots_005_bg_09" x="0" y="0" width="243" height="432"/>	
+  </PieceList>
+</ImagePiece>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="250" height="330" window_state="6">
+    <Picture id="ref" x="0" y="0" z="0" width="250" height="330" window_state="4">
+        <piece_info value="slots_004_icon_005"/>
+    </Picture>
+    <Picture id="m_Picture1" x="51" y="73" z="0" width="145" height="178" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <piece_info value="glow_hp_sandworm"/>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="250" height="330" window_state="6">
+        <piece_info value="icon_005bg"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="0" y="0" z="0" width="250" height="330" window_state="6">
+        <sprite_file value="slots_004/sprites/icon005.spr"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

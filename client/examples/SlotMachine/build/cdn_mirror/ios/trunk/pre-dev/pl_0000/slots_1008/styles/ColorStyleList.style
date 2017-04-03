@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorStyleList>
+  <ColorStyle id="cs_LightPurple2">
+    <normal value="0xd297a6"/>
+    <down value="0x0"/>
+    <hover value="0x0"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_White">
+    <normal value="0xffffff"/>
+    <disabled value="0x7d7d7d"/>
+  </ColorStyle>
+  <ColorStyle id="cs_gray0_style">
+    <normal value="0xd1aedc"/>
+    <down value="0x0"/>
+    <hover value="0x0"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_orange_style">
+    <normal value="0xd25b22"/>
+    <down value="0x0"/>
+    <hover value="0x0"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_pink0_style">
+    <normal value="0xc95de2"/>
+    <down value="0x0"/>
+    <hover value="0x0"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_1008_outline1">
+    <normal value="0x46120e"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_1008_txt_green1">
+    <normal value="0xb0ffd2"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_1008_txt_yellow1">
+    <normal value="0xffe38d"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_1008_txt_yellow2">
+    <normal value="0xffc619"/>
+  </ColorStyle>
+  <ColorStyle id="cs_yellowTxt">
+    <normal value="0xffc000"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_yellowTxt06">
+    <normal value="0xfee43e"/>
+    <down value="0x0"/>
+    <hover value="0x0"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_yellowTxt2">
+    <normal value="0xa83318"/>
+    <down value="0x0"/>
+    <hover value="0x0"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+</ColorStyleList>

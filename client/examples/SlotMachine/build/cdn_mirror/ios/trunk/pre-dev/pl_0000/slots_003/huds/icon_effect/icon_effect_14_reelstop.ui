@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="173" height="400" window_state="6">
+    <Picture id="ref" x="-1" y="0" z="0" width="175" height="400" window_state="6">
+        <piece_info value="slots_003_icon_14"/>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="175" height="400" window_state="4">
+        <piece_info value="loslots_003_icon_14bg"/>
+    </Picture>
+    <Picture id="m_Picture4" x="44" y="101" z="0" width="88" height="197" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_longicon04"/>
+        <piece_info value="popx_mask"/>
+    </Picture>
+    <Picture id="m_Picture2" x="43" y="203" z="0" width="88" height="197" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.5" y="0.99000001" z="0"/>
+        <action_id value="animation_disco_longicon03"/>
+        <piece_info value="popx_light"/>
+    </Picture>
+    <Picture id="m_Picture3" x="-18" y="343" z="0" width="210" height="117" window_state="262">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_longicon02"/>
+        <piece_info value="popx_glow"/>
+    </Picture>
+</Panel>

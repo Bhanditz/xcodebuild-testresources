@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+	<Image id="vp_help_1" file_name="vp_help_1.jpg" width="751" height="313"/>
+	<Image id="vp_help_2" file_name="vp_help_2.jpg" width="751" height="313"/>
+	<Image id="vp_help_3" file_name="vp_help_3.jpg" width="751" height="313"/>
+	<Image id="vp_help_4" file_name="vp_help_4.jpg" width="751" height="313"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="vp_help_1" image_id="vp_help_1" x="0" y="0" width="751" height="313"/>
+	<Piece id="vp_help_2" image_id="vp_help_2" x="0" y="0" width="751" height="313"/>
+	<Piece id="vp_help_3" image_id="vp_help_3" x="0" y="0" width="751" height="313"/>
+	<Piece id="vp_help_4" image_id="vp_help_4" x="0" y="0" width="751" height="313"/>
+  </PieceList>
+</ImagePiece>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	此配置用于触发Feature
+		触发事件分为四个队列：Spin前触发、Spin后触发、结算时触发、Spin后触发
+		各个队列可配置的值范围 
+				Spin前触发队列：CalculateType(Reel、Forever)
+				Spin后触发队列：CalculateType(Reel、Forever)
+				结算时触发队列：CalculateType(Line、Forever)
+				Spin后触发队列：CalculateType(Reel、Forever)
+		Feature: 1 获取整列 2获取图标  3转换图标 4锁定整列 5奖励随机翻倍
+			
+		MustFirstSpin: 0(都可以触发) 1(必须是进入主题的第一次Spin才触发)
+	CalculateType:Line(按线)或Reel(按列) 计算中奖方法,Forever(每次spin时，直接触发)
+	Direction:计算方向 Left(从左到右) Right(从右向左) Both(两边) AnyWhere(任何位置存在)
+	Symbol:(图标id,要求数),(图标id,要求数)
+	LifeCycle:影响Spin次数
+	TargetID:目标ID
+	Param1:参数1
+	Param2:参数2
+	Param3:参数3
+	
+	注意：多个图标，只支持CalculateType:Reel
+	如果TargetType类型:
+	
+	<BeforeSpinTriggerList>
+				<trigger Feature="1" MustFirstSpin="0">
+				<CalculateType>Forever</CalculateType>
+				<Direction>AnyWhere</Direction>
+				<Symbol></Symbol>
+				<TargetID>1</TargetID>
+			</trigger>
+		</BeforeSpinTriggerList>
+
+		<AfterSpinTriggerList>
+
+		</AfterSpinTriggerList>
+
+		<PayTriggerList>
+
+		</PayTriggerList>
+
+		<AfterPayTriggerList>
+
+		</AfterPayTriggerList>
+Feature定义:
+1:获得整列图标，对应FetchReelIcon.xml
+2:获得图标，对FetchIcon.xml
+3:转换图标，对应TransformSymbol.xml
+4.锁定整列，对应LockReel.xml
+5.锁定图标, 对应LockIcon.xml
+6.奖励随机翻倍, 对应MultiplePay.xml
+7.添加整列图标到指定位置, 对应AddReel.xml
+8.复制整列（跨Slots）
+9.收集图标, 对应Collect.xml
+10.增减筹码, 对应Collect.xml
+11.增减FreeSpin次数, 对应Collect.xml
+12.增减收集等级, 对应Collect.xml
+13.切换轮盘, 对应Collect.xml
+14.清除收集计数, 对应Collect.xml
+15.检查轮盘分组变动 Param1是Feature Param2是触发时机
+16.图标多倍赔付
+-->
+<root>
+		<BeforeSpinTriggerList>
+			<trigger Feature="2" MustFirstSpin="0">
+				<CalculateType>Forever</CalculateType>
+				<Direction>AnyWhere</Direction>
+				<Symbol></Symbol>
+				<TargetID>1</TargetID>
+			</trigger>
+		</BeforeSpinTriggerList>
+
+		<AfterSpinTriggerList>
+
+		</AfterSpinTriggerList>
+
+		<PayTriggerList>
+
+		</PayTriggerList>
+
+		<AfterPayTriggerList>
+			<trigger Feature="3" MustFirstSpin="0">
+				<CalculateType>Forever</CalculateType>
+				<Direction>AnyWhere</Direction>
+				<Symbol></Symbol>
+				<TargetID>1</TargetID>
+				<LifeCycle>-1</LifeCycle>
+			</trigger>
+		</AfterPayTriggerList>
+
+</root>

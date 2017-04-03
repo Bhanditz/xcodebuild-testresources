@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="14" style="ngs_panel_bg">
+    <Panel id="m_PanLidyaDancing" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Sprite id="m_SprDancing" x="420" y="-42" z="0" width="300" height="500" window_state="4">
+            <sprite_file value="slots_004/sprites/lydia_dancing.spr"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Spr_lidya_app" x="370" y="8" z="0" width="400" height="400" window_state="4">
+            <sprite_file value="slots_004/sprites/lydia_dancing_app.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Spr_lidya_dis" x="370" y="8" z="0" width="400" height="400" window_state="6">
+            <sprite_file value="slots_004/sprites/lydia_dancing_dis.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Particle id="m_Particle1" x="493" y="64" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb"/>
+        </Particle>
+        <Particle id="m_Particle2" x="642" y="63" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb"/>
+        </Particle>
+        <Particle id="m_Particle3" x="563" y="-5" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb"/>
+        </Particle>
+        <Particle id="m_Particle4" x="492" y="74" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb2"/>
+        </Particle>
+        <Particle id="m_Particle5" x="639" y="73" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb2"/>
+        </Particle>
+        <Particle id="m_Particle6" x="566" y="-19" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb2"/>
+        </Particle>
+        <Particle id="m_Par_app" x="566" y="197" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <scale x="2" y="2" z="2"/>
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb2"/>
+        </Particle>
+        <Particle id="m_Par_dis" x="566" y="197" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <scale x="2" y="2" z="2"/>
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin bomb2"/>
+        </Particle>
+        <Particle id="m_ParFoot" x="561" y="328" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydia foot"/>
+        </Particle>
+    </Panel>
+    <Panel id="m_PanFlyPar" x="402" y="-17" z="0" width="200" height="200" window_state="4">
+        <Particle id="m_Particle1" x="84" y="84" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin"/>
+        </Particle>
+        <Particle id="m_Particle2" x="84" y="84" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin2"/>
+        </Particle>
+    </Panel>
+    <Panel id="m_PanFlyPar1" x="538" y="-17" z="0" width="200" height="200" window_state="4">
+        <Particle id="m_Particle3" x="84" y="84" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin"/>
+        </Particle>
+        <Particle id="m_Particle4" x="84" y="84" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin2"/>
+        </Particle>
+    </Panel>
+    <Panel id="m_PanFlyPar2" x="478" y="-109" z="0" width="200" height="200" window_state="4">
+        <Particle id="m_Particle5" x="84" y="84" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin"/>
+        </Particle>
+        <Particle id="m_Particle6" x="84" y="84" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_004/particles/spooky spinners.ptc"/>
+            <particle_name value="lydiaspin2"/>
+        </Particle>
+    </Panel>
+</Panel>

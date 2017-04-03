@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="522" height="465" window_state="6">
+    <Sprite id="m_Sprite" x="-108" y="-84" z="0" width="200" height="640" window_state="262">
+        <sprite_file value="slots_013/sprites/nearwin03.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="155" y="-328" z="0" width="200" height="640" window_state="262">
+        <scale x="1.05" y="1.13" z="1"/>
+        <rotation x="0" y="0" z="1.5707964"/>
+        <sprite_file value="slots_013/sprites/nearwin03.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite2" x="428" y="-94" z="0" width="200" height="640" window_state="262">
+        <rotation x="0" y="0" z="3.1415927"/>
+        <sprite_file value="slots_013/sprites/nearwin03.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite3" x="163" y="151" z="0" width="200" height="640" window_state="262">
+        <scale x="1.05" y="1.13" z="1"/>
+        <rotation x="0" y="0" z="4.712389"/>
+        <sprite_file value="slots_013/sprites/nearwin03.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+</Panel>

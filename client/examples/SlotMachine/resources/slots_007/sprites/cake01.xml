@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="cake01.png" width="256" height="256" blend="2" loop="1">
+    <sprite n="00001" x="192" y="2" w="60" h="58" oX="30" oY="32" oW="120" oH="120" dr="60"/>
+    <sprite n="00003" x="174" y="174" w="66" h="66" oX="27" oY="27" oW="120" oH="120" dr="60"/>
+    <sprite n="00005" x="100" y="174" w="72" h="72" oX="24" oY="24" oW="120" oH="120" dr="60"/>
+    <sprite n="00007" x="102" y="92" w="80" h="80" oX="20" oY="20" oW="120" oH="120" dr="60"/>
+    <sprite n="00009" x="2" y="102" w="96" h="94" oX="12" oY="14" oW="120" oH="120" dr="60"/>
+    <sprite n="00011" x="102" y="2" w="88" h="88" oX="16" oY="16" oW="120" oH="120" dr="60"/>
+    <sprite n="00013" x="2" y="2" w="98" h="98" oX="11" oY="11" oW="120" oH="120" dr="60"/>
+</TextureAtlas>

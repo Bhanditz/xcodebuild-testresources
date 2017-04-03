@@ -1,0 +1,877 @@
+26th September 2016
+git svn clone svn+ssh://hakim@192.168.15.30/var/www/svn/dream/chubi/Trunk/Project ./ChubiGit
+
+git svn clone http://bzbfzsvn.iggcn.com/repos/magic_card_deluxe/trunk .
+
+git svn clone svn+ssh://hakim.hauston@bzbfzsvn.iggcn.com/repos/CASINO/trunk .
+git svn clone --stdlayout svn+ssh://hakim.hauston@bzbfzsvn.iggcn.com/repos/CASINO .
+git svn clone --stdlayout http://bzbfzsvn.iggcn.com/repos/CASINO ./casino
+git svn clone --stdlayout http://bzbfzsvn.iggcn.com/repos/CASINO ./casino
+
+git svn clone svn+ssh://hakim.hauston@bzbfzsvn.iggcn.com/repos/magic_card_deluxe/trunk .
+git svn clone --stdlayout svn+ssh://hakim.hauston@bzbfzsvn.iggcn.com/repos/magic_card_deluxe .
+
+use windows cmd!
+make sure no other git processes are running! (e.g: from source tree or smart git)
+git update-ref refs/remotes/git-svn refs/heads/master
+git clean -fxd
+git svn rebase
+
+working:
+git svn clone http://bzbfzsvn.iggcn.com/repos/CASINO/trunk ./casino-trunk
+git svn clone --stdlayout http://bzbfzsvn.iggcn.com/repos/engine ./engine
+
+casino git:
+git branch -m newname // rename current branch to newname
+
+casino build:
+./build.sh pre-dev debug win32 [update_config] [no_syn_res] [no_syn_data] [no_syn_asset] [no_pack_cdn] [no_send_mail] [no_upload_apk] [no_build_jni] [no_pack_apk] [no_update_mk_list]
+
+git svn clone http://bzbfzsvn.iggcn.com/repos/CASINO/trunk ./casino
+git svn fetch
+
+Useful git commands:
+====================
+git svn find-rev $(git rev-parse master) #return; 980 => get the latest revision number from svn trunk
+
+D:\Development\project\Casino\client\examples\SlotMachine\proj.android\bin>jarsigner -verbose -keystore C:\Users\Hakim\.android\debug.keystore -storepass android -keypass android cas.apk androiddebugkey
+
+in local.properties:
+sdk.dir=$ANDROID_HOME
+
+signing apk:
+cd d:\Development\project\casino\client\examples\SlotMachine\proj.android\bin
+jarsigner -verbose -digestalg SHA1 -sigalg MD5withRSA -keystore C:\Users\Hakim\.android\debug.keystore -storepass android -keypass android casino-release-unsigned.apk androiddebugkey
+
+virtualbox:
+vboxmanage list vms
+vboxmanage startvm "ubuntu" --type headless
+
+This worked for me.
+shareeditflag
+	
+edited Dec 15 '15 at 11:56
+MichaelS
+3,61851531
+	
+answered Dec 15 '15 at 11:28
+user3717841
+434
+
+
+Hi Hakim
+account: hakim.hauston
+password: bzbhh0926
+mailbox: hakim.hauston@sharepoint.bzbee
+\\bzbfzfilesrv.iggcn.com
+BZB-EX2010-SRV.sharepoint.sns.com
+
+=============================
+= G I T - S U B M O D U L E =
+=============================
+git submodule add http://10.6.0.19/casinodeluxe/ios_resources.git client/examples/SlotMachine/proj.ios/ios_resources
+git submodule update
+
+Other useful git commands:
+==========================
+git svn clone svn+ssh://hakim@192.168.15.30/var/www/svn/dream/chubi/Trunk/Project ./ChubiGit
+
+git svn clone svn+ssh://hakim.hauston@bzbfzsvn.iggcn.com/repos/CASINO/trunk .
+git svn clone --stdlayout svn+ssh://hakim.hauston@bzbfzsvn.iggcn.com/repos/CASINO .
+git svn clone --stdlayout http://bzbfzsvn.iggcn.com/repos/CASINO ./casino
+git svn clone --stdlayout http://bzbfzsvn.iggcn.com/repos/CASINO ./casino
+
+use windows cmd!
+make sure no other git processes are running! (e.g: from source tree or smart git)
+git update-ref refs/remotes/git-svn refs/heads/master
+git clean -fxd
+git svn rebase
+
+working:
+git svn clone http://bzbfzsvn.iggcn.com/repos/CASINO/trunk ./casino-trunk
+git svn clone --stdlayout http://bzbfzsvn.iggcn.com/repos/engine ./engine
+
+casino git:
+git branch -m newname // rename current branch to newname
+git reset --hard fileserver/develop # discard all current changes in workcopy, everything will be the same as fileserver/develop clean
+
+casino build:
+./build.sh pre-dev debug win32 [update_config] [no_syn_res] [no_syn_data] [no_syn_asset] [no_pack_cdn] [no_send_mail] [no_upload_apk] [no_build_jni] [no_pack_apk] [no_update_mk_list]
+
+Art + Documentation: svn+ssh://hakim@192.168.15.30/var/www/svn/dream/chubi/Trunk/Documentation
+
+to pull from svn:
+git checkout master
+git svn rebase # pull the commits from svn-server
+
+then, to push all commits to svn:
+git checkout develop # never use master branch for rebase's target!
+git rebase master # replay all the commits on 'develop' into master
+//git rebase master --committer-date-is-author-date # replay all the commits on 'develop' into master + keep the commit date
+git svn dcommit # push everything to svn-server
+
+in short to push to svn with selective commit
+git checkout master
+git svn rebase
+#git checkout develop
+#git rebase master --committer-date-is-author-date
+git checkout -b pushing develop
+git rebase -i master #then squash, delete, or unpick commits selectively
+git svn dcommit
+git checkout develop
+
+delete all .svn folder recursively (rather than svn export)
+find . -type d -name '.svn' -print -exec rm -rf {} \;
+
+quickly revert everything back:
+http://stackoverflow.com/questions/1146973/how-do-i-revert-all-local-changes-in-git-managed-project-to-previous-state
+If you want to revert changes made to your working copy, do this:
+git checkout .
+If you want to revert changes made to the index (i.e., that you have added), do this:
+git reset
+If you want to revert a change that you have committed, do this:
+git revert ...
+
+"git checkout ." revert all unstaged changes, to the last checkout state
+"git reset --hard" revert all changes (staged and unstaged), to the last checkout state
+"git reset" merely unstage all staged changes
+
+uncommit the last commit:
+git reset --soft HEAD~1
+
+delete all un-added files:
+git clean -f
+
+if you ever lost commit id or branch, use git reflog:
+http://stackoverflow.com/a/135614/474330
+The easiest way would be to find the head commit of the branch as it was immediately before the rebase started in the reflog...
+"git reflog"
+and to reset the current branch to it (with the usual caveats about being absolutely sure before reseting with the --hard option).
+# Suppose the old commit was HEAD@{5} in the ref log
+"git reset --hard HEAD@{5}"
+You can check the history of the candidate old head by just doing a 
+"git log HEAD@{5}"
+
+git log filter all commits by root:
+http://stackoverflow.com/a/20359396/474330
+-. git config --global grep.patternType perl
+-. git log --author='^((?!root).*)$'
+
+git filter commits where a file was added: http://stackoverflow.com/a/13598028/474330
+diff-filter: http://stackoverflow.com/a/6879568/474330
+-. git log --diff-filter=A -- unity/main/Build/Worktionary.txt // added
+-. git log --diff-filter=M -- *.txt // modified
+
+git search commit-id by commit message:
+-. git log --grep=commit_msgs_regex
+
+git search commit-id by subversion number: e.g: search for R.20713
+-. git log --grep=20713
+
+figure out files changed between two commits:
+git diff --name-only SHA1 SHA2 | grep .unity
+git diff --name-only SHA1 SHA2
+git diff --name-only HEAD~10 HEAD~5
+
+figure out who write a particular function in what revision:
+e.g: find UpdateJetDamage function with the diff
+git log -S UpdateJetDamage --source --all -p
+e.g: find UpdateJetDamage function
+git log -S UpdateJetDamage --source --all
+
+Show all changed file names between two different commits:
+http://stackoverflow.com/a/1552353/474330
+git diff --name-only SHA1 SHA2
+git diff --name-only HEAD~10 HEAD~5 // to see the differences between the tenth latest commit and the fifth latest (or so).
+
+git remove a specific (middle) commit with rebase:
+http://stackoverflow.com/a/13389977/474330
+Let's say you want to remove commit id: 4d19b3d
+git rebase --onto 4d19b3d^ 4d19b3d
+
+create patch for all commits since 918cd15 up to latest commit (sorted from 918cd15 to current)
+http://stackoverflow.com/a/1892773/474330
+git format-patch 918cd15 --stdout > diff.patch
+
+git apply patch from svn: arienaii! use patch command instead
+patch -p0 < 39007.patch
+
+git svn skip bogus commit revision
+let's say the problematic revision is R.4535, and our latest "git svn log" is in R.4535 and there is an error:
+Checksum mismatch: trunk/project/unity/main/Assets/main.sln 95c7ea059999e600e07a0d41f24c17e9b963807c
+expected: 7ef381e06723b5dc76a236a88974f0fc
+     got: 4deb9678c5db75a50c80ce44115ca68e
+do: 
+git svn fetch --ignore-paths='trunk/' -r4535:4536
+afterwards, to resume, do:
+git svn fetch
+
+http://stackoverflow.com/questions/1880405/can-different-git-svn-clones-of-the-same-svn-repository-expect-to-be-able-to-sha
+git svn init svnurl
+git update-ref refs/remotes/git-svn refs/remotes/origin/master
+
+git svn checksum mismatch solution:
+for example, checksum mismatch on unity/main/Assets/Resources/GameData/GameData.bytes
+do:
+1. git svn log unity/main/Assets/Resources/GameData/GameData.bytes
+2. from the output, see the last revision before this current revision, let's say output is this:
+------------------------------------------------------------------------
+r36020 | weiyi | 2016-01-08 21:30:03 +0800 (Fri, 08 Jan 2016) | 2 lines
+
+- latest char func balances
+
+------------------------------------------------------------------------
+r36014 | erny | 2016-01-08 18:49:47 +0800 (Fri, 08 Jan 2016) | 2 lines
+
+Modified: [event_area_base_server csv] updated event unlock requirement (one-by-one instead of 5-by-5)
+
+------------------------------------------------------------------------
+r36011 | weiyi | 2016-01-08 18:34:13 +0800 (Fri, 08 Jan 2016) | 2 lines
+
+- latest player class up progression data
+
+------------------------------------------------------------------------
+r35918 | weiyi | 2016-01-07 11:21:09 +0800 (Thu, 07 Jan 2016) | 3 lines
+
+- tune append to make it more readable
+- increase finger tap size
+3. git svn reset -r36014 -p
+your git-svn will now be pointing to r36013
+do git svn rebase again
+
+git checkout .
+git clean -fd #remove all local modifications
+
+#git rename tag
+#http://stackoverflow.com/questions/1028649/how-do-you-rename-a-git-tag
+#git tag new old
+#git tag -d old
+#git push origin :refs/tags/old
+git tag push/2015/01/19 push/150119
+git tag -d push/150119						# delete local tag
+git push origin :push/150119				# delete remote tag. Important so that tag doesn't reappear on next fetch
+
+pushing to git bare without checkout:
+git svn fetch
+git push origin --all
+
+maintenance - repacking and prune to compact the repo:
+git repack -Ad      # kills in-pack garbage
+git prune           # kills loose garbage
+
+git gc || rm -f .git/objects/*/tmp_* 
+
+generate daily-delta for 26th February 2015:
+git log --after="2015-02-25" --author=hakim > yandhie.txt
+cat ./yandhie.txt | pbcopy
+
+ssh 192.168.15.30 -l username
+
+========================================================================================
+= retrieve debug log from Android									                   =
+========================================================================================
+ref: http://stackoverflow.com/a/15559278/474330
+ref: https://github.com/nelenkov/android-backup-extractor
+adb backup -f chubi.ab sg.dreamrocket.chubi
+abe unpack chubi.ab chubi.tar
+
+========================================================================================
+= Easy way to verify large number of unpushed commits after a rebase                   =
+========================================================================================
+ref: http://stackoverflow.com/a/5863452/474330
+assume the latest commit on "develop" is 43a4001, the last pulled "master" where it is based on is 2072fe1
+assume after "git rebase -i master" tip of develop is at b4810c4
+-. git log --pretty=oneline 43a4001...2072fe1 > pre.txt
+-. git log --pretty=oneline --author=hakim b4810c4...2072fe1 > post.txt
+you can then verify or keep pre.txt and post.txt for record
+
+ref: http://stackoverflow.com/a/1441062/474330
+ref: http://stackoverflow.com/questions/1441010/the-shortest-possible-output-from-git-log-containing-author-and-date
+get all my commits in a file:
+git log --author=hakim --pretty=format:"%H %an %s%x09[%ad]" > hakim.txt
+
+========================================================================================
+= Easy way to verify large number of unpushed commits after a rebase                   =
+========================================================================================
+http://scmadmin@192.168.15.87:8080/scm/git/pikogit
+
+git backup everything to a bundle file, assuming the tip of the head is 'develop' branch:
+-. git bundle create repo.bundle develop
+restore to bare repo:
+-. git clone --mirror repo.bundle ./barerepo.git
+
+copy directory locally via rsync
+rsync -avh --stats --progress /src/chubiproj/ /mnt/1TB/scm-repositories/git/pikoclone/dest/
+
+reboot remotely via ssh:
+ssh -t dreamrocket@192.168.15.87 "sudo reboot"
+
+netstat -ln | grep 8080
+
+===============================================
+=            build from fabfile               =
+===============================================
+fab -f fabfile-hakim.py hakim_dev hakim_unity_android_autobuild_full:'/Development/svn/Hakim/ChubiGit',40883
+fab -f fabfile-hakim.py hakim_dev hakim_unity_ios_autobuild_full:'/Development/svn/Hakim/ChubiGit',40883  
+
+install gitlab-ci runner:
+https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/osx.md
+
+================================================
+=            Handy unix commands               =
+================================================
+directory size: http://unix.stackexchange.com/a/185767
+du -sh *
+
+================================================
+=                .git/config                   =
+================================================
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[svn-remote "svn"]
+	url = svn+ssh://hakim@192.168.15.30/var/www/svn/dream/chubi/Trunk/Project
+	fetch = :refs/remotes/git-svn
+[remote "origin"]
+	url = /Volumes/Share1/Ninja/repo/chubigit
+	fetch = +refs/heads/*:refs/remotes/share/*
+[branch "lastknowngood"]
+	remote = origin
+	merge = refs/heads/lastknowngood
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+
+===================================================
+=                SVN HANDY FUNC                   =
+===================================================
+remove all untracked files:
+svn status | rm -rf $(awk '/^?/{$1 = ""; print $0}')
+
+revert all working copies:
+svn revert -R .
+
+switch back to old revision:
+svn up -r38818
+
+switch to trunk
+svn switch ^/chubi/Trunk/Project
+
+switch to other branch
+svn switch ^/chubi/Branches/1.03/Project
+svn switch svn+ssh://hakim@192.168.15.30/var/www/svn/dream/chubi/Branches/1.03/Project
+
+cherry pick a revision from trunk to branch:
+1. make sure you are checked out (switched) to the branch and on its head
+svn switch ^/chubi/Branches/1.07/Project
+svn up
+2. this is equivalent to cherry pick --no-commit R.41074
+svn merge -c41074 ^/chubi/Trunk/Project	# cherry pick revision 41074 to the working copy (branch)
+3. do svn commit!
+
+
+svn create patch from a certain revision (39007)
+http://stackoverflow.com/questions/15031729/svn-create-patch-from-committed-code
+svn diff -c 39007 . > 39007.patch
+svn diff -c 39007 ^/chubi/Branches/1.03/Project > 39007.patch
+
+svn apply patch previously created (39007)
+svn patch ~/Desktop/39007.patch .
+
+===============================
+= C A S I N O  -  D E L U X E =
+===============================
+slots_001 Volcano
+slots_002 Spartan
+slots_003 Disco Dolly
+slots_004 Spooky Spinners
+slots_005 Jackpot Diamond
+slots_006 Zeus Wild
+slots_007 Kitty
+slots_008 Buffalo
+slots_009 Oriental Dragons  
+slots_010 Black Knight
+slots_011
+slots_012 Fairy Queen
+slots_013 Sex and the City  
+
+slots_1001 Rock Age 2
+slots_1002 Tipsy Tea Time 2
+slots_1003 Happy Farm 2
+slots_1004 Jade Lotus 2
+slots_1005 Road to Oz 2
+slots_1006 Meowing20 2
+slots_1007 Reel N Spin 2
+slots_1008 King's Ransom 2
+slots_1009 Tut's Gold 2
+
+Couchbase server:
+To remove:
+remove databases on /Development/couchbase
+remove Application Support on ~/Library/Application Support/Couchbase
+
+Install:
+couchbase-server-community_2.2.0_x86_64
+run and choose Open Admin Console
+setup and choose database path and indices path (both should point to the same folder)
+Server hostname should be default: 127.0.0.1
+choose start a new cluster and specify your ram quota (1024 - 2048 is recommended)
+Create default bucket (no way to skip it)
+specify admin username and password
+wait 'til server is up
+go to "Data Buckets"
+delete of the "default" bucket
+Create new data bucket, specify "Game" as bucket name and "Couchbase" as bucket type, 256 MB RAM, Access control Standard Port, NO replica, everything else default
+Create new data bucket, specify "Session" as bucket name and "Memcached" as bucket type, 256 MB RAM, Access control Dedicated Port: 11212
+Open /SvnProjRoot/Server/Server.sln with Xamarin, and Run Debug
+-. create views:
+1. go to server.sln and open web.config, modify <couchbaseCluster></couchbaseCluster> sections with your username and password
+2. run from your browser: http://0.0.0.0:8080/chubi//json/reply/AdminCreateViews
+Open unity, change connection settings to Local and run
+
+known couchbase doc, need to delete all these when deleting user:
+1. username_theusernameinlowercase : eg: username_kbhdtpm13uf/mp/lizkedauq6m8= => binary data
+2. user_bdff2a68-b9c9-4aac-96a7-2322b3657f54 => keep the player facebook id, and player id
+3. s_player_4892c758-6a21-47af-9bbf-201b596d1a53 => the player id from 2.
+4. fb_facebookidnumbers => the facebook id and player id linkage
+
+to restore db from backup:
+HakimHauston$ cbrestore ~/Desktop/2016-01-28T000001Z/2016-01-28T000001Z-full/ couchbase://127.0.0.1:8091 --bucket-source=Game -x rehash=1
+
+gameserver project host:
+DreamRocket.Game.Host
+server process in xamarin debug:
+mono-sgen
+
+For errors running the game because of game data (ie: LoadProtoBuf related errors or NullReferenceExceptions in Game.Server.ServerGameData)
+1. run ./cleanscriptassemblies.sh in ./unity/main/Build
+2. open up xamarin studio, switch to UnityRelease, Rebuild project
+3. open up Unity, WAIT for the import to finish, filter out game_message_loc_server in Project View, right click and Reimport
+4. WAIT for the entire Reimport to finish, go back xamarin and Rebuild
+5. Go back to Unity and wait for the importing to finish, wait to make sure since this importing may have another round of processing indicated by the beach ball even after the unity progress bar is finished
+6. Go back to xamarin, switch to debug and Run the project
+
+about the view:
+[23/11/15 4:43:24 pm] Hakim Hauston: there is list all user and player summary in the views
+[23/11/15 4:43:55 pm] Hakim Hauston: but not sure if it is working or did I use wrongly, it never shows all user in the list
+[23/11/15 4:45:30 pm] jocke: can we make it so that the deploy script calls AdminCreateViews after admin service has been deployed?
+[23/11/15 4:45:55 pm] jocke: hakim... are you in development views?
+[23/11/15 4:46:02 pm] jocke: it will only show a subset of documents there
+[23/11/15 4:46:11 pm] Hakim Hauston: ohhh, I was accessing the view from couchbase admin console
+[23/11/15 4:47:02 pm] jocke: if you go to views
+[23/11/15 4:47:03 pm] Hakim Hauston: yeah, it shows one random document, then the code, and if I click on filter result, it shows null - undefined
+[23/11/15 4:47:19 pm] jocke: player summary is using map reduce
+[23/11/15 4:47:30 pm] jocke: you need to go in and change the filter
+[23/11/15 4:47:51 pm] Hakim Hauston: oh I see, the ListAllUser works :)
+[23/11/15 4:47:54 pm] jocke: set reduce to FALSE
+[23/11/15 4:48:35 pm] Hakim Hauston: ahhh, now it works :)
+[23/11/15 4:48:38 pm] Hakim Hauston: thanks jocke :)
+[23/11/15 4:48:44 pm] jocke: np :)
+
+getting all player summary from view
+on couchbase admin, go to views > PlayerSummary [_design/dev_game/_view/PlayerSummary]
+on the Filter Results, key in the followings:
+startkey: [2, 1]
+endkey: [2, 3]
+reduce: false
+stale: ok
+close, then click Show Results
+
+staging server:
+[23/11/15, 4:48:33 PM] Moses Liao GZ: http://52.192.69.191:8091/
+[23/11/15, 4:48:39 PM] Moses Liao GZ: staging couchbase
+[23/11/15 4:49:26 pm] Ong Kwang Seng: for those that needs it :)
+[23/11/15 4:49:37 pm] Hakim Hauston: pw? :)
+[23/11/15 4:50:03 pm] Ong Kwang Seng: try dream rocket, rocketstart
+
+list all server nodes:
+http://127.0.0.1:8080/Chubi/Metadata
+
+Commits:
+464caec6d70664835e9bd29fe6fe1b942a4b4978	ui: bluetooth input passcode [141205]
+58f3228ad3ec1a07fb602f52ed998a9899e7bbf9	bluetooth: client side passcode verification done [5 December, 2014 5:44:09 pm GMT+8]
+8466da24d3d2ee697b3dd127794b59b0e03cbd59	mp boss take animation: touch slot to trigger boss take by friend, untouch to trigger boss take by you
+464b292dbdb188e711a37700f6b2cb0dc0e7aacc	bluetooth data compression [150819]
+5983fd01bbb3e89855b7e4c65360b6a40ff7ffa2	bluetooth data compression using IonicZip [150819]
+b3fe93f365af5f6536258eb9bd5470e2df63b43b	nearby and photon: join lobby and play game [150915]
+
+368176ce0cda8c98973b2514aedb93d64da1c82d	game data version check on the server
+
+dev server couchbase:
+http://192.168.15.175:8091/index.html#sec=buckets
+dreamrocket
+rocketstart
+
+==========================================
+=              Server Test               =
+==========================================
+AdminTestMultiplayerRollReward:
+Post: http://192.168.15.188:8080/chubi/AdminTestMultiplayerRollReward?PlayerId=player_af1deca5-bb64-4355-ae4e-002dd32e48b6
+Params: PlayerId - player_af1deca5-bb64-4355-ae4e-002dd32e48b6
+
+Helper cheats:
+PlayerHelper.ConsumeElixir
+StageMonster.OnDamage > multiply attackPower
+StageLogic.UpdateStageTimer > do not update stage.PlayTimer
+
+
+=============================================================================
+=              service_conf to redirect to development server               =
+=============================================================================
+http://127.0.0.1:8091/index.html#sec=documents&bucketName=Game&documentsPageNumber=0&docId=service_conf
+
+{
+  "MaintenanceDate": "2016-02-05T11:45:00.0000000Z",
+  "VersionUrls": {
+    "0": {
+      "ServiceUrl": "http://192.168.15.170:80/chubi/",
+      "AssetsUrl": "http://s3-ap-northeast-1.amazonaws.com/chubi.dev",
+      "NoCacheUrl": "http://s3-ap-northeast-1.amazonaws.com/chubi.dev.nocache"
+    }
+  },
+  "iOSVersionUrls": {},
+  "AndroidVersionUrls": {}
+}
+
+How to rebuild android plugins: (for nearby device lib)
+===============================
+1. Start Android Studio and open project, point to this directory: ${GIT_ROOT}/thirdparty/AndroidNativeGradle
+2. Rebuild all
+3. Open Finder and browse to: ${GIT_ROOT}/thirdparty/AndroidNativeGradle/nearbydevices/build/outputs/aar
+4. Rename nearbydevices-release.aar to nearbydevices-release.zip, then extract
+5. Rename the classes.jar to nearbydevices.jar and copy it to ${GIT_ROOT}/unity/main/Assets/Plugins/Android/nearbydevices.jar
+
+How to rebuild android plugins: (for android native lib)
+===============================
+1. Start Android Studio and open project, point to this directory: ${GIT_ROOT}/thirdparty/AndroidNativeGradle
+2. Rebuild all
+3. Open Finder and browse to: ${GIT_ROOT}/thirdparty/AndroidNativeGradle/androidNative/build/outputs/aar
+4. Rename androidNative-debug.aar to androidNative-debug.zip, then extract
+5. Rename the classes.jar to androidnative.jar and copy it to ${GIT_ROOT}/unity/main/Assets/Plugins/Android/androidnative.jar
+
+=======================
+= Mac cleanup folders =
+=======================
+-. ~/Library/Developer/Xcode/DerivedData
+-. ~/Library/Developer/Xcode/iOSDeviceSupport
+-. /private/var/vm/sleepimage // todo: http://apple.stackexchange.com/a/50272
+
+==========================================
+=              Unity3D	                 =
+==========================================
+Application.persistentDataPath:
+UNITY_EDITOR: ~/Library/Application Support/Dreamrocket/PIKO
+IOS: /var/mobile/Applications/C5159072-EDFF-4EAA-9437-4E726E07AA07/Documents
+ANDROID: /data/data/sg.dreamrocket.chubi/files
+
+Sample of repointing git-svn to the tip of origin/master:
+=========================================================
+Benjamins-MacBook-Pro:ChubiGit HakimHauston$ git checkout -b develop --track origin/develop
+Branch develop set up to track remote branch develop from origin.
+Switched to a new branch 'develop'
+Benjamins-MacBook-Pro:ChubiGit HakimHauston$ open .
+Benjamins-MacBook-Pro:ChubiGit HakimHauston$ git update-ref refs/remotes/git-svn refs/remotes/origin/master
+Benjamins-MacBook-Pro:ChubiGit HakimHauston$ git checkout -b test master
+Switched to a new branch 'test'
+Benjamins-MacBook-Pro:ChubiGit HakimHauston$ git svn rebase
+Partial-rebuilding .git/svn/refs/remotes/git-svn/.rev_map.5767cc69-f3c9-4925-ac53-cc9f25cf8f24 ...
+Currently at 40549 = 15133a823daf79a2c8abac641eb3769d62886627
+r40524 = e36a8d1f2955f31c200dfd16435e5a539ddb045c
+r40525 = 640198d5dc35bc8d6fe11dbf8b055ad1e6888f82
+r40526 = e4bf20f5df058ffc490d3f4f4b5e940999ceeb66
+r40527 = 8d6f5f92ec953b87b513a5146470a346f84424e1
+r40528 = f2f2e58755d91dea64f8a16725b2c3d6c28751f3
+r40529 = 441470c2e37bdf7bc13d708ac8100ad9956924aa
+r40530 = e74ddd7671730f5d249bed73dcdcf43acd7a1847
+r40531 = 9e809d52ed88e6984fede06cc8d7e48b8f604a72
+r40532 = 09a50e6e7d8d8e8a4d55df5f8cf81aa74fd7254c
+r40533 = 9f252a0fbd457f6980b99ad432e74229fb1d0861
+r40534 = 57efede97139b9a0d818dcc94d8a45fe06fa9da3
+r40535 = 3a41f4c449dff0cf930acf989a9bb3359d36cd6a
+r40536 = a50917f06d8a59059501ec9a8540b08a7596b34c
+r40537 = 375c4040f4dfc539d3197a849c2b51ac310ea056
+r40538 = d9cdaf39b86ec4925d907fff32d885b3fb8d6075
+r40539 = de734ef16b0350abb7e965f6df20221ea1af7b52
+r40540 = 21a101db2641c627c50641a334c8192b3fbf02a2
+r40544 = dae33390f152899b47eef75ada5fc63a72477c45
+r40545 = 8887f7935cc167b16696fb8d7b44922132d1c342
+r40546 = 9182ceba0ef3af1e6dce7ac33f2c0e86a47a7195
+r40547 = ff3f0d7714b55dd9a5d70fec89be928f2bb5f9e0
+r40548 = bdb221fb93e7748c73ff1113e22253a920369be8
+r40549 = 48519cf683992b0a03355ea101d40b3398fe786c
+r40550 = e4d4acaaf2d7b5464c791f7cb657fe3e9728aedf
+r40551 = 3561c043b1aaa3f6cf1c21008c2eb8dac9aab8b1
+r40552 = c3727fec554ff610d8e17080a8bd9e87c2834e2e
+r40553 = eaf77a8fc80f4e44ba657f0959f899677f75a951
+r40554 = 6796a9cbae081812905546eb339d0491e831ea6d
+r40555 = dca9568f00b684963ac6be1c24cfbcd3146107f6
+r40556 = fbe65e5154d17766e65c66d0ecc265b6f10124f9
+r40559 = 00e7cf2ed2f1862749eef45605910e87d540ce9a
+r40560 = 4807b2638c0d2e1c0347ef9880000fb3f00e22fe
+r40561 = df03e9e03f361f4c91d9f8e09097e6cf2074722e
+r40562 = 7fb06f8dcaa13e776407cc651de8c1e4cf93eccf
+r40563 = ee64392ffbffabcd0ac432361afe7fca41e67949
+r40564 = ee6f5a8cd8c303d58e0b095b3c2ef9f06c6ef32c
+r40565 = c1ece966f5a233db16192bc8bd71620d33be88a8
+r40566 = 9e951d093729bffc38d81601e98ff226eb70efb9
+r40567 = 0fc648a15c50be4296db836ed5adafeaa48356a0
+r40568 = 3c9f3b78e0b56c5bc0b84a0e754456a990705918
+r40569 = 8c0d9848c38fdee44dfe21fe12f65e03a791c3f5
+r40570 = 1390143d52170699ea29fb918f2a96541ba39ffc
+r40571 = 49b91cd2990947271962b18bb7a66016290d65ba
+r40572 = 643cb33be43e27d7613c6255068720b844c70208
+r40573 = a67b18c3c015379490f947ed9f9caa3cea7f95da
+r40574 = 8bcd23beb73358659876d497d764a11f033e0b56
+r40575 = 6f6132f59f93d7136094b60c2a97bc1443e52074
+r40576 = 276b725eaa9dd0194cd20f4efbb5040dc7e13859
+r40577 = 7fdf79f76e454e691f68895f0ddec3f553bc337a
+r40578 = 602a756ef507e2fc02ced6d0cb952384c9fdd7b4
+r40579 = bc73668018f8589331c7e1151df7acb9924b8886
+r40580 = dc4d82709f667635635b4525c06fca205f3aa608
+r40581 = 6ca2d65ddbe846533553cee525777123f6179c02
+r40582 = c2d085385ef845abd519842d683cd41ac3cfbf0d
+r40583 = 7c3c7eb85291dec4be57b8174082720bf51d6387
+r40588 = 0ffd54e05dfababe289329d90acf45708cb2eb4c
+r40589 = e0904e353e7cf83013b6199821ac376761b13711
+r40590 = aca78595170977d18f48c0d18614093a20687fc3
+r40591 = 31e7c63bded48092c2cf977ae5bfd5e5c3cfa560
+r40592 = 1abb9e34411d32927e1e78079c8ed10a417f05a4
+r40593 = a2977e084b8639a4e7b6861b67b6f7c1ad94ea9f
+r40594 = 3787d9a1f60bd53cfd4cef49cd98c128863fdb64
+r40595 = f1f73e1bbf107e96de57739be429d9c35b2b65e6
+r40596 = a3a125bbfd5505578fd52b16148a31a74d90b973
+r40597 = b22da6a047513a7bca6306b6856570b9aa404301
+r40598 = a5310621cc07b518dd2bb90f3da7d549f5dae79f
+r40599 = 200dd8bb82f421201aee1202598e15a0ad2502ed
+r40602 = f2ff7d5749a6d8a97d79e6b2785c8c7c700d152c
+r40603 = 1771e4d3ae80589381014aace3faa2d0953f5d1b
+r40605 = c9547bffa59aef35f11ed7dbbea6b214714d0dd6
+r40606 = 2180ef565bb01accf08e26dd03ceb47c67daab32
+r40607 = 430a8f836cee0a421a03342bb58a892a35eec9f2
+r40608 = 613756a083d9af9b39397306aeaf40c72f009e22
+r40609 = 858abd2eb3c07d1980d832570a6b035f5365eae9
+r40610 = aef6bafcaab65e1bbc6df5a462aa05fb269e403b
+r40611 = 1430883f0dd0f4672f915ec54008398f87422438
+r40612 = a250c3f389d72c047495c19dd8a85aba381557e6
+r40613 = 8aeb8e8d3d350e594c43fcc51b74610ecc5aba8d
+r40614 = 953ec490af335c7850f98e12d176d420fb719063
+r40615 = 0233ef8088aac3fbaacc4065174350d7afd8ed65
+r40616 = 68620fa422b03a541ca292893ab6499b74243ba7
+r40617 = 7834d06cb9994248306030029f2747d2c3f903de
+r40619 = deb8b226fd459b7d5ac60a774591d83aab463e8b
+r40620 = ffec929506d15b9e3cf66760e316104b3cd0bef2
+r40621 = 1eb79112825a540d37b55d96ed6d5b77f6d0afe7
+r40622 = bed9f5bb088006d9b00f0f8a7301db2d0d408d66
+r40623 = 9d4a4175e55629b9ba22effaade8f8f8ffd51cd8
+r40624 = 4c33595a55813045550723f426e26044742345d9
+r40625 = d55ef7e86783836db961f7569bdc709e513345aa
+r40626 = e93b5dfc5c8537625e5f8b3f77b753182f21b570
+r40627 = ecaea86b5ac238c5b2d7c7caf3a4e0b291002258
+r40630 = 9bf0be92dda5fd5d8ba646fd81f9827ddf8f520f
+r40631 = 4494a616a8c9a193eb32b8b6b825c7feb15bc041
+r40632 = 0895a38bbb5c8049662297087b4219c8988992bb
+r40633 = 6bc55b0feb7ea3949f35e2a4178d445ef90f57c7
+r40634 = 14742971b02aaa3d7a850324d09860a8a5926693
+r40635 = 3aab8a6eeeaf3da83636520d48f80984be537f14
+r40636 = fd7944732e8eebda8c3aae8905e7f37ccfd88912
+r40637 = 624a8767ff236854c66a6f155ab78b0ac095e3ab
+r40638 = 43b7f46c2265258490219b623b8a5243a14cb230
+r40639 = 43fad994ac2ce6a22be5cc36cec12eb32166f78e
+r40640 = b15d3ddbce9088502d56d318713dd15ab7ca9027
+r40642 = fafcff4384d19bd6b42254e2e8a33efb2c9a0d18
+r40643 = b5aaa36ecd5764f4a34f522eac67767c548e9a44
+r40644 = 8609e1d9c43cb98ed45004be2e19c8f069744ec3
+r40645 = 39cddb61df55523693bb57d6e1d0bc3d2aaa4cc2
+r40646 = 780f278eda5bd4bd0c77cf7cbfecd5b527959c04
+r40647 = 30d609e6b7f596f0ea516a09adac7b2e101bc11e
+r40648 = 3d4b1e9d295f3d1712fbad9e0e599d9d102994b4
+r40649 = d7cf94b51d2e586e1e84c9c109d0491d0bdd06e2
+r40650 = 23a42d6d858129d0e4fddcc5291f5444468f3c0c
+r40651 = 69d81e47f1a6aa3ade1df6aedb8f75d6ed0a2f8c
+r40652 = 8ec5ed5f7da39ca5f460635cd5827abfc92cfecd
+r40653 = a03c62a43de332a1e1213df02bb7b1e3b55f7bfd
+r40654 = 56e645d84118722e7269f2f0eabba69c81b90be2
+r40655 = e963366c06423d1d172ea7e4f727a342bb95a788
+r40656 = 223dca3658d5c86408f5cfaa16282406fb52097d
+r40657 = 0926e267769a798981716399f559fba1000bfccd
+r40658 = df1ec4b8fd6fa4a8bfe499626b349052adc31519
+r40659 = ac1f954eea3d851ae16ca94f347e5fe44f4c5a6e
+r40660 = a1fd2df68fddefac02af09b62821ce0dc04a7a4f
+r40661 = a51a2c7b57204f29123b206c2b0e3783f45deb56
+r40662 = a6d52d305666d7de0217c07d0638ff709a823fc2
+r40663 = 005a1453e858431b5723bc52378202d34bf16429
+r40664 = e668799a7d7395879c165263730a0c7a07fbafc3
+r40667 = c3e87438df928df8334e379514622f57af1a6510
+r40668 = f35bf3259a80794720d4f18819f2273ed7f3a3ee
+r40669 = c56598da96b765d395f13f99e80e700ad2b2bdbb
+r40671 = 694d220631061c1f35d8fa40101a8ee2c20eb21e
+r40672 = 4cd63019d8295f9293fa07983eb210118f360741
+r40673 = aab4ed611e68f781522907dd3a70699146db5ab9
+r40674 = e7484d2a3d3cad205dab6d5f90d014fbe05e9a7b
+r40675 = b58fa5a04ea9a3ffef79c7dd18273aee09630158
+r40676 = 1101316a20e9886aa103de7dacc49dd85de48cc4
+r40677 = f3b1aaa609f327551ff5123f3a1fe7d7459c9dea
+r40678 = d19e3c4842b83c396ad6217111c0a611f86ba818
+r40682 = da835df3877376c6eb39b834ede27b2f2d71a09b
+r40692 = ee28a36e46796e212d4c32dbf225935799b4acab
+r40693 = 954927bf4dacb41a8a03bd9da3157a27c828905a
+r40694 = 8ac08f5069d6095def1d909a5032cf9d32fab817
+r40695 = 09428823cd2716d47a43dca94f62d865464ef864
+r40696 = 1719f2c92783811d9b98b1bc4b730d90c11bb7b6
+r40697 = 3ca85c05970eed8ee2008de73fb811541c05a283
+r40698 = 705f8014f5cce2e5d7a18f07dad59abb2d1f7e60
+r40699 = 0bcf4cf3ddaf26b63754eb6b5c44da492e4eeb71
+r40700 = c0e0cf5d0c2a0da32f3f20d8b917143c9c4b4b3e
+r40701 = 31b24c23c70fa5caf114f096588eb65180b7f340
+r40702 = 0b5c53da3e0abe1f182c803b34b60c64f6cb1d31
+r40703 = c4b6b369ac8897c4909cf6f710ed7666d156ae98
+r40704 = 244a918a02ddf78fdb4f7107042986865e21c3f2
+r40705 = 23c64a8fc16e63ca5c9b9fd6fcb0ddf512b089ee
+r40706 = 620d5938d5cfed38b34506823058416714e508a7
+r40707 = bc41afe19fd47f5c4abe44bd47e0577d76dea594
+r40710 = 99fd1373a7b7c6ba503e304806a82464a6f3d97e
+r40711 = 8fad3af7a98f4536a871be6ca0ac598f58ee9bf2
+r40712 = 7bfb2b4b37230984cd707bb547a96d9d66eb7050
+r40713 = 4d4043b098ed3d5d0f9b4e0210b39bd64931c378
+r40714 = 474a274b140fd0857962a2256914af4fa4c47ea7
+r40715 = e072dfa973a9acdb9cc2f5a1a3e6ceda13fbcdbc
+r40716 = 0031e843da2eb43afe1f8d7a5255dd0e72139c5c
+r40719 = df1fae81aae75b6b95c8d42461c24659d63c2d44
+r40720 = 3713c2f0a2aec16c2a39258b8f7dd042a1ea2580
+r40721 = 050cddc9c004858bfcf92f9ad778a833fc568f8c
+r40722 = 96ced18c4dff6db74f14a8a7bfa9083f93343f9e
+r40723 = 01238ec2c1ba290b07ac622b00f35a7b698ad67f
+r40724 = 0658b4576477eb75073b5e4f817752f6ce7adabb
+r40725 = 054ae651e166e987298459a8d1ece3177ae0496d
+r40726 = 1633f493d4767aee518adc7b76f0bdd4fe0ee9b3
+r40727 = ba6c31e4534d2d23bdf3d2ba37f854ccf0a1cfaf
+r40728 = a0f6c609c6a6461036773769c8c25f18375743f9
+r40729 = 346e441d4dbc3f1c034fb7d00f8e35b83eab0513
+r40730 = dc80eef58813c9a92e3e8e4c8f88eb9f034968c3
+Done rebuilding .git/svn/refs/remotes/git-svn/.rev_map.5767cc69-f3c9-4925-ac53-cc9f25cf8f24
+hakim@192.168.15.30's password: 
+svnserve: warning: cannot set LC_CTYPE locale
+svnserve: warning: environment variable LC_CTYPE is UTF-8
+svnserve: warning: please check that your locale name is correct
+Current branch test is up to date.
+creating empty directory: Store/Store.Application/ClientServerCommon/Leaderboard
+creating empty directory: thirdparty/Android/adt-bundle-mac-x86_64-20131030/sdk/temp
+Benjamins-MacBook-Pro:ChubiGit HakimHauston$ git checkout develop
+Switched to branch 'develop'
+Your branch is up-to-date with 'origin/develop'.
+Benjamins-MacBook-Pro:ChubiGit HakimHauston$ git branch -D test
+Deleted branch test (was dc80eef).
+
+==========================================
+= Communication infrastructure research: =
+==========================================
+Google:
+Nearby Connections API
+-. gotta join the same wifi network
+
+Nearby Messages API
+-. uses bluetooth and internet to relay messages
+-. force turn on bluetooth on android even without declaring bluetooth permission
+
+Apple:
+Bonjour
+-. classic bluetooth via input and output stream
+
+Multipeer Connectivity
+-. uses classic bluetooth, wifi infrastructure and ac-hoc/peer to peer wifi to send data
+-. data sent as messages, stream or as resource
+
+Android Plugin
+[27/8/15 12:03:47 pm] Weiyi: Android Library projects should be added as a subdirectory in Assets/Plugins/Android, for example Assets/Plugins/Android/myandroidlibrary. It must contain project.properties file with android.library set to true, and AndroidManifest.xml - in that case it is recognized as an Android Library.
+
+Then goes the manifest merging logic.
+If you have your own manifest here: Assets/Plugins/Android/AndroidManifest.xml, it is taken as the base one, otherwise Unity default manifest is used as the base one.
+
+Next, it gets merged with all Android Libraries' manifests.
+
+Last step - properties, uses-features and permissions are set.
+
+Hope that helps. (I would probably need to write a blog post on this topic).
+[27/8/15 12:04:13 pm] Weiyi: from here http://forum.unity3d.com/threads/obsolete-providing-android-resources-in-assets-plugins-android-res-is-deprecated.315889/
+
+OpenUIPanelQueued( eGuiId, eGuiControl, callbackAction );
+1. Awake
+2. callbackAction
+3. OnPreShow
+
+To get children game object by hierarchy:
+Transform t = uiRankingBar[i].transform.Find("RankingBar");
+Transform t = uiRankingBar[i].transform.Find("MyBlock/main");
+
+troubleshooting:
+unity crash upon opening scene: delete Library folder under unity/main/
+
+bluetooth le keep disconnecting iOS:
+http://stackoverflow.com/questions/21501208/ios-ble-peripherals-keep-disconnecting-immediately-after-discoverservices-is-cal
+
+how to debug as other user from unity editor:
+1. get the player's user name from Settings, eg: d2fba444-3c59-4022-ba1f-e7ff87ddc3a6
+2. go to couchbase and get the player summary document, eg: http://127.0.0.1:8091/index.html#sec=documents&bucketName=Game&documentsPageNumber=0&docId=s_player_d2fba444-3c59-4022-ba1f-e7ff87ddc3a6
+3. get the user id from player summary document, eg: http://127.0.0.1:8091/index.html#sec=documents&bucketName=Game&documentsPageNumber=0&docId=user_f977e5e5-386b-4014-b77a-0da79567bcf3
+4. you can find the Username from the user_xxx document, put it in Connection.cs > Initialize() and you are good to go, eg: Username = "z7cBqjQ7b3RM3TxACn4oHKoOyQA=";
+
+git grep from log: http://stackoverflow.com/a/7125014/474330
+Put this in ~/.gitconfig:
+
+[alias]
+    find = log --pretty=\"format:%Cgreen%H %Cblue%s\" --name-status --grep
+
+Then type "git find string" to get a list of all the commits containing that string in the message.
+
+Photon reconnect:
+http://forum.photonengine.com/discussion/1882/reconnecting-without-change-scene
+Commits: 
+originals:
+eed9d62605dc5c9b1277bfaa1b2227e6dbcc6fb2 [160808]
+65a0c913eabc2e681e895ed32b5e3da0fb14ded5 [160808]
+
+cleaner without modifying actor id:
+add4af713308825bb7fdeb3a4205b11d2d6f9481 [160808]
+
+understanding scenes within unity:
+http://stackoverflow.com/a/20921194/474330
+
+android start chubi:
+adb shell am start -n sg.dreamrocket.chubi/com.android.AndroidNativeBridge
+
+android kill chubi: http://stackoverflow.com/a/14079584/2496464
+adb -s 5HAMOV4TLVHYEMAY shell am force-stop sg.dreamrocket.chubi
+
+delete all .meta files in current directory recursively: http://superuser.com/a/388030
+find . -name *.meta -print -exec rm -rf {} \;
+
+ios: R3- MA95-NFCC-QVF6-63JW-QC36
+android: R3-E5YE-F84N-29FT-56JG-28QQ
+
+bluetooth port: server: http://stackoverflow.com/a/13363524/474330
+bluetooth port: client: http://stackoverflow.com/a/22193499/474330
+
+try repairing: http://stackoverflow.com/q/13648373/474330 [BluetoothSocket.connect read failed"]
+https://android.googlesource.com/platform/frameworks/base/+/9a7debe5857ffc7c71cfc4082b1b6d72a5cf81cd/core/java/android/bluetooth/BluetoothSocket.java
+
+wips:
+150227: confirmation id: git cherry-pick 91ae1e6 --no-commit [91ae1e66ce15557508b96c6f4b9ab1d4a7a5d939] [wip/confirmationid]
+		-. merged on 150302 [24541962908c2a95e9d6e3522d911a25132c17f4]
+
+cheats:
+multiplayer: collaboration: 89f7bc10a98a0e94e930c655f558c4a60aa2c2b0
+multiplayer: lobby: 150305: fc44aa9b8d89161e261008d80867050e4707cf86
+
+150330:
+Kuroiwa's iPhone iOS4: Player ID: bfc6c5ae-dbd5-4b53-b5ef-a63ac878fe5b
+DreamRocket's iPod iOS5: Player ID: d2fba444-3c59-4022-ba1f-e7ff87ddc3a6
+WeiYi's iPad iOS6: Player ID: 4aac8866-f7de-4147-b6bb-a74430bd11ac
+[UISetting] OnShow PlayerId: 4aac8866-f7de-4147-b6bb-a74430bd11ac
+
+150317:
+Multiplayer hero by color
+https://docs.google.com/a/dreamrocket.sg/spreadsheets/d/1pdM_U3XANv6aAxr27vl9n0oBkcl9EguJlMaUBKUBXAE/edit#gid=635082735

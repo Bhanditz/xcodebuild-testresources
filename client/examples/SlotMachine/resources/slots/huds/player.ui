@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Slot007" x="0" y="0" z="0" width="1136" height="640" window_state="260">
+        <piece_info value="slots_demo01"/>
+    </Picture>
+    <Picture id="m_Slot005" x="0" y="10" z="0" width="1136" height="640" window_state="260">
+        <piece_info value="slots_demo02"/>
+    </Picture>
+    <Picture id="m_Slot006" x="0" y="0" z="0" width="1136" height="640" window_state="260">
+        <piece_info value="slots_demo03"/>
+    </Picture>
+    <Picture id="m_Picture" x="-2" y="-5" z="0" width="1150" height="650" window_state="6">
+        <piece_info value="slot_player_bg01"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Button id="m_Button" x="489" y="241" z="0" width="158" height="158" window_state="262" style="bs_slot_player_btn01">
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="m_LblGame" x="249" y="470" z="0" width="647" height="102" window_state="6">
+        <text value="Press the back button on your device to return to Slots Lobby"/>
+        <text_align_h value="1"/>
+        <text_style value="8"/>
+        <font_id value="LatoReg"/>
+        <rich_label_state value="4"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="28"/>
+    </RichLabel>
+</Panel>

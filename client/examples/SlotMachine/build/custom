@@ -1,0 +1,26 @@
+# build platform, can be "android", "ios", "amazon" or "win32"
+if [ -z "$PLATFORM" ]; then
+    PLATFORM="android"
+fi
+
+if [ -z "$CHANNEL" ]; then
+    CHANNEL="normal"
+fi
+
+# build language, can be "trunk", "en_us", "zh_tw", "fp_tw", "de" or "fr"
+if [ -z "$LANGUAGE" ]; then
+    LANGUAGE="trunk"
+fi
+
+# host name of your computer
+if [ -z "$HOST_NAME" ]; then
+    HOST_NAME="$( hostname )"
+fi
+
+# cdn describe file
+if [ -z "$CDN_DESC_FILE" ]; then
+    CDN_DESC_FILE=desc.xml
+fi
+
+CDN_FTP=ftps://66.171.200.71/static-cd.igg.com/${PLATFORM}/${LANGUAGE}/${OPT_VER}/
+CDN_FTP_USERKEY=vincent.kway@orig-cd:Devilvk2016

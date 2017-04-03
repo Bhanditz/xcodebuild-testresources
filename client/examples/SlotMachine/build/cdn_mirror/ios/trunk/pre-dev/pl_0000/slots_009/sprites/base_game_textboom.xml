@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="base_game_textboom.png" width="512" height="1024" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="q_000.png" x="429" y="3" w="78" h="78" oX="84" oY="87" oW="250" oH="250" dr="50"/>
+    <sprite n="q_002.png" x="167" y="845" w="114" h="114" oX="63" oY="67" oW="250" oH="250" dr="50"/>
+    <sprite n="q_004.png" x="3" y="845" w="160" h="160" oX="40" oY="44" oW="250" oH="250" dr="50"/>
+    <sprite n="q_006.png" x="3" y="635" w="206" h="206" oX="17" oY="21" oW="250" oH="250" dr="50"/>
+    <sprite n="q_008.png" x="213" y="633" w="206" h="206" oX="17" oY="21" oW="250" oH="250" dr="50"/>
+    <sprite n="q_009.png" x="3" y="425" w="206" h="206" oX="17" oY="21" oW="250" oH="250" dr="50"/>
+    <sprite n="q_010.png" x="3" y="3" w="212" h="208" oX="17" oY="21" oW="250" oH="250" dr="50"/>
+    <sprite n="q_011.png" x="213" y="423" w="206" h="206" oX="23" oY="23" oW="250" oH="250" dr="50"/>
+    <sprite n="q_012.png" x="3" y="215" w="206" h="206" oX="23" oY="23" oW="250" oH="250" dr="50"/>
+    <sprite n="q_013.png" x="219" y="213" w="206" h="206" oX="23" oY="23" oW="250" oH="250" dr="50"/>
+    <sprite n="q_014.png" x="219" y="3" w="206" h="206" oX="23" oY="23" oW="250" oH="250" dr="50"/>
+</TextureAtlas>

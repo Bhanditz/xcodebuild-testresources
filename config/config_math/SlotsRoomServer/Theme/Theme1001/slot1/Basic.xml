@@ -1,0 +1,190 @@
+﻿<?xml version="1.0"?>
+
+<!-- 
+ReelWildTransID:列wild转换id
+BuyReelDefaultPos:买列时，没有买入列的默认开放行,格式：（行索引,行索引,...）
+MaxFreeSpin:最大FreeSpin触发次数
+MaxFreeSpinWheelGruopID：FreeSpin达到最大次数时，切换的轮盘分组ID
+-->
+<root>
+		<PackId>1</PackId>
+		<Name>Rock Age 2</Name>
+		<UnlockLv> 1 </UnlockLv>
+		<WindowSize> 3,3,3,3,3  </WindowSize>
+		<BuyReelDefaultPos>2,2,2,2,2</BuyReelDefaultPos>
+		<BigWinPay>10,50,100</BigWinPay>
+		<Bets>
+			<Bet>
+				<Value> 1 </Value>	<!-- 一次下注的金额   -->
+				<UnlockLv> 1 </UnlockLv>	<!-- 解锁这个下注BET的等级   -->
+			</Bet>
+			<Bet>
+				<Value> 2 </Value>
+				<UnlockLv> 1 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 3 </Value>
+				<UnlockLv> 1 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 4 </Value>
+				<UnlockLv> 1 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 5 </Value>
+				<UnlockLv> 1 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 7 </Value>
+				<UnlockLv> 2 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 10 </Value>
+				<UnlockLv> 3 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 15 </Value>
+				<UnlockLv> 4 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 20 </Value>
+				<UnlockLv> 5 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 30 </Value>
+				<UnlockLv> 6 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 60 </Value>
+				<UnlockLv> 8 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 100 </Value>
+				<UnlockLv> 10 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 150 </Value>
+				<UnlockLv> 13 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 200 </Value>
+				<UnlockLv> 15 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 300 </Value>
+				<UnlockLv> 40 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 500 </Value>
+				<UnlockLv> 60 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 1000 </Value>
+				<UnlockLv> 80 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 1500 </Value>
+				<UnlockLv> 90 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 2000 </Value>
+				<UnlockLv> 100 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 3000 </Value>
+				<UnlockLv> 110 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 5000 </Value>
+				<UnlockLv> 120 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 7000 </Value>
+				<UnlockLv> 180 </UnlockLv>
+			</Bet>
+			<Bet>
+				<Value> 10000 </Value>
+				<UnlockLv> 330 </UnlockLv>
+			</Bet>
+		</Bets>
+		<DefaultBets>
+			<DefaultBet>
+				<Level> 1 </Level> <!-- 等级   -->
+				<Bet> 1 </Bet> <!-- 默认bet值 -->
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 2 </Level>
+				<Bet> 2 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 3 </Level>
+				<Bet> 3 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 4 </Level>
+				<Bet> 5 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 5 </Level>
+				<Bet> 7 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 6 </Level>
+				<Bet> 10 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 9 </Level>
+				<Bet> 15 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 15 </Level>
+				<Bet> 20 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 40 </Level>
+				<Bet> 30 </Bet> 
+			</DefaultBet>
+			<DefaultBet>
+				<Level> 187 </Level>
+				<Bet> 60 </Bet> 
+			</DefaultBet>
+		</DefaultBets>
+		<MinBets>
+			<MinBet>
+				<Level> 1 </Level> <!-- 等级   -->
+				<Bet> 1 </Bet> <!-- Minbet值 -->
+			</MinBet>
+			<MinBet>
+				<Level> 4 </Level>
+				<Bet> 3 </Bet>
+			</MinBet>
+			<MinBet>
+				<Level> 5 </Level>
+				<Bet> 4 </Bet>
+			</MinBet>
+			<MinBet>
+				<Level> 6 </Level>
+				<Bet> 5 </Bet>
+			</MinBet>
+			<MinBet>
+				<Level> 8 </Level>
+				<Bet> 7 </Bet>
+			</MinBet>
+			<MinBet>
+				<Level> 15 </Level>
+				<Bet> 10 </Bet>
+			</MinBet>
+			<MinBet>
+				<Level> 40 </Level>
+				<Bet> 15 </Bet>
+			</MinBet>
+			<MinBet>
+				<Level> 88 </Level>
+				<Bet> 20 </Bet>
+			</MinBet>
+			<MinBet>
+				<Level> 187 </Level>
+				<Bet> 30 </Bet>
+			</MinBet>
+		</MinBets>
+</root>

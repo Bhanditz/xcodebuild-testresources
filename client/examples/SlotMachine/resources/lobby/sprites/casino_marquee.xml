@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="casino_marquee.png" width="128" height="256" blend="1" loop="-1">
+    <sprite n="00000" x="52" y="2" w="48" h="196" oX="13" oY="16" oW="220" oH="80" r="y" dr="150"/>
+    <sprite n="00001" x="2" y="2" w="48" h="196" oX="13" oY="16" oW="220" oH="80" r="y" dr="150"/>
+</TextureAtlas>

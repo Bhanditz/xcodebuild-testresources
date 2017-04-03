@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<!--
+	Type:
+		Blackbox
+		FindPair
+ -->
+<root>
+	<BonusGame id="1" Type="Blackbox" GameID="1" desc="The Jadelotos 2 Flop_Bonus X 3"/>
+	<BonusGame id="2" Type="Blackbox" GameID="2" desc="The Jadelotos 2 Flop_Bonus X 4"/>
+	<BonusGame id="3" Type="Blackbox" GameID="3" desc="The Jadelotos 2 Flop_Bonus X 5"/>
+</root>

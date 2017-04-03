@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="870" height="62" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_PicRef" x="426" y="240" z="0" width="284" height="160" window_state="12">
+        <scale x="4" y="4" z="4"/>
+    </Picture>
+    <Panel implement_class="JackpotSubPoolsPanel" id="m_Jackpot_1" x="119" y="-3" z="0" width="755" height="56" window_state="6">
+        <Panel implement_class="SlotJackpotSubPool" id="m_PicLv1" x="0" y="8" z="0" width="183" height="45" window_state="4">
+            <dynamic_attr key="SubJackpotPoolNum" type="int" value="1"/>
+            <Picture id="m_PicBG_Msg" x="-52" y="1" z="0" width="228" height="63" window_state="6" style="ngs_slots_jackpot_panel01a"/>
+            <Picture id="m_PicBG" x="2" y="0" z="0" width="174" height="63" window_state="4" style="ngs_slots_jackpot_panel01b"/>
+            <Button implement_class="JackpotButton" id="m_PicLv1Value" x="17" y="4" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02a">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="4" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_PurpleTxt"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-11" y="0" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.83999997" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="purple_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-30" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.86000001" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/purple_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-10" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/purple diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02a">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+        </Panel>
+        <Panel implement_class="SlotJackpotSubPool" id="m_PicLv2" x="0" y="8" z="0" width="335" height="45" window_state="4">
+            <dynamic_attr key="SubJackpotPoolNum" type="int" value="2"/>
+            <Picture id="m_PicBG_Msg" x="-52" y="1" z="0" width="373" height="63" window_state="6" style="ngs_slots_jackpot_panel01a"/>
+            <Picture id="m_PicBG" x="2" y="0" z="0" width="319" height="63" window_state="4" style="ngs_slots_jackpot_panel01b"/>
+            <Button implement_class="JackpotButton" id="m_PicLv1Value" x="17" y="4" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02a">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="4" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_PurpleTxt"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-11" y="0" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.83999997" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="purple_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-30" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.86000001" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/purple_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-10" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/purple diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02a">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv2Value" x="162" y="6" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02b">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="2" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_blue1"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="146" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-13" y="-3" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.85000002" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="blue_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-29" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.88999999" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/blue_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-4" y="-11" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/blue diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02b">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+        </Panel>
+        <Panel implement_class="SlotJackpotSubPool" id="m_PicLv3" x="0" y="8" z="0" width="487" height="45" window_state="4">
+            <dynamic_attr key="SubJackpotPoolNum" type="int" value="3"/>
+            <Picture id="m_PicBG_Msg" x="-52" y="1" z="0" width="518" height="63" window_state="6" style="ngs_slots_jackpot_panel01a"/>
+            <Picture id="m_PicBG" x="2" y="0" z="0" width="464" height="63" window_state="4" style="ngs_slots_jackpot_panel01b"/>
+            <Button implement_class="JackpotButton" id="m_PicLv1Value" x="17" y="4" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02a">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="4" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_PurpleTxt"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-11" y="0" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.83999997" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="purple_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-30" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.86000001" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/purple_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-10" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/purple diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02a">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv2Value" x="162" y="6" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02b">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="2" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_blue1"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="146" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-13" y="-3" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.85000002" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="blue_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-29" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.88999999" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/blue_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-4" y="-11" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/blue diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02b">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv3Value" x="307" y="5" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02c">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="40" y="3" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgreen2"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="146" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-4" y="-1" z="0" width="152" height="37" window_state="6">
+                        <scale x="0.94999999" y="0.80000001" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="green_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-31" y="-33" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.94" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/green_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-12" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/green diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02c">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+        </Panel>
+        <Panel implement_class="SlotJackpotSubPool" id="m_PicLv4" x="0" y="8" z="0" width="619" height="45" window_state="4">
+            <dynamic_attr key="SubJackpotPoolNum" type="int" value="4"/>
+            <Picture id="m_PicBG_Msg" x="-52" y="1" z="0" width="662" height="63" window_state="6" style="ngs_slots_jackpot_panel01a"/>
+            <Picture id="m_PicBG" x="2" y="1" z="0" width="608" height="63" window_state="4" style="ngs_slots_jackpot_panel01b"/>
+            <Button implement_class="JackpotButton" id="m_PicLv1Value" x="17" y="4" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02a">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="4" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_PurpleTxt"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-11" y="0" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.83999997" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="purple_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-30" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.86000001" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/purple_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-10" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/purple diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02a">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.55000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv2Value" x="162" y="6" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02b">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="2" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_blue1"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="146" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-13" y="-3" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.85000002" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="blue_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-29" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.88999999" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/blue_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-4" y="-11" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/blue diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02b">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.55000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv3Value" x="307" y="5" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02c">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="3" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgreen2"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="146" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-4" y="-1" z="0" width="152" height="37" window_state="6">
+                        <scale x="0.94999999" y="0.80000001" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="green_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-31" y="-33" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.94" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/green_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-12" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/green diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02c">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.55000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv4Value" x="452" y="7" z="0" width="143" height="32" window_state="6" style="ngs_slots_jackpot_panel02d">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="1" z="0" width="90" height="30" window_state="14">
+                    <color_scale x="1.3" y="1.3" z="1.3" w="1.5"/>
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_red"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-4" y="-3" z="0" width="152" height="37" window_state="6">
+                        <scale x="0.93000001" y="0.81999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="red_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-28" y="-34" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.95999998" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/red_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-16" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/red diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="32" window_state="14" style="ngs_slots_jackpot_panel02d">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.44999999"/>
+                </Panel>
+            </Button>
+        </Panel>
+        <Panel implement_class="SlotJackpotSubPool" id="m_PicLv5" x="0" y="8" z="0" width="751" height="45" window_state="6">
+            <dynamic_attr key="SubJackpotPoolNum" type="int" value="5"/>
+            <Picture id="m_PicBG_Msg" x="-52" y="1" z="0" width="807" height="63" window_state="6" style="ngs_slots_jackpot_panel01a"/>
+            <Picture id="m_PicBG" x="2" y="1" z="0" width="753" height="63" window_state="4" style="ngs_slots_jackpot_panel01b"/>
+            <Button implement_class="JackpotButton" id="m_PicLv1Value" x="17" y="4" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02a">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="4" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_PurpleTxt"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-11" y="0" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.83999997" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="purple_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-30" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.86000001" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/purple_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-10" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/purple diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02a">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv2Value" x="162" y="6" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02b">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="44" y="2" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_blue1"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="146" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-13" y="-3" z="0" width="168" height="38" window_state="6">
+                        <scale x="0.85000002" y="0.77999997" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="blue_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-29" y="-32" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.88999999" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/blue_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-4" y="-11" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/blue diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02b">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv3Value" x="307" y="5" z="0" width="143" height="35" window_state="6" style="ngs_slots_jackpot_panel02c">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="40" y="3" z="0" width="90" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgreen2"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="146" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-4" y="-1" z="0" width="152" height="37" window_state="6">
+                        <scale x="0.94999999" y="0.80000001" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="green_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-31" y="-33" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.94" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/green_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-12" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/green diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02c">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv4Value" x="452" y="7" z="0" width="143" height="32" window_state="6" style="ngs_slots_jackpot_panel02d">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="40" y="1" z="0" width="94" height="30" window_state="14">
+                    <color_scale x="1.3" y="1.3" z="1.3" w="1.5"/>
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_red"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-4" y="-3" z="0" width="152" height="37" window_state="6">
+                        <scale x="0.93000001" y="0.81999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="red_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-28" y="-34" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.95999998" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/red_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-7" y="-16" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/red diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="0" z="0" width="143" height="32" window_state="14" style="ngs_slots_jackpot_panel02d">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.44999999"/>
+                </Panel>
+            </Button>
+            <Button implement_class="JackpotButton" id="m_PicLv5Value" x="597" y="7" z="0" width="143" height="32" window_state="6" style="ngs_slots_jackpot_panel02e">
+                <line_height value="30"/>
+                <RichLabel id="m_LbSubPoolValue" x="40" y="1" z="0" width="94" height="30" window_state="14">
+                    <text value="$#-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="143" height="35" window_state="6">
+                    <Picture id="m_OverflowBg" x="-3" y="-3" z="0" width="152" height="37" window_state="6">
+                        <scale x="0.94999999" y="0.81999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_lobby_jackpotin"/>
+                        <piece_info value="orange_mask"/>
+                    </Picture>
+                    <Sprite id="m_OverflowAround" x="-30" y="-35" z="0" width="200" height="100" window_state="6">
+                        <scale x="0.95999998" y="0.94" z="1"/>
+                        <sprite_file value="slots/sprites/yellow_frame.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_OverflowIcon" x="-8" y="-14" z="0" width="60" height="60" window_state="6">
+                        <sprite_file value="slots/sprites/yellow diamond.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_BetMask" x="0" y="-1" z="0" width="143" height="35" window_state="14" style="ngs_slots_jackpot_panel02e">
+                    <color_scale x="0.5" y="0.5" z="0.5" w="0.40000001"/>
+                </Panel>
+            </Button>
+        </Panel>
+        <Panel implement_class="JackpotTips" id="m_JackpotTips" x="-14" y="55" z="0" width="300" height="109" window_state="4">
+            <Picture id="m_Picture" x="7" y="8" z="0" width="297" height="102" window_state="262" style="ngs_slots_jackpot_panel03a"/>
+            <Picture id="m_ArrowPic" x="36" y="-6" z="0" width="38" height="25" window_state="262">
+                <piece_info value="slots_jackpot_panel03b"/>
+            </Picture>
+            <RichLabel id="m_Tips" x="26" y="28" z="0" width="259" height="60" window_state="6">
+                <text value="SLOTS_COMMON_JACKPOT_TIPS_MINBET_#0_#1"/>
+                <text_style value="8"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+    <Panel implement_class="JackpotMsg" id="m_JackpotMsg" x="68" y="-2" z="0" width="805" height="62" window_state="14">
+        <Panel id="m_ShowMessage" x="0" y="0" z="0" width="805" height="62" window_state="12">
+            <Picture id="m_PicBg_0" x="8" y="10" z="0" width="789" height="42" window_state="6" style="ngs_slots_jackpot_panel01c"/>
+            <RichLabel id="m_Message" x="68" y="15" z="0" width="717" height="30" window_state="14">
+                <color_scale x="1.5" y="1.5" z="1.5" w="1"/>
+                <text value="Diamond and Jackpot reward has exceeded! Blah blah blah"/>
+                <font_size value="25"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="DroidSansFallback"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+    <Button id="m_Button" x="88" y="15" z="0" width="44" height="47" window_state="6" style="bs_slots_jackpot_button_01">
+        <line_height value="30"/>
+    </Button>
+</Panel>

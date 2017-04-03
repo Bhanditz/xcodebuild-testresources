@@ -1,0 +1,41 @@
+
+lizard.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b1
+  rotate: false
+  xy: 176, 4
+  size: 140, 84
+  orig: 140, 84
+  offset: 0, 0
+  index: -1
+b2
+  rotate: false
+  xy: 318, 4
+  size: 140, 84
+  orig: 140, 84
+  offset: 0, 0
+  index: -1
+b3
+  rotate: false
+  xy: 2, 2
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+b4
+  rotate: false
+  xy: 460, 74
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+b5
+  rotate: false
+  xy: 2, 29
+  size: 172, 59
+  orig: 172, 59
+  offset: 0, 0
+  index: -1

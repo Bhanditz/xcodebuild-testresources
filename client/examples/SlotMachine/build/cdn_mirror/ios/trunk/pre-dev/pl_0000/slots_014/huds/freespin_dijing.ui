@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <dynamic_attr key="ClickStart" type="string" value="m_Panel.m_Button.m_BtnStart"/>
+    <dynamic_attr key="AmountNumbers" type="array" value="3" inner="string">
+        <item>m_Panel.m_Popup.m_Numbers.m_Number_10</item>
+        <item>m_Panel.m_Popup.m_Numbers.m_Number_25</item>
+        <item>m_Panel.m_Popup.m_Numbers.m_Number_50</item>
+    </dynamic_attr>
+    <dynamic_attr key="BonusTexts" type="array" value="2" inner="string">
+        <item>m_Panel.m_Popup.m_Freespin</item>
+        <item>m_Panel.m_Popup.m_Additional_Freespin</item>
+    </dynamic_attr>
+    <dynamic_attr key="StartButtonPanel" type="string" value="m_Panel.m_Button"/>
+    <Panel id="m_TranslucentBlack" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+    </Panel>
+    <Panel id="m_Panel" x="-10" y="0" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_Popup" x="302" y="98" z="0" width="539" height="443" window_state="6">
+            <Picture id="m_Picture" x="0" y="0" z="0" width="539" height="443" window_state="270">
+                <piece_info value="slots_014_panel_11a"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="111" y="254" z="0" width="315" height="100" window_state="262">
+                <text value="YOU FOUND
+ALL MISSING GOBLINS!"/>
+                <font_size value="50"/>
+                <text_color value="cs_line_color_14"/>
+                <font_id value="Bebas"/>
+                <glyph_center value="0.5"/>
+                <word_spacing value="2.51"/>
+                <outline_color value="null"/>
+                <line_height value="0"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_Picture1" x="453" y="219" z="0" width="236" height="196" window_state="260">
+            <scale x="3.45" y="3.45" z="3.45"/>
+            <piece_info value="slots_014_panel_11b"/>
+        </Picture>
+        <Picture id="m_Picture2" x="453" y="219" z="0" width="236" height="196" window_state="260">
+            <scale x="3.45" y="3.45" z="3.45"/>
+            <piece_info value="slots_014_panel_11c"/>
+        </Picture>
+    </Panel>
+</Panel>

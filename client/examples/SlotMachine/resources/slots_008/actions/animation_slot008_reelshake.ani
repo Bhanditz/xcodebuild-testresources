@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationData loop="-1">
+    <frame i="0"/>
+    <frame i="3" x="1" y="2"/>
+    <frame i="6" x="1" y="-1"/>
+    <frame i="8" x="-1" y="1"/>
+    <frame i="10" x="-1" y="-1"/>
+    <frame i="13"/>
+    <frame i="16" y="-2"/>
+    <frame i="19" x="1" y="2"/>
+    <frame i="24" x="-1" rx="0" ry="0" rz="0.017453292"/>
+    <frame i="27" x="-1" rx="0" ry="0" rz="0.017453292"/>
+    <frame i="30" x="-1" rx="0" ry="0" rz="-0.017453292"/>
+    <frame i="36" x="-1" y="3"/>
+    <frame i="39" x="1" y="-1"/>
+    <frame i="42" x="2" y="2"/>
+    <frame i="45" x="1" y="-1"/>
+    <frame i="48" x="1"/>
+    <frame i="52" x="1" rx="0" ry="0" rz="0.017453292"/>
+    <frame i="55" x="1" rx="0" ry="0" rz="0.017453292"/>
+    <frame i="59" x="1" rx="0" ry="0" rz="-0.017453292"/>
+    <frame i="65" x="-1" y="-1"/>
+    <frame i="69" x="-1" y="1"/>
+</AnimationData>

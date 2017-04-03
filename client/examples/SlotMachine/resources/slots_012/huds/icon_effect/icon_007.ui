@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="75" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="150" height="75" window_state="6">
+        <Picture id="m_Picture" x="0" y="0" z="0" width="150" height="75" window_state="262">
+            <piece_info value="slots_012_icon_10"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="46" y="4" z="0" width="63" height="67" window_state="4">
+            <blend_mode value="2"/>
+            <action_id value="animation_lowpayicon_sweep"/>
+            <piece_info value="slots_012_icon007_mask"/>
+            <mask_piece value="slots_012_lowpay_sweep"/>
+            <mask_offset x="0" y="-0.07" z="0"/>
+        </PictureMask>
+        <Picture id="m_Picture1" x="64" y="13" z="0" width="32" height="32" window_state="260">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot012_icon006"/>
+            <piece_info value="lowpay_star"/>
+        </Picture>
+        <Picture id="m_Picture2" x="43" y="23" z="0" width="32" height="32" window_state="260">
+            <scale x="0.54000002" y="0.54000002" z="0.54000002"/>
+            <rotation x="0" y="0" z="0.99483764"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot012_icon006"/>
+            <piece_info value="lowpay_star"/>
+        </Picture>
+        <Picture id="m_Picture3" x="71" y="33" z="0" width="32" height="32" window_state="260">
+            <scale x="0.50999999" y="0.50999999" z="0.50999999"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot012_icon006"/>
+            <piece_info value="lowpay_star"/>
+        </Picture>
+    </Panel>
+</Panel>

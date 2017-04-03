@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="muti_table.png" width="256" height="256" blend="2" loop="1">
+    <sprite n="00000" x="175" y="61" w="42" h="52" oX="48" oY="38" oW="100" oH="120" r="y" dr="40"/>
+    <sprite n="00001" x="175" y="3" w="46" h="54" oX="46" oY="36" oW="100" oH="120" r="y" dr="40"/>
+    <sprite n="00002" x="169" y="161" w="50" h="58" oX="42" oY="34" oW="100" oH="120" r="y" dr="40"/>
+    <sprite n="00003" x="3" y="193" w="62" h="54" oX="38" oY="32" oW="100" oH="120" dr="40"/>
+    <sprite n="00004" x="99" y="161" w="66" h="64" oX="34" oY="27" oW="100" oH="120" dr="40"/>
+    <sprite n="00005" x="99" y="83" w="72" h="74" oX="28" oY="22" oW="100" oH="120" dr="40"/>
+    <sprite n="00006" x="87" y="3" w="84" h="76" oX="24" oY="17" oW="100" oH="120" r="y" dr="40"/>
+    <sprite n="00007" x="3" y="109" w="92" h="80" oX="20" oY="13" oW="100" oH="120" r="y" dr="40"/>
+    <sprite n="00008" x="3" y="3" w="80" h="102" oX="20" oY="8" oW="100" oH="120" dr="800"/>
+</TextureAtlas>

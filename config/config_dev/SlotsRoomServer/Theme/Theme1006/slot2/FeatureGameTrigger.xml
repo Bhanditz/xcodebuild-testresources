@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	此配置用于触发Feature Game
+					
+		MustFirstSpin: 0(都可以触发) 1(必须是进入主题的第一次Spin才触发)
+	CalculateType:Line(按线)或Reel(按列) 计算中奖方法,Forever(每次spin时，直接触发)
+	Direction:计算方向 Left(从左到右) Right(从右向左) Both(两边) AnyWhere(任何位置存在)
+	Symbol:(图标id,要求数),(图标id,要求数)
+	LifeCycle:影响Spin次数
+	TargetType:目前只触发BonusGame，FreeSpin
+	TargetID:目标类型id
+	TargetInput:传入参数
+	
+	注意：多个图标，只支持CalculateType:Reel
+	如果TargetType类型:
+	
+ -->
+<root>
+	<trigger>
+		<CalculateType>Reel</CalculateType>
+		<Direction>AnyWhere</Direction>
+		<Symbol>(41,3)</Symbol>
+		<TargetType>FreeSpin</TargetType>
+		<TargetID>2</TargetID>
+		<TargetInput>10</TargetInput>
+	</trigger>
+	<trigger>
+		<CalculateType>Reel</CalculateType>
+		<Direction>AnyWhere</Direction>
+		<Symbol>(41,4)</Symbol>
+		<TargetType>FreeSpin</TargetType>
+		<TargetID>2</TargetID>
+		<TargetInput>15</TargetInput>
+	</trigger>
+	<trigger>
+		<CalculateType>Reel</CalculateType>
+		<Direction>AnyWhere</Direction>
+		<Symbol>(41,5)</Symbol>
+		<TargetType>FreeSpin</TargetType>
+		<TargetID>2</TargetID>
+		<TargetInput>25</TargetInput>
+	</trigger>
+</root>

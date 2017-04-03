@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="165" height="146" window_state="6">
+    <Picture id="ref" x="0" y="-33" z="0" width="165" height="213" window_state="6">
+        <piece_info value="slots_009_icon_041a"/>
+    </Picture>
+    <PictureMirror id="icon_023_01_scale03" x="-58" y="-68" z="0" width="280" height="250" window_state="4">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+        <action_id value="animation_slot009_icon023_01a"/>
+        <piece_info value="icon_023_01_pic01"/>
+        <scale_mode value="5"/>
+    </PictureMirror>
+    <PictureMirror id="icon_023_01_scale02" x="-58" y="-68" z="0" width="280" height="250" window_state="4">
+        <color_scale x="1" y="1" z="1" w="0.69999999"/>
+        <action_id value="animation_slot009_icon023_01a"/>
+        <piece_info value="icon_023_01_pic01"/>
+        <scale_mode value="5"/>
+    </PictureMirror>
+    <PictureMirror id="icon_023_01_scale01" x="-58" y="-68" z="0" width="280" height="250" window_state="4">
+        <action_id value="animation_slot009_icon023_01a"/>
+        <piece_info value="icon_023_01_pic01"/>
+        <scale_mode value="5"/>
+    </PictureMirror>
+    <Picture id="ref2" x="-17" y="-33" z="0" width="200" height="213" window_state="262">
+        <action_id value="animation_slot009_icon023_01"/>
+        <piece_info value="slots_009_icon_041b"/>
+    </Picture>
+    <Sprite id="icon023_01_boom" x="32" y="23" z="0" width="100" height="100" window_state="4">
+        <blend_mode value="2"/>
+        <sprite_file value="slots_009/sprites/icon_023_01vfx.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="Fireworks_R" x="19" y="10" z="0" width="100" height="100" window_state="4">
+        <scale x="-0.85000002" y="0.85000002" z="0.85000002"/>
+        <sprite_file value="slots_009/sprites/icon_023_01vfx2.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="Fireworks_L" x="61" y="-23" z="0" width="100" height="100" window_state="4">
+        <sprite_file value="slots_009/sprites/icon_023_01vfx2.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite" x="-46" y="-119" z="0" width="200" height="200" window_state="4">
+        <sprite_file value="slots_009/sprites/bonus_firework.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="30" y="-98" z="0" width="200" height="200" window_state="4">
+        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+        <sprite_file value="slots_009/sprites/bonus_firework.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <PictureMask id="m_PictureMask" x="38" y="19" z="0" width="96" height="96" window_state="4">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.69999999"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slots009_icon023_light"/>
+        <piece_info value="icon_023mask"/>
+        <mask_piece value="icon_023light"/>
+    </PictureMask>
+</Panel>

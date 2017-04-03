@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="bingo_theme803" file_name="bingo_theme803.png" width="512" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="theme803_bg02" image_id="bingo_theme803" x="0" y="0" width="505" height="554"/>
+    <Piece id="theme803_btn01" image_id="bingo_theme803" x="1" y="555" width="448" height="82"/>
+    <Piece id="theme803_icon01" image_id="bingo_theme803" x="1" y="638" width="156" height="148"/>
+    <Piece id="theme803_icon02" image_id="bingo_theme803" x="1" y="787" width="156" height="148"/>
+    <Piece id="theme803_icon03" image_id="bingo_theme803" x="158" y="638" width="156" height="148"/>
+    <Piece id="theme803_icon04" image_id="bingo_theme803" x="315" y="638" width="156" height="148"/>
+    <Piece id="theme803_icon05" image_id="bingo_theme803" x="158" y="787" width="156" height="148"/>
+    <Piece id="theme803_icon06" image_id="bingo_theme803" x="1" y="936" width="76" height="77"/>
+    <Piece id="theme803_icon07" image_id="bingo_theme803" x="78" y="936" width="76" height="77"/>
+    <Piece id="theme803_icon08" image_id="bingo_theme803" x="155" y="936" width="76" height="77"/>
+  </PieceList>
+</ImagePiece>

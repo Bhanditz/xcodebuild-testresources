@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="buffalo_frontsmoke.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="-1">
+    <sprite n="00000" x="342" y="222" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00003" x="222" y="222" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00006" x="112" y="342" w="108" h="118" oY="3" oW="120" oH="120" r="y" dr="90"/>
+    <sprite n="00009" x="112" y="222" w="108" h="118" oY="3" oW="120" oH="120" r="y" dr="90"/>
+    <sprite n="00012" x="352" y="112" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00015" x="232" y="112" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00018" x="112" y="112" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00021" x="2" y="352" w="108" h="118" oY="3" oW="120" oH="120" r="y" dr="90"/>
+    <sprite n="00024" x="2" y="232" w="108" h="118" oY="3" oW="120" oH="120" r="y" dr="90"/>
+    <sprite n="00027" x="2" y="112" w="108" h="118" oY="3" oW="120" oH="120" r="y" dr="90"/>
+    <sprite n="00030" x="362" y="2" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00033" x="242" y="2" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00036" x="122" y="2" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+    <sprite n="00039" x="2" y="2" w="118" h="108" oY="3" oW="120" oH="120" dr="90"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="160" height="136" window_state="6">
+    <Grid id="m_Grid" x="1" y="1" z="0" width="158" height="134" window_state="6" style="ngs_slots_019_panel_017"/>
+    <Picture id="m_Picture" x="0" y="-12" z="0" width="160" height="160" window_state="262">
+        <piece_info value="slots_019_icon_002"/>
+    </Picture>
+    <SpineSprite id="m_SpineSprite" x="31" y="79" z="0" width="100" height="100" window_state="4">
+        <spine_file value="slots_019/spine_sprites/ic_knifethrower_002.json"/>
+        <auto_anim_name value="animation"/>
+    </SpineSprite>
+</Panel>

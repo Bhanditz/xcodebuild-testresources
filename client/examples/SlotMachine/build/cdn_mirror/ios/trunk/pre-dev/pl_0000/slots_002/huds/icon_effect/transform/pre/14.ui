@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6" style="ngs_panel_bg">
+    <Picture id="ref" x="0" y="0" z="0" width="156" height="100" window_state="6"/>
+    <Picture id="m_Picture" x="-22" y="-50" z="0" width="200" height="200" window_state="6">
+        <action_id value="animation_Sparta_icondrop"/>
+        <piece_info value="slots_002_icon22"/>
+        <Picture id="m_Picture" x="0" y="0" z="0" width="200" height="200" window_state="6">
+            <action_id value="animation_Sparta_spartaappear"/>
+            <piece_info value="slots_002_icon15"/>
+        </Picture>
+        <Picture id="m_wildglow" x="48" y="44" z="0" width="100" height="102" window_state="14">
+            <scale x="2.2" y="2.2" z="2.2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_wilddrop"/>
+            <piece_info value="wild2x_glow"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="-153" y="-150" z="0" width="500" height="500" window_state="14">
+            <sprite_file value="slots_002/sprites/Sparta_highpaysmoke.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Picture>
+    <Sprite id="m_Sprite_Wild" x="-21" y="-43" z="0" width="200" height="160" window_state="4">
+        <sprite_file value="slots_002/sprites/Sparta_wild2x.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+</Panel>

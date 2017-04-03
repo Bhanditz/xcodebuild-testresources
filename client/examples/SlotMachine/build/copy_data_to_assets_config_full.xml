@@ -1,0 +1,54 @@
+
+<d base="">
+	<d name="actions" base="*" />
+	<d name="configs" base="*" />
+	<d name="fonts" base="*" />
+	<d name="ui" base="*" />
+	<d name="shaders" base="*" />
+	<d name="lobby" base="*" />
+	<d name="loadings" base="*" />
+	
+	<d name="extends" base="*" />
+	<d name="slots" base="*" />
+	
+	<d name="slots_001" base="*" />
+	<d name="slots_002" base="*" />
+	<d name="slots_003" base="*" />
+	<d name="slots_004" base="*" />
+	<d name="slots_005" base="*" />
+	<d name="slots_006" base="*" />
+	<d name="slots_007" base="*" />
+	<d name="slots_008" base="*" />
+	
+	<d name="slots_009" base="*" />
+	<d name="slots_010" base="*" />
+	<d name="slots_011" base="*" />
+	<d name="slots_012" base="*" />
+	<d name="slots_013" base="*" />
+	<d name="slots_014" base="*" />
+	<d name="slots_015" base="*" />
+	<d name="slots_016" base="*" />
+	<d name="slots_017" base="*" />
+	<d name="slots_018" base="*" />
+	<d name="slots_019" base="*" />
+	
+	<d name="slots_1001" base="*" />
+	<d name="slots_1002" base="*" />
+	<d name="slots_1003" base="*" />
+	<d name="slots_1004" base="*" />
+	<d name="slots_1005" base="*" />
+	<d name="slots_1006" base="*" />
+	<d name="slots_1007" base="*" />
+	<d name="slots_1008" base="*" />
+	<d name="slots_1009" base="*" />
+	
+	<d name="bingo" base="*" />
+	<d name="poker" base="*" />
+	<d name="video_poker" base="*" />
+	<d name="black_jack" base="*" />
+	<d name="baccarat" base="*" />
+	<d name="craps" base="*" />
+	<d name="roulette" base="*" />
+	
+	<f name="appConfig.properties"/>
+</d>

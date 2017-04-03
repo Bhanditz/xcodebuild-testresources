@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Sparta_dropfire.png" width="512" height="512" scale_x="3.3299999" scale_y="3.3299999" blend="2" loop="1">
+    <sprite n="fire_009" x="290" y="284" w="90" h="88" oX="6" oY="10" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_010" x="98" y="374" w="90" h="92" oX="6" oY="7" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_011" x="392" y="282" w="94" h="90" oX="6" oY="6" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_012" x="392" y="190" w="96" h="90" oX="6" oY="4" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_013" x="196" y="190" w="96" h="92" oX="4" oY="4" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_014" x="392" y="96" w="96" h="92" oX="4" oY="4" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_015" x="294" y="96" w="96" h="92" oX="4" oY="4" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_016" x="196" y="96" w="96" h="92" oX="5" oY="4" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_017" x="98" y="96" w="96" h="94" oX="3" oY="4" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_018" x="2" y="202" w="94" h="98" oX="4" oY="2" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_019" x="2" y="102" w="94" h="98" oX="4" oY="2" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_020" x="2" y="2" w="94" h="98" oX="4" oY="2" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_021" x="2" y="402" w="94" h="98" oX="3" oY="2" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_022" x="2" y="302" w="94" h="98" oX="3" oY="2" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_023" x="398" y="2" w="98" h="92" oX="4" oY="2" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_024" x="298" y="2" w="98" h="92" oX="4" oY="2" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_025" x="198" y="2" w="98" h="92" oX="4" oY="2" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_026" x="98" y="2" w="98" h="92" oX="4" oY="2" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_027" x="294" y="190" w="96" h="92" oX="4" oY="4" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_028" x="98" y="192" w="96" h="92" oX="3" oY="3" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_029" x="190" y="374" w="90" h="92" oX="4" oY="5" oW="100" oH="100" dr="30"/>
+    <sprite n="fire_030" x="196" y="284" w="92" h="88" oX="6" oY="5" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="fire_031" x="98" y="286" w="82" h="86" oX="6" oY="13" oW="100" oH="100" r="y" dr="30"/>
+</TextureAtlas>

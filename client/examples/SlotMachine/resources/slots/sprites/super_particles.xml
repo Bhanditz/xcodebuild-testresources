@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="super_particles.png" width="512" height="512" scale_x="2.25" scale_y="2.25" blend="2" loop="-1">
+    <sprite n="a_00000" x="2" y="342" w="254" h="66" oX="24" oY="13" oW="300" oH="100" dr="120"/>
+    <sprite n="a_00003" x="2" y="274" w="254" h="66" oX="25" oY="13" oW="300" oH="100" dr="120"/>
+    <sprite n="a_00006" x="398" y="2" w="66" h="254" oX="25" oY="13" oW="300" oH="100" r="y" dr="120"/>
+    <sprite n="a_00009" x="2" y="410" w="256" h="64" oX="23" oY="15" oW="300" oH="100" dr="120"/>
+    <sprite n="a_00012" x="2" y="206" w="256" h="66" oX="22" oY="13" oW="300" oH="100" dr="120"/>
+    <sprite n="a_00015" x="330" y="2" w="66" h="254" oX="21" oY="13" oW="300" oH="100" r="y" dr="120"/>
+    <sprite n="a_00018" x="2" y="70" w="258" h="66" oX="21" oY="13" oW="300" oH="100" dr="120"/>
+    <sprite n="a_00021" x="262" y="2" w="66" h="258" oX="21" oY="14" oW="300" oH="100" r="y" dr="120"/>
+    <sprite n="a_00024" x="2" y="2" w="258" h="66" oX="21" oY="14" oW="300" oH="100" dr="120"/>
+    <sprite n="a_00027" x="2" y="138" w="256" h="66" oX="23" oY="13" oW="300" oH="100" dr="120"/>
+</TextureAtlas>

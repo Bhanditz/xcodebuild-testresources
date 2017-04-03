@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="volcano_smoke_erupt.png" width="512" height="512" scale_x="4" scale_y="4" blend="1" loop="1">
+    <sprite n="00000" x="418" y="350" w="86" h="50" oX="59" oY="110" oW="200" oH="160" dr="70"/>
+    <sprite n="00001" x="334" y="350" w="82" h="112" oX="44" oY="78" oW="200" oH="160" r="y" dr="70"/>
+    <sprite n="00002" x="374" y="182" w="122" h="166" oX="16" oY="38" oW="200" oH="160" r="y" dr="70"/>
+    <sprite n="00003" x="192" y="2" w="182" h="136" oX="8" oY="24" oW="200" oH="160" dr="70"/>
+    <sprite n="00004" x="376" y="2" w="126" h="178" oX="12" oY="34" oW="200" oH="160" r="y" dr="70"/>
+    <sprite n="00005" x="2" y="164" w="178" h="144" oX="11" oY="16" oW="200" oH="160" dr="70"/>
+    <sprite n="00006" x="172" y="350" w="160" h="160" oX="21" oW="200" oH="160" dr="70"/>
+    <sprite n="00007" x="2" y="350" w="168" h="160" oX="16" oW="200" oH="160" dr="70"/>
+    <sprite n="00008" x="192" y="140" w="180" h="160" oX="11" oW="200" oH="160" dr="70"/>
+    <sprite n="00009" x="2" y="2" w="188" h="160" oX="9" oW="200" oH="160" dr="70"/>
+</TextureAtlas>

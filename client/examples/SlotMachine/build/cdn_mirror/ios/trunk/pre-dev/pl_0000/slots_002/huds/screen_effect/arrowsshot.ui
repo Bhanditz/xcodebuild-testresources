@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel implement_class="Panel" id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_FreeSpin" x="62" y="9" z="0" width="1000" height="600" window_state="131076">
+        <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+        <rotation x="-0.2617994" y="0" z="0"/>
+        <Picture id="m_reel area" x="0" y="0" z="0" width="931" height="493" window_state="6">
+            <piece_info value="slots_002_panel3"/>
+            <scale_mode value="3"/>
+        </Picture>
+    </Panel>
+    <Particle id="m_Particle" x="568" y="-350" z="-100" width="1" height="1" window_state="6" style="ngs_panel_bg">
+        <rotation x="2.2689281" y="0" z="0"/>
+        <package_file value="slots_002/particles/Spartan01.ptc"/>
+        <particle_name value="arrow"/>
+    </Particle>
+    <Sprite id="m_Sprite" x="933" y="-44" z="0" width="200" height="400" window_state="4">
+        <scale x="1.15" y="1.15" z="1.15"/>
+        <rotation x="0" y="0" z="0.62831837"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="17" y="-48" z="0" width="200" height="400" window_state="4">
+        <scale x="1.16" y="1.16" z="1.16"/>
+        <rotation x="0" y="0" z="-0.59341192"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite2" x="330" y="-110" z="0" width="200" height="400" window_state="4">
+        <scale x="1.04" y="1.04" z="1.04"/>
+        <rotation x="0" y="0" z="-0.17453295"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite3" x="590" y="-88" z="0" width="200" height="400" window_state="4">
+        <scale x="0.75999999" y="0.75999999" z="0.75999999"/>
+        <rotation x="0" y="0" z="0.069813155"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite4" x="242" y="-156" z="0" width="200" height="400" window_state="4">
+        <scale x="-1.04" y="1.04" z="1.04"/>
+        <rotation x="0" y="0" z="0.017453276"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite6" x="723" y="-168" z="0" width="200" height="400" window_state="4">
+        <scale x="-0.92000002" y="0.92000002" z="0.92000002"/>
+        <rotation x="0" y="0" z="-0.3141593"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite7" x="483" y="-243" z="0" width="200" height="400" window_state="4">
+        <scale x="1.05" y="1.05" z="1.05"/>
+        <rotation x="0" y="0" z="0.17453291"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite8" x="91" y="-188" z="0" width="200" height="400" window_state="4">
+        <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+        <rotation x="0" y="0" z="-0.41887897"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite9" x="816" y="-129" z="0" width="200" height="400" window_state="4">
+        <scale x="1.08" y="1.08" z="1.08"/>
+        <rotation x="0" y="0" z="0.57595861"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite5" x="817" y="-161" z="0" width="200" height="400" window_state="4">
+        <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+        <rotation x="0" y="0" z="0.50614542"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite10" x="404" y="-82" z="0" width="200" height="400" window_state="4">
+        <scale x="1.05" y="1.21" z="1.05"/>
+        <rotation x="0" y="0" z="-0.034906618"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite11" x="627" y="-9" z="0" width="200" height="400" window_state="4">
+        <scale x="0.94" y="0.94" z="0.94"/>
+        <rotation x="0" y="0" z="0.24434607"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite12" x="166" y="-190" z="0" width="200" height="400" window_state="4">
+        <scale x="1.04" y="1.04" z="1.04"/>
+        <rotation x="0" y="0" z="-0.12217308"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite13" x="776" y="-226" z="0" width="200" height="400" window_state="4">
+        <scale x="1.04" y="1.04" z="1.04"/>
+        <rotation x="0" y="0" z="0.27925265"/>
+        <sprite_file value="slots_002/sprites/Sparta_arrowfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

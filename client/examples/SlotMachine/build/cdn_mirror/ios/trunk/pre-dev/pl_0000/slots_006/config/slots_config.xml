@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="6" game="Zeus">
+		<BonusGames>
+		</BonusGames>
+		<Icons>
+			<Icon id="1" pieceId="slots_006_icon_050"  bgPieceId="" sprite=""/>		<!-- diamond -->
+			<Icon id="2" pieceId="slots_006_icon_06"  bgPieceId="" sprite=""/>		<!-- club -->
+			<Icon id="3" pieceId="slots_006_icon_03"  bgPieceId="" sprite=""/>     <!-- heart -->
+			<Icon id="4" pieceId="slots_006_icon_02"  bgPieceId="" sprite=""/>     <!-- spade -->
+			<Icon id="5" pieceId="slots_006_icon_025"  bgPieceId="" sprite=""/>		<!-- masks -->
+			<Icon id="6" pieceId="slots_006_icon_01"  bgPieceId="" sprite=""/>		<!-- pillar -->
+			<Icon id="7" pieceId="slots_006_icon_04" bgPieceId="" sprite=""/>		<!-- coin with face -->
+			<Icon id="8" pieceId="slots_006_icon_023"  bgPieceId="" sprite=""/>		<!-- lion -->
+			<Icon id="9" pieceId="slots_006_icon_07"  bgPieceId="" sprite=""/>		<!-- pegasus -->
+			<Icon id="10" pieceId="slots_006_icon_010"  bgPieceId="" sprite="" render_order="1">		<!-- zeus -->
+				<GroupIcon uiFile="slots_006/huds/icon_effect/mega_frame2.ui" iconsOnX="1" iconsOnY="2" iconWidth="140" iconHeight="116"/>
+				<GroupIcon uiFile="slots_006/huds/icon_effect/mega_frame3.ui" iconsOnX="1" iconsOnY="3" iconWidth="140" iconHeight="174"/>
+				<GroupIcon uiFile="slots_006/huds/icon_effect/mega_frame4.ui" iconsOnX="1" iconsOnY="4" iconWidth="140" iconHeight="232"/>
+				<GroupIcon uiFile="slots_006/huds/icon_effect/mega_frame5.ui" iconsOnX="1" iconsOnY="5" iconWidth="140" iconHeight="290"/>
+				<GroupIcon uiFile="slots_006/huds/icon_effect/mega_frame6.ui" iconsOnX="1" iconsOnY="6" iconWidth="140" iconHeight="348"/>
+				<GroupIcon uiFile="slots_006/huds/icon_effect/mega_frame7.ui" iconsOnX="1" iconsOnY="7" iconWidth="140" iconHeight="406"/>
+			</Icon>
+			<Icon id="31" pieceId="slots_006_icon_037a" bgPieceId="" sprite="" render_order="2"/>		<!-- wild -->
+			<Icon id="41" pieceId="slots_006_icon_011" bgPieceId="" sprite="" render_order="3"/>		<!-- scatter -->
+		</Icons>
+		<Reel>
+			<!-- near win reel for both basegame and freegame -->
+			<NearWinReel name="basegame" id="2,3,4,5" /> 
+			<NearWinReel name="freegame" id="1,2,3,4" /> 
+			<SpinType name="normal">
+				<BestSpinIconCount value="14"/>
+				<OneReelStartDelayTime value="0.0474"/>
+				<OneReelStopDelayTime value="0.35"/>
+				<OneReelPullDownTime value="0.03"/>
+				<OneReelRollBackTime value="0.06"/>
+				<BestSpinCostTime value="0.3"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="12"/>
+				<OneReelStartDelayTime value="0.03"/>
+				<OneReelStopDelayTime value="0.30"/>
+				<OneReelPullDownTime value="0.05"/>
+				<OneReelRollBackTime value="0.10"/>
+				<BestSpinCostTime value="0.25"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.0" pieceId="slots_006_panel_029">
+			<Payline id="1" lineColor="0xFFFFFFFF" />
+		</Paylines>
+		
+		<Paytables winTextColor="cs_White" /> 
+	</Theme>
+</SlotsConfig>

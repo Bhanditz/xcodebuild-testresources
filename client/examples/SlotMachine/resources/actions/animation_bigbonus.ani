@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationData loop="1">
+    <frame i="0" sx="1.7" sy="1.7" sz="1.7" a="-0.60000002"/>
+    <frame i="10" key="hit"/>
+    <frame i="12" x="-10" y="-10"/>
+    <frame i="14" x="10" y="10"/>
+    <frame i="16"/>
+    <frame i="90"/>
+</AnimationData>

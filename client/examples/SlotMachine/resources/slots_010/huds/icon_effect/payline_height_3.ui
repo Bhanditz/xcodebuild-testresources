@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="160" height="330" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="160" height="330" window_state="6">
+        <Sprite id="m_Sprite" x="-42" y="-62" z="0" width="245" height="454" window_state="6">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <sprite_file value="slots_010/sprites/frameGlow3.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+</Panel>

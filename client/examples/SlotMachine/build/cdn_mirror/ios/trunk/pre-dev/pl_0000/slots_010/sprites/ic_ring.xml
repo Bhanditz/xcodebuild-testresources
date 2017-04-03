@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ic_ring.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="ring_00000.png" x="184" y="184" w="84" h="90" oX="38" oY="10" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00001.png" x="94" y="194" w="88" h="90" oX="36" oY="10" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00002.png" x="2" y="302" w="90" h="98" oX="36" oY="10" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00003.png" x="326" y="2" w="106" h="88" oX="35" oY="12" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00004.png" x="218" y="2" w="106" h="88" oX="36" oY="12" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00005.png" x="2" y="92" w="88" h="104" oX="37" oY="12" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00006.png" x="2" y="402" w="86" h="98" oX="40" oY="14" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00007.png" x="182" y="378" w="86" h="88" oX="42" oY="14" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00008.png" x="434" y="2" w="76" h="86" oX="43" oY="15" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00009.png" x="270" y="184" w="80" h="86" oX="41" oY="15" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00010.png" x="268" y="276" w="86" h="86" oX="37" oY="15" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00011.png" x="94" y="286" w="86" h="90" oX="35" oY="15" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00012.png" x="92" y="92" w="86" h="100" oX="24" oY="15" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00013.png" x="110" y="2" w="106" h="88" oX="19" oY="13" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00014.png" x="2" y="2" w="106" h="88" oX="18" oY="13" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00015.png" x="2" y="198" w="90" h="102" oX="19" oY="11" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00016.png" x="90" y="402" w="90" h="96" oX="22" oY="11" oW="160" oH="110" r="y" dr="75"/>
+    <sprite n="ring_00017.png" x="180" y="92" w="86" h="90" oX="32" oY="10" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00018.png" x="268" y="92" w="80" h="90" oX="40" oY="10" oW="160" oH="110" dr="75"/>
+    <sprite n="ring_00019.png" x="182" y="286" w="84" h="90" oX="38" oY="10" oW="160" oH="110" dr="75"/>
+</TextureAtlas>

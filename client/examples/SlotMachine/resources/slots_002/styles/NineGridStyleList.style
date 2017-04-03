@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NineGridStyleList>
+  <NineGridStyle id="ngs_nine_grid_style">
+    <normal piece_id="slots_002_panel6" min_x="50" min_y="0" max_x="110" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel20">
+    <normal piece_id="slots_001_panel20" min_x="2" min_y="2" max_x="3" max_y="3"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_002_panel6">
+    <normal piece_id="slots_002_panel6" min_x="50" min_y="0" max_x="100" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_002_yingyin01">
+    <normal piece_id="slots_002_yingyin01" min_x="13" min_y="0" max_x="14" max_y="0"/>
+  </NineGridStyle>
+</NineGridStyleList>

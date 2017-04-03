@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="250" height="440" window_state="6">
+    <Picture id="ref" x="-736" y="-170" z="0" width="1136" height="640" window_state="4">
+        <scale x="1.123" y="1.123" z="1.123"/>
+        <piece_info value="slots_004_bg_02"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_Picture" x="47" y="106" z="0" width="156" height="261" window_state="6">
+        <scale x="2.0799999" y="2.0799999" z="2.0799999"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot004_nearwin"/>
+        <piece_info value="near_frame"/>
+    </Picture>
+    <Panel id="panel_start" x="0" y="0" z="0" width="250" height="440" window_state="6">
+        <Sprite id="m_Sprite" x="202" y="-1" z="0" width="300" height="400" window_state="4">
+            <sprite_file value="slots_004/sprites/nearwin_01.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="-253" y="-1" z="0" width="300" height="400" window_state="4">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/nearwin_01.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Panel id="panel1_remain" x="0" y="0" z="0" width="250" height="440" window_state="6">
+        <Sprite id="m_Sprite2" x="202" y="-1" z="0" width="300" height="400" window_state="6">
+            <sprite_file value="slots_004/sprites/nearwin_02.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite3" x="-253" y="-1" z="0" width="300" height="400" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/nearwin_02.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Panel id="panel2_over" x="0" y="0" z="0" width="250" height="440" window_state="6">
+        <Sprite id="m_Sprite4" x="202" y="-1" z="0" width="300" height="400" window_state="4">
+            <sprite_file value="slots_004/sprites/nearwin_03.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="-253" y="-1" z="0" width="300" height="400" window_state="4">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/nearwin_03.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+</Panel>

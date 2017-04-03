@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_25_3_scattered_lightnings.png" width="256" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="shaning_00001.png" x="1" y="288" w="154" h="43" oX="238" oY="79" oW="568" oH="320" r="y" dr="130"/>
+    <sprite n="shaning_00002.png" x="1" y="231" w="154" h="55" oX="231" oY="79" oW="568" oH="320" r="y" dr="130"/>
+    <sprite n="shaning_00003.png" x="1" y="161" w="162" h="68" oX="224" oY="79" oW="568" oH="320" r="y" dr="130"/>
+    <sprite n="shaning_00004.png" x="1" y="1" w="162" h="80" oX="225" oY="79" oW="568" oH="320" r="y" dr="130"/>
+    <sprite n="shaning_00005.png" x="165" y="1" w="77" h="162" oX="227" oY="79" oW="568" oH="320" dr="130"/>
+    <sprite n="shaning_00006.png" x="1" y="83" w="162" h="76" oX="228" oY="79" oW="568" oH="320" r="y" dr="130"/>
+    <sprite n="shaning_00007.png" x="165" y="165" w="69" h="161" oX="236" oY="79" oW="568" oH="320" dr="130"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="buffalo_front01.png" width="1024" height="1024" blend="1" loop="1">
+    <sprite n="00012" x="2" y="470" w="266" h="460" oX="80" oY="61" oW="450" oH="550" dr="60"/>
+    <sprite n="00014" x="2" y="2" w="262" h="466" oX="79" oY="50" oW="450" oH="550" dr="60"/>
+    <sprite n="00016" x="266" y="2" w="264" h="448" oX="75" oY="38" oW="450" oH="550" dr="60"/>
+    <sprite n="00018" x="532" y="272" w="420" h="268" oX="68" oY="26" oW="450" oH="550" r="y" dr="60"/>
+    <sprite n="00020" x="532" y="2" w="422" h="268" oX="64" oY="14" oW="450" oH="550" r="y" dr="60"/>
+</TextureAtlas>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Picture" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="casino_lobby_loading_bg01"/>
+        <scale_mode value="4"/>
+    </Picture>
+    <Picture id="m_Light1" x="88" y="308" z="0" width="218" height="280" window_state="6">
+        <anchor_point x="0.72000003" y="0.77999997" z="0"/>
+        <piece_info value="casino_common_loading_light"/>
+    </Picture>
+    <Picture id="m_Light2" x="651" y="324" z="0" width="218" height="280" window_state="6">
+        <anchor_point x="0.72000003" y="0.77999997" z="0"/>
+        <piece_info value="casino_common_loading_light"/>
+    </Picture>
+    <Picture id="m_Light3" x="845" y="334" z="0" width="218" height="280" window_state="6">
+        <anchor_point x="0.72000003" y="0.77999997" z="0"/>
+        <piece_info value="casino_common_loading_light"/>
+    </Picture>
+    <Picture id="m_Light4" x="240" y="176" z="0" width="45" height="349" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.2443461"/>
+        <color_scale x="1" y="1" z="1" w="0.60000002"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.1" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light2"/>
+    </Picture>
+    <Picture id="m_Light5" x="222" y="204" z="0" width="46" height="322" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.40000001"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.54000002" y="0.98000002" z="0"/>
+        <piece_info value="casino_common_loading_light4"/>
+    </Picture>
+    <Picture id="m_Light6" x="826" y="200" z="0" width="45" height="349" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <anchor_point x="0.1" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light2"/>
+    </Picture>
+    <Picture id="m_Light7" x="1016" y="220" z="0" width="45" height="349" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.2443461"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.1" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light2"/>
+    </Picture>
+    <Picture id="m_Light8" x="1046" y="340" z="0" width="55" height="321" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.40142572"/>
+        <color_scale x="1" y="1" z="1" w="0.60000002"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.44999999" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light3"/>
+    </Picture>
+    <Picture id="m_Light9" x="680" y="264" z="0" width="134" height="486" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="0.6457718"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.41999999" y="0.89999998" z="0"/>
+        <piece_info value="casino_common_loading_light1"/>
+    </Picture>
+    <Picture id="m_Light10" x="370" y="264" z="0" width="134" height="486" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.62831855"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.41999999" y="0.89999998" z="0"/>
+        <piece_info value="casino_common_loading_light1"/>
+    </Picture>
+    <RichLabel id="m_RichLabel" x="274" y="587" z="0" width="588" height="35" window_state="6">
+        <text value="Copyright@2006-2012 IGG Inc. All Rights Reserved"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <EditBox id="m_EbPassword" x="318" y="448" z="0" width="500" height="60" window_state="6" style="ngs_casino_editbox">
+        <font_size value="35"/>
+        <text_color value="cs_lightgrey"/>
+        <text_align_h value="1"/>
+        <text_offset x="19" y="0" z="0"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+        <edit_box_state value="0"/>
+        <ime_height_offset value="0"/>
+        <multi_line value="0"/>
+        <tips value="Enter your password"/>
+    </EditBox>
+    <Button id="m_BtnSend" x="489" y="519" z="0" width="158" height="61" window_state="6" style="ngs_casino_common_btn08b">
+        <text value="Login"/>
+        <font_size value="35"/>
+        <text_offset x="0" y="-4" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="m_RblVersion" x="830" y="11" z="0" width="300" height="40" window_state="6" style="ngs_panel_bg">
+        <text value="Error"/>
+        <text_color value="cs_White"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Picture id="m_PicInvalid" x="287" y="198" z="0" width="562" height="243" window_state="6" style="ngs_casino_common_tip_bg">
+        <RichLabel id="m_RichLabel" x="87" y="39" z="0" width="398" height="95" window_state="6">
+            <text value="You have entered an invalid password or character."/>
+            <font_size value="40"/>
+            <text_color value="cs_lightgrey"/>
+            <text_style value="8"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="29"/>
+        </RichLabel>
+        <Button id="m_BtnOK" x="202" y="135" z="0" width="158" height="61" window_state="6" style="ngs_casino_common_btn08b">
+            <text value="OK"/>
+            <font_size value="35"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+    </Picture>
+</Panel>

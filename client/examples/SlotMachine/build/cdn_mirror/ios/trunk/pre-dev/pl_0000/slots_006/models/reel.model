@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model mesh="reel.meshdata">
+    <MaterialList>
+        <Material id="0" name="diffuse_gold-material" two_faces="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="diffuse_gold.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+        <Material id="1" name="skystar_diffuse_00-material" two_faces="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="skystar_diffuse_00.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+		<Material id="2" name="diffuse_stone-material" two_faces="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="diffuse_stone.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+    </MaterialList>
+    <MeshList>
+        <Mesh id="0" name="reel" material="1" num_verts="264" num_faces="108" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT"/>
+        <Mesh id="1" name="reel_back" material="0" num_verts="4147" num_faces="2262" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT"/>
+    </MeshList>
+    <NodeList>
+        <Node id="0" parent_id="-1" name="unnamed" trans="0.01,0,0,0,0,0,0.01,0,0,-0.01,0,0,0,0,0,1"/>
+        <Node id="1" parent_id="0" name="EnvironmentAmbientLight" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="2" parent_id="0" name="reel" meshes="0" trans="1,0,0,18.2285,0,1,0,-9.72748e-005,0,0,1,0.0258942,0,0,0,1"/>
+        <Node id="3" parent_id="0" name="reel_back" meshes="1" trans="1,2.8486e-014,1.74846e-007,18.2285,1.74846e-007,-1.62921e-007,-1,-9.72748e-005,0,1,-1.62921e-007,0.0258942,0,0,0,1"/>
+    </NodeList>
+</Model>

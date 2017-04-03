@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		Feature: 收集图标
+				symbol 收集的目标图标
+				CollectCount 
+				10.增减筹码，直接配置TotalBet的倍数
+				11.增减FreeSpin次数
+				12.增减收集等级
+				13.切换轮盘
+				14.清除收集计数
+ -->
+<root>
+		<Collect id="1" symbol="51">
+				<CollectTarget id="1" CollectCount="3">
+						<FeatureTrigger Feature="10" Param1="1" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="2" CollectCount="6">
+						<FeatureTrigger Feature="10" Param1="2" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="3" CollectCount="9">
+						<FeatureTrigger Feature="11" Param1="2" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="4" CollectCount="12">
+						<FeatureTrigger Feature="10" Param1="4" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="5" CollectCount="15">
+						<FeatureTrigger Feature="10" Param1="6" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="6" CollectCount="18">
+						<FeatureTrigger Feature="11" Param1="3" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="7" CollectCount="21">
+						<FeatureTrigger Feature="10" Param1="10" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="8" CollectCount="24">
+						<FeatureTrigger Feature="10" Param1="15" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="9" CollectCount="27">
+						<FeatureTrigger Feature="10" Param1="250" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="13" Param1="1" Param2="0" Param3="0" Show="0" TriggerTiming="4"/>
+				</CollectTarget>
+		</Collect>
+</root>

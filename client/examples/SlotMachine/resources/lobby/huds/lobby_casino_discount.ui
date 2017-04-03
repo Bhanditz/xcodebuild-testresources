@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanSwitch" x="197" y="363" z="0" width="217" height="30" window_state="6">
+    <Picture id="m_PicPage0" x="13" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage1" x="33" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage2" x="53" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage3" x="73" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage4" x="93" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage5" x="113" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage6" x="133" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage7" x="153" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage8" x="173" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicPage9" x="193" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scroll"/>
+    </Picture>
+    <Picture id="m_PicCurrent" x="33" y="10" z="0" width="11" height="11" window_state="6">
+        <piece_info value="casino_lobby_slot_scrolla"/>
+    </Picture>
+</Panel>

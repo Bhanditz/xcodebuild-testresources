@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="base_game_hb.png" width="512" height="512" blend="2" loop="-1">
+    <sprite n="w_020.png" x="363" y="363" w="122" h="116" oX="9" oY="18" oW="150" oH="150" dr="60"/>
+    <sprite n="w_022.png" x="243" y="365" w="116" h="122" oX="9" oY="18" oW="150" oH="150" r="y" dr="60"/>
+    <sprite n="kk_024.png" x="123" y="365" w="116" h="122" oX="9" oY="18" oW="150" oH="150" r="y" dr="60"/>
+    <sprite n="kk_026.png" x="123" y="245" w="122" h="116" oX="9" oY="18" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_028.png" x="3" y="363" w="116" h="122" oX="9" oY="18" oW="150" oH="150" r="y" dr="60"/>
+    <sprite n="kk_030.png" x="381" y="243" w="122" h="116" oX="9" oY="19" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_032.png" x="255" y="243" w="122" h="116" oX="9" oY="19" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_034.png" x="129" y="125" w="122" h="116" oX="9" oY="19" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_036.png" x="3" y="125" w="122" h="116" oX="9" oY="19" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_038.png" x="381" y="123" w="122" h="116" oX="9" oY="19" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_040.png" x="129" y="3" w="122" h="118" oX="9" oY="17" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_042.png" x="3" y="3" w="122" h="118" oX="9" oY="17" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_044.png" x="255" y="123" w="122" h="116" oX="9" oY="18" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_046.png" x="381" y="3" w="122" h="116" oX="9" oY="18" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_048.png" x="255" y="3" w="122" h="116" oX="9" oY="18" oW="150" oH="150" dr="60"/>
+    <sprite n="kk_050.png" x="363" y="363" w="122" h="116" oX="9" oY="18" oW="150" oH="150" dr="60"/>
+</TextureAtlas>

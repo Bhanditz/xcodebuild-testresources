@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="dragon_bottonfire.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="bottom_fire_00" x="162" y="242" w="126" h="78" oX="26" oY="17" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_01" x="162" y="340" w="78" h="126" oX="26" oY="17" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_02" x="296" y="82" w="130" h="78" oX="26" oY="13" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_03" x="2" y="294" w="78" h="144" oX="26" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_04" x="418" y="212" w="78" h="126" oX="26" oY="17" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_05" x="290" y="162" w="126" h="78" oX="26" oY="17" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_06" x="162" y="82" w="132" h="78" oX="26" oY="11" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_07" x="322" y="322" w="78" h="122" oX="26" oY="21" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_08" x="428" y="82" w="78" h="128" oX="26" oY="15" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_09" x="370" y="2" w="140" h="78" oX="26" oY="3" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_10" x="2" y="148" w="78" h="144" oX="26" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_11" x="162" y="162" w="126" h="78" oX="26" oY="17" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_12" x="242" y="340" w="78" h="124" oX="26" oY="19" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_13" x="290" y="242" w="124" h="78" oX="26" oY="19" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_14" x="82" y="356" w="78" h="134" oX="26" oY="9" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_15" x="226" y="2" w="142" h="78" oX="26" oY="1" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_16" x="82" y="82" w="78" h="136" oX="26" oY="7" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_17" x="82" y="2" w="142" h="78" oX="26" oY="1" oW="128" oH="160" r="y" dr="60"/>
+    <sprite n="bottom_fire_18" x="82" y="220" w="78" h="134" oX="26" oY="9" oW="128" oH="160" dr="60"/>
+    <sprite n="bottom_fire_19" x="2" y="2" w="78" h="144" oX="26" oW="128" oH="160" dr="60"/>
+</TextureAtlas>

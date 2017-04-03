@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="140" height="58" window_state="6">
+    <Panel id="m_Panel" x="0" y="-24" z="0" width="140" height="82" window_state="6">
+        <Picture id="m_WildFrame" x="-14" y="-9" z="0" width="169" height="100" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <piece_info value="slots_006_icon_037"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="0" y="13" z="0" width="140" height="69" window_state="6">
+            <blend_mode value="2"/>
+            <action_id value="animation_slot006_icon002_shine"/>
+            <piece_info value="zeus_wild_mask"/>
+            <scale_bottom value="0"/>
+            <mask_piece value="shine"/>
+            <mask_scale value="0.16"/>
+            <mask_offset x="-0.94999999" y="0" z="0"/>
+        </PictureMask>
+        <Picture id="m_Castle" x="-14" y="-9" z="0" width="169" height="100" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <piece_info value="slots_006_icon_037b"/>
+        </Picture>
+        <Picture id="m_Glow" x="-15" y="0" z="0" width="170" height="102" window_state="4">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot006_icon_002_02"/>
+            <piece_info value="slots_006_icon_038b"/>
+        </Picture>
+        <Picture id="m_Flare" x="-80" y="8" z="0" width="300" height="86" window_state="4">
+            <blend_mode value="2"/>
+            <action_id value="animation_slot006_icon_002_03"/>
+            <piece_info value="slots_006_icon_038c"/>
+        </Picture>
+        <Picture id="flash" x="-184" y="-205" z="0" width="512" height="512" window_state="4" style="ngs_panel_bg">
+            <scale x="0.40000001" y="0.2" z="0.40000001"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot006_icon_002_02"/>
+            <piece_info value="vfx_23_throne_lightnings_bg"/>
+        </Picture>
+        <Picture id="m_WildText" x="-14" y="-9" z="0" width="169" height="100" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <piece_info value="slots_006_icon_038"/>
+        </Picture>
+    </Panel>
+</Panel>

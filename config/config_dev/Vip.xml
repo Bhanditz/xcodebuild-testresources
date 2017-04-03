@@ -1,0 +1,213 @@
+﻿<?xml version="1.0"?>
+<!--
+  Vip系统
+  		Events:事件列表
+  			Event:事件配置
+  				type: 1(VIP等级冲值筹码奖励) 2(VIP加成vip经验) 3(登入奖励，VIP加成)4((VIP等级解锁的主题)  5（在线奖励 VIP加成）6（VIP等级倒计时转盘奖励）7（VIP 好友限）8(VIP等级解锁的房间数)
+  				RewardType:奖励类型 1（固定值） 2 (倍数) 倍数定义为reward的值/100
+  				Level:vip等级对应的奖励
+  					id:vip等级
+  					reward:奖励
+  		LevelUp:升级配置
+  			Level:等级配置
+  				lev:等级
+  				exp:升级需要的经验
+  		ChargeExp:经验获得的配置
+  			Charge:订单经验配置
+  				PCID:订单的PCID
+  				exp:相应的经验值
+-->
+<root>
+		<Events>
+				<Event type="1" RewardType="2"> 
+					<vipLev lev="1" >
+						<userlev maxlev="10000" reward="0" />
+					</vipLev>
+					<vipLev lev="2" >
+						<userlev maxlev="10000" reward="100" />
+					</vipLev>
+					<vipLev lev="3" >
+						<userlev maxlev="10000" reward="300" />
+					</vipLev>
+					<vipLev lev="4" >
+						<userlev maxlev="10000" reward="500" />
+					</vipLev>
+					<vipLev lev="5" >
+						<userlev maxlev="10000" reward="750" />
+					</vipLev>
+					<vipLev lev="6" >
+						<userlev maxlev="10000" reward="1000" />
+					</vipLev>
+					<vipLev lev="7" >
+						<userlev maxlev="10000" reward="1300" />
+					</vipLev>
+					<vipLev lev="8" >
+						<userlev maxlev="10000" reward="1600" />
+					</vipLev>
+					<vipLev lev="9" >
+						<userlev maxlev="10000" reward="2000" />
+					</vipLev>
+					<vipLev lev="10" >
+						<userlev maxlev="10000" reward="2500" />
+					</vipLev>
+				</Event>		
+				<Event type="2" RewardType="2">
+					<Level lev="1" reward="0" />
+					<Level lev="2" reward="0" />
+					<Level lev="3" reward="0" />
+					<Level lev="4" reward="0" />
+					<Level lev="5" reward="0" />
+					<Level lev="6" reward="0" />
+					<Level lev="7" reward="0" />
+					<Level lev="8" reward="0" />
+					<Level lev="9" reward="0" />
+					<Level lev="10" reward="0" />
+				</Event>						
+				<Event type="4" RewardType="1">
+					<Level lev="1" reward="0" />
+					<Level lev="2" reward="0" />
+					<Level lev="3" reward="0" />
+					<Level lev="4" reward="0" />
+					<Level lev="5" reward="1" />
+					<Level lev="6" reward="1" />
+					<Level lev="7" reward="1" />
+					<Level lev="8" reward="1" />
+					<Level lev="9" reward="1" />
+					<Level lev="10" reward="1" />
+				</Event>
+				<Event type="5" RewardType="2">
+					<Level lev="1" reward="0" />
+					<Level lev="2" reward="100" />
+					<Level lev="3" reward="250" />
+					<Level lev="4" reward="400" />
+					<Level lev="5" reward="600" />
+					<Level lev="6" reward="900" />
+					<Level lev="7" reward="1400" />
+					<Level lev="8" reward="1900" />
+					<Level lev="9" reward="2900" />
+					<Level lev="10" reward="4900" />
+				</Event>
+				<Event type="6" RewardType="2">
+					<Level lev="1" reward="0" />
+					<Level lev="2" reward="20" />
+					<Level lev="3" reward="50" />
+					<Level lev="4" reward="100" />
+					<Level lev="5" reward="200" />
+					<Level lev="6" reward="400" />
+					<Level lev="7" reward="600" />
+					<Level lev="8" reward="900" />
+					<Level lev="9" reward="1400" />
+					<Level lev="10" reward="1900" />
+				</Event>
+				<Event type="7" RewardType="1">
+					<Level lev="1" reward="100" />
+					<Level lev="2" reward="100" />
+					<Level lev="3" reward="100" />
+					<Level lev="4" reward="100" />
+					<Level lev="5" reward="100" />
+					<Level lev="6" reward="100" />
+					<Level lev="7" reward="100" />
+					<Level lev="8" reward="100" />
+					<Level lev="9" reward="100" />
+					<Level lev="10" reward="100" />
+				</Event>
+				
+				<Event type="8" RewardType="1">
+					<Level lev="1" reward="5" />
+					<Level lev="2" reward="5" />
+					<Level lev="3" reward="5" />
+					<Level lev="4" reward="5" />
+					<Level lev="5" reward="5" />
+					<Level lev="6" reward="5" />
+					<Level lev="7" reward="5" />
+					<Level lev="8" reward="5" />
+					<Level lev="9" reward="5" />
+					<Level lev="10" reward="5" />
+				</Event>
+		</Events>
+		
+		<LevelUp>
+			<Level lev="1" exp="0" />
+			<Level lev="2" exp="300" />
+			<Level lev="3" exp="600" />
+			<Level lev="4" exp="1200" />
+			<Level lev="5" exp="2200" />
+			<Level lev="6" exp="5000" />
+			<Level lev="7" exp="10000" />
+			<Level lev="8" exp="20000" />
+			<Level lev="9" exp="35000" />
+			<Level lev="10" exp="60000" />
+		</LevelUp>	
+		
+		<ChargeExp>
+			<Charge pcid="13089" exp="1000" />
+			<Charge pcid="13088" exp="700" />
+			<Charge pcid="13087" exp="500" />
+			<Charge pcid="13086" exp="250" />
+			<Charge pcid="13085" exp="100" />
+			<Charge pcid="13084" exp="50" />
+			<Charge pcid="13083" exp="20" />
+			<Charge pcid="13164" exp="12" />
+			<Charge pcid="13165" exp="60" />
+			<Charge pcid="13166" exp="120" />
+			<Charge pcid="13175" exp="12" />
+			<Charge pcid="13176" exp="24" />
+			<Charge pcid="13177" exp="36" />
+			<Charge pcid="13178" exp="48" />
+			<Charge pcid="13179" exp="60" />
+			<Charge pcid="13174" exp="180" />
+			<Charge pcid="13173" exp="144" />
+			<Charge pcid="13172" exp="96" />
+			<Charge pcid="13171" exp="48" />
+			<Charge pcid="13170" exp="12" />
+			<Charge pcid="13168" exp="300" />
+			<Charge pcid="13167" exp="240" />
+			<Charge pcid="13169" exp="150" />
+			<Charge pcid="13369" exp="24" />
+			<Charge pcid="13370" exp="24" />
+			<Charge pcid="13389" exp="150" />
+			<Charge pcid="13390" exp="150" />
+			<Charge pcid="13391" exp="200" />
+			<Charge pcid="13392" exp="250" />
+			<Charge pcid="13393" exp="300" />
+		</ChargeExp>
+		
+		<VipGift>
+			<uplevel>
+				<Level lev="2" itemtype="1" count="50000" />
+				<Level lev="3" itemtype="1" count="100000" />
+				<Level lev="4" itemtype="1" count="300000" />
+				<Level lev="5" itemtype="1" count="1000000" />
+				<Level lev="6" itemtype="1" count="10000000" />
+				<Level lev="7" itemtype="1" count="15000000" />
+				<Level lev="8" itemtype="1" count="30000000" />
+				<Level lev="9" itemtype="1" count="50000000" />
+				<Level lev="10" itemtype="1" count="100000000" />
+			</uplevel>
+			<birthday>
+				<Level lev="1" itemtype="1" count="30000" />
+				<Level lev="2" itemtype="1" count="100000" />
+				<Level lev="3" itemtype="1" count="300000" />
+				<Level lev="4" itemtype="1" count="1000000" />
+				<Level lev="5" itemtype="1" count="3000000" />
+				<Level lev="6" itemtype="1" count="10000000" />
+				<Level lev="7" itemtype="1" count="15000000" />
+				<Level lev="8" itemtype="1" count="30000000" />
+				<Level lev="9" itemtype="1" count="50000000" />
+				<Level lev="10" itemtype="1" count="100000000" />
+			</birthday>
+			<backgame leaveday="3">
+				<Level lev="1" itemtype="1" count="3000" />
+				<Level lev="2" itemtype="1" count="10000" />
+				<Level lev="3" itemtype="1" count="15000" />
+				<Level lev="4" itemtype="1" count="20000" />
+				<Level lev="5" itemtype="1" count="25000" />
+				<Level lev="6" itemtype="1" count="30000" />
+				<Level lev="7" itemtype="1" count="45000" />
+				<Level lev="8" itemtype="1" count="60000" />
+				<Level lev="9" itemtype="1" count="80000" />
+				<Level lev="10" itemtype="1" count="100000" />
+			</backgame>
+		</VipGift>
+ </root>
+ 

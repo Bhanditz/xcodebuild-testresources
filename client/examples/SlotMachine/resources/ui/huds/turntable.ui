@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="casino_turntable_bg"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_Picture1" x="0" y="0" z="0" width="1136" height="70" window_state="6" style="ngs_casino_common_panel01b">
+        <Picture id="m_Picture" x="359" y="8" z="0" width="417" height="67" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_common_panel12b"/>
+        </Picture>
+        <RichLabel id="m_RichLabel" x="313" y="5" z="0" width="508" height="65" window_state="6">
+            <text value="PLATFORM_TIMEBONUS_WHEEL_TITLE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <Button id="m_Button" x="1033" y="5" z="0" width="78" height="83" window_state="4">
+        <line_height value="30"/>
+    </Button>
+    <Panel id="m_Panel" x="1" y="87" z="0" width="1134" height="540" window_state="6">
+        <Picture id="m_Picture" x="348" y="105" z="0" width="758" height="396" window_state="6">
+            <Button id="m_Button5" x="315" y="262" z="0" width="401" height="105" window_state="6" style="ngs_casino_common_btn037">
+                <font_size value="65"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <RichLabel id="m_RichLabel" x="146" y="0" z="0" width="216" height="50" window_state="14">
+                    <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_COLLECT"/>
+                    <font_size value="45"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.5"/>
+                    <outline_color value="cs_blueblack"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="146" y="42" z="0" width="216" height="50" window_state="6">
+                    <text value="$-"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.5"/>
+                    <outline_color value="cs_blueblack"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture" x="29" y="-12" z="0" width="154" height="119" window_state="14">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                    <piece_info value="casino_common_icon13"/>
+                </Picture>
+            </Button>
+            <RichLabel id="m_RichLabel" x="348" y="18" z="0" width="328" height="50" window_state="6">
+                <text value="PLATFORM_TIMEBONUS_WHEEL_MEGABONUS"/>
+                <font_size value="60"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.059999999"/>
+                <glyph_center value="0.47999999"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_PanBeforeSpinPos" x="298" y="118" z="0" width="412" height="160" window_state="4"/>
+            <Panel id="m_PanAfterSpinPos" x="298" y="90" z="0" width="412" height="160" window_state="4"/>
+            <Panel id="m_InfoPanel" x="298" y="90" z="0" width="412" height="160" window_state="6">
+                <Picture id="m_Picture" x="224" y="10" z="0" width="180" height="50" window_state="6" style="ngs_casino_common_panel24"/>
+                <Picture id="m_Picture1" x="224" y="99" z="0" width="180" height="50" window_state="6" style="ngs_casino_common_panel24"/>
+                <RichLabel id="m_lbSpinBonusTitle" x="10" y="15" z="0" width="181" height="39" window_state="6">
+                    <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_SPINBONUS"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_color_bule1"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_SpinBonus" x="238" y="15" z="0" width="151" height="39" window_state="6">
+                    <text value="-"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_color_bule1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="10" y="104" z="0" width="181" height="39" window_state="6">
+                    <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_MULTIPLIER"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LevelBonus" x="238" y="104" z="0" width="151" height="39" window_state="6">
+                    <text value="-"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="35" y="60" z="0" width="131" height="39" window_state="6">
+                    <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X"/>
+                    <font_size value="47"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Picture>
+        <PictureMirror id="m_Picture1" x="197" y="87" z="0" width="384" height="385" window_state="6">
+            <scale x="1.1" y="1.1" z="1.1"/>
+            <Picture id="m_Picture" x="16" y="16" z="0" width="388" height="387" window_state="262">
+                <piece_info value="casino_common_panel82a"/>
+                <PictureMirror id="m_PictureMirror" x="0" y="1" z="0" width="352" height="352" window_state="4">
+                    <scale x="1.01" y="1.01" z="1.01"/>
+                </PictureMirror>
+            </Picture>
+            <Button id="m_Button" x="126" y="140" z="0" width="166" height="190" window_state="6" style="bs_casino_common_btn038">
+                <line_height value="30"/>
+            </Button>
+            <Picture id="m_Picture2" x="188" y="-42" z="0" width="41" height="81" window_state="6">
+                <anchor_point x="0.5" y="0.30000001" z="0"/>
+                <piece_info value="casino_common_panel84"/>
+            </Picture>
+        </PictureMirror>
+        <Picture id="m_Picture2" x="441" y="365" z="0" width="224" height="109" window_state="262">
+            <scale x="1.24" y="1.24" z="1.24"/>
+            <rotation x="0" y="0" z="0.55850536"/>
+            <action_id value="animation_lobby_turntable_arrow"/>
+            <piece_info value="casino_common_panel84b"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_StarLevel" x="1" y="92" z="0" width="151" height="549" window_state="6">
+        <Panel id="m_StarLow" x="5" y="90" z="0" width="148" height="405" window_state="262148">
+            <scale x="0.94" y="0.94" z="0.94"/>
+            <PictureMirror id="m_Pic0" x="14" y="-55" z="0" width="122" height="100" window_state="6">
+                <piece_info value="casino_common_panel83b"/>
+            </PictureMirror>
+            <Panel id="m_Star5" x="8" y="16" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="3" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 5"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="3" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 5"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star4" x="8" y="92" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="1" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="21" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="38" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X20"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="1" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="21" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="38" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X20"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star3" x="8" y="165" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 3"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X15"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 3"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X15"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star2" x="8" y="239" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X12"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X12"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star1" x="8" y="312" z="0" width="133" height="95" window_state="6">
+                <PictureMirror id="m_Off" x="5" y="3" z="0" width="122" height="90" window_state="6">
+                    <piece_info value="casino_common_panel83d"/>
+                    <RichLabel id="star" x="13" y="29" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 1"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="46" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X10"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="5" y="3" z="0" width="122" height="90" window_state="6">
+                    <piece_info value="casino_common_panel83e"/>
+                    <RichLabel id="star" x="13" y="29" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 1"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="46" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X10"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+        </Panel>
+        <Panel id="m_StarMid" x="5" y="90" z="0" width="148" height="405" window_state="262148">
+            <scale x="0.94" y="0.94" z="0.94"/>
+            <PictureMirror id="m_Pic0" x="14" y="-65" z="0" width="122" height="100" window_state="6">
+                <piece_info value="casino_common_panel83b"/>
+            </PictureMirror>
+            <Panel id="m_Star5" x="8" y="6" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="3" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="3" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star4" x="8" y="80" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="3" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 5"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="3" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 5"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star3" x="8" y="156" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="1" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="21" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="38" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X20"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="1" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="21" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="38" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X20"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star2" x="8" y="229" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 3"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X15"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 3"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X15"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star1" x="8" y="303" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X12"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="20" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="37" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X12"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <PictureMirror id="m_Pic1" x="14" y="379" z="0" width="122" height="100" window_state="6">
+                <piece_info value="casino_common_panel83b"/>
+            </PictureMirror>
+        </Panel>
+        <Panel id="m_StarHigh" x="5" y="90" z="0" width="148" height="405" window_state="262150">
+            <scale x="0.94" y="0.94" z="0.94"/>
+            <Panel id="m_Star5" x="8" y="-4" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="3" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83g"/>
+                    <RichLabel id="star" x="13" y="14" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 10"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="31" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="3" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83f"/>
+                    <RichLabel id="star" x="13" y="14" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 10"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="31" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star4" x="8" y="70" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 9"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 9"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star3" x="8" y="145" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 8"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 8"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star2" x="8" y="219" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 7"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 7"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <Panel id="m_Star1" x="8" y="293" z="0" width="133" height="102" window_state="6">
+                <PictureMirror id="m_Off" x="6" y="2" z="0" width="122" height="100" window_state="6">
+                    <piece_info value="casino_common_panel83b"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+                <PictureMirror id="m_On" x="6" y="2" z="0" width="122" height="100" window_state="4">
+                    <piece_info value="casino_common_panel83c"/>
+                    <RichLabel id="star" x="13" y="19" z="0" width="96" height="20" window_state="6">
+                        <text value="STAR 6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel" x="13" y="36" z="0" width="96" height="30" window_state="6">
+                        <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_X25"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </PictureMirror>
+            </Panel>
+            <PictureMirror id="m_Pic1" x="14" y="369" z="0" width="122" height="100" window_state="6">
+                <piece_info value="casino_common_panel83b"/>
+            </PictureMirror>
+        </Panel>
+        <RichLabel id="m_RichLabel" x="22" y="28" z="0" width="114" height="30" window_state="6">
+            <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_STAR"/>
+            <font_size value="55"/>
+            <text_color value="cs_purpleTxt2"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel1" x="22" y="63" z="0" width="114" height="30" window_state="6">
+            <text value="PLATFORM_TIMEBONUS_WHEEL_TEXT_AWARD"/>
+            <font_size value="35"/>
+            <text_color value="cs_purpleTxt2"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel implement_class="SpecialTimeBonusInfo" id="m_PanelXmas" x="794" y="77" z="0" width="305" height="114" window_state="6">
+        <Picture id="m_SpecialBg" x="-1" y="4" z="0" width="305" height="103" window_state="6" style="ngs_casino_common_panel88"/>
+        <RichLabel id="m_LbSpecialTitle" x="50" y="17" z="0" width="203" height="14" window_state="262">
+            <text value="CHRISTMAS BONUS"/>
+            <font_size value="14"/>
+            <text_align_h value="1"/>
+            <font_id value="UnlockNewGame"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Panel id="m_PanelBonusRatio" x="21" y="45" z="0" width="260" height="25" window_state="6">
+            <window_layout value="1"/>
+            <window_layout_align_v value="0"/>
+            <RichLabel id="m_BonusRatio" x="35" y="0" z="0" width="120" height="25" window_state="6">
+                <color_scale x="1.05" y="1.05" z="1" w="1"/>
+                <text value="TIME_BONUS_SPECIAL_RATIO"/>
+                <font_size value="20"/>
+                <text_align_h value="1"/>
+                <font_id value="shopfont2"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_BonusRatioValue" x="155" y="0" z="0" width="70" height="25" window_state="6">
+                <color_scale x="1.5" y="1.5" z="1.5" w="1"/>
+                <text value=" x123"/>
+                <font_size value="25"/>
+                <text_color value="cs_Sallow"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_PanelTime" x="19" y="70" z="0" width="265" height="25" window_state="6">
+            <window_layout value="1"/>
+            <window_layout_align_v value="0"/>
+            <window_layout_align_h value="0"/>
+            <RichLabel id="m_TimeRatio" x="0" y="0" z="0" width="80" height="25" window_state="6">
+                <color_scale x="1.05" y="1.05" z="1" w="1"/>
+                <text value="TIME_BONUS_SPECIAL_TIME"/>
+                <font_size value="20"/>
+                <text_align_h value="1"/>
+                <font_id value="shopfont2"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RatioTimeValue" x="80" y="0" z="0" width="184" height="25" window_state="6">
+                <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+                <text value="20 Days 20 : 20 : 20"/>
+                <font_size value="25"/>
+                <text_color value="cs_Sallow"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+</Panel>

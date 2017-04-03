@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorStyleList>
+  <ColorStyle id="cs_slots_010_orange">
+    <normal value="0xff9326"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_010_text_01">
+    <normal value="0x5f8884"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_010_text_02">
+    <normal value="0x25302c"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_010_text_03">
+    <normal value="0xf2daaa"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_010_text_04">
+    <normal value="0xc9ad6d"/>
+    <down value="0x775932"/>
+    <hover value="0x775932"/>
+    <disabled value="0x775932"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_010_text_05">
+    <normal value="0x837c72"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_010_text_06">
+    <normal value="0xa35e18"/>
+  </ColorStyle>
+</ColorStyleList>

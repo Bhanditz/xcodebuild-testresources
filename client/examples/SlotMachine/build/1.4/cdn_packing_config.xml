@@ -1,0 +1,34 @@
+
+<d base="">
+	<d name="extends" base="*" />
+	
+	<d name="slots_001" base="*" />
+	<d name="slots_002" base="*" />
+	<d name="slots_003" base="*" />
+	<d name="slots_004" base="*" />
+	<d name="slots_005" base="*" />
+	<d name="slots_006" base="*" />
+	<d name="slots_007" base="*" />
+	<!--<d name="slots_008" base="*" />-->
+	
+	<d name="slots_010" base="*" />
+	
+	<d name="slots_012" base="*" />
+	<d name="slots_014" base="*" />
+	
+	<d name="slots_018" base="*" />
+	
+	<d name="slots_1001" base="*" />
+	<d name="slots_1002" base="*" />
+	<d name="slots_1003" base="*" />
+	<d name="slots_1004" base="*" />
+	<d name="slots_1005" base="*" />
+	<d name="slots_1006" base="*" />
+	<d name="slots_1007" base="*" />
+	<d name="slots_1008" base="*" />
+	<d name="slots_1009" base="*" />
+	
+	<d name="video_poker" base="*" />
+	<d name="black_jack" base="*" />
+	<d name="poker" base="*" />
+</d>

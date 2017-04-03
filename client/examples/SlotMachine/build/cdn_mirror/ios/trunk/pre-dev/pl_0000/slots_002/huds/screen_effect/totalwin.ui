@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+    <Picture id="ref" x="0" y="529" z="0" width="1137" height="111" window_state="12">
+        <piece_info value="slots_002_panel4"/>
+    </Picture>
+    <Sprite id="m_SpriteTotalwin" x="748" y="488" z="0" width="200" height="200" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_spinleft.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Panel id="m_Panel_totalwin" x="701" y="498" z="0" width="200" height="200" window_state="4">
+        <Particle id="m_Particle_totalwin" x="84" y="84" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+            <package_file value="slots_002/particles/Spartan01.ptc"/>
+            <particle_name value="totalwin"/>
+            <attach_bone value=""/>
+        </Particle>
+    </Panel>
+</Panel>

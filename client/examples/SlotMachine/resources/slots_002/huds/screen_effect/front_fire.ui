@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="ref" x="0" y="0" z="0" width="1136" height="640" window_state="6"/>
+    <Sprite id="m_Sprite_fire1" x="551" y="391" z="0" width="500" height="200" window_state="4">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite_fire" x="106" y="391" z="0" width="500" height="200" window_state="4">
+        <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Particle id="m_Particle" x="60" y="560" z="0" width="20" height="20" window_state="4" particle_state="0">
+        <blend_mode value="2"/>
+        <package_file value="slots_002/particles/Spartan01.ptc"/>
+        <particle_name value="huoxing"/>
+    </Particle>
+    <Particle id="m_Particle1" x="1067" y="560" z="0" width="20" height="20" window_state="4" particle_state="0">
+        <blend_mode value="2"/>
+        <package_file value="slots_002/particles/Spartan01.ptc"/>
+        <particle_name value="huoxing"/>
+    </Particle>
+    <Sprite id="m_Sprite_sidefire" x="-64" y="291" z="0" width="300" height="300" window_state="4">
+        <sprite_file value="slots_002/sprites/Sparta_bgsidefire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite_sidefire1" x="937" y="287" z="0" width="300" height="300" window_state="4">
+        <sprite_file value="slots_002/sprites/Sparta_bgsidefire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Particle id="m_Particle2" x="73" y="553" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg" particle_state="0">
+        <package_file value="slots_002/particles/Spartan01.ptc"/>
+        <particle_name value="huoxing shizhu left"/>
+    </Particle>
+    <Particle id="m_Particle3" x="1026" y="553" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg" particle_state="0">
+        <package_file value="slots_002/particles/Spartan01.ptc"/>
+        <particle_name value="huoxing shizhu right"/>
+    </Particle>
+    <Panel id="m_bottom" x="-1" y="526" z="0" width="1140" height="115" window_state="4">
+        <Picture id="m_bottombacking" x="2" y="1" z="0" width="1137" height="111" window_state="14">
+            <piece_info value="slots_002_panel4"/>
+            <RichLabel id="m_RichLabel" x="727" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="TOTAL WIN&lt;font color=&quot;cs_Sallow&quot;&gt;
+50000&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="45" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="SPINS LEFT&lt;font color=&quot;cs_Sallow&quot;&gt;
+5&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="271" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="TOTAL BET&lt;font color=&quot;cs_Sallow&quot;&gt;
+500&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="494" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="WIN&lt;font color=&quot;cs_Sallow&quot;&gt;
+500&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <Button id="m_spin" x="916" y="1" z="0" width="220" height="110" window_state="6" style="bs_slots_002_btn1">
+                <text value="HOLD FOR AUTO SPIN"/>
+                <font_size value="25"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="38" y="8" z="0" width="144" height="75" window_state="6">
+                    <piece_info value="slots_002_text2"/>
+                </Picture>
+            </Button>
+        </Picture>
+    </Panel>
+</Panel>

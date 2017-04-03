@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Picture3030" x="0" y="1" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="vpoker_001_bg_01"/>
+    </Picture>
+    <Particle id="m_ParBigwinBg" x="552" y="341" z="0" width="32" height="32" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Bigwin bg"/>
+    </Particle>
+    <Particle id="m_ParBigwincoin" x="552" y="796" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Bigwin coin"/>
+    </Particle>
+    <Particle id="m_ParBigwincoin1" x="558" y="760" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Bigwin coin2"/>
+    </Particle>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <ScrollContainer id="m_ScrollContainer" x="175" y="248" z="0" width="783" height="132" window_state="262150">
+            <Panel implement_class="PanelHand" id="m_PanelHand" x="36" y="-26" z="0" width="715" height="268" window_state="6">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <Button implement_class="ButtonCard" id="m_BtnCard0" x="65" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard00" x="65" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="12">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="12">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard1" x="190" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard11" x="190" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="12">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="12">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard2" x="315" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard22" x="315" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="12">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="12">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard3" x="440" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard33" x="440" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="12">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="12">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard4" x="565" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard44" x="565" y="83" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.5" y="1.5" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="12">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="12">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="12">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="12">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="12">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="12">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Picture id="m_Picture" x="-140" y="8" z="0" width="997" height="39" window_state="6" style="ngs_vpoker_001_panel_017">
+                    <RichLabel id="m_RichLabelWinName" x="298" y="3" z="0" width="395" height="32" window_state="4">
+                        <text value="VIDEOPOKER_ROOM_TIPS_JACKSORBETTER"/>
+                        <text_color value="cs_White"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.44999999"/>
+                        <outline_center value="0.46000001"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LabelHandNameHelp" x="179" y="3" z="0" width="195" height="32" window_state="4">
+                        <text value="HAND NAME"/>
+                        <text_color value="cs_White"/>
+                        <text_align_h value="1"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.44999999"/>
+                        <outline_center value="0.46000001"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LabelWinValueHelp" x="606" y="3" z="0" width="195" height="32" window_state="4">
+                        <text value="$WIN"/>
+                        <text_color value="cs_White"/>
+                        <text_align_h value="3"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.44999999"/>
+                        <outline_center value="0.46000001"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_PictureWinAmount" x="-140" y="8" z="0" width="997" height="30" window_state="4" style="ngs_vpoker_001_panel_017">
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <RichLabel id="m_RichLabelWinAmount" x="449" y="-1" z="0" width="96" height="30" window_state="6">
+                        <text value="You Win $100,103"/>
+                        <font_size value="32"/>
+                        <text_style value="1"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.44999999"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+        </ScrollContainer>
+        <Picture id="m_PictureWinInfo" x="236" y="361" z="0" width="660" height="117" window_state="6">
+            <Picture id="m_Picture5" x="51" y="19" z="0" width="562" height="94" window_state="6">
+                <scale x="1.1" y="1.1" z="1.1"/>
+                <color_scale x="1" y="1" z="1" w="0.89999998"/>
+                <piece_info value="vpoker_001_panel_076"/>
+            </Picture>
+            <RichLabel id="m_RichLabelWinAmount" x="130" y="51" z="0" width="400" height="33" window_state="6">
+                <scale x="1.65" y="1.65" z="1.65"/>
+                <text value="$200,000"/>
+                <font_size value="50"/>
+                <text_color value="cs_White"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.49000001"/>
+                <word_spacing value="1.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <RichLabel id="m_RichLabelWinType" x="229" y="241" z="0" width="659" height="38" window_state="6">
+            <text value="FOUR OF A  KIND!"/>
+            <font_size value="44"/>
+            <text_color value="cs_yellowTxt"/>
+            <text_style value="1"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.25"/>
+            <outline_center value="0.44"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_Button" x="1022" y="11" z="0" width="88" height="88" window_state="260" style="bs_vpoker_001_button_010">
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_ButtonCollect" x="378" y="487" z="0" width="378" height="79" window_state="6" style="bs_vpoker_001_panel_077">
+            <text value="VIDEOPOKER_ROOM_POPUP_BUTTON_COLLECT"/>
+            <font_size value="65"/>
+            <text_offset x="0" y="-3" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <ToggleButton id="m_ToggleButton" x="454" y="582" z="0" width="36" height="31" window_state="6">
+            <anchor_point x="3" y="0.5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_vpoker_001_panel_079"/>
+            <unchecked_bg_style value="bs_vpoker_001_panel_078"/>
+            <RichLabel id="m_RichLabel" x="40" y="-4" z="0" width="196" height="37" window_state="6">
+                <text value="VIDEOPOKER_ROOM_POPUP_TEXT_SHARE"/>
+                <font_id value="LatoReg"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.43000001"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </ToggleButton>
+    </Picture>
+    <Mesh id="m_Mesh" x="523" y="87" z="0" width="100" height="100" window_state="2054">
+        <rotation x="0.052359879" y="0" z="0"/>
+        <action_id value="animation_bigwin_rotation"/>
+        <mesh_file value="slots/model/bigwin.model"/>
+        <mesh_scale x="280" y="280" z="280"/>
+        <clear_depth value="1"/>
+        <sky_color r="254" g="208" b="163" a="255"/>
+        <sky_brightness value="0.5"/>
+        <lights>
+            <element>
+                <direction x="-2" y="-4" z="-3"/>
+                <color r="255" g="247" b="223" a="255"/>
+            </element>
+            <element>
+                <direction x="1" y="5" z="-3"/>
+                <color r="253" g="254" b="197" a="255"/>
+                <brightness value="0.69999999"/>
+            </element>
+        </lights>
+        <PictureMask id="m_PictureMask" x="-106" y="18" z="-1" width="313" height="68" window_state="6">
+            <scale x="2.21" y="2.2" z="2.21"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.5" z="26.530001"/>
+            <action_id value="animation_bigwin_sweep"/>
+            <piece_info value="bigwin_mask"/>
+            <scale_mode value="2"/>
+            <mask_piece value="bigwin_sweep"/>
+            <mask_offset x="-0.47999999" y="0" z="0"/>
+        </PictureMask>
+        <PictureMask id="m_PictureMask1" x="-106" y="18" z="-2" width="313" height="68" window_state="6">
+            <scale x="2.1900001" y="2.2" z="2.21"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.5" z="26.530001"/>
+            <action_id value="animation_bigwin_sweep01"/>
+            <piece_info value="bigwin_mask01"/>
+            <scale_mode value="2"/>
+            <mask_piece value="bigwin_sweep01"/>
+            <mask_offset x="-0.55000001" y="0" z="0"/>
+        </PictureMask>
+        <Particle id="m_Particle1" x="40" y="40" z="-33" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <scale x="0.92500001" y="0.92500001" z="0.92500001"/>
+            <action_id value="animation_bigwin_rotation2"/>
+            <particle_state value="1"/>
+            <package_file value="slots/particles/bigwin.ptc"/>
+            <particle_name value="bigwin star"/>
+        </Particle>
+        <Picture id="m_Picture1" x="-390" y="-81" z="-35" width="254" height="134" window_state="4">
+            <scale x="0.93000001" y="0.81999999" z="0.81999999"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bigwin_light"/>
+            <piece_info value="bigwin_light"/>
+        </Picture>
+        <Picture id="m_Picture2" x="-144" y="-12" z="-40" width="390" height="101" window_state="4">
+            <scale x="1.91" y="1.91" z="1.91"/>
+            <blend_mode value="2"/>
+            <piece_info value="bigwin_glow"/>
+        </Picture>
+    </Mesh>
+</Panel>

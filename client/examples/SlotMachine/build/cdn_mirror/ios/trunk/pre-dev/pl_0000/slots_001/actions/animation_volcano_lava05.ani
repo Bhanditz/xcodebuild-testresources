@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationData loop="1">
+    <frame i="0" a="-1"/>
+    <frame i="158" key="smash_start"/>
+    <frame i="179" a="-1"/>
+    <frame i="180"/>
+    <frame i="188" x="115" y="392" key="hit"/>
+    <frame i="190" x="115" y="392"/>
+    <frame i="193" x="115" y="392" a="-1"/>
+</AnimationData>

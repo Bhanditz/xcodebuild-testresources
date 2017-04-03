@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd" >
+<plist version='1.0'>
+<dict>
+<key>Label</key><string>casino-nightly-builder</string>
+<key>ProgramArguments</key>
+<array>
+        <string>sh</string>
+        <string>/Development/project/casino-nightly-builder.sh</string>
+</array>
+<key>StandardOutPath</key>
+<string>/Development/project/out_casino_nightly_builder.txt</string>
+
+<key>StandardErrorPath</key>
+<string>/Development/project/err_casino_nightly_builder.txt</string>
+
+<key>StartCalendarInterval</key>
+<dict>
+	<key>Minute</key>
+	<integer>5</integer>
+	<key>Hour</key>
+	<integer>0</integer>
+</dict>
+
+<key>SessionCreate</key><true/>
+<key>KeepAlive</key><true/>
+<key>RunAtLoad</key><false/>
+<key>Disabled</key><false/>
+</dict>
+</plist>

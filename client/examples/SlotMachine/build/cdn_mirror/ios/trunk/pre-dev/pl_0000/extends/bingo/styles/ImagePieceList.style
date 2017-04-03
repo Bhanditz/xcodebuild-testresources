@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="bingo_extends" file_name="bingo_extends.png" width="256" height="256"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="casino_lobby_bingo_small1_comingsoon" image_id="bingo_extends" x="0" y="0" width="250" height="190"/>
+  </PieceList>
+</ImagePiece>

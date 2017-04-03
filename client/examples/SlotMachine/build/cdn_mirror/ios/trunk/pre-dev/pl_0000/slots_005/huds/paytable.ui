@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="slots_005_bg_06"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_Pages" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_Picture" x="0" y="88" z="0" width="1136" height="552" window_state="6" style="ngs_slots_005_panel054"/>
+        <Picture id="m_Picture1" x="359" y="-25" z="0" width="417" height="171" window_state="6">
+            <scale x="0.75" y="0.75" z="0.75"/>
+            <piece_info value="slots_005_text003"/>
+        </Picture>
+        <Panel id="m_Page1" x="16" y="104" z="0" width="1105" height="521" window_state="6">
+            <Picture id="m_Picture" x="632" y="0" z="0" width="466" height="466" window_state="6">
+                <piece_info value="slots_005_panel051"/>
+            </Picture>
+            <Picture id="m_Picture1" x="-16" y="8" z="0" width="228" height="169" window_state="6">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="slots_005_icon002"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="181" y="62" z="0" width="498" height="30" window_state="6">
+                <text value="SLOTS_JACKPOTDIAMOND_PAYTALBE_TEXT_BONUSTRIGGER1"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="181" y="96" z="0" width="575" height="28" window_state="262">
+                <text value="SLOTS_JACKPOTDIAMOND_PAYTALBE_TEXT_BONUSTRIGGER2"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="36" y="194" z="0" width="524" height="40" window_state="6">
+                <text value="SLOTS_JACKPOTDIAMOND_PAYTALBE_TEXT_SPINWHEEL"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="36" y="277" z="0" width="550" height="90" window_state="6">
+                <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_WHEELWEDGES"/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button id="m_Button" x="417" y="447" z="0" width="296" height="69" window_state="4" style="bs_slots_005_button_007">
+                <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_BUTTON_BACKGAME"/>
+                <font_size value="35"/>
+                <text_color value="cs_bule4"/>
+                <text_offset x="0" y="-3" z="0"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="723" y="447" z="0" width="47" height="54" window_state="6" style="bs_slots_005_button_008">
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="336" y="447" z="0" width="47" height="54" window_state="6" style="bs_slots_005_button_008">
+                <rotation x="0" y="-3.1415927" z="0"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Page2" x="16" y="104" z="0" width="1105" height="521" window_state="4">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <Panel id="m_Group1" x="14" y="15" z="0" width="565" height="95" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Picture" x="211" y="-32" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon005"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-43" y="-32" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon005"/>
+                </Picture>
+                <Picture id="m_Picture2" x="84" y="-32" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon005"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="37" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_1"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="14" y="104" z="0" width="565" height="95" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Picture id="m_Picture" x="211" y="-32" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon005"/>
+                </Picture>
+                <Picture id="m_Picture2" x="84" y="-32" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon001"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="37" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_2"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="7" y="37" z="0" width="126" height="30" window_state="6">
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_THREECOMBINATION"/>
+                    <font_size value="27"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="4"/>
+                    <line_height value="22"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="14" y="193" z="0" width="565" height="85" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Picture" x="211" y="-42" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                    <piece_info value="slots_005_icon004"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-43" y="-42" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                    <piece_info value="slots_005_icon004"/>
+                </Picture>
+                <Picture id="m_Picture2" x="84" y="-42" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                    <piece_info value="slots_005_icon004"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="27" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_3"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="14" y="272" z="0" width="565" height="95" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Picture id="m_Picture" x="211" y="-38" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon006"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-52" y="-38" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon006"/>
+                </Picture>
+                <Picture id="m_Picture2" x="84" y="-38" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon006"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="31" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_4"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="14" y="361" z="0" width="565" height="75" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Picture id="m_Picture" x="211" y="-47" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon007"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-52" y="-47" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon007"/>
+                </Picture>
+                <Picture id="m_Picture2" x="84" y="-47" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon007"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="22" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_5"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="568" y="15" z="0" width="565" height="95" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Picture id="m_Picture" x="211" y="-37" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon008"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-43" y="-37" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon008"/>
+                </Picture>
+                <Picture id="m_Picture2" x="84" y="-37" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_005_icon008"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="378" y="32" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_6"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group7" x="563" y="104" z="0" width="565" height="95" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Picture" x="211" y="-37" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                    <piece_info value="slots_005_icon003"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-43" y="-37" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                    <piece_info value="slots_005_icon003"/>
+                </Picture>
+                <Picture id="m_Picture2" x="84" y="-37" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                    <piece_info value="slots_005_icon003"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="32" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_7"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group8" x="563" y="188" z="0" width="565" height="95" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="0"/>
+                <Picture id="m_Picture" x="274" y="31" z="0" width="101" height="42" window_state="6">
+                    <piece_info value="slots_005_icon010"/>
+                </Picture>
+                <Picture id="m_Picture1" x="20" y="31" z="0" width="101" height="42" window_state="6">
+                    <piece_info value="slots_005_icon010"/>
+                </Picture>
+                <Picture id="m_Picture2" x="147" y="31" z="0" width="101" height="42" window_state="6">
+                    <piece_info value="slots_005_icon010"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="37" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_8"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group9" x="566" y="277" z="0" width="565" height="171" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Picture" x="211" y="-42" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                    <piece_info value="slots_005_icon003"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="383" y="27" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_9"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="32" y="14" z="0" width="219" height="56" window_state="6">
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_TWOCOMBINATION"/>
+                    <font_size value="52"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.039999999"/>
+                    <line_height value="22"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="383" y="106" z="0" width="126" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="1"/>
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_NUM_10"/>
+                    <font_size value="42"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="3"/>
+                    <smooth value="0.059999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <word_spacing value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture2" x="211" y="37" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                    <piece_info value="slots_005_icon003"/>
+                </Picture>
+                <RichLabel id="m_RichLabel2" x="32" y="93" z="0" width="219" height="56" window_state="6">
+                    <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_TEXT_ONECOMBINATION"/>
+                    <font_size value="52"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.039999999"/>
+                    <line_height value="22"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Button id="m_BackBtn" x="422" y="543" z="0" width="296" height="69" window_state="6" style="bs_slots_005_button_007">
+        <font_size value="35"/>
+        <text_color value="cs_bule4"/>
+        <text_offset x="0" y="-3" z="0"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="79" y="15" z="0" width="139" height="30" window_state="14">
+            <text value="SLOTS_JACKPOTDIAMOND_PAYTABLE_BUTTON_BACKGAME"/>
+            <font_size value="35"/>
+            <text_color value="cs_bule4"/>
+            <smooth value="0.050000001"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_PrevBtn" x="352" y="551" z="0" width="47" height="54" window_state="6" style="bs_slots_005_button_008">
+        <rotation x="0" y="-3.1415927" z="0"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_NextBtn" x="739" y="551" z="0" width="47" height="54" window_state="6" style="bs_slots_005_button_008">
+        <line_height value="30"/>
+    </Button>
+</Panel>

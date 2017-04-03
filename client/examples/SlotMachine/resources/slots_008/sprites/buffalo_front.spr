@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sprite loop="1">
+    <Nodes>
+        <Node id="0" data="buffalo_front.xml" apply="1"/>
+        <Node id="1" data="buffalo_front01.xml" apply="1"/>
+    </Nodes>
+</Sprite>

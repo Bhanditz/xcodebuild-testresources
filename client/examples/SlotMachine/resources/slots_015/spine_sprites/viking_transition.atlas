@@ -1,0 +1,48 @@
+
+viking_transition.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clouds
+  rotate: true
+  xy: 2, 670
+  size: 1032, 357
+  orig: 1032, 357
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 706, 1574
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+sea_01
+  rotate: true
+  xy: 361, 581
+  size: 1121, 195
+  orig: 1121, 195
+  offset: 0, 0
+  index: -1
+sea_02
+  rotate: true
+  xy: 558, 654
+  size: 1048, 146
+  orig: 1048, 146
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+wave
+  rotate: true
+  xy: 2, 132
+  size: 536, 244
+  orig: 536, 244
+  offset: 0, 0
+  index: -1

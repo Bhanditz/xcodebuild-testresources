@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorStyleList>
+  <ColorStyle id="cs_black_txt">
+    <normal value="0x0"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_red_txt">
+    <normal value="0xff0000"/>
+  </ColorStyle>
+  <ColorStyle id="cs_white_txt">
+    <normal value="0xffffff"/>
+    <disabled value="0x7d7d7d"/>
+  </ColorStyle>
+</ColorStyleList>

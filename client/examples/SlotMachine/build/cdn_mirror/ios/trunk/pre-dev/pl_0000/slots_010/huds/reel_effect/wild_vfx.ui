@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="160" height="440" window_state="6">
+    <Picture id="m_Picture" x="14" y="70" z="0" width="132" height="300" window_state="6">
+        <scale x="1.6" y="1.65" z="1.6"/>
+        <piece_info value="slots_010_vfx_002"/>
+    </Picture>
+    <Sprite id="m_Sprite_L1" x="-68" y="56" z="0" width="100" height="100" window_state="4">
+        <sprite_file value="slots_010/sprites/bk-wild-crop.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite_R1" x="130" y="56" z="0" width="100" height="100" window_state="4">
+        <rotation x="0" y="3.1415927" z="0"/>
+        <sprite_file value="slots_010/sprites/bk-wild-crop.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite_L2" x="-68" y="310" z="0" width="100" height="100" window_state="4">
+        <rotation x="0" y="3.1415927" z="3.1415927"/>
+        <sprite_file value="slots_010/sprites/bk-wild-crop.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite_R2" x="130" y="310" z="0" width="100" height="100" window_state="4">
+        <rotation x="0" y="0" z="3.1415927"/>
+        <sprite_file value="slots_010/sprites/bk-wild-crop.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite_Explosion" x="30" y="170" z="0" width="100" height="100" window_state="4">
+        <sprite_file value="slots_010/sprites/wildExplosion.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

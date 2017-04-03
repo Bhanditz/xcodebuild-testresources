@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_Deco" x="3" y="6" z="0" width="1136" height="640" window_state="4">
+        <Picture id="m_SmallDecoRight" x="962" y="-52" z="0" width="108" height="113" window_state="6">
+            <piece_info value="slots_004_panel_036"/>
+        </Picture>
+        <Picture id="m_BigDecoRight" x="1023" y="186" z="0" width="120" height="373" window_state="6">
+            <piece_info value="slots_004_panel_038"/>
+        </Picture>
+        <Picture id="m_SmallDecoLeft" x="60" y="-56" z="0" width="67" height="114" window_state="6">
+            <piece_info value="slots_004_panel_035"/>
+        </Picture>
+        <Picture id="m_BigDecoLeft" x="-22" y="205" z="0" width="122" height="350" window_state="6">
+            <piece_info value="slots_004_panel_037"/>
+        </Picture>
+    </Panel>
+    <PictureMask id="m_PictureMask" x="15" y="97" z="0" width="75" height="306" window_state="262">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot004_changecolor01"/>
+        <piece_info value="slots_004_panel_037a"/>
+        <scale_mode value="5"/>
+        <mask_piece value="color"/>
+        <mask_scale value="0.60000002"/>
+    </PictureMask>
+    <PictureMask id="m_PictureMask2" x="15" y="97" z="0" width="75" height="306" window_state="262">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot004_changecolor01"/>
+        <piece_info value="slots_004_panel_037a"/>
+        <scale_mode value="5"/>
+        <mask_piece value="color"/>
+        <mask_scale value="0.60000002"/>
+    </PictureMask>
+    <PictureMask id="m_PictureMask1" x="1008" y="100" z="0" width="90" height="305" window_state="262">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot004_changecolor01"/>
+        <piece_info value="slots_004_panel_038a"/>
+        <scale_mode value="5"/>
+        <mask_piece value="color"/>
+        <mask_scale value="0.60000002"/>
+    </PictureMask>
+    <PictureMask id="m_PictureMask3" x="1008" y="100" z="0" width="90" height="305" window_state="262">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot004_changecolor01"/>
+        <piece_info value="slots_004_panel_038a"/>
+        <scale_mode value="5"/>
+        <mask_piece value="color"/>
+        <mask_scale value="0.60000002"/>
+    </PictureMask>
+</Panel>

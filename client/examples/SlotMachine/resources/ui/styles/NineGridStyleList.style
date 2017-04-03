@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NineGridStyleList>
+  <NineGridStyle id="ngs_casino_common_btn012" auto_bitmap="true">
+    <normal piece_id="casino_common_btn012" min_x="114" min_y="0" max_x="115" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn013">
+    <normal piece_id="casino_common_btn013" min_x="23" min_y="0" max_x="24" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn014" auto_bitmap="true">
+    <normal piece_id="casino_common_btn014" min_x="114" min_y="0" max_x="115" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn014b" auto_bitmap="true">
+    <normal piece_id="casino_common_btn014b" min_x="114" min_y="0" max_x="115" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn014c" auto_bitmap="true">
+    <normal piece_id="casino_common_btn014c" min_x="130" min_y="0" max_x="131" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn017" auto_bitmap="true">
+    <normal piece_id="casino_common_btn017" min_x="70" min_y="0" max_x="73" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn018a" auto_bitmap="true">
+    <normal piece_id="casino_common_btn018a" min_x="47" min_y="0" max_x="48" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn020" auto_bitmap="true">
+    <normal piece_id="casino_common_btn020" min_x="15" min_y="0" max_x="17" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn020a" auto_bitmap="true">
+    <normal piece_id="casino_common_btn020a" min_x="12" min_y="12" max_x="13" max_y="13"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn020b" auto_bitmap="true">
+    <normal piece_id="casino_common_btn020b" min_x="16" min_y="0" max_x="17" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn025" auto_bitmap="true">
+    <normal piece_id="casino_common_btn025" min_x="90" min_y="0" max_x="91" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn029" auto_bitmap="true">
+    <normal piece_id="casino_common_btn029" min_x="108" min_y="0" max_x="109" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn03" auto_bitmap="true">
+    <normal piece_id="casino_common_btn03" min_x="25" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn031" auto_bitmap="true">
+    <normal piece_id="casino_common_btn031" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn032a" auto_bitmap="true">
+    <normal piece_id="casino_common_btn032a" min_x="17" min_y="0" max_x="18" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn032b">
+    <normal piece_id="casino_common_btn032b" min_x="17" min_y="0" max_x="18" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn032c" auto_bitmap="true">
+    <normal piece_id="casino_common_btn032b" min_x="17" min_y="0" max_x="18" max_y="0"/>
+    <down piece_id="casino_common_btn032a" min_x="17" min_y="0" max_x="18" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn033" auto_bitmap="true">
+    <normal piece_id="casino_common_btn033" min_x="5" min_y="0" max_x="6" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn037" auto_bitmap="true">
+    <normal piece_id="casino_common_btn037" min_x="94" min_y="0" max_x="95" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn03a">
+    <normal piece_id="casino_common_btn03a" min_x="31" min_y="0" max_x="32" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn05" auto_bitmap="true">
+    <normal piece_id="casino_common_btn05" min_x="82" min_y="0" max_x="85" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn08" auto_bitmap="true">
+    <normal piece_id="casino_common_btn08" min_x="50" min_y="0" max_x="140" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn08b" auto_bitmap="true">
+    <normal piece_id="casino_common_btn08b" min_x="79" min_y="0" max_x="80" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn09" auto_bitmap="true">
+    <normal piece_id="casino_common_btn09" min_x="79" min_y="0" max_x="80" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_btn09a" auto_bitmap="true">
+    <normal piece_id="casino_common_btn09a" min_x="96" min_y="0" max_x="97" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_icon49">
+    <normal piece_id="casino_common_icon49" min_x="13" min_y="0" max_x="14" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel01a">
+    <normal piece_id="casino_common_panel01a" min_x="12" min_y="0" max_x="13" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel01b">
+    <normal piece_id="casino_common_panel01b" min_x="6" min_y="0" max_x="7" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel02">
+    <normal piece_id="casino_common_panel02" min_x="13" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel02a">
+    <normal piece_id="casino_common_panel02a" min_x="3" min_y="0" max_x="4" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel02b">
+    <normal piece_id="casino_common_panel02b" min_x="15" min_y="0" max_x="17" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel03">
+    <normal piece_id="casino_common_panel03" min_x="20" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel03b">
+    <normal piece_id="casino_common_panel03b" min_x="28" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel04">
+    <normal piece_id="casino_common_panel04" min_x="135" min_y="0" max_x="136" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel05" auto_bitmap="true">
+    <normal piece_id="casino_common_panel05" min_x="10" min_y="0" max_x="12" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel06">
+    <normal piece_id="casino_common_panel06" min_x="17" min_y="15" max_x="18" max_y="16"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel06e">
+    <normal piece_id="casino_common_panel06e" min_x="9" min_y="9" max_x="10" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel07">
+    <normal piece_id="casino_common_panel07" min_x="16" min_y="6" max_x="17" max_y="7"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel09">
+    <normal piece_id="casino_common_panel09" min_x="22" min_y="22" max_x="25" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel10">
+    <normal piece_id="casino_common_panel10" min_x="16" min_y="16" max_x="18" max_y="18"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel100">
+    <normal piece_id="casino_common_panel100" min_x="16" min_y="16" max_x="17" max_y="17"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel100a">
+    <normal piece_id="casino_common_panel100a" min_x="19" min_y="18" max_x="20" max_y="19"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel102">
+    <normal piece_id="casino_common_panel102" min_x="364" min_y="73" max_x="365" max_y="74"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel102a">
+    <normal piece_id="casino_common_panel102a" min_x="29" min_y="29" max_x="30" max_y="30"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel102b">
+    <normal piece_id="casino_common_panel102b" min_x="84" min_y="0" max_x="85" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel102c">
+    <normal piece_id="casino_common_panel102c" min_x="80" min_y="0" max_x="81" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel102e">
+    <normal piece_id="casino_common_panel102e" min_x="0" min_y="69" max_x="0" max_y="70"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel11">
+    <normal piece_id="casino_common_panel11" min_x="88" min_y="62" max_x="89" max_y="63"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel12">
+    <normal piece_id="casino_common_panel12" min_x="44" min_y="42" max_x="47" max_y="45"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel12a">
+    <normal piece_id="casino_common_panel12a" min_x="23" min_y="0" max_x="24" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel12f">
+    <normal piece_id="casino_common_panel12f" min_x="21" min_y="0" max_x="22" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel13">
+    <normal piece_id="casino_common_panel13" min_x="33" min_y="22" max_x="35" max_y="24"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel14">
+    <normal piece_id="casino_common_panel14" min_x="17" min_y="19" max_x="18" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel15">
+    <normal piece_id="casino_common_panel15" min_x="258" min_y="0" max_x="260" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel16">
+    <normal piece_id="casino_common_panel16" min_x="26" min_y="17" max_x="28" max_y="18"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel16a">
+    <normal piece_id="casino_common_panel16a" min_x="27" min_y="28" max_x="28" max_y="29"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel16b">
+    <normal piece_id="casino_common_panel16b" min_x="10" min_y="9" max_x="12" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel16c">
+    <normal piece_id="casino_common_panel16c" min_x="10" min_y="10" max_x="12" max_y="11"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel16d">
+    <normal piece_id="casino_common_panel16d" min_x="13" min_y="13" max_x="15" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel17">
+    <normal piece_id="casino_common_panel17" min_x="48" min_y="43" max_x="50" max_y="44"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel17a">
+    <normal piece_id="casino_common_panel17a" min_x="30" min_y="43" max_x="32" max_y="44"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel18">
+    <normal piece_id="casino_common_panel18" min_x="28" min_y="28" max_x="30" max_y="30"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel18a">
+    <normal piece_id="casino_common_panel18a" min_x="25" min_y="5" max_x="26" max_y="6"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel19">
+    <normal piece_id="casino_common_panel19" min_x="9" min_y="9" max_x="10" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel20">
+    <normal piece_id="casino_common_panel20" min_x="41" min_y="37" max_x="42" max_y="38"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel22a">
+    <normal piece_id="casino_common_panel22a" min_x="16" min_y="15" max_x="17" max_y="16"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel22b">
+    <normal piece_id="casino_common_panel22b" min_x="17" min_y="8" max_x="18" max_y="9"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel23">
+    <normal piece_id="casino_common_panel23" min_x="39" min_y="36" max_x="40" max_y="37"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel24">
+    <normal piece_id="casino_common_panel24" min_x="19" min_y="19" max_x="20" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel24a">
+    <normal piece_id="casino_common_panel24a" min_x="20" min_y="0" max_x="21" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel29">
+    <normal piece_id="casino_common_panel29" min_x="38" min_y="20" max_x="39" max_y="21"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel29a">
+    <normal piece_id="casino_common_panel29a" min_x="39" min_y="24" max_x="40" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel29b">
+    <normal piece_id="casino_common_panel29b" min_x="39" min_y="25" max_x="40" max_y="26"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel35">
+    <normal piece_id="casino_common_panel35" min_x="45" min_y="0" max_x="46" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel38">
+    <normal piece_id="casino_common_panel38" min_x="7" min_y="0" max_x="8" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel39">
+    <normal piece_id="casino_common_panel39" min_x="14" min_y="14" max_x="15" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel39a">
+    <normal piece_id="casino_common_panel39a" min_x="11" min_y="0" max_x="12" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel40">
+    <normal piece_id="casino_common_panel40" min_x="0" min_y="7" max_x="0" max_y="8"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel41">
+    <normal piece_id="casino_common_panel41" min_x="0" min_y="13" max_x="0" max_y="14"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel43">
+    <normal piece_id="casino_common_panel43" min_x="11" min_y="0" max_x="12" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel43a">
+    <normal piece_id="casino_common_panel43a" min_x="11" min_y="0" max_x="12" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel44a">
+    <normal piece_id="casino_common_panel44a" min_x="43" min_y="0" max_x="44" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel44b">
+    <normal piece_id="casino_common_panel44b" min_x="42" min_y="0" max_x="43" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel45a">
+    <normal piece_id="casino_common_panel45a" min_x="18" min_y="18" max_x="19" max_y="19"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel45b">
+    <normal piece_id="casino_common_panel45b" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel45c">
+    <normal piece_id="casino_common_panel45c" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel45d">
+    <normal piece_id="casino_common_panel45d" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel46">
+    <normal piece_id="casino_common_panel46" min_x="0" min_y="14" max_x="0" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel47a">
+    <normal piece_id="casino_common_panel47a" min_x="19" min_y="19" max_x="20" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel47b">
+    <normal piece_id="casino_common_panel47b" min_x="15" min_y="15" max_x="16" max_y="16"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel48">
+    <normal piece_id="casino_common_panel48" min_x="5" min_y="8" max_x="6" max_y="9"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel48a">
+    <normal piece_id="casino_common_panel48a" min_x="0" min_y="3" max_x="0" max_y="4"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel49a">
+    <normal piece_id="casino_common_panel49a" min_x="55" min_y="0" max_x="56" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel49b">
+    <normal piece_id="casino_common_panel49b" min_x="55" min_y="0" max_x="56" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel50a">
+    <normal piece_id="casino_common_panel50a" min_x="52" min_y="0" max_x="53" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel50b">
+    <normal piece_id="casino_common_panel50b" min_x="53" min_y="0" max_x="54" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel50c" auto_bitmap="true">
+    <normal piece_id="casino_common_panel50c" min_x="32" min_y="0" max_x="33" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel50d" auto_bitmap="true">
+    <normal piece_id="casino_common_panel50d" min_x="32" min_y="0" max_x="33" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel51a">
+    <normal piece_id="casino_common_panel51a" min_x="0" min_y="9" max_x="0" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel52b">
+    <normal piece_id="casino_common_panel52b" min_x="0" min_y="9" max_x="0" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel53">
+    <normal piece_id="casino_common_panel53" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel55">
+    <normal piece_id="casino_common_panel55" min_x="24" min_y="30" max_x="25" max_y="31"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel55a">
+    <normal piece_id="casino_common_panel55a" min_x="9" min_y="9" max_x="10" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel56">
+    <normal piece_id="casino_common_panel56" min_x="10" min_y="14" max_x="11" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel57e">
+    <normal piece_id="casino_common_panel57e" min_x="0" min_y="6" max_x="0" max_y="7"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel57f">
+    <normal piece_id="casino_common_panel57f" min_x="0" min_y="7" max_x="0" max_y="8"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel59">
+    <normal piece_id="casino_common_panel59" min_x="42" min_y="0" max_x="43" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel5b" auto_bitmap="true">
+    <normal piece_id="casino_common_panel05b" min_x="10" min_y="0" max_x="12" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel60">
+    <normal piece_id="casino_common_panel60" min_x="33" min_y="65" max_x="34" max_y="66"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel68">
+    <normal piece_id="casino_common_panel68" min_x="34" min_y="0" max_x="35" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel68a">
+    <normal piece_id="casino_common_panel68a" min_x="40" min_y="0" max_x="41" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel68b">
+    <normal piece_id="casino_common_panel68b" min_x="34" min_y="0" max_x="35" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel68d">
+    <normal piece_id="casino_common_panel68d" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel73">
+    <normal piece_id="casino_common_panel73" min_x="64" min_y="105" max_x="65" max_y="107"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel73a">
+    <normal piece_id="casino_common_panel73a" min_x="64" min_y="0" max_x="65" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel75b">
+    <normal piece_id="casino_common_panel75b" min_x="0" min_y="39" max_x="0" max_y="40"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel78">
+    <normal piece_id="casino_common_panel78" min_x="49" min_y="44" max_x="50" max_y="45"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel81">
+    <normal piece_id="casino_common_panel81" min_x="43" min_y="36" max_x="44" max_y="37"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel86e">
+    <normal piece_id="casino_common_panel86e" min_x="44" min_y="41" max_x="45" max_y="42"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel88">
+    <normal piece_id="casino_common_panel88" min_x="24" min_y="24" max_x="25" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel89a">
+    <normal piece_id="casino_common_panel89a" min_x="10" min_y="0" max_x="11" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel89e">
+    <normal piece_id="casino_common_panel89e" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_panel97">
+    <normal piece_id="casino_common_panel97" min_x="13" min_y="13" max_x="14" max_y="14"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag3a">
+    <normal piece_id="casino_common_tag3a" min_x="70" min_y="0" max_x="71" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag3e">
+    <normal piece_id="casino_common_tag3e" min_x="70" min_y="0" max_x="71" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag3m">
+    <normal piece_id="casino_common_tag3m" min_x="70" min_y="0" max_x="71" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag3o">
+    <normal piece_id="casino_common_tag3o" min_x="69" min_y="0" max_x="70" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag6">
+    <normal piece_id="casino_common_tag6" min_x="0" min_y="103" max_x="0" max_y="104"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag6a">
+    <normal piece_id="casino_common_tag6a" min_x="0" min_y="104" max_x="0" max_y="105"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag6b">
+    <normal piece_id="casino_common_tag6b" min_x="0" min_y="103" max_x="0" max_y="104"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tag_panel">
+    <normal piece_id="casino_common_tag_panel" min_x="19" min_y="19" max_x="20" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tip_bg">
+    <normal piece_id="casino_common_tip_bg" min_x="24" min_y="18" max_x="25" max_y="19"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_common_tip_bg_temp">
+    <normal piece_id="casino_common_tip_bg_temp" min_x="35" min_y="17" max_x="36" max_y="18"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_editbox">
+    <normal piece_id="casino_editbox" min_x="18" min_y="27" max_x="20" max_y="30"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_editbox2">
+    <normal piece_id="casino_editbox2" min_x="20" min_y="37" max_x="21" max_y="38"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_loading_panel01">
+    <normal piece_id="casino_lobby_loading_panel01" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_panel11">
+    <normal piece_id="casino_lobby_panel11" min_x="0" min_y="7" max_x="0" max_y="8"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_scrolla">
+    <normal piece_id="casino_scrolla" min_x="0" min_y="19" max_x="0" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_scrollb">
+    <normal piece_id="casino_scrollb" min_x="0" min_y="19" max_x="0" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_button_005" auto_bitmap="true">
+    <normal piece_id="poker_common_button_005" min_x="14" min_y="14" max_x="15" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_icon_049">
+    <normal piece_id="poker_common_icon_049" min_x="22" min_y="0" max_x="23" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_icon_050">
+    <normal piece_id="poker_common_icon_050" min_x="100" min_y="0" max_x="110" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_icon_051">
+    <normal piece_id="poker_common_icon_051" min_x="27" min_y="0" max_x="28" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_league_panel11">
+    <normal piece_id="poker_common_league_panel11" min_x="10" min_y="10" max_x="11" max_y="11"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_league_panel5">
+    <normal piece_id="poker_common_league_panel5" min_x="7" min_y="2" max_x="8" max_y="3"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_league_panel6">
+    <normal piece_id="poker_common_league_panel6" min_x="8" min_y="9" max_x="9" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_league_panel7">
+    <normal piece_id="poker_common_league_panel7" min_x="10" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_league_panel8">
+    <normal piece_id="poker_common_league_panel8" min_x="0" min_y="10" max_x="0" max_y="50"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_multi_button2" auto_bitmap="true">
+    <normal piece_id="poker_common_multi_button2" min_x="18" min_y="18" max_x="23" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_common_panel_003">
+    <normal piece_id="poker_common_panel_003" min_x="29" min_y="25" max_x="30" max_y="26"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_selected_glow">
+    <normal piece_id="selected_glow" min_x="32" min_y="31" max_x="33" max_y="32"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_selected_glow2">
+    <normal piece_id="selected_glow2" min_x="33" min_y="31" max_x="34" max_y="32"/>
+  </NineGridStyle>
+</NineGridStyleList>

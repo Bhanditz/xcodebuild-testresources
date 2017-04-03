@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="water_left02.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="00016" x="144" y="306" w="140" h="160" oX="11" oY="5" oW="160" oH="170" dr="60"/>
+    <sprite n="00018" x="144" y="144" w="140" h="160" oX="11" oY="5" oW="160" oH="170" dr="60"/>
+    <sprite n="00020" x="306" y="2" w="160" h="140" oX="11" oY="5" oW="160" oH="170" r="y" dr="60"/>
+    <sprite n="00022" x="144" y="2" w="160" h="140" oX="11" oY="5" oW="160" oH="170" r="y" dr="60"/>
+    <sprite n="00024" x="2" y="326" w="140" h="160" oX="11" oY="5" oW="160" oH="170" dr="60"/>
+    <sprite n="00026" x="2" y="164" w="140" h="160" oX="11" oY="5" oW="160" oH="170" dr="60"/>
+    <sprite n="00028" x="2" y="2" w="140" h="160" oX="11" oY="5" oW="160" oH="170" dr="60"/>
+</TextureAtlas>

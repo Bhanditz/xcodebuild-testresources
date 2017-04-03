@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="all_slots_sweep" file_name="all_slots_sweep.png" width="128" height="128"/>
+    <Image id="jackpot_sweep" file_name="jackpot_sweep.png" width="512" height="256"/>
+    <Image id="lobby" file_name="lobby.png" width="1024" height="512"/>
+    <Image id="lobby2" file_name="lobby2.png" width="1024" height="512"/>
+    <Image id="lobby_mask" file_name="lobby_mask.png" width="512" height="512"/>
+    <Image id="lobby_poker" file_name="lobby_poker.png" width="1024" height="512"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="casino_lobby_btn012" image_id="lobby" x="460" y="372" width="106" height="100"/>
+    <Piece id="casino_lobby_btn014" image_id="lobby" x="260" y="444" width="71" height="50"/>
+    <Piece id="casino_lobby_btn014a" image_id="lobby" x="734" y="399" width="97" height="83"/>
+    <Piece id="casino_lobby_btn028" image_id="lobby" x="500" y="311" width="40" height="30"/>
+    <Piece id="casino_lobby_btn029" image_id="lobby" x="500" y="211" width="44" height="53"/>
+    <Piece id="casino_lobby_btn030" image_id="lobby" x="220" y="441" width="38" height="32"/>
+    <Piece id="casino_lobby_btn032" image_id="lobby" x="444" y="159" width="120" height="50"/>
+    <Piece id="casino_lobby_btn08a" image_id="lobby" x="269" y="372" width="189" height="70"/>
+    <Piece id="casino_lobby_btn_a01b" image_id="lobby" x="839" y="236" width="85" height="73"/>
+    <Piece id="casino_lobby_btn_a02b" image_id="lobby" x="839" y="311" width="85" height="73"/>
+    <Piece id="casino_lobby_btn_a03" image_id="lobby" x="926" y="228" width="85" height="73"/>
+    <Piece id="casino_lobby_btn_a04" image_id="lobby" x="926" y="303" width="85" height="73"/>
+    <Piece id="casino_lobby_btn_a08" image_id="lobby" x="833" y="399" width="88" height="94"/>
+    <Piece id="casino_lobby_btn_a09" image_id="lobby" x="444" y="42" width="115" height="115"/>
+    <Piece id="casino_lobby_casino_big2" image_id="lobby" x="570" y="0" width="267" height="397"/>
+    <Piece id="casino_lobby_casino_big2a" image_id="lobby" x="269" y="214" width="229" height="156"/>
+    <Piece id="casino_lobby_casino_big2a_mask" image_id="lobby2" x="394" y="82" width="95" height="70"/>
+    <Piece id="casino_lobby_casino_big2a_sweep" image_id="all_slots_sweep" x="0" y="0" width="95" height="70"/>
+    <Piece id="casino_lobby_casino_big2b" image_id="lobby2" x="370" y="175" width="224" height="144"/>
+    <Piece id="casino_lobby_casino_big2c" image_id="lobby2" x="119" y="205" width="249" height="176"/>
+    <Piece id="casino_lobby_casino_big2d" image_id="lobby2" x="140" y="0" width="252" height="173"/>
+    <Piece id="casino_lobby_casino_big2e" image_id="lobby2" x="0" y="390" width="154" height="108"/>
+    <Piece id="casino_lobby_icon013" image_id="lobby" x="441" y="474" width="30" height="30"/>
+    <Piece id="casino_lobby_icon014" image_id="lobby" x="0" y="441" width="116" height="69"/>
+    <Piece id="casino_lobby_icon015" image_id="lobby" x="923" y="386" width="76" height="79"/>
+    <Piece id="casino_lobby_icon016" image_id="lobby" x="406" y="444" width="33" height="32"/>
+    <Piece id="casino_lobby_icon016a" image_id="lobby" x="406" y="478" width="29" height="31"/>
+    <Piece id="casino_lobby_icon016b" image_id="lobby" x="333" y="444" width="71" height="49"/>
+    <Piece id="casino_lobby_icon03" image_id="lobby" x="561" y="42" width="2" height="29"/>
+    <Piece id="casino_lobby_jackpot_big0" image_id="lobby" x="0" y="42" width="267" height="397"/>
+    <Piece id="casino_lobby_panel02" image_id="lobby" x="568" y="399" width="164" height="88"/>
+    <Piece id="casino_lobby_panel06" image_id="lobby" x="500" y="343" width="43" height="20"/>
+    <Piece id="casino_lobby_panel07" image_id="lobby" x="197" y="475" width="43" height="20"/>
+    <Piece id="casino_lobby_panel08" image_id="lobby" x="0" y="0" width="568" height="40"/>
+    <Piece id="casino_lobby_panel12" image_id="lobby" x="269" y="42" width="173" height="170"/>
+    <Piece id="casino_lobby_panel12b" image_id="lobby" x="839" y="0" width="147" height="147"/>
+    <Piece id="casino_lobby_panel13" image_id="lobby" x="118" y="450" width="77" height="38"/>
+    <Piece id="casino_lobby_panel13a" image_id="lobby" x="118" y="490" width="24" height="15"/>
+    <Piece id="casino_lobby_panel13b" image_id="lobby" x="545" y="337" width="20" height="15"/>
+    <Piece id="casino_lobby_panel13c" image_id="lobby" x="144" y="490" width="24" height="15"/>
+    <Piece id="casino_lobby_panel45" image_id="lobby" x="542" y="311" width="24" height="24"/>
+    <Piece id="casino_lobby_panel46" image_id="lobby" x="500" y="266" width="44" height="43"/>
+    <Piece id="casino_lobby_panel49" image_id="lobby" x="839" y="149" width="85" height="85"/>
+    <Piece id="casino_lobby_panel50a" image_id="lobby2" x="156" y="383" width="266" height="93"/>
+    <Piece id="casino_lobby_slot_scroll" image_id="lobby" x="545" y="354" width="11" height="11"/>
+    <Piece id="casino_lobby_slot_scrolla" image_id="lobby" x="546" y="211" width="11" height="11"/>
+    <Piece id="jackpot_frame" image_id="lobby2" x="0" y="205" width="117" height="183"/>
+    <Piece id="jackpot_frame01" image_id="lobby2" x="0" y="0" width="138" height="203"/>
+    <Piece id="jackpot_marquee" image_id="lobby2" x="596" y="0" width="424" height="80"/>
+    <Piece id="jackpot_mask01" image_id="lobby2" x="156" y="478" width="191" height="31"/>
+    <Piece id="jackpot_sweep" image_id="jackpot_sweep" x="0" y="0" width="388" height="49"/>
+    <Piece id="lobby_event_mask" image_id="lobby_mask" x="0" y="0" width="267" height="397"/>
+    <Piece id="poker_lobby_button_016" image_id="lobby_poker" x="0" y="480" width="37" height="30"/>
+    <Piece id="poker_lobby_button_019" image_id="lobby_poker" x="263" y="302" width="69" height="173"/>
+    <Piece id="poker_lobby_multi_button7" image_id="lobby_poker" x="0" y="0" width="164" height="300"/>
+    <Piece id="poker_lobby_multi_icon5" image_id="lobby_poker" x="793" y="0" width="114" height="139"/>
+    <Piece id="poker_lobby_multi_icon5b" image_id="lobby_poker" x="909" y="0" width="90" height="128"/>
+    <Piece id="poker_lobby_multi_icon6" image_id="lobby_poker" x="634" y="202" width="60" height="44"/>
+    <Piece id="poker_lobby_multi_panel3" image_id="lobby_poker" x="145" y="302" width="116" height="173"/>
+    <Piece id="poker_lobby_number_black_10" image_id="lobby_poker" x="585" y="259" width="26" height="40"/>
+    <Piece id="poker_lobby_number_black_11" image_id="lobby_poker" x="395" y="259" width="35" height="40"/>
+    <Piece id="poker_lobby_number_black_2" image_id="lobby_poker" x="469" y="259" width="27" height="40"/>
+    <Piece id="poker_lobby_number_black_4" image_id="lobby_poker" x="613" y="259" width="26" height="40"/>
+    <Piece id="poker_lobby_number_black_8" image_id="lobby_poker" x="498" y="259" width="27" height="40"/>
+    <Piece id="poker_lobby_number_black_9" image_id="lobby_poker" x="303" y="259" width="44" height="40"/>
+    <Piece id="poker_lobby_number_red_11" image_id="lobby_poker" x="432" y="259" width="35" height="40"/>
+    <Piece id="poker_lobby_number_red_2" image_id="lobby_poker" x="527" y="259" width="27" height="40"/>
+    <Piece id="poker_lobby_number_red_8" image_id="lobby_poker" x="556" y="259" width="27" height="40"/>
+    <Piece id="poker_lobby_number_red_9" image_id="lobby_poker" x="349" y="259" width="44" height="40"/>
+    <Piece id="poker_lobby_room_type_0" image_id="lobby_poker" x="166" y="0" width="115" height="257"/>
+    <Piece id="poker_lobby_room_type_0a" image_id="lobby_poker" x="283" y="0" width="115" height="257"/>
+    <Piece id="poker_lobby_room_type_0b" image_id="lobby_poker" x="400" y="0" width="115" height="257"/>
+    <Piece id="poker_lobby_room_type_0c" image_id="lobby_poker" x="517" y="0" width="115" height="257"/>
+    <Piece id="poker_lobby_room_type_1a" image_id="lobby_poker" x="495" y="474" width="162" height="38"/>
+    <Piece id="poker_lobby_room_type_2" image_id="lobby_poker" x="334" y="301" width="159" height="172"/>
+    <Piece id="poker_lobby_room_type_2a" image_id="lobby_poker" x="659" y="474" width="132" height="38"/>
+    <Piece id="poker_lobby_room_type_3" image_id="lobby_poker" x="495" y="301" width="163" height="171"/>
+    <Piece id="poker_lobby_room_type_3a" image_id="lobby_poker" x="327" y="477" width="160" height="34"/>
+    <Piece id="poker_lobby_room_type_4" image_id="lobby_poker" x="0" y="302" width="143" height="176"/>
+    <Piece id="poker_lobby_room_type_4a" image_id="lobby_poker" x="145" y="477" width="180" height="34"/>
+    <Piece id="poker_lobby_star" image_id="lobby_poker" x="909" y="130" width="70" height="70"/>
+    <Piece id="poker_shadow" image_id="lobby_poker" x="166" y="259" width="135" height="41"/>
+    <Piece id="selected_glow3" image_id="lobby" x="926" y="149" width="77" height="77"/>
+    <Piece id="slots_ingame_lines00" image_id="lobby" x="118" y="441" width="100" height="7"/>
+  </PieceList>
+</ImagePiece>

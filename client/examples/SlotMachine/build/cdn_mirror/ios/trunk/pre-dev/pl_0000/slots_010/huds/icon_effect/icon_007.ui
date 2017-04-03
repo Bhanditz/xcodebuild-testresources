@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="160" height="110" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="160" height="110" window_state="6">
+        <Picture id="m_Bg_1" x="0" y="0" z="0" width="160" height="110" window_state="6">
+            <piece_info value="slots_010_panel_001"/>
+        </Picture>
+        <Picture id="m_Bg_2" x="0" y="0" z="0" width="160" height="110" window_state="4">
+            <piece_info value="slots_010_panel_002"/>
+        </Picture>
+        <Picture id="m_A" x="0" y="0" z="0" width="160" height="110" window_state="6">
+            <piece_info value="slots_010_icon_004"/>
+        </Picture>
+        <Picture id="m_Frame" x="0" y="0" z="0" width="160" height="110" window_state="6">
+            <piece_info value="slots_010_panel_017"/>
+        </Picture>
+    </Panel>
+</Panel>

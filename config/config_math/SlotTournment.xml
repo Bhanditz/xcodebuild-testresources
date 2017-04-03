@@ -1,0 +1,1867 @@
+﻿<?xml version="1.0"?>
+
+<!-- 1-->
+<!-- 
+	注意，配置时必需
+	1: 高等级段的一定包含了低等级段的场次
+	如：1-10有60秒主题1,2,3这样的配置，哪么高等级段，10以上一定要存在有60秒主题1，2,3这样的配置。
+	
+	2.时间60秒是1,2,3的，哪么就不应该再出现其它时间有1,2,3，或其中另何一个主题的配置。
+	
+	maxlev:小于等于该等级则玩家分配在此区间段
+	coin2point：spin消耗的筹码，转换成积分 万分比例，如=20，消耗10000则增加20积分
+	
+	interval：这场的持续时间秒
+	endwait：这场结束后等待开始时间秒
+	defaultpool：这场初始奖池
+	coin2pool：spin消耗的筹码 奖池增加万分比例 如 =20，消耗10000则奖池增加20bet
+	
+	theme:该场主题列表
+	reward：
+	joinnum参与人数段
+	top奖励项id按顺序排没什么特殊意义，
+	playnum奖励人数
+	pool2coin：该奖励项奖励奖池的万分比数。
+	
+-->
+<root>
+
+<level maxlev="50" coin2point="1000">
+
+	<round interval="300" endwait="10" defaultpool="20000" coin2pool="50" >
+		<theme id="2,1005,6,1001,14" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+
+	<round interval="900" endwait="10" defaultpool="50000" coin2pool="50" >
+		<theme id="1,1004,5,18,1007" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+	<round interval="10800" endwait="10" defaultpool="300000" coin2pool="50" >
+		<theme id="7,1009,1003,3,10" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+	<round interval="43200" endwait="10" defaultpool="500000" coin2pool="50" >
+		<theme id="8,1002,4,1006,1008" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+</level>
+
+<level maxlev="100" coin2point="100">
+
+	<round interval="300" endwait="10" defaultpool="60000" coin2pool="50" >
+		<theme id="2,1005,6,1001,14" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+
+	<round interval="900" endwait="10" defaultpool="100000" coin2pool="50" >
+		<theme id="1,1004,5,18,1007" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+	<round interval="10800" endwait="10" defaultpool="1000000" coin2pool="50" >
+		<theme id="7,1009,1003,3,10" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+	<round interval="43200" endwait="10" defaultpool="1500000" coin2pool="50" >
+		<theme id="8,1002,4,1006,1008" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+</level>
+
+
+<level maxlev="99999" coin2point="10">
+
+	<round interval="300" endwait="10" defaultpool="500000" coin2pool="50" >
+		<theme id="2,1005,6,1001,14" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+
+	<round interval="900" endwait="10" defaultpool="600000" coin2pool="50" >
+		<theme id="1,1004,5,18,1007" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+	<round interval="10800" endwait="10" defaultpool="5000000" coin2pool="50" >
+		<theme id="7,1009,1003,3,10" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+	<round interval="43200" endwait="10" defaultpool="10000000" coin2pool="50" >
+		<theme id="8,1002,4,1006,1008" />
+		<reward joinnum="50"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="4444" />
+			<rank top="2" playnum="1" pool2coin="2222" />
+			<rank top="3" playnum="3" pool2coin="3334" />
+		</reward>
+		<reward joinnum="100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="3150" />
+			<rank top="2" playnum="1" pool2coin="1575" />
+			<rank top="3" playnum="3" pool2coin="2700" />
+			<rank top="4" playnum="5" pool2coin="2575" />
+		</reward>
+		<reward joinnum="150"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2740" />
+			<rank top="2" playnum="1" pool2coin="1370" />
+			<rank top="3" playnum="3" pool2coin="2360" />
+			<rank top="4" playnum="5" pool2coin="2250" />
+			<rank top="5" playnum="5" pool2coin="1280" />
+		</reward>
+		<reward joinnum="200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2680" />
+			<rank top="2" playnum="1" pool2coin="1340" />
+			<rank top="3" playnum="3" pool2coin="2300" />
+			<rank top="4" playnum="5" pool2coin="2180" />
+			<rank top="5" playnum="5" pool2coin="1000" />
+			<rank top="6" playnum="5" pool2coin="500" />
+		</reward>
+		<reward joinnum="300"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2560" />
+			<rank top="2" playnum="1" pool2coin="1280" />
+			<rank top="3" playnum="3" pool2coin="2240" />
+			<rank top="4" playnum="5" pool2coin="2050" />
+			<rank top="5" playnum="5" pool2coin="960" />
+			<rank top="6" playnum="5" pool2coin="460" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+		</reward>
+		<reward joinnum="500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2440" />
+			<rank top="2" playnum="1" pool2coin="1220" />
+			<rank top="3" playnum="3" pool2coin="2220" />
+			<rank top="4" playnum="5" pool2coin="1970" />
+			<rank top="5" playnum="5" pool2coin="950" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+		</reward>
+		<reward joinnum="800"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2380" />
+			<rank top="2" playnum="1" pool2coin="1190" />
+			<rank top="3" playnum="3" pool2coin="2200" />
+			<rank top="4" playnum="5" pool2coin="1920" />
+			<rank top="5" playnum="5" pool2coin="930" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+		</reward>
+		<reward joinnum="1200"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2360" />
+			<rank top="2" playnum="1" pool2coin="1180" />
+			<rank top="3" playnum="3" pool2coin="2180" />
+			<rank top="4" playnum="5" pool2coin="1890" />
+			<rank top="5" playnum="5" pool2coin="910" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+		</reward>
+		<reward joinnum="1600"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2300" />
+			<rank top="2" playnum="1" pool2coin="1150" />
+			<rank top="3" playnum="3" pool2coin="2140" />
+			<rank top="4" playnum="5" pool2coin="1850" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+		</reward>
+		<reward joinnum="2100"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2260" />
+			<rank top="2" playnum="1" pool2coin="1130" />
+			<rank top="3" playnum="3" pool2coin="2080" />
+			<rank top="4" playnum="5" pool2coin="1810" />
+			<rank top="5" playnum="5" pool2coin="900" />
+			<rank top="6" playnum="5" pool2coin="450" />
+			<rank top="7" playnum="5" pool2coin="300" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+		</reward>
+		<reward joinnum="3500"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2220" />
+			<rank top="2" playnum="1" pool2coin="1110" />
+			<rank top="3" playnum="3" pool2coin="2020" />
+			<rank top="4" playnum="5" pool2coin="1770" />
+			<rank top="5" playnum="5" pool2coin="880" />
+			<rank top="6" playnum="5" pool2coin="440" />
+			<rank top="7" playnum="5" pool2coin="280" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+		</reward>
+		<reward joinnum="9999999"><!-- 注意，pool2coin总和需要=10000 -->
+			<rank top="1" playnum="1" pool2coin="2080" />
+			<rank top="2" playnum="1" pool2coin="1040" />
+			<rank top="3" playnum="3" pool2coin="1880" />
+			<rank top="4" playnum="5" pool2coin="1680" />
+			<rank top="5" playnum="5" pool2coin="840" />
+			<rank top="6" playnum="5" pool2coin="420" />
+			<rank top="7" playnum="5" pool2coin="230" />
+			<rank top="8" playnum="5" pool2coin="150" />
+			<rank top="9" playnum="10" pool2coin="200" />
+			<rank top="10" playnum="10" pool2coin="100" />
+			<rank top="11" playnum="25" pool2coin="120" />
+			<rank top="12" playnum="25" pool2coin="60" />
+			<rank top="13" playnum="50" pool2coin="100" />
+			<rank top="14" playnum="100" pool2coin="180" />
+			<rank top="15" playnum="100" pool2coin="160" />
+			<rank top="16" playnum="150" pool2coin="210" />
+			<rank top="17" playnum="250" pool2coin="300" />
+			<rank top="18" playnum="250" pool2coin="250" />
+		</reward>
+	</round>
+	
+</level>
+
+</root>
+

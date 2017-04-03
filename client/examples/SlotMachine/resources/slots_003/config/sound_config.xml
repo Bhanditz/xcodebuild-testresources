@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_003/sound/8_disco_se_spin_vinyl_record.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>		
+		<Sound name="REEL_READY_STOP" value="slots_003/sound/4_disco_se_reel_stop_ss.ogg"/>
+		<Sound name="NEAR_WIN" value="slots_003/sound/7_disco_se_reel_focus_03.ogg"/>
+		<Sound name="PAYTABLE_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="BET_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="SELECTOR_UP_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="REEL_STOP" value=""/>
+		<Sound name="REEL_SPINNING" value="slots_003/sound/3_disco_se_reel_spin.ogg"/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV4" value="slots/sound/SE_SWinMedium.ogg" volume="0.6"/>
+		<Sound name="BET1" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="BET2" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="BET3" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="BET4" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="BET5" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="BET6" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="BET7" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+
+		<!-- other sounds for each slot -->
+		<Sound name="NORMAL_GAME_BGM" value="slots_003/sound/disco_bgm_basegame.ogg"/>
+		<Sound name="FREE_GAME_BGM_2" value="slots_003/sound/disco_bgm_lineblast_01.ogg"/>
+		<Sound name="FREE_GAME_BGM_2_0" value="slots_003/sound/disco_bgm_lineblast_01.ogg"/>
+		<Sound name="FREE_GAME_BGM_2_1" value="slots_003/sound/disco_bgm_lineblast_02.ogg"/>
+		<Sound name="FREE_GAME_BGM_2_2" value="slots_003/sound/disco_bgm_lineblast_03.ogg"/>		
+		<Sound name="FREE_GAME_BGM_3" value="slots_003/sound/disco_bgm_disiowild_01.ogg"/>
+		<Sound name="FREE_GAME_BGM_3_0" value="slots_003/sound/disco_bgm_disiowild_01.ogg"/>
+		<Sound name="FREE_GAME_BGM_3_1" value="slots_003/sound/disco_bgm_disiowild_02.ogg"/>
+		<Sound name="FREE_GAME_BGM_3_2" value="slots_003/sound/disco_bgm_disiowild_03.ogg"/>		
+		<Sound name="FREE_GAME_BGM_4" value="slots_003/sound/disco_bgm_popx_01.ogg"/>
+		<Sound name="FREE_GAME_BGM_4_0" value="slots_003/sound/disco_bgm_popx_01.ogg"/>
+		<Sound name="FREE_GAME_BGM_4_1" value="slots_003/sound/disco_bgm_popx_02.ogg"/>
+		<Sound name="FREE_GAME_BGM_4_2" value="slots_003/sound/disco_bgm_popx_03.ogg"/>		
+		<Sound name="BLACKBOX_BGM" value="slots_003/sound/disco_bgm_jukebox.ogg"/>
+		<Sound name="BLACKBOX_STOPPING_BGM" value=""/>
+		<Sound name="FREE_SUMMARY_BGM" value="slots_003/sound/30_disco_se_congratulatory_bgm_loop_1.ogg"/>
+
+		<Sound name="WINNING_LINES" value=""/>
+
+		<Sound name="BONUS_ICON_APPEAR_1" value="slots_003/sound/5_disco_se_bns_appear_01.ogg"/>
+		<Sound name="BONUS_ICON_APPEAR_2" value="slots_003/sound/5_disco_se_bns_appear_02.ogg"/>
+		<Sound name="BONUS_ICON_APPEAR_3" value="slots_003/sound/5_disco_se_bns_appear_03.ogg"/>
+		<Sound name="BONUS_ICON_APPEAR_4" value="slots_003/sound/5_disco_se_bns_appear_04.ogg"/>
+		<Sound name="BONUS_ICON_APPEAR_5" value="slots_003/sound/5_disco_se_bns_appear_05.ogg"/>
+		<Sound name="BONUS_ICON_STOP" value="slots_003/sound/4_disco_se_reel_stop_ss.ogg"/>
+		
+		<Sound name="OTHER_CLICK" value="slots_003/sound/8_disco_se_spin_simple.ogg"/>
+		<Sound name="TOUCH_CLICK" value="slots_003/sound/11_disco_se_press_jukebox_touch.ogg"/>
+
+		<Sound name="LB_WILD_APPEAR" value="slots_003/sound/18_disco_se_wild_appear_1.ogg"/>
+		<Sound name="LB_WILD_DISAPPEAR" value="slots_003/sound/19_disco_se_wild_dissapear_1.ogg"/>
+		<Sound name="DPX_WILD_APPEAR" value="slots_003/sound/25_disco_se_long_wild_appears.ogg"/>		
+		<Sound name="DPX_WILD_ANIMATION" value="slots_003/sound/26_disco_se_long_wild_animation.ogg"/>		
+		<Sound name="DS_WILD_MULTIPLY_1" value="slots_003/sound/22_disco_se_multiplier_1.ogg"/>
+		<Sound name="DS_WILD_MULTIPLY_2" value="slots_003/sound/22_disco_se_multiplier_2.ogg"/>
+		<Sound name="DS_WILD_MULTIPLY_3" value="slots_003/sound/22_disco_se_multiplier_3.ogg"/>
+		<Sound name="DS_WILD_MULTIPLY_4" value="slots_003/sound/22_disco_se_multiplier_4.ogg"/>
+		<Sound name="DS_WILD_MULTIPLY_5" value="slots_003/sound/22_disco_se_multiplier_5.ogg"/>
+			
+		<Sound name="FREE_SUMMARY_SPRAY_COIN" value="slots_003/sound/30_disco_se_gold_and_coins.ogg"/>
+		
+		<Sound name="FREE_GAME_NUMBER_SPINING" value="slots_003/sound/27_disco_se_numbers_spinning_1.ogg"/>
+		<Sound name="FREE_GAME_NUMBER_STOPING" value="slots_003/sound/29_disco_se_numbers_stop.ogg"/>
+	</SoundInfo>
+</SlotsConfig>

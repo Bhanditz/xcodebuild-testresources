@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+  <Image id="slots_1002_bg01" file_name="slots_1002_bg01.jpg" width="1136" height="640"/>
+  <Image id="slots_1002_bg02" file_name="slots_1002_bg02.jpg" width="1136" height="640"/>
+</ImageList>
+  <PieceList>
+  <Piece id="slots_1002_bg01" image_id="slots_1002_bg01" x="0" y="0" width="1136" height="640"/>
+  <Piece id="slots_1002_bg02" image_id="slots_1002_bg02" x="0" y="0" width="1136" height="640"/>
+</PieceList>
+ </ImagePiece>

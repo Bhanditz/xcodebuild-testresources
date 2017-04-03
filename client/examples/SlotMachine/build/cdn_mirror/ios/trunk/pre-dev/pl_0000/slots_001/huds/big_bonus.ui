@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel_BigBonus" x="0" y="0" z="0" width="1156" height="660" window_state="6">
+    <Picture id="m_Bg" x="1" y="1" z="0" width="1156" height="660" window_state="6">
+        <action_id value="animation_zhenping"/>
+        <piece_info value="slots_001_bg07"/>
+        <scale_mode value="3"/>
+        <Picture id="m_Picture" x="9" y="10" z="0" width="1140" height="641" window_state="4" style="ngs_slots_001_panel07">
+            <color_scale x="1" y="1" z="1" w="0.75"/>
+            <Picture id="m_Picture" x="0" y="203" z="0" width="1140" height="243" window_state="6" style="ngs_slots_001_panel08"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_BgGlow" x="485" y="231" z="0" width="200" height="100" window_state="4">
+        <scale x="9.3199997" y="12.18" z="9.3199997"/>
+        <color_scale x="1" y="1.74" z="1" w="1"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_bigbonus_glow"/>
+        <piece_info value="level4_color_bg"/>
+    </Picture>
+    <Particle id="m_Particle1" x="432" y="446" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+        <particle_state value="0"/>
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="bigbonus par01"/>
+    </Particle>
+    <Particle id="m_Particle" x="560" y="325" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+        <particle_state value="0"/>
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="bigbonus par"/>
+    </Particle>
+    <Picture id="m_TextBigBonus" x="255" y="79" z="0" width="646" height="502" window_state="6">
+        <action_id value="animation_bigbonus"/>
+        <piece_info value="slots_001_bigbonus"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_TextBonusLight" x="428" y="242" z="0" width="300" height="169" window_state="6">
+        <scale x="3.8599999" y="3.8599999" z="3.8599999"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_bigbonus01"/>
+        <piece_info value="slots_001_vfx02"/>
+    </Picture>
+    <Panel id="m_Panel" x="310" y="97" z="0" width="210" height="130" window_state="4">
+        <Picture id="m_BottomSlate" x="-27" y="285" z="0" width="578" height="293" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <action_id value="animation_bigbonus_cutscreen02"/>
+            <piece_info value="slots_001_panel03"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_PicClash0" x="213" y="216" z="0" width="96" height="96" window_state="6">
+            <scale x="4" y="4" z="4"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bigbonus_cutscreen04"/>
+            <piece_info value="slots_001_vfx08"/>
+        </Picture>
+        <Picture id="m_TopSlate" x="-314" y="-228" z="0" width="1164" height="524" window_state="6">
+            <action_id value="animation_bigbonus_cutscreen01"/>
+            <piece_info value="slots_001_panel10"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_PicClash1" x="212" y="177" z="0" width="96" height="96" window_state="6">
+            <scale x="4" y="4" z="4"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bigbonus_cutscreen03"/>
+            <piece_info value="slots_001_vfx07"/>
+        </Picture>
+        <Particle id="m_Particle" x="246" y="225" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+            <particle_name value="bigbonus cut"/>
+        </Particle>
+    </Panel>
+</Panel>

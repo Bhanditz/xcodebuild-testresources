@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Panel" x="40" y="10" z="0" width="1056" height="571" window_state="6">
+        <scale x="1.16" y="1.16" z="1.16"/>
+        <rotation x="-0.20943952" y="0" z="0"/>
+        <anchor_point x="0.5" y="0.89999998" z="0"/>
+        <Panel id="m_Sidefire" x="-5" y="21" z="0" width="1065" height="517" window_state="4">
+            <Sprite id="m_Sprite_fire" x="-227" y="136" z="0" width="500" height="200" window_state="6">
+                <scale x="0.86000001" y="1" z="1"/>
+                <rotation x="0" y="-0" z="-1.5707964"/>
+                <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite_fire1" x="-223" y="237" z="0" width="500" height="200" window_state="6">
+                <scale x="0.77999997" y="0.75999999" z="1"/>
+                <rotation x="-3.1415927" y="-0" z="-4.712389"/>
+                <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite_fire2" x="787" y="82" z="0" width="500" height="200" window_state="6">
+                <scale x="0.77999997" y="0.75999999" z="1"/>
+                <rotation x="3.1415927" y="-0" z="-1.5707964"/>
+                <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite_fire3" x="792" y="182" z="0" width="500" height="200" window_state="6">
+                <scale x="0.86000001" y="1" z="1"/>
+                <rotation x="0" y="-0" z="-4.712389"/>
+                <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+        </Panel>
+        <Picture id="m_bg" x="67" y="33" z="0" width="920" height="494" window_state="6">
+            <scale x="1.0089999" y="1" z="1"/>
+            <action_id value="animation_Sparta_blackbox01"/>
+            <piece_info value="slots_002_panel5"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Panel id="m_text panel" x="101" y="69" z="0" width="856" height="224" window_state="6">
+            <RichLabel id="m_RichLabel1" x="2" y="-45" z="0" width="850" height="206" window_state="6">
+                <text value="5"/>
+                <font_size value="20"/>
+                <font_id value="Sparta"/>
+                <line_height value="30"/>
+                <Sprite id="m_Sprite" x="262" y="-31" z="0" width="333" height="333" window_state="4">
+                    <sprite_file value="slots_002/sprites/Sparta_dropfire.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="2" y="1" z="0" width="850" height="206" window_state="6">
+                <font_size value="50"/>
+                <text_style value="32"/>
+                <font_id value="Sparta1"/>
+                <rich_label_state value="4"/>
+                <line_height value="87"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="-3" y="-16" z="0" width="850" height="131" window_state="6">
+                <font_size value="50"/>
+                <text_style value="32"/>
+                <font_id value="Sparta1"/>
+                <rich_label_state value="4"/>
+                <line_height value="87"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4" x="-2" y="112" z="0" width="850" height="131" window_state="6">
+                <font_size value="50"/>
+                <text_style value="32"/>
+                <font_id value="Sparta1"/>
+                <rich_label_state value="4"/>
+                <line_height value="87"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_ReelPanel" x="98" y="271" z="0" width="861" height="169" window_state="6">
+            <action_id value="animation_Sparta_blackbox03"/>
+            <Picture id="m_middle grid" x="8" y="5" z="0" width="844" height="162" window_state="6" style="ngs_slots_002_panel6"/>
+            <Panel id="m_Panel_mask2" x="-1" y="16" z="0" width="864" height="143" window_state="14">
+                <ScrollContainer id="m_ScrollContainer" x="8" y="-101" z="0" width="846" height="345" window_state="262150">
+                    <address_mode value="1"/>
+                    <Panel id="m_Panel_mask1" x="-2" y="101" z="0" width="864" height="143" window_state="14">
+                        <Picture id="m_Picture1" x="16" y="13" z="0" width="116" height="118" window_state="6">
+                            <action_id value="animation_Sparta_blackbox04"/>
+                            <piece_info value="slots_002_icon18"/>
+                            <Sprite id="m_Sprite1" x="-112" y="-138" z="0" width="333" height="333" window_state="4">
+                                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                                <blend_mode value="2"/>
+                                <sprite_file value="slots_002/sprites/Sparta_dropfire.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                        </Picture>
+                        <Picture id="m_Picture2" x="159" y="13" z="0" width="116" height="118" window_state="6">
+                            <action_id value="animation_Sparta_blackbox04"/>
+                            <piece_info value="slots_002_icon17"/>
+                            <Sprite id="m_Sprite2" x="-109" y="-136" z="0" width="333" height="333" window_state="4">
+                                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                                <blend_mode value="2"/>
+                                <sprite_file value="slots_002/sprites/Sparta_dropfire.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                        </Picture>
+                        <Picture id="m_Picture3" x="302" y="13" z="0" width="116" height="118" window_state="6">
+                            <action_id value="animation_Sparta_blackbox04"/>
+                            <piece_info value="slots_002_icon16"/>
+                            <Sprite id="m_Sprite3" x="-110" y="-136" z="0" width="333" height="333" window_state="4">
+                                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                                <blend_mode value="2"/>
+                                <sprite_file value="slots_002/sprites/Sparta_dropfire.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                        </Picture>
+                        <Picture id="m_Picture4" x="445" y="13" z="0" width="113" height="115" window_state="6">
+                            <action_id value="animation_Sparta_blackbox04"/>
+                            <piece_info value="slots_002_icon19"/>
+                            <Sprite id="m_Sprite4" x="-109" y="-136" z="0" width="333" height="333" window_state="4">
+                                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                                <blend_mode value="2"/>
+                                <sprite_file value="slots_002/sprites/Sparta_dropfire.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                        </Picture>
+                        <Picture id="m_Picture5" x="588" y="13" z="0" width="116" height="116" window_state="6">
+                            <action_id value="animation_Sparta_blackbox04"/>
+                            <piece_info value="slots_002_icon20"/>
+                            <Sprite id="m_Sprite5" x="-111" y="-135" z="0" width="333" height="333" window_state="4">
+                                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                                <blend_mode value="2"/>
+                                <sprite_file value="slots_002/sprites/Sparta_dropfire.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                        </Picture>
+                        <Picture id="m_Picture6" x="731" y="13" z="0" width="116" height="116" window_state="6">
+                            <action_id value="animation_Sparta_blackbox04"/>
+                            <piece_info value="slots_002_icon21"/>
+                            <Sprite id="m_Sprite6" x="-115" y="-135" z="0" width="333" height="333" window_state="4">
+                                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                                <blend_mode value="2"/>
+                                <sprite_file value="slots_002/sprites/Sparta_dropfire.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                        </Picture>
+                    </Panel>
+                </ScrollContainer>
+            </Panel>
+        </Panel>
+        <Picture id="m_Picture_frame" x="485" y="243" z="0" width="62" height="221" window_state="260">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="animation_Sparta_blackbox_frame"/>
+            <piece_info value="slots_002_frame"/>
+        </Picture>
+        <Picture id="m_Picture_frame1" x="415" y="243" z="0" width="62" height="221" window_state="260">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_blackbox_frame"/>
+            <piece_info value="slots_002_frame"/>
+        </Picture>
+        <Panel id="m_Spin" x="302" y="383" z="0" width="455" height="165" window_state="4">
+            <Button id="Button1" x="88" y="8" z="0" width="268" height="141" window_state="262" style="bs_slots_002_btn7">
+                <line_height value="30"/>
+            </Button>
+            <Picture id="m_Picture_l" x="10" y="4" z="0" width="94" height="149" window_state="14">
+                <action_id value="animation_Sparta_arrowl"/>
+                <piece_info value="slots_002_icon0"/>
+            </Picture>
+            <Picture id="m_Picture_r" x="343" y="4" z="0" width="94" height="149" window_state="14">
+                <rotation x="0" y="0" z="3.1415927"/>
+                <action_id value="animation_Sparta_arrowr"/>
+                <piece_info value="slots_002_icon0"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="86" y="6" z="0" width="272" height="145" window_state="270">
+                <blend_mode value="2"/>
+                <action_id value="animation_Sparta_spinlight"/>
+                <piece_info value="spin_mask"/>
+                <scale_mode value="5"/>
+                <mask_piece value="spin_light"/>
+                <mask_scale value="0.15000001"/>
+                <mask_offset x="-0.13" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+        <Panel id="m_text panel2" x="101" y="287" z="0" width="856" height="207" window_state="12">
+            <RichLabel id="m_RichLabel2" x="10" y="0" z="0" width="835" height="206" window_state="14">
+                <font_size value="50"/>
+                <font_id value="Sparta1"/>
+                <rich_label_state value="4"/>
+                <line_height value="87"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Start" x="331" y="274" z="0" width="397" height="196" window_state="4">
+            <Button id="Button2" x="-1" y="0" z="0" width="399" height="195" window_state="6" style="bs_slots_002_btn6">
+                <line_height value="30"/>
+            </Button>
+            <PictureMask id="m_PictureMask" x="76" y="40" z="0" width="245" height="116" window_state="14">
+                <scale x="1.6799999" y="1.79" z="1.97"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_Sparta_startlight"/>
+                <piece_info value="start_mask"/>
+                <scale_mode value="5"/>
+                <mask_piece value="spin_light"/>
+                <mask_scale value="0.1"/>
+                <mask_offset x="-0.050000001" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+        <Panel id="m_Panel_fire" x="98" y="62" z="0" width="860" height="436" window_state="12">
+            <scale x="0.98000002" y="0.98000002" z="0.98000002"/>
+            <Sprite id="m_Sprite" x="-134" y="-103" z="0" width="566" height="639" window_state="14">
+                <sprite_file value="slots_002/sprites/Sparta_unfoldfire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="430" y="-103" z="0" width="566" height="639" window_state="14">
+                <scale x="-1" y="1" z="1"/>
+                <sprite_file value="slots_002/sprites/Sparta_unfoldfire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel_fire1" x="98" y="62" z="0" width="860" height="436" window_state="12">
+            <scale x="0.98000002" y="0.98000002" z="0.98000002"/>
+            <Sprite id="m_Sprite2" x="-134" y="-103" z="0" width="566" height="639" window_state="14">
+                <sprite_file value="slots_002/sprites/Sparta_foldfire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite3" x="430" y="-103" z="0" width="566" height="639" window_state="14">
+                <scale x="-1" y="1" z="1"/>
+                <sprite_file value="slots_002/sprites/Sparta_foldfire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+    </Panel>
+</Panel>

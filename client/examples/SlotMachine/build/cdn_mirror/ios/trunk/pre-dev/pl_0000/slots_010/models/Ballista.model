@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model mesh="Ballista.meshdata" animation="Ballista.animdata" skelecton="Ballista.skelecton">
+    <MaterialList>
+        <Material id="0" name="Material__296-material" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="DiffuseMap_01.png"/>
+            <texture index="1" key="u_texNormal" file="NormalsMap_01.png"/>
+            <texture index="2" key="u_texSpecular" file="SpecularMap_01.png"/>
+        </Material>
+        <Material id="1" name="Material__297-material" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="DiffuseMap_02.png"/>
+            <texture index="1" key="u_texNormal" file="NormalsMap_02.png"/>
+            <texture index="2" key="u_texSpecular" file="SpecularMap_02.png"/>
+        </Material>
+    </MaterialList>
+    <MeshList>
+        <Mesh id="0" name="Ballista_subject" material="0" num_verts="1083" num_faces="930" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+        <Mesh id="1" name="Ballista_subject" material="1" num_verts="60" num_faces="64" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+        <Mesh id="2" name="Ballista_wheel_axle" material="0" num_verts="1528" num_faces="1832" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+        <Mesh id="3" name="Ballista_gear" material="0" num_verts="1124" num_faces="776" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+        <Mesh id="4" name="Ballista_Bow_arm" material="1" num_verts="828" num_faces="1076" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+    </MeshList>
+    <AnimList>
+        <Animation id="0" name="animation" duration="5.666667" channels="8"/>
+    </AnimList>
+    <NodeList>
+        <Node id="0" parent_id="-1" name="unnamed" trans="0.01,0,0,0,0,0,0.01,0,0,-0.01,0,0,0,0,0,1"/>
+        <Node id="1" parent_id="0" name="EnvironmentAmbientLight" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="2" parent_id="0" name="Ballista_subject" meshes="0,1" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="3" parent_id="0" name="Ballista_wheel_axle" meshes="2" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="4" parent_id="0" name="Ballista_gear" meshes="3" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="5" parent_id="0" name="Ballista_Bow_arm" meshes="4" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="6" parent_id="0" name="Bone01" trans="-7.54979e-008,-1.19249e-008,-1,5.3364e-009,-1,8.74228e-008,7.54979e-008,-230.975,8.74228e-008,1,-1.19249e-008,0,0,0,0,1"/>
+        <Node id="7" parent_id="6" name="Bone02" trans="0.468445,-0.883493,-1.43939e-007,-66.9172,0,-1.62921e-007,1,7.01562,-0.883493,-0.468445,-7.63194e-008,-17.4244,0,0,0,1"/>
+        <Node id="8" parent_id="6" name="Bone03" trans="1,0,0,-54.4381,0,1,-1.50996e-007,20.9502,-1.04251e-015,1.50996e-007,1,-17.7832,0,0,0,1"/>
+        <Node id="9" parent_id="6" name="Bone04" trans="-1,1.74846e-007,-8.74228e-008,-66.2492,-1.74846e-007,-1,2.38497e-008,21.4275,-8.74228e-008,2.38498e-008,1,-14.1024,0,0,0,1"/>
+        <Node id="10" parent_id="6" name="Bone05" trans="1,0,9.78257e-016,-54.4381,0,-1,-3.25841e-007,20.9502,-1.04251e-015,3.25841e-007,-1,17.7832,0,0,0,1"/>
+        <Node id="11" parent_id="6" name="Bone06" trans="0.468446,0.883492,1.54125e-007,-66.9172,-4.09528e-008,-1.52735e-007,1,7.01562,0.883492,-0.468446,-3.53667e-008,17.4244,0,0,0,1"/>
+        <Node id="12" parent_id="6" name="Bone07" trans="-1,-3.25841e-007,-1.28339e-013,-66.2492,-3.25841e-007,1,3.89414e-007,21.4275,-2.1773e-015,3.89414e-007,-1,14.1024,0,0,0,1"/>
+        <Node id="13" parent_id="6" name="Bone08" trans="-1,8.74228e-008,-1.62637e-014,102.585,-8.74228e-008,-1,1.50996e-007,12.3103,2.08501e-015,1.50996e-007,1,-3.8147e-006,0,0,0,1"/>
+    </NodeList>
+</Model>

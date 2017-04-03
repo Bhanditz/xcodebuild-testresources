@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanelGm" x="176" y="73" z="0" width="960" height="640" window_state="6">
+    <EditBox id="m_EdtGm" x="10" y="40" z="0" width="910" height="55" window_state="6" style="cs_bluegrayTxt">
+        <text value="&lt;font&gt;@showfps&lt;/font&gt;"/>
+        <font_size value="40"/>
+        <text_align_h value="1"/>
+        <line_height value="30"/>
+        <edit_box_state value="0"/>
+        <ime_height_offset value="0"/>
+        <multi_line value="0"/>
+        <Button id="m_BtnSend" x="734" y="0" z="0" width="134" height="54" window_state="6" style="bs_casino_common_btn02">
+            <text value="Send"/>
+            <rich_label_state value="1"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.49000001"/>
+            <line_height value="30"/>
+        </Button>
+    </EditBox>
+    <RichLabel id="m_LblDesc" x="10" y="103" z="0" width="910" height="526" window_state="6" style="cs_bluegrayTxt">
+        <text value="GM COMMAND LIST:
+@level 888   &lt;font color = &quot;cs_green&quot;&gt;// set level to 888&lt;/font&gt;
+@coin 888    &lt;font color = &quot;cs_green&quot;&gt;// add 888 coins&lt;/font&gt;
+@cash 888    &lt;font color = &quot;cs_green&quot;&gt;// add 888 cash&lt;/font&gt;
+@exp 888     &lt;font color = &quot;cs_green&quot;&gt;// add 888 exp&lt;/font&gt;
+@vip 888     &lt;font color = &quot;cs_green&quot;&gt;// add 888 vip level&lt;/font&gt;
+@diamond 888 &lt;font color = &quot;cs_green&quot;&gt;// add value of 888 month card&lt;/font&gt;
+@showfps     &lt;font color = &quot;cs_green&quot;&gt;// show fps&lt;/font&gt;
+@hidefps     &lt;font color = &quot;cs_green&quot;&gt;// hide fps&lt;/font&gt;
+"/>
+        <font_size value="20"/>
+        <text_align_h value="1"/>
+        <text_align_v value="1"/>
+        <font_id value="debug"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Picture id="m_Picture" x="9" y="106" z="0" width="910" height="437" window_state="6">
+        <piece_info value="gm"/>
+        <scale_mode value="4"/>
+    </Picture>
+    <Button id="m_BtnClose" x="876" y="3" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+</Panel>

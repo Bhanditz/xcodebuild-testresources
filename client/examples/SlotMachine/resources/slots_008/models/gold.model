@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model mesh="gold.meshdata" animation="gold.animdata" skelecton="gold.skelecton">
+    <MaterialList>
+        <Material id="0" name="Material__25-material" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="coin DiffuseMap.png"/>
+            <texture index="1" key="u_texNormal" file="Coin_normal map01.png"/>
+        </Material>
+    </MaterialList>
+    <MeshList>
+        <Mesh id="0" name="Cylinder013" material="0" num_verts="518" num_faces="540" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+    </MeshList>
+    <AnimList>
+        <Animation id="0" name="animation" duration="1.833333" channels="2"/>
+    </AnimList>
+    <NodeList>
+        <Node id="0" parent_id="-1" name="unnamed" trans="0.0254,0,0,0,0,0,0.0254,0,0,-0.0254,0,0,0,0,0,1"/>
+        <Node id="1" parent_id="0" name="EnvironmentAmbientLight" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="2" parent_id="0" name="Dummy001" trans="1,-2.87753e-007,9.16334e-008,0,-3.01991e-007,-0.952853,0.303431,0,3.55271e-015,-0.303431,-0.952853,198.69,0,0,0,1"/>
+        <Node id="3" parent_id="0" name="Cylinder013" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="4" parent_id="3" name="$ColladaAutoName$_24" meshes="0" trans="1,0,0,1.13645e-015,0,1,0,2.23793e-014,0,0,1,0.23445,0,0,0,1"/>
+        <Node id="5" parent_id="0" name="Bone001" trans="0.0054945,-0.999985,3.31464e-007,-1.73956e-008,0.303427,0.00166752,0.952853,-0.108292,-0.952839,-0.00523535,0.303432,198.741,0,0,0,1"/>
+        <Node id="6" parent_id="5" name="Bone002" trans="1,0,0,45.1138,0,1,0,-7.15256e-007,0,0,1,0,0,0,0,1"/>
+    </NodeList>
+</Model>

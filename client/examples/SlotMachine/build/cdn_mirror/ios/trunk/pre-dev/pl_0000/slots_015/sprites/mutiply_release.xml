@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="mutiply_release.png" width="512" height="512" blend="2" loop="1">
+    <sprite n="free_spin_01_00" x="242" y="2" w="238" h="218" oX="37" oY="42" oW="300" oH="300" dr="60"/>
+    <sprite n="free_spin_01_01" x="2" y="2" w="238" h="224" oX="34" oY="35" oW="300" oH="300" dr="60"/>
+    <sprite n="free_spin_01_02" x="2" y="228" w="212" h="206" oX="46" oY="29" oW="300" oH="300" r="y" dr="60"/>
+    <sprite n="free_spin_01_03" x="242" y="222" w="226" h="214" oX="42" oY="17" oW="300" oH="300" dr="60"/>
+</TextureAtlas>

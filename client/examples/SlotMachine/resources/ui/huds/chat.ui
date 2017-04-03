@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_PicRef" x="284" y="160" z="0" width="568" height="320" window_state="4">
+        <scale x="2" y="2" z="2"/>
+    </Picture>
+    <Button id="m_BtnClose" x="1033" y="5" z="0" width="78" height="83" window_state="4" style="bs_casino_common_btn07">
+        <line_height value="30"/>
+    </Button>
+    <Panel id="m_Chat" x="0" y="0" z="0" width="960" height="640" window_state="6">
+        <Picture id="m_Control" x="0" y="0" z="0" width="133" height="640" window_state="6" style="ngs_casino_common_panel16d">
+            <TabButton id="m_TabAll" x="7" y="6" z="0" width="118" height="53" window_state="6">
+                <text value="ALL"/>
+                <text_color value="cs_purpleTxt2"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <checked_bg_style value="ngs_casino_common_btn020a"/>
+                <unchecked_bg_style value="ngs_casino_common_btn020"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_purpleTxt2"/>
+            </TabButton>
+            <TabButton id="m_TabWorld" x="7" y="63" z="0" width="118" height="53" window_state="6">
+                <text value="WORLD"/>
+                <text_color value="cs_purpleTxt2"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <checked_bg_style value="ngs_casino_common_btn020a"/>
+                <unchecked_bg_style value="ngs_casino_common_btn020"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_purpleTxt2"/>
+            </TabButton>
+            <TabButton id="m_TabSlot" x="7" y="120" z="0" width="118" height="53" window_state="6">
+                <text value="SLOT"/>
+                <text_color value="cs_purpleTxt2"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <checked_bg_style value="ngs_casino_common_btn020a"/>
+                <unchecked_bg_style value="ngs_casino_common_btn020"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_purpleTxt2"/>
+            </TabButton>
+            <TabButton id="m_TabFriends" x="7" y="177" z="0" width="118" height="53" window_state="6">
+                <text value="FRIENDS"/>
+                <text_color value="cs_purpleTxt2"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <checked_bg_style value="ngs_casino_common_btn020a"/>
+                <unchecked_bg_style value="ngs_casino_common_btn020"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_purpleTxt2"/>
+            </TabButton>
+            <TabButton id="m_TabSystem" x="7" y="234" z="0" width="118" height="53" window_state="6">
+                <text value="SYSTEM"/>
+                <text_color value="cs_purpleTxt2"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <checked_bg_style value="ngs_casino_common_btn020a"/>
+                <unchecked_bg_style value="ngs_casino_common_btn020"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_purpleTxt2"/>
+            </TabButton>
+            <TabButton id="m_TabLockScreen" x="19" y="572" z="0" width="92" height="42" window_state="6">
+                <text_color value="cs_purpleTxt2"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <checked_bg_style value="bs_casino_common_btn021"/>
+                <unchecked_bg_style value="bs_casino_common_btn021a"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_purpleTxt2"/>
+                <RichLabel id="m_RichLabel" x="-12" y="38" z="0" width="116" height="30" window_state="6">
+                    <text value="Lock Screen"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_purpleTxt2"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </TabButton>
+        </Picture>
+        <Picture id="m_Main" x="128" y="-8" z="0" width="696" height="656" window_state="6" style="ngs_casino_common_panel16a">
+            <Picture id="m_PicTime" x="252" y="30" z="0" width="180" height="26" window_state="6" style="ngs_casino_common_panel19">
+                <RichLabel id="m_RichLabel" x="42" y="-2" z="0" width="96" height="30" window_state="6">
+                    <text value="16:00"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <List implement_class="ChatListView" id="m_ListChat" x="9" y="59" z="0" width="668" height="470" window_state="262150">
+                <scroll_state value="6"/>
+                <content_size x="0" y="368" z="0"/>
+                <slider_bar value="m_SliderBarChat"/>
+                <Panel implement_class="PanelChatItem" id="m_PanelChatItem" x="0" y="0" z="0" width="665" height="96" window_state="6">
+                    <Picture id="m_PicBorder" x="-14" y="-13" z="0" width="120" height="120" window_state="6">
+                        <piece_info value="casino_common_icon01b"/>
+                    </Picture>
+                    <PictureMask implement_class="PictureProfile" id="m_PicHead" x="-47" y="-47" z="0" width="188" height="188" window_state="6">
+                        <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                        <dynamic_attr key="mask" type="bool" value="true"/>
+                        <piece_info value="casino_common_icon01c"/>
+                        <scale_mode value="4"/>
+                        <mask_piece value="casino_mask_portrait"/>
+                    </PictureMask>
+                    <Picture id="m_PicChatBox" x="92" y="27" z="0" width="495" height="68" window_state="6" style="ngs_casino_common_panel17">
+                        <RichLabel id="m_LblText" x="40" y="21" z="0" width="440" height="25" window_state="6">
+                            <text value="-"/>
+                            <font_size value="25"/>
+                            <text_color value="cs_black"/>
+                            <text_align_h value="1"/>
+                            <text_style value="8"/>
+                            <font_id value="MyraidPro"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="25"/>
+                        </RichLabel>
+                    </Picture>
+                    <RichLabel id="m_LblName" x="116" y="3" z="0" width="200" height="25" window_state="6">
+                        <text value="[Slot] - Sam"/>
+                        <text_color value="cs_lightgrey"/>
+                        <text_align_h value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture implement_class="PictureLoading" id="m_PicLoading" x="589" y="35" z="0" width="57" height="57" window_state="6">
+                        <Picture id="m_PicCircle" x="0" y="0" z="0" width="57" height="57" window_state="262">
+                            <action_id value="action_loading"/>
+                        </Picture>
+                    </Picture>
+                </Panel>
+                <Panel id="m_PanelChatItemSelf" x="0" y="96" z="0" width="667" height="88" window_state="6">
+                    <Picture id="m_PicBorder" x="555" y="-17" z="0" width="120" height="120" window_state="6">
+                        <piece_info value="casino_common_icon01b"/>
+                    </Picture>
+                    <PictureMask implement_class="PictureProfile" id="m_PicHead" x="522" y="-51" z="0" width="188" height="188" window_state="6">
+                        <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                        <dynamic_attr key="mask" type="bool" value="true"/>
+                        <piece_info value="casino_common_icon01c"/>
+                        <scale_mode value="4"/>
+                        <mask_piece value="casino_mask_portrait"/>
+                    </PictureMask>
+                    <Picture id="m_PicChatBox" x="180" y="9" z="0" width="391" height="68" window_state="6" style="ngs_casino_common_panel17a">
+                        <RichLabel id="m_LblText" x="19" y="22" z="0" width="330" height="24" window_state="6">
+                            <text value="&lt;font&gt;-&lt;/font&gt;"/>
+                            <font_size value="25"/>
+                            <text_color value="cs_black_txt"/>
+                            <text_align_h value="1"/>
+                            <text_offset x="2" y="0" z="0"/>
+                            <font_id value="MyraidPro"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                    </Picture>
+                </Panel>
+                <Panel id="m_PanelChatVoice1" x="0" y="184" z="0" width="720" height="88" window_state="6">
+                    <Picture id="m_PicBorder" x="555" y="-15" z="0" width="120" height="120" window_state="6">
+                        <piece_info value="casino_common_icon01b"/>
+                    </Picture>
+                    <PictureMask implement_class="PictureProfile" id="m_PicHead" x="522" y="-49" z="0" width="188" height="188" window_state="6">
+                        <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                        <dynamic_attr key="mask" type="bool" value="true"/>
+                        <piece_info value="casino_common_icon01c"/>
+                        <scale_mode value="4"/>
+                        <mask_piece value="casino_mask_portrait"/>
+                    </PictureMask>
+                    <Picture id="m_PicChatBox" x="360" y="10" z="0" width="224" height="68" window_state="6" style="ngs_casino_common_panel17a">
+                        <Picture implement_class="PicturePlayRecord" id="m_PicRecord" x="139" y="21" z="0" width="44" height="35" window_state="6">
+                            <Picture id="m_Pic0" x="11" y="0" z="0" width="24" height="33" window_state="6">
+                                <piece_info value="casino_common_icon17"/>
+                            </Picture>
+                            <Picture id="m_Pic1" x="11" y="0" z="0" width="24" height="33" window_state="6">
+                                <piece_info value="casino_common_icon17a"/>
+                            </Picture>
+                            <Picture id="m_Pic2" x="11" y="0" z="0" width="24" height="33" window_state="6">
+                                <piece_info value="casino_common_icon17b"/>
+                            </Picture>
+                        </Picture>
+                    </Picture>
+                    <RichLabel id="m_LblTime" x="288" y="43" z="0" width="64" height="35" window_state="6">
+                        <text value="8&quot;"/>
+                        <font_size value="35"/>
+                        <text_color value="cs_lightgrey"/>
+                        <text_align_h value="3"/>
+                        <font_id value="Bebas"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel implement_class="PanelChatItem" id="m_PanelChatItem" x="0" y="272" z="0" width="665" height="96" window_state="6">
+                    <Picture id="m_PicBorder" x="-14" y="-13" z="0" width="120" height="120" window_state="6">
+                        <piece_info value="casino_common_icon01b"/>
+                    </Picture>
+                    <PictureMask implement_class="PictureProfile" id="m_PicHead" x="-47" y="-47" z="0" width="188" height="188" window_state="6">
+                        <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                        <dynamic_attr key="mask" type="bool" value="true"/>
+                        <piece_info value="casino_common_icon01c"/>
+                        <scale_mode value="4"/>
+                        <mask_piece value="casino_mask_portrait"/>
+                    </PictureMask>
+                    <Picture id="m_PicChatBox" x="92" y="27" z="0" width="495" height="68" window_state="6" style="ngs_casino_common_panel17">
+                        <RichLabel id="m_LblText" x="40" y="21" z="0" width="440" height="25" window_state="6">
+                            <text value="-"/>
+                            <font_size value="25"/>
+                            <text_color value="cs_black"/>
+                            <text_align_h value="1"/>
+                            <text_style value="8"/>
+                            <font_id value="MyraidPro"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="25"/>
+                        </RichLabel>
+                    </Picture>
+                    <RichLabel id="m_LblName" x="116" y="3" z="0" width="200" height="25" window_state="6">
+                        <text value="[Slot] - Sam"/>
+                        <text_color value="cs_lightgrey"/>
+                        <text_align_h value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture implement_class="PictureLoading" id="m_PicLoading" x="589" y="35" z="0" width="57" height="57" window_state="6">
+                        <Picture id="m_PicCircle" x="0" y="0" z="0" width="57" height="57" window_state="262">
+                            <action_id value="action_loading"/>
+                        </Picture>
+                    </Picture>
+                </Panel>
+            </List>
+            <Panel id="m_PanelHoldToTalk" x="4" y="569" z="0" width="678" height="80" window_state="6">
+                <Picture id="m_PicBg" x="2" y="2" z="0" width="672" height="74" window_state="6" style="ngs_casino_common_panel16c"/>
+                <Picture id="m_PicBorder" x="75" y="10" z="0" width="586" height="60" window_state="6" style="ngs_casino_editbox"/>
+                <Button id="m_BtnRetText" x="10" y="6" z="0" width="62" height="67" window_state="6" style="bs_casino_common_btn019">
+                    <line_height value="30"/>
+                </Button>
+                <Panel id="m_PanelRecord" x="79" y="13" z="0" width="494" height="55" window_state="6">
+                    <Button implement_class="AudioRecordButton" id="m_BtnRecord" x="1" y="2" z="0" width="492" height="50" window_state="6" style="ngs_casino_common_btn018a">
+                        <line_height value="30"/>
+                    </Button>
+                    <RichLabel id="m_RichLabel" x="149" y="7" z="0" width="197" height="40" window_state="14">
+                        <text value="HOLD TO TALK"/>
+                        <font_size value="40"/>
+                        <font_id value="MyraidPro"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Button id="m_BtnEmotionV" x="575" y="15" z="0" width="80" height="50" window_state="6" style="bs_casino_common_btn018">
+                    <font_size value="43"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.46000001"/>
+                    <outline_center value="0.44"/>
+                    <line_height value="30"/>
+                    <Picture id="m_Picture" x="26" y="10" z="0" width="28" height="29" window_state="14">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <piece_info value="casino_common_icon22"/>
+                    </Picture>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelEmotion" x="6" y="308" z="0" width="673" height="338" window_state="4">
+                <GridList id="m_GridList" x="2" y="90" z="0" width="668" height="221" window_state="262150">
+                    <scroll_state value="45"/>
+                    <content_size x="1700" y="0" z="0"/>
+                    <page_size x="678" y="300" z="1"/>
+                    <mode value="2"/>
+                    <gap x="85" y="70" z="50"/>
+                    <row value="3"/>
+                    <column value="8"/>
+                    <ButtonAction id="m_BtnEmoticon1" x="0" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo01">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon2" x="0" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo02">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon3" x="0" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo03">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon4" x="85" y="0" z="0" width="84" height="79" window_state="6" style="bs_casino_common_emo04">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon5" x="85" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo05">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon6" x="85" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo06">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon7" x="170" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo07">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon8" x="170" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo08">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon9" x="170" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo09">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon10" x="255" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo10">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon11" x="255" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo11">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon12" x="255" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo12">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon13" x="340" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo13">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon14" x="340" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo14">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon15" x="340" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo15">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon16" x="425" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo16">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon17" x="425" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo17">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon18" x="425" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo18">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon19" x="510" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo19">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon20" x="510" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo20">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon21" x="510" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo21">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon22" x="595" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo22">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon23" x="595" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo23">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon24" x="595" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo24">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon25" x="680" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo25">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon26" x="680" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo26">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon27" x="680" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo27">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon28" x="765" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo28">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon29" x="765" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo29">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon30" x="765" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo30">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon31" x="850" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo31">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon32" x="850" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo32">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon33" x="850" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo33">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon34" x="935" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo34">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon35" x="935" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo35">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon36" x="935" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo36">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon37" x="1020" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo37">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon38" x="1020" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo38">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon39" x="1020" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo39">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon40" x="1105" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo40">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon41" x="1105" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo41">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon42" x="1105" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo42">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon43" x="1190" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo43">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon44" x="1190" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo44">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon45" x="1190" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo45">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon46" x="1275" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo46">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon47" x="1275" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo47">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon48" x="1275" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo48">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon49" x="1360" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo49">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon50" x="1360" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo50">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon51" x="1360" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo51">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon52" x="1445" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo52">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon53" x="1445" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo53">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon54" x="1445" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo54">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon55" x="1530" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo55">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon56" x="1530" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo56">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon57" x="1530" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo57">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon58" x="1615" y="0" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo58">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon59" x="1615" y="70" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo59">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                    <ButtonAction id="m_BtnEmoticon60" x="1615" y="140" z="0" width="84" height="79" window_state="262" style="bs_casino_common_emo60">
+                        <line_height value="30"/>
+                    </ButtonAction>
+                </GridList>
+                <Picture implement_class="PanelPagePoints" id="m_PanelPagePoints" x="297" y="309" z="0" width="90" height="19" window_state="6">
+                    <Picture id="m_Picture1" x="10" y="4" z="0" width="12" height="12" window_state="6">
+                        <piece_info value="casino_common_scrolla"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="40" y="4" z="0" width="10" height="10" window_state="6">
+                        <piece_info value="casino_common_scroll"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="68" y="4" z="0" width="10" height="10" window_state="6">
+                        <piece_info value="casino_common_scroll"/>
+                    </Picture>
+                </Picture>
+                <Panel id="m_PanelEmoticonEntry" x="0" y="14" z="0" width="678" height="80" window_state="6">
+                    <Picture id="m_PicBg" x="1" y="2" z="0" width="672" height="74" window_state="6" style="ngs_casino_common_panel16c"/>
+                    <Picture id="m_PicBorder" x="75" y="10" z="0" width="586" height="60" window_state="6" style="ngs_casino_editbox"/>
+                    <Button id="m_BtnRetText" x="8" y="9" z="0" width="62" height="67" window_state="6" style="bs_casino_common_btn019b">
+                        <line_height value="30"/>
+                    </Button>
+                    <Panel id="m_PanelRecord" x="509" y="13" z="0" width="151" height="55" window_state="6">
+                        <Button implement_class="AudioRecordButton" id="m_BtnRecord" x="3" y="2" z="0" width="142" height="50" window_state="6" style="ngs_casino_common_btn018a">
+                            <rotation x="3.1415927" y="0" z="3.1415927"/>
+                            <line_height value="30"/>
+                        </Button>
+                        <RichLabel id="m_RichLabel" x="5" y="7" z="0" width="137" height="40" window_state="14">
+                            <text value="SEND"/>
+                            <font_size value="40"/>
+                            <font_id value="MyraidPro"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                    </Panel>
+                    <Button id="m_BtnEmotionV" x="430" y="15" z="0" width="80" height="50" window_state="6" style="bs_casino_common_btn018">
+                        <rotation x="3.1415927" y="0" z="3.1415927"/>
+                        <font_size value="43"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.46000001"/>
+                        <outline_center value="0.44"/>
+                        <line_height value="30"/>
+                        <Picture id="m_Picture" x="26" y="10" z="0" width="28" height="29" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <piece_info value="casino_common_icon22"/>
+                        </Picture>
+                    </Button>
+                </Panel>
+            </Panel>
+        </Picture>
+        <Picture id="m_ListContact" x="807" y="1" z="0" width="136" height="658" window_state="6" style="ngs_casino_common_panel16">
+            <List id="m_ListPM" x="11" y="2" z="0" width="117" height="635" window_state="262150">
+                <custom_clip value="1"/>
+                <clip_rect x="-300" y="0" w="600" h="520"/>
+                <scroll_state value="6"/>
+                <content_size x="0" y="119" z="0"/>
+                <page_size x="1" y="100" z="1"/>
+                <TabButton implement_class="TabBtnPMObj" id="m_PanelPMObj" x="0" y="0" z="0" width="119" height="119" window_state="6">
+                    <line_height value="30"/>
+                    <Picture id="m_PicSelected" x="1" y="6" z="0" width="115" height="112" window_state="6" style="ngs_casino_common_panel16b"/>
+                    <TabButton id="m_TabInner" x="-2" y="-8" z="0" width="119" height="119" window_state="6">
+                        <line_height value="30"/>
+                        <checked value="1"/>
+                        <checked_bg_style value="bs_casino_common_icon01e"/>
+                        <unchecked_bg_style value="bs_casino_common_icon01b"/>
+                        <RichLabel id="m_LblName" x="5" y="98" z="0" width="110" height="25" window_state="14">
+                            <text value="Joke"/>
+                            <text_color value="cs_lightgrey"/>
+                            <text_style value="32"/>
+                            <font_id value="MyraidPro"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <Picture implement_class="PictureMsgCount" id="m_PicNewMsg" x="90" y="16" z="0" width="17" height="17" window_state="14">
+                            <piece_info value="casino_common_icon18"/>
+                        </Picture>
+                        <PictureMask implement_class="PictureProfile" id="m_PicHead" x="-34" y="-35" z="0" width="188" height="188" window_state="14">
+                            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                            <dynamic_attr key="mask" type="bool" value="true"/>
+                            <piece_info value="casino_common_icon01c"/>
+                            <scale_mode value="4"/>
+                            <mask_piece value="casino_mask_portrait"/>
+                        </PictureMask>
+                    </TabButton>
+                </TabButton>
+            </List>
+        </Picture>
+        <Picture id="m_Record" x="357" y="206" z="0" width="226" height="227" window_state="4" style="ngs_casino_common_panel18">
+            <Picture id="m_Picture" x="4" y="180" z="0" width="218" height="44" window_state="6" style="ngs_casino_common_panel18a"/>
+            <RichLabel id="m_LblTextTime" x="8" y="139" z="0" width="209" height="35" window_state="6">
+                <color_scale x="0.63" y="0.63" z="0.63" w="1"/>
+                <text value="00:10"/>
+                <font_size value="45"/>
+                <text_color value="cs_purpleTxt2"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Voice" x="8" y="8" z="0" width="210" height="211" window_state="6">
+                <Picture id="m_PicVoice" x="71" y="12" z="0" width="68" height="108" window_state="6">
+                    <piece_info value="casino_common_icon19"/>
+                    <Picture id="m_PicLvl0" x="28" y="62" z="0" width="12" height="2" window_state="6">
+                        <piece_info value="casino_common_icon19a"/>
+                    </Picture>
+                    <Picture id="m_PicLvl1" x="24" y="55" z="0" width="20" height="4" window_state="6">
+                        <piece_info value="casino_common_icon19b"/>
+                    </Picture>
+                    <Picture id="m_PicLvl2" x="24" y="27" z="0" width="20" height="5" window_state="6">
+                        <piece_info value="casino_common_icon19c"/>
+                    </Picture>
+                    <Picture id="m_PicLvl3" x="24" y="34" z="0" width="20" height="5" window_state="6">
+                        <piece_info value="casino_common_icon19c"/>
+                    </Picture>
+                    <Picture id="m_PicLvl4" x="24" y="41" z="0" width="20" height="5" window_state="6">
+                        <piece_info value="casino_common_icon19c"/>
+                    </Picture>
+                    <Picture id="m_PicLvl5" x="24" y="48" z="0" width="20" height="5" window_state="6">
+                        <piece_info value="casino_common_icon19c"/>
+                    </Picture>
+                    <Picture id="m_PicLvl6" x="24" y="20" z="0" width="20" height="5" window_state="6">
+                        <piece_info value="casino_common_icon19c"/>
+                    </Picture>
+                    <Picture id="m_PicLvl7" x="24" y="14" z="0" width="20" height="4" window_state="6">
+                        <rotation x="3.1415927" y="0" z="0"/>
+                        <piece_info value="casino_common_icon19b"/>
+                    </Picture>
+                    <Picture id="m_PicLvl8" x="28" y="10" z="0" width="12" height="2" window_state="6">
+                        <rotation x="3.1415927" y="0" z="0"/>
+                        <piece_info value="casino_common_icon19a"/>
+                    </Picture>
+                </Picture>
+                <RichLabel id="m_LblText" x="0" y="175" z="0" width="209" height="35" window_state="6">
+                    <text value="Slide up to cancel"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Release" x="8" y="8" z="0" width="210" height="211" window_state="4">
+                <Picture id="m_PicRelease" x="61" y="20" z="0" width="87" height="97" window_state="6">
+                    <piece_info value="casino_common_icon20"/>
+                </Picture>
+                <RichLabel id="m_LblText" x="0" y="175" z="0" width="209" height="35" window_state="6">
+                    <text value="Release to cancel"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_TooShort" x="8" y="8" z="0" width="210" height="211" window_state="4">
+                <Picture id="m_Picture" x="-4" y="152" z="0" width="218" height="64" window_state="6" style="ngs_casino_common_panel18a"/>
+                <Picture id="m_PicRelease" x="84" y="20" z="0" width="42" height="118" window_state="6">
+                    <piece_info value="casino_common_icon21"/>
+                </Picture>
+                <RichLabel id="m_LblText" x="10" y="159" z="0" width="189" height="55" window_state="6">
+                    <text value="The voice input is too short."/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="8"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="27"/>
+                </RichLabel>
+            </Panel>
+        </Picture>
+    </Panel>
+    <Panel id="m_IngameChatButton" x="8" y="470" z="0" width="100" height="100" window_state="4">
+        <Button id="m_Button" x="3" y="10" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn022">
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="60" y="-5" z="0" width="30" height="30" window_state="6">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <piece_info value="casino_common_icon10"/>
+            </Picture>
+        </Button>
+    </Panel>
+</Panel>

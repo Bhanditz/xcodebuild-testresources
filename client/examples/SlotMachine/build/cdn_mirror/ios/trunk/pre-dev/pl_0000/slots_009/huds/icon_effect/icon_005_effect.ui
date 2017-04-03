@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="165" height="146" window_state="6">
+    <Picture id="ref1" x="8" y="-2" z="0" width="148" height="150" window_state="6">
+        <piece_info value="slots_009_icon_005a"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="2" y="-42" z="0" width="100" height="100" window_state="4">
+        <sprite_file value="slots_009/sprites/base_game_hb.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Particle id="m_Particle" x="72" y="58" z="0" width="20" height="20" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+        <particle_name value="hb_boom"/>
+    </Particle>
+    <Particle id="money_R" x="72" y="15" z="0" width="20" height="20" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+        <particle_name value="hb_money_L"/>
+    </Particle>
+    <Particle id="money_L" x="72" y="15" z="0" width="20" height="20" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+        <particle_name value="hb_money_R"/>
+    </Particle>
+    <Picture id="ref" x="8" y="-2" z="0" width="148" height="150" window_state="6">
+        <anchor_point x="0.64999998" y="0.85000002" z="0"/>
+        <action_id value="animation_slots009_hb"/>
+        <piece_info value="slots_009_icon_005b"/>
+    </Picture>
+    <Sprite id="icon_effect01" x="32" y="23" z="0" width="100" height="100" window_state="4" style="ngs_panel_bg">
+        <blend_mode value="2"/>
+        <sprite_file value="slots_009/sprites/icon_effect01.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+</Panel>

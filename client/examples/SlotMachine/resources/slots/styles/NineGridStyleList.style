@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NineGridStyleList>
+  <NineGridStyle id="ngs_slots_jackpot_panel01a">
+    <normal piece_id="slots_jackpot_panel01a" min_x="76" min_y="0" max_x="77" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel01b">
+    <normal piece_id="slots_jackpot_panel01b" min_x="26" min_y="0" max_x="27" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel01c">
+    <normal piece_id="slots_jackpot_panel01c" min_x="66" min_y="0" max_x="67" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel02a">
+    <normal piece_id="slots_jackpot_panel02a" min_x="47" min_y="0" max_x="48" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel02b">
+    <normal piece_id="slots_jackpot_panel02b" min_x="47" min_y="0" max_x="48" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel02c">
+    <normal piece_id="slots_jackpot_panel02c" min_x="46" min_y="0" max_x="47" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel02d">
+    <normal piece_id="slots_jackpot_panel02d" min_x="40" min_y="0" max_x="41" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel02e">
+    <normal piece_id="slots_jackpot_panel02e" min_x="37" min_y="0" max_x="38" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel03a">
+    <normal piece_id="slots_jackpot_panel03a" min_x="44" min_y="24" max_x="45" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_jackpot_panel05a">
+    <normal piece_id="slots_jackpot_panel05a" min_x="44" min_y="40" max_x="45" max_y="41"/>
+  </NineGridStyle>
+</NineGridStyleList>

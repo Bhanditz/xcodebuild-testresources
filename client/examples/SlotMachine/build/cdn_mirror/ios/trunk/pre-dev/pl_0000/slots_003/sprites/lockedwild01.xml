@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="lockedwild01.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="00000" x="186" y="176" w="96" h="160" oX="90" oY="49" oW="340" oH="194" r="y" dr="120"/>
+    <sprite n="00001" x="294" y="114" w="188" h="108" oX="77" oY="43" oW="340" oH="194" dr="120"/>
+    <sprite n="00002" x="294" y="2" w="192" h="110" oX="73" oY="41" oW="340" oH="194" dr="120"/>
+    <sprite n="00003" x="2" y="2" w="290" h="172" oX="31" oY="13" oW="340" oH="194" dr="120"/>
+    <sprite n="00004" x="284" y="224" w="180" h="234" oX="55" oY="4" oW="340" oH="194" r="y" dr="120"/>
+    <sprite n="00005" x="2" y="224" w="182" h="266" oX="32" oY="3" oW="340" oH="194" r="y" dr="120"/>
+</TextureAtlas>

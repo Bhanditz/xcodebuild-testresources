@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1004_panel019"/>
+    <Picture id="m_Picture" x="266" y="30" z="0" width="604" height="542" window_state="6">
+        <piece_info value="slots_1004_panel002b"/>
+    </Picture>
+    <RichLabel id="m_TotalWin" x="520" y="308" z="0" width="96" height="30" window_state="6">
+        <text value="2,800,000"/>
+        <font_size value="100"/>
+        <text_color value="cs_RedColor"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.02"/>
+        <glyph_center value="0.41"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="5"/>
+        <outline_color value="cs_lightbrown"/>
+        <line_height value="24"/>
+    </RichLabel>
+    <RichLabel id="m_FreeSpinDisplay" x="497" y="246" z="0" width="153" height="40" window_state="6">
+        <text value="SLOTS_JADELOTUS2_FREESPINREPORT_TEXT_YOUWIN"/>
+        <font_size value="40"/>
+        <text_color value="cs_line_color_04"/>
+        <rich_label_state value="1"/>
+        <glyph_center value="0.38"/>
+        <outline_center value="0.46000001"/>
+        <outline_color value="cs_line_color_13"/>
+        <line_height value="24"/>
+    </RichLabel>
+</Panel>

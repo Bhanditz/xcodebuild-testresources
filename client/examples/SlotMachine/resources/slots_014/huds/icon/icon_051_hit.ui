@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="100" height="100" window_state="6">
+    <Sprite id="m_Sprite" x="2" y="5" z="0" width="100" height="100" window_state="4">
+        <sprite_file value="slots_014/sprites/icon051_02.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Picture id="m_Picture04" x="19" y="22" z="0" width="61" height="55" window_state="262">
+        <action_id value="animation_slot014_goblin03"/>
+        <piece_info value="slots_014_icon_16"/>
+    </Picture>
+    <Picture id="m_Picture1" x="-8" y="-10" z="0" width="118" height="118" window_state="260">
+        <blend_mode value="2"/>
+        <action_id value="animation_slot014_goblin02"/>
+        <piece_info value="goblin_light"/>
+    </Picture>
+</Panel>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_PanelBg" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <action_id value="loading_bg_slide_in"/>
+        <Panel id="m_Panel" x="-10" y="-10" z="0" width="1156" height="660" window_state="6" style="cs_black">
+            <color_scale x="1" y="1" z="1" w="0.60000002"/>
+        </Panel>
+        <Picture id="m_PicBg" x="-10" y="-10" z="0" width="1156" height="660" window_state="6" style="ngs_poker_purple_panel10">
+            <action_id value="loading_bg_slide_in"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_PanelMask" x="-10" y="260" z="0" width="1156" height="120" window_state="6">
+        <action_id value="loading_mask_slide_in"/>
+        <Panel id="m_PanelMask" x="0" y="0" z="0" width="1156" height="120" window_state="6" style="cs_black">
+            <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        </Panel>
+    </Panel>
+    <Panel id="m_Pan1" x="334" y="272" z="0" width="69" height="96" window_state="6">
+        <Panel id="m_PanelFront" x="2" y="1" z="0" width="65" height="93" window_state="6">
+            <action_id value="loading_flip_back"/>
+            <Picture id="m_PicFront" x="-21" y="-29" z="0" width="107" height="151" window_state="262">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="poker_face_big_6"/>
+            </Picture>
+            <RichLabel id="m_Lbl" x="1" y="3" z="0" width="65" height="93" window_state="6">
+                <text value="L"/>
+                <font_size value="95"/>
+                <text_color value="cs_black"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_PicBack" x="-19" y="-60" z="0" width="114" height="160" window_state="262">
+            <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+            <anchor_point x="0.5" y="1" z="0"/>
+            <action_id value="loading_flip_front"/>
+            <piece_info value="poker_face_big_4"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Pan2" x="400" y="272" z="0" width="69" height="96" window_state="6">
+        <Panel id="m_PanelFront" x="2" y="2" z="0" width="65" height="93" window_state="6">
+            <action_id value="loading_flip_back"/>
+            <Picture id="m_PicFront" x="-21" y="-29" z="0" width="107" height="151" window_state="262">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="poker_face_big_6"/>
+            </Picture>
+            <RichLabel id="m_Lbl" x="1" y="3" z="0" width="65" height="93" window_state="6">
+                <text value="O"/>
+                <font_size value="95"/>
+                <text_color value="cs_black"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_PicBack" x="-19" y="-27" z="0" width="114" height="160" window_state="260">
+            <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+            <action_id value="loading_flip_front"/>
+            <piece_info value="poker_face_big_4"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Pan3" x="466" y="272" z="0" width="69" height="96" window_state="6">
+        <Panel id="m_PanelFront" x="2" y="1" z="0" width="65" height="93" window_state="6">
+            <action_id value="loading_flip_back"/>
+            <Picture id="m_PicFront" x="-21" y="-29" z="0" width="107" height="151" window_state="262">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="poker_face_big_6"/>
+            </Picture>
+            <RichLabel id="m_Lbl1" x="1" y="3" z="0" width="65" height="93" window_state="6">
+                <text value="A"/>
+                <font_size value="95"/>
+                <text_color value="cs_black"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_PicBack" x="-19" y="-28" z="0" width="114" height="160" window_state="260">
+            <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+            <action_id value="loading_flip_front"/>
+            <piece_info value="poker_face_big_4"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Pan4" x="532" y="272" z="0" width="69" height="96" window_state="6">
+        <Panel id="m_PanelFront" x="2" y="1" z="0" width="65" height="93" window_state="6">
+            <action_id value="loading_flip_back"/>
+            <Picture id="m_PicFront" x="-21" y="-29" z="0" width="107" height="151" window_state="262">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="poker_face_big_6"/>
+            </Picture>
+            <RichLabel id="m_Lbl" x="1" y="3" z="0" width="65" height="93" window_state="6">
+                <text value="D"/>
+                <font_size value="95"/>
+                <text_color value="cs_black"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_PicBack" x="-19" y="-28" z="0" width="114" height="160" window_state="260">
+            <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+            <action_id value="loading_flip_front"/>
+            <piece_info value="poker_face_big_4"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Pan5" x="599" y="272" z="0" width="69" height="96" window_state="6">
+        <Panel id="m_PanelFront" x="2" y="1" z="0" width="65" height="93" window_state="6">
+            <action_id value="loading_flip_back"/>
+            <Picture id="m_PicFront" x="-21" y="-29" z="0" width="107" height="151" window_state="262">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="poker_face_big_6"/>
+            </Picture>
+            <RichLabel id="m_Lbl1" x="1" y="3" z="0" width="65" height="93" window_state="6">
+                <text value="I"/>
+                <font_size value="95"/>
+                <text_color value="cs_black"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_PicBack" x="-19" y="-28" z="0" width="114" height="160" window_state="260">
+            <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+            <action_id value="loading_flip_front"/>
+            <piece_info value="poker_face_big_4"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Pan6" x="665" y="272" z="0" width="69" height="96" window_state="6">
+        <Panel id="m_PanelFront" x="2" y="1" z="0" width="65" height="93" window_state="6">
+            <action_id value="loading_flip_back"/>
+            <Picture id="m_PicFront" x="-21" y="-29" z="0" width="107" height="151" window_state="262">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="poker_face_big_6"/>
+            </Picture>
+            <RichLabel id="m_Lbl" x="1" y="3" z="0" width="65" height="93" window_state="6">
+                <text value="N"/>
+                <font_size value="95"/>
+                <text_color value="cs_black"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_PicBack" x="-19" y="-28" z="0" width="114" height="160" window_state="260">
+            <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+            <action_id value="loading_flip_front"/>
+            <piece_info value="poker_face_big_4"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Pan7" x="731" y="272" z="0" width="69" height="96" window_state="6">
+        <Panel id="m_PanelFront" x="2" y="1" z="0" width="65" height="93" window_state="6">
+            <action_id value="loading_flip_back"/>
+            <Picture id="m_PicFront" x="-21" y="-29" z="0" width="107" height="151" window_state="262">
+                <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+                <piece_info value="poker_face_big_6"/>
+            </Picture>
+            <RichLabel id="m_Lbl1" x="1" y="3" z="0" width="65" height="93" window_state="6">
+                <text value="G"/>
+                <font_size value="95"/>
+                <text_color value="cs_black"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_PicBack" x="-19" y="-28" z="0" width="114" height="160" window_state="260">
+            <scale x="0.57999998" y="0.57999998" z="0.57999998"/>
+            <action_id value="loading_flip_front"/>
+            <piece_info value="poker_face_big_4"/>
+        </Picture>
+    </Panel>
+    <Panel implement_class="PanelLoadCardRotation" id="m_PanelCardRot" x="499" y="204" z="0" width="107" height="151" window_state="6">
+        <scale x="0.039999999" y="0.039999999" z="0.039999999"/>
+        <rotation x="0" y="0" z="-2.4783676"/>
+        <anchor_point x="0.5" y="1" z="0"/>
+        <action_id value="loading_card_rotation"/>
+        <Picture id="m_PicCard0" x="-81" y="-214" z="0" width="270" height="380" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card"/>
+        </Picture>
+        <Picture id="m_PicCard1" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard2" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard3" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard4" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard5" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard6" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard7" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard8" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard9" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard10" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard11" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard12" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard13" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard14" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard15" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard16" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard17" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard18" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard19" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard20" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard21" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard22" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard23" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard24" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard25" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard26" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard27" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard28" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard29" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard30" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard31" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard32" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard33" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard34" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+        <Picture id="m_PicCard35" x="-91" y="-214" z="0" width="300" height="388" window_state="262">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <piece_info value="poker_loading_card02"/>
+        </Picture>
+    </Panel>
+    <Button id="m_BtnStop" x="664" y="87" z="0" width="118" height="75" window_state="4">
+        <text value="stop"/>
+        <line_height value="30"/>
+    </Button>
+    <Panel id="m_PanelPos" x="517" y="310" z="0" width="69" height="96" window_state="14"/>
+    <Button id="m_BtnRefresh" x="20" y="554" z="0" width="189" height="83" window_state="4" style="ngs_poker_button_008">
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="83" y="21" z="0" width="86" height="40" window_state="14">
+            <text value="Refresh"/>
+            <text_color value="cs_lightgrey"/>
+            <text_align_h value="1"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="18"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_BtnBack" x="925" y="554" z="0" width="190" height="83" window_state="4">
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="30" y="21" z="0" width="76" height="40" window_state="14">
+            <text value="Back"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <text_align_h value="3"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="18"/>
+        </RichLabel>
+    </Button>
+    <Panel id="m_Return" x="926" y="554" z="0" width="210" height="90" window_state="6">
+        <Button id="m_Btn" x="14" y="2" z="0" width="190" height="83" window_state="6" style="ngs_casino_common_btn05">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <font_size value="25"/>
+            <text_align_h value="3"/>
+            <text_offset x="-82" y="-1" z="0"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="17"/>
+        </Button>
+        <Picture id="m_Picture" x="144" y="15" z="0" width="41" height="50" window_state="14">
+            <piece_info value="casino_common_btn05a"/>
+        </Picture>
+        <RichLabel id="m_LblGame" x="31" y="23" z="0" width="96" height="40" window_state="14">
+            <text value="TEXASPOKER_LOADING_BUTTON_RETURN"/>
+            <text_style value="8"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="25"/>
+        </RichLabel>
+    </Panel>
+</Panel>

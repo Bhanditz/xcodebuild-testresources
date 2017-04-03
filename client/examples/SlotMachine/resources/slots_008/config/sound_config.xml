@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_008/sound/base/18 Buffalo_control_button_right 1.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="SPIN_STOP" value=""/>
+		<Sound name="NEAR_WIN" value="slots_008/sound/base/9 Buffalo_base_anticipation.ogg"/>
+    <Sound name="NEAR_WIN_THEN_WIN" value="slots_008/sound/base/9 Buffalo_base_anticipation Miss-01.ogg"/>
+    <Sound name="NEAR_WIN_THEN_MISS" value="slots_008/sound/base/9 Buffalo_base_anticipation Miss-02.ogg"/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_READY_STOP" value="slots_008/sound/base/7 Buffalo_base_reel_stop FIX1.ogg" volume="3.5"/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg" volume="0.6"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		<Sound name="BASEGAME_NORMAL_SPIN_1" value="slots_008/sound/base/Base game BGM_01.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_2" value="slots_008/sound/base/Base game BGM_02.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_3" value="slots_008/sound/base/Base game BGM_03.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_4" value="slots_008/sound/base/Base game BGM_04.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_5" value="slots_008/sound/base/Base game BGM_05.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_6" value="slots_008/sound/base/Base game BGM_06.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_7" value="slots_008/sound/base/Base game BGM_07.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_8" value="slots_008/sound/base/Base game BGM_08.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_9" value="slots_008/sound/base/Base game BGM_09.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_10" value="slots_008/sound/base/Base game BGM_10.ogg"/>
+    <Sound name="BASEGAME_NORMAL_SPIN_11" value="slots_008/sound/base/Base game BGM_11.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_1" value="slots_008/sound/base/Base game BGM_01.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_2" value="slots_008/sound/base/Base game BGM_02.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_3" value="slots_008/sound/base/Base game BGM_03.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_4" value="slots_008/sound/base/Base game BGM_04.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_5" value="slots_008/sound/base/Base game BGM_05.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_6" value="slots_008/sound/base/Base game BGM_06.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_7" value="slots_008/sound/base/Base game BGM_07.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_8" value="slots_008/sound/base/Base game BGM_08.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_9" value="slots_008/sound/base/Base game BGM_09.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_10" value="slots_008/sound/base/Base game BGM_10.ogg"/>
+    <Sound name="BASEGAME_FAST_SPIN_11" value="slots_008/sound/base/Base game BGM_11.ogg"/>
+		
+		<Sound name="BGM_BASEGAME" value="slots_008/sound/base/AMB Loop Base Game.ogg"/>
+		<Sound name="HOLD_SPIN" value="slots_008/sound/base/18 Buffalo_control_button_right 1.ogg"/>
+		<Sound name="FAST_SPIN" value="slots_008/sound/base/19 Buffalo_control_fastspin fix.ogg"/>
+		<Sound name="REEL_SCATTER_1" value="slots_008/sound/base/8 Buffalo_base_bonus_hit_R1_fix1-01.ogg"/>
+		<Sound name="REEL_SCATTER_2" value="slots_008/sound/base/8 Buffalo_base_bonus_hit_R2_fix1-01.ogg"/>
+		<Sound name="REEL_SCATTER_3" value="slots_008/sound/base/8 Buffalo_base_bonus_hit_R3_fix1-01.ogg"/>
+		<Sound name="REEL_SCATTER_4" value="slots_008/sound/base/8 Buffalo_base_bonus_hit_R4_fix1-01.ogg"/>
+		<Sound name="REEL_SCATTER_5" value="slots_008/sound/base/8 Buffalo_base_bonus_hit_R5_fix1-01.ogg"/>		
+		<Sound name="WIN_HIGHPAY_1" value="slots_008/sound/base/3 Buffalo_base_H1_ win show fix.ogg"/>
+		<Sound name="WIN_HIGHPAY_2" value="slots_008/sound/base/4 Buffalo_base_H2_win show 2 fix.ogg"/>
+		<Sound name="WIN_HIGHPAY_3" value="slots_008/sound/base/5 Buffalo_base_H3_win show fix2.ogg"/>
+		<Sound name="WIN_HIGHPAY_4" value="slots_008/sound/base/6 Buffalo_base_H4_win show.ogg"/>
+		<!--Sound name="WIN_HIGHPAY_5" value="slots_008/sound/base/6 Buffalo_base_H5_win show.ogg"/-->	
+		
+		<Sound name="BONUS_TRIGGER" value="slots_008/sound/base/10 Buffalo_base_bonus_trigger fix-02.ogg"/>
+		<Sound name="BIG_COIN" value="slots_008/sound/base/11 Buffalo_base_bonus_bigcoin fix 2 Version1.ogg"/>
+		<Sound name="BONUS_START" value="slots_008/sound/base/12 Buffalo_base_bonus_start.ogg"/>
+		<Sound name="TRANSITION_1" value="slots_008/sound/base/13 Buffalo_base_bonus_scene_transition1.ogg"/>
+		<Sound name="TRANSITION_2" value="slots_008/sound/base/14 Buffalo_base_bonus_scene_transition2 fix3.ogg"/>
+		<Sound name="TRANSITION_3" value="slots_008/sound/base/15 Buffalo_base_bonus_scene_transition3 FIX5.ogg"/>
+		<Sound name="TRANSITION_4" value="slots_008/sound/base/16 Buffalo_base_bonus_scene_transition4.ogg"/>
+
+		<Sound name="BGM_FREEGAME" value="slots_008/sound/freespin/1 Buffalo_free game_bgm fix LoudRun.ogg"/>
+		<Sound name="ONE_BUFFALO_RUN" value="slots_008/sound/freespin/2 Buffalo_free game_one buffalo run Fix1.ogg"/>
+		<Sound name="BUFFALOS_RUN" value="slots_008/sound/freespin/6 Buffalo_free game_many buffalo run fix1.ogg"/>
+    <Sound name="WILDSYMBOL_APPEAR" value="slots_008/sound/freespin/3 Buffalo_free game_wild.ogg"/>
+		<Sound name="WILDSYMBOL_FLYING" value="slots_008/sound/freespin/4 Buffalo_free game_wild number fly.ogg"/>
+		<Sound name="MULTIPLIER_COLLECT_1" value="slots_008/sound/freespin/5 Buffalo_free game_number_collect1 fix1.ogg"/>
+		<Sound name="MULTIPLIER_COLLECT_2" value="slots_008/sound/freespin/5 Buffalo_free game_number_collect2 fix1.ogg"/>
+		<Sound name="MULTIPLIER_COLLECT_3" value="slots_008/sound/freespin/5 Buffalo_free game_number_collect3 fix1.ogg"/>
+		<!--Sound name="MULTIPLIER_COLLECT_4" value="slots_008/sound/freespin/5 Buffalo_free game_number_collect3.ogg"/-->
+		<Sound name="FREEGAME_RETRIGGER" value="slots_008/sound/freespin/7 Buffalo_free game_retrigger 1 fix version 1a.ogg"/>
+		<Sound name="ADD_FREEGAME" value="slots_008/sound/freespin/8 Buffalo_free game_times add.ogg"/>
+		<Sound name="FREEGAME_RESULT" value="slots_008/sound/freespin/9 Buffalo_free game_result fix-01.ogg"/>
+		
+	</SoundInfo>
+</SlotsConfig>

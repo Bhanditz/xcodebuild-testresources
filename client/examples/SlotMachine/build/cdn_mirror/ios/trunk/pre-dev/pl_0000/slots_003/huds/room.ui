@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Picture2" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="slots_003_bg_04a"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+        <piece_info value="slots_003_bg_04"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_underground" x="-8" y="445" z="0" width="1140" height="210" window_state="6">
+        <Picture id="m_xuan1" x="3" y="6" z="0" width="96" height="96" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_casino_xuan1"/>
+            <piece_info value="slots_003_icon_a01"/>
+        </Picture>
+        <Picture id="m_star" x="103" y="111" z="0" width="96" height="96" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_casino_star"/>
+            <piece_info value="slots_003_icon_a02"/>
+        </Picture>
+        <Picture id="m_star2" x="690" y="114" z="0" width="96" height="96" window_state="6">
+            <scale x="1.6" y="1.6" z="1.6"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_casino_star2"/>
+            <piece_info value="slots_003_icon_a02"/>
+        </Picture>
+        <Picture id="m_xuanxuan" x="369" y="57" z="0" width="96" height="96" window_state="6">
+            <scale x="1.5" y="1.2" z="1.5"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_casino_xuanxuan"/>
+            <piece_info value="slots_003_icon_a03"/>
+        </Picture>
+        <Picture id="m_xuanxuan2" x="867" y="61" z="0" width="96" height="96" window_state="6">
+            <scale x="1.3" y="0.89999998" z="1.3"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_casino_xuanxuan2"/>
+            <piece_info value="slots_003_icon_a03"/>
+        </Picture>
+        <Picture id="m_xuan2" x="1096" y="133" z="0" width="96" height="96" window_state="6">
+            <scale x="1.4" y="1.4" z="1.4"/>
+            <color_scale x="1" y="1" z="1" w="0.80000001"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_casino_xuan2"/>
+            <piece_info value="slots_003_icon_a01"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_light_yellow" x="543" y="-148" z="0" width="-3" height="-60" window_state="6">
+        <Picture id="m_yellow02" x="-75" y="119" z="0" width="26" height="236" window_state="6">
+            <scale x="2.5999999" y="2.8" z="2.5999999"/>
+            <rotation x="0" y="0" z="0.34906584"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.43000001" y="0.059999999" z="0"/>
+            <action_id value="animation_casino_yellow2"/>
+            <piece_info value="slots_003_icon_vfx130"/>
+        </Picture>
+        <Picture id="m_yellow01" x="37" y="122" z="0" width="26" height="236" window_state="6">
+            <scale x="2.5999999" y="3" z="2.5999999"/>
+            <rotation x="0" y="0" z="-0.43633232"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.40000001" y="0.059999999" z="0"/>
+            <action_id value="animation_casino_yellow1"/>
+            <piece_info value="slots_003_icon_vfx130"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Panel" x="0" y="25" z="0" width="1136" height="616" window_state="6">
+        <Picture id="m_Picture" x="572" y="185" z="0" width="558" height="430" window_state="6">
+            <piece_info value="slots_003_panel_016"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_Picture1" x="20" y="102" z="0" width="468" height="498" window_state="6">
+            <piece_info value="slots_003_panel_017"/>
+            <scale_mode value="3"/>
+        </Picture>
+    </Panel>
+    <Picture id="m_green1" x="320" y="-38" z="0" width="36" height="226" window_state="14">
+        <scale x="2.54" y="6" z="2"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.41999999" y="0.059999999" z="0"/>
+        <action_id value="animation_casino_lgreen"/>
+        <piece_info value="slots_003_icon_vfx20"/>
+        <scale_top value="2.1700001"/>
+        <scale_bottom value="2.03"/>
+    </Picture>
+    <Picture id="m_green2" x="822" y="-37" z="0" width="26" height="226" window_state="14">
+        <scale x="4.5" y="5" z="4.5"/>
+        <rotation x="0" y="0" z="0.78539819"/>
+        <color_scale x="1" y="1" z="1" w="0.80000001"/>
+        <gray_scale value="0.88"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.5" y="0.050000001" z="0"/>
+        <action_id value="animation_casino_green2"/>
+        <piece_info value="slots_003_icon_vfx20"/>
+        <scale_top value="0.89999998"/>
+        <scale_bottom value="0.60000002"/>
+    </Picture>
+    <Picture id="m_red" x="247" y="-79" z="0" width="29" height="287" window_state="14">
+        <scale x="3" y="3" z="2.5"/>
+        <rotation x="0" y="0" z="0.48869216"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.5" y="0.050000001" z="0"/>
+        <action_id value="animation_casino_light_red"/>
+        <piece_info value="slots_003_icon_vfx19"/>
+    </Picture>
+    <Panel id="m_light_withe" x="678" y="-10" z="0" width="0" height="610" window_state="6">
+        <Picture id="m_1" x="457" y="-93" z="0" width="30" height="209" window_state="6">
+            <scale x="4" y="4" z="4"/>
+            <rotation x="0" y="0" z="0.08726646"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.54000002" y="0.050000001" z="0"/>
+            <piece_info value="slots_003_icon_vfx15"/>
+            <scale_top value="1.35"/>
+            <scale_bottom value="3.05"/>
+        </Picture>
+        <Picture id="m_2" x="172" y="-50" z="0" width="26" height="186" window_state="6">
+            <scale x="3" y="3" z="3"/>
+            <rotation x="0" y="0" z="0.78539819"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.51999998" y="0.07" z="0"/>
+            <piece_info value="slots_003_icon_vfx15"/>
+            <scale_top value="1.54"/>
+            <scale_bottom value="2.97"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_light_123" x="597" y="745" z="0" width="290" height="640" window_state="6">
+        <Picture id="m_bule" x="-592" y="-822" z="0" width="16" height="296" window_state="6">
+            <scale x="4" y="2.7" z="2.7"/>
+            <rotation x="0" y="0" z="0.17453292"/>
+            <color_scale x="1" y="1" z="1" w="0.80000001"/>
+            <anchor_point x="0.51999998" y="0.090000004" z="0"/>
+            <piece_info value="slots_003_icon_vfx21"/>
+        </Picture>
+        <Picture id="m_yellow" x="-500" y="-785" z="0" width="29" height="236" window_state="6">
+            <scale x="3.5" y="3" z="3"/>
+            <rotation x="0" y="0" z="0.31415927"/>
+            <color_scale x="1" y="1" z="1" w="0.75"/>
+            <anchor_point x="0.44999999" y="0.07" z="0"/>
+            <piece_info value="slots_003_icon_vfx130"/>
+        </Picture>
+    </Panel>
+    <ScrollContainer id="m_ScrollContainer" x="0" y="237" z="0" width="1136" height="403" window_state="262158">
+        <Picture id="m_Picture2" x="-35" y="16" z="0" width="375" height="635" window_state="6">
+            <piece_info value="slots_003_panel_019"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_Picture1" x="784" y="27" z="0" width="310" height="520" window_state="6">
+            <piece_info value="slots_003_panel_020"/>
+            <scale_mode value="3"/>
+        </Picture>
+    </ScrollContainer>
+    <Panel id="m_BAI" x="258" y="-19" z="0" width="-1" height="20" window_state="6">
+        <Picture id="m_Bai1" x="18" y="11" z="0" width="66" height="276" window_state="6">
+            <scale x="2.5" y="2.5" z="2.5"/>
+            <rotation x="0" y="0" z="1.2217305"/>
+            <color_scale x="1" y="1" z="1" w="0.80000001"/>
+            <gray_scale value="0"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.029999999" z="0"/>
+            <piece_info value="slots_003_icon_vfx16"/>
+        </Picture>
+        <Picture id="m_Bai2" x="443" y="15" z="0" width="66" height="276" window_state="6">
+            <scale x="2.5999999" y="2.5999999" z="2.5999999"/>
+            <rotation x="0" y="0" z="-1.4137167"/>
+            <color_scale x="1" y="1" z="1" w="0.80000001"/>
+            <gray_scale value="0"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.02" z="0"/>
+            <piece_info value="slots_003_icon_vfx16"/>
+        </Picture>
+        <Picture id="m_biu" x="-35" y="-43" z="0" width="188" height="136" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <rotation x="0" y="0" z="-0.48869219"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.47999999" y="0.44999999" z="0"/>
+            <piece_info value="spot_glow"/>
+        </Picture>
+        <Picture id="m_biu2" x="372" y="-52" z="0" width="188" height="136" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <rotation x="0" y="0" z="-0.48869219"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.47999999" y="0.44999999" z="0"/>
+            <piece_info value="spot_glow"/>
+        </Picture>
+    </Panel>
+</Panel>

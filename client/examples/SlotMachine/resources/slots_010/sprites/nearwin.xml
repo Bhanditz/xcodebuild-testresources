@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="nearwin.png" width="512" height="512" scale_x="3.3329999" scale_y="3.3329999" blend="1" loop="-1">
+    <sprite n="nearwin_00000.png" x="340" y="342" w="164" h="84" oX="17" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00001.png" x="174" y="336" w="164" h="84" oX="17" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00002.png" x="344" y="2" w="166" h="82" oX="18" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00003.png" x="340" y="428" w="164" h="82" oX="18" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00004.png" x="346" y="256" w="164" h="84" oX="17" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00005.png" x="176" y="2" w="166" h="82" oX="18" oY="14" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00006.png" x="174" y="422" w="164" h="82" oX="18" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00007.png" x="342" y="86" w="164" h="82" oX="18" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00008.png" x="2" y="170" w="84" h="166" oX="17" oY="14" oW="118" oH="192" dr="85"/>
+    <sprite n="nearwin_00009.png" x="176" y="86" w="164" h="82" oX="18" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00010.png" x="346" y="170" w="164" h="84" oX="17" oY="16" oW="118" oH="192" r="y" dr="85"/>
+    <sprite n="nearwin_00011.png" x="2" y="2" w="84" h="166" oX="17" oY="14" oW="118" oH="192" dr="85"/>
+    <sprite n="nearwin_00012.png" x="260" y="170" w="84" h="164" oX="17" oY="16" oW="118" oH="192" dr="85"/>
+    <sprite n="nearwin_00013.png" x="174" y="170" w="84" h="164" oX="17" oY="16" oW="118" oH="192" dr="85"/>
+    <sprite n="nearwin_00014.png" x="88" y="334" w="84" h="164" oX="18" oY="16" oW="118" oH="192" dr="85"/>
+    <sprite n="nearwin_00015.png" x="88" y="2" w="86" h="164" oX="16" oY="16" oW="118" oH="192" dr="85"/>
+    <sprite n="nearwin_00016.png" x="88" y="168" w="84" h="164" oX="17" oY="16" oW="118" oH="192" dr="85"/>
+    <sprite n="nearwin_00017.png" x="2" y="338" w="84" h="164" oX="17" oY="16" oW="118" oH="192" dr="85"/>
+</TextureAtlas>

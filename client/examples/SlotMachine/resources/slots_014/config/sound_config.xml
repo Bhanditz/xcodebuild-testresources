@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="NORMAL_GAME_BGM" value="slots_014/sound/cc_basegame_bgm.ogg"/>		
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_014/sound/cc_reel_spin.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="REEL_READY_STOP" value="slots_014/sound/cc_reel_stop.ogg"/>
+		<Sound name="NEAR_WIN" value="slots_014/sound/cc_nearwin_win.ogg"/>
+		<Sound name="NEAR_WIN_MISS" value="slots_014/sound/cc_nearwin_miss.ogg"/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_SPINNING" value=""/>
+		<Sound name="REEL_STOP" value=""/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		
+		<!-- BaseGame -->
+		<!-- Sound name="BASEGAME_BGM" value="slots_014/sound/cc_basegame_bgm.ogg" /-->
+
+		
+		<!-- FreeGame -->
+		<Sound name="ENTER_FREE_GAME" value="slots_014/sound/cc_basegame_transitions.ogg"/>
+		<Sound name="FREEGAME_BGM" value="slots_014/sound/cc_freegame_bgm.ogg" />
+		<Sound name="FREEGAME_GOBLIN_THROW" value="slots_014/sound/cc_gift_throw.ogg" />
+		<Sound name="FREEGAME_GOBLIN_APPEAR" value="slots_014/sound/cc_gift_goblinappear.ogg" />
+		<Sound name="FREEGAME_BULIDING_UPGRADE" value="slots_014/sound/cc_gift_buildingupgrades.ogg" />
+		<Sound name="FREEGAME_REPORT" value="slots_014/sound/cc_freegame_totalwin.ogg" />
+		
+		<!-- Effects -->
+		
+		<!-- Scatters -->
+		<Sound name="SCATTER_APPEAR" value="slots_014/sound/cc_bonus_appears.ogg"/>
+		<Sound name="BONUS_WIN" value="slots_014/sound/cc_bonus_win.ogg"/>
+		<Sound name="FREE_SPIN_START" value="slots_014/sound/cc_bonus_openui.ogg"/>
+				
+		
+		<!-- Paylines -->
+		
+		
+	</SoundInfo>
+</SlotsConfig>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="glove.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="glove_00000.png" x="94" y="386" w="90" h="98" oX="36" oY="7" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00001.png" x="96" y="286" w="88" h="98" oX="38" oY="6" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00002.png" x="2" y="286" w="92" h="98" oX="34" oY="6" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00003.png" x="2" y="180" w="102" h="104" oX="22" oY="4" oW="160" oH="110" r="y" dr="60"/>
+    <sprite n="glove_00004.png" x="320" y="2" w="104" h="102" oX="22" oY="4" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00005.png" x="214" y="2" w="104" h="102" oX="22" oY="4" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00006.png" x="108" y="2" w="104" h="102" oX="22" oY="4" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00007.png" x="2" y="2" w="104" h="102" oX="22" oY="4" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00008.png" x="292" y="106" w="88" h="82" oX="44" oY="5" oW="160" oH="110" r="y" dr="60"/>
+    <sprite n="glove_00009.png" x="292" y="190" w="86" h="84" oX="37" oY="9" oW="160" oH="110" r="y" dr="60"/>
+    <sprite n="glove_00010.png" x="382" y="180" w="86" h="84" oX="37" oY="9" oW="160" oH="110" r="y" dr="60"/>
+    <sprite n="glove_00011.png" x="426" y="92" w="84" h="86" oX="39" oY="7" oW="160" oH="110" dr="590"/>
+    <sprite n="glove_00020.png" x="426" y="2" w="84" h="88" oX="39" oY="6" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00021.png" x="198" y="106" w="92" h="90" oX="35" oY="6" oW="160" oH="110" r="y" dr="60"/>
+    <sprite n="glove_00022.png" x="106" y="180" w="90" h="94" oX="36" oY="6" oW="160" oH="110" dr="60"/>
+    <sprite n="glove_00023.png" x="2" y="386" w="90" h="98" oX="36" oY="7" oW="160" oH="110" dr="80"/>
+</TextureAtlas>

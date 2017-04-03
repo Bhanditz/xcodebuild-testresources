@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ropeA.png" width="512" height="512" blend="1" loop="-1">
+    <sprite n="ropeA_01.png" x="202" y="162" w="198" h="156" oW="198" oH="158" dr="120"/>
+    <sprite n="ropeA_02.png" x="2" y="322" w="198" h="158" dr="120"/>
+    <sprite n="ropeA_03.png" x="2" y="162" w="198" h="158" dr="120"/>
+    <sprite n="ropeA_04.png" x="202" y="2" w="198" h="158" dr="120"/>
+    <sprite n="ropeA_05.png" x="2" y="2" w="198" h="158" dr="120"/>
+</TextureAtlas>

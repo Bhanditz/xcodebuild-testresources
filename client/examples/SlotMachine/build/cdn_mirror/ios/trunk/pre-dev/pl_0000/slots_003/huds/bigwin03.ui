@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Panel2" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.64999998"/>
+    </Panel>
+    <Particle id="m_ParBigwincoin" x="568" y="711" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg" particle_state="0">
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Bigwin coin"/>
+    </Particle>
+    <Particle id="m_ParSuperwincoin" x="568" y="711" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg" particle_state="0">
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Superwin coin"/>
+    </Particle>
+    <Particle id="m_ParMegawinBg" x="552" y="304" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg" particle_state="0">
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Megawin"/>
+    </Particle>
+    <Particle id="m_ParMegawincoin" x="568" y="786" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg" particle_state="0">
+        <package_file value="slots_003/particles/disco.ptc"/>
+        <particle_name value="Freespin coin"/>
+    </Particle>
+    <Particle id="m_ParMegawinfire" x="568" y="627" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg" particle_state="0">
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Megawin firework"/>
+    </Particle>
+    <Panel id="m_Panel" x="293" y="185" z="0" width="550" height="290" window_state="6">
+        <Panel id="m_Scale" x="-242" y="-49" z="0" width="1035" height="360" window_state="6">
+            <BlendTargetMask id="m_BlendTargetMask" x="0" y="-35" z="0" width="1035" height="450" window_state="14" fullscreen="0" target_enable="1">
+                <mask_piece value="slots_003_mask001"/>
+                <PickerView id="m_PickerView" x="87" y="117" z="0" width="860" height="210" window_state="14">
+                    <action_id value="operate_bar"/>
+                    <tip_align_v value="2"/>
+                </PickerView>
+                <Panel id="m_PanelRef" x="25" y="55" z="0" width="210" height="400" window_state="4" style="cs_yellow"/>
+            </BlendTargetMask>
+        </Panel>
+        <RichLabel id="m_RichLabel1" x="-242" y="50" z="0" width="1035" height="170" window_state="4">
+            <action_id value="operate_bar"/>
+            <text value="67890"/>
+            <font_size value="45"/>
+            <text_align_v value="1"/>
+            <text_style value="32"/>
+            <font_id value="Sparta"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_bigwin" x="39" y="-99" z="0" width="472" height="103" window_state="4">
+            <piece_info value="slots_003_panel_047"/>
+        </Picture>
+        <Picture id="m_youwin" x="28" y="-94" z="0" width="493" height="94" window_state="6">
+            <piece_info value="slots_003_panel_051"/>
+        </Picture>
+        <Picture id="m_COINS" x="178" y="282" z="0" width="193" height="51" window_state="6">
+            <piece_info value="slots_003_panel_052"/>
+        </Picture>
+        <Picture id="m_CREDITS" x="159" y="282" z="0" width="232" height="51" window_state="4">
+            <piece_info value="slots_003_panel_048"/>
+        </Picture>
+        <Picture id="m_hong" x="-1" y="-223" z="0" width="29" height="287" window_state="262">
+            <scale x="4" y="2.7" z="2.7"/>
+            <rotation x="0" y="0" z="0.17453292"/>
+            <color_scale x="1" y="1" z="1" w="0.60000002"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.51999998" y="0.050000001" z="0"/>
+            <piece_info value="slots_003_icon_vfx19"/>
+        </Picture>
+        <Picture id="m_BLUE" x="581" y="-232" z="0" width="33" height="266" window_state="262">
+            <scale x="4" y="3" z="2.7"/>
+            <rotation x="0" y="0" z="-0.17453292"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.050000001" z="0"/>
+            <piece_info value="slots_003_icon_vfx21"/>
+            <scale_top value="1.65"/>
+            <scale_bottom value="2.1400001"/>
+        </Picture>
+        <Picture id="m_light" x="-390" y="-245" z="0" width="258" height="150" window_state="4">
+            <scale x="6.98" y="6.98" z="6.98"/>
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.31" y="0.31" z="0"/>
+            <piece_info value="slots_003_icon_vfx22"/>
+        </Picture>
+    </Panel>
+</Panel>

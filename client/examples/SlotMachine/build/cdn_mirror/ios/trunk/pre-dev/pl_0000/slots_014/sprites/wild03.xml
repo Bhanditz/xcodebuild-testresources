@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wild03.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="wild_00003.png" x="445" y="2" w="65" h="172" oX="12" oY="5" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00004.png" x="428" y="334" w="67" h="172" oX="12" oY="5" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00005.png" x="357" y="334" w="69" h="172" oX="12" oY="4" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00006.png" x="286" y="334" w="69" h="172" oX="12" oY="4" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00007.png" x="215" y="334" w="69" h="172" oX="12" oY="4" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00008.png" x="144" y="334" w="69" h="172" oX="12" oY="3" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00009.png" x="73" y="334" w="69" h="172" oX="12" oY="3" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00010.png" x="182" y="73" w="170" h="69" oX="14" oY="3" oW="240" oH="75" dr="60"/>
+    <sprite n="wild_00011.png" x="181" y="144" w="69" h="170" oX="14" oY="4" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00012.png" x="2" y="334" w="69" h="172" oX="16" oY="4" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00013.png" x="188" y="2" w="184" h="69" oX="16" oY="4" oW="240" oH="75" dr="60"/>
+    <sprite n="wild_00014.png" x="112" y="144" w="67" h="182" oX="30" oY="5" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00015.png" x="2" y="73" w="178" h="69" oX="40" oY="4" oW="240" oH="75" dr="60"/>
+    <sprite n="wild_00016.png" x="2" y="2" w="184" h="69" oX="41" oY="4" oW="240" oH="75" dr="60"/>
+    <sprite n="wild_00017.png" x="374" y="2" w="69" h="178" oX="44" oY="4" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00018.png" x="252" y="144" w="69" h="160" oX="59" oY="3" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00019.png" x="445" y="176" w="65" h="156" oX="58" oY="6" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00020.png" x="2" y="182" w="57" h="142" oX="58" oY="12" oW="240" oH="75" r="y" dr="60"/>
+    <sprite n="wild_00021.png" x="61" y="182" w="49" h="142" oX="58" oY="19" oW="240" oH="75" r="y" dr="60"/>
+</TextureAtlas>

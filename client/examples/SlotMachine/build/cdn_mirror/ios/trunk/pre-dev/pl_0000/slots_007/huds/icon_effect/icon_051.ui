@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="130" window_state="6">
+    <Picture id="ref" x="1" y="-4" z="0" width="148" height="138" window_state="6">
+        <piece_info value="slots_007_icon_024"/>
+    </Picture>
+    <SpineSprite id="m_SpineSprite" x="25" y="96" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+        <scale x="0.31" y="0.31" z="0.31"/>
+        <spine_file value="slots_007/spine_sprites/dangao.json"/>
+        <auto_anim_name value="3"/>
+    </SpineSprite>
+    <Sprite id="m_Sprite" x="-67" y="-176" z="0" width="280" height="220" window_state="6">
+        <sprite_file value="slots_007/sprites/cake.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

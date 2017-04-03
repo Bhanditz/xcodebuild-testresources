@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="148" height="435" window_state="6">
+    <Panel id="m_Clip" x="0" y="0" z="0" width="148" height="435" window_state="786438">
+        <Panel id="m_Resize" x="0" y="0" z="0" width="148" height="435" window_state="1048582">
+            <anchor_point x="0.5" y="0" z="0"/>
+        </Panel>
+        <Picture id="m_Bg" x="0" y="0" z="0" width="148" height="550" window_state="262">
+            <piece_info value="slots_015_panel_11c"/>
+        </Picture>
+        <SpineSprite id="m_SpineSprite" x="22" y="492" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <action_id value="animation_slot015_hercules@animation"/>
+            <spine_file value="slots_015/spine_sprites/hercules.json"/>
+            <auto_anim_name value="animation"/>
+        </SpineSprite>
+        <Panel id="m_Panel" x="0" y="0" z="0" width="148" height="435" window_state="6" style="ngs_slots_015_panel_11"/>
+        <Panel id="m_wild" x="0" y="0" z="0" width="148" height="539" window_state="4">
+            <Panel id="m_Panel1" x="20" y="29" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild1" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel2" x="20" y="138" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild2" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel3" x="20" y="247" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild3" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel4" x="20" y="356" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild4" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel5" x="20" y="465" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild5" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Sprite id="m_Sprite" x="-26" y="-290" z="0" width="200" height="300" window_state="4">
+        <scale x="1.35" y="1.35" z="1.35"/>
+        <sprite_file value="slots_015/sprites/longicon_app.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+</Panel>

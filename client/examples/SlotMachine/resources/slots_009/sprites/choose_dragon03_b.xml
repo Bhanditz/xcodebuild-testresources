@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="choose_dragon03_b.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="00042" x="143" y="2" w="139" h="115" oX="14" oY="25" oW="171" oH="171" dr="90"/>
+    <sprite n="00045" x="2" y="2" w="139" h="115" oX="14" oY="25" oW="171" oH="171" dr="90"/>
+    <sprite n="00048" x="284" y="2" w="137" h="115" oX="14" oY="25" oW="171" oH="171" dr="90"/>
+    <sprite n="00051" x="2" y="119" w="115" h="133" oX="17" oY="25" oW="171" oH="171" r="y" dr="90"/>
+    <sprite n="00054" x="2" y="254" w="115" h="131" oX="18" oY="25" oW="171" oH="171" r="y" dr="90"/>
+    <sprite n="00057" x="119" y="252" w="115" h="127" oX="20" oY="25" oW="171" oH="171" r="y" dr="90"/>
+    <sprite n="00060" x="234" y="119" w="115" h="125" oX="21" oY="26" oW="171" oH="171" r="y" dr="90"/>
+    <sprite n="00063" x="133" y="381" w="115" h="125" oX="21" oY="26" oW="171" oH="171" r="y" dr="90"/>
+    <sprite n="00066" x="2" y="387" w="129" h="115" oX="19" oY="26" oW="171" oH="171" dr="90"/>
+    <sprite n="00069" x="119" y="119" w="113" h="131" oX="18" oY="28" oW="171" oH="171" r="y" dr="90"/>
+</TextureAtlas>

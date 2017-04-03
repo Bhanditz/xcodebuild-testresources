@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+  <Image id="slots_010_bg_01" file_name="slots_010_bg_01.jpg" width="665" height="268"/>
+  <Image id="slots_010_bg_08" file_name="slots_010_bg_08.jpg" width="1136" height="90"/>
+  <Image id="slots_010_bg_09" file_name="slots_010_bg_09.jpg" width="1136" height="180"/>
+  <Image id="slots_010_freegame" file_name="slots_010_freegame.jpg" width="1176" height="680"/>
+  <Image id="slots_010_basegame" file_name="slots_010_basegame.jpg" width="1136" height="640"/>
+  <Image id="slots_010_panel_01" file_name="slots_010_panel_01.jpg" width="805" height="438"/>
+  <Image id="slots_010_paytable" file_name="slots_010_paytable.jpg" width="1024" height="577"/>
+  </ImageList>
+  
+  <PieceList>
+  <Piece id="slots_010_bg_01" image_id="slots_010_bg_01" x="0" y="0" width="665" height="268"/>
+  <Piece id="slots_010_bg_08" image_id="slots_010_bg_08" x="0" y="0" width="1136" height="90"/>
+  <Piece id="slots_010_bg_09" image_id="slots_010_bg_09" x="0" y="0" width="1136" height="180"/>
+  <Piece id="slots_010_freegame" image_id="slots_010_freegame" x="0" y="0" width="1176" height="680"/>
+  <Piece id="slots_010_basegame" image_id="slots_010_basegame" x="0" y="0" width="1136" height="640"/>
+  <Piece id="slots_010_panel_01" image_id="slots_010_panel_01" x="0" y="0" width="805" height="438"/>
+  <Piece id="slots_010_paytable" image_id="slots_010_paytable" x="0" y="0" width="1024" height="577"/>
+  </PieceList>
+ 
+</ImagePiece>

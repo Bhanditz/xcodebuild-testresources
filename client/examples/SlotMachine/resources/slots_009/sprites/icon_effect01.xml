@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="icon_effect01.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="icon_effect01_000.png" x="339" y="3" w="108" h="106" oX="5" oY="10" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_002.png" x="329" y="333" w="104" h="106" oX="7" oY="12" oW="120" oH="120" r="y" dr="80"/>
+    <sprite n="icon_effect01_004.png" x="227" y="3" w="108" h="106" oX="6" oY="10" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_006.png" x="221" y="223" w="106" h="106" oX="8" oY="9" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_008.png" x="3" y="337" w="106" h="108" oX="8" oY="7" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_010.png" x="113" y="337" w="104" h="108" oX="10" oY="7" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_012.png" x="3" y="225" w="106" h="108" oX="8" oY="6" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_014.png" x="331" y="113" w="106" h="106" oX="8" oY="7" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_016.png" x="115" y="3" w="108" h="106" oX="6" oY="5" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_018.png" x="221" y="333" w="104" h="106" oX="7" oY="5" oW="120" oH="120" r="y" dr="80"/>
+    <sprite n="icon_effect01_020.png" x="3" y="3" w="108" h="106" oX="5" oY="6" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_022.png" x="3" y="113" w="106" h="108" oX="5" oY="6" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_024.png" x="113" y="225" w="104" h="108" oX="4" oY="7" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_026.png" x="113" y="113" w="104" h="108" oX="5" oY="7" oW="120" oH="120" dr="80"/>
+    <sprite n="icon_effect01_028.png" x="221" y="113" w="106" h="106" oX="5" oY="9" oW="120" oH="120" dr="80"/>
+</TextureAtlas>

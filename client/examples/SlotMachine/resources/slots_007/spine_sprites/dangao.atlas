@@ -1,0 +1,69 @@
+
+dangao.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cake
+  rotate: false
+  xy: 2, 114
+  size: 149, 140
+  orig: 149, 140
+  offset: 0, 0
+  index: -1
+images/dish
+  rotate: true
+  xy: 354, 25
+  size: 196, 58
+  orig: 196, 58
+  offset: 0, 0
+  index: -1
+images/dish_yiny
+  rotate: true
+  xy: 414, 39
+  size: 182, 44
+  orig: 182, 44
+  offset: 0, 0
+  index: -1
+images/dish_yinying
+  rotate: false
+  xy: 354, 223
+  size: 129, 31
+  orig: 129, 31
+  offset: 0, 0
+  index: -1
+images/huaban
+  rotate: false
+  xy: 153, 175
+  size: 199, 79
+  orig: 199, 79
+  offset: 0, 0
+  index: -1
+images/huaban_01
+  rotate: true
+  xy: 485, 221
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+images/huaban_02
+  rotate: false
+  xy: 2, 82
+  size: 43, 30
+  orig: 43, 30
+  offset: 0, 0
+  index: -1
+images/huaban_yiny
+  rotate: false
+  xy: 153, 103
+  size: 198, 70
+  orig: 198, 70
+  offset: 0, 0
+  index: -1
+images/huaban_yinying_02
+  rotate: false
+  xy: 2, 2
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		获取图标
+		<FetchIcon id="1">
+		<Target Symbol="10"/>
+		<IconAmount>
+			<Amount amount="0" weight="40"/>
+			<Amount amount="1" weight="120"/>
+			<Amount amount="2" weight="60"/>
+			<Amount amount="3" weight="10"/>
+			<Amount amount="4" weight="1"/>
+			<Amount amount="5" weight="0"/>
+		</IconAmount>
+		<ReelID>
+			<Reel id="1" weight="10"/>
+			<Reel id="2" weight="10"/>
+			<Reel id="3" weight="10"/>
+			<Reel id="4" weight="15"/>
+			<Reel id="5" weight="20"/>
+		</ReelID>
+	</FetchIcon>
+ -->
+<root>
+	<FetchIcon id="1"><!--掉Wild-->
+		<Target Symbol="31"/>
+		<IconAmount>
+			<Amount amount="3" weight="45"/>
+			<Amount amount="4" weight="35"/>
+			<Amount amount="5" weight="30"/>
+			<Amount amount="6" weight="25"/>
+			<Amount amount="7" weight="22"/>
+			<Amount amount="8" weight="10"/>
+			<Amount amount="9" weight="10"/>
+			<Amount amount="10" weight="4"/>
+			<Amount amount="11" weight="4"/>
+			<Amount amount="12" weight="4"/>
+			<Amount amount="13" weight="2"/>
+			<Amount amount="14" weight="2"/>
+			<Amount amount="15" weight="2"/>
+			<Amount amount="16" weight="1"/>
+			<Amount amount="17" weight="1"/>
+			<Amount amount="18" weight="1"/>
+			<Amount amount="19" weight="1"/>
+			<Amount amount="20" weight="1"/>
+		</IconAmount>
+		<ReelID>
+			<Reel id="1" weight="10"/>
+			<Reel id="2" weight="10"/>
+			<Reel id="3" weight="10"/>
+			<Reel id="4" weight="10"/>
+			<Reel id="5" weight="10"/>
+		</ReelID>
+	</FetchIcon>
+</root>

@@ -1,0 +1,265 @@
+
+baimao1.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/body
+  rotate: true
+  xy: 2, 16
+  size: 110, 198
+  orig: 110, 198
+  offset: 0, 0
+  index: -1
+images/hair_01
+  rotate: false
+  xy: 782, 88
+  size: 66, 38
+  orig: 66, 38
+  offset: 0, 0
+  index: -1
+images/hair_02
+  rotate: false
+  xy: 713, 84
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+images/head
+  rotate: false
+  xy: 202, 17
+  size: 120, 109
+  orig: 120, 109
+  offset: 0, 0
+  index: -1
+images/jiao_l
+  rotate: true
+  xy: 604, 36
+  size: 37, 18
+  orig: 37, 18
+  offset: 0, 0
+  index: -1
+images/jiao_l_02
+  rotate: false
+  xy: 712, 9
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+images/jiao_r
+  rotate: false
+  xy: 750, 18
+  size: 33, 22
+  orig: 33, 22
+  offset: 0, 0
+  index: -1
+images/meimao_l_01
+  rotate: false
+  xy: 918, 53
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+images/meimao_r_01
+  rotate: false
+  xy: 2, 2
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+images/shou_l_01
+  rotate: true
+  xy: 713, 45
+  size: 37, 49
+  orig: 37, 49
+  offset: 0, 0
+  index: -1
+images/shoubi_01
+  rotate: false
+  xy: 485, 59
+  size: 69, 67
+  orig: 69, 67
+  offset: 0, 0
+  index: -1
+images/shoubi_02
+  rotate: false
+  xy: 556, 75
+  size: 66, 51
+  orig: 66, 51
+  offset: 0, 0
+  index: -1
+images/shoubi_03
+  rotate: false
+  xy: 764, 42
+  size: 23, 40
+  orig: 23, 40
+  offset: 0, 0
+  index: -1
+images/tui_da_l
+  rotate: true
+  xy: 983, 81
+  size: 45, 39
+  orig: 45, 39
+  offset: 0, 0
+  index: -1
+images/tui_da_l_02
+  rotate: true
+  xy: 410, 65
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+images/tui_da_r
+  rotate: false
+  xy: 671, 7
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+images/tui_xiao_l
+  rotate: false
+  xy: 862, 63
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+images/tui_xiao_l_02
+  rotate: true
+  xy: 678, 47
+  size: 47, 33
+  orig: 47, 33
+  offset: 0, 0
+  index: -1
+images/tui_xiao_r
+  rotate: false
+  xy: 789, 44
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+images/tui_xiao_r2
+  rotate: false
+  xy: 816, 44
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+images/weiba
+  rotate: false
+  xy: 624, 54
+  size: 52, 40
+  orig: 52, 40
+  offset: 0, 0
+  index: -1
+images/weiba_1
+  rotate: false
+  xy: 850, 91
+  size: 66, 35
+  orig: 66, 35
+  offset: 0, 0
+  index: -1
+images/weijing
+  rotate: true
+  xy: 624, 96
+  size: 30, 87
+  orig: 30, 87
+  offset: 0, 0
+  index: -1
+images/weijing_01
+  rotate: true
+  xy: 370, 2
+  size: 58, 37
+  orig: 58, 37
+  offset: 0, 0
+  index: -1
+images/yanbai_l_01
+  rotate: true
+  xy: 862, 42
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+images/yanbai_r_01
+  rotate: true
+  xy: 951, 70
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+images/yanjing_l_01
+  rotate: false
+  xy: 750, 2
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+images/yanjing_l_02
+  rotate: false
+  xy: 891, 64
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+images/yanjing_r_01
+  rotate: true
+  xy: 843, 53
+  size: 33, 17
+  orig: 33, 17
+  offset: 0, 0
+  index: -1
+images/yanjing_r_02
+  rotate: false
+  xy: 918, 71
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+images/yanzhu_l_01
+  rotate: true
+  xy: 24, 5
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+images/yanzhu_r_01
+  rotate: false
+  xy: 938, 56
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+images/zuiba
+  rotate: false
+  xy: 624, 12
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/zuiba_01
+  rotate: true
+  xy: 324, 2
+  size: 58, 44
+  orig: 58, 44
+  offset: 0, 0
+  index: -1
+images/zuiba_02
+  rotate: false
+  xy: 324, 62
+  size: 84, 64
+  orig: 84, 64
+  offset: 0, 0
+  index: -1
+images/zuiba_04
+  rotate: false
+  xy: 556, 52
+  size: 46, 21
+  orig: 46, 21
+  offset: 0, 0
+  index: -1
+images/zuichun_01
+  rotate: false
+  xy: 918, 94
+  size: 63, 32
+  orig: 63, 32
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BitmapStyleList>
+  <BitmapStyle id="bs_slot_player_btn01" auto_bitmap="true">
+    <normal piece_id="slot_player_btn01"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slot_player_btn02" auto_bitmap="true">
+    <normal piece_id="slot_player_btn02"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_btn01" auto_bitmap="true">
+    <normal piece_id="slots_btn01"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_btn02" auto_bitmap="true">
+    <normal piece_id="slot_bigwin_btn02"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_btn03" auto_bitmap="true">
+    <normal piece_id="slot_bigwin_btn03"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_slots_jackpot_button_01" auto_bitmap="true">
+    <normal piece_id="slots_jackpot_button_01"/>
+  </BitmapStyle>
+</BitmapStyleList>

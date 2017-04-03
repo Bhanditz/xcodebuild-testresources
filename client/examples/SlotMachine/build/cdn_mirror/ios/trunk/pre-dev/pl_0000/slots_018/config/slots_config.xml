@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="18" game="christmas">
+		<BonusGames>
+			<BonusGame id="1" game="rockage2_match_two">
+			</BonusGame>
+		</BonusGames>
+		<Icons>
+			<!-- High Pay 1 -->
+			<Icon id="1" pieceId="slots_018_icon_001"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- High Pay 2 -->
+			<Icon id="2" pieceId="slots_018_icon_002"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- High Pay 3 -->
+			<Icon id="3" pieceId="slots_018_icon_003"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- High Pay 4 -->
+			<Icon id="4" pieceId="slots_018_icon_004"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- High Pay 5 -->
+			<Icon id="5" pieceId="slots_018_icon_005"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay A -->
+			<Icon id="6" pieceId="slots_018_icon_006"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay K -->
+			<Icon id="7" pieceId="slots_018_icon_007"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay Q -->
+			<Icon id="8" pieceId="slots_018_icon_008"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay J -->
+			<Icon id="9" pieceId="slots_018_icon_009"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay 10 -->
+			<Icon id="10" pieceId="slots_018_icon_010"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay 11 -->
+			<Icon id="11" pieceId="slots_018_icon_011"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Wild -->
+			<Icon id="31" pieceId="slots_018_icon_031" bgPieceId="" sprite="" render_order="1">
+			</Icon>
+			<!-- Scatter -->
+			<Icon id="41" pieceId="slots_018_icon_041" bgPieceId="" sprite="" render_order="2">
+			</Icon>
+		</Icons>
+		<Reel>
+			<NearWinReel name="basegame" id="2,3,4" />
+			<NearWinTrigger count="4"/>
+			<SpinType name="normal">
+				<BestSpinIconCount value="14"/>
+				<OneReelStartDelayTime value="0.08"/>
+				<OneReelStopDelayTime value="0.4"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.10"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.06"/>
+				<OneReelStopDelayTime value="0.3"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="0.9"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+                                    <SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xffffffff" showAllTime="1.0" sequenceTime="1.0" pieceId="slots_018_panel_006">  
+			<!--Payline id="1" lineColor="0xffea00ff" />
+			<Payline id="2" lineColor="0xffea00ff" />
+			<Payline id="3" lineColor="0xffea00ff" />
+			<Payline id="4" lineColor="0xffea00ff" />
+			<Payline id="5" lineColor="0xffea00ff" />
+			<Payline id="6" lineColor="0xffea00ff" />
+			<Payline id="7" lineColor="0xffea00ff" />
+			<Payline id="8" lineColor="0xffea00ff" />
+			<Payline id="9" lineColor="0xffea00ff" />
+			<Payline id="10" lineColor="0xffea00ff" />
+			<Payline id="11" lineColor="0xffea00ff" />
+			<Payline id="12" lineColor="0xffea00ff" />
+			<Payline id="13" lineColor="0xffea00ff" />
+			<Payline id="14" lineColor="0xffea00ff" />
+			<Payline id="15" lineColor="0xffea00ff" />
+			<Payline id="16" lineColor="0xffea00ff" />
+			<Payline id="17" lineColor="0xffea00ff" />
+			<Payline id="18" lineColor="0xffea00ff" />
+			<Payline id="19" lineColor="0xffea00ff" />
+			<Payline id="20" lineColor="0xffea00ff" />
+			<Payline id="21" lineColor="0xffea00ff" />
+			<Payline id="22" lineColor="0xffea00ff" />
+			<Payline id="23" lineColor="0xffea00ff" />
+			<Payline id="24" lineColor="0xffea00ff" />
+			<Payline id="25" lineColor="0xffea00ff" />
+			<Payline id="26" lineColor="0xffea00ff" />
+			<Payline id="27" lineColor="0xffea00ff" />
+			<Payline id="28" lineColor="0xffea00ff" />
+			<Payline id="29" lineColor="0xffea00ff" />
+			<Payline id="30" lineColor="0xffea00ff" /-->
+		</Paylines>
+		
+		<Paytables winTextColor="cs_lightgreen" /> 
+		
+	</Theme>
+</SlotsConfig>

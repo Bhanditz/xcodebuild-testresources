@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_05_big_bolt_vertical_small_light.png" width="256" height="256" blend="2" loop="1">
+    <sprite n="small_light_00000" x="155" y="106" w="54" h="53" oX="48" oY="26" oW="142" oH="113" dr="60"/>
+    <sprite n="small_light_00001" x="2" y="2" w="88" h="75" oX="20" oY="20" oW="142" oH="113" dr="60"/>
+    <sprite n="small_light_00002" x="64" y="125" w="49" h="48" oX="47" oY="27" oW="142" oH="113" r="y" dr="60"/>
+    <sprite n="small_light_00003" x="92" y="2" w="86" h="71" oX="30" oY="9" oW="142" oH="113" dr="60"/>
+    <sprite n="small_light_00004" x="180" y="2" w="73" h="42" oX="56" oY="16" oW="142" oH="113" r="y" dr="60"/>
+    <sprite n="small_light_00005" x="92" y="75" w="61" h="48" oX="59" oY="32" oW="142" oH="113" r="y" dr="60"/>
+    <sprite n="small_light_00006" x="180" y="46" w="65" h="58" oX="13" oY="7" oW="142" oH="113" r="y" dr="60"/>
+    <sprite n="small_light_00007" x="2" y="79" w="60" h="47" oX="11" oY="9" oW="142" oH="113" dr="60"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_26_loop_lightning_wrap_reelarea_02_01.png" width="1024" height="1024" blend="2" loop="-1">
+    <sprite n="lightning_00000.png" x="219" y="220" w="411" h="219" oX="20" oY="28" oW="248" oH="454" r="y" dr="80"/>
+    <sprite n="lightning_00001.png" x="219" y="441" w="218" h="410" oX="20" oY="29" oW="248" oH="454" dr="80"/>
+    <sprite n="lightning_00002.png" x="636" y="1" w="219" h="412" oX="20" oY="28" oW="248" oH="454" dr="80"/>
+    <sprite n="lightning_00003.png" x="439" y="441" w="216" h="410" oX="20" oY="29" oW="248" oH="454" dr="80"/>
+    <sprite n="lightning_00004.png" x="219" y="1" w="415" h="217" oX="20" oY="25" oW="248" oH="454" r="y" dr="80"/>
+    <sprite n="lightning_00005.png" x="1" y="429" w="216" h="424" oX="20" oY="16" oW="248" oH="454" dr="80"/>
+    <sprite n="lightning_00006.png" x="1" y="1" w="216" h="426" oX="20" oY="14" oW="248" oH="454" dr="80"/>
+</TextureAtlas>

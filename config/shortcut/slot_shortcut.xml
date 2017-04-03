@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<root>
+	<Theme id="1">
+		<Shortcut name="Free Game" content="@ssp 1 1 13 1 18 1 27"/>
+		<Shortcut name="Bonus Game" content="@ssp 1 1 13 1 18 1 8"/>
+		<Shortcut name="Big Bonus Game" content="@ssp 1 1 13 1 18 1 46"/>
+		<Shortcut name="Retrigger FG" content="@ssp 1 2 19 1 19 1 19"/>
+		<Shortcut name="Reset" content="@csp 1 1&@csp 1 2"/>
+	</Theme>
+	<Theme id="2">
+		<Shortcut name="FG + 5 Spins" content="@ssp 2 1 6 6 6 6 6&@sbt 2 1 1 1"/>
+		<Shortcut name="FG + 4Spins" content="@ssp 2 1 6 6 6 6 6&@sbt 2 1 1 2"/>
+		<Shortcut name="FG + 3Spins" content="@ssp 2 1 6 6 6 6 6&@sbt 2 1 1 3"/>
+		<Shortcut name="FG + Wild Reel" content="@ssp 2 1 6 6 6 6 6&@sbt 2 1 1 4"/>
+		<Shortcut name="FG + 2X Wild" content="@ssp 2 1 6 6 6 6 6&@sbt 2 1 1 5"/>
+		<Shortcut name="FG + DirectPay" content="@ssp 2 1 6 6 6 6 6&@sbt 2 1 1 6"/>
+		<Shortcut name="Reset" content="@csp 2 1&@cbt 2 1 1"/>
+	</Theme>
+	<Theme id="3">
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 3 1 38 15 42 0 0&@sbt 3 1 1 6"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 3 1 38 15 42 7 0&@sbt 3 1 2 6"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 3 1 38 15 42 7 7&@sbt 3 1 3 6"/>
+		<Shortcut name="Line Blast" content="@ssp 3 1 38 15 42 0 0&@sbt 3 1 1 1"/>
+		<Shortcut name="Disco Wild" content="@ssp 3 1 38 15 42 0 0&@sbt 3 1 1 2"/>
+		<Shortcut name="Dance Pop X" content="@ssp 3 1 38 15 42 0 0&@sbt 3 1 1 3"/>
+		<Shortcut name="Reset" content="@csp 3 1&@cbt 3 1 1&@cbt 3 1 2&@cbt 3 1 3"/>
+	</Theme>
+	<Theme id="4">
+		<Shortcut name="Dancing Spin" content="@ssp 4 1 35 35 3 3 16 16&@sbt 4 1 1 1"/>
+		<Shortcut name="Snake Bonus" content="@ssp 4 1 35 35 3 3 16 16&@sbt 4 1 1 2"/>
+		<Shortcut name="Graveyard Pickup" content="@ssp 4 1 35 35 3 3 16 16&@sbt 4 1 1 3"/>
+		<Shortcut name="Reset" content="@csp 4 1&@cbt 4 1 1"/>
+	</Theme>
+	<Theme id="5">
+		<Shortcut name="Wheel" content="@ssp 5 1 0 0 7"/>
+		<Shortcut name="Reset" content="@csp 5 1"/>
+	</Theme>
+	<Theme id="6">
+		<Shortcut name="Free Game(10)" content="@ssp 6 1 0 0 8 8 0 0"/>
+		<Shortcut name="Free Game(25)" content="@ssp 6 1 0 0 8 8 5 0"/>
+		<Shortcut name="Free Game(50)" content="@ssp 6 1 0 0 8 8 5 74"/>
+		<Shortcut name="Retrigger FG(10)" content="@ssp 6 2 67 59 27 0 0 0"/>
+		<Shortcut name="Retrigger FG(25)" content="@ssp 6 2 67 59 27 17 0 0"/>
+		<Shortcut name="Retrigger FG(50)" content="@ssp 6 2 67 59 27 17 3 0"/>
+		<Shortcut name="Reset" content="@csp 6 1&@csp 6 2"/>
+	</Theme>
+	<Theme id="7">
+		<Shortcut name="Free Game" content="@ssp 7 1 0 5 0 5 0"/>
+		<Shortcut name="Retrigger FG" content="@ssp 7 2 0 5 0 12 1"/>
+		<Shortcut name="Reset" content="@csp 7 1&@csp 7 2"/>
+	</Theme>
+	<Theme id="8">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 8 1 41 13 33 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 8 1 41 13 33 27 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 8 1 41 13 33 27 64"/>
+		<Shortcut name="RetriggerFG(IconX2)" content="@ssp 8 2 41 13 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 8 2 41 13 33 0 0"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 8 2 41 13 33 26 0"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 8 2 41 13 33 26 64"/>
+		<Shortcut name="FG(WildX1)" content="@ssp 8 2 51 34 14 0 0"/>
+		<Shortcut name="FG(WildX2)" content="@ssp 8 2 51 34 76 0 0"/>
+		<Shortcut name="FG(WildX3)" content="@ssp 8 2 51 34 76 36 0"/>
+		<Shortcut name="Reset" content="@csp 8 1&@csp 8 2"/>
+	</Theme>
+	<Theme id="9">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 9 1 16 15 0 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 9 1 16 15 0 13 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 9 1 16 15 0 13 16"/>
+		<Shortcut name="Bonus Prize(25Free Spins)" content="@ssp 9 2 1 5 1 0 10"/>
+		<Shortcut name="Reset" content="@csp 9 1&@csp 9 2"/>
+	</Theme>
+	<Theme id="10">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 10 1 33 0 47 1 1"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 10 1 33 0 47 0 1"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 10 1 33 0 47 0 0"/>
+		<Shortcut name="FG 1 Reel Wild" content="@ssp 10 2 33 0 10 20 0"/>
+		<Shortcut name="FG 2 Reel Wild" content="@ssp 10 2 33 0 3 20 0"/>
+		<Shortcut name="FG 3 Reel Wild" content="@ssp 10 2 33 0 3 6 0"/>
+		<Shortcut name="Reset" content="@csp 10 1&@csp 10 2"/>
+	</Theme>
+	<Theme id="12">
+		<Shortcut name="Free Game" content="@ssp 12 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG" content="@ssp 12 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 12 1&@csp 12 2"/>
+	</Theme>
+	<Theme id="14">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 14 1 0 0 0 0 0"/>
+		<Shortcut name="FG Collect(IconX1)" content="@ssp 14 2 0 0 1 1 0"/>
+		<Shortcut name="FG Collect(IconX2)" content="@ssp 14 2 0 0 0 1 0"/>
+		<Shortcut name="FG Collect(IconX3)" content="@ssp 14 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 14 1&@csp 14 2"/>
+	</Theme>
+	<Theme id="15">
+		<Shortcut name="Free Game(IconX5)" content="@ssp 15 1 0 0 0 0 0"/>
+		<Shortcut name="Chest Bonus(100%)" content="@ssp 15 1 0 30 42 32 0"/>
+		<Shortcut name="Full H1(Reels1234)" content="@ssp 15 1 10 158 153 2 0"/>
+		<Shortcut name="Full Wild(Reels2-4)" content="@ssp 15 1 0 29 42 32 0"/>
+		<Shortcut name="Reset" content="@csp 15 1&@csp 15 2&@csp 15 3&@csp 15 4"/>
+	</Theme>
+	<Theme id="18">
+		<Shortcut name="Free Game(IconX9)" content="@ssp 18 1 4 0 0 42 4"/>
+		<Shortcut name="Free Game(IconX15)" content="@ssp 18 1 4 0 0 0 1"/>
+		<Shortcut name="Free Game(IconX20)" content="@ssp 18 1 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 18 1&@csp 18 2"/>
+	</Theme>
+	<Theme id="19">
+		<Shortcut name="Free Game" content="@ssp 19 1 0 0 0 0 0"/>
+		<Shortcut name="Retrigger FG" content="@ssp 19 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 19 1&@csp 19 2"/>
+	</Theme>
+	<Theme id="1001">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1001 1 37 16 20 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1001 1 37 16 20 29 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1001 1 37 16 20 29 21"/>
+		<Shortcut name="FindPair(IconX3)" content="@ssp 1001 1 0 0 0 3 3"/>
+		<Shortcut name="FindPair(IconX4)" content="@ssp 1001 1 0 0 0 0 3"/>
+		<Shortcut name="FindPair(IconX5)" content="@ssp 1001 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1001 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1001 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1001 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1001 1&@csp 1001 2"/>
+	</Theme>
+	<Theme id="1002">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1002 1 37 14 18 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1002 1 37 14 18 29 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1002 1 37 14 18 29 21"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1002 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1002 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1002 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1002 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1002 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1002 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1002 1&@csp 1002 2"/>
+	</Theme>
+	<Theme id="1003">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1003 1 12 18 17 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1003 1 12 18 17 6 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1003 1 12 18 17 6 17"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1003 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1003 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1003 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1003 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1003 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1003 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1003 1&@csp 1003 2"/>
+	</Theme>
+	<Theme id="1004">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1004 1 18 8 20 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1004 1 18 8 20 29 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1004 1 18 8 20 29 20"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1004 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1004 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1004 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1004 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1004 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1004 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1004 1&@csp 1004 2"/>
+	</Theme>
+	<Theme id="1005">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1005 1 18 13 20 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1005 1 18 13 20 5 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1005 1 18 13 20 5 16"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1005 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1005 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1005 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1005 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1005 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1005 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1005 1&@csp 1005 2"/>
+	</Theme>
+	<Theme id="1006">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1006 1 29 13 33 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1006 1 29 13 33 4 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1006 1 29 13 33 4 17"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1006 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1006 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1006 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1006 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1006 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1006 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1006 1&@csp 1006 2"/>
+	</Theme>
+	<Theme id="1007">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1007 1 29 13 33 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1007 1 29 13 33 4 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1007 1 29 13 33 4 17"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1007 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1007 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1007 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1007 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1007 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1007 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1007 1&@csp 1007 2"/>
+	</Theme>
+	<Theme id="1008">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1008 1 30 13 21 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1008 1 30 13 21 5 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1008 1 30 13 21 5 18"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1008 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1008 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1008 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1008 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1008 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1008 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1008 1&@csp 1008 2"/>
+	</Theme>
+	<Theme id="1009">
+		<Shortcut name="Free Game(IconX3)" content="@ssp 1009 1 38 16 18 0 0"/>
+		<Shortcut name="Free Game(IconX4)" content="@ssp 1009 1 38 16 18 29 0"/>
+		<Shortcut name="Free Game(IconX5)" content="@ssp 1009 1 38 16 18 29 21"/>
+		<Shortcut name="BonusGame(IconX3)" content="@ssp 1009 1 0 0 0 3 3"/>
+		<Shortcut name="BonusGame(IconX4)" content="@ssp 1009 1 0 0 0 0 3"/>
+		<Shortcut name="BonusGame(IconX5)" content="@ssp 1009 1 0 0 0 0 0"/>
+		<Shortcut name="RetriggerFG(IconX3)" content="@ssp 1009 2 0 0 0 3 3"/>
+		<Shortcut name="RetriggerFG(IconX4)" content="@ssp 1009 2 0 0 0 0 3"/>
+		<Shortcut name="RetriggerFG(IconX5)" content="@ssp 1009 2 0 0 0 0 0"/>
+		<Shortcut name="Reset" content="@csp 1009 1&@csp 1009 2"/>
+	</Theme>
+ </root>
+ 

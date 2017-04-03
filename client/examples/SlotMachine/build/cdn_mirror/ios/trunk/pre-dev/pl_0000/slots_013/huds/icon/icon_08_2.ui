@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="409" height="431" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="409" height="431" window_state="6">
+        <Picture id="m_Bg" x="0" y="0" z="0" width="409" height="431" window_state="262">
+            <piece_info value="slots_013_icon_09a"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="101" y="108" z="0" width="205" height="216" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot013_icon08"/>
+            <piece_info value="slots_013_icon_09_mask"/>
+            <mask_piece value="slots_013_icon_09_sweep"/>
+            <mask_offset x="-0.64999998" y="0" z="0"/>
+        </PictureMask>
+        <Picture id="m_Picture" x="115" y="156" z="0" width="98" height="98" window_state="6">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_06c"/>
+        </Picture>
+        <Picture id="m_Picture1" x="234" y="154" z="0" width="98" height="98" window_state="6">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_06c"/>
+        </Picture>
+        <Picture id="m_Picture2" x="349" y="276" z="0" width="98" height="98" window_state="6">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_06c"/>
+        </Picture>
+    </Panel>
+</Panel>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="TransitionBonus_VFX02.png" width="128" height="128" scale_x="2.4000001" scale_y="2.4000001" blend="1" loop="-1">
+    <sprite n="2_00000.png" x="70" y="84" w="31" h="39" oX="13" oY="17" oW="57" oH="57" r="y" dr="100"/>
+    <sprite n="2_00001.png" x="2" y="41" w="33" h="39" oX="12" oY="15" oW="57" oH="57" r="y" dr="100"/>
+    <sprite n="2_00002.png" x="47" y="2" w="41" h="35" oX="10" oY="13" oW="57" oH="57" dr="100"/>
+    <sprite n="2_00003.png" x="47" y="39" w="41" h="31" oX="10" oY="17" oW="57" oH="57" dr="100"/>
+    <sprite n="2_00004.png" x="90" y="43" w="35" h="39" oX="12" oY="13" oW="57" oH="57" r="y" dr="100"/>
+    <sprite n="2_00005.png" x="2" y="2" w="43" h="37" oX="9" oY="11" oW="57" oH="57" dr="100"/>
+    <sprite n="2_00006.png" x="37" y="84" w="31" h="39" oX="13" oY="17" oW="57" oH="57" r="y" dr="100"/>
+    <sprite n="2_00007.png" x="2" y="84" w="33" h="39" oX="13" oY="15" oW="57" oH="57" r="y" dr="100"/>
+    <sprite n="2_00008.png" x="90" y="2" w="35" h="39" oX="13" oY="13" oW="57" oH="57" r="y" dr="100"/>
+</TextureAtlas>

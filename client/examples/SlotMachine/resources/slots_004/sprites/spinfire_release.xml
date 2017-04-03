@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="spinfire_release.png" width="256" height="256" blend="1" loop="1">
+    <sprite n="00000" x="98" y="144" w="22" h="34" oX="38" oY="97" oW="100" oH="150" dr="60"/>
+    <sprite n="00001" x="122" y="144" w="48" h="32" oX="33" oY="87" oW="100" oH="150" r="y" dr="60"/>
+    <sprite n="00002" x="2" y="190" w="42" h="64" oX="28" oY="76" oW="100" oH="150" dr="60"/>
+    <sprite n="00003" x="172" y="66" w="78" h="52" oX="23" oY="66" oW="100" oH="150" r="y" dr="60"/>
+    <sprite n="00004" x="140" y="178" w="92" h="62" oX="18" oY="57" oW="100" oH="150" r="y" dr="60"/>
+    <sprite n="00005" x="66" y="50" w="62" h="92" oX="18" oY="56" oW="100" oH="150" dr="60"/>
+    <sprite n="00006" x="140" y="2" w="92" h="62" oX="18" oY="56" oW="100" oH="150" r="y" dr="60"/>
+    <sprite n="00007" x="46" y="190" w="92" h="62" oX="18" oY="56" oW="100" oH="150" r="y" dr="60"/>
+    <sprite n="00008" x="2" y="96" w="62" h="92" oX="18" oY="48" oW="100" oH="150" dr="60"/>
+    <sprite n="00009" x="2" y="2" w="62" h="92" oX="18" oY="39" oW="100" oH="150" dr="60"/>
+    <sprite n="00010" x="66" y="2" w="70" h="46" oX="26" oY="46" oW="100" oH="150" r="y" dr="60"/>
+    <sprite n="00011" x="66" y="144" w="30" h="44" oX="34" oY="56" oW="100" oH="150" dr="60"/>
+    <sprite n="00012" x="186" y="144" w="22" h="34" oX="38" oY="97" oW="100" oH="150" dr="60"/>
+</TextureAtlas>

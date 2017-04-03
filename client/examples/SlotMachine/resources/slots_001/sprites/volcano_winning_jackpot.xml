@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="volcano_winning_jackpot.png" width="512" height="512" scale_x="1.67" scale_y="1.67" blend="2" loop="-1">
+    <sprite n="jackpot" x="2" y="326" w="118" h="182" oX="4" oY="18" oW="200" oH="156" r="y" dr="100"/>
+    <sprite n="jackpot_02" x="328" y="2" w="124" h="186" oX="3" oY="13" oW="200" oH="156" r="y" dr="100"/>
+    <sprite n="jackpot_03" x="128" y="320" w="188" h="120" oX="4" oY="19" oW="200" oH="156" dr="100"/>
+    <sprite n="jackpot_04" x="2" y="132" w="124" h="192" oX="4" oY="15" oW="200" oH="156" r="y" dr="100"/>
+    <sprite n="jackpot_05" x="2" y="2" w="196" h="128" oX="3" oY="11" oW="200" oH="156" dr="100"/>
+    <sprite n="jackpot_06" x="322" y="196" w="120" h="190" oX="3" oY="19" oW="200" oH="156" r="y" dr="100"/>
+    <sprite n="jackpot_07" x="200" y="2" w="126" h="192" oX="4" oY="13" oW="200" oH="156" r="y" dr="100"/>
+    <sprite n="jackpot_08" x="318" y="388" w="188" h="118" oX="4" oY="19" oW="200" oH="156" dr="100"/>
+    <sprite n="jackpot_09" x="128" y="196" w="192" h="122" oX="4" oY="14" oW="200" oH="156" dr="100"/>
+</TextureAtlas>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<!--
+  全局数据监控
+  
+	Notify 通知配置
+		Server 服务器域名
+		Port 服务器端口
+		Administrator 通知的管理员id,可以配置多项
+  
+  	DataMonitor 监视配置	Open:是否打开（0、1）  	 CloseTheme: 异常时是否关闭主题（0、1）	
+-->
+<root>
+	<Notify>
+		<Server>api.support.skyunion.com</Server>
+		<Port>80</Port>
+		<Path>/module/sys/api/send_notification.php</Path>
+		<Administrator uid="2340" />
+	</Notify>
+	<DataMonitor Open="1" CloseTheme="0">
+		<VideoPokerMonitor>
+				<ThemeMonitor ThemeID="1" MaxPay="250" CheckRTPTime="180" CheckRTP="150"/><!-- JACKS OR BETTER -->
+				<ThemeMonitor ThemeID="2" MaxPay="250" CheckRTPTime="180" CheckRTP="150"/><!-- BONUS POKER -->
+				<ThemeMonitor ThemeID="3" MaxPay="250" CheckRTPTime="180" CheckRTP="150"/><!-- JOKER'S WILD -->
+				<ThemeMonitor ThemeID="4" MaxPay="250" CheckRTPTime="180" CheckRTP="150"/><!-- DEUCES WILD -->
+		</VideoPokerMonitor>
+		<BlackJackMonitor>
+				<ThemeMonitor ThemeID="1" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+				<ThemeMonitor ThemeID="2" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+				<ThemeMonitor ThemeID="3" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+				<ThemeMonitor ThemeID="4" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+				<ThemeMonitor ThemeID="5" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+				<ThemeMonitor ThemeID="6" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+				<ThemeMonitor ThemeID="7" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+				<ThemeMonitor ThemeID="8" MaxPay="5" CheckRTPTime="180" CheckRTP="150"/>
+		</BlackJackMonitor>
+	</DataMonitor>
+</root>

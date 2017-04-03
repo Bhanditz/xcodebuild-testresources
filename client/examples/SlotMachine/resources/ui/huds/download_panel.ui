@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel implement_class="ThemeDownloadPanel" id="m_DownloadPanel" x="0" y="0" z="0" width="250" height="190" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Undownload" x="0" y="0" z="0" width="250" height="190" window_state="6">
+        <Picture id="m_PicTag2" x="11" y="110" z="0" width="70" height="70" window_state="6">
+            <piece_info value="casino_common_tag3"/>
+            <Panel id="m_Panel" x="6" y="7" z="0" width="58" height="42" window_state="262150">
+                <Picture id="m_Picture" x="17" y="12" z="0" width="23" height="27" window_state="6">
+                    <piece_info value="casino_common_tag2"/>
+                </Picture>
+            </Panel>
+            <Picture id="m_Picture1" x="23" y="46" z="0" width="24" height="6" window_state="6">
+                <piece_info value="casino_common_tag2a"/>
+            </Picture>
+            <Picture id="m_Glow" x="-48" y="-48" z="0" width="167" height="167" window_state="4">
+                <piece_info value="casino_common_tag2b"/>
+            </Picture>
+        </Picture>
+    </Panel>
+    <Panel id="m_Downloading" x="0" y="0" z="0" width="250" height="190" window_state="4">
+        <Picture id="m_PicDownloading" x="76" y="46" z="0" width="98" height="98" window_state="6">
+            <piece_info value="casino_common_tag7"/>
+            <Picture id="m_OuterRing" x="-2" y="-2" z="0" width="102" height="102" window_state="4">
+                <piece_info value="casino_common_tag7a"/>
+            </Picture>
+            <Picture id="m_OuterRingWHITE" x="-2" y="-2" z="0" width="102" height="102" window_state="4">
+                <color_scale x="2" y="2" z="2" w="1"/>
+                <piece_info value="casino_common_tag7a"/>
+            </Picture>
+            <Picture implement_class="PictureTimeSquare" id="m_InnerRing" x="7" y="7" z="0" width="84" height="84" window_state="6">
+                <piece_info value="casino_common_tag7b"/>
+            </Picture>
+            <Picture id="m_InnerRingWHITE" x="7" y="7" z="0" width="84" height="84" window_state="4">
+                <piece_info value="casino_common_tag7e"/>
+            </Picture>
+        </Picture>
+        <RichLabel id="m_LabelDownloading" x="86" y="82" z="0" width="73" height="30" window_state="6">
+            <text value="%0"/>
+            <font_size value="45"/>
+            <font_id value="Bebas"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_LabelDownloadingFULL" x="91" y="77" z="0" width="70" height="36" window_state="4">
+            <piece_info value="casino_common_tag7c"/>
+        </Picture>
+        <Picture id="m_Tick" x="98" y="69" z="0" width="52" height="52" window_state="4">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <piece_info value="casino_common_tag7d"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Downloaded" x="0" y="0" z="0" width="250" height="190" window_state="4" style="ngs_panel_bg"/>
+</Panel>

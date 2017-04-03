@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_15_reel_speed_effect_light.png" width="256" height="512" scale_x="2" scale_y="2" blend="1" loop="-1">
+    <sprite n="light_00000.png" x="1" y="169" w="184" h="53" oX="580" oY="212" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="light_00001.png" x="1" y="1" w="185" h="54" oX="579" oY="212" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="light_00002.png" x="1" y="57" w="184" h="54" oX="579" oY="212" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="light_00003.png" x="1" y="113" w="184" h="54" oX="579" oY="212" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="light_00004.png" x="187" y="188" w="54" h="183" oX="579" oY="212" oW="1136" oH="640" dr="80"/>
+    <sprite n="light_00005.png" x="1" y="279" w="183" h="54" oX="579" oY="212" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="light_00006.png" x="1" y="335" w="183" h="54" oX="579" oY="212" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="light_00007.png" x="188" y="1" w="54" h="185" oX="579" oY="211" oW="1136" oH="640" dr="80"/>
+    <sprite n="light_00008.png" x="1" y="224" w="184" h="53" oX="580" oY="212" oW="1136" oH="640" r="y" dr="80"/>
+</TextureAtlas>

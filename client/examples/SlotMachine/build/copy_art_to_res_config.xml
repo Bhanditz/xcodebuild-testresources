@@ -1,0 +1,95 @@
+
+<d base="">
+	<d name="actions" base="*" />
+	<d name="ui" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.ui" />
+	<d name="configs" base="*" />
+	<d name="fonts" base=".xml/.fnt/.png/.ttf" />
+	<d name="shaders" base="*" />
+	<d name="lobby" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+	
+	<d name="extends" base="*" />
+	
+	<d name="loadings" base="">
+		<d name="bg" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="huds" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="styles" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+	</d>
+	
+	<d name="slots" base="">
+		<d name="actions" base="*" />
+		<d name="bg" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="config" base="">
+			<d name="shortcut" base=".xml"/>
+		</d>
+		<d name="huds" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="model" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="particles" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="sound" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="sprites" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="styles" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+		<d name="timelines" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui" />
+	</d>
+	
+	<d name="slots_001" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_002" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_003" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_004" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_005" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_006" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_007" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_008" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_009" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_010" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_011" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_012" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_013" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_014" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_015" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_016" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_017" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_018" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_019" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	
+	<d name="slots_1001" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1002" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1003" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1004" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1005" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1006" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1007" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1008" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+	<d name="slots_1009" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.atlas/.json/.fnt/.act/.ani" />
+
+	
+	<d name="bingo" base="" >
+		<d name="lobby_icons" base="*" />
+		<d name="main" base=".style/.png" />
+		<d name="theme01" base="*" />
+		<d name="theme01_bg" base="*" />
+		<d name="theme02" base="*" />
+		<d name="theme02_bg" base="*" />
+		<d name="theme501" base="*" />
+		<d name="theme501_bg" base="*" />
+		<d name="theme502" base="*" />
+		<d name="theme502_bg" base="*" />
+		<d name="theme801" base="*" />
+		<d name="theme801_bg" base="*" />
+		<d name="theme802" base="*" />
+		<d name="theme802_bg" base="*" />
+		<d name="theme803" base="*" />
+		<d name="theme803_bg" base="*" />
+		<d name="theme804" base="*" />
+		<d name="theme804_bg" base="*" />
+		<d name="theme805" base="*" />
+		<d name="theme805_bg" base="*" />
+		<d name="theme806" base="*" />
+		<d name="theme806_bg" base="*" />
+	</d>
+	<d name="poker" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.fnt/.act/.ani" />
+	<d name="video_poker" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.fnt/.act/.ani" />
+	<d name="black_jack" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.fnt/.act/.ani" />
+	<d name="baccarat" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.fnt/.act/.ani" />
+	<d name="craps" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.fnt/.act/.ani" />
+	<d name="roulette" base=".png/.jpg/.xml/.spr/.ptc/.mp3/.ogg/.style/.pl/.tl/.model/.meshdata/.animdata/.skelecton/.ui/.fnt/.act/.ani" />
+	<f name="appConfig.properties"/>
+</d>

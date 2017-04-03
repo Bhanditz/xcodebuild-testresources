@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_PicBG" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="casino_slots_loading_bg"/>
+        <scale_mode value="4"/>
+    </Picture>
+    <Picture id="m_PicRoom" x="107" y="3" z="0" width="267" height="207" window_state="6">
+        <scale x="0.75999999" y="0.75999999" z="0.75999999"/>
+        <piece_info value="casino_lobby_slot_small13"/>
+        <scale_top value="0.94"/>
+        <scale_bottom value="1.01"/>
+    </Picture>
+    <Picture id="m_PicBase" x="0" y="458" z="0" width="1136" height="183" window_state="6" style="ngs_slots_loading_panel">
+        <Panel id="m_PanGame1" x="246" y="17" z="0" width="360" height="100" window_state="6">
+            <Picture id="m_PicGame" x="-112" y="-27" z="0" width="174" height="155" window_state="6">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <piece_info value="slots_013_icon_11d"/>
+            </Picture>
+            <RichLabel id="m_LblGame" x="55" y="0" z="0" width="220" height="100" window_state="6">
+                <text value="Scatter symbol in all positions
+on rells 2,3, and 4 triggers"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="24"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_PanGame2" x="598" y="17" z="0" width="360" height="100" window_state="6">
+            <Picture id="m_PicGame" x="-34" y="-27" z="0" width="174" height="155" window_state="6">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <piece_info value="slots_013_icon_12a"/>
+            </Picture>
+            <Picture id="m_PicGame1" x="-34" y="-27" z="0" width="174" height="155" window_state="6">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <piece_info value="slots_013_icon_12c"/>
+            </Picture>
+            <RichLabel id="m_LblGame" x="132" y="0" z="0" width="246" height="100" window_state="6">
+                <text value="Substitutes for any symbol 
+except a Scatter"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="24"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_PanelProgress" x="265" y="131" z="0" width="544" height="30" window_state="6" style="ngs_casino_lobby_loading_panel01">
+            <ProgressBarH id="m_ProgressBar" x="6" y="0" z="0" width="534" height="30" window_state="6">
+                <progress_style value="bs_casino_lobby_loading_panel02"/>
+                <edge_picture_offset x="0" y="0" z="0"/>
+                <edge_picture_scale x="1" y="1" z="1"/>
+            </ProgressBarH>
+            <RichLabel id="m_RblProgress" x="563" y="2" z="0" width="86" height="30" window_state="6">
+                <text value="65%"/>
+                <font_size value="40"/>
+                <text_align_h value="1"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Picture>
+    <Panel id="m_Return" x="926" y="554" z="0" width="210" height="90" window_state="4">
+        <Button id="m_Btn" x="14" y="2" z="0" width="190" height="83" window_state="6" style="ngs_casino_common_btn05">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <font_size value="25"/>
+            <text_align_h value="3"/>
+            <text_offset x="-82" y="-1" z="0"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="17"/>
+        </Button>
+        <Picture id="m_Picture" x="144" y="15" z="0" width="41" height="50" window_state="14">
+            <piece_info value="casino_common_btn05a"/>
+        </Picture>
+        <RichLabel id="m_LblGame" x="31" y="23" z="0" width="96" height="40" window_state="14">
+            <text value="SLOTS_BUFFALO_LOADING_BUTTON_RETURN"/>
+            <text_style value="8"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="25"/>
+        </RichLabel>
+    </Panel>
+</Panel>

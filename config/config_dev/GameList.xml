@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+  游戏列表
+  GameID 1casino 2 slots 3 VideoPoker 4 BlackJack  5 poker
+-->
+<root>
+		<Game id="1" GameID="1" GameName="casino" ThemeId="1" ThemeName="" unlockLev="1" Icon="0" Link="CasinoLobby" sortID="1" IconTag="1" NewTag="0" HotTag="0" RecommendBegin="1" RecommendEnd="1" unlockBegin="1" unlockEnd="1" unlockSortID="1" JackpotTag="0" ActivityTag="0"/>
+		<Game id="2" GameID="1" GameName="casino" ThemeId="2" ThemeName="" unlockLev="1" Icon="0" Link="Slot"  sortID="2" IconTag="1" NewTag="0" HotTag="0" RecommendBegin="1" RecommendEnd="1" unlockBegin="1" unlockEnd="1" unlockSortID="1"  JackpotTag="0" ActivityTag="0"/>
+		<Game id="3" GameID="2" GameName="Slot" ThemeId="12" ThemeName="Fairy Queen" unlockLev="1" Icon="1" Link="Slot@12"  sortID="3" IconTag="1" NewTag="0" HotTag="0" RecommendBegin="1" RecommendEnd="1" unlockBegin="1" unlockEnd="1" unlockSortID="1" JackpotTag="0" ActivityTag="0"/>
+		<Game id="4" GameID="2" GameName="Slot" ThemeId="7" ThemeName="Meow Money" unlockLev="1" Icon="1" Link="Slot@7" sortID="4" IconTag="0" NewTag="0" HotTag="0" RecommendBegin="1" RecommendEnd="1" unlockBegin="1" unlockEnd="1" unlockSortID="1"  JackpotTag="0" ActivityTag="0"/>
+		<Game id="5" GameID="2" GameName="Slot" ThemeId="8" ThemeName="Buffalo Stampede" unlockLev="1" Icon="1" Link="Slot@8" sortID="5" IconTag="1" NewTag="0" HotTag="0" RecommendBegin="1" RecommendEnd="1" unlockBegin="1" unlockEnd="1" unlockSortID="1"  JackpotTag="0" ActivityTag="0"/>
+		<Game id="6" GameID="2" GameName="Slot" ThemeId="2" ThemeName="Rage Of Sparta" unlockLev="1" Icon="1" Link="Slot@2" sortID="6" IconTag="1" NewTag="0" HotTag="0" RecommendBegin="1" RecommendEnd="1" unlockBegin="1" unlockEnd="1" unlockSortID="1"  JackpotTag="0" ActivityTag="0"/>
+ </root>
+ 

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_BG" x="0" y="0" z="0" width="1136" height="640" window_state="14"/>
+    <Picture id="m_Base" x="197" y="47" z="0" width="742" height="536" window_state="6" style="ngs_casino_common_panel12">
+        <Picture id="m_Picture" x="18" y="19" z="0" width="706" height="89" window_state="262" style="ngs_casino_common_panel12a"/>
+        <Picture id="m_Picture1" x="284" y="224" z="0" width="175" height="124" window_state="14">
+            <scale x="4" y="4" z="4"/>
+            <piece_info value="casino_common_panel12d"/>
+        </Picture>
+        <Picture id="m_Picture" x="148" y="28" z="0" width="419" height="68" window_state="14">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_common_panel12e"/>
+        </Picture>
+        <RichLabel id="m_RichLabel" x="117" y="29" z="0" width="508" height="50" window_state="6">
+            <text value="PLATFORM_UNLOCKTHEME_POPUP_TITLE_NOTE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <Panel id="m_Info" x="374" y="351" z="0" width="400" height="120" window_state="6">
+        <dynamic_attr key="TypeName" type="array" value="5" inner="string">
+            <item>NULL</item>
+            <item>Need Player Level:</item>
+            <item>Need Star Level:</item>
+            <item>Player First Charge:</item>
+            <item>Player FB Login:</item>
+        </dynamic_attr>
+        <Panel id="m_RuleCnt_2" x="0" y="0" z="0" width="400" height="120" window_state="6">
+            <dynamic_attr key="TypeName" type="array" value="5" inner="string">
+                <item>NULL</item>
+                <item>Need Player Level:</item>
+                <item>Need Star Level:</item>
+                <item>Player First Charge:</item>
+                <item>Player FB Login:</item>
+            </dynamic_attr>
+            <Panel implement_class="UnlockRuleInfoPanel" id="m_Rule_0" x="0" y="14" z="0" width="400" height="50" window_state="6">
+                <RichLabel id="m_TypeName" x="14" y="-1" z="0" width="229" height="50" window_state="6">
+                    <text value="PLATFORM_UNLOCKTHEME_POPUP_TEXT_NEEDLEVEL"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Fail" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_RedColor"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Success" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_green"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Slashes" x="299" y="-2" z="0" width="56" height="50" window_state="6">
+                    <text value="/"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_NeedValue" x="304" y="-2" z="0" width="66" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel implement_class="UnlockRuleInfoPanel" id="m_Rule_1" x="0" y="57" z="0" width="400" height="50" window_state="6">
+                <RichLabel id="m_TypeName" x="14" y="-1" z="0" width="229" height="50" window_state="6">
+                    <text value="PLATFORM_UNLOCKTHEME_POPUP_TEXT_NEEDLEVEL"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Fail" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_RedColor"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Success" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_green"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Slashes" x="299" y="-2" z="0" width="56" height="50" window_state="6">
+                    <text value="/"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_NeedValue" x="304" y="-2" z="0" width="66" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_RuleCnt_3" x="0" y="0" z="0" width="400" height="120" window_state="4">
+            <Panel implement_class="UnlockRuleInfoPanel" id="m_Rule_0" x="0" y="0" z="0" width="400" height="50" window_state="6">
+                <RichLabel id="m_TypeName" x="14" y="-1" z="0" width="229" height="50" window_state="6">
+                    <text value="PLATFORM_UNLOCKTHEME_POPUP_TEXT_NEEDLEVEL"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Fail" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_RedColor"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Success" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_green"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Slashes" x="299" y="-2" z="0" width="56" height="50" window_state="6">
+                    <text value="/"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_NeedValue" x="304" y="-2" z="0" width="66" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel implement_class="UnlockRuleInfoPanel" id="m_Rule_1" x="0" y="36" z="0" width="400" height="50" window_state="6">
+                <RichLabel id="m_TypeName" x="14" y="-1" z="0" width="229" height="50" window_state="6">
+                    <text value="PLATFORM_UNLOCKTHEME_POPUP_TEXT_NEEDLEVEL"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Fail" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_RedColor"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Success" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_green"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Slashes" x="299" y="-2" z="0" width="56" height="50" window_state="6">
+                    <text value="/"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_NeedValue" x="304" y="-2" z="0" width="66" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel implement_class="UnlockRuleInfoPanel" id="m_Rule_2" x="0" y="70" z="0" width="400" height="50" window_state="6">
+                <RichLabel id="m_TypeName" x="14" y="-1" z="0" width="229" height="50" window_state="6">
+                    <text value="PLATFORM_UNLOCKTHEME_POPUP_TEXT_NEEDLEVEL"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Fail" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_RedColor"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_CurValue_Success" x="253" y="-2" z="0" width="46" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_green"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Slashes" x="299" y="-2" z="0" width="56" height="50" window_state="6">
+                    <text value="/"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_NeedValue" x="304" y="-2" z="0" width="66" height="50" window_state="6">
+                    <text value="-"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Button id="m_BtnTheme" x="443" y="161" z="0" width="250" height="190" window_state="262">
+        <line_height value="30"/>
+        <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+    </Button>
+    <Button id="m_BtnConfirm" x="426" y="467" z="0" width="285" height="70" window_state="6" style="ngs_casino_common_btn08">
+        <text value="PLATFORM_UNLOCKTHEME_POPUP_BUTTON_CONFIRM"/>
+        <font_size value="45"/>
+        <text_offset x="0" y="-4" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BtnClose" x="818" y="72" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+</Panel>

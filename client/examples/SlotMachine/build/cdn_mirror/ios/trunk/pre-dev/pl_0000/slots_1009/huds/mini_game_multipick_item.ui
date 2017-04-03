@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Selection" x="0" y="0" z="0" width="125" height="120" window_state="6">
+    <Button id="m_Button" x="3" y="0" z="0" width="123" height="121" window_state="6" style="bs_slots_1009_icon028">
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="m_GreetText" x="0" y="40" z="0" width="129" height="42" window_state="12">
+        <text value="SLOTS_TUTSGOLD2_MINIGAMEPICKITEM_TEXT_AMAZING"/>
+        <font_size value="38"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_ScoreText" x="56" y="74" z="0" width="18" height="46" window_state="12">
+        <text value="150"/>
+        <font_size value="42"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Sprite id="m_Sprite" x="-68" y="-83" z="0" width="267" height="267" window_state="4">
+        <sprite_file value="slots_1009/sprites/bomb.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

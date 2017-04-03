@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="youwin.png" width="512" height="512" scale_x="2.5" scale_y="2.5" blend="1" loop="-1">
+    <sprite n="youwin_00000.png" x="257" y="333" w="253" h="74" oX="38" oY="23" oW="329" oH="116" dr="70"/>
+    <sprite n="youwin_00001.png" x="230" y="78" w="74" h="253" oX="38" oY="23" oW="329" oH="116" r="y" dr="70"/>
+    <sprite n="youwin_00002.png" x="154" y="78" w="74" h="253" oX="38" oY="23" oW="329" oH="116" r="y" dr="70"/>
+    <sprite n="youwin_00003.png" x="78" y="78" w="74" h="253" oX="38" oY="23" oW="329" oH="116" r="y" dr="70"/>
+    <sprite n="youwin_00004.png" x="2" y="333" w="253" h="74" oX="38" oY="23" oW="329" oH="116" dr="70"/>
+    <sprite n="youwin_00005.png" x="2" y="78" w="74" h="253" oX="38" oY="23" oW="329" oH="116" r="y" dr="70"/>
+    <sprite n="youwin_00006.png" x="257" y="2" w="253" h="74" oX="38" oY="23" oW="329" oH="116" dr="70"/>
+    <sprite n="youwin_00007.png" x="2" y="2" w="253" h="74" oX="38" oY="23" oW="329" oH="116" dr="70"/>
+</TextureAtlas>

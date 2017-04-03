@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<!--
+  玩家筹码监控
+  
+  	DataMonitor 监视配置	Open:是否打开（0、1）
+		type 1  最终变动幅度  64位整数（100倍）
+			 2	相对变动幅度  64位整数（100倍）
+			 3	正值次数	  整数
+			 4  负值次数	  整数
+			 5	向上波动趋势  64位整数（100倍）
+			 6	向下波动趋势  64位整数（100倍）
+			 7	风险值		  浮点数
+			 8	平均风险值	  浮点数
+			 9  正值次数/负值次数 浮点数
+			 10 当前筹码额	  64位整数
+-->
+<root>
+	<MoneyMonitor Open="1">
+		<WarningConditions Level="3">
+			<WarningConditionGroup Name="3_1">
+				<WarningCondition Type="1" Param1="2000"/>
+				<WarningCondition Type="2" Param1="1000"/>
+				<WarningCondition Type="3" Param1="30"/>
+				<WarningCondition Type="10" Param1="60000"/>
+			</WarningConditionGroup>
+		</WarningConditions>
+		<WarningConditions Level="2">
+			<WarningConditionGroup Name="2_1">
+				<WarningCondition Type="1" Param1="1000"/>
+				<WarningCondition Type="2" Param1="500"/>
+				<WarningCondition Type="3" Param1="30"/>
+				<WarningCondition Type="10" Param1="60000"/>
+			</WarningConditionGroup>
+		</WarningConditions>
+		<WarningConditions Level="1">
+			<WarningConditionGroup Name="1_9">
+				<WarningCondition Type="9" Param1="1.2"/>
+				<WarningCondition Type="3" Param1="30"/>
+				<WarningCondition Type="10" Param1="60000"/>
+			</WarningConditionGroup>
+		</WarningConditions>
+	</MoneyMonitor>
+	
+	<AllRiskValue>
+		<RiskValue From="10000" To="10000" Value="0.5"/>
+		<RiskValue From="10001" To="19999" Value="1"/>
+		<RiskValue From="20000" To="29999" Value="3"/>
+		<RiskValue From="30000" To="39999" Value="3"/>
+		<RiskValue From="40000" To="49999" Value="3"/>
+		<RiskValue From="50000" To="50005" Value="3"/>
+		<RiskValue From="50006" To="59999" Value="5"/>
+	</AllRiskValue>
+</root>

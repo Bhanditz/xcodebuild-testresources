@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="215" height="65" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_JackpotVfx1" x="-16" y="-20" z="0" width="248" height="106" window_state="6">
+        <Particle id="m_Particle" x="181" y="42" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="black_jack/particles/black jack.ptc"/>
+            <particle_name value="blackjack 01"/>
+        </Particle>
+        <Particle id="m_Particle1" x="181" y="42" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="black_jack/particles/black jack.ptc"/>
+            <particle_name value="blackjack 011"/>
+        </Particle>
+        <Particle id="m_Particle2" x="181" y="42" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="black_jack/particles/black jack.ptc"/>
+            <particle_name value="blackjack 02"/>
+        </Particle>
+        <Particle id="m_Particle3" x="181" y="42" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="black_jack/particles/black jack.ptc"/>
+            <particle_name value="blackjack 00 "/>
+        </Particle>
+        <Particle id="m_Particle4" x="181" y="42" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="black_jack/particles/black jack.ptc"/>
+            <particle_name value="blackjack 001"/>
+        </Particle>
+    </Panel>
+    <Panel id="m_Jackpot" x="0" y="0" z="0" width="215" height="65" window_state="65542">
+        <Panel id="m_MaskForLabel" x="-20" y="-10" z="0" width="190" height="90" window_state="262148">
+            <Picture id="m_TextPic" x="22" y="24" z="0" width="194" height="39" window_state="6">
+                <piece_info value="blackjack_icon_037"/>
+                <RichLabel id="m_RichLabel" x="43" y="3" z="0" width="56" height="30" window_state="6">
+                    <text value="BLACKJACK_BLACKJACK_TEXT_BLACKJACK"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_White"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.46000001"/>
+                    <outline_center value="0.44"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Picture id="m_Vfx04" x="-1" y="0" z="0" width="242" height="91" window_state="6">
+                <blend_mode value="2"/>
+                <action_id value="animation_blackjack_21point01"/>
+                <piece_info value="blackjack_vfx04"/>
+            </Picture>
+        </Panel>
+        <Picture id="m_ScorePic" x="127" y="-8" z="0" width="85" height="73" window_state="4">
+            <piece_info value="blackjack_icon_036"/>
+            <RichLabel id="m_ScoreLabel" x="16" y="21" z="0" width="56" height="30" window_state="6">
+                <text value="20"/>
+                <font_size value="40"/>
+                <smooth value="0.039999999"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreLabel2" x="7" y="14" z="0" width="56" height="30" window_state="4">
+                <text value="10"/>
+                <font_size value="26"/>
+                <smooth value="0.039999999"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreLabel1" x="28" y="30" z="0" width="56" height="30" window_state="4">
+                <text value="20"/>
+                <font_size value="26"/>
+                <smooth value="0.039999999"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_ScoreSlashPic" x="0" y="-12" z="0" width="96" height="96" window_state="4">
+                <piece_info value="blackjack_icon_043"/>
+            </Picture>
+        </Picture>
+    </Panel>
+    <Panel id="m_JackpotVfx" x="-16" y="-20" z="0" width="248" height="106" window_state="6">
+        <Sprite id="m_Sprite" x="-34" y="13" z="0" width="240" height="80" window_state="4">
+            <action_id value="animation_blackjack_21point"/>
+            <sprite_file value="black_jack/sprites/blackjack_vfx.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_Vfx01" x="165" y="11" z="0" width="53" height="67" window_state="4">
+            <action_id value="animation_blackjack_21vfx01"/>
+            <piece_info value="blackjack_vfx01"/>
+        </Picture>
+        <Picture id="m_Vfx02" x="155" y="0" z="0" width="75" height="91" window_state="4">
+            <blend_mode value="2"/>
+            <action_id value="animation_blackjack_21vfx02"/>
+            <piece_info value="blackjack_vfx02"/>
+        </Picture>
+        <Picture id="m_Vfx03" x="131" y="-1" z="0" width="110" height="100" window_state="4">
+            <blend_mode value="2"/>
+            <action_id value="animation_blackjack_21vfx03"/>
+            <piece_info value="blackjack_vfx03"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="18" y="28" z="0" width="209" height="56" window_state="260">
+            <blend_mode value="2"/>
+            <action_id value="animation_blackjack_sweep"/>
+            <piece_info value="blackjackmask01"/>
+            <mask_piece value="blackjack_sweep"/>
+            <mask_offset x="0.51999998" y="0" z="0"/>
+        </PictureMask>
+    </Panel>
+</Panel>

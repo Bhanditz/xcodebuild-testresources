@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="-20" z="0" width="1136" height="446" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_JackpotBgPanel" x="59" y="0" z="0" width="1018" height="446" window_state="6">
+        <PictureMask id="m_JackpotBg" x="0" y="0" z="0" width="1018" height="446" window_state="6">
+            <piece_info value="casino_lobby_panel50"/>
+            <mask_piece value="casino_lobby_jackpot_mask"/>
+        </PictureMask>
+        <Picture id="m_PicJackpot" x="376" y="17" z="0" width="266" height="93" window_state="262">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_lobby_panel50a"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_OverflowEffect" x="59" y="0" z="0" width="1018" height="446" window_state="6">
+        <Panel id="m_Pool_1" x="0" y="0" z="0" width="1018" height="446" window_state="6">
+            <Picture id="m_OverflowBG" x="297" y="115" z="0" width="424" height="80" window_state="6">
+                <scale x="1.08" y="1.1" z="1.1"/>
+                <piece_info value="jackpot_marquee"/>
+            </Picture>
+            <Sprite id="m_OverflowSprite" x="193" y="56" z="0" width="625" height="200" window_state="6">
+                <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                <sprite_file value="lobby/sprites/jackpot_marquee.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Picture id="m_OverflowJackpot" x="376" y="17" z="0" width="266" height="93" window_state="262">
+                <scale x="1.25" y="1.25" z="1.25"/>
+                <piece_info value="casino_lobby_panel50a"/>
+            </Picture>
+            <Panel id="m_HighLight" x="0" y="0" z="0" width="1018" height="446" window_state="6">
+                <Picture id="m_HighLight_0" x="34" y="177" z="0" width="77" height="77" window_state="6">
+                    <rotation x="0" y="0" z="0.85521132"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot005_stars"/>
+                    <piece_info value="light_star"/>
+                </Picture>
+                <Picture id="m_HighLight_1" x="163" y="106" z="0" width="77" height="77" window_state="6">
+                    <scale x="0.75" y="0.75" z="0.75"/>
+                    <rotation x="0" y="0" z="0.19198622"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot005_stars"/>
+                    <piece_info value="light_star"/>
+                </Picture>
+                <Picture id="m_HighLight_2" x="788" y="63" z="0" width="77" height="77" window_state="6">
+                    <scale x="0.69" y="0.69" z="0.69"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot005_stars"/>
+                    <piece_info value="light_star"/>
+                </Picture>
+                <Picture id="m_HighLight_3" x="815" y="128" z="0" width="77" height="77" window_state="6">
+                    <rotation x="0" y="0" z="0.85521132"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot005_stars"/>
+                    <piece_info value="light_star"/>
+                </Picture>
+                <Picture id="m_HighLight_4" x="222" y="160" z="0" width="77" height="77" window_state="6">
+                    <scale x="0.56" y="0.56" z="0.56"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot005_stars"/>
+                    <piece_info value="light_star"/>
+                </Picture>
+                <Picture id="m_HighLight_5" x="901" y="82" z="0" width="77" height="77" window_state="6">
+                    <scale x="0.56" y="0.56" z="0.56"/>
+                    <rotation x="0" y="0" z="0.80285144"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot005_stars"/>
+                    <piece_info value="light_star"/>
+                </Picture>
+            </Panel>
+        </Panel>
+    </Panel>
+</Panel>

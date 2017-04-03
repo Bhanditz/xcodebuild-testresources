@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<root>
+	<Jackpot id="1" pieceId="casino_lobby_panel50" fontId="jackpot" textColor="cs_yellowTxt" tag_icon_pieceId="" tag_icon_bg_style="ngs_casino_common_tag6">
+		<overflow_bg_sprite value="lobby/sprites/casino_blue.xml"/>
+		<overflow_light_sprite value="lobby/sprites/casino_marquee.xml"/>
+		<overflow_timeline value="lobby/timelines/lobby_casino_jackpot_overflow.tl"/>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND5" id="5" pieceId="ngs_slots_jackpot_panel02a" fontId="MyraidPro" textColor="cs_PurpleTxt">
+		  <overflow_bg value="purple_mask"/>
+		  <overflow_around value="slots/sprites/purple_frame.xml"/>
+		  <overflow_icon value="slots/sprites/purple diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon0"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND4" id="4" pieceId="ngs_slots_jackpot_panel02b" fontId="MyraidPro" textColor="cs_blue1">
+		  <overflow_bg value="blue_mask"/>
+		  <overflow_around value="slots/sprites/blue_frame.xml"/>
+		  <overflow_icon value="slots/sprites/blue diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon1"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND3" id="3" pieceId="ngs_slots_jackpot_panel02c" fontId="MyraidPro" textColor="cs_lightgreen2">
+		  <overflow_bg value="green_mask"/>
+		  <overflow_around value="slots/sprites/green_frame.xml"/>
+		  <overflow_icon value="slots/sprites/green diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon2"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND2" id="2" pieceId="ngs_slots_jackpot_panel02d" fontId="MyraidPro" textColor="cs_red">
+		  <overflow_bg value="red_mask"/>
+		  <overflow_around value="slots/sprites/red_frame.xml"/>
+		  <overflow_icon value="slots/sprites/red diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon3"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND1" id="1" pieceId="ngs_slots_jackpot_panel02e" fontId="MyraidPro" textColor="cs_yellowTxt">
+		  <overflow_bg value="orange_mask"/>
+		  <overflow_around value="slots/sprites/yellow_frame.xml"/>
+		  <overflow_icon value="slots/sprites/yellow diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon4"/>
+		</SubPool>
+	</Jackpot>
+	<Jackpot id="2" pieceId="casino_lobby_panel50" fontId="jackpot" textColor="cs_yellowTxt" tag_icon_pieceId="" tag_icon_bg_style="ngs_casino_common_tag6a">
+		<overflow_bg_sprite value="lobby/sprites/casino_green.xml"/>
+		<overflow_light_sprite value="lobby/sprites/casino_marquee.xml"/>
+		<overflow_timeline value="lobby/timelines/lobby_casino_jackpot_overflow.tl"/>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND5" id="5" pieceId="ngs_slots_jackpot_panel02a" fontId="MyraidPro" textColor="cs_PurpleTxt">
+		  <overflow_bg value="purple_mask"/>
+		  <overflow_around value="slots/sprites/purple_frame.xml"/>
+		  <overflow_icon value="slots/sprites/purple diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon0"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND4" id="4" pieceId="ngs_slots_jackpot_panel02b" fontId="MyraidPro" textColor="cs_blue1">
+		  <overflow_bg value="blue_mask"/>
+		  <overflow_around value="slots/sprites/blue_frame.xml"/>
+		  <overflow_icon value="slots/sprites/blue diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon1"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND3" id="3" pieceId="ngs_slots_jackpot_panel02c" fontId="MyraidPro" textColor="cs_lightgreen2">
+		  <overflow_bg value="green_mask"/>
+		  <overflow_around value="slots/sprites/green_frame.xml"/>
+		  <overflow_icon value="slots/sprites/green diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon2"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND2" id="2" pieceId="ngs_slots_jackpot_panel02d" fontId="MyraidPro" textColor="cs_red">
+		  <overflow_bg value="red_mask"/>
+		  <overflow_around value="slots/sprites/red_frame.xml"/>
+		  <overflow_icon value="slots/sprites/red diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon3"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND1" id="1" pieceId="ngs_slots_jackpot_panel02e" fontId="MyraidPro" textColor="cs_yellowTxt">
+		  <overflow_bg value="orange_mask"/>
+		  <overflow_around value="slots/sprites/yellow_frame.xml"/>
+		  <overflow_icon value="slots/sprites/yellow diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon4"/>
+		</SubPool>
+	</Jackpot>
+	<Jackpot id="3" pieceId="casino_lobby_panel50" fontId="jackpot" textColor="cs_yellowTxt" tag_icon_pieceId="" tag_icon_bg_style="ngs_casino_common_tag6b">
+		<overflow_bg_sprite value="lobby/sprites/casino_red.xml"/>
+		<overflow_light_sprite value="lobby/sprites/casino_marquee.xml"/>
+		<overflow_timeline value="lobby/timelines/lobby_casino_jackpot_overflow.tl"/>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND5" id="5" pieceId="ngs_slots_jackpot_panel02a" fontId="MyraidPro" textColor="cs_PurpleTxt">
+		  <overflow_bg value="purple_mask"/>
+		  <overflow_around value="slots/sprites/purple_frame.xml"/>
+		  <overflow_icon value="slots/sprites/purple diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon0"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND4" id="4" pieceId="ngs_slots_jackpot_panel02b" fontId="MyraidPro" textColor="cs_blue1">
+		  <overflow_bg value="blue_mask"/>
+		  <overflow_around value="slots/sprites/blue_frame.xml"/>
+		  <overflow_icon value="slots/sprites/blue diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon1"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND3" id="3" pieceId="ngs_slots_jackpot_panel02c" fontId="MyraidPro" textColor="cs_lightgreen2">
+		  <overflow_bg value="green_mask"/>
+		  <overflow_around value="slots/sprites/green_frame.xml"/>
+		  <overflow_icon value="slots/sprites/green diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon2"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND2" id="2" pieceId="ngs_slots_jackpot_panel02d" fontId="MyraidPro" textColor="cs_red">
+		  <overflow_bg value="red_mask"/>
+		  <overflow_around value="slots/sprites/red_frame.xml"/>
+		  <overflow_icon value="slots/sprites/red diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon3"/>
+		</SubPool>
+		<SubPool name="PLATFORM_JACKPOT_DIAMOND1" id="1" pieceId="ngs_slots_jackpot_panel02e" fontId="MyraidPro" textColor="cs_yellowTxt">
+		  <overflow_bg value="orange_mask"/>
+		  <overflow_around value="slots/sprites/yellow_frame.xml"/>
+		  <overflow_icon value="slots/sprites/yellow diamond.xml"/>
+		  <winnerHud_icon value="slots_jackpot_icon4"/>
+		</SubPool>
+	</Jackpot>
+</root>

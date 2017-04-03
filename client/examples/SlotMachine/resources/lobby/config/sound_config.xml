@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="LOBBY_BGM" value="lobby/sound/common_bgm_lobby.ogg"/>
+		<Sound name="LOBBY_CLOSE_BUTTON" value="lobby/sound/common_se_closeui.ogg"/>
+		<Sound name="LOBBY_STORE_BUTTON" value="lobby/sound/common_se_clickstore.ogg"/>
+		<Sound name="LOBBY_OPEN_BUTTON" value="lobby/sound/common_se_openui.ogg"/>
+		<Sound name="LOBBY_ENTER_THEME" value="lobby/sound/common_se_clicktheme.ogg"/>
+		<Sound name="LOBBY_SUB_GAME" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="LOBBY_PRE_PAGE" value="lobby/sound/common_se_turn_page.ogg"/>
+		<Sound name="LOBBY_NEXT_PAGE" value="lobby/sound/common_se_turn_page.ogg"/>
+		<Sound name="COUNTDOWNREWARD_SE_REWARDS" value="lobby/sound/countdownreward_se_rewards.ogg"/>
+		<Sound name="COUNTDOWNREWARD_SE_WAITCLICK" value="lobby/sound/countdownreward_se_waitclick.ogg"/>
+		<Sound name="COUNTDOWNREWARD_SE_START" value="lobby/sound/countdownreward_se_start.ogg"/>
+		<Sound name="COUNTDOWNREWARD_SE_REELSTOP" value="lobby/sound/countdownreward_se_reelstop.ogg"/>
+		<Sound name="COUNTDOWNREWARD_SE_RESULT" value="lobby/sound/countdownreward_se_result.ogg"/>
+		<Sound name="COUNTDOWNREWARD_SE_CLICKRESULT" value="lobby/sound/countdownreward_se_clickresult.ogg"/>
+		<Sound name="LOBBY_PLAYER_LEVEL_UP" value="lobby/sound/common_se_levelup.ogg"/>
+		<Sound name="LOBBY_PLAYER_LEVEL_UP_FIREWORK" value="lobby/sound/common_se_levelupfireworks.ogg"/>
+		<Sound name="COIN_ACCUMULATION_START" value="lobby/sound/common_se_chips_accumulation_start.ogg"/>
+		<Sound name="COIN_ACCUMULATION_END" value="lobby/sound/common_se_chips_accumulation_end.ogg"/>
+		<Sound name="CHARGE_NOTIFY" value="lobby/sound/common_se_successfulpurchase.ogg"/>
+		<Sound name="JACKPOT_HUD_OPEN" value="lobby/sound/common_se_jackpot.ogg"/>
+		<Sound name="EFFECT_CHIP_FLY" value="lobby/sound/common_se_chips_fly.ogg"/>
+		<Sound name="BIGWIN_END" value="slots/sound/common_se_bigwin_end.ogg"/>
+		<Sound name="SUPERWIN_END" value="slots/sound/common_se_superwin_end.ogg"/>
+		<Sound name="MEGAWIN_END" value="slots/sound/common_se_megawin_end.ogg"/>
+		<Sound name="COLLECT_REWARD" value="lobby/sound/common_se_collectaward.ogg"/>
+		<Sound name="GRIDLIST_PAGE_SCROLL" value="lobby/sound/common_se_flipscreen.ogg"/>
+		<Sound name="BIG_WIN_FRONT" value="slots/sound/common_se_bigwin_front.ogg"/>
+		<Sound name="COMMON_BUTTON_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="JACKPOT_LEVEL_UP" value="slots/sound/common_se_jackpot_up.ogg"/>
+		<Sound name="JACKPOT_LEVEL_DOWN" value="slots/sound/common_se_jackpot_down.ogg"/>
+		<Sound name="NEWBIE_BUY_BGM" value="lobby/sound/common_se_newbiepackage.ogg"/>
+		<Sound name="TIMEBONUS_WHEEL_BGM" value="lobby/sound/timebonus_wheelbgm.ogg"/>
+		<Sound name="TIMEBONUS_WHEELCLICK" value="lobby/sound/timebonus_wheelclick.ogg"/>
+		<Sound name="TIMEBONUS_WHEEL_STOP" value="lobby/sound/timebonus_wheelstop.ogg"/>
+	</SoundInfo>
+</SlotsConfig>

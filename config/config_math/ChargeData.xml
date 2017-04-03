@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<!--
+基础订单构成：  基础订单价格，基础订单给予筹码额度   基础订单给予STAR点数
+
+商城充值获得筹码额度：   （基础订单筹码额度+等级附加筹码额度）*（1+VIP加成百分比+运营加成百分比）
+月卡订单首笔筹码额度：   基础订单筹码额度 + 附加值
+月卡促销订单首笔筹码额度：   基础订单筹码额度 + 附加值
+打折促销获得筹码额度：   （基础订单筹码额度+等级附加筹码额度）*（1+VIP加成百分比+运营加成百分比+促销加成百分比）
+-->
+<root>
+
+<!--
+  	基础配置数据
+-->
+<base>
+	<pcid id="13089" basecoin="3000000" />
+	<pcid id="13088" basecoin="1750000" />
+	<pcid id="13087" basecoin="1100000" />
+	<pcid id="13086" basecoin="500000" />
+	<pcid id="13085" basecoin="180000" />
+	<pcid id="13084" basecoin="80000" />
+	<pcid id="13083" basecoin="30000" />
+	<pcid id="13164" basecoin="15000" />
+	<pcid id="13165" basecoin="80000" />
+	<pcid id="13166" basecoin="180000" />
+	<pcid id="13175" basecoin="15000" />
+	<pcid id="13176" basecoin="30000" />
+	<pcid id="13177" basecoin="48000" />
+	<pcid id="13178" basecoin="64000" />
+	<pcid id="13179" basecoin="80000" />
+	<pcid id="13174" basecoin="150000" />
+	<pcid id="13173" basecoin="150000" />
+	<pcid id="13172" basecoin="75000" />
+	<pcid id="13171" basecoin="30000" />
+	<pcid id="13170" basecoin="30000" />
+	<pcid id="13168" basecoin="450000" />
+	<pcid id="13167" basecoin="450000" />
+	<pcid id="13169" basecoin="600000" />
+	<pcid id="13369" basecoin="30000" />
+	<pcid id="13370" basecoin="60000" />
+	<pcid id="13389" basecoin="300000" />
+	<pcid id="13390" basecoin="300000" />
+	<pcid id="13391" basecoin="400000" />
+	<pcid id="13392" basecoin="500000" />
+	<pcid id="13393" basecoin="600000" />
+</base>
+	
+<!--
+等级调整充值额度
+X=基础订单筹码值
+Y=等级增加筹码值
+A=VIP加成
+B=运营加成
+(X+Y)+(X+Y)*(A+B)
+-->
+<levelcharge>
+</levelcharge>
+
+<saletable>
+<!--
+type = 0普通
+type = 1月卡, parm1(天数),
+type = 2终生卡
+type = 3买终生卡送月卡逻辑
+-->
+		<sale saleid="1" pcid="13170" buytimes="1" addpercent="0" type="1" parm1="7" parm2="0" parm3="0" resettime="20160920" /><!-- 7日卡 1 USD -->
+		<sale saleid="2" pcid="13167" buytimes="5" addpercent="0" type="2" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 终身卡限时促销(累积登录7天后) 20 USD -->
+		<sale saleid="3" pcid="13168" buytimes="5" addpercent="0" type="2" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 终身卡 25 USD -->
+		<sale saleid="4" pcid="13173" buytimes="99999" addpercent="0" type="1" parm1="30" parm2="0" parm3="0" resettime="20160920" /><!-- 月卡续费订单 12 USD -->
+		<sale saleid="5" pcid="13174" buytimes="99999" addpercent="0" type="1" parm1="30" parm2="0" parm3="0" resettime="20160920" /><!-- 月卡 15 USD -->
+		<sale saleid="6" pcid="13169" buytimes="1" addpercent="0" type="3" parm1="30" parm2="450000" parm3="150000" resettime="20160920" /><!-- 买一送一 13 USD -->
+		<sale saleid="7" pcid="13164" buytimes="99999" addpercent="0" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单常规不促销 1 USD -->
+		<sale saleid="8" pcid="13165" buytimes="99999" addpercent="0" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单常规不促销 5 USD -->
+		<sale saleid="9" pcid="13166" buytimes="99999" addpercent="0" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单常规不促销 10 USD -->
+		<sale saleid="10" pcid="13164" buytimes="99999" addpercent="100" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单有促销 1 USD -->
+		<sale saleid="11" pcid="13165" buytimes="99999" addpercent="100" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单有促销 5 USD -->
+		<sale saleid="12" pcid="13166" buytimes="99999" addpercent="100" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单有促销 10 USD -->
+		<sale saleid="13" pcid="13083" buytimes="1" addpercent="300" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 2日无消费特价 2 USD -->
+		<sale saleid="14" pcid="13086" buytimes="1" addpercent="200" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 圣诞节3日累计消费促销订单 25 USD -->
+		<sale saleid="15" pcid="13087" buytimes="1" addpercent="200" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 圣诞节3日累计消费促销订单 50 USD -->
+		<sale saleid="16" pcid="13089" buytimes="1" addpercent="200" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 圣诞节3日累计消费促销订单 100 USD -->
+		<sale saleid="17" pcid="13369" buytimes="99999" addpercent="0" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单常规不促销 2 USD 20161230新增-->
+		<sale saleid="18" pcid="13369" buytimes="99999" addpercent="100" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 破产订单有促销 2 USD 20161230新增-->
+		<sale saleid="19" pcid="13084" buytimes="1" addpercent="200" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 新手登录前三日促销订单 5 USD 20161230新增-->
+		<sale saleid="20" pcid="13370" buytimes="1" addpercent="0" type="1" parm1="10" parm2="0" parm3="0" resettime="20160920" /><!-- 10日卡 2 USD -->
+		<sale saleid="21" pcid="13164" buytimes="1" addpercent="100" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 无消费订单 1 USD 20170208新增-->
+		<sale saleid="22" pcid="13369" buytimes="1" addpercent="100" type="0" parm1="0" parm2="0" parm3="0" resettime="20160920" /><!-- 无消费订单 2 USD 20170208新增-->
+		
+</saletable>
+
+<chargeexpbuff expmultiplier="200" version="1.3.2">
+	<expbuff buffid="1">
+		<pcid pcid="13089" bufftime="86400" />
+		<pcid pcid="13088" bufftime="54000" />
+		<pcid pcid="13087" bufftime="36000" />
+		<pcid pcid="13086" bufftime="18000" />
+		<pcid pcid="13085" bufftime="7200" />
+		<pcid pcid="13084" bufftime="3600" />
+		<pcid pcid="13083" bufftime="900" />
+		<pcid pcid="13164" bufftime="300" />
+		<pcid pcid="13165" bufftime="3600" />
+		<pcid pcid="13166" bufftime="7200" />
+		<pcid pcid="13175" bufftime="300" />
+		<pcid pcid="13176" bufftime="900" />
+		<pcid pcid="13177" bufftime="1800" />
+		<pcid pcid="13178" bufftime="2700" />
+		<pcid pcid="13179" bufftime="3600" />
+		<pcid pcid="13174" bufftime="10800" />
+		<pcid pcid="13173" bufftime="9000" />
+		<pcid pcid="13172" bufftime="5400" />
+		<pcid pcid="13171" bufftime="2700" />
+		<pcid pcid="13170" bufftime="300" />
+		<pcid pcid="13168" bufftime="18000" />
+		<pcid pcid="13167" bufftime="14400" />
+		<pcid pcid="13169" bufftime="9000" />
+		<pcid pcid="13369" bufftime="900" />
+		<pcid pcid="13370" bufftime="900" />
+		<pcid pcid="13389" bufftime="10800" />
+		<pcid pcid="13390" bufftime="10800" />
+		<pcid pcid="13391" bufftime="14400" />
+		<pcid pcid="13392" bufftime="18000" />
+		<pcid pcid="13393" bufftime="21600" />
+	</expbuff>
+</chargeexpbuff>
+	
+</root>
+ 

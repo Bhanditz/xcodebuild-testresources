@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanelTitleBar" x="0" y="0" z="0" width="1136" height="83" window_state="6">
+    <Picture id="m_PicBGDoNotUse" x="1" y="4" z="0" width="1136" height="76" window_state="6" style="cs_black">
+        <color_scale x="0.1" y="0.1" z="0.1" w="0.1"/>
+    </Picture>
+    <Button id="m_BtnMenu" x="1039" y="6" z="0" width="78" height="83" window_state="262" style="bs_slot_player_btn02">
+        <outline_color value="null"/>
+        <line_height value="30"/>
+    </Button>
+    <Picture id="m_PicPlay" x="23" y="22" z="0" width="29" height="37" window_state="6">
+        <piece_info value="slot_player_play"/>
+    </Picture>
+    <RichLabel id="m_LblVidOnly" x="63" y="20" z="0" width="256" height="40" window_state="6">
+        <text value="VIDEO ONLY"/>
+        <font_size value="60"/>
+        <text_align_h value="1"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

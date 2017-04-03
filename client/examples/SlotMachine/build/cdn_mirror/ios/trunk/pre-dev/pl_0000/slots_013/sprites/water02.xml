@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="water02.png" width="256" height="256" scale_x="2.4000001" scale_y="2.4000001" blend="2" loop="-1">
+    <sprite n="shui02_00000.png" x="88" y="45" w="41" h="80" oX="11" oY="31" oW="98" oH="95" r="y" dr="120"/>
+    <sprite n="shui02_00001.png" x="209" y="174" w="41" h="80" oX="11" oY="31" oW="98" oH="95" r="y" dr="120"/>
+    <sprite n="shui02_00002.png" x="166" y="174" w="41" h="80" oX="11" oY="31" oW="98" oH="95" r="y" dr="120"/>
+    <sprite n="shui02_00003.png" x="166" y="131" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+    <sprite n="shui02_00004.png" x="166" y="88" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+    <sprite n="shui02_00005.png" x="166" y="45" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+    <sprite n="shui02_00006.png" x="84" y="209" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+    <sprite n="shui02_00007.png" x="45" y="127" w="41" h="80" oX="11" oY="31" oW="98" oH="95" r="y" dr="120"/>
+    <sprite n="shui02_00008.png" x="45" y="45" w="41" h="80" oX="11" oY="31" oW="98" oH="95" r="y" dr="120"/>
+    <sprite n="shui02_00009.png" x="2" y="209" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+    <sprite n="shui02_00010.png" x="2" y="127" w="41" h="80" oX="11" oY="31" oW="98" oH="95" r="y" dr="120"/>
+    <sprite n="shui02_00011.png" x="2" y="45" w="41" h="80" oX="11" oY="31" oW="98" oH="95" r="y" dr="120"/>
+    <sprite n="shui02_00012.png" x="166" y="2" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+    <sprite n="shui02_00013.png" x="84" y="2" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+    <sprite n="shui02_00014.png" x="2" y="2" w="80" h="41" oX="11" oY="31" oW="98" oH="95" dr="120"/>
+</TextureAtlas>

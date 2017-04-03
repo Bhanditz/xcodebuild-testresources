@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="box.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="000" x="318" y="370" w="156" h="138" oX="47" oY="38" oW="200" oH="200" r="y" dr="300"/>
+    <sprite n="001" x="152" y="370" w="164" h="140" oX="45" oY="30" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="002" x="2" y="192" w="148" h="180" oX="37" oY="14" oW="200" oH="200" dr="60"/>
+    <sprite n="003" x="2" y="2" w="164" h="188" oX="21" oY="6" oW="200" oH="200" dr="60"/>
+    <sprite n="004" x="152" y="192" w="174" h="176" oX="11" oY="18" oW="200" oH="200" dr="600"/>
+</TextureAtlas>

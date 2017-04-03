@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="171" height="111" window_state="6">
+    <Picture id="m_Icon_031" x="1" y="-8" z="0" width="170" height="128" window_state="6">
+        <piece_info value="slots_018_icon_031"/>
+    </Picture>
+    <SpineSprite id="m_SpineSprite" x="34" y="9" z="0" width="100" height="100" window_state="6">
+        <action_id value="animation_slot018_wild@animation"/>
+        <spine_file value="slots_018/spine_sprites/wild.json"/>
+        <auto_anim_name value="animation"/>
+    </SpineSprite>
+    <Particle id="m_Particle" x="64" y="121" z="0" width="20" height="20" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots_018/particles/chrismas.ptc"/>
+        <particle_name value="wild"/>
+    </Particle>
+    <Particle id="m_Particle1" x="55" y="47" z="0" width="20" height="20" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots_018/particles/chrismas.ptc"/>
+        <particle_name value="wild2"/>
+    </Particle>
+    <Particle id="m_Particle2" x="113" y="104" z="0" width="20" height="20" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots_018/particles/chrismas.ptc"/>
+        <particle_name value="wild"/>
+    </Particle>
+    <Particle id="m_Particle3" x="106" y="27" z="0" width="20" height="20" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots_018/particles/chrismas.ptc"/>
+        <particle_name value="wild2"/>
+    </Particle>
+    <PictureMask id="m_PictureMask" x="32" y="79" z="0" width="104" height="33" window_state="6">
+        <blend_mode value="2"/>
+        <action_id value="animation_slot018_wildsweep"/>
+        <piece_info value="wild_mask"/>
+        <mask_piece value="wild_sweep"/>
+        <mask_offset x="-0.62" y="0" z="0"/>
+    </PictureMask>
+</Panel>

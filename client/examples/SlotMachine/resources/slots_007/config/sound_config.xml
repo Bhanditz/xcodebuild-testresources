@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_007/sound/Reel spin.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="REEL_READY_STOP" value="slots_007/sound/20 kitty_reel_stop.ogg"/>
+		<Sound name="NEAR_WIN" value="slots_007/sound/24 kitty_reel_near win.ogg"/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_SPINNING" value=""/>
+		<Sound name="REEL_STOP" value=""/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		<!-- Intro -->
+		<Sound name="INTRO" value="slots_007/sound/01_kitty_begin_bgm.ogg" />		
+		
+		<!-- BaseGame -->
+		<Sound name="NORMALGAME_BGM_1" value="slots_007/sound/BaseBGM_01.ogg" />
+		<Sound name="NORMALGAME_BGM_2" value="slots_007/sound/BaseBGM_02.ogg" />
+		<Sound name="NORMALGAME_BGM_3" value="slots_007/sound/BaseBGM_03.ogg" />
+		<Sound name="NORMALGAME_BGM_4" value="slots_007/sound/BaseBGM_04.ogg" />
+		<Sound name="NORMALGAME_BGM_5" value="slots_007/sound/BaseBGM_05.ogg" />
+		<Sound name="NORMALGAME_BGM_6" value="slots_007/sound/BaseBGM_06.ogg" />
+		<Sound name="NORMALGAME_BGM_7" value="slots_007/sound/BaseBGM_07.ogg" />
+		<Sound name="NORMALGAME_BGM_8" value="slots_007/sound/BaseBGM_08.ogg" />
+		<Sound name="NORMALGAME_BGM_9" value="slots_007/sound/BaseBGM_09.ogg" />
+	    <Sound name="NORMALGAME_BGM_10" value="slots_007/sound/BaseBGM_10.ogg" />
+		
+		
+		
+		<!-- FreeGame -->		
+		<Sound name="FREEGAME_BGM" value="slots_007/sound/30 kitty_FREESPIN_bgm01.ogg" />
+		
+		<!-- Effects -->
+		
+		<!-- Scatters -->
+		<Sound name="SCATTER_1" value="slots_007/sound/21 kitty_reel_bonusicon1.ogg"/>
+		<Sound name="SCATTER_2" value="slots_007/sound/22 kitty_reel_bonusicon2.ogg"/>
+		<Sound name="SCATTER_3" value="slots_007/sound/23 kitty_reel_bonusicon3.ogg"/>
+		<Sound name="SCATTER_ALL" value="slots_007/sound/25 kitty_reel_tea 02.ogg" />
+		
+		<!-- Paylines -->
+		<Sound name="PAYLINE_1" value="slots_007/sound/53 kitty_payline 1.ogg"/>
+		<Sound name="PAYLINE_2" value="slots_007/sound/53 kitty_payline 2.ogg"/>
+		
+	</SoundInfo>
+</SlotsConfig>

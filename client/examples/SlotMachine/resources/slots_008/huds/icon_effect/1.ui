@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="165" height="112" window_state="6">
+    <Picture id="ref" x="0" y="-19" z="0" width="165" height="133" window_state="4">
+        <piece_info value="slots_008_icon_011"/>
+    </Picture>
+    <Picture id="bg" x="0" y="0" z="0" width="165" height="112" window_state="6">
+        <piece_info value="slots_008_icon_011bg"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-38" y="-98" z="0" width="240" height="240" window_state="6">
+        <sprite_file value="slots_008/sprites/icon011.spr"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

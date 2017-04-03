@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wild_sg.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="wild_030.png" x="3" y="459" w="114" h="36" oX="55" oY="20" oW="150" oH="150" r="y" dr="82"/>
+    <sprite n="wild_034.png" x="395" y="77" w="114" h="66" oX="37" oY="20" oW="150" oH="150" r="y" dr="82"/>
+    <sprite n="wild_036.png" x="395" y="3" w="114" h="70" oX="35" oY="20" oW="150" oH="150" r="y" dr="82"/>
+    <sprite n="wild_038.png" x="351" y="149" w="142" h="78" oX="35" oY="6" oW="150" oH="150" r="y" dr="82"/>
+    <sprite n="wild_040.png" x="125" y="155" w="92" h="148" oX="27" oY="2" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_042.png" x="119" y="307" w="106" h="148" oX="20" oY="2" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_044.png" x="3" y="307" w="112" h="148" oX="18" oY="2" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_046.png" x="3" y="155" w="118" h="148" oX="12" oY="2" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_048.png" x="3" y="3" w="122" h="148" oX="12" oY="2" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_050.png" x="221" y="151" w="126" h="144" oX="12" oY="6" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_052.png" x="129" y="3" w="128" h="144" oX="10" oY="5" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_054.png" x="261" y="3" w="130" h="142" oX="9" oY="6" oW="150" oH="150" dr="82"/>
+    <sprite n="wild_056.png" x="351" y="231" w="136" h="130" oX="10" oY="9" oW="150" oH="150" r="y" dr="82"/>
+    <sprite n="wild_058.png" x="351" y="365" w="126" h="130" oX="10" oY="14" oW="150" oH="150" r="y" dr="82"/>
+    <sprite n="wild_060.png" x="229" y="299" w="118" h="122" oX="13" oY="18" oW="150" oH="150" r="y" dr="82"/>
+</TextureAtlas>

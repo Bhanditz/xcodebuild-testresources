@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="140" height="406" window_state="6">
+    <Panel id="Mega_Frame" x="-6" y="-32" z="0" width="152" height="471" window_state="6">
+        <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+        <Panel id="Background" x="6" y="10" z="0" width="140" height="450" window_state="6">
+            <Picture id="bg1" x="15" y="5" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg2" x="15" y="51" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg3" x="15" y="96" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg4" x="15" y="140" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg5" x="15" y="187" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg6" x="15" y="232" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg7" x="15" y="279" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg8" x="15" y="325" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+            <Picture id="bg9" x="15" y="352" z="0" width="109" height="93" window_state="6">
+                <piece_info value="slots_006_icon_035"/>
+            </Picture>
+        </Panel>
+        <Panel id="Frame" x="0" y="0" z="0" width="152" height="471" window_state="6">
+            <Picture id="frame_top" x="0" y="0" z="0" width="152" height="40" window_state="6">
+                <piece_info value="slots_006_icon_026"/>
+            </Picture>
+            <Picture id="frame_bottom" x="0" y="431" z="0" width="152" height="40" window_state="6">
+                <piece_info value="slots_006_icon_027"/>
+            </Picture>
+            <Picture id="frame_left" x="0" y="40" z="0" width="23" height="391" window_state="6">
+                <piece_info value="slots_006_icon_033a"/>
+            </Picture>
+            <Picture id="frame_right" x="129" y="40" z="0" width="23" height="391" window_state="6">
+                <piece_info value="slots_006_icon_033b"/>
+            </Picture>
+        </Panel>
+        <Panel id="Zeus_Stack" x="0" y="0" z="0" width="152" height="471" window_state="6">
+            <Picture id="zeus1" x="22" y="10" z="0" width="107" height="90" window_state="6">
+                <piece_info value="slots_006_icon_036"/>
+            </Picture>
+            <Picture id="divider1" x="22" y="75" z="0" width="107" height="38" window_state="6">
+                <piece_info value="slots_006_icon_034"/>
+            </Picture>
+            <Picture id="zeus2" x="22" y="65" z="0" width="107" height="90" window_state="6">
+                <piece_info value="slots_006_icon_036"/>
+            </Picture>
+            <Picture id="divider2" x="22" y="130" z="0" width="107" height="38" window_state="6">
+                <piece_info value="slots_006_icon_034"/>
+            </Picture>
+            <Picture id="zeus3" x="22" y="128" z="0" width="107" height="90" window_state="6">
+                <piece_info value="slots_006_icon_036"/>
+            </Picture>
+            <Picture id="divider3" x="22" y="193" z="0" width="107" height="38" window_state="6">
+                <piece_info value="slots_006_icon_034"/>
+            </Picture>
+            <Picture id="zeus4" x="22" y="188" z="0" width="107" height="90" window_state="6">
+                <piece_info value="slots_006_icon_036"/>
+            </Picture>
+            <Picture id="divider4" x="22" y="254" z="0" width="107" height="38" window_state="6">
+                <piece_info value="slots_006_icon_034"/>
+            </Picture>
+            <Picture id="zeus5" x="22" y="247" z="0" width="107" height="90" window_state="6">
+                <piece_info value="slots_006_icon_036"/>
+            </Picture>
+            <Picture id="divider5" x="22" y="313" z="0" width="107" height="38" window_state="6">
+                <piece_info value="slots_006_icon_034"/>
+            </Picture>
+            <Picture id="zeus6" x="22" y="308" z="0" width="107" height="90" window_state="6">
+                <piece_info value="slots_006_icon_036"/>
+            </Picture>
+            <Picture id="divider6" x="22" y="374" z="0" width="107" height="38" window_state="6">
+                <piece_info value="slots_006_icon_034"/>
+            </Picture>
+            <Picture id="zeus7" x="22" y="368" z="0" width="107" height="90" window_state="6">
+                <piece_info value="slots_006_icon_036"/>
+            </Picture>
+        </Panel>
+        <Panel id="Fullbody" x="0" y="0" z="0" width="152" height="471" window_state="4">
+            <Picture id="zeus7_fullbody" x="21" y="16" z="0" width="109" height="440" window_state="6">
+                <piece_info value="slots_006_icon_039"/>
+            </Picture>
+        </Panel>
+        <Panel id="Wild" x="6" y="10" z="0" width="140" height="450" window_state="4">
+            <Picture id="wild1" x="14" y="328" z="0" width="114" height="48" window_state="4">
+                <action_id value="animation_slot006_icon_012_01"/>
+                <piece_info value="slots_006_icon_040"/>
+            </Picture>
+            <Picture id="wild2" x="14" y="208" z="0" width="114" height="48" window_state="4">
+                <action_id value="animation_slot006_icon_012_01"/>
+                <piece_info value="slots_006_icon_040"/>
+            </Picture>
+            <Picture id="wild3" x="14" y="148" z="0" width="114" height="48" window_state="4">
+                <action_id value="animation_slot006_icon_012_01"/>
+                <piece_info value="slots_006_icon_040"/>
+            </Picture>
+            <Picture id="wild4" x="14" y="28" z="0" width="114" height="48" window_state="4">
+                <action_id value="animation_slot006_icon_012_01"/>
+                <piece_info value="slots_006_icon_040"/>
+            </Picture>
+            <Picture id="wild5" x="14" y="388" z="0" width="114" height="48" window_state="4">
+                <action_id value="animation_slot006_icon_012_01"/>
+                <piece_info value="slots_006_icon_040"/>
+            </Picture>
+            <Picture id="wild6" x="14" y="88" z="0" width="114" height="48" window_state="4">
+                <action_id value="animation_slot006_icon_012_01"/>
+                <piece_info value="slots_006_icon_040"/>
+            </Picture>
+            <Picture id="wild7" x="14" y="268" z="0" width="114" height="48" window_state="4">
+                <action_id value="animation_slot006_icon_012_01"/>
+                <piece_info value="slots_006_icon_040"/>
+            </Picture>
+        </Panel>
+        <Panel id="Animation" x="0" y="0" z="0" width="152" height="471" window_state="4">
+            <Panel id="m_BlendTargetMask" x="21" y="17" z="0" width="109" height="440" window_state="6">
+                <Sprite id="vfx_22_zeus_icon_throwing_fram" x="-3" y="-3" z="0" width="116" height="444" window_state="6">
+                    <scale x="1.01" y="1.01" z="1.01"/>
+                    <sprite_file value="slots_006/sprites/vfx_22_zeus_icon_throwing_fram.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="vfx_22_zeus_icon_throwing_cloud" x="5" y="290" z="0" width="100" height="100" window_state="6">
+                    <scale x="2.2" y="2.2" z="2.2"/>
+                    <sprite_file value="slots_006/sprites/vfx_22_zeus_icon_throwing_cloud.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+            <Picture id="ic_zeus_frame_7_light_00020" x="28" y="59" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_slot006_frame_7_light_01"/>
+                <piece_info value="slots_006_icon_038c"/>
+            </Picture>
+        </Panel>
+        <Panel id="Electric" x="0" y="0" z="0" width="152" height="471" window_state="4">
+            <Sprite id="vfx_13_zeus_icon_lightnings_01" x="-25" y="-31" z="0" width="188" height="106" window_state="6">
+                <sprite_file value="slots_006/sprites/vfx_13_zeus_icon_lightnings_02.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="vfx_13_zeus_icon_lightnings_02" x="-26" y="395" z="0" width="188" height="106" window_state="6">
+                <scale x="1" y="-1" z="1"/>
+                <sprite_file value="slots_006/sprites/vfx_13_zeus_icon_lightnings_02.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="vfx_13_zeus_icon_lightnings_03" x="-35" y="106" z="0" width="212" height="264" window_state="6">
+                <scale x="1.05" y="1.64" z="1.05"/>
+                <sprite_file value="slots_006/sprites/vfx_13_zeus_icon_lightnings_01.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Panel id="m_Spotlights" x="0" y="0" z="0" width="152" height="471" window_state="6">
+                <Picture id="vfx_13_zeus_icon_point01" x="-43" y="-1" z="0" width="96" height="96" window_state="6">
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+                <Picture id="vfx_13_zeus_icon_point02" x="86" y="-5" z="0" width="96" height="96" window_state="6">
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+                <Picture id="vfx_13_zeus_icon_point03" x="91" y="179" z="0" width="96" height="96" window_state="6">
+                    <scale x="0.80000001" y="1" z="1"/>
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+                <Picture id="vfx_13_zeus_icon_point04" x="-44" y="179" z="0" width="96" height="96" window_state="6">
+                    <scale x="0.80000001" y="1" z="1"/>
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+                <Picture id="vfx_13_zeus_icon_point05" x="-43" y="376" z="0" width="96" height="96" window_state="6">
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+                <Picture id="vfx_13_zeus_icon_point06" x="88" y="376" z="0" width="96" height="96" window_state="6">
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+                <Picture id="vfx_13_zeus_icon_point07" x="20" y="412" z="0" width="96" height="96" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+                <Picture id="vfx_13_zeus_icon_point08" x="22" y="-43" z="0" width="96" height="96" window_state="6">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <blend_mode value="2"/>
+                    <piece_info value="vfx_13_zeus_icon_point"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="LightningStrike" x="-2" y="-77" z="0" width="155" height="548" window_state="4">
+            <Sprite id="m_Spr_Strike_top" x="-26" y="-343" z="0" width="200" height="500" window_state="6">
+                <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Spr_hit_top" x="-102" y="-79" z="0" width="350" height="300" window_state="6">
+                <sprite_file value="slots_006/sprites/lightning_hit.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Spr_Strike_bottom" x="-22" y="91" z="0" width="200" height="500" window_state="6">
+                <scale x="1" y="1.1" z="1"/>
+                <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Spr_hit_bottom" x="-102" y="380" z="0" width="350" height="300" window_state="6">
+                <sprite_file value="slots_006/sprites/lightning_hit01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_TopPoint" x="-2" y="-2" z="0" width="155" height="18" window_state="6"/>
+        <Panel id="m_BtmPoint" x="-2" y="459" z="0" width="155" height="18" window_state="6"/>
+    </Panel>
+</Panel>

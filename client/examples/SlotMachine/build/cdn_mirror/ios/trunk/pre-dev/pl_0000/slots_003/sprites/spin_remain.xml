@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="spin_remain.png" width="256" height="256" scale_x="2" scale_y="2" blend="1" loop="-1">
+    <sprite n="00000" x="78" y="158" w="74" h="76" oX="24" oY="60" oW="100" oH="200" r="y" dr="80"/>
+    <sprite n="00001" x="2" y="158" w="74" h="76" oX="24" oY="60" oW="100" oH="200" r="y" dr="80"/>
+    <sprite n="00002" x="154" y="158" w="74" h="74" oX="26" oY="60" oW="100" oH="200" dr="80"/>
+    <sprite n="00004" x="166" y="82" w="76" h="74" oX="24" oY="60" oW="100" oH="200" dr="80"/>
+    <sprite n="00005" x="86" y="80" w="78" h="76" oX="22" oY="58" oW="100" oH="200" dr="80"/>
+    <sprite n="00006" x="2" y="2" w="82" h="78" oX="18" oY="56" oW="100" oH="200" dr="80"/>
+    <sprite n="00007" x="86" y="2" w="80" h="76" oX="20" oY="58" oW="100" oH="200" dr="80"/>
+    <sprite n="00008" x="2" y="82" w="78" h="74" oX="22" oY="60" oW="100" oH="200" dr="80"/>
+    <sprite n="00009" x="168" y="2" w="78" h="78" oX="22" oY="56" oW="100" oH="200" dr="80"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="icon_wild01.png" width="1024" height="1024" blend="1" loop="1">
+    <sprite n="slots_010_icon_012_00001.png" x="810" y="2" w="200" h="550" dr="40"/>
+    <sprite n="slots_010_icon_012_00002.png" x="608" y="2" w="200" h="550" dr="40"/>
+    <sprite n="slots_010_icon_012_00003.png" x="2" y="756" w="550" h="200" r="y" dr="40"/>
+    <sprite n="slots_010_icon_012_00004.png" x="406" y="2" w="200" h="550" dr="40"/>
+    <sprite n="slots_010_icon_012_00005.png" x="204" y="2" w="200" h="550" dr="40"/>
+    <sprite n="slots_010_icon_012_00006.png" x="2" y="554" w="550" h="200" r="y" dr="40"/>
+    <sprite n="slots_010_icon_012_00007.png" x="2" y="2" w="200" h="550" dr="40"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="firewall concept02.png" width="1024" height="1024" scale_x="2.23" scale_y="2.23" blend="1" loop="1">
+    <sprite n="0_00013.png" x="570" y="2" w="289" h="275" oX="22" oY="20" oW="323" oH="329" r="y" dr="100"/>
+    <sprite n="0_00014.png" x="279" y="2" w="289" h="275" oX="22" oY="20" oW="323" oH="329" r="y" dr="100"/>
+    <sprite n="0_00015.png" x="2" y="584" w="275" h="289" oX="22" oY="20" oW="323" oH="329" dr="100"/>
+    <sprite n="0_00016.png" x="2" y="293" w="275" h="289" oX="22" oY="20" oW="323" oH="329" dr="100"/>
+    <sprite n="0_00017.png" x="2" y="2" w="275" h="289" oX="22" oY="20" oW="323" oH="329" dr="100"/>
+    <sprite n="0_00018.png" x="279" y="279" w="269" h="289" oX="27" oY="20" oW="323" oH="329" dr="100"/>
+    <sprite n="0_00019.png" x="279" y="570" w="267" h="289" oX="28" oY="20" oW="323" oH="329" dr="100"/>
+    <sprite n="0_00020.png" x="548" y="570" w="257" h="289" oX="32" oY="20" oW="323" oH="329" dr="100"/>
+</TextureAtlas>

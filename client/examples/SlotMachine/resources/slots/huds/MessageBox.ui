@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <RichLabel id="m_RichLabel" x="59" y="31" z="0" width="1000" height="200" window_state="6" style="ngs_panel_bg">
+        <text value="Insufficient coins"/>
+        <font_size value="100"/>
+        <text_color value="cs_White"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_BtnClose" x="446" y="380" z="0" width="200" height="100" window_state="6" style="bs_casino_lobby_btn02">
+        <text value="Close"/>
+        <font_size value="60"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

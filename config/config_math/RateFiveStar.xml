@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	ITEM_TYPE_COINS      = 1,//筹码
+	ITEM_TYPE_SHOOTOUT   = 2,//shootout门票
+	ITEM_TYPE_MONTH_CARD = 3,//月卡
+	ITEM_TYPE_STAR_EXP   = 4,//STAR经验
+	ITEM_TYPE_MEDAL      = 5,//勋章经验
+-->
+
+<!-- 
+	ratefivestar:评五星
+	minilevel: 等级大于 x 以上
+	times： 
+	
+	clickpraise:点赞送奖励
+	intervalday: x 天内没有弹出过界面，
+	online：在线 x 秒以上。
+-->
+	
+<root>
+	<ratefivestar>
+		<conditions minilevel="20" times="2" />
+		<reward itemtype="1" count="50000" />
+	</ratefivestar>
+	
+	<clickpraise>
+		<conditions intervalday="3" online="600" />
+		<reward itemtype="1" count="20000" />
+	</clickpraise>
+</root>

@@ -1,0 +1,9 @@
+# build platform, can be "android" or "ios"
+PLATFORM="ios"
+
+OPT_COMPRESS_TEXTURE=true
+
+# texture compress format, can be "etc1" or "pvrtc1"
+TEXTURE_COMPRESS_FMT="pvrtc1"
+
+OPT_BUILD_IOS_RESOURCES="true"

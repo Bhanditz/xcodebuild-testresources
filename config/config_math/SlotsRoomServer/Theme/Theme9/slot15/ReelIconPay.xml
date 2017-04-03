@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+	ReelIconPay列图标赔付
+		id: 序列号
+		multipleSymbol：结算符号
+		
+		PayReels: 需要存在此图标的列ID 1开始编号
+				
+		MultipleBetTimes：倍数百分比配置
+				SymbolCount: 赔付比例的附加条件，在图标个数不同的情况下采用不同的赔付比例。
+				Percentage：奖励的百分比
+				Weightage：权重
+	
+-->
+<root>
+	<ReelIconPay id="1" iconID="5">
+		<ReelID>
+			<Reel id="1"/>
+			<Reel id="5"/>
+		</ReelID>
+		<ReelPay>
+			<Pay value="5000" weight="1"/>
+			<Pay value="2000" weight="3"/>
+			<Pay value="1500" weight="6"/>
+			<Pay value="1000" weight="11"/>
+			<Pay value="500" weight="19"/>
+			<Pay value="200" weight="40"/>
+		</ReelPay>
+	</ReelIconPay>
+</root>

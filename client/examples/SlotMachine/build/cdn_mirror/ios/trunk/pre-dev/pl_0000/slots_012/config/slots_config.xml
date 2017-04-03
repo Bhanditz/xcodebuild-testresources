@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="12" game="Fairy Tales">
+		<BonusGames>
+		</BonusGames>
+		<Icons>
+			<Icon id="1" pieceId="slots_012_icon_05a"  bgPieceId="slots_012_icon_05" sprite=""/>		<!-- Unicorn -->
+			<Icon id="2" pieceId="slots_012_icon_04a"  bgPieceId="slots_012_icon_04" sprite=""/>		<!-- Owl -->
+			<Icon id="3" pieceId="slots_012_icon_07a"  bgPieceId="slots_012_icon_07" sprite=""/>     <!-- Hedgehog -->
+			<Icon id="4" pieceId="slots_012_icon_03a"  bgPieceId="slots_012_icon_03" sprite=""/>     <!-- Chameleon -->
+			<Icon id="5" pieceId="slots_012_icon_06a"  bgPieceId="slots_012_icon_06" sprite=""/>		<!-- Snail -->
+			<Icon id="6" pieceId="slots_012_icon_08"  bgPieceId="" sprite=""/>		<!-- octagon -->
+			<Icon id="7" pieceId="slots_012_icon_10" bgPieceId="" sprite=""/>		<!-- spade -->
+			<Icon id="8" pieceId="slots_012_icon_11"  bgPieceId="" sprite=""/>		<!-- heart -->
+			<Icon id="9" pieceId="slots_012_icon_09"  bgPieceId="" sprite=""/>		<!-- club -->
+			<Icon id="10" pieceId="slots_012_icon_12"  bgPieceId="" sprite=""/>		<!-- diamond -->
+			<Icon id="31" pieceId=""  bgPieceId="" sprite="" render_order="1">		<!-- princess -->
+				<GroupIcon uiFile="slots_012/huds/icon_effect/icon_031_2.ui" iconsOnX="1" iconsOnY="2" iconWidth="150" iconHeight="150"/>
+				<GroupIcon uiFile="slots_012/huds/icon_effect/icon_031_3.ui" iconsOnX="1" iconsOnY="3" iconWidth="150" iconHeight="225"/>
+				<GroupIcon uiFile="slots_012/huds/icon_effect/icon_031_4.ui" iconsOnX="1" iconsOnY="4" iconWidth="150" iconHeight="300"/>
+				<GroupIcon uiFile="slots_012/huds/icon_effect/icon_031_5.ui" iconsOnX="1" iconsOnY="5" iconWidth="150" iconHeight="375"/>
+				<GroupIcon uiFile="slots_012/huds/icon_effect/icon_031_6.ui" iconsOnX="1" iconsOnY="6" iconWidth="150" iconHeight="450"/>
+			</Icon>
+			<Icon id="42" pieceId="slots_012_icon_013" bgPieceId="" sprite="" render_order="2"/>		<!-- bonus -->
+		</Icons>
+		<Reel>
+			<!-- near win reel for both basegame and freegame -->
+			<NearWinReel name="basegame" id="3" /> <!-- id starts from 0 -->
+			<NearWinReel name="freegame" id="3" /> <!-- id starts from 0 -->
+			<SpinType name="normal">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.0625"/>
+				<OneReelStopDelayTime value="0.35"/>
+				<OneReelPullDownTime value="0.03"/>
+				<OneReelRollBackTime value="0.06"/>
+				<BestSpinCostTime value="1.2"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.0474"/>
+				<OneReelStopDelayTime value="0.30"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="0.6"/>
+				<NearWinCostTime value="3.2"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.0" pieceId="slots_012_panel_04">
+			//<Payline id="1" lineColor="0xFFFFFFFF" />
+		</Paylines>
+		
+		<Paytables winTextColor="cs_lightgreen" /> 
+	</Theme>
+</SlotsConfig>

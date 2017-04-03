@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<!--
+	id:jackpot等级
+	FixDeposit:固定保底
+	BetMutiplerDepositPercent:下注倍数保底(百分比)
+	LvMutiplerDepositPercent:等级对应基础保底倍数)(百分比)
+	SpinProgressive:奖池一次spin增长百分比
+	WinDepositPercent:赢得保底百分比
+	WinProgressivePercent:赢得spin积累的百分比
+-->
+<root>
+	<JackpotList>
+		<Jackpot id = "1" FixDeposit="0" BetMutiplerDepositPercent="30000" LvMutiplerDepositPercent="0" SpinProgressive="0" WinDepositPercent="100" WinProgressivePercent="0" />
+		<Jackpot id = "2" FixDeposit="0" BetMutiplerDepositPercent="60000" LvMutiplerDepositPercent="0" SpinProgressive="0" WinDepositPercent="100" WinProgressivePercent="0" />
+		<Jackpot id = "3" FixDeposit="0" BetMutiplerDepositPercent="120000" LvMutiplerDepositPercent="0" SpinProgressive="0" WinDepositPercent="100" WinProgressivePercent="0" />
+		<Jackpot id = "4" FixDeposit="0" BetMutiplerDepositPercent="180000" LvMutiplerDepositPercent="0" SpinProgressive="0" WinDepositPercent="100" WinProgressivePercent="0" />
+		<Jackpot id = "5" FixDeposit="0" BetMutiplerDepositPercent="600000" LvMutiplerDepositPercent="0" SpinProgressive="0" WinDepositPercent="100" WinProgressivePercent="0" />
+		<Jackpot id = "6" FixDeposit="0" BetMutiplerDepositPercent="6000000" LvMutiplerDepositPercent="0" SpinProgressive="1" WinDepositPercent="100" WinProgressivePercent="100" />
+	</JackpotList>
+</root>

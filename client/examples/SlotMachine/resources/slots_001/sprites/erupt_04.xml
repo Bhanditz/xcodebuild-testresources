@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="erupt_04.png" width="512" height="512" scale_x="2.5" scale_y="2.5" blend="1" loop="1">
+    <sprite n="00000" x="2" y="426" w="90" h="82" oX="39" oY="52" oW="160" oH="160" dr="60"/>
+    <sprite n="00001" x="142" y="2" w="98" h="128" oX="21" oY="51" oW="160" oH="160" r="y" dr="60"/>
+    <sprite n="00002" x="242" y="2" w="108" h="124" oX="23" oY="39" oW="160" oH="160" r="y" dr="60"/>
+    <sprite n="00003" x="260" y="394" w="90" h="102" oX="32" oY="32" oW="160" oH="160" r="y" dr="60"/>
+    <sprite n="00004" x="260" y="280" w="100" h="112" oX="30" oY="27" oW="160" oH="160" r="y" dr="60"/>
+    <sprite n="00005" x="352" y="106" w="118" h="114" oX="21" oY="20" oW="160" oH="160" dr="60"/>
+    <sprite n="00006" x="138" y="150" w="126" h="128" oX="16" oY="14" oW="160" oH="160" dr="60"/>
+    <sprite n="00007" x="2" y="150" w="134" h="138" oX="11" oY="12" oW="160" oH="160" dr="60"/>
+    <sprite n="00008" x="2" y="2" w="138" h="146" oX="10" oY="7" oW="160" oH="160" dr="60"/>
+    <sprite n="00009" x="132" y="290" w="126" h="134" oX="22" oY="4" oW="160" oH="160" dr="60"/>
+    <sprite n="00010" x="2" y="290" w="128" h="134" oX="21" oY="4" oW="160" oH="160" dr="60"/>
+    <sprite n="00011" x="352" y="2" w="122" h="102" oX="20" oY="7" oW="160" oH="160" dr="60"/>
+</TextureAtlas>

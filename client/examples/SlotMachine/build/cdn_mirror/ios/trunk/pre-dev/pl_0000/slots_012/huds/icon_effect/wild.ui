@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="75" window_state="6">
+    <Picture id="m_Picture" x="0" y="6" z="0" width="149" height="62" window_state="260">
+        <piece_info value="slots_012_fonts_01"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-57" y="-78" z="0" width="280" height="200" window_state="4">
+        <sprite_file value="slots_012/sprites/wild_release.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="-50" y="-27" z="0" width="240" height="120" window_state="6">
+        <sprite_file value="slots_012/sprites/wild_animation.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <PictureMask id="m_PictureMask" x="3" y="8" z="0" width="146" height="58" window_state="6">
+        <blend_mode value="2"/>
+        <action_id value="animation_wild_sweep01"/>
+        <piece_info value="slots_012_wild_mask01"/>
+        <mask_piece value="slots_012_wild_sweep01"/>
+        <mask_offset x="-0.40000001" y="0" z="0"/>
+    </PictureMask>
+    <PictureMask id="m_PictureMask1" x="5" y="11" z="0" width="131" height="43" window_state="6">
+        <blend_mode value="2"/>
+        <action_id value="animation_wild_sweep02"/>
+        <piece_info value="slots_012_wild_mask"/>
+        <mask_piece value="slots_012_wild_sweep"/>
+        <mask_offset x="-0.40000001" y="0" z="0"/>
+    </PictureMask>
+</Panel>

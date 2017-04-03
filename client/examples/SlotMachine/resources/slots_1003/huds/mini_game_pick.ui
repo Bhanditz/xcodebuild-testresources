@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="slots_1003_bg001"/>
+    </Picture>
+    <Picture id="m_Picture1" x="978" y="-4" z="0" width="96" height="96" window_state="6">
+        <piece_info value="slots_1003_panel038"/>
+    </Picture>
+    <Picture id="m_Picture2" x="70" y="-4" z="0" width="96" height="96" window_state="6">
+        <piece_info value="slots_1003_panel038"/>
+    </Picture>
+    <Panel id="m_Cards" x="114" y="174" z="0" width="932" height="458" window_state="6">
+        <Panel id="m_Panel0" x="58" y="47" z="0" width="133" height="181" window_state="6">
+            <Picture id="m_Picture" x="-33" y="0" z="0" width="159" height="154" window_state="262">
+                <piece_info value="slots_1003_panel026"/>
+                <RichLabel id="m_Value" x="-25" y="89" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_1" x="-25" y="89" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_2" x="-25" y="89" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button id="m_Button" x="-65" y="2" z="0" width="230" height="139" window_state="6" style="bs_slots_1003_panel030">
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel1" x="393" y="47" z="0" width="213" height="151" window_state="6">
+            <Picture id="m_Picture" x="22" y="1" z="0" width="159" height="154" window_state="6">
+                <piece_info value="slots_1003_panel026"/>
+                <RichLabel id="m_Value" x="-25" y="85" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_1" x="-25" y="85" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_2" x="-25" y="85" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button id="m_Button" x="-6" y="6" z="0" width="215" height="135" window_state="6" style="bs_slots_1003_panel032">
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel2" x="648" y="47" z="0" width="243" height="151" window_state="6">
+            <Picture id="m_Picture" x="46" y="-1" z="0" width="159" height="154" window_state="262">
+                <piece_info value="slots_1003_panel029"/>
+                <RichLabel id="m_Value" x="-25" y="86" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_1" x="-25" y="86" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_2" x="-25" y="86" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button id="m_Button" x="9" y="10" z="0" width="234" height="131" window_state="6" style="bs_slots_1003_panel033">
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel3" x="63" y="278" z="0" width="213" height="181" window_state="6">
+            <Picture id="m_Picture" x="22" y="5" z="0" width="159" height="154" window_state="262">
+                <piece_info value="slots_1003_panel027"/>
+                <RichLabel id="m_Value" x="-25" y="95" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_1" x="-25" y="95" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_2" x="-25" y="95" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button id="m_Button" x="-7" y="11" z="0" width="217" height="143" window_state="6" style="bs_slots_1003_panel034">
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel4" x="438" y="285" z="0" width="233" height="171" window_state="6">
+            <Picture id="m_Picture" x="36" y="6" z="0" width="159" height="154" window_state="262">
+                <piece_info value="slots_1003_panel028"/>
+                <RichLabel id="m_Value" x="-25" y="95" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_1" x="-25" y="95" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value_Yellow_2" x="-25" y="95" z="0" width="210" height="50" window_state="4">
+                    <text value="999"/>
+                    <font_size value="60"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="3"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button id="m_Button" x="9" y="10" z="0" width="213" height="147" window_state="6" style="bs_slots_1003_panel031">
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+    </Panel>
+    <RichLabel id="m_BonusLabel_1" x="48" y="39" z="0" width="136" height="35" window_state="6">
+        <text value="0"/>
+        <font_size value="35"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_BonusLabel_2" x="48" y="39" z="0" width="136" height="35" window_state="6">
+        <text value="0"/>
+        <font_size value="35"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_StageLabel_1" x="983" y="38" z="0" width="56" height="30" window_state="6">
+        <text value="0"/>
+        <font_size value="35"/>
+        <text_style value="8"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_StageLabel_2" x="983" y="38" z="0" width="56" height="30" window_state="6">
+        <text value="0"/>
+        <font_size value="35"/>
+        <text_style value="8"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_StageMax" x="1010" y="38" z="0" width="56" height="30" window_state="6">
+        <text value="SLOTS_HAPPYFARM2_BASEGAME_MINIGAMEPICK_TEXT_4"/>
+        <font_size value="35"/>
+        <text_style value="8"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel id="m_Message" x="218" y="160" z="0" width="700" height="70" window_state="6">
+        <Grid id="Grid_Top" x="190" y="25" z="0" width="320" height="20" window_state="4" style="ngs_slots_1003_panel037">
+            <scale x="1.7" y="3" z="1"/>
+        </Grid>
+        <RichLabel id="TxtLabel_Top" x="221" y="5" z="0" width="257" height="60" window_state="4">
+            <text value="SLOTS_HAPPYFARM2_BASEGAME_MINIGAMEPICK_TEXT_PICKBOX"/>
+            <font_size value="60"/>
+            <text_style value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_Stage" x="218" y="280" z="0" width="700" height="70" window_state="14">
+        <Grid id="Grid_Center" x="190" y="25" z="0" width="320" height="20" window_state="4" style="ngs_slots_1003_panel037">
+            <scale x="1.7" y="3" z="1"/>
+        </Grid>
+        <RichLabel id="TxtLabel_Center" x="213" y="0" z="0" width="269" height="70" window_state="4">
+            <text value="SLOTS_HAPPYFARM2_BASEGAME_MINIGAMEPICK_TEXT_STAGE1"/>
+            <font_size value="60"/>
+            <text_style value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <RichLabel id="m_RichLabel" x="68" y="11" z="0" width="96" height="30" window_state="6">
+        <text value="SLOTS_HAPPYFARM2_BASEGAME_MINIGAMEPICK_TEXT_BONUS"/>
+        <font_size value="35"/>
+        <text_color value="cs_white_1"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <outline_color value="cs_brown_1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel1" x="977" y="8" z="0" width="96" height="30" window_state="6">
+        <text value="SLOTS_HAPPYFARM2_BASEGAME_MINIGAMEPICK_TEXT_STAGE"/>
+        <font_size value="35"/>
+        <text_color value="cs_white_1"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47999999"/>
+        <outline_color value="cs_brown_1"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

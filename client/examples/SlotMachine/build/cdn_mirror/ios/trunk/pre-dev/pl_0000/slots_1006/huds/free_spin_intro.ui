@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1006_panel029"/>
+    <Picture id="m_Picture" x="315" y="92" z="0" width="523" height="455" window_state="6">
+        <piece_info value="slots_1006_panel027"/>
+    </Picture>
+    <Button id="m_StartBtn" x="480" y="483" z="0" width="202" height="88" window_state="6" style="bs_slots_1006_button017">
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="m_FreeSpinLbl" x="372" y="299" z="0" width="420" height="60" window_state="6">
+        <text value="999"/>
+        <font_size value="90"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="32"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.44"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel" x="503" y="212" z="0" width="157" height="62" window_state="6">
+        <text value="SLOTS_MEOWING20S2_FREESPININTRO_TEXT_YOUWIN"/>
+        <font_size value="50"/>
+        <text_color value="cs_yellowTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.46000001"/>
+        <word_spacing value="1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Picture id="m_FreeSpinPic" x="477" y="442" z="0" width="210" height="55" window_state="4">
+        <piece_info value="slots_1006_panel026"/>
+    </Picture>
+    <RichLabel id="m_RichLabel1" x="503" y="412" z="0" width="157" height="62" window_state="6">
+        <text value="SLOTS_MEOWING20S2_FREESPININTRO_TEXT_FREESPINS"/>
+        <font_size value="59"/>
+        <text_color value="cs_yellowTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.46000001"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

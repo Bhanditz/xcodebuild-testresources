@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value="slots_002/sound/Spartan_freespin.mp3"/>
+		<Sound name="SPIN_CLICK" value="slots_002/sound/effect/Spartan_click.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="REEL_READY_STOP" value="slots_002/sound/effect/Spartan_reelstop.mp3"/>
+		<Sound name="NEAR_WIN" value="slots_002/sound/Spartan_quickspeed.ogg"/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_STOP" value=""/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg" volume="0.6"/>
+		<Sound name="BET1" value="slots_002/sound/effect/Spartan_bet1.mp3"/>
+		<Sound name="BET2" value="slots_002/sound/effect/Spartan_bet2.mp3"/>
+		<Sound name="BET3" value="slots_002/sound/effect/Spartan_bet3.mp3"/>
+		<Sound name="BET4" value="slots_002/sound/effect/Spartan_bet4.mp3"/>
+		<Sound name="BET5" value="slots_002/sound/effect/Spartan_bet5.mp3"/>
+		<Sound name="BET6" value="slots_002/sound/effect/Spartan_bet6.mp3"/>
+		<Sound name="BET7" value="slots_002/sound/effect/Spartan_bet7.mp3"/>
+		
+		<!-- other sounds for each slot -->
+		<Sound name="NORMAL_GAME_BGM" value="slots_002/sound/Spartan_basegame.ogg"/>
+		<Sound name="FREEGAME_TOTALWIN" value="slots_002/sound/Spartan_freespin_totalwin.mp3"/>
+		<Sound name="FREEGAME_BATTLEOVER" value="slots_002/sound/effect/Spartan_voices_battleover.ogg"/>
+		
+		
+		<Sound name="TRIGGER_SCATTER" value="slots_002/sound/Spartan_bonus.mp3"/>
+		<Sound name="NEAR_WIN_SFX" value="slots_002/sound/Spartan_bonus.mp3"/>
+		
+		<Sound name="BLACKBOX_BGM" value="slots_002/sound/effect/Spartan_blackboxbgm.mp3"/>
+		<Sound name="BLACKBOX_START" value="slots_002/sound/effect/Spartan_blackboxstart.mp3"/>
+		<Sound name="BLACKBOX_ROLLING" value="slots_002/sound/effect/Spartan_bgm_blackboxrolling.mp3"/>
+		
+		<Sound name="VOICE_SFX1" value="slots_002/sound/effect/Spartan_voices_arrowsdrawnear.mp3"/>
+		<Sound name="VOICE_SFX2" value="slots_002/sound/effect/Spartan_voices_lockshields.mp3"/>
+		<Sound name="VOICE_SFX3" value="slots_002/sound/effect/Spartan_voices_forgloryoffallen.mp3"/>
+		<Sound name="VOICE_SFX4" value="slots_002/sound/effect/Spartan_voices_freedomawaits.mp3"/>
+		<Sound name="VOICE_SFX5" value="slots_002/sound/effect/Spartan_voices_welldone.mp3"/>
+		
+		<Sound name="PAYLINE" value="slots_002/sound/effect/Spartan_se_smallwin.mp3"/>
+
+		<Sound name="TL_SOUND1" value="slots_002/sound/effect/Spartan_uiopen.ogg"/>
+		<Sound name="TL_SOUND2" value="slots_002/sound/effect/Spartan_2xwild.ogg"/>
+		<Sound name="TL_SOUND3" value="slots_002/sound/effect/Spartan_arrow.ogg"/>
+		<Sound name="TL_SOUND4" value="slots_002/sound/effect/Spartan_arrowfire.ogg"/>
+		<Sound name="TL_SOUND5" value="slots_002/sound/effect/Spartan_arrowfirecut.ogg"/>
+		<Sound name="TL_SOUND6" value="slots_002/sound/effect/Spartan_arrowshot.ogg"/>
+		<Sound name="TL_SOUND7" value="slots_002/sound/effect/Spartan_arrowshotblock.ogg"/>
+		<Sound name="TL_SOUND8" value="slots_002/sound/effect/Spartan_battlefield.ogg"/>
+		<Sound name="TL_SOUND9" value="slots_002/sound/effect/Spartan_bigwinend.ogg"/>
+		<Sound name="TL_SOUND10" value="slots_002/sound/effect/Spartan_bigwinstart.ogg"/>
+        <Sound name="TL_SOUND11" value="slots_002/sound/effect/Spartan_blackboxstop.ogg"/>
+        <Sound name="TL_SOUND12" value="slots_002/sound/effect/Spartan_freespinbgm.ogg"/>
+        <Sound name="TL_SOUND13" value="slots_002/sound/effect/Spartan_se_death.ogg"/>
+        <Sound name="TL_SOUND14" value="slots_002/sound/effect/Spartan_spin.ogg"/>
+        <Sound name="TL_SOUND15" value="slots_002/sound/effect/Spartan_spinnumber.ogg"/>
+        <Sound name="TL_SOUND16" value="slots_002/sound/effect/Spartan_wilddrop.ogg"/>
+        <Sound name="TL_SOUND17" value="slots_002/sound/effect/Spartan_bonus.ogg"/>
+        <Sound name="TL_SOUND18" value="slots_002/sound/effect/Spartan_voices_wintheprize.ogg"/>
+
+
+
+	</SoundInfo>
+</SlotsConfig>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Define>
+	<pbrInfo>
+		<percent0 value = "0"/>
+		<color_scale0 x="1" y="1" z="1" w="1"/>
+		<percent1 value = "0.333"/>
+		<color_scale1 x="1" y="1" z="1" w="1"/>
+		<percent2 value = "0.833"/>
+		<color_scale2 x="7" y="0.8" z="0.7" w="1"/>
+		<percent3 value = "1.0"/>
+		<color_scale3 x="7" y="0.3" z="0.83" w="1"/>
+		<HurryPercent>0.25</HurryPercent>
+	</pbrInfo>
+	<Global>
+		<SavePmMsgCount>99</SavePmMsgCount>
+		<CacheChatMsgCount>99</CacheChatMsgCount>
+		<CacheGameActionCount>99</CacheGameActionCount>
+		<RateAwardCoins>100000</RateAwardCoins>
+	</Global>
+</Define>

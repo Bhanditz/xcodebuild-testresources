@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="volcano_frame_04.png" width="256" height="256" scale_x="2.5" scale_y="2.5" blend="2" loop="1">
+    <sprite n="a00000" x="232" y="2" w="18" h="32" oX="33" oY="38" oW="80" oH="80" dr="60"/>
+    <sprite n="a00001" x="188" y="2" w="42" h="30" oX="25" oY="30" oW="80" oH="80" r="y" dr="60"/>
+    <sprite n="a00002" x="150" y="2" w="36" h="50" oX="21" oY="22" oW="80" oH="80" dr="60"/>
+    <sprite n="a00003" x="142" y="60" w="42" h="54" oX="18" oY="18" oW="80" oH="80" dr="60"/>
+    <sprite n="a00004" x="56" y="2" w="40" h="62" oX="22" oY="10" oW="80" oH="80" dr="60"/>
+    <sprite n="a00005" x="50" y="136" w="44" h="62" oX="18" oY="9" oW="80" oH="80" dr="60"/>
+    <sprite n="a00006" x="2" y="136" w="46" h="62" oX="16" oY="8" oW="80" oH="80" dr="60"/>
+    <sprite n="a00007" x="2" y="70" w="52" h="64" oX="12" oY="6" oW="80" oH="80" dr="60"/>
+    <sprite n="a00008" x="2" y="2" w="52" h="66" oX="13" oY="4" oW="80" oH="80" dr="60"/>
+    <sprite n="a00009" x="62" y="200" w="56" h="54" oX="13" oY="12" oW="80" oH="80" r="y" dr="60"/>
+    <sprite n="a00010" x="2" y="200" w="58" h="54" oX="10" oY="14" oW="80" oH="80" dr="60"/>
+    <sprite n="a00011" x="96" y="126" w="54" h="54" oX="16" oY="14" oW="80" oH="80" dr="60"/>
+    <sprite n="a00012" x="98" y="2" w="50" h="56" oX="16" oY="18" oW="80" oH="80" r="y" dr="60"/>
+    <sprite n="a00013" x="92" y="66" w="48" h="58" oX="15" oY="20" oW="80" oH="80" r="y" dr="60"/>
+    <sprite n="a00014" x="56" y="66" w="34" h="60" oX="14" oY="24" oW="80" oH="80" r="y" dr="60"/>
+    <sprite n="a00015" x="56" y="128" w="0" h="0" oW="80" oH="80" dr="200"/>
+</TextureAtlas>

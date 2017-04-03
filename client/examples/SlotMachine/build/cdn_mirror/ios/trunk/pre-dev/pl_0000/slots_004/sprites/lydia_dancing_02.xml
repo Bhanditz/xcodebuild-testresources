@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:47dd81a55b7f2df4339cf4d906e7cc60$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="lydia_dancing_02.png" width="1024" height="1024">
+    <sprite n="00009" x="2" y="2" w="194" h="460" oX="60" oY="20" oW="300" oH="500"/>
+    <sprite n="00010" x="2" y="464" w="198" h="456" oX="63" oY="18" oW="300" oH="500"/>
+    <sprite n="00011" x="198" y="2" w="208" h="448" oX="63" oY="27" oW="300" oH="500"/>
+    <sprite n="00012" x="202" y="452" w="180" h="442" oX="67" oY="37" oW="300" oH="500"/>
+    <sprite n="00013" x="408" y="2" w="182" h="436" oX="62" oY="50" oW="300" oH="500"/>
+    <sprite n="00014" x="384" y="452" w="212" h="436" oX="52" oY="52" oW="300" oH="500"/>
+</TextureAtlas>

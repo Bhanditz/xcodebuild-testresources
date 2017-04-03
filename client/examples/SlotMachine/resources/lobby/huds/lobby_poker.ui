@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="253" y="274" z="0" width="1136" height="446" window_state="6">
+    <Panel id="m_PanelPlay" x="0" y="-20" z="0" width="1136" height="446" window_state="6" style="ngs_panel_bg">
+        <Button implement_class="ButtonPokerRoomItem" id="m_BtnRoom0" x="50" y="40" z="0" width="268" height="385" window_state="6" style="ngs_poker_lobby_button_019">
+            <rotation x="0" y="-0.20943952" z="0"/>
+            <line_height value="30"/>
+            <PictureMirror id="m_PicBg" x="19" y="18" z="0" width="230" height="257" window_state="14">
+                <piece_info value="poker_lobby_room_type_0"/>
+            </PictureMirror>
+            <Picture id="m_Picture" x="66" y="62" z="0" width="135" height="148" window_state="14">
+                <scale x="1.2" y="1.2" z="1.2"/>
+                <piece_info value="casino_common_icon02"/>
+                <Picture id="m_Picture" x="7" y="117" z="0" width="135" height="41" window_state="14">
+                    <piece_info value="poker_shadow"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Title" x="53" y="222" z="0" width="162" height="38" window_state="14">
+                <scale x="1.05" y="1.05" z="1.05"/>
+                <piece_info value="poker_lobby_room_type_1a"/>
+            </Picture>
+            <Panel id="m_PanelExpand" x="29" y="286" z="0" width="120" height="63" window_state="14">
+                <RichLabel id="m_LblInfo" x="3" y="37" z="0" width="100" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="2" y="9" z="0" width="409" height="30" window_state="262">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_MAXBUYIN"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="177" y="278" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPokerRoomItem" id="m_BtnRoom1" x="305" y="41" z="30" width="268" height="385" window_state="6" style="ngs_poker_lobby_button_019">
+            <rotation x="0" y="-0.034906585" z="0"/>
+            <color_scale x="1" y="1" z="1" w="1.01"/>
+            <line_height value="30"/>
+            <PictureMirror id="m_PicBg" x="19" y="18" z="0" width="230" height="257" window_state="14">
+                <piece_info value="poker_lobby_room_type_0a"/>
+            </PictureMirror>
+            <Picture id="m_Picture" x="54" y="44" z="0" width="159" height="172" window_state="14">
+                <scale x="1.15" y="1.15" z="1.15"/>
+                <piece_info value="poker_lobby_room_type_2"/>
+            </Picture>
+            <Picture id="m_Title" x="53" y="222" z="0" width="162" height="38" window_state="14">
+                <scale x="1.05" y="1.05" z="1.05"/>
+                <piece_info value="poker_lobby_room_type_2a"/>
+            </Picture>
+            <Panel id="m_PanelExpand" x="29" y="288" z="0" width="120" height="63" window_state="14">
+                <RichLabel id="m_LblInfo" x="1" y="35" z="0" width="127" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="2" y="7" z="0" width="373" height="30" window_state="262">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_ENTRY"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="177" y="278" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPokerRoomItem" id="m_BtnRoom2" x="562" y="41" z="30" width="268" height="385" window_state="6" style="ngs_poker_lobby_button_019">
+            <rotation x="0" y="0.034906585" z="0"/>
+            <color_scale x="1" y="1" z="1" w="1.01"/>
+            <line_height value="30"/>
+            <PictureMirror id="m_PicBg" x="19" y="18" z="0" width="230" height="257" window_state="14">
+                <piece_info value="poker_lobby_room_type_0b"/>
+            </PictureMirror>
+            <Picture id="m_Picture" x="52" y="38" z="0" width="163" height="171" window_state="270">
+                <scale x="1.2" y="1.2" z="1.2"/>
+                <piece_info value="poker_lobby_room_type_3"/>
+            </Picture>
+            <Picture id="m_Title" x="53" y="222" z="0" width="162" height="38" window_state="14">
+                <scale x="1.05" y="1.05" z="1.05"/>
+                <piece_info value="poker_lobby_room_type_3a"/>
+            </Picture>
+            <Panel id="m_PanelExpand" x="29" y="278" z="0" width="120" height="73" window_state="14">
+                <RichLabel id="m_LblInfo" x="2" y="44" z="0" width="127" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="2" y="17" z="0" width="72" height="30" window_state="262">
+                    <text value="ROUND 3"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="177" y="278" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPokerRoomItem" id="m_BtnRoom3" x="817" y="40" z="0" width="268" height="385" window_state="6" style="ngs_poker_lobby_button_019">
+            <rotation x="0" y="0.2443461" z="0"/>
+            <line_height value="30"/>
+            <PictureMirror id="m_PicBg" x="19" y="18" z="0" width="230" height="257" window_state="14">
+                <piece_info value="poker_lobby_room_type_0c"/>
+            </PictureMirror>
+            <Picture id="m_Picture" x="62" y="52" z="0" width="143" height="176" window_state="14">
+                <scale x="1.1" y="1.1" z="1.1"/>
+                <piece_info value="poker_lobby_room_type_4"/>
+            </Picture>
+            <Picture id="m_Title" x="44" y="222" z="0" width="180" height="34" window_state="14">
+                <scale x="1.05" y="1.05" z="1.05"/>
+                <piece_info value="poker_lobby_room_type_4a"/>
+            </Picture>
+            <Panel id="m_PanelExpand" x="27" y="262" z="0" width="170" height="63" window_state="14">
+                <RichLabel id="m_LblInfo" x="3" y="24" z="0" width="127" height="25" window_state="4">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <text_style value="32"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="42" y="36" z="0" width="130" height="25" window_state="6">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_SELECT"/>
+                    <text_color value="cs_lightgrey"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="147" y="269" z="0" width="78" height="83" window_state="4" style="bs_casino_common_btn01">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+        </Button>
+        <RichLabel id="m_LblLobby" x="268" y="6" z="0" width="600" height="40" window_state="6">
+            <text value="TEXASPOKER_PDLOBBY_TITLE"/>
+            <font_size value="55"/>
+            <text_color value="cs_White"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel implement_class="PanelLobbyStarEffect" id="m_PanelStarEffect" x="518" y="150" z="0" width="100" height="100" window_state="14">
+        <scale x="1.05" y="1.05" z="1.05"/>
+        <Picture id="m_star1" x="-421" y="76" z="0" width="70" height="70" window_state="6">
+            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+            <action_id value="Ingame_StarEffect01"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+        <Picture id="m_star2" x="-282" y="53" z="0" width="70" height="70" window_state="6">
+            <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+            <action_id value="Ingame_StarEffect02"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+        <Picture id="m_star3" x="-137" y="55" z="0" width="70" height="70" window_state="6">
+            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+            <action_id value="Ingame_StarEffect01"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+        <Picture id="m_star4" x="-50" y="78" z="0" width="70" height="70" window_state="6">
+            <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+            <action_id value="Ingame_StarEffect02"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+        <Picture id="m_star5" x="98" y="73" z="0" width="70" height="70" window_state="6">
+            <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+            <action_id value="Ingame_StarEffect01"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+        <Picture id="m_star6" x="174" y="57" z="0" width="70" height="70" window_state="6">
+            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+            <action_id value="Ingame_StarEffect02"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+        <Picture id="m_star7" x="298" y="56" z="0" width="70" height="70" window_state="6">
+            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+            <action_id value="Ingame_StarEffect01"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+        <Picture id="m_star8" x="417" y="77" z="0" width="70" height="70" window_state="6">
+            <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+            <action_id value="Ingame_StarEffect02"/>
+            <piece_info value="poker_lobby_star"/>
+        </Picture>
+    </Panel>
+</Panel>

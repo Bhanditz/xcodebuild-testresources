@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_BaseGame" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_Background" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+        <Panel id="m_Basegame" x="0" y="0" z="0" width="1136" height="640" window_state="262150">
+            <Panel id="m_Bg" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+                <Picture id="m_Bg_01" x="327" y="-5" z="0" width="665" height="268" window_state="6">
+                    <scale x="1.66" y="1.66" z="1.66"/>
+                    <piece_info value="slots_010_bg_01"/>
+                </Picture>
+                <Panel id="m_Bg_02" x="0" y="0" z="0" width="1136" height="380" window_state="6">
+                    <Picture id="m_Bg_02a" x="35" y="0" z="0" width="290" height="190" window_state="6">
+                        <scale x="2" y="2" z="2"/>
+                        <piece_info value="slots_010_bg_02a"/>
+                    </Picture>
+                    <Picture id="m_Bg_02b" x="850" y="0" z="0" width="265" height="190" window_state="6">
+                        <scale x="2" y="2" z="2"/>
+                        <piece_info value="slots_010_bg_02b"/>
+                    </Picture>
+                </Panel>
+                <Picture id="m_Bg_03" x="87" y="194" z="0" width="289" height="127" window_state="6">
+                    <piece_info value="slots_010_bg_03"/>
+                </Picture>
+                <Picture id="m_Bg_04a" x="-111" y="154" z="0" width="411" height="190" window_state="6">
+                    <piece_info value="slots_010_bg_04a"/>
+                </Picture>
+                <Picture id="m_Bg_04b" x="828" y="84" z="0" width="419" height="248" window_state="6">
+                    <piece_info value="slots_010_bg_04b"/>
+                </Picture>
+                <Picture id="m_Bg_05a" x="-112" y="166" z="0" width="393" height="160" window_state="6">
+                    <piece_info value="slots_010_bg_05a"/>
+                </Picture>
+                <Picture id="m_Bg_05b" x="951" y="175" z="0" width="296" height="200" window_state="6">
+                    <piece_info value="slots_010_bg_05b"/>
+                </Picture>
+                <Picture id="m_Bg_06" x="371" y="99" z="0" width="358" height="181" window_state="6">
+                    <piece_info value="slots_010_bg_06"/>
+                </Picture>
+                <Panel id="m_Bg_07" x="0" y="228" z="0" width="1136" height="170" window_state="6">
+                    <Picture id="m_Bg_07a" x="0" y="57" z="0" width="212" height="95" window_state="6">
+                        <piece_info value="slots_010_bg_07a"/>
+                    </Picture>
+                    <Picture id="m_Bg_07b" x="167" y="-4" z="0" width="712" height="167" window_state="6">
+                        <piece_info value="slots_010_bg_07b"/>
+                    </Picture>
+                    <Picture id="m_Bg_07c" x="867" y="74" z="0" width="269" height="78" window_state="6">
+                        <piece_info value="slots_010_bg_07c"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Bg_08" x="0" y="296" z="0" width="1136" height="160" window_state="6">
+                    <Picture id="m_Bg_08" x="0" y="79" z="0" width="1136" height="90" window_state="6">
+                        <piece_info value="slots_010_bg_08"/>
+                    </Picture>
+                    <Picture id="m_Bg_08e" x="195" y="53" z="0" width="572" height="55" window_state="6">
+                        <piece_info value="slots_010_bg_08e"/>
+                    </Picture>
+                    <Picture id="m_Bg_08a" x="0" y="34" z="0" width="42" height="114" window_state="6">
+                        <piece_info value="slots_010_bg_08a"/>
+                    </Picture>
+                    <Picture id="m_Bg_08b" x="858" y="35" z="0" width="62" height="123" window_state="6">
+                        <piece_info value="slots_010_bg_08b"/>
+                    </Picture>
+                    <Picture id="m_Bg_08c" x="971" y="26" z="0" width="61" height="113" window_state="6">
+                        <piece_info value="slots_010_bg_08c"/>
+                    </Picture>
+                    <Picture id="m_Bg_08d" x="1067" y="5" z="0" width="59" height="105" window_state="6">
+                        <piece_info value="slots_010_bg_08d"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Bg_09" x="0" y="320" z="0" width="1136" height="320" window_state="6">
+                    <Picture id="m_Bg_09" x="0" y="140" z="0" width="1136" height="180" window_state="6">
+                        <piece_info value="slots_010_bg_09"/>
+                    </Picture>
+                    <Picture id="m_Bg_09a" x="867" y="111" z="0" width="197" height="99" window_state="6">
+                        <piece_info value="slots_010_bg_09a"/>
+                    </Picture>
+                    <Picture id="m_Bg_09b" x="57" y="132" z="0" width="65" height="188" window_state="6">
+                        <piece_info value="slots_010_bg_09b"/>
+                    </Picture>
+                    <Picture id="m_Bg_09c" x="206" y="18" z="0" width="79" height="157" window_state="6">
+                        <piece_info value="slots_010_bg_09c"/>
+                    </Picture>
+                    <Picture id="m_Bg_09b_2" x="226" y="161" z="0" width="65" height="188" window_state="6">
+                        <piece_info value="slots_010_bg_09b"/>
+                    </Picture>
+                    <Picture id="m_Bg_09d" x="405" y="33" z="0" width="64" height="170" window_state="6">
+                        <piece_info value="slots_010_bg_09d"/>
+                    </Picture>
+                    <Picture id="m_Bg_09e" x="729" y="15" z="0" width="73" height="144" window_state="6">
+                        <piece_info value="slots_010_bg_09e"/>
+                    </Picture>
+                    <Picture id="m_Bg_09f" x="666" y="112" z="0" width="88" height="44" window_state="6">
+                        <piece_info value="slots_010_bg_09f"/>
+                    </Picture>
+                    <Picture id="m_Bg_09g" x="578" y="128" z="0" width="42" height="21" window_state="6">
+                        <piece_info value="slots_010_bg_09g"/>
+                    </Picture>
+                    <Picture id="m_Bg_09h" x="511" y="133" z="0" width="42" height="21" window_state="6">
+                        <piece_info value="slots_010_bg_09h"/>
+                    </Picture>
+                    <Picture id="m_Bg_09i" x="317" y="116" z="0" width="73" height="34" window_state="6">
+                        <piece_info value="slots_010_bg_09i"/>
+                    </Picture>
+                </Panel>
+            </Panel>
+            <Particle id="fog" x="363" y="518" z="0" width="20" height="20" window_state="6">
+                <particle_state value="0"/>
+                <package_file value="slots_010/particles/lizi.ptc"/>
+                <particle_name value="fog"/>
+            </Particle>
+        </Panel>
+        <Panel id="m_Firing" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <Sprite id="m_CameraA_1" x="770" y="180" z="0" width="100" height="100" window_state="4">
+                <scale x="1.8" y="1" z="1"/>
+                <rotation x="0" y="3.1415927" z="-0.34906584"/>
+                <sprite_file value="slots_010/sprites/camera01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_CameraB_2" x="245" y="145" z="0" width="100" height="100" window_state="4">
+                <scale x="1.3" y="1" z="1"/>
+                <rotation x="0" y="0" z="0.52359879"/>
+                <sprite_file value="slots_010/sprites/camera02.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_CameraB_3" x="760" y="270" z="0" width="100" height="100" window_state="4">
+                <scale x="1.2" y="1" z="1"/>
+                <rotation x="0" y="3.1415927" z="0"/>
+                <sprite_file value="slots_010/sprites/camera02.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_CameraA_4" x="165" y="240" z="0" width="100" height="100" window_state="4">
+                <sprite_file value="slots_010/sprites/camera01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_CameraB_5" x="690" y="92" z="0" width="100" height="100" window_state="4">
+                <scale x="1.2" y="1" z="1"/>
+                <rotation x="0" y="3.1415927" z="-0.2617994"/>
+                <sprite_file value="slots_010/sprites/camera02.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_CameraB_6" x="230" y="70" z="0" width="100" height="100" window_state="4">
+                <scale x="1.15" y="1" z="1"/>
+                <rotation x="0" y="0" z="0.43633232"/>
+                <sprite_file value="slots_010/sprites/camera02.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_CameraA_7" x="230" y="200" z="0" width="100" height="100" window_state="4">
+                <scale x="1.3" y="1" z="1"/>
+                <rotation x="0" y="0" z="0.2617994"/>
+                <sprite_file value="slots_010/sprites/camera01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_CameraA_8" x="835" y="268" z="0" width="100" height="100" window_state="4">
+                <scale x="1.3" y="1" z="1"/>
+                <rotation x="0" y="3.1415927" z="0"/>
+                <sprite_file value="slots_010/sprites/camera01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom1" x="660" y="216" z="0" width="100" height="100" window_state="4">
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom2" x="403" y="237" z="0" width="100" height="100" window_state="4">
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom3" x="591" y="272" z="0" width="100" height="100" window_state="4">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom4" x="228" y="232" z="0" width="100" height="100" window_state="4">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom5" x="538" y="132" z="0" width="100" height="100" window_state="4">
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom6" x="373" y="147" z="0" width="100" height="100" window_state="4">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom7" x="309" y="221" z="0" width="100" height="100" window_state="4">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Boom8" x="744" y="267" z="0" width="100" height="100" window_state="4">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <sprite_file value="slots_010/sprites/boom.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Picture id="m_Flare2" x="450" y="170" z="0" width="234" height="173" window_state="4">
+            <scale x="2.5" y="2.5" z="2.5"/>
+            <color_scale x="1" y="1" z="1" w="0.80000001"/>
+            <blend_mode value="2"/>
+            <piece_info value="slots_010_vfx_005"/>
+        </Picture>
+        <Picture id="m_Flare1" x="288" y="220" z="0" width="559" height="90" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="slots_010_vfx_004"/>
+        </Picture>
+    </Panel>
+    <Particle id="spark" x="700" y="620" z="0" width="20" height="20" window_state="6">
+        <scale x="1.2" y="1.2" z="1.2"/>
+        <particle_state value="0"/>
+        <package_file value="slots_010/particles/lizi.ptc"/>
+        <particle_name value="spark3"/>
+    </Particle>
+    <Particle id="spark1" x="940" y="520" z="0" width="20" height="20" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots_010/particles/lizi.ptc"/>
+        <particle_name value="spark3"/>
+    </Particle>
+    <Particle id="spark2" x="-120" y="620" z="0" width="20" height="20" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots_010/particles/lizi.ptc"/>
+        <particle_name value="spark3"/>
+    </Particle>
+    <Picture id="m_Logo" x="222" y="-21" z="0" width="814" height="110" window_state="6">
+        <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+        <piece_info value="slots_010_logo"/>
+    </Picture>
+    <Picture id="m_Flare3" x="512" y="-50" z="0" width="234" height="173" window_state="4">
+        <scale x="3.5" y="2" z="2.5"/>
+        <color_scale x="1" y="1" z="1" w="0.80000001"/>
+        <blend_mode value="2"/>
+        <piece_info value="slots_010_vfx_005"/>
+    </Picture>
+    <Picture id="m_PayLabel" x="1046" y="235" z="0" width="84" height="76" window_state="6">
+        <piece_info value="slots_010_panel_008"/>
+    </Picture>
+    <Sprite id="m_SpriteNearWinOutline" x="712" y="20" z="0" width="400" height="600" window_state="4">
+        <anchor_point x="0.5" y="0.87" z="0"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Panel id="m_LayerSpinPanelForeground" x="0" y="0" z="0" width="1136" height="640" window_state="4"/>
+    <Panel id="m_LayerGameForeground" x="0" y="0" z="0" width="1136" height="640" window_state="12"/>
+    <Panel id="m_LayerUIBackground" x="0" y="0" z="0" width="1136" height="640" window_state="12"/>
+    <Panel id="m_LayerUIForeground" x="0" y="0" z="0" width="1136" height="640" window_state="12"/>
+</Panel>

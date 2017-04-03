@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!--
+  全局Jackpot配置
+  		JackpotPool 奖池配置
+  			Pool奖池
+  				InputInterval注资时间间隔
+  				InputMinCoin注资限额
+				InputMaxCoin注资上限
+  			SubPool子奖池
+  				BasePoolCoin底池额度
+  				InputPercentage注资比例
+  				WinInterval中奖时间间隔
+  				WinPercentage中奖比例
+  				HighPoolCoin高赔率上限
+  				HighWinPercentage高赔率比例
+  		JackpotTheme 奖池相关主题配置
+  				Theme 主题配置
+  					id主题id
+  					PoolID奖池id
+  					WinPossibility中奖率
+  					BetInput注资比例
+  					WinBet下注档次
+  					
+-->
+<root>
+	<JackpotPool>
+			<Pool id="1" InputInterval="60" InputMinCoin="3000" InputMaxCoin="100000">
+				<SubPool id="2" BasePoolCoin="500000" InputPercentage="10" WinInterval="60" WinPercentage="100" HighPoolCoin="1000000000000" HighWinPercentage="100"/>
+				<SubPool id="3" BasePoolCoin="5000000" InputPercentage="25" WinInterval="600" WinPercentage="100" HighPoolCoin="1000000000000" HighWinPercentage="100"/>
+				<SubPool id="4" BasePoolCoin="20000000" InputPercentage="25" WinInterval="3600" WinPercentage="100" HighPoolCoin="1000000000000" HighWinPercentage="100"/>
+				<SubPool id="5" BasePoolCoin="120000000" InputPercentage="40" WinInterval="86400" WinPercentage="100" HighPoolCoin="1000000000000" HighWinPercentage="100"/>
+			</Pool>
+	</JackpotPool>
+	<JackpotTheme>
+			<Theme id="18" PoolID="1" WinPossibility="30000000">
+				<BetInput BetValue="600" InputRate="100"/>
+				<BetInput BetValue="1200" InputRate="100"/>
+				<BetInput BetValue="6000" InputRate="100"/>
+				<BetInput BetValue="20000" InputRate="100"/>
+									
+				<WinBet BetValue="600" SubPoolRate="1"/>
+				<WinBet BetValue="1200" SubPoolRate="2"/>
+				<WinBet BetValue="6000" SubPoolRate="3"/>
+				<WinBet BetValue="20000" SubPoolRate="4"/>
+			</Theme>
+			<Theme id="2" PoolID="1" WinPossibility="30000000">
+				<BetInput BetValue="600" InputRate="100"/>
+				<BetInput BetValue="1200" InputRate="100"/>
+				<BetInput BetValue="6000" InputRate="100"/>
+				<BetInput BetValue="20000" InputRate="100"/>
+									
+				<WinBet BetValue="600" SubPoolRate="1"/>
+				<WinBet BetValue="1200" SubPoolRate="2"/>
+				<WinBet BetValue="6000" SubPoolRate="3"/>
+				<WinBet BetValue="20000" SubPoolRate="4"/>
+			</Theme>
+			<Theme id="5" PoolID="1" WinPossibility="30000000">
+				<BetInput BetValue="600" InputRate="100"/>
+				<BetInput BetValue="1200" InputRate="100"/>
+				<BetInput BetValue="6000" InputRate="100"/>
+				<BetInput BetValue="20000" InputRate="100"/>
+									
+				<WinBet BetValue="600" SubPoolRate="1"/>
+				<WinBet BetValue="1200" SubPoolRate="2"/>
+				<WinBet BetValue="6000" SubPoolRate="3"/>
+				<WinBet BetValue="20000" SubPoolRate="4"/>
+			</Theme>
+			<Theme id="3" PoolID="1" WinPossibility="30000000">
+				<BetInput BetValue="600" InputRate="100"/>
+				<BetInput BetValue="1200" InputRate="100"/>
+				<BetInput BetValue="6000" InputRate="100"/>
+				<BetInput BetValue="20000" InputRate="100"/>
+									
+				<WinBet BetValue="600" SubPoolRate="1"/>
+				<WinBet BetValue="1200" SubPoolRate="2"/>
+				<WinBet BetValue="6000" SubPoolRate="3"/>
+				<WinBet BetValue="20000" SubPoolRate="4"/>
+			</Theme>
+	</JackpotTheme>
+	
+	<SubPoolRates>
+		<SubPoolRate id="1">
+			<Rate SubPoolID="0" Weight="9200" HighWeight="9200"/>
+			<Rate SubPoolID="2" Weight="800" HighWeight="800"/>
+		</SubPoolRate>
+		<SubPoolRate id="2">
+			<Rate SubPoolID="0" Weight="9050" HighWeight="9050"/>
+			<Rate SubPoolID="2" Weight="800" HighWeight="800"/>
+			<Rate SubPoolID="3" Weight="150" HighWeight="150"/>
+		</SubPoolRate>
+		<SubPoolRate id="3">
+			<Rate SubPoolID="0" Weight="9190" HighWeight="9190"/>
+			<Rate SubPoolID="2" Weight="600" HighWeight="600"/>
+			<Rate SubPoolID="3" Weight="170" HighWeight="170"/>
+			<Rate SubPoolID="4" Weight="40" HighWeight="40"/>
+		</SubPoolRate>
+		<SubPoolRate id="4">
+			<Rate SubPoolID="0" Weight="9630" HighWeight="9630"/>
+			<Rate SubPoolID="2" Weight="100" HighWeight="100"/>
+			<Rate SubPoolID="3" Weight="220" HighWeight="220"/>
+			<Rate SubPoolID="4" Weight="40" HighWeight="40"/>
+			<Rate SubPoolID="5" Weight="10" HighWeight="10"/>
+		</SubPoolRate>
+	</SubPoolRates>
+ </root>

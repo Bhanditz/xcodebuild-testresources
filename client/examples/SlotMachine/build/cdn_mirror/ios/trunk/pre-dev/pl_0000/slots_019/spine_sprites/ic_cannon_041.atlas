@@ -1,0 +1,83 @@
+
+ic_cannon_041.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ic_bonus__0001_ribbon1
+  rotate: false
+  xy: 441, 82
+  size: 67, 44
+  orig: 67, 44
+  offset: 0, 0
+  index: -1
+ic_bonus__0002_ribbon2
+  rotate: true
+  xy: 425, 6
+  size: 67, 49
+  orig: 67, 49
+  offset: 0, 0
+  index: -1
+ic_bonus__0003_BONUS
+  rotate: false
+  xy: 254, 6
+  size: 68, 28
+  orig: 68, 28
+  offset: 0, 0
+  index: -1
+ic_bonus__0004_ribbon3
+  rotate: false
+  xy: 340, 75
+  size: 99, 51
+  orig: 99, 51
+  offset: 0, 0
+  index: -1
+ic_bonus__0005_cannon1
+  rotate: false
+  xy: 254, 36
+  size: 84, 90
+  orig: 84, 90
+  offset: 0, 0
+  index: -1
+ic_bonus__0006_cannon2
+  rotate: true
+  xy: 155, 19
+  size: 107, 97
+  orig: 107, 97
+  offset: 0, 0
+  index: -1
+ic_bonus__0007_star1
+  rotate: true
+  xy: 340, 38
+  size: 35, 55
+  orig: 35, 55
+  offset: 0, 0
+  index: -1
+ic_bonus__0008_star2
+  rotate: false
+  xy: 324, 8
+  size: 35, 26
+  orig: 35, 26
+  offset: 0, 0
+  index: -1
+ic_bonus__0009_star3
+  rotate: true
+  xy: 361, 2
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+ic_bonus__0010_star4
+  rotate: true
+  xy: 397, 38
+  size: 35, 26
+  orig: 35, 26
+  offset: 0, 0
+  index: -1
+ic_bonus__0011_base
+  rotate: false
+  xy: 2, 2
+  size: 151, 124
+  orig: 151, 124
+  offset: 0, 0
+  index: -1

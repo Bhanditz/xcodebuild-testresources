@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="130" window_state="6">
+    <Picture id="ref" x="-2" y="-2" z="0" width="155" height="134" window_state="6">
+        <piece_info value="slots_007_icon_016"/>
+    </Picture>
+    <SpineSprite id="m_SpineSprite" x="25" y="11" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+        <spine_file value="slots_007/spine_sprites/Chengmao_S.json"/>
+        <auto_anim_name value="animation"/>
+    </SpineSprite>
+</Panel>

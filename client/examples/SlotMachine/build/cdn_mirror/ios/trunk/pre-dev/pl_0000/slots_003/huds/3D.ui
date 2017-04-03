@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+    <SkinMesh id="m_SkinMesh" x="65" y="35" z="0" width="1000" height="600" window_state="2054">
+        <scale x="0.5" y="0.5" z="0.5"/>
+        <anchor_point x="0.5" y="0.76999998" z="0"/>
+        <action_id value="animation_slot003_mj"/>
+        <mesh_file value="slots_003/models/mj.model"/>
+        <mesh_scale x="180" y="180" z="180"/>
+        <draw_outline value="1"/>
+        <outline_color r="251" g="228" b="252" a="255"/>
+        <sky_color r="246" g="246" b="246" a="255"/>
+        <sky_brightness value="0.89999998"/>
+        <fresnel_color r="206" g="18" b="216" a="255"/>
+        <fresnel_power value="4"/>
+        <far_clip_distance value="3000"/>
+        <lights>
+            <element>
+                <direction x="0" y="6" z="-4"/>
+                <color r="254" g="251" b="239" a="255"/>
+                <brightness value="0.30000001"/>
+                <specular_power value="50"/>
+                <specular_intensity value="3"/>
+            </element>
+            <element>
+                <direction x="0" y="-2" z="-2"/>
+                <color r="251" g="248" b="176" a="255"/>
+                <brightness value="0.40000001"/>
+                <specular_power value="150"/>
+                <specular_intensity value="2"/>
+            </element>
+        </lights>
+        <Particle id="m_Particle" x="571" y="386" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+            <color_scale x="0" y="0" z="0" w="0"/>
+            <particle_state value="0"/>
+            <package_file value="slots_003/particles/disco.ptc"/>
+            <particle_name value="dancer par"/>
+        </Particle>
+    </SkinMesh>
+    <Panel id="m_Panel" x="459" y="109" z="0" width="210" height="400" window_state="6">
+        <Picture id="m_Picture" x="57" y="152" z="0" width="96" height="96" window_state="6">
+            <scale x="2" y="2" z="2"/>
+        </Picture>
+        <Particle id="m_Particle" x="89" y="195" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_003/particles/disco.ptc"/>
+            <particle_name value="dancer disappear"/>
+        </Particle>
+        <Particle id="m_Particle1" x="89" y="195" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_003/particles/disco.ptc"/>
+            <particle_name value="dancer disappear2"/>
+        </Particle>
+    </Panel>
+</Panel>

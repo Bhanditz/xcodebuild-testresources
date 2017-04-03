@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Storage_effect01.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="Allin持续表现_001" x="188" y="312" w="58" h="60" oW="60" oH="60" r="y" dr="80"/>
+    <sprite n="Allin持续表现_003" x="424" y="126" w="60" h="56" oY="1" oW="60" oH="60" dr="80"/>
+    <sprite n="Allin持续表现_005" x="188" y="250" w="58" h="60" oW="60" oH="60" r="y" dr="80"/>
+    <sprite n="Allin持续表现_007" x="64" y="374" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_009" x="64" y="312" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_011" x="64" y="250" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_013" x="64" y="188" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_015" x="64" y="126" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_017" x="64" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_019" x="436" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_021" x="374" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_023" x="126" y="436" w="58" h="60" oW="60" oH="60" dr="80"/>
+    <sprite n="Allin持续表现_025" x="126" y="374" w="58" h="60" oX="1" oW="60" oH="60" dr="80"/>
+    <sprite n="Allin持续表现_027" x="312" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_029" x="250" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_031" x="188" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_033" x="126" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_035" x="64" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_037" x="2" y="436" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_039" x="2" y="374" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_041" x="2" y="312" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_043" x="2" y="250" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_045" x="188" y="188" w="58" h="60" oW="60" oH="60" r="y" dr="80"/>
+    <sprite n="Allin持续表现_047" x="362" y="126" w="60" h="56" oY="2" oW="60" oH="60" dr="80"/>
+    <sprite n="Allin持续表现_049" x="304" y="436" w="56" h="60" oY="2" oW="60" oH="60" r="y" dr="80"/>
+    <sprite n="Allin持续表现_051" x="188" y="126" w="58" h="60" oW="60" oH="60" r="y" dr="80"/>
+    <sprite n="Allin持续表现_053" x="2" y="188" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_055" x="2" y="126" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_057" x="2" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_059" x="2" y="2" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_061" x="126" y="312" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_063" x="126" y="250" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_065" x="126" y="188" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_067" x="186" y="436" w="58" h="60" oX="1" oW="60" oH="60" dr="80"/>
+    <sprite n="Allin持续表现_069" x="246" y="436" w="56" h="60" oX="2" oW="60" oH="60" dr="80"/>
+    <sprite n="Allin持续表现_071" x="186" y="374" w="58" h="60" oX="1" oW="60" oH="60" dr="80"/>
+    <sprite n="Allin持续表现_073" x="126" y="126" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_075" x="436" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_077" x="374" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_079" x="312" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_081" x="250" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_083" x="188" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_085" x="126" y="64" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_087" x="64" y="436" w="60" h="60" dr="80"/>
+    <sprite n="Allin持续表现_089" x="246" y="374" w="58" h="60" oY="1" oW="60" oH="60" r="y" dr="80"/>
+</TextureAtlas>

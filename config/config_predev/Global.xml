@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+  全局配置
+  BindAccount： 绑定账号奖励
+  GmCommand：Gm命令开关
+-->
+
+<Global>
+		<BindAccount Reward="0"/>
+		<GmCommand Open="1"/>
+		<Production>0</Production>
+</Global>

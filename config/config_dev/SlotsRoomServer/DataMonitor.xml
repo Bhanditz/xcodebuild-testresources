@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!--
+  Slots数据监视  	
+  
+	Notify 通知配置
+		Server 服务器域名
+		Port 服务器端口
+		Administrator 通知的管理员id,可以配置多项
+  
+  	DataMonitor 监视配置	Open:是否打开（0、1）	 OneDayTotalPay:所有主题全天最大赔付 
+  			ThemeMonitor 主题监视配置 ThemeID：主题ID  CheckRTPTime:检查RTP的时间间隔（分钟） CheckRTP：检查的RTP上限  CheckPayTime：检查赔付的时间间隔  CheckPay：检查的赔付上限
+  					Pack 单个老虎机监视配置  MaxSpinPay：单次Spin最大赔付   OneDayPay:主题单日最大赔付
+-->
+<root>
+	<Notify>
+		<Server>api.support.skyunion.com</Server>
+		<Port>80</Port>
+		<Path>/module/sys/api/send_notification.php</Path>
+		<Administrator uid="866" /><!-- 张涌-->
+		<Administrator uid="2531" /><!-- 游嘉唯-->
+		<Administrator uid="2340" /><!-- 余杏星-->
+		<Administrator uid="1344" /><!-- 陈承泽-->
+		<Administrator uid="3934" /><!-- 游倩骅-->
+		<Administrator uid="3172" /><!-- 郑治纬-->
+		<Administrator uid="2247" /><!-- 姜俊-->
+		<Administrator uid="3147" /><!-- 王新维-->
+		<Administrator uid="3767" /><!-- 卓凌宇-->
+		<Administrator uid="2945" /><!-- 周茂杰-->
+		<Administrator uid="3755" /><!-- 毛旭刚-->
+	</Notify>
+	<DataMonitor Open="1" CloseTheme="0" OneDayTotalPay="63000000000000"><!-- 全天的正式配置为3000000000000（3万亿）*开启主题数量-->
+		<ThemeMonitor ThemeID="1" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="500" OneDayPay="1200000000000"/><!-- 正式配置为单次Spin不超过MaxBet的500倍,单日最大赔付为不超过1200000000000（1.2万亿） -->
+				<Pack PackID="2" MaxSpinPay="750" OneDayPay="750000000000"/><!-- 正式配置为单次Spin不超过MaxBet的750倍,单日最大赔付为不超过750000000000（7500亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="2" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="250" OneDayPay="1500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的250倍,单日最大赔付为不超过1500000000000（1.5万亿） -->
+				<Pack PackID="2" MaxSpinPay="250" OneDayPay="750000000000"/><!-- 正式配置为单次Spin不超过MaxBet的250倍,单日最大赔付为不超过750000000000（7500亿） -->
+				<Pack PackID="3" MaxSpinPay="250" OneDayPay="375000000000"/><!-- 正式配置为单次Spin不超过MaxBet的250倍,单日最大赔付为不超过375000000000（3750亿） -->
+				<Pack PackID="4" MaxSpinPay="313" OneDayPay="375000000000"/><!-- 正式配置为单次Spin不超过MaxBet的312.5倍,单日最大赔付为不超过375000000000（3750亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="3" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+		 		<Pack PackID="1" MaxSpinPay="200" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的200倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+		 		<Pack PackID="2" MaxSpinPay="200" OneDayPay="1200000000000"/><!-- 正式配置为单次Spin不超过MaxBet的200倍,单日最大赔付为不超过1200000000000（1.2万亿） -->
+				<Pack PackID="3" MaxSpinPay="1000" OneDayPay="1000000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1000000000000（1万亿） -->
+				<Pack PackID="4" MaxSpinPay="200" OneDayPay="1000000000000"/><!-- 正式配置为单次Spin不超过MaxBet的200倍,单日最大赔付为不超过1000000000000（1万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="4" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="120" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的120倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="120" OneDayPay="600000000000"/><!-- 正式配置为单次Spin不超过MaxBet的120倍,单日最大赔付为不超过600000000000（6000亿） -->
+				<Pack PackID="3" MaxSpinPay="330" OneDayPay="600000000000"/><!-- 正式配置为单次Spin不超过MaxBet的330倍(收集玩法最高一级为250倍TB,单日最大赔付为不超过600000000000（6000亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="5" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="10000" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的10000倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="6" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="1920" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1920倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="1920" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1920倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="7" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="1000" OneDayPay="2000000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过2000000000000（2万亿） -->
+				<Pack PackID="2" MaxSpinPay="1000" OneDayPay="1500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1500000000000（1.5万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="8" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="7680" OneDayPay="2100000000000"/><!-- 正式配置为单次Spin不超过MaxBet的7680倍,单日最大赔付为不超过2100000000000（2.1万亿） -->
+				<Pack PackID="2" MaxSpinPay="1317120" OneDayPay="1200000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1317120倍,单日最大赔付为不超过1200000000000（1.2万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="10" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="500" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的500倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="500" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的500倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="12" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="300" OneDayPay="2100000000000"/><!-- 正式配置为单次Spin不超过MaxBet的300倍,单日最大赔付为不超过2100000000000（2.1万亿） -->
+				<Pack PackID="2" MaxSpinPay="300" OneDayPay="1500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的300倍,单日最大赔付为不超过1500000000000（1.5万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="14" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="300" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的300倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="500" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的500倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="18" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="200" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的200倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="200" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的200倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1001" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="2000" OneDayPay="1500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的2000倍,单日最大赔付为不超过1500000000000（1.5万亿） -->
+				<Pack PackID="2" MaxSpinPay="2000" OneDayPay="1500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的2000倍,单日最大赔付为不超过1500000000000（1.5万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1002" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="1000" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="1000" OneDayPay="1000000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1000000000000（1万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1003" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="1000" OneDayPay="1500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1500000000000（1.5万亿） -->
+				<Pack PackID="2" MaxSpinPay="1000" OneDayPay="1500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1500000000000（1.5万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1004" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="10000" OneDayPay="2700000000000"/><!-- 正式配置为单次Spin不超过MaxBet的10000倍,单日最大赔付为不超过2700000000000（2.7万亿） -->
+				<Pack PackID="2" MaxSpinPay="10000" OneDayPay="500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的10000倍,单日最大赔付为不超过500000000000（5000亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1005" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="2000" OneDayPay="2400000000000"/><!-- 正式配置为单次Spin不超过MaxBet的2000倍,单日最大赔付为不超过2400000000000（2.4万亿） -->
+				<Pack PackID="2" MaxSpinPay="2000" OneDayPay="500000000000"/><!-- 正式配置为单次Spin不超过MaxBet的2000倍,单日最大赔付为不超过500000000000（5000亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1006" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="1000" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="1000" OneDayPay="1200000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1000倍,单日最大赔付为不超过1200000000000（1.2万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1007" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="1500" OneDayPay="2000000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1500倍,单日最大赔付为不超过2000000000000（2万亿） -->
+				<Pack PackID="2" MaxSpinPay="1500" OneDayPay="900000000000"/><!-- 正式配置为单次Spin不超过MaxBet的1500倍,单日最大赔付为不超过900000000000（9000亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1008" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="10000" OneDayPay="2100000000000"/><!-- 正式配置为单次Spin不超过MaxBet的10000倍,单日最大赔付为不超过2100000000000（2.1万亿） -->
+				<Pack PackID="2" MaxSpinPay="10000" OneDayPay="1200000000000"/><!-- 正式配置为单次Spin不超过MaxBet的10000倍,单日最大赔付为不超过1200000000000（1.2万亿） -->
+		</ThemeMonitor>
+		<ThemeMonitor ThemeID="1009" CheckRTPTime="180" CheckRTP="150" CheckPayTime="180" CheckPay="600000000000"><!-- 3小时的正式配置为600000000000（6000亿） -->
+				<Pack PackID="1" MaxSpinPay="10000" OneDayPay="1800000000000"/><!-- 正式配置为单次Spin不超过MaxBet的10000倍,单日最大赔付为不超过1800000000000（1.8万亿） -->
+				<Pack PackID="2" MaxSpinPay="10000" OneDayPay="900000000000"/><!-- 正式配置为单次Spin不超过MaxBet的10000倍,单日最大赔付为不超过900000000000（9000亿） -->
+		</ThemeMonitor>
+	</DataMonitor>
+</root>

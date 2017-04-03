@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bigfire.png" width="512" height="512" blend="1" loop="-1">
+    <sprite n="00" x="2" y="180" w="102" h="176" oX="50" oY="9" oW="200" oH="200" dr="60"/>
+    <sprite n="01" x="178" y="106" w="174" h="102" oX="50" oY="11" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="02" x="354" y="2" w="102" h="174" oX="50" oY="11" oW="200" oH="200" dr="60"/>
+    <sprite n="03" x="106" y="210" w="172" h="102" oX="50" oY="13" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="04" x="280" y="350" w="172" h="100" oX="51" oY="13" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="05" x="2" y="2" w="102" h="176" oX="50" oY="11" oW="200" oH="200" dr="60"/>
+    <sprite n="06" x="178" y="2" w="174" h="102" oX="50" oY="12" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="07" x="2" y="358" w="174" h="102" oX="50" oY="11" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="08" x="178" y="314" w="100" h="174" oX="51" oY="11" oW="200" oH="200" dr="60"/>
+    <sprite n="09" x="354" y="178" w="102" h="170" oX="50" oY="15" oW="200" oH="200" dr="60"/>
+</TextureAtlas>

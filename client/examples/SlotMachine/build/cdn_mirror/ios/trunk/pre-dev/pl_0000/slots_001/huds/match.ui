@@ -1,0 +1,2865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1156" height="660" window_state="6" style="ngs_panel_bg">
+    <action_id value="animation_jackpot_wiggle02"/>
+    <Picture id="m_Collections" x="0" y="0" z="0" width="1156" height="660" window_state="6">
+        <piece_info value="slots_001_bg03"/>
+        <scale_mode value="3"/>
+        <Picture id="m_Picture" x="1" y="-6" z="0" width="348" height="93" window_state="6">
+            <piece_info value="slots_001_icon_14"/>
+        </Picture>
+        <Panel id="m_Collection4" x="18" y="59" z="0" width="323" height="111" window_state="6">
+            <Picture id="m_CollectionIcon0" x="0" y="33" z="0" width="90" height="80" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_05"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_05b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="0" y="58" z="0" width="229" height="142" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-57" y="-62" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon1" x="112" y="31" z="0" width="90" height="80" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_05"/>
+                    <Picture id="m_PicLvl" x="33" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_05b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="0" y="58" z="0" width="229" height="142" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-57" y="-62" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon2" x="224" y="30" z="0" width="90" height="80" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_05"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_05b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="0" y="58" z="0" width="229" height="142" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-57" y="-62" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Sprite id="m_SpriteOutline" x="-99" y="-127" z="0" width="500" height="375" window_state="4">
+                <scale x="1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/winning.xml"/>
+                <sprite_state value="1"/>
+                <Picture id="m_Pic_light" x="56" y="84" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight01"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+                <Picture id="m_Pic_light1" x="358" y="202" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight02"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+            </Sprite>
+            <Picture id="m_PicLvl" x="100" y="6" z="0" width="107" height="40" window_state="6">
+                <piece_info value="slots_001_text06"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Collection3" x="13" y="169" z="0" width="293" height="109" window_state="6">
+            <Picture id="m_CollectionIcon0" x="2" y="40" z="0" width="90" height="80" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_04"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_04b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-68" y="-78" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="0" y="58" z="0" width="229" height="142" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="4">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="29" y="23" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon1" x="104" y="39" z="0" width="90" height="80" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_04"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_04b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-68" y="-78" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="0" y="58" z="0" width="229" height="142" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="4">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="29" y="23" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon2" x="206" y="39" z="0" width="90" height="80" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_04"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_04b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-68" y="-78" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="0" y="58" z="0" width="229" height="142" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="4">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="29" y="23" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Sprite id="m_SpriteOutline" x="-112" y="-125" z="0" width="500" height="375" window_state="4">
+                <scale x="0.94" y="0.93000001" z="1"/>
+                <sprite_file value="slots_001/sprites/winning.xml"/>
+                <sprite_state value="1"/>
+                <Picture id="m_Pic_light" x="56" y="84" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight01"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+                <Picture id="m_Pic_light1" x="358" y="202" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight02"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+            </Sprite>
+            <Picture id="m_PicLvl" x="97" y="7" z="0" width="107" height="40" window_state="262">
+                <piece_info value="slots_001_text05"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Collection2" x="16" y="278" z="0" width="284" height="109" window_state="6">
+            <Picture id="m_CollectionIcon0" x="1" y="38" z="0" width="81" height="86" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_03"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_03b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="79" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="25" y="26" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon1" x="96" y="38" z="0" width="81" height="86" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_03"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_03b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="79" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="24" y="26" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon2" x="191" y="38" z="0" width="81" height="86" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_03"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_03b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="79" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="24" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Sprite id="m_SpriteOutline" x="-119" y="-122" z="0" width="500" height="375" window_state="4">
+                <scale x="0.88" y="0.93000001" z="1"/>
+                <sprite_file value="slots_001/sprites/winning.xml"/>
+                <sprite_state value="1"/>
+                <Picture id="m_Pic_light" x="56" y="84" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight01"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+                <Picture id="m_Pic_light1" x="358" y="202" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight02"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+            </Sprite>
+            <Picture id="m_PicLvl" x="85" y="12" z="0" width="107" height="40" window_state="6">
+                <piece_info value="slots_001_text04"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Collection1" x="15" y="386" z="0" width="262" height="119" window_state="6">
+            <Picture id="m_CollectionIcon0" x="2" y="40" z="0" width="81" height="86" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_02"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_02b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="80" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon1" x="88" y="40" z="0" width="81" height="86" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_02"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_02b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="80" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="28" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon2" x="174" y="40" z="0" width="81" height="86" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_02"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_02b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="80" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-59" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Sprite id="m_SpriteOutline" x="-128" y="-123" z="0" width="500" height="375" window_state="4">
+                <scale x="0.81" y="0.93000001" z="1"/>
+                <sprite_file value="slots_001/sprites/winning.xml"/>
+                <sprite_state value="1"/>
+                <Picture id="m_Pic_light" x="56" y="84" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight01"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+                <Picture id="m_Pic_light1" x="358" y="202" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight02"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+            </Sprite>
+            <Picture id="m_PicLvl" x="77" y="12" z="0" width="107" height="40" window_state="6">
+                <piece_info value="slots_001_text03"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Collection0" x="13" y="497" z="0" width="249" height="109" window_state="6">
+            <Picture id="m_CollectionIcon0" x="4" y="38" z="0" width="0" height="0" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_01"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_01b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="82" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-60" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon1" x="83" y="38" z="0" width="0" height="0" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_01"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_01b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="82" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-56" y="-60" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Picture id="m_CollectionIcon2" x="162" y="38" z="0" width="0" height="0" window_state="262">
+                <Picture id="m_PicColor" x="-39" y="-42" z="0" width="168" height="166" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_01"/>
+                    <Picture id="m_PicLvl" x="34" y="30" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_button_01b"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_PicJackpot" x="-72" y="-75" z="0" width="237" height="215" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                    <piece_info value="slots_001_button_07"/>
+                    <Picture id="m_Picture" x="68" y="82" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_001_icon_15"/>
+                    </Picture>
+                </Picture>
+                <Sprite id="m_SpriteExplosion" x="-55" y="-61" z="0" width="200" height="200" window_state="12">
+                    <sprite_file value="slots_001/sprites/level hit.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_PictureRemain" x="-3" y="-7" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_remain"/>
+                    <piece_info value="bigbonus_ring"/>
+                </Picture>
+                <Particle id="m_ParticleHilight" x="27" y="25" z="0" width="32" height="32" window_state="12" style="ngs_panel_bg">
+                    <particle_state value="0"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="level final"/>
+                </Particle>
+            </Picture>
+            <Sprite id="m_SpriteOutline" x="-136" y="-121" z="0" width="500" height="375" window_state="4">
+                <scale x="0.75999999" y="0.93000001" z="1"/>
+                <sprite_file value="slots_001/sprites/winning.xml"/>
+                <sprite_state value="1"/>
+                <Picture id="m_Pic_light" x="56" y="84" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight01"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+                <Picture id="m_Pic_light1" x="358" y="202" z="0" width="96" height="96" window_state="6">
+                    <rotation x="0" y="0" z="1.5707964"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_collectionlight02"/>
+                    <piece_info value="collection01"/>
+                </Picture>
+            </Sprite>
+            <Picture id="m_PicLvl" x="72" y="11" z="0" width="107" height="40" window_state="6">
+                <piece_info value="slots_001_text02"/>
+            </Picture>
+        </Panel>
+        <Picture id="m_Jackpot" x="78" y="-30" z="0" width="198" height="132" window_state="6">
+            <piece_info value="slots_001_text01"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_PicSelDesc" x="425" y="37" z="0" width="620" height="115" window_state="6">
+        <action_id value="animation_volcano_maxbet"/>
+        <RichLabel id="m_RichLabel1" x="137" y="-2" z="0" width="151" height="55" window_state="6">
+            <text value="SLOTS_VOLCANO_MATCHGAME_TEXT1"/>
+            <font_size value="58"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.36000001"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel2" x="303" y="-2" z="0" width="251" height="55" window_state="6">
+            <text value="SLOTS_VOLCANO_MATCHGAME_TEXT2"/>
+            <font_size value="58"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.36000001"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel3" x="142" y="47" z="0" width="383" height="55" window_state="6">
+            <text value="SLOTS_VOLCANO_MATCHGAME_TEXT3"/>
+            <font_size value="58"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.36000001"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel4" x="531" y="46" z="0" width="81" height="55" window_state="6">
+            <text value="SLOTS_VOLCANO_MATCHGAME_TEXT4"/>
+            <font_size value="78"/>
+            <text_color value="cs_yellowTxt02"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <Panel id="m_Icons" x="334" y="144" z="0" width="810" height="493" window_state="6">
+        <Button id="m_Icon0" x="0" y="0" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon1" x="156" y="0" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon2" x="312" y="0" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon3" x="468" y="0" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon4" x="624" y="0" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon5" x="0" y="159" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon6" x="156" y="159" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon7" x="312" y="159" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon8" x="468" y="159" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon9" x="624" y="159" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon10" x="0" y="317" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon11" x="156" y="317" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon12" x="312" y="317" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon13" x="468" y="317" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+        <Button id="m_Icon14" x="624" y="317" z="0" width="166" height="166" window_state="6">
+            <line_height value="30"/>
+            <Picture id="m_Back" x="-4" y="0" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_press"/>
+                <piece_info value="slots_001_button_06"/>
+            </Picture>
+            <Picture id="m_PicLvlBg" x="-1" y="4" z="0" width="168" height="162" window_state="14">
+                <action_id value="animation_volcanic_bottonbg"/>
+                <piece_info value="slots_001_button_03"/>
+            </Picture>
+            <Picture id="m_PicLight" x="35" y="37" z="0" width="96" height="96" window_state="12">
+                <blend_mode value="2"/>
+                <anchor_point x="0.47" y="0.5" z="0"/>
+                <action_id value="animation_bigbonus_winlight"/>
+                <piece_info value="slots_001_vfx11"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="35" y="34" z="0" width="96" height="96" window_state="12" style="ngs_panel_bg">
+                <scale x="1.9" y="1.9" z="1.9"/>
+                <rotation x="0" y="0" z="-0.34906584"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_matchlight"/>
+                <piece_info value="mask01"/>
+                <mask_scale value="0.15000001"/>
+            </PictureMask>
+            <Panel id="m_PanelTap" x="-17" y="-17" z="0" width="200" height="200" window_state="4">
+                <Picture id="m_Picture" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.9400001" y="1.9400001" z="1.9400001"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press02"/>
+                    <piece_info value="mask01"/>
+                </Picture>
+                <Picture id="m_Picture1" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                    <scale x="1.35" y="1.35" z="1.35"/>
+                    <color_scale x="2" y="2" z="2" w="1"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_press03"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption2" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-119" y="-221" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_SpriteEruption3" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-123" y="-212" z="0" width="400" height="400" window_state="14">
+                    <sprite_file value="slots_001/sprites/erupt_02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv3halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption4" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-124" y="-199" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_03.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv4halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpriteEruption5" x="0" y="0" z="0" width="166" height="166" window_state="4">
+                <Sprite id="m_SpriteEruption" x="-120" y="-187" z="0" width="400" height="400" window_state="6">
+                    <sprite_file value="slots_001/sprites/erupt_04.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Picture id="m_Pic_ring" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <action_id value="animation_volcanic_lv3ring"/>
+                    <piece_info value="ring01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo"/>
+                    <piece_info value="halo01"/>
+                </Picture>
+                <Picture id="m_Pic_Halo01" x="31" y="31" z="0" width="104" height="104" window_state="6">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_volcanic_lv5halo01"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Info" x="-24" y="19" z="0" width="210" height="130" window_state="14">
+                <Picture id="m_PicLvl" x="57" y="6" z="0" width="99" height="40" window_state="6">
+                    <piece_info value="slots_001_button_05a"/>
+                </Picture>
+                <Picture id="m_PicNum" x="59" y="36" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_001_button_05b"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Jackpot" x="0" y="4" z="0" width="166" height="166" window_state="6">
+                <Picture id="m_JackpotShadow" x="36" y="73" z="0" width="96" height="96" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <action_id value="animation_volcanic_jackpotshadow"/>
+                    <piece_info value="jackpot_shadow"/>
+                </Picture>
+                <Picture id="m_JackpotlBg" x="1" y="0" z="0" width="168" height="162" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <piece_info value="jackpot_bg"/>
+                </Picture>
+                <Sprite id="m_SpriteEruption2" x="-115" y="-123" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot02.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+                <Sprite id="m_SpriteEruption1" x="-116" y="-124" z="0" width="399" height="399" window_state="14">
+                    <action_id value="animation_volcanic_jackpot"/>
+                    <sprite_file value="slots_001/sprites/erupt_jackpot01.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_PicJackpot" x="-21" y="-42" z="0" width="237" height="215" window_state="6">
+                <piece_info value="slots_001_button_07"/>
+                <Picture id="m_PicLight" x="56" y="79" z="0" width="96" height="96" window_state="4">
+                    <blend_mode value="2"/>
+                    <anchor_point x="0.47" y="0.5" z="0"/>
+                    <action_id value="animation_bigbonus_winlight"/>
+                    <piece_info value="slots_001_vfx11"/>
+                </Picture>
+                <Picture id="m_Picture" x="-3" y="59" z="0" width="229" height="142" window_state="6">
+                    <piece_info value="slots_001_icon_15"/>
+                </Picture>
+            </Picture>
+        </Button>
+    </Panel>
+    <Picture id="match_mask" x="0" y="0" z="0" width="1156" height="660" window_state="4" style="ngs_slots_001_panel13">
+        <action_id value="animation_jackpot_mask"/>
+    </Picture>
+</Panel>

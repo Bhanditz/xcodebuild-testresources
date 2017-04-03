@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!-- 
+		UnlcokConditions 解锁条件配置
+			UnlockConditionGroup 解锁条件分组
+				UnlockCondition 解锁条件 type：解锁类型 param:参数
+					type=0玩家等级解锁  param1:等级要求
+					type=1玩家Vip等级解锁  param1:Vip等级要求
+					type=2首冲解锁
+					type=3FaceBook登录解锁
+					type=4活动日期解锁  param1:起始日期   param2:结束日期 格式：param1="20160603" param2="20160605"
+					type=5活动周日期解锁 param1:起始日期  param2:结束日期 格式：param1="1" param2="7"
+					type=6活动月日期解锁 param1:起始日期  param2:结束日期 格式：param1="1" param2="31"
+-->
+<root>
+		<theme id="12" name="Fairy Queen" sortID="21" IconTag="1" NewTag="0" HotTag="0" RecommendBegin="1" RecommendEnd="1" unlockSortID="1" JackpotTag="0" ActivityTag="0" >
+				<MainSlot packId="1"/>
+				<UnlockReward targetID="12"/>
+				
+				<UnlcokConditions>
+					<UnlockConditionGroup>
+						<UnlockCondition type="0" param1="68" param2="0" param3="0" param4="0" param5="0"/>
+					</UnlockConditionGroup>
+					<UnlockConditionGroup>
+						<UnlockCondition type="4" param1="20170327" param2="20170419" param3="0" param4="0" param5="0"/>
+					</UnlockConditionGroup>
+					<UnlockConditionGroup>
+						<UnlockCondition type="1" param1="5" param2="0" param3="0" param4="0" param5="0"/>
+					</UnlockConditionGroup>
+				</UnlcokConditions>
+		</theme>
+</root>

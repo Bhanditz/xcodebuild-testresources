@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_15_reel_speed_effect_smoke.png" width="256" height="512" scale_x="2" scale_y="2" blend="1" loop="-1">
+    <sprite n="smoke_00001.png" x="101" y="296" w="79" h="94" oX="555" oY="303" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00002.png" x="98" y="394" w="89" h="96" oX="553" oY="296" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00003.png" x="1" y="394" w="95" h="97" oX="553" oY="291" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00004.png" x="1" y="295" w="98" h="97" oX="553" oY="286" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00005.png" x="107" y="197" w="102" h="97" oX="553" oY="283" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00006.png" x="1" y="196" w="104" h="97" oX="553" oY="279" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00007.png" x="116" y="98" w="105" h="97" oX="553" oY="274" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00008.png" x="1" y="97" w="113" h="97" oX="553" oY="262" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00009.png" x="129" y="1" w="119" h="95" oX="554" oY="251" oW="1065" oH="600" r="y" dr="60"/>
+    <sprite n="smoke_00010.png" x="1" y="1" w="126" h="94" oX="555" oY="240" oW="1065" oH="600" r="y" dr="60"/>
+</TextureAtlas>

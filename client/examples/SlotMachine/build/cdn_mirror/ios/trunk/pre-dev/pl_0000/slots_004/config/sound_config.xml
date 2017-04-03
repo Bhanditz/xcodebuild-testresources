@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_004/sound/sfx/base game/2 SpookySpinners_control_button.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="NEAR_WIN" value="slots_004/sound/sfx/base game/8 SpookySpinners_base_anticipation.ogg"/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_READY_STOP" value="slots_004/sound/sfx/base game/6 SpookySpinners_reel_stop.ogg"/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg" volume="0.6"/>
+		<!--Sound name="WIN_REPORT_LV1" value="slots_004/sound/sfx/vo/3 SpookySpinners_base_win_voice.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots_004/sound/sfx/vo/3 SpookySpinners_base_win_voice.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots_004/sound/sfx/vo/3 SpookySpinners_base_win_voice.ogg"/-->
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		<Sound name="INTRO" value="slots_004/sound/sfx/vo/1 SpookySpinners_intro_laughing_voice.ogg"/>
+		
+		<Sound name="BASEGAME_NORMAL_SPIN_1" value="slots_004/sound/bgm/BASE BGM-01.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_2" value="slots_004/sound/bgm/BASE BGM-02.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_3" value="slots_004/sound/bgm/BASE BGM-03.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_4" value="slots_004/sound/bgm/BASE BGM-04.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_5" value="slots_004/sound/bgm/BASE BGM-05.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_6" value="slots_004/sound/bgm/BASE BGM-06.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_7" value="slots_004/sound/bgm/BASE BGM-07.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_8" value="slots_004/sound/bgm/BASE BGM-08.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_9" value="slots_004/sound/bgm/BASE BGM-09.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_10" value="slots_004/sound/bgm/BASE BGM-10.ogg"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_11" value="slots_004/sound/bgm/BASE BGM-11.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_1" value="slots_004/sound/bgm/BASE BGM Fast Spin 1.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_2" value="slots_004/sound/bgm/BASE BGM Fast Spin 2.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_3" value="slots_004/sound/bgm/BASE BGM Fast Spin 3.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_4" value="slots_004/sound/bgm/BASE BGM Fast Spin 4.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_5" value="slots_004/sound/bgm/BASE BGM Fast Spin 5.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_6" value="slots_004/sound/bgm/BASE BGM Fast Spin 6.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_7" value="slots_004/sound/bgm/BASE BGM Fast Spin 7.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_8" value="slots_004/sound/bgm/BASE BGM Fast Spin 8.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_9" value="slots_004/sound/bgm/BASE BGM Fast Spin 9.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_10" value="slots_004/sound/bgm/BASE BGM Fast Spin 10.ogg"/>
+		<Sound name="BASEGAME_FAST_SPIN_11" value="slots_004/sound/bgm/BASE BGM Fast Spin 11.ogg"/>
+		
+		<Sound name="HOLD_SPIN" value="slots_004/sound/sfx/base game/2 SpookySpinners_control_button.ogg"/>
+		<Sound name="FAST_SPIN" value="slots_004/sound/sfx/base game/4 SpookySpinners_control_fastspin.ogg"/>
+		<Sound name="FIRE_BALL" value="slots_004/sound/sfx/base game/10 SpookySpinners_control_fireball 1.ogg"/>
+		<Sound name="BIG_FIRE" value="slots_004/sound/sfx/base game/11 SpookySpinners_control_bigfire LOOP 3.ogg"/>	
+		<Sound name="SMALL_FIRE" value="slots_004/sound/sfx/base game/5 SpookySpinners_control_smallfire.ogg"/>		
+		<Sound name="REEL_SCATTER_1" value="slots_004/sound/sfx/base game/7 SpookySpinners_base_bonus_hit_R1.ogg"/>
+		<Sound name="REEL_SCATTER_2" value="slots_004/sound/sfx/base game/7 SpookySpinners_base_bonus_hit_R2.ogg"/>
+		<Sound name="REEL_SCATTER_3" value="slots_004/sound/sfx/base game/7 SpookySpinners_base_bonus_hit_R3.ogg"/>
+		<Sound name="TRIGGER_FEATURE_GAME" value="slots_004/sound/sfx/base game/9 SpookySpinners_base_bonus_trigger 02.ogg"/>
+		<Sound name="TRIGGER_LIGHTING" value="slots_004/sound/sfx/base game/15 SpookySpinners_base_bonus_trigger_lightning 1.ogg"/>
+		<Sound name="BIG_WIN_VOICE" value="slots_004/sound/sfx/vo/3 SpookySpinners_base_win_voice.ogg"/>		
+		<Sound name="NEAR_WIN_SPARK" value="slots_004/sound/sfx/base game/8 SpookySpinners_base_anticipation SPARKS Loop.ogg"/>
+		<Sound name="NEAR_WIN_END" value="slots_004/sound/sfx/base game/8 SpookySpinners_base_anticipation_END.ogg"/>
+				
+		<Sound name="WHEEL_BGM" value="slots_004/sound/bgm/14 SpookySpinners_wheel_bgm.ogg"/>
+		<Sound name="WHEEL_CONTROLBAR_VIBRATING" value="slots_004/sound/sfx/spin wheel/1 SpookySpinners_wheel_shake 02.ogg"/>
+		<Sound name="WHEEL_SNAKE_SPOTLIGHT" value="slots_004/sound/sfx/spin wheel/2 SpookySpinners_spotlight.ogg"/>
+		<Sound name="WHEEL_SNAKE_APPEAR" value="slots_004/sound/sfx/spin wheel/3 SpookySpinners_wheel_snakehead_appear.ogg"/>
+		<Sound name="WHEEL_SNAKE_RISE" value="slots_004/sound/sfx/spin wheel/4 SpookySpinners_wheel_snakehead_rise 1-1.ogg"/>
+		<Sound name="WHEEL_ICON_APPEAR" value="slots_004/sound/sfx/spin wheel/5 SpookySpinners_wheel_icon_appear2.ogg"/>
+		<Sound name="WHEEL_PRESS_VOICE" value="slots_004/sound/sfx/vo/2 SpookySpinners_wheel_press_voice.ogg"/>
+		<Sound name="WHEEL_CLICK_STARTBTN" value="slots_004/sound/sfx/base game/1 SpookySpinners_control_btn 1.ogg"/>
+		<Sound name="WHEEL_CLICK_STARTGAME" value="slots_004/sound/sfx/spin wheel/6 SpookySpinners_start_btn 2.ogg"/>
+		<Sound name="WHEEL_WHEEL_APPEAR" value="slots_004/sound/sfx/spin wheel/7 SpookySpinners_wheel_wheel_appear.ogg"/>
+		<Sound name="WHEEL_PIN_APPEAR" value="slots_004/sound/sfx/spin wheel/8 SpookySpinners_wheel_pin_appear 2.ogg"/>
+		<Sound name="WHEEL_PIN_WIND" value="slots_004/sound/sfx/spin wheel/9 SpookySpinners_wheel_spin_wind-01.ogg"/>
+		<Sound name="WHEEL_PIN_COLLISION" value="slots_004/sound/sfx/spin wheel/10 SpookySpinners_wheel_pin_collision.ogg"/>
+		<Sound name="WHEEL_FIRE_BALL" value="slots_004/sound/sfx/spin wheel/13 SpookySpinners_wheel_fire_ball.ogg"/>
+		<Sound name="WHEEL_FIRE" value="slots_004/sound/sfx/spin wheel/11 SpookySpinners_wheel_fire LOOP1.ogg"/>
+		<Sound name="WHEEL_OPTION_LIGHT" value="slots_004/sound/sfx/spin wheel/12 SpookySpinners_wheel_option_light 2.ogg"/>
+		
+		<Sound name="LYDIA_BGM" value="slots_004/sound/bgm/9 SpookySpinners_lydiadancing_bgm.ogg"/>
+		<Sound name="LYDIA_APPEAR" value="slots_004/sound/sfx/dancing spin/1 SpookySpinners_lydiadancing_lydia_appear 01.ogg"/>
+		<Sound name="LYDIA_DISAPPEAR" value="slots_004/sound/sfx/dancing spin/7 SpookySpinners_lydiadancing_lydia_disappear.ogg"/>
+		<Sound name="LYDIA_REEL_FALL" value="slots_004/sound/sfx/dancing spin/3 SpookySpinners_lydiadancing_reelfall.ogg"/>
+		<Sound name="LYDIA_REEL_RISE" value="slots_004/sound/sfx/dancing spin/8 SpookySpinners_lydiadancing_reelrise.ogg"/>
+		<Sound name="LYDIA_SPARK_EXP" value="slots_004/sound/sfx/dancing spin/5 SpookySpinners_lydiadancing_spark_exp.ogg"/>
+		<Sound name="LYDIA_SPARK_FLY" value="slots_004/sound/sfx/dancing spin/4 SpookySpinners_lydiadancing_spark_fly.ogg"/>
+		
+		<Sound name="SNAKE_BGM" value="slots_004/sound/bgm/9 SpookySpinners_snakebonus_bgm.ogg"/>
+		<Sound name="SNAKE_LEVEL_PANEL_DOWN" value="slots_004/sound/sfx/snake bonus/1 SpookySpinners_snakebonus_stoneboard_move.ogg"/>
+		<Sound name="SNAKE_HEAD_APPEAR" value="slots_004/sound/sfx/snake bonus/2 SpookySpinners_snakebonus_snake_appear.ogg"/>
+		<Sound name="SNAKE_HEAD_COLLECT" value="slots_004/sound/sfx/snake bonus/4 SpookySpinners_snakebonus_collect 3.ogg"/>
+		<Sound name="SNAKE_PARTICLE_FLY" value="slots_004/sound/sfx/snake bonus/3 SpookySpinners_snakebonus_particle_fly.ogg"/>
+		<Sound name="SNAKE_LEVEL_UP" value="slots_004/sound/sfx/snake bonus/7 SpookySpinners_snakebonus_award_levelup.ogg"/>
+		<Sound name="SNAKE_FOCUS_AWARD" value="slots_004/sound/sfx/snake bonus/5 SpookySpinners_snakebonus_focus_award.ogg"/>
+		<Sound name="SNAKE_AWARD" value="slots_004/sound/sfx/snake bonus/6 SpookySpinners_snakebonus_award.ogg"/>
+		<Sound name="SNAKE_AWARD_ADD_FREESPIN" value="slots_004/sound/sfx/snake bonus/8 SpookySpinners_snakebonus_award_addfreespin.ogg"/>
+		
+		<Sound name="PICKUP_BGM" value="slots_004/sound/bgm/13 SpookySpinners_pickupgame_bgm.ogg"/>
+		<Sound name="PICKUP_SELECTING" value="slots_004/sound/sfx/graveyard pickup/3 SpookySpinners_pickup_selecting 1.ogg"/>
+		<Sound name="PICKUP_LEVELUP_CHANGEBG" value="slots_004/sound/sfx/graveyard pickup/8 SpookySpinners_levelup_changebg 1.ogg"/>
+		<Sound name="PICKUP_SKULL_COLLECT" value="slots_004/sound/sfx/graveyard pickup/14 SpookySpinners_skull_collect.ogg"/>
+		<Sound name="PICKUP_HUMAN_SKELETON" value="slots_004/sound/sfx/graveyard pickup/10 SpookySpinners_pickup_skull.ogg"/>
+		
+		<Sound name="TOTALWIN_BGM" value="slots_004/sound/bgm/5 SpookySpinners_totalwin_final_result.ogg"/>
+		<Sound name="TOTALWIN_COINPUSH" value="slots_004/sound/sfx/final result/4 SpookySpinners_totalwin_coinpush.ogg"/>
+		<Sound name="TOTALWIN_COUNTUP" value="slots_004/sound/sfx/final result/3 SpookySpinners_totalwin_countup.ogg"/>
+		<Sound name="TOTALWIN_COUNTUP_END" value="slots_004/sound/sfx/final result/3 SpookySpinners_totalwin_countup END.ogg"/>
+		<Sound name="TOTALWIN_ELECTRIC" value="slots_004/sound/sfx/final result/2 SpookySpinners_totalwin_electric.ogg"/>
+		<Sound name="TOTALWIN_HAND_RISE" value="slots_004/sound/sfx/final result/1 SpookySpinners_totalwin_handrise.ogg"/>
+		
+	</SoundInfo>
+</SlotsConfig>

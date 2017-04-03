@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials>
+	<material type="colour">
+		<vertexfactory type="skin_mesh" shader="skinmesh_colour.shader" params="1" />
+		<vertexfactory type="static_mesh" shader="staticmesh_colour.shader" params="1" />
+	</material>
+
+	<material type="basic">
+		<vertexfactory type="skin_mesh" shader="skinmesh_basic.shader" params="2" />
+		<vertexfactory type="static_mesh" shader="staticmesh_basic.shader" params="2" />
+	</material>
+	
+	<material type="blinn_phong">
+		<vertexfactory type="skin_mesh" shader="skinmesh_phong.shader" params="14" />
+		<vertexfactory type="static_mesh" shader="staticmesh_phong.shader" params="14" />
+	</material>
+	
+	<material type="metallic">
+		<vertexfactory type="skin_mesh" shader="skinmesh_metallic.shader" params="14" />
+		<vertexfactory type="static_mesh" shader="staticmesh_metallic.shader" params="14" />
+	</material>
+
+	<material type="candy">
+		<vertexfactory type="skin_mesh" shader="skinmesh_candy.shader" params="14" />
+		<vertexfactory type="static_mesh" shader="staticmesh_candy.shader" params="14" />
+	</material>
+
+</materials>

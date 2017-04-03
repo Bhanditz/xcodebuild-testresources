@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BitmapStyleList>
+  <BitmapStyle id="bs_formal_btn_h05" auto_bitmap="true">
+    <normal piece_id="formal_btn_h05"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_formal_panel_h11" flip_x="true">
+    <normal piece_id="formal_panel_h11"/>
+  </BitmapStyle>
+</BitmapStyleList>

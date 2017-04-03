@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="39" y="99" z="0" width="1136" height="640" window_state="6">
+    <SkinMesh id="m_SkinMesh" x="440" y="-102" z="0" width="599" height="1379" window_state="2052">
+        <action_id value="animation_slot010_ironknight@iron_knight03"/>
+        <mesh_file value="slots_010/models/iron_knight.model"/>
+        <mesh_rotation x="0.27925262" y="0" z="0"/>
+        <mesh_scale x="20" y="20" z="20"/>
+        <fresnel_color r="129" g="158" b="248" a="255"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element>
+                <direction x="15" y="-1" z="-3"/>
+                <brightness value="1.8"/>
+            </element>
+            <element>
+                <direction x="-1" y="-1" z="0"/>
+            </element>
+        </lights>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh1" x="911" y="-466" z="0" width="444" height="1142" window_state="2054">
+        <action_id value="animation_slot010_steelknight@steel_knight01"/>
+        <mesh_file value="slots_010/models/steel_knight.model"/>
+        <mesh_position x="0" y="581" z="0"/>
+        <mesh_rotation x="-0.017453292" y="0" z="0"/>
+        <mesh_scale x="20" y="20" z="20"/>
+        <fresnel_color r="248" g="184" b="52" a="255"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element>
+                <direction x="75" y="-44" z="2"/>
+            </element>
+            <element>
+                <direction x="-1" y="-1" z="0"/>
+                <brightness value="0"/>
+            </element>
+        </lights>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh2" x="-23" y="-191" z="0" width="1253" height="925" window_state="2054">
+        <action_id value="animation_slot008_aaaaaa"/>
+        <mesh_file value="slots_010/models/Ballista1.model"/>
+        <mesh_rotation x="0.36651915" y="0" z="0"/>
+        <mesh_scale x="350" y="350" z="350"/>
+        <fresnel_color r="248" g="184" b="52" a="255"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element>
+                <direction x="75" y="-44" z="2"/>
+            </element>
+            <element>
+                <direction x="-1" y="-1" z="0"/>
+                <brightness value="0"/>
+            </element>
+        </lights>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh3" x="-23" y="-191" z="0" width="1253" height="925" window_state="2054">
+        <action_id value="animation_slot008_aaaaaa"/>
+        <mesh_file value="slots_010/models/Ballista.model"/>
+        <mesh_rotation x="0.36651915" y="0" z="0"/>
+        <mesh_scale x="350" y="350" z="350"/>
+        <fresnel_color r="248" g="184" b="52" a="255"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element>
+                <direction x="75" y="-44" z="2"/>
+            </element>
+            <element>
+                <direction x="-1" y="-1" z="0"/>
+                <brightness value="0"/>
+            </element>
+        </lights>
+    </SkinMesh>
+</Panel>

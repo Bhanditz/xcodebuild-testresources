@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+    </Picture>
+    <Panel id="m_Pages" x="1" y="2" z="0" width="1136" height="640" window_state="6">
+        <PictureMirror id="m_PictureMirror" x="60" y="56" z="0" width="1014" height="537" window_state="6">
+            <piece_info value="slots_012_panel_09"/>
+        </PictureMirror>
+        <Panel id="m_Page1" x="112" y="107" z="0" width="910" height="400" window_state="6">
+            <RichLabel id="m_RichLabel" x="97" y="-3" z="0" width="715" height="50" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE2_TITLE"/>
+                <font_size value="50"/>
+                <text_style value="32"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="264" y="103" z="0" width="600" height="80" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE2_LINE1"/>
+                <text_align_h value="1"/>
+                <text_style value="40"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="264" y="191" z="0" width="600" height="80" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE2_LINE2"/>
+                <text_align_h value="1"/>
+                <text_style value="40"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4" x="264" y="279" z="0" width="600" height="80" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE2_LINE3"/>
+                <text_align_h value="1"/>
+                <text_style value="40"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture" x="35" y="68" z="0" width="216" height="238" window_state="6">
+                <piece_info value="slots_012_icon_013"/>
+            </Picture>
+            <Panel id="m_Panel" x="145" y="164" z="0" width="273" height="190" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Picture id="m_Picture" x="-10" y="-8" z="0" width="160" height="177" window_state="262">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                </Picture>
+                <Picture id="m_Picture1" x="19" y="137" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture2" x="60" y="141" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture3" x="102" y="139" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture4" x="-3" y="140" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture5" x="38" y="145" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture6" x="80" y="141" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture7" x="20" y="10" z="0" width="147" height="134" window_state="262">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                </Picture>
+                <Picture id="m_Picture8" x="133" y="76" z="0" width="21" height="24" window_state="262"/>
+                <Picture id="m_Picture9" x="133" y="19" z="0" width="156" height="141" window_state="262">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <Picture id="m_Picture" x="27" y="-26" z="0" width="147" height="162" window_state="262"/>
+                    <Picture id="m_Picture1" x="6" y="92" z="0" width="142" height="48" window_state="262"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel1" x="421" y="164" z="0" width="273" height="190" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Picture id="m_Picture" x="-10" y="-8" z="0" width="160" height="176" window_state="262">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                </Picture>
+                <Picture id="m_Picture1" x="19" y="137" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture2" x="60" y="141" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture3" x="102" y="139" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture4" x="-3" y="140" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture5" x="38" y="145" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture6" x="80" y="141" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture7" x="5" y="2" z="0" width="146" height="134" window_state="262">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                </Picture>
+                <Picture id="m_Picture8" x="133" y="76" z="0" width="21" height="24" window_state="262"/>
+                <Picture id="m_Picture9" x="133" y="19" z="0" width="156" height="141" window_state="262">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <Picture id="m_Picture" x="16" y="-8" z="0" width="146" height="146" window_state="262"/>
+                    <Picture id="m_Picture1" x="6" y="92" z="0" width="142" height="48" window_state="262"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel2" x="696" y="164" z="0" width="273" height="190" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Picture id="m_Picture" x="-10" y="-8" z="0" width="160" height="177" window_state="262">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                </Picture>
+                <Picture id="m_Picture1" x="19" y="137" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture2" x="60" y="141" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture3" x="102" y="139" z="0" width="17" height="15" window_state="262"/>
+                <Picture id="m_Picture4" x="-3" y="140" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture5" x="38" y="145" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture6" x="80" y="141" z="0" width="61" height="55" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture7" x="-3" y="2" z="0" width="147" height="141" window_state="262">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <Picture id="m_Picture8" x="133" y="76" z="0" width="21" height="24" window_state="262"/>
+                <Picture id="m_Picture9" x="133" y="19" z="0" width="156" height="141" window_state="262">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <Picture id="m_Picture" x="9" y="-28" z="0" width="151" height="161" window_state="262"/>
+                    <Picture id="m_Picture1" x="6" y="92" z="0" width="142" height="48" window_state="262"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page2" x="112" y="107" z="0" width="910" height="400" window_state="4">
+            <RichLabel id="m_RichLabel" x="97" y="-3" z="0" width="715" height="50" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_TITLE"/>
+                <font_size value="50"/>
+                <text_style value="32"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="35" y="340" z="0" width="840" height="30" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_LOCKWILD"/>
+                <font_size value="28"/>
+                <text_style value="40"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Panel1" x="33" y="80" z="0" width="160" height="250" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Panel id="m_Divider" x="163" y="7" z="0" width="2" height="220" window_state="6" style="cs_slots_012_Green">
+                    <anchor_point x="0.5" y="0" z="0"/>
+                </Panel>
+                <Panel id="m_Panel" x="28" y="59" z="0" width="20" height="25" window_state="6" style="cs_slots_012_Yellow"/>
+                <Picture id="m_Picture" x="27" y="35" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="7" y="4" z="0" width="145" height="28" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_ROUND1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_slots_012_Yellow"/>
+                    <text_style value="32"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="0" y="118" z="0" width="158" height="125" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_LINE1"/>
+                    <font_size value="23"/>
+                    <text_align_v value="1"/>
+                    <text_style value="40"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel2" x="204" y="80" z="0" width="160" height="250" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Panel id="m_Divider" x="164" y="7" z="0" width="2" height="220" window_state="6" style="cs_slots_012_Green">
+                    <anchor_point x="0.5" y="0" z="0"/>
+                </Panel>
+                <Panel id="m_Panel" x="28" y="59" z="0" width="20" height="25" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel1" x="49" y="54" z="0" width="20" height="35" window_state="6" style="cs_slots_012_Yellow"/>
+                <Picture id="m_Picture" x="27" y="35" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="7" y="4" z="0" width="145" height="28" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_ROUND2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_slots_012_Yellow"/>
+                    <text_style value="32"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="1" y="118" z="0" width="158" height="125" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_LINE2"/>
+                    <font_size value="23"/>
+                    <text_align_v value="1"/>
+                    <text_style value="40"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel3" x="375" y="80" z="0" width="160" height="250" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Panel id="m_Divider" x="165" y="7" z="0" width="2" height="220" window_state="6" style="cs_slots_012_Green">
+                    <anchor_point x="0.5" y="0" z="0"/>
+                </Panel>
+                <Panel id="m_Panel" x="28" y="59" z="0" width="20" height="25" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel1" x="49" y="54" z="0" width="20" height="35" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel2" x="70" y="48" z="0" width="20" height="48" window_state="6" style="cs_slots_012_Yellow"/>
+                <Picture id="m_Picture" x="27" y="35" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="7" y="4" z="0" width="145" height="28" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_ROUND3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_slots_012_Yellow"/>
+                    <text_style value="32"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="1" y="118" z="0" width="158" height="125" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_LINE3"/>
+                    <font_size value="23"/>
+                    <text_align_v value="1"/>
+                    <text_style value="40"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel4" x="547" y="80" z="0" width="160" height="250" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Panel id="m_Divider" x="165" y="7" z="0" width="2" height="220" window_state="6" style="cs_slots_012_Green">
+                    <anchor_point x="0.5" y="0" z="0"/>
+                </Panel>
+                <Panel id="m_Panel" x="28" y="59" z="0" width="20" height="25" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel1" x="49" y="54" z="0" width="20" height="35" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel2" x="70" y="48" z="0" width="20" height="48" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel3" x="91" y="42" z="0" width="20" height="59" window_state="6" style="cs_slots_012_Yellow"/>
+                <Picture id="m_Picture" x="27" y="35" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="7" y="4" z="0" width="145" height="28" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_ROUND4"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_slots_012_Yellow"/>
+                    <text_style value="32"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="1" y="118" z="0" width="158" height="125" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_LINE4"/>
+                    <font_size value="23"/>
+                    <text_align_v value="1"/>
+                    <text_style value="40"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel5" x="717" y="80" z="0" width="160" height="250" window_state="6">
+                <window_layout_align_v value="0"/>
+                <window_layout_align_h value="0"/>
+                <tip_text_align_h value="1"/>
+                <tip_align_h value="1"/>
+                <tip_align_v value="1"/>
+                <Panel id="m_Panel" x="28" y="59" z="0" width="20" height="25" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel1" x="49" y="54" z="0" width="21" height="35" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel2" x="70" y="48" z="0" width="20" height="48" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel3" x="91" y="42" z="0" width="20" height="59" window_state="6" style="cs_slots_012_Yellow"/>
+                <Panel id="m_Panel4" x="112" y="36" z="0" width="20" height="72" window_state="6" style="cs_slots_012_Yellow"/>
+                <Picture id="m_Picture" x="27" y="35" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="7" y="4" z="0" width="145" height="28" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_ROUND5"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_slots_012_Yellow"/>
+                    <text_style value="32"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="1" y="118" z="0" width="158" height="125" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE3_LINE5"/>
+                    <font_size value="23"/>
+                    <text_align_v value="1"/>
+                    <text_style value="40"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page3" x="112" y="107" z="0" width="910" height="400" window_state="4">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <RichLabel id="m_RichLabel" x="127" y="-3" z="0" width="655" height="48" window_state="6" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_TITLE"/>
+                <font_size value="50"/>
+                <text_color value="cs_white"/>
+                <line_height value="1"/>
+            </RichLabel>
+            <Panel id="m_Group1" x="-3" y="32" z="0" width="170" height="400" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="31"/>
+                <RichLabel id="m_RichLabel" x="13" y="9" z="0" width="143" height="28" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_TEXT"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_slots_012_Yellow"/>
+                    <text_style value="32"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="20" y="30" z="0" width="130" height="70" window_state="6">
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_TEXT_SUBSTITUTES"/>
+                    <font_size value="23"/>
+                    <text_style value="40"/>
+                    <rich_label_state value="4"/>
+                    <line_height value="20"/>
+                </RichLabel>
+                <Panel id="m_Icon_Wild" x="11" y="99" z="0" width="150" height="225" window_state="6">
+                    <Panel id="m_Clip" x="0" y="0" z="0" width="150" height="200" window_state="262150">
+                        <Picture id="m_Bg" x="0" y="0" z="0" width="150" height="450" window_state="6">
+                            <piece_info value="slots_012_panel_07"/>
+                        </Picture>
+                        <Picture id="m_Picture" x="0" y="15" z="0" width="150" height="435" window_state="6">
+                            <piece_info value="slots_012_panel_08"/>
+                        </Picture>
+                    </Panel>
+                    <Panel id="m_Wild" x="0" y="0" z="0" width="150" height="225" window_state="4">
+                        <Panel id="m_Panel1" x="3" y="16" z="0" width="150" height="70" window_state="6">
+                            <Picture id="m_Picture" x="0" y="6" z="0" width="149" height="62" window_state="262">
+                                <piece_info value="slots_012_fonts_01"/>
+                            </Picture>
+                            <Sprite id="m_Sprite" x="-57" y="-78" z="0" width="280" height="200" window_state="4">
+                                <sprite_file value="slots_012/sprites/wild_release.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                            <Sprite id="m_Sprite1" x="-50" y="-27" z="0" width="240" height="120" window_state="4">
+                                <sprite_file value="slots_012/sprites/wild_animation.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                            <PictureMask id="m_PictureMask" x="3" y="8" z="0" width="146" height="58" window_state="4">
+                                <blend_mode value="2"/>
+                                <action_id value="animation_wild_sweep01"/>
+                                <piece_info value="slots_012_wild_mask01"/>
+                                <mask_piece value="slots_012_wild_sweep01"/>
+                                <mask_offset x="-0.40000001" y="0" z="0"/>
+                            </PictureMask>
+                            <PictureMask id="m_PictureMask1" x="5" y="11" z="0" width="131" height="43" window_state="4">
+                                <blend_mode value="2"/>
+                                <action_id value="animation_wild_sweep02"/>
+                                <piece_info value="slots_012_wild_mask"/>
+                                <mask_piece value="slots_012_wild_sweep"/>
+                                <mask_offset x="-0.40000001" y="0" z="0"/>
+                            </PictureMask>
+                        </Panel>
+                        <Panel id="m_Panel2" x="3" y="83" z="0" width="150" height="70" window_state="6">
+                            <Picture id="m_Picture" x="0" y="6" z="0" width="149" height="62" window_state="262">
+                                <piece_info value="slots_012_fonts_01"/>
+                            </Picture>
+                            <Sprite id="m_Sprite" x="-57" y="-78" z="0" width="280" height="200" window_state="4">
+                                <sprite_file value="slots_012/sprites/wild_release.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                            <Sprite id="m_Sprite1" x="-50" y="-27" z="0" width="240" height="120" window_state="4">
+                                <sprite_file value="slots_012/sprites/wild_animation.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                            <PictureMask id="m_PictureMask" x="3" y="8" z="0" width="146" height="58" window_state="4">
+                                <blend_mode value="2"/>
+                                <action_id value="animation_wild_sweep01"/>
+                                <piece_info value="slots_012_wild_mask01"/>
+                                <mask_piece value="slots_012_wild_sweep01"/>
+                                <mask_offset x="-0.40000001" y="0" z="0"/>
+                            </PictureMask>
+                            <PictureMask id="m_PictureMask1" x="5" y="11" z="0" width="131" height="43" window_state="4">
+                                <blend_mode value="2"/>
+                                <action_id value="animation_wild_sweep02"/>
+                                <piece_info value="slots_012_wild_mask"/>
+                                <mask_piece value="slots_012_wild_sweep"/>
+                                <mask_offset x="-0.40000001" y="0" z="0"/>
+                            </PictureMask>
+                        </Panel>
+                        <Panel id="m_Panel3" x="3" y="148" z="0" width="150" height="70" window_state="6">
+                            <Picture id="m_Picture" x="0" y="6" z="0" width="149" height="62" window_state="262">
+                                <piece_info value="slots_012_fonts_01"/>
+                            </Picture>
+                            <Sprite id="m_Sprite" x="-57" y="-78" z="0" width="280" height="200" window_state="4">
+                                <sprite_file value="slots_012/sprites/wild_release.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                            <Sprite id="m_Sprite1" x="-50" y="-27" z="0" width="240" height="120" window_state="4">
+                                <sprite_file value="slots_012/sprites/wild_animation.xml"/>
+                                <sprite_state value="0"/>
+                            </Sprite>
+                            <PictureMask id="m_PictureMask" x="3" y="8" z="0" width="146" height="58" window_state="4">
+                                <blend_mode value="2"/>
+                                <action_id value="animation_wild_sweep01"/>
+                                <piece_info value="slots_012_wild_mask01"/>
+                                <mask_piece value="slots_012_wild_sweep01"/>
+                                <mask_offset x="-0.40000001" y="0" z="0"/>
+                            </PictureMask>
+                            <PictureMask id="m_PictureMask1" x="5" y="11" z="0" width="131" height="43" window_state="4">
+                                <blend_mode value="2"/>
+                                <action_id value="animation_wild_sweep02"/>
+                                <piece_info value="slots_012_wild_mask"/>
+                                <mask_piece value="slots_012_wild_sweep"/>
+                                <mask_offset x="-0.40000001" y="0" z="0"/>
+                            </PictureMask>
+                        </Panel>
+                    </Panel>
+                    <Panel id="m_Frame" x="0" y="0" z="0" width="150" height="200" window_state="6" style="ngs_slots_012_panel_06"/>
+                </Panel>
+                <RichLabel id="m_Reward1" x="95" y="303" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="95" y="326" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="95" y="349" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="95" y="371" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_REWARD4"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="61" y="303" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="61" y="326" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="61" y="349" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="61" y="371" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP1_ICONS4"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="171" y="55" z="0" width="234" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Panel id="m_Icon_Unicorn" x="8" y="13" z="0" width="150" height="75" window_state="6">
+                    <Picture id="m_Bg" x="-5" y="-9" z="0" width="160" height="94" window_state="262">
+                        <piece_info value="slots_012_icon_05"/>
+                    </Picture>
+                    <Picture id="m_Picture" x="-5" y="-9" z="0" width="160" height="94" window_state="262">
+                        <piece_info value="slots_012_icon_05a"/>
+                    </Picture>
+                </Panel>
+                <RichLabel id="m_Reward1" x="207" y="6" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="207" y="29" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="207" y="52" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="207" y="74" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_REWARD4"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="185" y="6" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="185" y="29" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="185" y="52" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="185" y="74" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP2_ICONS4"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="423" y="55" z="0" width="234" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Panel id="m_Icon_Owl" x="9" y="13" z="0" width="150" height="75" window_state="6">
+                    <Picture id="m_Bg" x="0" y="-6" z="0" width="150" height="87" window_state="262">
+                        <piece_info value="slots_012_icon_04"/>
+                    </Picture>
+                    <Picture id="m_Picture" x="0" y="-6" z="0" width="150" height="87" window_state="262">
+                        <piece_info value="slots_012_icon_04a"/>
+                    </Picture>
+                </Panel>
+                <RichLabel id="m_Reward1" x="207" y="6" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="207" y="29" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="207" y="52" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="207" y="74" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_REWARD4"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="185" y="6" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="185" y="29" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="185" y="52" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="185" y="74" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP3_ICONS4"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="669" y="55" z="0" width="234" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Panel id="m_Icon_Hedgehog" x="9" y="13" z="0" width="150" height="75" window_state="6">
+                    <Picture id="m_Bg" x="0" y="-6" z="0" width="150" height="87" window_state="262">
+                        <piece_info value="slots_012_icon_07"/>
+                    </Picture>
+                    <Picture id="m_Picture" x="0" y="-6" z="0" width="150" height="87" window_state="262">
+                        <piece_info value="slots_012_icon_07a"/>
+                    </Picture>
+                </Panel>
+                <RichLabel id="m_Reward1" x="207" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP4_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="207" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP4_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="207" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP4_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="185" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP4_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="185" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP4_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="185" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP4_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="171" y="167" z="0" width="234" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Panel id="m_Icon_Chameleon" x="8" y="15" z="0" width="150" height="75" window_state="6">
+                    <Picture id="m_Bg" x="0" y="0" z="0" width="150" height="75" window_state="262">
+                        <piece_info value="slots_012_icon_03"/>
+                    </Picture>
+                    <Picture id="m_Picture" x="0" y="0" z="0" width="150" height="75" window_state="262">
+                        <piece_info value="slots_012_icon_03a"/>
+                    </Picture>
+                </Panel>
+                <RichLabel id="m_Reward1" x="207" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP5_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="207" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP5_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="207" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP5_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="185" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP5_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="185" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP5_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="185" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP5_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="423" y="167" z="0" width="234" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Panel id="m_Icon_Snail" x="9" y="15" z="0" width="150" height="75" window_state="6">
+                    <Picture id="m_Bg" x="0" y="0" z="0" width="150" height="75" window_state="262">
+                        <piece_info value="slots_012_icon_06"/>
+                    </Picture>
+                    <Picture id="m_Picture" x="0" y="0" z="0" width="150" height="75" window_state="262">
+                        <piece_info value="slots_012_icon_06a"/>
+                    </Picture>
+                    <Panel id="m_Panel1" x="0" y="0" z="0" width="148" height="73" window_state="262150">
+                        <Particle id="m_Particle" x="65" y="37" z="0" width="20" height="20" window_state="6">
+                            <particle_state value="0"/>
+                            <package_file value="slots_012/particles/fairy queen.ptc"/>
+                            <particle_name value="icon005bg"/>
+                        </Particle>
+                    </Panel>
+                </Panel>
+                <RichLabel id="m_Reward1" x="207" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP6_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="207" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP6_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="207" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP6_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="185" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP6_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="185" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP6_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="185" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP6_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group7" x="174" y="285" z="0" width="140" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Picture" x="-39" y="14" z="0" width="150" height="75" window_state="262">
+                    <piece_info value="slots_012_icon_08"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="105" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP7_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="105" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP7_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="105" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP7_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="90" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP7_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="90" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP7_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="90" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP7_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group8" x="322" y="285" z="0" width="140" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Picture" x="-40" y="14" z="0" width="150" height="75" window_state="262">
+                    <piece_info value="slots_012_icon_10"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="105" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP8_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="105" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP8_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="105" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP8_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="90" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP8_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="90" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP8_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="90" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP8_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group9" x="467" y="285" z="0" width="140" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="8"/>
+                <Picture id="m_Picture" x="-39" y="14" z="0" width="150" height="75" window_state="262">
+                    <piece_info value="slots_012_icon_11"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="105" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP9_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="105" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP9_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="105" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP9_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="90" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP9_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="90" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP9_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="90" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP9_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group10" x="618" y="285" z="0" width="140" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="9"/>
+                <Picture id="m_Picture" x="-42" y="14" z="0" width="150" height="75" window_state="262">
+                    <piece_info value="slots_012_icon_09"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="105" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP10_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="105" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP10_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="105" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP10_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="90" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP10_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="90" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP10_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="90" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP10_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group11" x="763" y="285" z="0" width="140" height="104" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="10"/>
+                <Picture id="m_Picture" x="-39" y="14" z="0" width="150" height="75" window_state="262">
+                    <piece_info value="slots_012_icon_12"/>
+                </Picture>
+                <RichLabel id="m_Reward1" x="107" y="17" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP11_REWARD1"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="107" y="40" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP11_REWARD2"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="107" y="63" z="0" width="30" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP11_REWARD3"/>
+                    <font_size value="26"/>
+                    <text_align_h value="3"/>
+                    <line_height value="1"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="92" y="17" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP11_ICONS1"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="92" y="40" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP11_ICONS2"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="92" y="63" z="0" width="12" height="26" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE1_GROUP11_ICONS3"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_line_color_10"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page4" x="112" y="107" z="0" width="910" height="400" window_state="4">
+            <RichLabel id="m_RichLabel" x="127" y="-3" z="0" width="655" height="48" window_state="6" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_TITLE"/>
+                <font_size value="50"/>
+                <text_color value="cs_white"/>
+                <line_height value="1"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="13" y="72" z="0" width="896" height="34" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_DESCRIPTION1"/>
+                <font_size value="24"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="40"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="13" y="99" z="0" width="896" height="34" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_DESCRIPTION2"/>
+                <font_size value="24"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="40"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4" x="13" y="126" z="0" width="896" height="34" window_state="6">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_DESCRIPTION3"/>
+                <font_size value="24"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="40"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_row1" x="23" y="159" z="0" width="890" height="80" window_state="6">
+                <Picture id="m_Picture1" x="8" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="2" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="15" z="0" width="52" height="18" window_state="262">
+                        <piece_info value="slots_012_panel_22a"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="10" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP1"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="232" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="14" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="18" z="0" width="55" height="15" window_state="262">
+                        <piece_info value="slots_012_panel_22b"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="22" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP2"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="452" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="26" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="3" y="19" z="0" width="56" height="26" window_state="262">
+                        <piece_info value="slots_012_panel_22c"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="32" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP3"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="689" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="58" y="38" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="19" z="0" width="56" height="40" window_state="262">
+                        <piece_info value="slots_012_panel_22d"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="40" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP4"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row2" x="23" y="242" z="0" width="890" height="80" window_state="6">
+                <Picture id="m_Picture1" x="8" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="2" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="15" z="0" width="56" height="25" window_state="262">
+                        <piece_info value="slots_012_panel_22e"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="10" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP5"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="232" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="14" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="3" y="26" z="0" width="56" height="15" window_state="262">
+                        <piece_info value="slots_012_panel_22f"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="22" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP6"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="452" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="26" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="3" y="26" z="0" width="55" height="20" window_state="262">
+                        <piece_info value="slots_012_panel_22g"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="32" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP7"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="689" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="58" y="38" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="26" z="0" width="56" height="33" window_state="262">
+                        <piece_info value="slots_012_panel_22h"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="40" z="0" width="18" height="25" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP8"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row3" x="23" y="324" z="0" width="890" height="80" window_state="6">
+                <Picture id="m_Picture1" x="8" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="2" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="15" z="0" width="57" height="39" window_state="262">
+                        <piece_info value="slots_012_panel_22i"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="10" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP9"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="232" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="14" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="26" z="0" width="55" height="27" window_state="262">
+                        <piece_info value="slots_012_panel_22j"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="22" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP10"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="452" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="26" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="3" y="26" z="0" width="54" height="28" window_state="262">
+                        <piece_info value="slots_012_panel_22k"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="32" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP11"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="689" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="58" y="38" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="26" z="0" width="56" height="33" window_state="262">
+                        <piece_info value="slots_012_panel_22l"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="40" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE4_GROUP12"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page5" x="112" y="107" z="0" width="910" height="400" window_state="4">
+            <RichLabel id="m_RichLabel" x="127" y="-3" z="0" width="655" height="48" window_state="6" style="ngs_panel_bg">
+                <blend_mode value="2"/>
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_TITLE"/>
+                <font_size value="50"/>
+                <text_color value="cs_white"/>
+                <line_height value="1"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="215" y="39" z="0" width="480" height="30" window_state="4">
+                <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_2OF2"/>
+                <text_style value="32"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_row1" x="23" y="95" z="0" width="890" height="80" window_state="6">
+                <Picture id="m_Picture1" x="8" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="2" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="15" z="0" width="55" height="31" window_state="262">
+                        <piece_info value="slots_012_panel_22m"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="10" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP1"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="232" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="14" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="21" z="0" width="56" height="24" window_state="262">
+                        <piece_info value="slots_012_panel_22n"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="22" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP2"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="452" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="26" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="20" z="0" width="55" height="26" window_state="262">
+                        <piece_info value="slots_012_panel_22o"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="32" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP3"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="689" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="58" y="38" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="20" z="0" width="55" height="38" window_state="262">
+                        <piece_info value="slots_012_panel_22p"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="40" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP4"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row2" x="23" y="198" z="0" width="890" height="80" window_state="6">
+                <Picture id="m_Picture1" x="8" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="2" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="3" y="16" z="0" width="56" height="30" window_state="262">
+                        <piece_info value="slots_012_panel_22q"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="10" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP5"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="232" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="14" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="3" y="27" z="0" width="56" height="18" window_state="262">
+                        <piece_info value="slots_012_panel_22r"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="22" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP6"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="452" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="26" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="3" y="33" z="0" width="55" height="13" window_state="262">
+                        <piece_info value="slots_012_panel_22s"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="32" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP7"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="689" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="58" y="38" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="33" z="0" width="57" height="25" window_state="262">
+                        <piece_info value="slots_012_panel_22t"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="40" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP8"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row3" x="23" y="301" z="0" width="890" height="80" window_state="6">
+                <Picture id="m_Picture1" x="8" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="2" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="15" z="0" width="55" height="38" window_state="262">
+                        <piece_info value="slots_012_panel_22u"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="10" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP9"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="232" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="14" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="26" z="0" width="56" height="27" window_state="262">
+                        <piece_info value="slots_012_panel_22v"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="22" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP10"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="452" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="56" y="26" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="4" y="38" z="0" width="54" height="15" window_state="262">
+                        <piece_info value="slots_012_panel_22w"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="32" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP11"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="689" y="0" z="0" width="106" height="73" window_state="6">
+                    <piece_info value="slots_012_panel_21"/>
+                    <Picture id="m_Picture0" x="58" y="38" z="0" width="45" height="34" window_state="262">
+                        <piece_info value="slots_012_panel_22"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="5" y="38" z="0" width="54" height="21" window_state="262">
+                        <piece_info value="slots_012_panel_22x"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="115" y="40" z="0" width="18" height="22" window_state="6">
+                        <scale x="1" y="0.80000001" z="1"/>
+                        <text value="SLOTS_FAIRYQUEEN_PAYTABLE_PAGE5_GROUP12"/>
+                        <font_size value="22"/>
+                        <text_align_h value="1"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0"/>
+                        <outline_center value="0.43000001"/>
+                        <word_spacing value="1"/>
+                        <line_height value="0"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Button id="m_NextBtn" x="699" y="510" z="0" width="108" height="108" window_state="262" style="bs_slots_012_button_10b">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BackBtn" x="440" y="508" z="0" width="255" height="112" window_state="262" style="bs_slots_012_button_10">
+        <text_offset x="0" y="-5" z="0"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.44999999"/>
+        <outline_center value="0.2"/>
+        <word_spacing value="1"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="32" y="37" z="0" width="196" height="40" window_state="14">
+            <text value="SLOTS_FAIRYQUEEN_PAYTABLE_BUTTON_BACKTOGAME"/>
+            <font_size value="34"/>
+            <text_color value="cs_line_color_10"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38999999"/>
+            <outline_center value="0.47999999"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_PrevBtn" x="332" y="510" z="0" width="108" height="108" window_state="262" style="bs_slots_012_button_10a">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

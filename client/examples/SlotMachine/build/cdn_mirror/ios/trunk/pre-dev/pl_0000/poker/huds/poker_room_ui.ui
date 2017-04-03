@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanelRoomUI" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_PicBg" x="48" y="23" z="0" width="1040" height="594" window_state="14">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="poker_room_bg_01"/>
+    </Picture>
+    <Panel implement_class="PanelTableBg" id="m_PanelTableBg" x="191" y="149" z="0" width="752" height="257" window_state="6">
+        <PictureMirror id="m_PicTableRed" x="0" y="0" z="0" width="752" height="256" window_state="4">
+            <piece_info value="poker_room_table_01"/>
+        </PictureMirror>
+        <PictureMirror id="m_PicTableBlue" x="0" y="0" z="0" width="752" height="256" window_state="4">
+            <piece_info value="poker_room_table_02"/>
+        </PictureMirror>
+    </Panel>
+    <Panel id="m_PanelTable" x="0" y="0" z="0" width="1136" height="640" window_state="6"/>
+    <Panel id="m_PanelBuyCoin" x="-1" y="-2" z="0" width="205" height="91" window_state="4">
+        <Button id="m_BtnFree" x="12" y="11" z="0" width="160" height="76" window_state="4" style="ngs_poker_button_003">
+            <text value="FREE"/>
+            <font_size value="35"/>
+            <text_offset x="32" y="0" z="0"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.46000001"/>
+            <outline_center value="0.49000001"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnBuy" x="12" y="11" z="0" width="150" height="76" window_state="6" style="ngs_poker_button_003">
+            <text value="BUY"/>
+            <font_size value="35"/>
+            <text_offset x="32" y="0" z="0"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.46000001"/>
+            <outline_center value="0.49000001"/>
+            <line_height value="30"/>
+        </Button>
+        <Sprite id="m_Sprite" x="-10" y="-12" z="0" width="120" height="120" window_state="14">
+            <blend_mode value="2"/>
+            <sprite_file value="poker/sprites/Storage_effect01.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Picture id="m_PicTotalCoins" x="-1" y="-2" z="0" width="423" height="69" window_state="6">
+        <Picture id="m_Picture2" x="20" y="14" z="0" width="228" height="54" window_state="14" style="ngs_casino_common_btn03"/>
+        <Picture id="m_Picture1" x="-20" y="-24" z="0" width="118" height="122" window_state="6">
+            <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+            <piece_info value="casino_common_icon02"/>
+        </Picture>
+        <RichLabel implement_class="DataSourceLabel" id="m_LblCoin" x="71" y="16" z="0" width="150" height="40" window_state="6">
+            <dynamic_attr key="data_source" type="string" value="coin"/>
+            <dynamic_attr key="expand" type="bool" value="true"/>
+            <text value="800,000,000"/>
+            <text_align_h value="1"/>
+            <text_style value="32"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.039999999"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <RichLabel id="m_LblRoomState" x="188" y="584" z="0" width="760" height="40" window_state="14">
+        <text value="TEXASPOKER_COMMON_MENU_TEXT_WAITNEXT"/>
+        <font_size value="55"/>
+        <text_color value="cs_lightgrey"/>
+        <text_style value="32"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_White"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel implement_class="PanelPokerOperationBar" id="m_PanelOperateBar" x="701" y="523" z="0" width="435" height="117" window_state="6">
+        <Panel id="m_PanelAutoOpt" x="40" y="29" z="0" width="384" height="94" window_state="4">
+            <window_layout value="1"/>
+            <window_layout_align_h value="3"/>
+            <ToggleButton implement_class="ToggleButtonPokerAbs" id="m_BtnAbs0" x="0" y="7" z="0" width="80" height="80" window_state="6">
+                <line_height value="30"/>
+                <checked value="1"/>
+                <ToggleButton implement_class="PokerTouchedToggleButton" id="m_BtnTg" x="1" y="-1" z="0" width="78" height="83" window_state="6">
+                    <text value="Fold"/>
+                    <font_size value="29"/>
+                    <text_color value="cs_Redtxt"/>
+                    <text_align_v value="1"/>
+                    <text_offset x="0" y="-23" z="0"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                    <checked value="1"/>
+                    <checked_bg_style value="bs_poker_button_021b"/>
+                    <unchecked_bg_style value="bs_poker_button_021"/>
+                    <checked_text_color_style value="cs_Redtxt"/>
+                    <unchecked_text_color_style value="cs_White"/>
+                    <Picture id="m_PicEffectChecked" x="-9" y="-8" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_r"/>
+                    </Picture>
+                    <Picture id="m_PicEffectUnchecked" x="-9" y="-8" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_p"/>
+                    </Picture>
+                </ToggleButton>
+                <PictureMask id="m_SweepSprite" x="1" y="-1" z="0" width="78" height="83" window_state="270">
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+            </ToggleButton>
+            <ToggleButton implement_class="ToggleButtonPokerAbs" id="m_BtnAbs1" x="80" y="7" z="0" width="80" height="80" window_state="6">
+                <line_height value="30"/>
+                <checked value="1"/>
+                <ToggleButton implement_class="PokerTouchedToggleButton" id="m_BtnTg" x="1" y="-1" z="0" width="78" height="83" window_state="6">
+                    <text value="Check/Fold"/>
+                    <font_size value="29"/>
+                    <text_color value="cs_White"/>
+                    <text_align_v value="1"/>
+                    <text_offset x="0" y="-24" z="0"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                    <checked_bg_style value="bs_poker_button_022b"/>
+                    <unchecked_bg_style value="bs_poker_button_022"/>
+                    <checked_text_color_style value="cs_BlueTxt"/>
+                    <unchecked_text_color_style value="cs_White"/>
+                    <Picture id="m_PicEffectChecked" x="-9" y="-8" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_b"/>
+                    </Picture>
+                    <Picture id="m_PicEffectUnchecked" x="-9" y="-8" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_p"/>
+                    </Picture>
+                </ToggleButton>
+                <PictureMask id="m_SweepSprite" x="1" y="-1" z="0" width="78" height="83" window_state="270">
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+            </ToggleButton>
+            <ToggleButton implement_class="ToggleButtonPokerAbs" id="m_BtnAbs2" x="160" y="7" z="0" width="80" height="80" window_state="6">
+                <font_size value="25"/>
+                <text_offset x="0" y="38" z="0"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.38"/>
+                <outline_center value="0.47999999"/>
+                <line_height value="30"/>
+                <ToggleButton implement_class="PokerTouchedToggleButton" id="m_BtnTg" x="1" y="-1" z="0" width="78" height="83" window_state="6">
+                    <text value="Check"/>
+                    <font_size value="29"/>
+                    <text_color value="cs_White"/>
+                    <text_align_v value="1"/>
+                    <text_offset x="0" y="-24" z="0"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.38"/>
+                    <outline_center value="0.47999999"/>
+                    <line_height value="30"/>
+                    <checked_bg_style value="bs_poker_button_011b"/>
+                    <unchecked_bg_style value="bs_poker_button_011"/>
+                    <checked_text_color_style value="cs_GreenTxt02"/>
+                    <unchecked_text_color_style value="cs_White"/>
+                    <Picture id="m_PicEffectChecked" x="-9" y="-9" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_g"/>
+                    </Picture>
+                    <Picture id="m_PicEffectUnchecked" x="-9" y="-7" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_p"/>
+                    </Picture>
+                </ToggleButton>
+                <PictureMask id="m_SweepSprite" x="1" y="-1" z="0" width="78" height="83" window_state="270">
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+            </ToggleButton>
+            <ToggleButton implement_class="ToggleButtonPokerAbs" id="m_BtnAbs3" x="240" y="7" z="0" width="80" height="80" window_state="6">
+                <line_height value="30"/>
+                <ToggleButton implement_class="PokerTouchedToggleButton" id="m_BtnTg" x="1" y="-1" z="0" width="78" height="83" window_state="6">
+                    <text value="Call"/>
+                    <font_size value="29"/>
+                    <text_color value="cs_White"/>
+                    <text_align_v value="1"/>
+                    <text_offset x="0" y="-24" z="0"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.38"/>
+                    <outline_center value="0.47999999"/>
+                    <line_height value="30"/>
+                    <checked_bg_style value="bs_poker_button_012b"/>
+                    <unchecked_bg_style value="bs_poker_button_012"/>
+                    <checked_text_color_style value="cs_GreenTxt02"/>
+                    <unchecked_text_color_style value="cs_White"/>
+                    <Picture id="m_PicEffectChecked" x="-9" y="-9" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_g"/>
+                    </Picture>
+                    <Picture id="m_PicEffectUnchecked" x="-9" y="-8" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_p"/>
+                    </Picture>
+                </ToggleButton>
+                <PictureMask id="m_SweepSprite" x="1" y="-1" z="0" width="78" height="83" window_state="270">
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+            </ToggleButton>
+            <ToggleButton implement_class="ToggleButtonPokerAbs" id="m_BtnAbs4" x="320" y="7" z="0" width="80" height="80" window_state="6">
+                <line_height value="30"/>
+                <ToggleButton implement_class="PokerTouchedToggleButton" id="m_BtnTg" x="1" y="-1" z="0" width="78" height="83" window_state="6">
+                    <text value="Call Any"/>
+                    <font_size value="29"/>
+                    <text_color value="cs_White"/>
+                    <text_align_v value="1"/>
+                    <text_offset x="0" y="-24" z="0"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.38"/>
+                    <outline_center value="0.47999999"/>
+                    <line_height value="30"/>
+                    <checked_bg_style value="bs_poker_button_012b"/>
+                    <unchecked_bg_style value="bs_poker_button_012"/>
+                    <checked_text_color_style value="cs_GreenTxt02"/>
+                    <unchecked_text_color_style value="cs_White"/>
+                    <Picture id="m_PicEffectChecked" x="-9" y="-8" z="0" width="96" height="96" window_state="12">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_g"/>
+                    </Picture>
+                    <Picture id="m_PicEffectUnchecked" x="-9" y="-8" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="poker_button_glow_p"/>
+                    </Picture>
+                </ToggleButton>
+                <PictureMask id="m_SweepSprite" x="1" y="-1" z="0" width="78" height="83" window_state="270">
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+            </ToggleButton>
+        </Panel>
+        <Panel id="m_PanelManOpt" x="40" y="23" z="0" width="384" height="94" window_state="6">
+            <window_layout_align_h value="3"/>
+            <Panel implement_class="ButtonPokerOper" id="m_BtnMan0" x="0" y="0" z="0" width="90" height="94" window_state="6">
+                <ButtonAction id="m_ButtonAction" x="0" y="8" z="0" width="86" height="91" window_state="6" style="bs_poker_button_005">
+                    <line_height value="30"/>
+                    <action_scale value="0.050000001"/>
+                    <glow_piece_info value="poker_button_glow_r"/>
+                    <glow_scale value="0.89999998"/>
+                </ButtonAction>
+                <RichLabel id="m_RichLabel" x="-5" y="-13" z="0" width="96" height="30" window_state="14">
+                    <text value="TEXASPOKER_COMMON_ACTION_BUTTON_FOLD"/>
+                    <font_size value="29"/>
+                    <text_color value="cs_Redtxt"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <PictureMask id="m_SweepSprite" x="4" y="12" z="0" width="78" height="83" window_state="270">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+                <Panel id="m_PanelAlign" x="2" y="10" z="0" width="82" height="82" window_state="14"/>
+            </Panel>
+            <Panel implement_class="ButtonPokerOper" id="m_BtnMan1" x="100" y="0" z="0" width="90" height="94" window_state="6">
+                <ButtonAction id="m_ButtonAction" x="2" y="8" z="0" width="86" height="91" window_state="6" style="bs_poker_button_025">
+                    <line_height value="30"/>
+                    <action_scale value="0.050000001"/>
+                    <glow_piece_info value="poker_button_glow_b"/>
+                    <glow_scale value="0.89999998"/>
+                </ButtonAction>
+                <RichLabel id="m_RichLabel" x="-3" y="-15" z="0" width="96" height="30" window_state="14">
+                    <text value="TEXASPOKER_COMMON_ACTION_BUTTON_CHECK"/>
+                    <text_color value="cs_BlueTxt"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <PictureMask id="m_SweepSprite" x="6" y="12" z="0" width="78" height="83" window_state="270">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+                <Panel id="m_PanelAlign" x="3" y="10" z="0" width="82" height="82" window_state="14"/>
+            </Panel>
+            <Panel implement_class="ButtonPokerOper" id="m_BtnMan2" x="200" y="0" z="0" width="90" height="94" window_state="6">
+                <ButtonAction id="m_ButtonAction" x="2" y="8" z="0" width="86" height="91" window_state="6" style="bs_poker_button_009">
+                    <font_size value="40"/>
+                    <text_color value="cs_call_text"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.050000001"/>
+                    <glow_piece_info value="poker_button_glow_b"/>
+                    <glow_scale value="0.81"/>
+                    <RichLabel id="m_LblChips" x="8" y="22" z="0" width="70" height="45" window_state="14">
+                        <text value="2K"/>
+                        <font_size value="47"/>
+                        <text_color value="cs_black_txt"/>
+                        <text_style value="32"/>
+                        <font_id value="Bebas"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.51999998"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </ButtonAction>
+                <RichLabel id="m_RichLabel" x="-3" y="-15" z="0" width="96" height="30" window_state="14">
+                    <text value="TEXASPOKER_COMMON_ACTION_BUTTON_CALL"/>
+                    <text_color value="cs_White"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <PictureMask id="m_SweepSprite" x="6" y="12" z="0" width="78" height="83" window_state="270">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+                <Panel id="m_PanelAlign" x="5" y="9" z="0" width="82" height="82" window_state="14"/>
+            </Panel>
+            <Panel implement_class="ButtonPokerOper" id="m_BtnMan3" x="295" y="0" z="0" width="90" height="94" window_state="6">
+                <ButtonAction id="m_ButtonAction" x="2" y="8" z="0" width="86" height="91" window_state="262" style="bs_poker_button_004">
+                    <line_height value="30"/>
+                    <action_scale value="0.050000001"/>
+                    <glow_scale value="0.89999998"/>
+                </ButtonAction>
+                <RichLabel id="m_RichLabel" x="-3" y="-15" z="0" width="96" height="30" window_state="14">
+                    <text value="TEXASPOKER_COMMON_ACTION_BUTTON_RAISE"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <PictureMask id="m_SweepSprite" x="6" y="12" z="0" width="78" height="83" window_state="270">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+                <Panel id="m_PanelAlign" x="4" y="10" z="0" width="82" height="82" window_state="14">
+                    <dynamic_attr key="click_piece_id" type="string" value="poker_click_y"/>
+                </Panel>
+            </Panel>
+            <Panel implement_class="ButtonPokerOper" id="m_BtnMan4" x="295" y="0" z="0" width="90" height="94" window_state="6">
+                <ButtonAction id="m_ButtonAction" x="2" y="8" z="0" width="86" height="91" window_state="6" style="bs_poker_button_024">
+                    <font_size value="50"/>
+                    <text_color value="cs_call_text"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.47"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.050000001"/>
+                    <glow_piece_info value="poker_button_glow_y"/>
+                    <glow_scale value="0.89999998"/>
+                    <RichLabel id="m_LblChips" x="8" y="23" z="0" width="70" height="45" window_state="14">
+                        <text value="2K"/>
+                        <font_size value="47"/>
+                        <text_color value="cs_black_txt"/>
+                        <text_style value="32"/>
+                        <font_id value="Bebas"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.51999998"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </ButtonAction>
+                <RichLabel id="m_RichLabel" x="-3" y="-17" z="0" width="96" height="30" window_state="14">
+                    <text value="TEXASPOKER_COMMON_ACTION_BUTTON_ALLIN"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <PictureMask id="m_SweepSprite" x="6" y="12" z="0" width="78" height="83" window_state="270">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <action_id value="cardsweep"/>
+                    <piece_info value="poker_button_sweep1"/>
+                    <mask_piece value="poker_scatter_light_01"/>
+                    <mask_scale value="0.23999999"/>
+                </PictureMask>
+                <Panel id="m_PanelAlign" x="6" y="11" z="0" width="82" height="82" window_state="14"/>
+            </Panel>
+        </Panel>
+        <Panel implement_class="ButtonPokerOper" id="m_BtnConfirm" x="335" y="23" z="0" width="90" height="94" window_state="4">
+            <ButtonAction id="m_ButtonAction" x="3" y="8" z="0" width="86" height="91" window_state="6" style="bs_poker_button_004">
+                <dynamic_attr key="click_piece_id" type="string" value="poker_click_y"/>
+                <line_height value="30"/>
+                <action_scale value="0.050000001"/>
+            </ButtonAction>
+            <RichLabel id="m_RichLabel" x="-2" y="-15" z="0" width="96" height="30" window_state="14">
+                <text value="TEXASPOKER_COMMON_ACTION_BUTTON_CONFIRM"/>
+                <text_color value="cs_yellowTxt"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.49000001"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <PictureMask id="m_SweepSprite" x="3" y="7" z="0" width="86" height="91" window_state="270">
+                <action_id value="cardsweep"/>
+                <piece_info value="poker_button_004"/>
+                <mask_piece value="poker_scatter_light_01"/>
+                <mask_scale value="0.23999999"/>
+            </PictureMask>
+            <Panel id="m_PanelAlign" x="6" y="11" z="0" width="82" height="82" window_state="14">
+                <dynamic_attr key="click_piece_id" type="string" value="poker_click_y"/>
+            </Panel>
+        </Panel>
+        <Picture id="m_glow_R" x="-28" y="-37" z="0" width="222" height="222" window_state="4">
+            <scale x="0.93000001" y="0.93000001" z="0.93000001"/>
+            <piece_info value="poker_button_glow_r"/>
+        </Picture>
+        <Picture id="m_glow_B" x="74" y="-37" z="0" width="222" height="222" window_state="4">
+            <scale x="0.93000001" y="0.93000001" z="0.93000001"/>
+            <piece_info value="poker_button_glow_b"/>
+        </Picture>
+        <Picture id="m_glow_Y" x="269" y="-37" z="0" width="222" height="222" window_state="4">
+            <scale x="0.93000001" y="0.93000001" z="0.93000001"/>
+            <piece_info value="poker_button_glow_y"/>
+        </Picture>
+        <Picture id="m_glow_G" x="174" y="-37" z="0" width="222" height="222" window_state="4">
+            <scale x="0.93000001" y="0.93000001" z="0.93000001"/>
+            <piece_info value="poker_button_glow_g"/>
+        </Picture>
+        <PictureMirror id="poker_click_b" x="130" y="18" z="0" width="110" height="110" window_state="12">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <action_id value="Click_animation"/>
+            <piece_info value="poker_click_b"/>
+        </PictureMirror>
+        <PictureMirror id="poker_click_r" x="28" y="18" z="0" width="110" height="110" window_state="12">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <rotation x="0" y="0" z="-0.87266463"/>
+            <action_id value="Click_animation"/>
+            <piece_info value="poker_click_r"/>
+        </PictureMirror>
+        <PictureMirror id="poker_click_y" x="326" y="17" z="0" width="110" height="110" window_state="12">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <action_id value="Click_animation"/>
+            <piece_info value="poker_click_y"/>
+        </PictureMirror>
+        <PictureMirror id="poker_click_g" x="231" y="18" z="0" width="110" height="110" window_state="12">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <action_id value="Click_animation"/>
+            <piece_info value="poker_click_g"/>
+        </PictureMirror>
+        <PictureMirror id="poker_click_p" x="-85" y="18" z="0" width="110" height="110" window_state="12">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <action_id value="Click_animation"/>
+            <piece_info value="poker_click_p"/>
+        </PictureMirror>
+        <PictureMirror id="m_PicClickEffect" x="129" y="19" z="0" width="110" height="110" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <action_id value="Click_animation"/>
+        </PictureMirror>
+    </Panel>
+    <Panel id="m_PanelMenuMask" x="855" y="0" z="0" width="283" height="639" window_state="14" style="ngs_poker_panel_002"/>
+    <Button id="m_BtnMenu" x="1034" y="5" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+        <outline_color value="null"/>
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="29" z="0" width="34" height="25" window_state="14">
+            <piece_info value="casino_common_btn01b"/>
+        </Picture>
+    </Button>
+    <Panel id="m_PanelResult" x="1" y="517" z="0" width="1136" height="123" window_state="4"/>
+    <Panel implement_class="PokerPopupMenu" id="m_PanelMenu" x="865" y="84" z="0" width="273" height="579" window_state="6">
+        <Picture id="m_PicMask" x="-189" y="-20" z="0" width="531" height="323" window_state="14">
+            <piece_info value="casino_common_panel30"/>
+        </Picture>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem0" x="10" y="0" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="23" z="0" width="160" height="40" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="7" z="0" width="151" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="TEXASPOKER_ROOM_MENU_BUTTON_TEXASHOLDEM"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="0" y="4" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Lobby" x="11" y="19" z="0" width="45" height="45" window_state="14">
+                    <piece_info value="poker_button_034"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem1" x="10" y="91" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="42" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="5" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="TEXASPOKER_ROOM_MENU_BUTTON_STANDUP"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="0" y="4" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Stand" x="25" y="20" z="0" width="27" height="38" window_state="14">
+                    <piece_info value="poker_button_035"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuSwitchItem" id="m_BtnItem2" x="10" y="182" z="0" width="240" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="76" y="1" z="0" width="180" height="90" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="16" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="TEXASPOKER_COMMON_MENU_BUTTON_SWITCHROOM"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                    <RichLabel id="m_LblBuyIn" x="0" y="24" z="0" width="140" height="30" window_state="14">
+                        <action_id value="value"/>
+                        <text value="25/50"/>
+                        <text_color value="cs_Sallow"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LblSpeed" x="1" y="57" z="0" width="160" height="22" window_state="12">
+                        <action_id value="value"/>
+                        <text value="&lt;image id = &apos;poker_icon_012&apos;/&gt; Fast &lt;image id = &apos;poker_icon_013&apos;/&gt; 5"/>
+                        <text_color value="cs_Sallow"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="0" y="4" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Switch" x="14" y="17" z="0" width="50" height="42" window_state="14">
+                    <piece_info value="casino_common_menu3"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem3" x="10" y="273" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="74" y="29" z="0" width="160" height="30" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="0" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="TEXASPOKER_ROOM_MENU_BUTTON_SELECTABLE"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="0" y="4" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Select" x="20" y="25" z="0" width="37" height="30" window_state="14">
+                    <piece_info value="poker_button_016"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem4" x="10" y="364" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="23" z="0" width="160" height="40" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="6" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="TEXASPOKER_ROOM_MENU_BUTTON_LEAVETABLE"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="0" y="4" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Leave" x="13" y="23" z="0" width="52" height="36" window_state="14">
+                    <piece_info value="poker_button_032"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem5" x="10" y="455" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="23" z="0" width="160" height="40" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="6" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="TEXASPOKER_ROOM_MENU_BUTTON_STANDUP_HELP"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="0" y="4" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Help" x="28" y="21" z="0" width="21" height="40" window_state="14">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <piece_info value="casino_common_menu2"/>
+                </Picture>
+            </Button>
+        </Button>
+    </Panel>
+    <Panel implement_class="PanelSeekBarRaise" id="m_PanelSeekBar" x="953" y="-3" z="0" width="194" height="538" window_state="4">
+        <Picture id="m_Picture1" x="10" y="0" z="0" width="194" height="647" window_state="14" style="ngs_poker_panel_010"/>
+        <RichLabel id="m_LblAllInPlus" x="-59" y="23" z="0" width="120" height="50" window_state="6">
+            <text value="TEXASPOKER_ROOM_RAISE_TEXT_ALLIN"/>
+            <font_size value="50"/>
+            <text_color value="cs_White"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.47999999"/>
+            <outline_center value="0.49000001"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_PicPbrBg" x="73" y="67" z="0" width="103" height="440" window_state="6"/>
+        <Picture id="m_PicAllIn" x="57" y="38" z="0" width="126" height="40" window_state="6">
+            <RichLabel id="m_LblAllInPlus" x="2" y="-9" z="0" width="120" height="50" window_state="6">
+                <text value="TEXASPOKER_COMMON_ACTION_BUTTON_ALLIN"/>
+                <text_color value="cs_yellowTxt"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Picture id="m_PicPoint0" x="116" y="398" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint1" x="116" y="330" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint2" x="116" y="264" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint3" x="116" y="197" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint4" x="116" y="128" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint5" x="116" y="60" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint6" x="116" y="129" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint7" x="116" y="63" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint8" x="116" y="63" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint9" x="116" y="63" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Picture id="m_PicPoint10" x="116" y="63" z="0" width="6" height="6" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <color_scale x="0.55000001" y="0.55000001" z="0.55000001" w="0.55000001"/>
+            <piece_info value="poker_icon_035"/>
+        </Picture>
+        <Panel id="m_PanelPot" x="63" y="492" z="0" width="116" height="10" window_state="6">
+            <PictureMirror id="m_PictureMirror" x="-9" y="0" z="0" width="134" height="9" window_state="262">
+                <piece_info value="poker_panel_024"/>
+            </PictureMirror>
+            <RichLabel id="m_RichLabel5" x="29" y="-28" z="0" width="53" height="30" window_state="6">
+                <text value="TEXASPOKER_ROOM_RAISE_TEXT_POT"/>
+                <font_size value="25"/>
+                <text_color value="cs_lightgrey"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblRaisePot" x="7" y="8" z="0" width="96" height="30" window_state="6">
+                <text value="$10K"/>
+                <font_size value="25"/>
+                <text_color value="cs_lightgrey"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <RichLabel id="m_LblNode2" x="70" y="117" z="0" width="96" height="30" window_state="6">
+            <text value="$300K"/>
+            <font_size value="25"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="LatoReg"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblNode1" x="70" y="184" z="0" width="96" height="30" window_state="6">
+            <text value="$200K"/>
+            <font_size value="25"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="LatoReg"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblNode0" x="70" y="317" z="0" width="96" height="30" window_state="6">
+            <text value="$100K"/>
+            <font_size value="25"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="LatoReg"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblNode3" x="70" y="233" z="0" width="96" height="30" window_state="6">
+            <text value="$300K"/>
+            <font_size value="25"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="LatoReg"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblNode4" x="70" y="63" z="0" width="96" height="30" window_state="6">
+            <text value="$300K"/>
+            <font_size value="25"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="LatoReg"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture implement_class="PictureRaiseEffect" id="m_PicPbr" x="73" y="67" z="0" width="104" height="440" window_state="14">
+            <Picture implement_class="PictureRaiseItem" id="m_Pic0" x="-24" y="378" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic1" x="-23" y="366" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.1" y="1.1" z="1.1" w="1.1"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic2" x="-23" y="354" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.2" y="1.2" z="1.2" w="1.2"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic3" x="-23" y="341" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.3" y="1.3" z="1.3" w="1.3"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic4" x="-24" y="329" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.4" y="1.4" z="1.4" w="1.4"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic5" x="-21" y="316" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic6" x="-21" y="303" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.7" y="1.7" z="1.7" w="1.7"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic7" x="-21" y="291" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.8" y="1.8" z="1.8" w="1.8"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic8" x="-24" y="279" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="1.9" y="1.9" z="1.9" w="1.9"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic9" x="-21" y="266" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057">
+                <color_scale x="2" y="2" z="2" w="2"/>
+                <blend_mode value="2"/>
+            </Picture>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic10" x="-21" y="253" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic11" x="-21" y="240" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic12" x="-21" y="228" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic13" x="-21" y="218" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic14" x="-21" y="206" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic15" x="-21" y="193" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic16" x="-21" y="180" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic17" x="-21" y="168" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic18" x="-21" y="156" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic19" x="-15" y="144" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic20" x="-16" y="132" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic21" x="-15" y="120" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic22" x="-21" y="109" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic23" x="-24" y="96" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic24" x="-24" y="84" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic25" x="-24" y="71" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic26" x="-24" y="59" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic27" x="-24" y="46" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic28" x="-24" y="35" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic29" x="-24" y="22" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic30" x="-24" y="10" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic31" x="-22" y="-1" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic32" x="-21" y="-14" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic33" x="-19" y="-26" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic34" x="-18" y="-39" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+            <Picture implement_class="PictureRaiseItem" id="m_Pic35" x="-18" y="-51" z="0" width="141" height="88" window_state="262" style="bs_poker_button_057"/>
+        </Picture>
+        <Button id="m_BtnThumb" x="47" y="462" z="0" width="141" height="88" window_state="6">
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnThumbLight" x="59" y="195" z="0" width="141" height="88" window_state="268" style="bs_poker_button_057">
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </Button>
+        <Picture id="m_PicValueBg" x="-153" y="381" z="0" width="200" height="48" window_state="6">
+            <RichLabel id="m_LblValue" x="0" y="-8" z="0" width="200" height="60" window_state="6">
+                <anchor_point x="1" y="0.5" z="0"/>
+                <text value="$75K"/>
+                <font_size value="80"/>
+                <text_align_h value="3"/>
+                <text_style value="32"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.37"/>
+                <word_spacing value="1"/>
+                <outline_color value="cs_darkbrown_txt"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Button id="m_BtnPlus" x="-13" y="288" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+            <Picture id="m_PicPlus" x="20" y="22" z="0" width="38" height="38" window_state="14">
+                <piece_info value="casino_common_icon27"/>
+            </Picture>
+        </Button>
+        <Button id="m_BtnMinus" x="-13" y="426" z="0" width="78" height="83" window_state="6" style="bs_poker_button_001">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+            <Picture id="m_PicMinus" x="19" y="37" z="0" width="39" height="8" window_state="14">
+                <piece_info value="poker_common_button_007"/>
+            </Picture>
+        </Button>
+    </Panel>
+    <RichLabel id="m_LblRoomStateMulti" x="258" y="584" z="0" width="760" height="40" window_state="12">
+        <text value="TEXASPOKER_COMMON_MENU_TEXT_WAITNEXT"/>
+        <font_size value="55"/>
+        <text_color value="cs_lightgrey"/>
+        <text_style value="32"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_White"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblPlayersLeft" x="188" y="584" z="0" width="760" height="40" window_state="12">
+        <text value="5 more players to start the game."/>
+        <font_size value="55"/>
+        <text_color value="cs_lightgrey"/>
+        <text_style value="32"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_White"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <ButtonAction id="m_BtnTalk" x="99" y="552" z="0" width="78" height="83" window_state="4" style="bs_poker_button_001">
+        <outline_color value="null"/>
+        <line_height value="30"/>
+        <action_scale value="0.050000001"/>
+        <Picture id="m_PicUnReadMsg" x="71" y="6" z="0" width="17" height="17" window_state="6">
+            <piece_info value="poker_chat_icon6"/>
+        </Picture>
+        <Picture id="m_Picture" x="9" y="15" z="0" width="60" height="52" window_state="14">
+            <piece_info value="poker_button_002"/>
+        </Picture>
+    </ButtonAction>
+    <RichLabel id="m_LblRoomId" x="391" y="1" z="0" width="123" height="30" window_state="4">
+        <text value="800,000,000,"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel implement_class="DataSourceLabel" id="m_LbltestChips" x="575" y="-1" z="0" width="123" height="30" window_state="4">
+        <dynamic_attr key="data_source" type="string" value="coin"/>
+        <text value="800,000,000,"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <ButtonAction id="m_BtnLeague" x="12" y="552" z="0" width="78" height="83" window_state="4" style="bs_poker_button_001">
+        <text_tip value="Coming soon"/>
+        <line_height value="30"/>
+        <action_scale value="0.050000001"/>
+        <glow_piece_info value="poker_icon_030"/>
+        <Particle id="m_ParticleRankChg" x="23" y="25" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="poker/particles/winner_effect.ptc"/>
+            <particle_name value="Icon_01"/>
+        </Particle>
+    </ButtonAction>
+    <Picture id="m_Tourney" x="25" y="573" z="0" width="51" height="40" window_state="12"/>
+    <RichLabel id="m_LblRankChg" x="21" y="578" z="0" width="60" height="30" window_state="4">
+        <action_id value="wt_rank_change"/>
+        <text value="&lt;font color=&quot;cs_Redtxt&quot;&gt;-20&lt;/font&gt;"/>
+        <font_size value="40"/>
+        <font_id value="Bebas"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel id="m_PanelFastChat" x="183" y="560" z="0" width="963" height="71" window_state="4">
+        <ButtonAction id="m_Btn0" x="-10" y="-6" z="0" width="172" height="84" window_state="262" style="bs_poker_panel_012">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="paopao"/>
+            <text value="PD_FAST_CHAT_1"/>
+            <text_offset x="0" y="-6" z="0"/>
+            <line_height value="30"/>
+            <action_scale value="0.1"/>
+            <glow_piece_info value="poker_icon_056"/>
+        </ButtonAction>
+        <ButtonAction id="m_Btn1" x="127" y="-6" z="0" width="172" height="84" window_state="262" style="bs_poker_panel_012">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="paopao"/>
+            <text value="PD_FAST_CHAT_2"/>
+            <text_offset x="0" y="-6" z="0"/>
+            <line_height value="30"/>
+            <action_scale value="0.1"/>
+            <glow_piece_info value="poker_icon_056"/>
+        </ButtonAction>
+        <ButtonAction id="m_Btn2" x="489" y="-5" z="0" width="172" height="84" window_state="262" style="bs_poker_panel_012">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="paopao"/>
+            <text value="PD_FAST_CHAT_3"/>
+            <text_offset x="0" y="-6" z="0"/>
+            <line_height value="30"/>
+            <action_scale value="0.1"/>
+            <glow_piece_info value="poker_icon_056"/>
+        </ButtonAction>
+        <ButtonAction id="m_Btn3" x="626" y="-5" z="0" width="172" height="84" window_state="262" style="bs_poker_panel_012">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="paopao"/>
+            <text value="PD_FAST_CHAT_4"/>
+            <text_offset x="0" y="-6" z="0"/>
+            <line_height value="30"/>
+            <action_scale value="0.1"/>
+            <glow_piece_info value="poker_icon_056"/>
+        </ButtonAction>
+        <ButtonAction id="m_Btn4" x="763" y="-5" z="0" width="172" height="84" window_state="262" style="bs_poker_panel_012">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="paopao"/>
+            <text value="PD_FAST_CHAT_5"/>
+            <text_offset x="0" y="-6" z="0"/>
+            <line_height value="30"/>
+            <action_scale value="0.1"/>
+            <glow_piece_info value="poker_icon_056"/>
+        </ButtonAction>
+    </Panel>
+    <Panel id="m_PanelHandStrength" x="179" y="246" z="0" width="350" height="320" window_state="6">
+        <Picture id="m_PicBase" x="6" y="92" z="0" width="337" height="222" window_state="6" style="ngs_common_tipsbg_01">
+            <color_scale x="1.75" y="1" z="1.75" w="1"/>
+        </Picture>
+        <Picture id="m_Picture" x="290" y="312" z="0" width="29" height="17" window_state="6">
+            <piece_info value="poker_common_tipsbg_02"/>
+        </Picture>
+        <RichLabel id="m_LblHandStrength1" x="21" y="115" z="0" width="306" height="50" window_state="6">
+            <text value="TEXASPOKER_ROOM_HANDSTRENTH_TEXT_WINMORE"/>
+            <text_style value="8"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="24"/>
+        </RichLabel>
+        <RichLabel id="m_LblHandStrength2" x="21" y="176" z="0" width="306" height="50" window_state="6">
+            <text value="TEXASPOKER_ROOM_HANDSTRENTH_TEXT_LONGMETER"/>
+            <text_style value="8"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="22"/>
+        </RichLabel>
+        <Button id="m_BtnOk" x="80" y="238" z="0" width="188" height="69" window_state="6" style="ngs_poker_profile_button3">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <text value="TEXASPOKER_ROOM_HANDSTRENGTH_BUTTON_OK"/>
+            <font_size value="55"/>
+            <text_offset x="0" y="-7" z="0"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+</Panel>

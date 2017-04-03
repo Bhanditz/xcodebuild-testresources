@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Bg_Anim" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_Background3" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <piece_info value="slots_009_bg_03"/>
+        </Picture>
+        <SpineSprite id="m_SpineSprite_Cloud2" x="555" y="240" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="cloud2"/>
+        </SpineSprite>
+        <SkinMesh id="m_Dragon_Fire" x="-220" y="-200" z="0" width="1560" height="920" window_state="2052">
+            <action_id value="animation_slot009_long@long02"/>
+            <mesh_file value="slots_009/models/long.model"/>
+            <mesh_position x="36" y="-20" z="0"/>
+            <mesh_scale x="40" y="40" z="40"/>
+            <far_clip_distance value="10000"/>
+            <lights>
+                <element/>
+                <element/>
+            </lights>
+            <mesh_materials>
+                <mesh_id_0>
+                    <material_id value="0"/>
+                </mesh_id_0>
+                <mesh_id_1>
+                    <material_id value="0"/>
+                </mesh_id_1>
+                <mesh_id_2>
+                    <material_id value="0"/>
+                </mesh_id_2>
+            </mesh_materials>
+        </SkinMesh>
+        <SpineSprite id="m_SpineSprite_Cloud1" x="555" y="240" z="0" width="100" height="100" window_state="4" style="ngs_panel_bg">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="cloud1"/>
+        </SpineSprite>
+        <SpineSprite id="m_SpineSprite_Wave4" x="518" y="245" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave4"/>
+        </SpineSprite>
+        <Panel id="m_Dragon5" x="880" y="230" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg"/>
+        <Panel id="m_Dragon4" x="-30" y="250" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg"/>
+        <SpineSprite id="m_SpineSprite_Wave3" x="518" y="250" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave3"/>
+        </SpineSprite>
+        <SkinMesh id="m_Dragon_Flyup" x="-134" y="-83" z="0" width="1560" height="920" window_state="2052">
+            <action_id value="animation_slot009_long@long00"/>
+            <mesh_file value="slots_009/models/long.model"/>
+            <mesh_scale x="50" y="50" z="50"/>
+            <far_clip_distance value="10000"/>
+            <lights>
+                <element/>
+                <element/>
+            </lights>
+            <mesh_materials>
+                <mesh_id_0>
+                    <material_id value="0"/>
+                </mesh_id_0>
+                <mesh_id_1>
+                    <material_id value="0"/>
+                </mesh_id_1>
+                <mesh_id_2>
+                    <material_id value="0"/>
+                </mesh_id_2>
+            </mesh_materials>
+        </SkinMesh>
+        <SpineSprite id="m_SpineSprite_Wave2" x="518" y="280" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave2"/>
+        </SpineSprite>
+        <Panel id="m_Dragon3" x="230" y="310" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg"/>
+        <Panel id="m_Dragon2" x="650" y="340" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg"/>
+        <Panel id="m_Dragon1" x="0" y="350" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg"/>
+        <SpineSprite id="m_SpineSprite_Wave1" x="518" y="280" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <spine_file value="slots_009/spine_sprites/Background.json"/>
+            <auto_anim_name value="wave1"/>
+        </SpineSprite>
+        <Sprite id="m_Sprite_Fire" x="398" y="225" z="0" width="340" height="190" window_state="4">
+            <scale x="3.4000001" y="3.4000001" z="3.4000001"/>
+            <sprite_file value="slots_009/sprites/Dragon Fire.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Picture id="m_Bg_Static" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="slots_009_bg_01"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_Mystery" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+        <Panel id="m_Dim" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <Panel id="m_Black" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+                <color_scale x="1" y="1" z="1" w="0.30000001"/>
+            </Panel>
+            <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_009_panel_0160">
+                <color_scale x="1" y="1" z="1" w="0.80000001"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Panel1" x="36" y="24" z="0" width="160" height="380" window_state="6">
+            <Panel id="m_DragonHead" x="0" y="70" z="0" width="160" height="210" window_state="6">
+                <Button id="m_Button" x="-12" y="-20" z="0" width="184" height="252" window_state="6" style="bs_slots_009_button_013">
+                    <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                    <line_height value="30"/>
+                </Button>
+                <PictureMirror id="vfx_fg_light01n" x="-23" y="7" z="0" width="200" height="200" window_state="12">
+                    <scale x="1.4299999" y="1.4299999" z="1.4299999"/>
+                    <blend_mode value="2"/>
+                    <action_id value="slots009_free_game_light01N"/>
+                    <piece_info value="free_game_light01n"/>
+                </PictureMirror>
+                <PictureMirror id="vfx_fg_light01s" x="-23" y="7" z="0" width="200" height="200" window_state="12">
+                    <scale x="1.4299999" y="1.4299999" z="1.4299999"/>
+                    <blend_mode value="2"/>
+                    <action_id value="slots009_free_game_light01S"/>
+                    <piece_info value="free_game_light01s"/>
+                </PictureMirror>
+                <Particle id="vfx_Loop_particular" x="67" y="94" z="0" width="20" height="20" window_state="12">
+                    <particle_state value="0"/>
+                    <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+                    <particle_name value="Loop_particular"/>
+                </Particle>
+                <Sprite id="m_Sprite" x="-7" y="21" z="0" width="171" height="171" window_state="270">
+                    <sprite_file value="slots_009/sprites/choose_dragon01.spr"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_MysteryChoice" x="0" y="2" z="0" width="160" height="340" window_state="14">
+                <Picture id="m_Picture1" x="-5" y="4" z="0" width="171" height="92" window_state="14">
+                    <piece_info value="slots_009_panel_013"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="-11" y="264" z="0" width="182" height="60" window_state="14">
+                    <text value="MYSTERY NUMBER OF FREE GAMES"/>
+                    <font_size value="25"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.33000001"/>
+                    <outline_center value="0.47999999"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="20"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="-11" y="312" z="0" width="182" height="60" window_state="14">
+                    <text value="WITH A MYSTERY SET OF MULTIPLIERS
+"/>
+                    <font_size value="25"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.33000001"/>
+                    <outline_center value="0.47999999"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="20"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Up" x="0" y="2" z="0" width="160" height="340" window_state="12">
+                <RichLabel id="m_RichLabel1" x="-10" y="68" z="0" width="180" height="30" window_state="6">
+                    <text value="ALL WINS WITH"/>
+                    <font_size value="25"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.33000001"/>
+                    <outline_center value="0.47999999"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="20"/>
+                </RichLabel>
+                <Picture id="m_FreeGames" x="60" y="0" z="0" width="92" height="74" window_state="6">
+                    <piece_info value="slots_009_panel_034"/>
+                </Picture>
+                <Picture id="m_Number2" x="-14" y="-8" z="0" width="96" height="96" window_state="4">
+                    <piece_info value="slots_009_panel_029"/>
+                </Picture>
+                <Picture id="m_Number3" x="-14" y="-8" z="0" width="96" height="96" window_state="4">
+                    <piece_info value="slots_009_panel_030"/>
+                </Picture>
+                <Picture id="m_Number4" x="-14" y="-8" z="0" width="96" height="96" window_state="4">
+                    <piece_info value="slots_009_panel_031"/>
+                </Picture>
+                <Picture id="m_Number5" x="-14" y="-8" z="0" width="96" height="96" window_state="4">
+                    <piece_info value="slots_009_panel_032"/>
+                </Picture>
+                <Picture id="m_Number6" x="-14" y="-8" z="0" width="96" height="96" window_state="4">
+                    <piece_info value="slots_009_panel_033"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Down" x="0" y="2" z="0" width="160" height="340" window_state="12">
+                <RichLabel id="m_RichLabel2" x="-11" y="270" z="0" width="182" height="30" window_state="6">
+                    <text value="SUBSTITUTING ARE"/>
+                    <font_size value="23"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.33000001"/>
+                    <outline_center value="0.47999999"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="-10" y="298" z="0" width="180" height="38" window_state="6">
+                    <text value="        OR"/>
+                    <font_size value="24"/>
+                    <text_align_v value="3"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.38"/>
+                    <outline_center value="0.47999999"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="20"/>
+                </RichLabel>
+                <Panel id="m_Number2" x="-10" y="298" z="0" width="180" height="38" window_state="4">
+                    <Picture id="m_Picture2" x="12" y="1" z="0" width="82" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_024"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="127" y="1" z="0" width="36" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_024b"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Number3" x="-10" y="298" z="0" width="180" height="38" window_state="4">
+                    <Picture id="m_Picture2" x="15" y="1" z="0" width="80" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_025"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="125" y="1" z="0" width="36" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_025b"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Number4" x="-10" y="298" z="0" width="180" height="38" window_state="4">
+                    <Picture id="m_Picture2" x="11" y="1" z="0" width="80" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_026"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="120" y="1" z="0" width="44" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_026b"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Number5" x="-10" y="298" z="0" width="180" height="38" window_state="4">
+                    <Picture id="m_Picture2" x="8" y="1" z="0" width="87" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_027"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="125" y="1" z="0" width="45" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_027b"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Number6" x="-10" y="298" z="0" width="180" height="38" window_state="4">
+                    <Picture id="m_Picture2" x="2" y="1" z="0" width="92" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_028"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="124" y="1" z="0" width="54" height="37" window_state="6">
+                        <piece_info value="slots_009_panel_028b"/>
+                    </Picture>
+                </Panel>
+            </Panel>
+            <Panel id="m_SpinUp" x="0" y="8" z="0" width="170" height="90" window_state="4">
+                <Picture id="m_Picture6" x="38" y="18" z="0" width="87" height="54" window_state="262">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_01a"/>
+                </Picture>
+                <Picture id="m_Picture5" x="38" y="18" z="0" width="87" height="54" window_state="260">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_02a"/>
+                </Picture>
+                <Picture id="m_Picture4" x="38" y="18" z="0" width="87" height="54" window_state="260">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_03a"/>
+                </Picture>
+                <Picture id="m_Picture3" x="38" y="18" z="0" width="87" height="54" window_state="260">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_04a"/>
+                </Picture>
+                <Picture id="m_Picture2" x="38" y="18" z="0" width="87" height="54" window_state="260">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_05a"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_SpinDown" x="-20" y="274" z="0" width="200" height="70" window_state="4">
+                <Picture id="m_Picture6" x="55" y="13" z="0" width="87" height="40" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_01b"/>
+                </Picture>
+                <Picture id="m_Picture5" x="55" y="13" z="0" width="87" height="40" window_state="4">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_02b"/>
+                </Picture>
+                <Picture id="m_Picture4" x="55" y="13" z="0" width="87" height="40" window_state="4">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_03b"/>
+                </Picture>
+                <Picture id="m_Picture3" x="55" y="13" z="0" width="87" height="40" window_state="4">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_04b"/>
+                </Picture>
+                <Picture id="m_Picture2" x="55" y="13" z="0" width="87" height="40" window_state="4">
+                    <scale x="2" y="2" z="2"/>
+                    <piece_info value="slots_009_vfx_05b"/>
+                </Picture>
+            </Panel>
+            <Particle id="vfx_text_particular" x="70" y="41" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+                <particle_name value="TEXT_Boom"/>
+            </Particle>
+            <PictureMirror id="vfx_text_boom" x="-20" y="-49" z="0" width="200" height="200" window_state="12">
+                <blend_mode value="2"/>
+                <action_id value="slots009_free_game_textboom"/>
+                <piece_info value="free_game_light02"/>
+            </PictureMirror>
+            <Particle id="vfx_text_particular1" x="70" y="303" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+                <particle_name value="TEXT_Boom"/>
+            </Particle>
+            <PictureMirror id="vfx_text_boom1" x="-20" y="213" z="0" width="200" height="200" window_state="12">
+                <blend_mode value="2"/>
+                <action_id value="slots009_free_game_textboom"/>
+                <piece_info value="free_game_light02"/>
+            </PictureMirror>
+        </Panel>
+        <Panel id="m_Panel2" x="218" y="24" z="0" width="160" height="380" window_state="6">
+            <Panel id="m_DragonHead" x="0" y="70" z="0" width="160" height="210" window_state="6">
+                <Button id="m_Button" x="-12" y="-20" z="0" width="184" height="252" window_state="6" style="bs_slots_009_button_013">
+                    <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                    <line_height value="30"/>
+                </Button>
+                <Sprite id="m_Sprite" x="-5" y="21" z="0" width="171" height="171" window_state="270">
+                    <sprite_file value="slots_009/sprites/choose_dragon02.spr"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <RichLabel id="m_RichLabel2_1" x="-10" y="70" z="0" width="180" height="30" window_state="14">
+                <text value="ALL WINS WITH"/>
+                <font_size value="25"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_cs_PurpleTxt2"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture1" x="43" y="-76" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_009_panel_010"/>
+                </Picture>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2_2" x="-11" y="272" z="0" width="182" height="30" window_state="14">
+                <text value="SUBSTITUTING ARE"/>
+                <font_size value="23"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_cs_PurpleTxt2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2_3" x="-10" y="300" z="0" width="180" height="38" window_state="14">
+                <text value="         OR"/>
+                <font_size value="24"/>
+                <text_align_v value="3"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.38"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_cs_PurpleTxt2"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture2" x="15" y="1" z="0" width="82" height="37" window_state="6">
+                    <piece_info value="slots_009_panel_010b"/>
+                </Picture>
+                <Picture id="m_Picture3" x="127" y="1" z="0" width="36" height="37" window_state="6">
+                    <piece_info value="slots_009_panel_010c"/>
+                </Picture>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Panel3" x="397" y="24" z="0" width="160" height="380" window_state="6">
+            <Panel id="m_DragonHead" x="0" y="70" z="0" width="160" height="210" window_state="6">
+                <Button id="m_Button" x="-12" y="-20" z="0" width="184" height="252" window_state="6" style="bs_slots_009_button_013">
+                    <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                    <line_height value="30"/>
+                </Button>
+                <Sprite id="m_Sprite" x="-5" y="21" z="0" width="171" height="171" window_state="270">
+                    <sprite_file value="slots_009/sprites/choose_dragon03.spr"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <RichLabel id="m_RichLabel3_1" x="-10" y="70" z="0" width="180" height="30" window_state="14">
+                <text value="ALL WINS WITH"/>
+                <font_size value="25"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_redTxt01"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture1" x="43" y="-76" z="0" width="96" height="96" window_state="6">
+                    <piece_info value="slots_009_panel_011"/>
+                </Picture>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3_2" x="-11" y="272" z="0" width="182" height="30" window_state="14">
+                <text value="SUBSTITUTING ARE"/>
+                <font_size value="23"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_redTxt01"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3_3" x="-10" y="300" z="0" width="180" height="38" window_state="14">
+                <text value="        OR"/>
+                <font_size value="24"/>
+                <text_align_v value="3"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_redTxt01"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture2" x="14" y="1" z="0" width="80" height="37" window_state="6">
+                    <piece_info value="slots_009_panel_011b"/>
+                </Picture>
+                <Picture id="m_Picture3" x="127" y="1" z="0" width="38" height="37" window_state="6">
+                    <piece_info value="slots_009_panel_011c"/>
+                </Picture>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Panel4" x="582" y="24" z="0" width="160" height="380" window_state="6">
+            <Panel id="m_DragonHead" x="0" y="70" z="0" width="160" height="210" window_state="6">
+                <Button id="m_Button" x="-12" y="-20" z="0" width="184" height="252" window_state="6" style="bs_slots_009_button_013">
+                    <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                    <line_height value="30"/>
+                </Button>
+                <Sprite id="m_Sprite" x="-5" y="19" z="0" width="171" height="171" window_state="270">
+                    <sprite_file value="slots_009/sprites/choose_dragon04.spr"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <RichLabel id="m_RichLabel4_1" x="-10" y="70" z="0" width="180" height="30" window_state="14">
+                <text value="ALL WINS WITH"/>
+                <font_size value="25"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_cs_PurpleTxt2"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture1" x="37" y="-76" z="0" width="96" height="96" window_state="14">
+                    <piece_info value="slots_009_panel_012"/>
+                </Picture>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4_2" x="-11" y="272" z="0" width="182" height="30" window_state="14">
+                <text value="SUBSTITUTING ARE"/>
+                <font_size value="23"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_cs_PurpleTxt2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4_3" x="-10" y="300" z="0" width="180" height="38" window_state="14">
+                <text value="       OR"/>
+                <font_size value="24"/>
+                <text_align_v value="3"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_cs_PurpleTxt2"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture2" x="12" y="1" z="0" width="80" height="37" window_state="14">
+                    <piece_info value="slots_009_panel_012b"/>
+                </Picture>
+                <Picture id="m_Picture3" x="121" y="1" z="0" width="48" height="37" window_state="6">
+                    <piece_info value="slots_009_panel_012c"/>
+                </Picture>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Panel5" x="761" y="24" z="0" width="160" height="380" window_state="6">
+            <Panel id="m_DragonHead" x="0" y="70" z="0" width="160" height="210" window_state="6">
+                <Button id="m_Button" x="-12" y="-20" z="0" width="184" height="252" window_state="6" style="bs_slots_009_button_013">
+                    <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                    <line_height value="30"/>
+                </Button>
+                <Sprite id="m_Sprite" x="-6" y="20" z="0" width="171" height="171" window_state="270">
+                    <sprite_file value="slots_009/sprites/choose_dragon05.spr"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <RichLabel id="m_RichLabel5_1" x="-10" y="70" z="0" width="180" height="30" window_state="14">
+                <text value="ALL WINS WITH"/>
+                <font_size value="25"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_blue2"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture1" x="36" y="-76" z="0" width="96" height="96" window_state="14">
+                    <piece_info value="slots_009_panel_008"/>
+                </Picture>
+            </RichLabel>
+            <RichLabel id="m_RichLabel5_2" x="-11" y="272" z="0" width="182" height="30" window_state="14">
+                <text value="SUBSTITUTING ARE"/>
+                <font_size value="23"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_blue2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel5_3" x="-10" y="300" z="0" width="180" height="38" window_state="14">
+                <text value="         OR"/>
+                <font_size value="24"/>
+                <text_align_v value="3"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_blue2"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture2" x="8" y="1" z="0" width="90" height="37" window_state="14">
+                    <piece_info value="slots_009_panel_008b"/>
+                </Picture>
+                <Picture id="m_Picture3" x="126" y="1" z="0" width="45" height="37" window_state="14">
+                    <piece_info value="slots_009_panel_008c"/>
+                </Picture>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Panel6" x="940" y="24" z="0" width="160" height="380" window_state="6">
+            <Panel id="m_DragonHead" x="0" y="70" z="0" width="160" height="210" window_state="6">
+                <Button id="m_Button" x="-12" y="-20" z="0" width="184" height="252" window_state="6" style="bs_slots_009_button_013">
+                    <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+                    <line_height value="30"/>
+                </Button>
+                <Sprite id="m_Sprite" x="-4" y="19" z="0" width="171" height="171" window_state="270">
+                    <sprite_file value="slots_009/sprites/choose_dragon06.spr"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <RichLabel id="m_RichLabel6_1" x="-10" y="70" z="0" width="180" height="30" window_state="14">
+                <text value="ALL WINS WITH"/>
+                <font_size value="25"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_GreenTxt04"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture1" x="36" y="-76" z="0" width="96" height="96" window_state="14">
+                    <piece_info value="slots_009_panel_009"/>
+                </Picture>
+            </RichLabel>
+            <RichLabel id="m_RichLabel6_2" x="-11" y="272" z="0" width="182" height="30" window_state="14">
+                <text value="SUBSTITUTING ARE"/>
+                <font_size value="23"/>
+                <text_style value="8"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_GreenTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel6_3" x="-10" y="300" z="0" width="180" height="38" window_state="14">
+                <text value="         OR"/>
+                <font_size value="24"/>
+                <text_align_v value="3"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.33000001"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_GreenTxt04"/>
+                <line_height value="20"/>
+                <Picture id="m_Picture2" x="5" y="1" z="0" width="93" height="37" window_state="270">
+                    <piece_info value="slots_009_panel_009b"/>
+                </Picture>
+                <Picture id="m_Picture3" x="125" y="1" z="0" width="53" height="37" window_state="14">
+                    <piece_info value="slots_009_panel_009c"/>
+                </Picture>
+            </RichLabel>
+        </Panel>
+    </Panel>
+</Panel>

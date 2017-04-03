@@ -1,0 +1,214 @@
+<root>
+	<!--folder name ="slots_001/styles"/--> <!-- examples -->	
+	<folder name ="black_jack/bg"/>
+	<folder name ="black_jack/sprites"/>
+	<folder name ="black_jack/styles"/>
+	<folder name ="loadings/bg"/>
+	<folder name ="loadings/styles"/>
+	<folder name ="poker/bg"/>
+	<folder name ="poker/styles"/>
+	<folder name ="lobby/bg"/>
+	<folder name ="lobby/particles"/>
+	<folder name ="lobby/sprites"/>
+	<folder name ="lobby/styles"/>
+	<folder name ="slots/model"/>
+	<folder name ="slots/particles"/>
+	<folder name ="slots/sprites"/>
+	<folder name ="slots/styles"/>
+	<folder name ="ui/bg"/>
+	<folder name ="ui/particles"/>
+	<folder name ="ui/sprites"/>
+	<folder name ="ui/styles"/>
+
+	<folder name ="slots_001/fonts"/>
+	<folder name ="slots_001/models"/>
+	<folder name ="slots_001/particles"/>
+	<folder name ="slots_001/spine_sprites"/>
+	<folder name ="slots_001/sprites"/>
+	<folder name ="slots_001/styles"/>
+
+	<folder name ="slots_002/fonts"/>
+	<folder name ="slots_002/models"/>
+	<folder name ="slots_002/particles"/>
+	<folder name ="slots_002/spine_sprites"/>
+	<folder name ="slots_002/sprites"/>
+	<folder name ="slots_002/styles"/>
+
+	<folder name ="slots_003/fonts"/>
+	<folder name ="slots_003/models"/>
+	<folder name ="slots_003/particles"/>
+	<folder name ="slots_003/spine_sprites"/>
+	<folder name ="slots_003/sprites"/>
+	<folder name ="slots_003/styles"/>
+
+	<folder name ="slots_004/fonts"/>
+	<folder name ="slots_004/models"/>
+	<folder name ="slots_004/particles"/>
+	<folder name ="slots_004/spine_sprites"/>
+	<folder name ="slots_004/sprites"/>
+	<folder name ="slots_004/styles"/>
+
+	<folder name ="slots_005/fonts"/>
+	<folder name ="slots_005/models"/>
+	<folder name ="slots_005/particles"/>
+	<folder name ="slots_005/spine_sprites"/>
+	<folder name ="slots_005/sprites"/>
+	<folder name ="slots_005/styles"/>
+
+	<folder name ="slots_006/fonts"/>
+	<folder name ="slots_006/models"/>
+	<folder name ="slots_006/particles"/>
+	<folder name ="slots_006/spine_sprites"/>
+	<folder name ="slots_006/sprites"/>
+	<folder name ="slots_006/styles"/>
+
+	<folder name ="slots_007/fonts"/>
+	<folder name ="slots_007/models"/>
+	<folder name ="slots_007/particles"/>
+	<folder name ="slots_007/spine_sprites"/>
+	<folder name ="slots_007/sprites"/>
+	<folder name ="slots_007/styles"/>
+
+	<folder name ="slots_008/fonts"/>
+	<folder name ="slots_008/models"/>
+	<folder name ="slots_008/particles"/>
+	<folder name ="slots_008/spine_sprites"/>
+	<folder name ="slots_008/sprites"/>
+	<folder name ="slots_008/styles"/>
+
+	<folder name ="slots_009/fonts"/>
+	<folder name ="slots_009/models"/>
+	<folder name ="slots_009/particles"/>
+	<folder name ="slots_009/spine_sprites"/>
+	<folder name ="slots_009/sprites"/>
+	<folder name ="slots_009/styles"/>
+
+	<folder name ="slots_010/fonts"/>
+	<folder name ="slots_010/models"/>
+	<folder name ="slots_010/particles"/>
+	<folder name ="slots_010/spine_sprites"/>
+	<folder name ="slots_010/sprites"/>
+	<folder name ="slots_010/styles"/>
+
+	<folder name ="slots_011/fonts"/>
+	<folder name ="slots_011/models"/>
+	<folder name ="slots_011/particles"/>
+	<folder name ="slots_011/spine_sprites"/>
+	<folder name ="slots_011/sprites"/>
+	<folder name ="slots_011/styles"/>
+
+	<folder name ="slots_012/fonts"/>
+	<folder name ="slots_012/models"/>
+	<folder name ="slots_012/particles"/>
+	<folder name ="slots_012/spine_sprites"/>
+	<folder name ="slots_012/sprites"/>
+	<folder name ="slots_012/styles"/>
+
+	<folder name ="slots_013/fonts"/>
+	<folder name ="slots_013/models"/>
+	<folder name ="slots_013/particles"/>
+	<folder name ="slots_013/spine_sprites"/>
+	<folder name ="slots_013/sprites"/>
+	<folder name ="slots_013/styles"/>
+
+	<folder name ="slots_014/fonts"/>
+	<folder name ="slots_014/models"/>
+	<folder name ="slots_014/particles"/>
+	<folder name ="slots_014/spine_sprites"/>
+	<folder name ="slots_014/sprites"/>
+	<folder name ="slots_014/styles"/>
+
+	<folder name ="slots_015/fonts"/>
+	<folder name ="slots_015/models"/>
+	<folder name ="slots_015/particles"/>
+	<folder name ="slots_015/spine_sprites"/>
+	<folder name ="slots_015/sprites"/>
+	<folder name ="slots_015/styles"/>
+
+	<folder name ="slots_016/fonts"/>
+	<folder name ="slots_016/models"/>
+	<folder name ="slots_016/particles"/>
+	<folder name ="slots_016/spine_sprites"/>
+	<folder name ="slots_016/sprites"/>
+	<folder name ="slots_016/styles"/>
+
+	<folder name ="slots_017/fonts"/>
+	<folder name ="slots_017/models"/>
+	<folder name ="slots_017/particles"/>
+	<folder name ="slots_017/spine_sprites"/>
+	<folder name ="slots_017/sprites"/>
+	<folder name ="slots_017/styles"/>
+
+	<folder name ="slots_018/fonts"/>
+	<folder name ="slots_018/models"/>
+	<folder name ="slots_018/particles"/>
+	<folder name ="slots_018/spine_sprites"/>
+	<folder name ="slots_018/sprites"/>
+	<folder name ="slots_018/styles"/>
+
+	<folder name ="slots_1001/fonts"/>
+	<folder name ="slots_1001/models"/>
+	<folder name ="slots_1001/particles"/>
+	<folder name ="slots_1001/spine_sprites"/>
+	<folder name ="slots_1001/sprites"/>
+	<folder name ="slots_1001/styles"/>
+
+	<folder name ="slots_1002/fonts"/>
+	<folder name ="slots_1002/models"/>
+	<folder name ="slots_1002/particles"/>
+	<folder name ="slots_1002/spine_sprites"/>
+	<folder name ="slots_1002/sprites"/>
+	<folder name ="slots_1002/styles"/>
+
+	<folder name ="slots_1003/fonts"/>
+	<folder name ="slots_1003/models"/>
+	<folder name ="slots_1003/particles"/>
+	<folder name ="slots_1003/spine_sprites"/>
+	<folder name ="slots_1003/sprites"/>
+	<folder name ="slots_1003/styles"/>
+
+	<folder name ="slots_1004/fonts"/>
+	<folder name ="slots_1004/models"/>
+	<folder name ="slots_1004/particles"/>
+	<folder name ="slots_1004/spine_sprites"/>
+	<folder name ="slots_1004/sprites"/>
+	<folder name ="slots_1004/styles"/>
+
+	<folder name ="slots_1005/fonts"/>
+	<folder name ="slots_1005/models"/>
+	<folder name ="slots_1005/particles"/>
+	<folder name ="slots_1005/spine_sprites"/>
+	<folder name ="slots_1005/sprites"/>
+	<folder name ="slots_1005/styles"/>
+
+	<folder name ="slots_1006/fonts"/>
+	<folder name ="slots_1006/models"/>
+	<folder name ="slots_1006/particles"/>
+	<folder name ="slots_1006/spine_sprites"/>
+	<folder name ="slots_1006/sprites"/>
+	<folder name ="slots_1006/styles"/>
+
+	<folder name ="slots_1007/fonts"/>
+	<folder name ="slots_1007/models"/>
+	<folder name ="slots_1007/particles"/>
+	<folder name ="slots_1007/spine_sprites"/>
+	<folder name ="slots_1007/sprites"/>
+	<folder name ="slots_1007/styles"/>
+
+	<folder name ="slots_1008/fonts"/>
+	<folder name ="slots_1008/models"/>
+	<folder name ="slots_1008/particles"/>
+	<folder name ="slots_1008/spine_sprites"/>
+	<folder name ="slots_1008/sprites"/>
+	<folder name ="slots_1008/styles"/>
+
+	<folder name ="slots_1009/fonts"/>
+	<folder name ="slots_1009/models"/>
+	<folder name ="slots_1009/particles"/>
+	<folder name ="slots_1009/spine_sprites"/>
+	<folder name ="slots_1009/sprites"/>
+	<folder name ="slots_1009/styles"/>
+
+	<folder name ="video_poker/styles"/>
+	<folder name ="video_poker/fonts"/>
+</root>

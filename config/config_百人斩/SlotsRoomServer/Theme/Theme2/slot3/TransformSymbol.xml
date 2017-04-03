@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!--
+	单个符号转换Wild
+
+	TransformSymbol:一个转换配置
+		id:转换ID,用来索引数据
+		TargetSymbol:转换目标符号ID
+
+		TransformReelAmount: 可能转换的列数配置
+			ReelsCanBe: 可能的列数
+			TransformReels: 转换的列数
+			Weightage: 权重
+
+		TransformReel: 列序号权重配置
+			ReelID: 列序号 从0开始递增
+			Weightage: 权重
+
+		TransformSymbolAmount:符号个数的权重配置
+			SymbolCanBe: 可能的符号数
+			TransformSymbos: 转换的符号数
+			Weightage：权重
+			
+		TransformIcon：允许替换的图标列表
+			Icon:
+				id:图标id
+	
+-->
+<root>
+	<TransformSymbol id="1" TargetSymbol="15"><!--射箭转Wild-->
+		<TransformIcon>
+			<Icon id="1" />
+			<Icon id="2" />
+			<Icon id="3" />
+		</TransformIcon>  
+		<TransformReelAmount>
+			<ReelsCanBe Amount="1" >
+				<ReelAmount TransformReels="1" Weightage="1"/>
+			</ReelsCanBe>
+			<ReelsCanBe Amount="2" >
+				<ReelAmount TransformReels="1" Weightage="1"/>
+			</ReelsCanBe>
+			<ReelsCanBe Amount="3" >
+				<ReelAmount TransformReels="1" Weightage="6"/>
+				<ReelAmount TransformReels="2" Weightage="1"/>
+			</ReelsCanBe>
+			<ReelsCanBe Amount="4" >
+				<ReelAmount TransformReels="1" Weightage="40"/>
+				<ReelAmount TransformReels="2" Weightage="12"/>
+				<ReelAmount TransformReels="3" Weightage="1"/>
+			</ReelsCanBe>
+			<ReelsCanBe Amount="5" >
+				<ReelAmount TransformReels="1" Weightage="40"/>
+				<ReelAmount TransformReels="2" Weightage="15"/>
+				<ReelAmount TransformReels="3" Weightage="1"/>
+			</ReelsCanBe>
+		</TransformReelAmount>
+			
+		<TransformReel>
+			<Reel ReelID="0" Weightage="20"/>
+			<Reel ReelID="1" Weightage="25"/>
+			<Reel ReelID="2" Weightage="30"/>
+			<Reel ReelID="3" Weightage="40"/>
+			<Reel ReelID="4" Weightage="50"/>
+		</TransformReel>
+			
+		<TransformSymbolAmount>
+			<ReelSymbolsCanBe ReelID="0">
+				<SymbolAmount TransformSymbos="1" Weightage="9"/>
+				<SymbolAmount TransformSymbos="2" Weightage="1"/>
+				<SymbolAmount TransformSymbos="3" Weightage="0"/>
+				<SymbolAmount TransformSymbos="4" Weightage="0"/>
+			</ReelSymbolsCanBe>
+			<ReelSymbolsCanBe ReelID="1">
+				<SymbolAmount TransformSymbos="1" Weightage="8"/>
+				<SymbolAmount TransformSymbos="2" Weightage="1"/>
+				<SymbolAmount TransformSymbos="3" Weightage="0"/>
+				<SymbolAmount TransformSymbos="4" Weightage="0"/>
+			</ReelSymbolsCanBe>   		
+			<ReelSymbolsCanBe ReelID="2">
+				<SymbolAmount TransformSymbos="1" Weightage="7"/>
+				<SymbolAmount TransformSymbos="2" Weightage="1"/>
+				<SymbolAmount TransformSymbos="3" Weightage="0"/>
+				<SymbolAmount TransformSymbos="4" Weightage="0"/>
+			</ReelSymbolsCanBe> 
+			<ReelSymbolsCanBe ReelID="3">
+				<SymbolAmount TransformSymbos="1" Weightage="5"/>
+				<SymbolAmount TransformSymbos="2" Weightage="1"/>
+				<SymbolAmount TransformSymbos="3" Weightage="0"/>
+				<SymbolAmount TransformSymbos="4" Weightage="0"/>
+			</ReelSymbolsCanBe> 
+			<ReelSymbolsCanBe ReelID="4">
+				<SymbolAmount TransformSymbos="1" Weightage="3"/>
+				<SymbolAmount TransformSymbos="2" Weightage="1"/>
+				<SymbolAmount TransformSymbos="3" Weightage="0"/>
+				<SymbolAmount TransformSymbos="4" Weightage="0"/>
+			</ReelSymbolsCanBe>
+		</TransformSymbolAmount>
+	</TransformSymbol>
+</root>

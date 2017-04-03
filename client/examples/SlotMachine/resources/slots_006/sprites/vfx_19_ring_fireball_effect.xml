@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_19_ring_fireball_effect.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="VFX_19_ring_fireball_effect_00000" x="398" y="2" w="84" h="80" oX="104" oY="36" oW="232" oH="190" r="y" dr="120"/>
+    <sprite n="VFX_19_ring_fireball_effect_00001" x="398" y="84" w="76" h="130" oX="105" oY="38" oW="232" oH="190" dr="120"/>
+    <sprite n="VFX_19_ring_fireball_effect_00002" x="140" y="376" w="126" h="130" oX="54" oY="40" oW="232" oH="190" dr="120"/>
+    <sprite n="VFX_19_ring_fireball_effect_00003" x="2" y="376" w="136" h="130" oX="45" oY="40" oW="232" oH="190" dr="120"/>
+    <sprite n="VFX_19_ring_fireball_effect_00004" x="2" y="188" w="190" h="174" oX="23" oY="12" oW="232" oH="190" dr="120"/>
+    <sprite n="VFX_19_ring_fireball_effect_00005" x="200" y="186" w="194" h="188" oX="21" oY="1" oW="232" oH="190" dr="120"/>
+    <sprite n="VFX_19_ring_fireball_effect_00006" x="2" y="2" w="196" h="184" oX="21" oY="5" oW="232" oH="190" dr="120"/>
+    <sprite n="VFX_19_ring_fireball_effect_00007" x="200" y="2" w="196" h="182" oX="22" oY="7" oW="232" oH="190" dr="120"/>
+</TextureAtlas>

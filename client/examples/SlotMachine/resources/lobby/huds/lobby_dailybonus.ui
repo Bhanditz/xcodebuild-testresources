@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="-1" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="casino_lobby_panel18"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_Picture2" x="0" y="362" z="0" width="446" height="278" window_state="14">
+        <piece_info value="casino_lobby_panel19"/>
+    </Picture>
+    <Picture id="m_Picture3" x="736" y="442" z="0" width="401" height="198" window_state="14">
+        <piece_info value="casino_lobby_panel20"/>
+    </Picture>
+    <Panel id="m_PanMegaLucky" x="0" y="3" z="0" width="1130" height="636" window_state="6">
+        <Picture id="m_PicLightEffect" x="284" y="-3" z="0" width="568" height="212" window_state="12">
+            <scale x="2" y="2" z="2"/>
+        </Picture>
+        <Particle id="m_Particle4" x="143" y="103" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <particle_state value="1"/>
+            <package_file value="slots_005/particles/777.ptc"/>
+            <particle_name value="Fortune sparks"/>
+        </Particle>
+        <Particle id="m_Particle5" x="997" y="103" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <particle_state value="1"/>
+            <package_file value="slots_005/particles/777.ptc"/>
+            <particle_name value="Fortune sparks2"/>
+        </Particle>
+        <Picture id="m_PicLightEffectL" x="-14" y="-42" z="0" width="85" height="374" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <rotation x="0" y="0" z="-0.75049156"/>
+            <anchor_point x="0.47" y="0.059999999" z="0"/>
+            <piece_info value="casino_lobby_light2"/>
+        </Picture>
+        <Picture id="m_PicLightEffectR" x="1094" y="-42" z="0" width="85" height="374" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <rotation x="0" y="0" z="0.75049156"/>
+            <anchor_point x="0.47" y="0.050000001" z="0"/>
+            <piece_info value="casino_lobby_light2"/>
+        </Picture>
+        <Button id="m_BtnCoin" x="21" y="11" z="0" width="228" height="54" window_state="6" style="ngs_casino_common_btn03">
+            <text_offset x="18" y="0" z="0"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <Picture id="m_CoinIcon" x="-41" y="-38" z="0" width="118" height="122" window_state="6">
+                <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                <piece_info value="casino_common_icon02"/>
+            </Picture>
+            <RichLabel id="m_LblTotalWin" x="53" y="8" z="0" width="157" height="30" window_state="6">
+                <text value="-"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_FlyEffectEndPos" x="8" y="9" z="0" width="25" height="25" window_state="6"/>
+        </Button>
+        <Picture id="m_PicMachine" x="259" y="11" z="0" width="618" height="455" window_state="6">
+            <piece_info value="casino_lobby_slotmachine"/>
+            <Panel id="m_BtnSpin" x="182" y="382" z="0" width="230" height="62" window_state="6">
+                <Button id="m_BtnSpin" x="2" y="0" z="0" width="225" height="70" window_state="6" style="ngs_casino_lobby_btn08">
+                    <scale x="1" y="0.86000001" z="1"/>
+                    <font_size value="45"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </Button>
+                <RichLabel id="m_RichLabel" x="66" y="16" z="0" width="96" height="30" window_state="6">
+                    <text value="SPIN"/>
+                    <font_size value="45"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnPaytable" x="186" y="386" z="0" width="220" height="53" window_state="4" style="ngs_casino_lobby_btn09">
+                <text value="Paytable"/>
+                <font_size value="45"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_LblWin" x="83" y="135" z="0" width="424" height="30" window_state="6">
+                <text value="WIN UP TO - CHIPS!"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_style value="32"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.47999999"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_ListReel1" x="100" y="176" z="0" width="105" height="182" window_state="262150">
+                <Picture id="m_Picture0" x="-61" y="-167" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine1"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-61" y="-92" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine2"/>
+                </Picture>
+                <Picture id="m_Picture2" x="-61" y="-17" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine3"/>
+                </Picture>
+                <Picture id="m_Picture3" x="-61" y="58" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine4"/>
+                </Picture>
+                <Picture id="m_Picture4" x="-61" y="133" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine5"/>
+                </Picture>
+                <Picture id="m_Picture5" x="-61" y="208" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine6"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_ListReel2" x="243" y="176" z="0" width="105" height="182" window_state="262150">
+                <Picture id="m_Picture0" x="-61" y="-167" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine1"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-61" y="-92" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine2"/>
+                </Picture>
+                <Picture id="m_Picture2" x="-61" y="-17" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine3"/>
+                </Picture>
+                <Picture id="m_Picture3" x="-61" y="58" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine4"/>
+                </Picture>
+                <Picture id="m_Picture4" x="-61" y="133" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine5"/>
+                </Picture>
+                <Picture id="m_Picture5" x="-61" y="208" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine6"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_ListReel3" x="386" y="176" z="0" width="105" height="182" window_state="262150">
+                <Picture id="m_Picture0" x="-61" y="-167" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine1"/>
+                </Picture>
+                <Picture id="m_Picture1" x="-61" y="-92" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine2"/>
+                </Picture>
+                <Picture id="m_Picture2" x="-61" y="-17" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine3"/>
+                </Picture>
+                <Picture id="m_Picture3" x="-61" y="58" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine4"/>
+                </Picture>
+                <Picture id="m_Picture4" x="-61" y="133" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine5"/>
+                </Picture>
+                <Picture id="m_Picture5" x="-61" y="208" z="0" width="228" height="169" window_state="6">
+                    <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                    <piece_info value="casino_lobby_slotmachine6"/>
+                </Picture>
+            </Panel>
+        </Picture>
+    </Panel>
+    <Picture id="m_PicDailyTotal" x="11" y="472" z="0" width="1113" height="162" window_state="6" style="ngs_casino_lobby_panel28">
+        <Panel id="m_PanStarBonus" x="32" y="35" z="0" width="190" height="108" window_state="6">
+            <RichLabel id="m_Title" x="-2" y="5" z="0" width="136" height="30" window_state="6">
+                <text value="Star Bonus"/>
+                <font_size value="35"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Info" x="-2" y="43" z="0" width="136" height="60" window_state="6">
+                <text value="Star levels affect 
+your Bonus!"/>
+                <text_color value="cs_purpleTxt2"/>
+                <text_style value="8"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="26"/>
+            </RichLabel>
+            <RichLabel id="m_Value" x="-7" y="43" z="0" width="146" height="60" window_state="4">
+                <text value="-"/>
+                <font_size value="45"/>
+                <text_color value="cs_yellowTxt"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="22"/>
+            </RichLabel>
+            <Picture id="m_Hint" x="129" y="7" z="0" width="30" height="30" window_state="6">
+                <piece_info value="casino_lobby_icon019"/>
+            </Picture>
+            <Picture id="m_PicPlus" x="161" y="35" z="0" width="25" height="25" window_state="6">
+                <piece_info value="casino_lobby_icon020a"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanFriendBonus" x="242" y="35" z="0" width="190" height="108" window_state="6">
+            <RichLabel id="m_Title" x="4" y="5" z="0" width="136" height="30" window_state="6">
+                <text value="Friend Bonus"/>
+                <font_size value="35"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Info" x="-23" y="43" z="0" width="184" height="60" window_state="6">
+                <text value="$- Coins Per 
+Friend! (Max 25)"/>
+                <text_color value="cs_purpleTxt2"/>
+                <text_style value="8"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="26"/>
+            </RichLabel>
+            <RichLabel id="m_Value" x="-1" y="43" z="0" width="146" height="60" window_state="4">
+                <text value="-"/>
+                <font_size value="45"/>
+                <text_color value="cs_yellowTxt"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="22"/>
+            </RichLabel>
+            <Picture id="m_Hint" x="138" y="7" z="0" width="30" height="30" window_state="6">
+                <piece_info value="casino_lobby_icon019"/>
+            </Picture>
+            <Picture id="m_PicPlus" x="161" y="35" z="0" width="25" height="25" window_state="6">
+                <piece_info value="casino_lobby_icon020a"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanReturnBonus" x="452" y="35" z="0" width="190" height="108" window_state="6">
+            <RichLabel id="m_Title" x="2" y="5" z="0" width="136" height="30" window_state="6">
+                <text value="Return Bonus"/>
+                <font_size value="35"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Info" x="-18" y="43" z="0" width="176" height="60" window_state="6">
+                <text value="$- Coins Per 
+Day! (Max 7)"/>
+                <text_color value="cs_purpleTxt2"/>
+                <text_style value="8"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="26"/>
+            </RichLabel>
+            <RichLabel id="m_Value" x="-3" y="43" z="0" width="146" height="60" window_state="4">
+                <text value="-"/>
+                <font_size value="45"/>
+                <text_color value="cs_yellowTxt"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="22"/>
+            </RichLabel>
+            <Picture id="m_Hint" x="138" y="7" z="0" width="30" height="30" window_state="6">
+                <piece_info value="casino_lobby_icon019"/>
+            </Picture>
+            <Picture id="m_PicPlus" x="161" y="35" z="0" width="25" height="25" window_state="6">
+                <piece_info value="casino_lobby_icon020a"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanDailySpin" x="652" y="35" z="0" width="190" height="108" window_state="6">
+            <RichLabel id="m_Title" x="20" y="5" z="0" width="96" height="30" window_state="6">
+                <text value="Daily Spin"/>
+                <font_size value="35"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Info" x="1" y="43" z="0" width="136" height="60" window_state="6">
+                <text value="A New Spin Everyday!"/>
+                <text_color value="cs_purpleTxt2"/>
+                <text_style value="8"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="26"/>
+            </RichLabel>
+            <RichLabel id="m_Value" x="-5" y="43" z="0" width="146" height="60" window_state="4">
+                <text value="-"/>
+                <font_size value="45"/>
+                <text_color value="cs_yellowTxt"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="22"/>
+            </RichLabel>
+            <Picture id="m_Hint" x="117" y="7" z="0" width="30" height="30" window_state="6">
+                <piece_info value="casino_lobby_icon019"/>
+            </Picture>
+            <Picture id="m_PicEqual" x="157" y="35" z="0" width="25" height="25" window_state="6">
+                <piece_info value="casino_lobby_icon020b"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanDailyTotal" x="866" y="25" z="0" width="210" height="118" window_state="6">
+            <RichLabel id="m_DailyTotal" x="28" y="15" z="0" width="156" height="30" window_state="6">
+                <text value="Daily Total"/>
+                <font_size value="40"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Value" x="26" y="56" z="0" width="156" height="50" window_state="6">
+                <text value="???"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_style value="8"/>
+                <font_id value="LatoReg"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="22"/>
+            </RichLabel>
+            <Button id="m_BtnCollect" x="2" y="6" z="0" width="209" height="113" window_state="6" style="bs_casino_lobby_btn023">
+                <line_height value="30"/>
+                <RichLabel id="m_Collect" x="26" y="12" z="0" width="156" height="30" window_state="14">
+                    <text value="Collect"/>
+                    <font_size value="45"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Value" x="6" y="47" z="0" width="196" height="50" window_state="14">
+                    <text value="$-"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_style value="8"/>
+                    <font_id value="LatoReg"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="22"/>
+                </RichLabel>
+            </Button>
+        </Panel>
+    </Picture>
+    <Panel id="m_PanReward1" x="4" y="186" z="0" width="1130" height="446" window_state="4">
+        <Picture id="m_PicCurrentRwd" x="293" y="12" z="0" width="543" height="166" window_state="6" style="ngs_casino_lobby_panel27">
+            <Panel id="m_VIP" x="14" y="9" z="0" width="515" height="130" window_state="6">
+                <RichLabel id="m_LblReward1" x="-6" y="32" z="0" width="246" height="30" window_state="6">
+                    <text value="Current VIP Reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward2" x="275" y="32" z="0" width="93" height="30" window_state="6">
+                    <text value="Reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward3" x="-6" y="72" z="0" width="246" height="30" window_state="6">
+                    <text value="Lower Reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow" x="246" y="32" z="0" width="26" height="30" window_state="6">
+                    <text value="-"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow1" x="370" y="33" z="0" width="141" height="30" window_state="6">
+                    <text value="$-"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow2" x="246" y="72" z="0" width="239" height="30" window_state="6">
+                    <text value="-"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Star" x="14" y="9" z="0" width="515" height="130" window_state="4">
+                <RichLabel id="m_LblReward1" x="12" y="32" z="0" width="226" height="30" window_state="6">
+                    <text value="Your STAR Level:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward2" x="270" y="32" z="0" width="96" height="30" window_state="6">
+                    <text value="Reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward3" x="12" y="72" z="0" width="226" height="30" window_state="6">
+                    <text value="Next STAR Level:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward4" x="270" y="72" z="0" width="96" height="30" window_state="6">
+                    <text value="Reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow" x="243" y="32" z="0" width="26" height="30" window_state="6">
+                    <text value="1"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow1" x="364" y="32" z="0" width="141" height="30" window_state="6">
+                    <text value="$50,000"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow2" x="243" y="72" z="0" width="26" height="30" window_state="6">
+                    <text value="2"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow3" x="364" y="72" z="0" width="139" height="30" window_state="6">
+                    <text value="10,000"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Friends" x="14" y="9" z="0" width="515" height="130" window_state="4">
+                <RichLabel id="m_LblReward1" x="12" y="32" z="0" width="226" height="30" window_state="6">
+                    <text value="Your Friends:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward2" x="280" y="32" z="0" width="96" height="30" window_state="6">
+                    <text value="Reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward3" x="99" y="72" z="0" width="266" height="30" window_state="6">
+                    <text value="Add 1 more friend to get:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow" x="243" y="32" z="0" width="26" height="30" window_state="6">
+                    <text value="20"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow1" x="374" y="32" z="0" width="121" height="30" window_state="6">
+                    <text value="500"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow2" x="370" y="72" z="0" width="46" height="30" window_state="6">
+                    <text value="600"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Login" x="14" y="9" z="0" width="515" height="130" window_state="4">
+                <RichLabel id="m_LblReward1" x="27" y="32" z="0" width="226" height="30" window_state="6">
+                    <text value="Your Login Days:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward2" x="295" y="32" z="0" width="96" height="30" window_state="6">
+                    <text value="Reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblReward3" x="87" y="72" z="0" width="266" height="30" window_state="6">
+                    <text value="Next day login reward:"/>
+                    <font_size value="40"/>
+                    <text_align_h value="3"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow" x="258" y="32" z="0" width="26" height="30" window_state="6">
+                    <text value="20"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow1" x="389" y="32" z="0" width="121" height="30" window_state="6">
+                    <text value="500"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_ValueYellow2" x="358" y="72" z="0" width="46" height="30" window_state="6">
+                    <text value="600"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_yellowTxt"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Picture>
+    </Panel>
+    <Picture id="m_PicInfo" x="244" y="393" z="0" width="319" height="109" window_state="6" style="ngs_casino_common_tip_bg">
+        <RichLabel id="m_RichLabel" x="11" y="24" z="0" width="296" height="60" window_state="6">
+            <text value="$- Coins Per Friend!
+(MAX -)"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_Picture" x="149" y="96" z="0" width="16" height="25" window_state="6"/>
+    </Picture>
+    <Panel id="m_PanPaytable" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_BG" x="0" y="0" z="0" width="1136" height="640" window_state="14" style="ngs_casino_lobby_panel16"/>
+        <Picture id="m_Base" x="32" y="28" z="0" width="1072" height="586" window_state="6" style="ngs_casino_lobby_panel22a">
+            <Picture id="m_Picture1" x="436" y="267" z="0" width="199" height="124" window_state="14">
+                <scale x="4" y="4.1300001" z="4"/>
+                <piece_info value="casino_lobby_panel22d"/>
+            </Picture>
+            <Picture id="m_Picture" x="1" y="1" z="0" width="1070" height="108" window_state="6" style="ngs_casino_lobby_panel22b">
+                <Picture id="m_Picture" x="274" y="18" z="0" width="521" height="84" window_state="6">
+                    <scale x="1" y="1.03" z="1"/>
+                    <piece_info value="casino_lobby_panel22c"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="281" y="34" z="0" width="508" height="50" window_state="6">
+                    <text value="PAYTABLE"/>
+                    <font_size value="55"/>
+                    <font_id value="Bebas"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <word_spacing value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button id="m_Button" x="949" y="25" z="0" width="78" height="83" window_state="6" style="bs_casino_lobby_btn07">
+                <line_height value="30"/>
+            </Button>
+        </Picture>
+        <Panel id="m_Jackpot" x="237" y="130" z="0" width="661" height="130" window_state="6">
+            <Picture id="m_Picture" x="-44" y="-19" z="0" width="228" height="169" window_state="6">
+                <scale x="0.63" y="0.63" z="0.63"/>
+                <piece_info value="casino_lobby_slotmachine6"/>
+            </Picture>
+            <Picture id="m_Picture1" x="108" y="-19" z="0" width="228" height="169" window_state="6">
+                <scale x="0.63" y="0.63" z="0.63"/>
+                <piece_info value="casino_lobby_slotmachine6"/>
+            </Picture>
+            <Picture id="m_Picture2" x="260" y="-19" z="0" width="228" height="169" window_state="6">
+                <scale x="0.63" y="0.63" z="0.63"/>
+                <piece_info value="casino_lobby_slotmachine6"/>
+            </Picture>
+            <RichLabel id="m_Value" x="462" y="38" z="0" width="226" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="65"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_777" x="75" y="270" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture" x="-51" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.41" y="0.41" z="0.41"/>
+                <piece_info value="casino_lobby_slotmachine4"/>
+            </Picture>
+            <Picture id="m_Picture1" x="61" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.41" y="0.41" z="0.41"/>
+                <piece_info value="casino_lobby_slotmachine4"/>
+            </Picture>
+            <Picture id="m_Picture2" x="173" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.41" y="0.41" z="0.41"/>
+                <piece_info value="casino_lobby_slotmachine4"/>
+            </Picture>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Bar2" x="75" y="342" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture" x="-51" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine1"/>
+            </Picture>
+            <Picture id="m_Picture1" x="61" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine1"/>
+            </Picture>
+            <Picture id="m_Picture2" x="173" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine1"/>
+            </Picture>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Bar2" x="75" y="414" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture" x="-51" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine2"/>
+            </Picture>
+            <Picture id="m_Picture1" x="61" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine2"/>
+            </Picture>
+            <Picture id="m_Picture2" x="173" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine2"/>
+            </Picture>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Bar1" x="75" y="484" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture" x="-51" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine3"/>
+            </Picture>
+            <Picture id="m_Picture1" x="61" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine3"/>
+            </Picture>
+            <Picture id="m_Picture2" x="173" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine3"/>
+            </Picture>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_BarAny" x="573" y="270" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture" x="-51" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine7"/>
+            </Picture>
+            <Picture id="m_Picture1" x="61" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine7"/>
+            </Picture>
+            <Picture id="m_Picture2" x="173" y="-45" z="0" width="228" height="169" window_state="6">
+                <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+                <piece_info value="casino_lobby_slotmachine7"/>
+            </Picture>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Cherry" x="573" y="342" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture" x="-51" y="-44" z="0" width="228" height="169" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="casino_lobby_slotmachine5"/>
+            </Picture>
+            <Picture id="m_Picture1" x="61" y="-44" z="0" width="228" height="169" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="casino_lobby_slotmachine5"/>
+            </Picture>
+            <Picture id="m_Picture2" x="173" y="-44" z="0" width="228" height="169" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="casino_lobby_slotmachine5"/>
+            </Picture>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_AnyTwo" x="573" y="414" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture2" x="173" y="-44" z="0" width="228" height="169" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="casino_lobby_slotmachine5"/>
+            </Picture>
+            <RichLabel id="m_AnyTwo" x="80" y="14" z="0" width="126" height="50" window_state="6">
+                <text value="ANY TWO"/>
+                <font_size value="50"/>
+                <text_color value="cs_White"/>
+                <text_align_h value="1"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_AnyOne" x="573" y="484" z="0" width="490" height="80" window_state="6">
+            <Picture id="m_Picture2" x="173" y="-44" z="0" width="228" height="169" window_state="6">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <piece_info value="casino_lobby_slotmachine5"/>
+            </Picture>
+            <RichLabel id="m_AnyOne" x="78" y="14" z="0" width="129" height="50" window_state="6">
+                <text value="ANY ONE"/>
+                <font_size value="50"/>
+                <text_color value="cs_White"/>
+                <text_align_h value="1"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Value" x="348" y="14" z="0" width="136" height="50" window_state="6">
+                <text value="$-"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt"/>
+                <text_align_h value="1"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+</Panel>

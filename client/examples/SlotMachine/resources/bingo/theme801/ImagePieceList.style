@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="bingo_theme801" file_name="bingo_theme801.png" width="512" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="theme801_bg02" image_id="bingo_theme801" x="0" y="0" width="434" height="535"/>
+    <Piece id="theme801_btn01" image_id="bingo_theme801" x="1" y="536" width="425" height="69"/>
+    <Piece id="theme801_icon01" image_id="bingo_theme801" x="1" y="606" width="156" height="148"/>
+    <Piece id="theme801_icon02" image_id="bingo_theme801" x="1" y="755" width="156" height="148"/>
+    <Piece id="theme801_icon03" image_id="bingo_theme801" x="158" y="606" width="156" height="148"/>
+    <Piece id="theme801_icon04" image_id="bingo_theme801" x="315" y="606" width="156" height="148"/>
+    <Piece id="theme801_icon05" image_id="bingo_theme801" x="158" y="755" width="156" height="148"/>
+  </PieceList>
+</ImagePiece>

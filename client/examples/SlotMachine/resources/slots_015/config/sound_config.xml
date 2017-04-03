@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_015/sound/AS_spin.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="REEL_READY_STOP" value="slots_015/sound/AS_reel_stop.ogg"/>
+		<Sound name="NEAR_WIN" value="slots_015/sound/AS_near_win.ogg"/>
+		<Sound name="PAYTABLE_CLICK" value="slots_015/sound/AS_spin.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="slots_015/sound/AS_spin.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="slots_015/sound/AS_spin.ogg"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_SPINNING" value=""/>
+		<Sound name="REEL_STOP" value=""/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+
+    <Sound name="BASE_GAME_INTRO_BGM" value="slots_015/sound/AS_intro.ogg"/>
+		<Sound name="BASE_GAME_BGM" value="slots_015/sound/AS_beach.ogg"/>
+		<Sound name="REEL_SPIN_BGM" value="slots_015/sound/AS_reel_spin.ogg"/>
+		<Sound name="SCATTER_ICON_APPEARING_SE1" value="slots_015/sound/AS_scatter_icon_appear_1.ogg"/>
+    <Sound name="SCATTER_ICON_APPEARING_SE2" value="slots_015/sound/AS_scatter_icon_appear_2.ogg"/>
+    <Sound name="SCATTER_ICON_APPEARING_SE3" value="slots_015/sound/AS_scatter_icon_appear_3.ogg"/>
+    <Sound name="SCATTER_ICON_APPEARING_SE4" value="slots_015/sound/AS_scatter_icon_appear_4.ogg"/>
+    <Sound name="SCATTER_ICON_APPEARING_SE5" value="slots_015/sound/AS_scatter_icon_appear_5.ogg"/>
+		<Sound name="SCATTER_WIN_SE" value="slots_015/sound/AS_free_game_success.ogg"/>
+    <Sound name="FREE_SPINS_AWARDED_POP_UP" value=""/>
+		<Sound name="FREE_SPIN_BGM" value="slots_015/sound/AS_free_game_BGM.ogg"/>
+		<Sound name="FREE_SPINS_TOTAL_WIN_INCREMENT" value="slots_015/sound/AS_chip_increment_loop.ogg"/>
+    <Sound name="FREE_SPINS_TOTAL_WIN_INCREMENT_END" value="slots_015/sound/AS_chip_increment_end.ogg"/>
+    <Sound name="BONUS_CHEST_FEATURE_INTRO_POPUP" value="slots_015/sound/AS_bonus_game_bgm.ogg"/>
+    <Sound name="BONUS_CHEST_FEATURE_BGM" value="slots_015/sound/AS_free_game_BGM.ogg"/>
+    <Sound name="CUT_SCENE_1_SFX" value="slots_015/sound/AS_transition_fx.ogg"/>
+    <Sound name="DRAGON_MEGA_ICON_SFX" value="slots_015/sound/AS_wild_icon_win.ogg"/>
+	</SoundInfo>
+</SlotsConfig>

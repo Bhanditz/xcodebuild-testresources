@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="ref" x="0" y="529" z="0" width="1137" height="111" window_state="12">
+        <piece_info value="slots_002_panel4"/>
+    </Picture>
+    <Sprite id="m_Sprite_Smoke" x="754" y="468" z="0" width="149" height="114" window_state="6">
+        <scale x="3.5" y="3.3299999" z="3.3299999"/>
+        <sprite_file value="slots_002/sprites/Sparta_smoke.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite_Smoke1" x="234" y="468" z="0" width="149" height="114" window_state="6">
+        <scale x="-3.5" y="3.3299999" z="3.3299999"/>
+        <sprite_file value="slots_002/sprites/Sparta_smoke.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+  倒计时奖励
+  	CountdownReward:顺序配置的倒计时奖励
+  		id:顺序号
+  		secs：需要延时的时间
+  		rewardType：奖励类型 1(直接奖励金币) 2(抽取金币数额)
+  		reward：奖励数量
+  			Reward：抽取的奖励配置
+  				index: 索引
+  				reward: 奖励数量
+  				weightage：权重  		
+-->
+<root>
+		<CountdownReward id="1" secs="10800" rewardType="1" reward="2000"></CountdownReward>
+		<CountdownReward id="2" secs="10800" rewardType="1" reward="5000"></CountdownReward>
+		<CountdownReward id="3" secs="10800" rewardType="1" reward="10000"></CountdownReward>
+		<CountdownReward id="4" secs="10800" rewardType="1" reward="20000"></CountdownReward>
+		<CountdownReward id="5" secs="10800" rewardType="2" reward="0">
+			<Reward index="1" reward="25000" weightage="20"></Reward>
+			<Reward index="2" reward="1000000" weightage="1"></Reward>
+			<Reward index="3" reward="150000" weightage="50"></Reward>
+			<Reward index="4" reward="15000" weightage="10"></Reward>
+			<Reward index="5" reward="90000" weightage="96"></Reward>
+			<Reward index="6" reward="10000" weightage="5"></Reward>
+			<Reward index="7" reward="300000" weightage="10"></Reward>
+			<Reward index="8" reward="120000" weightage="30"></Reward>
+			<Reward index="9" reward="20000" weightage="20"></Reward>
+			<Reward index="10" reward="75000" weightage="70"></Reward>
+			<Reward index="11" reward="30000" weightage="60"></Reward>
+			<Reward index="12" reward="500000" weightage="3"></Reward>
+			<Reward index="13" reward="60000" weightage="50"></Reward>
+			<Reward index="14" reward="45000" weightage="30"></Reward>
+			<Reward index="15" reward="105000" weightage="25"></Reward>
+		</CountdownReward>
+ </root>
+ 

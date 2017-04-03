@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="minigame_over.png" width="256" height="256" scale_x="3.5" scale_y="3.5" blend="1" loop="1">
+    <sprite n="00000" x="2" y="140" w="88" h="110" oX="8" oY="4" oW="240" oH="200" dr="60"/>
+    <sprite n="00001" x="2" y="2" w="128" h="136" oX="8" oY="4" oW="240" oH="200" dr="60"/>
+    <sprite n="00002" x="132" y="2" w="116" h="126" oX="77" oY="69" oW="240" oH="200" dr="80"/>
+</TextureAtlas>

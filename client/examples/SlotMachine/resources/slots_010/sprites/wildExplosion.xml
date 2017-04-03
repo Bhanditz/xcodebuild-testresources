@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wildExplosion.png" width="512" height="512" scale_x="3.3299999" scale_y="3.3299999" blend="1" loop="1">
+    <sprite n="wildExplosion_00000.png" x="222" y="112" w="160" h="90" oX="119" oY="214" oW="326" oH="598" r="y" dr="90"/>
+    <sprite n="wildExplosion_00001.png" x="222" y="204" w="102" h="184" oX="112" oY="207" oW="326" oH="598" dr="90"/>
+    <sprite n="wildExplosion_00002.png" x="402" y="202" w="108" h="198" oX="109" oY="200" oW="326" oH="598" dr="90"/>
+    <sprite n="wildExplosion_00003.png" x="202" y="402" w="198" h="108" oX="109" oY="200" oW="326" oH="598" r="y" dr="90"/>
+    <sprite n="wildExplosion_00004.png" x="112" y="202" w="108" h="198" oX="109" oY="200" oW="326" oH="598" dr="90"/>
+    <sprite n="wildExplosion_00005.png" x="402" y="2" w="108" h="198" oX="109" oY="200" oW="326" oH="598" dr="90"/>
+    <sprite n="wildExplosion_00006.png" x="202" y="2" w="198" h="108" oX="109" oY="200" oW="326" oH="598" r="y" dr="90"/>
+    <sprite n="wildExplosion_00007.png" x="2" y="402" w="198" h="108" oX="109" oY="200" oW="326" oH="598" r="y" dr="90"/>
+    <sprite n="wildExplosion_00008.png" x="2" y="202" w="108" h="198" oX="109" oY="200" oW="326" oH="598" dr="90"/>
+    <sprite n="wildExplosion_00009.png" x="2" y="2" w="108" h="198" oX="109" oY="200" oW="326" oH="598" dr="90"/>
+</TextureAtlas>

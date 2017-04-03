@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="14" game="CastleClash">
+		<BonusGames>
+		</BonusGames>
+		<Icons>								  
+			<Icon id="1" pieceId="slots_014_icon_10_d"  bgPieceId="slots_014_icon_09" sprite=""/>		<!--  -->			
+			<Icon id="2" pieceId="slots_014_icon_11_d"  bgPieceId="slots_014_icon_11" sprite=""/>		<!--  -->
+			<Icon id="3" pieceId="slots_014_icon_12_d"  bgPieceId="slots_014_icon_12" sprite=""/>     <!--  -->
+			<Icon id="4" pieceId="slots_014_icon_04"  bgPieceId="" sprite="" />      <!-- A -->
+			<Icon id="5" pieceId="slots_014_icon_05"  bgPieceId="" sprite="" />		<!-- K -->
+			<Icon id="6" pieceId="slots_014_icon_06"  bgPieceId="" sprite=""/>		<!-- Q -->
+			<Icon id="7" pieceId="slots_014_icon_03"  bgPieceId="" sprite=""/>		<!-- J -->
+			<Icon id="8" pieceId="slots_014_icon_07"  bgPieceId="" sprite="" />		<!-- 10 -->
+			<Icon id="9" pieceId="slots_014_icon_08"  bgPieceId="" sprite=""/>		<!--  9 -->	
+			<Icon id="11" pieceId="slots_014_icon_10_c"  bgPieceId="slots_014_icon_09" sprite=""/>		<!--  -->	
+			<Icon id="12" pieceId="slots_014_icon_11_c"  bgPieceId="slots_014_icon_11" sprite=""/>		<!--  -->
+			<Icon id="13" pieceId="slots_014_icon_12_c"  bgPieceId="slots_014_icon_12" sprite=""/>     <!--  -->
+			<Icon id="21" pieceId="slots_014_icon_10_b"  bgPieceId="slots_014_icon_09" sprite=""/>		<!--  -->						
+			<Icon id="22" pieceId="slots_014_icon_11_b"  bgPieceId="slots_014_icon_11" sprite=""/>		<!--  -->
+			<Icon id="23" pieceId="slots_014_icon_12_b"  bgPieceId="slots_014_icon_12" sprite=""/>     <!--  -->
+			<Icon id="31" pieceId="slots_014_icon_01_c" bgPieceId="slots_014_icon_01_a" sprite="" renderdepth="1" sequenceTime = "1.4"/>	    <!--  -->
+			<Icon id="32" pieceId="slots_014_icon_10_a" bgPieceId="slots_014_icon_09" sprite="" render_order="2"/>   	<!--  -->
+			<Icon id="33" pieceId="slots_014_icon_11_a" bgPieceId="slots_014_icon_11" sprite="" render_order="2"/>	    <!--  -->
+            <Icon id="34" pieceId="slots_014_icon_12_a" bgPieceId="slots_014_icon_12" sprite="" render_order="2"/>	    <!--  -->			
+			<Icon id="41" pieceId="slots_014_icon_14_e" bgPieceId="slots_014_icon_14_c" sprite="" renderdepth="1"/>    <!--  -->
+            <Icon id="51" pieceId="slots_014_icon_13_b" bgPieceId="slots_014_icon_13_a" />    <!--  -->			
+		</Icons>
+		<Reel>
+			<!-- near win reel for both basegame and freegame -->
+			<NearWinInfo name="basegame" ReelIds="3"/>			
+			<NearWinInfo name="freegame" ReelIds="3"/>
+			<SpinType name="normal">
+				<BestSpinIconCount value="12"/>
+				<OneReelStartDelayTime value="0.08"/>
+				<OneReelStopDelayTime value="0.4"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.10"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="14"/>
+				<OneReelStartDelayTime value="0.06"/>
+				<OneReelStopDelayTime value="0.3"/>
+				<OneReelPullDownTime value="0.010"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="0.9"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.5" pieceId="slots_014_panel_10">
+			<Payline id="1" lineColor="0xFFFFFFFF" />
+		</Paylines>
+		
+		<Paytables winTextColor="cs_green" /> 
+	</Theme>
+</SlotsConfig>

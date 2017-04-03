@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_bg" x="0" y="0" z="0" width="1136" height="640" window_state="262158">
+        <Picture id="m_TranslucentBg" x="0" y="0" z="0" width="1136" height="640" window_state="262">
+            <piece_info value="slots_013_bg_03"/>
+        </Picture>
+        <Picture id="m_TranslucentBg1" x="25" y="685" z="0" width="1136" height="341" window_state="262">
+            <scale x="1.27" y="1.27" z="1.27"/>
+            <piece_info value="slots_013_panel_07"/>
+            <Picture id="m_TranslucentBg4" x="320" y="12" z="0" width="454" height="203" window_state="262">
+                <scale x="1.98" y="1.98" z="1.98"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_07d"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_TranslucentBg2" x="26" y="743" z="0" width="1136" height="289" window_state="262">
+            <scale x="1.27" y="1.27" z="1.27"/>
+            <piece_info value="slots_013_panel_08"/>
+            <Picture id="m_TranslucentBg3" x="263" y="80" z="0" width="568" height="141" window_state="262">
+                <scale x="1.58" y="1.58" z="1.58"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_07a"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="263" y="40" z="0" width="568" height="172" window_state="6">
+                <scale x="1.58" y="1.58" z="1.58"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_07b"/>
+                <mask_piece value="slots_013_panel_07b_sweep"/>
+                <mask_offset x="-0.36000001" y="0" z="0"/>
+            </PictureMask>
+        </Picture>
+    </Panel>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <PictureMirror id="m_PictureMirror" x="-1" y="0" z="0" width="1138" height="640" window_state="270">
+            <piece_info value="slots_013_panel_06"/>
+        </PictureMirror>
+        <RichLabel id="m_RichLabel1" x="328" y="89" z="0" width="480" height="67" window_state="14">
+            <text value="SELECT YOUR FREE GAMES"/>
+            <text_align_v value="1"/>
+            <font_id value="UnlockNewGame"/>
+            <smooth value="0.30000001"/>
+            <word_spacing value="5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Panel id="m_Choose1" x="69" y="169" z="0" width="196" height="363" window_state="6">
+            <Particle id="m_Particle" x="88" y="171" z="0" width="20" height="20" window_state="12" style="ngs_panel_bg">
+                <scale x="1.1" y="1.1" z="1.1"/>
+                <particle_state value="0"/>
+                <package_file value="slots_013/particles/lizi.ptc"/>
+                <particle_name value="freegame"/>
+            </Particle>
+            <PictureMirror id="m_PictureMirror" x="0" y="0" z="0" width="196" height="363" window_state="270">
+                <piece_info value="slots_013_panel_04"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror1" x="0" y="0" z="0" width="196" height="363" window_state="268">
+                <piece_info value="slots_013_panel_05"/>
+            </PictureMirror>
+            <Panel id="m_Choosen" x="0" y="0" z="0" width="196" height="363" window_state="14">
+                <Sprite id="m_Sprite" x="-69" y="-27" z="0" width="320" height="240" window_state="12">
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+                <Sprite id="m_Sprite1" x="-69" y="153" z="0" width="320" height="240" window_state="12">
+                    <scale x="1" y="-1" z="1"/>
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_Picture" x="11" y="27" z="0" width="174" height="155" window_state="270">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <piece_info value="slots_013_icon_02c"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="50" y="164" z="0" width="96" height="47" window_state="14">
+                <text value="IS STACKED"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="50" y="194" z="0" width="96" height="47" window_state="14">
+                <text value="FOR"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="46" y="220" z="0" width="100" height="40" window_state="14">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <text value="5"/>
+                <font_size value="40"/>
+                <font_id value="slots_013"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="50" y="294" z="0" width="96" height="47" window_state="14">
+                <text value="FREE GAMES"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="22" y="86" z="0" width="150" height="190" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05d"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="49" y="92" z="0" width="98" height="179" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_slot013_freegame02"/>
+                <piece_info value="slots_013_panel_05_mask"/>
+                <mask_piece value="slots_013_panel_05_sweep"/>
+                <mask_offset x="0.36000001" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+        <Panel id="m_Choose2" x="268" y="169" z="0" width="196" height="363" window_state="6">
+            <Particle id="m_Particle" x="88" y="171" z="0" width="20" height="20" window_state="12" style="ngs_panel_bg">
+                <scale x="1.1" y="1.1" z="1.1"/>
+                <particle_state value="0"/>
+                <package_file value="slots_013/particles/lizi.ptc"/>
+                <particle_name value="freegame"/>
+            </Particle>
+            <PictureMirror id="m_PictureMirror" x="0" y="0" z="0" width="196" height="363" window_state="270">
+                <piece_info value="slots_013_panel_04"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror1" x="0" y="0" z="0" width="196" height="363" window_state="268">
+                <piece_info value="slots_013_panel_05"/>
+            </PictureMirror>
+            <Panel id="m_Choosen" x="0" y="0" z="0" width="196" height="363" window_state="14">
+                <Sprite id="m_Sprite" x="-69" y="-27" z="0" width="320" height="240" window_state="4">
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+                <Sprite id="m_Sprite1" x="-69" y="153" z="0" width="320" height="240" window_state="4">
+                    <scale x="1" y="-1" z="1"/>
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_Picture" x="11" y="27" z="0" width="174" height="155" window_state="270">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <piece_info value="slots_013_icon_05c"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="50" y="164" z="0" width="96" height="47" window_state="14">
+                <text value="IS STACKED"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="50" y="194" z="0" width="96" height="47" window_state="14">
+                <text value="FOR"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="46" y="220" z="0" width="102" height="40" window_state="14">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <text value="8"/>
+                <font_size value="40"/>
+                <font_id value="slots_013"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="50" y="294" z="0" width="96" height="47" window_state="14">
+                <text value="FREE GAMES"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="22" y="86" z="0" width="150" height="190" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05e"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="49" y="92" z="0" width="98" height="179" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05_mask"/>
+                <mask_piece value="slots_013_panel_05_sweep"/>
+                <mask_offset x="0.36000001" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+        <Panel id="m_Choose3" x="467" y="169" z="0" width="196" height="363" window_state="6">
+            <Particle id="m_Particle" x="88" y="171" z="0" width="20" height="20" window_state="12" style="ngs_panel_bg">
+                <scale x="1.1" y="1.1" z="1.1"/>
+                <particle_state value="0"/>
+                <package_file value="slots_013/particles/lizi.ptc"/>
+                <particle_name value="freegame"/>
+            </Particle>
+            <PictureMirror id="m_PictureMirror" x="0" y="0" z="0" width="196" height="363" window_state="270">
+                <piece_info value="slots_013_panel_04"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror1" x="0" y="0" z="0" width="196" height="363" window_state="268">
+                <piece_info value="slots_013_panel_05"/>
+            </PictureMirror>
+            <Panel id="m_Choosen" x="0" y="0" z="0" width="196" height="363" window_state="14">
+                <Sprite id="m_Sprite" x="-69" y="-27" z="0" width="320" height="240" window_state="4">
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+                <Sprite id="m_Sprite1" x="-69" y="153" z="0" width="320" height="240" window_state="4">
+                    <scale x="1" y="-1" z="1"/>
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_Picture" x="11" y="27" z="0" width="174" height="155" window_state="270">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <piece_info value="slots_013_icon_01c"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="50" y="164" z="0" width="96" height="47" window_state="14">
+                <text value="IS STACKED"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="50" y="194" z="0" width="96" height="47" window_state="14">
+                <text value="FOR"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="46" y="220" z="0" width="100" height="40" window_state="14">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <text value="10"/>
+                <font_size value="40"/>
+                <font_id value="slots_013"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="50" y="294" z="0" width="96" height="47" window_state="14">
+                <text value="FREE GAMES"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="23" y="86" z="0" width="150" height="190" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05b"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="49" y="91" z="0" width="98" height="179" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05_mask"/>
+                <mask_piece value="slots_013_panel_05_sweep"/>
+                <mask_offset x="0.36000001" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+        <Panel id="m_Choose4" x="666" y="169" z="0" width="196" height="363" window_state="6">
+            <Particle id="m_Particle" x="88" y="171" z="0" width="20" height="20" window_state="12" style="ngs_panel_bg">
+                <scale x="1.1" y="1.1" z="1.1"/>
+                <particle_state value="0"/>
+                <package_file value="slots_013/particles/lizi.ptc"/>
+                <particle_name value="freegame"/>
+            </Particle>
+            <PictureMirror id="m_PictureMirror" x="0" y="0" z="0" width="196" height="363" window_state="270">
+                <piece_info value="slots_013_panel_04"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror1" x="0" y="0" z="0" width="196" height="363" window_state="268">
+                <piece_info value="slots_013_panel_05"/>
+            </PictureMirror>
+            <Panel id="m_Choosen" x="0" y="0" z="0" width="196" height="363" window_state="14">
+                <Sprite id="m_Sprite" x="-69" y="-27" z="0" width="320" height="240" window_state="4">
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+                <Sprite id="m_Sprite1" x="-69" y="153" z="0" width="320" height="240" window_state="4">
+                    <scale x="1" y="-1" z="1"/>
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_Picture" x="11" y="27" z="0" width="174" height="155" window_state="270">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <piece_info value="slots_013_icon_04c"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="50" y="164" z="0" width="96" height="47" window_state="14">
+                <text value="IS STACKED"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="50" y="194" z="0" width="96" height="47" window_state="14">
+                <text value="FOR"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="46" y="220" z="0" width="100" height="40" window_state="14">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <text value="15"/>
+                <font_size value="40"/>
+                <font_id value="slots_013"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="50" y="294" z="0" width="96" height="47" window_state="14">
+                <text value="FREE GAMES"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="22" y="88" z="0" width="150" height="190" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05a"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="48" y="93" z="0" width="98" height="179" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05_mask"/>
+                <mask_piece value="slots_013_panel_05_sweep"/>
+                <mask_offset x="0.36000001" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+        <Panel id="m_Choose5" x="865" y="169" z="0" width="196" height="363" window_state="6">
+            <Particle id="m_Particle" x="88" y="171" z="0" width="20" height="20" window_state="12" style="ngs_panel_bg">
+                <scale x="1.1" y="1.1" z="1.1"/>
+                <particle_state value="0"/>
+                <package_file value="slots_013/particles/lizi.ptc"/>
+                <particle_name value="freegame"/>
+            </Particle>
+            <PictureMirror id="m_PictureMirror" x="0" y="0" z="0" width="196" height="363" window_state="270">
+                <piece_info value="slots_013_panel_04"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror1" x="0" y="0" z="0" width="196" height="363" window_state="268">
+                <piece_info value="slots_013_panel_05"/>
+            </PictureMirror>
+            <Panel id="m_Choosen" x="0" y="0" z="0" width="196" height="363" window_state="14">
+                <Sprite id="m_Sprite" x="-69" y="-27" z="0" width="320" height="240" window_state="4">
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+                <Sprite id="m_Sprite1" x="-69" y="153" z="0" width="320" height="240" window_state="4">
+                    <scale x="1" y="-1" z="1"/>
+                    <sprite_file value="slots_013/sprites/freegame.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+            <Picture id="m_Picture" x="11" y="27" z="0" width="174" height="155" window_state="270">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <piece_info value="slots_013_icon_03c"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="50" y="164" z="0" width="96" height="47" window_state="14">
+                <text value="IS STACKED"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="50" y="194" z="0" width="96" height="47" window_state="14">
+                <text value="FOR"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="46" y="220" z="0" width="100" height="40" window_state="14">
+                <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+                <text value="20"/>
+                <font_size value="40"/>
+                <font_id value="slots_013"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="50" y="294" z="0" width="96" height="47" window_state="14">
+                <text value="FREE GAMES"/>
+                <font_size value="40"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.1"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="0"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="23" y="87" z="0" width="150" height="190" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05c"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="49" y="92" z="0" width="98" height="179" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_05_mask"/>
+                <mask_piece value="slots_013_panel_05_sweep"/>
+                <mask_offset x="0.36000001" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+    </Panel>
+    <Panel id="m_Panel1" x="0" y="0" z="0" width="1136" height="640" window_state="12">
+        <Particle id="m_Particle" x="558" y="310" z="0" width="20" height="20" window_state="6">
+            <particle_state value="0"/>
+            <package_file value="slots_013/particles/lizi.ptc"/>
+            <particle_name value="heart01"/>
+        </Particle>
+        <Particle id="m_Particle1" x="558" y="310" z="0" width="20" height="20" window_state="6">
+            <particle_state value="0"/>
+            <package_file value="slots_013/particles/lizi.ptc"/>
+            <particle_name value="heart 02"/>
+        </Particle>
+        <Picture id="m_Picture" x="495" y="249" z="0" width="145" height="142" window_state="4">
+            <scale x="2.5" y="2.5" z="2.5"/>
+            <action_id value="animation_slot013_freegame03"/>
+            <piece_info value="slots_013_icon_11b1"/>
+            <Picture id="m_Picture1" x="0" y="-12" z="0" width="145" height="142" window_state="6">
+                <scale x="0.79000002" y="0.79000002" z="0.79000002"/>
+                <action_id value="animation_slot013_freegame04"/>
+                <piece_info value="slots_013_heart02"/>
+            </Picture>
+            <Picture id="m_Picture2" x="0" y="-7" z="0" width="145" height="142" window_state="4">
+                <scale x="1.13" y="1.13" z="1.13"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_slot013_freegame05"/>
+                <piece_info value="slots_013_heart01"/>
+            </Picture>
+        </Picture>
+        <Panel id="m_PictureMirror1" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+            <PictureMirror id="m_PictureMirror2" x="284" y="79" z="0" width="568" height="160" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_06a"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror3" x="284" y="399" z="0" width="568" height="160" window_state="6">
+                <scale x="2" y="-2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_panel_06a"/>
+            </PictureMirror>
+        </Panel>
+    </Panel>
+</Panel>

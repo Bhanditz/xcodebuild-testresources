@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="250" height="110" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="250" height="110" window_state="6">
+        <action_id value="animation_slot004_bonus01"/>
+        <Picture id="ref" x="0" y="0" z="0" width="250" height="110" window_state="6">
+            <piece_info value="slots_004_icon_012"/>
+        </Picture>
+        <Picture id="glow" x="0" y="0" z="0" width="250" height="110" window_state="6">
+            <scale x="1.97" y="1.97" z="1.97"/>
+            <color_scale x="0.87" y="0.81999999" z="0.81999999" w="0.75"/>
+            <piece_info value="bonus_glowb"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="25" y="20" z="0" width="80" height="80" window_state="6">
+            <scale x="1.1" y="1.1" z="1.1"/>
+            <rotation x="0" y="-0" z="-0.33161256"/>
+            <sprite_file value="slots_004/sprites/icon012_fire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="56" y="19" z="0" width="80" height="80" window_state="6">
+            <scale x="-0.94" y="0.94" z="0.94"/>
+            <rotation x="0" y="0" z="0.15707964"/>
+            <sprite_file value="slots_004/sprites/icon012_fire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="83" y="19" z="0" width="80" height="80" window_state="6">
+            <sprite_file value="slots_004/sprites/icon012_fire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite3" x="112" y="18" z="0" width="80" height="80" window_state="6">
+            <scale x="1.04" y="1.04" z="1.04"/>
+            <rotation x="0" y="0" z="0.15707964"/>
+            <sprite_file value="slots_004/sprites/icon012_fire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite4" x="141" y="18" z="0" width="80" height="80" window_state="6">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <rotation x="0" y="0" z="0.2617994"/>
+            <sprite_file value="slots_004/sprites/icon012_fire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Picture id="m_Picture" x="50" y="47" z="0" width="151" height="38" window_state="262">
+            <blend_mode value="2"/>
+            <piece_info value="bonus"/>
+        </Picture>
+        <Picture id="m_Picture1" x="58" y="21" z="0" width="134" height="70" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot004_bonus02"/>
+            <piece_info value="bonus_shanbai"/>
+        </Picture>
+    </Panel>
+</Panel>

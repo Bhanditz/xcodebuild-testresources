@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Sparta_midarrow_03.png" width="512" height="1024" blend="1" loop="1">
+    <sprite n="00000" x="292" y="266" w="164" h="130" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00001" x="2" y="398" w="232" h="128" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00002" x="2" y="266" w="288" h="130" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00003" x="2" y="134" w="454" h="130" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00004" x="2" y="2" w="506" h="130" oY="2" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00005" x="2" y="660" w="160" h="130" oY="3" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00006" x="166" y="530" w="162" h="130" oY="1" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00007" x="2" y="528" w="162" h="130" oY="2" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00008" x="236" y="398" w="162" h="130" oY="2" oW="132" oH="508" r="y" dr="30"/>
+    <sprite n="00009" x="330" y="530" w="150" h="130" oY="1" oW="132" oH="508" r="y" dr="30"/>
+</TextureAtlas>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel implement_class="PanelHandRanking" id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_BG" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="lobby_bg02"/>
+    </Picture>
+    <Picture id="m_TitleandClose" x="0" y="0" z="0" width="1136" height="70" window_state="6" style="ngs_casino_common_panel01a">
+        <Picture id="m_PicTitle" x="359" y="9" z="0" width="417" height="67" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_common_panel12b"/>
+        </Picture>
+        <Button id="m_BtnClose" x="1033" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+                <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                <piece_info value="casino_common_btn010"/>
+            </Picture>
+        </Button>
+    </Picture>
+    <Panel id="m_PanHandRanking" x="20" y="104" z="0" width="1096" height="505" window_state="6">
+        <PictureMirror id="m_PictureMirror" x="-209" y="97" z="0" width="976" height="3" window_state="14">
+            <scale x="0.5" y="1" z="1"/>
+            <piece_info value="casino_common_panel15"/>
+            <PictureMirror id="m_PictureMirror" x="0" y="98" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror" x="0" y="195" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror" x="0" y="292" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror" x="0" y="393" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+        </PictureMirror>
+        <PictureMirror id="m_PictureMirror1" x="337" y="97" z="0" width="976" height="3" window_state="14">
+            <scale x="0.5" y="1" z="1"/>
+            <piece_info value="casino_common_panel15"/>
+            <PictureMirror id="m_PictureMirror" x="0" y="98" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror" x="0" y="195" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror" x="0" y="292" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+            <PictureMirror id="m_PictureMirror" x="0" y="393" z="0" width="976" height="3" window_state="6">
+                <piece_info value="casino_common_panel15"/>
+            </PictureMirror>
+        </PictureMirror>
+        <RichLabel id="m_RichLabel" x="38" y="33" z="0" width="201" height="425" window_state="6">
+            <text value="TEXASPOKER_SETTING_HELP_TEXT_CARDTYPE1"/>
+            <text_align_h value="1"/>
+            <text_style value="2"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="96"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel" x="586" y="33" z="0" width="197" height="425" window_state="6">
+            <text value="TEXASPOKER_SETTING_HELP_TEXT_CARDTYPE2"/>
+            <text_align_h value="1"/>
+            <text_style value="2"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="96"/>
+        </RichLabel>
+        <Panel id="m_PanCardRow1" x="237" y="11" z="0" width="280" height="79" window_state="6">
+            <Picture id="m_Card1" x="-22" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="6" y="5" z="0" width="33" height="41" window_state="6">
+                    <piece_info value="poker_number_black_0"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="32" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="8" y="5" z="0" width="29" height="41" window_state="6">
+                    <piece_info value="poker_number_black_12"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="86" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="8" y="5" z="0" width="29" height="41" window_state="6">
+                    <piece_info value="poker_number_black_11"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="140" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="12" y="4" z="0" width="18" height="42" window_state="6">
+                    <piece_info value="poker_number_black_10"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="195" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="3" y="4" z="0" width="41" height="42" window_state="6">
+                    <piece_info value="poker_number_black_9"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow2" x="237" y="108" z="0" width="280" height="79" window_state="6">
+            <Picture id="m_Card1" x="-22" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="4" y="4" z="0" width="41" height="42" window_state="6">
+                    <piece_info value="poker_number_red_9"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="32" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="9" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="86" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="9" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_7"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="140" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="8" y="5" z="0" width="25" height="40" window_state="6">
+                    <piece_info value="poker_number_red_6"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="195" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_5"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow3" x="237" y="205" z="0" width="280" height="79" window_state="6">
+            <Picture id="m_Card1" x="-22" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="6" y="5" z="0" width="33" height="41" window_state="6">
+                    <piece_info value="poker_number_black_0"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="32" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_2"/>
+                <Picture id="m_Picture" x="6" y="5" z="0" width="33" height="41" window_state="6">
+                    <piece_info value="poker_number_red_0"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="86" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="6" y="5" z="0" width="33" height="41" window_state="6">
+                    <piece_info value="poker_number_red_0"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="140" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="4" y="5" z="0" width="33" height="41" window_state="6">
+                    <piece_info value="poker_number_black_0"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="195" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="9" y="5" z="0" width="29" height="41" window_state="6">
+                    <piece_info value="poker_number_black_11"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow4" x="237" y="302" z="0" width="280" height="79" window_state="6">
+            <Picture id="m_Card1" x="-23" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="3" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="32" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_2"/>
+                <Picture id="m_Picture" x="9" y="3" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="86" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="9" y="3" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="140" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="4" y="4" z="0" width="41" height="42" window_state="6">
+                    <piece_info value="poker_number_red_9"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="195" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="3" y="4" z="0" width="41" height="42" window_state="6">
+                    <piece_info value="poker_number_black_9"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow5" x="237" y="401" z="0" width="280" height="79" window_state="6">
+            <Picture id="m_Card1" x="-23" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="3" y="3" z="0" width="41" height="42" window_state="6">
+                    <piece_info value="poker_number_red_9"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="32" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="9" y="3" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_7"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="86" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="9" y="3" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="140" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="9" y="3" z="0" width="24" height="42" window_state="6">
+                    <piece_info value="poker_number_red_2"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="195" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="11" y="3" z="0" width="25" height="41" window_state="6">
+                    <piece_info value="poker_number_red_1"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow6" x="785" y="11" z="0" width="276" height="79" window_state="6">
+            <Picture id="m_Card1" x="-23" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_2"/>
+                <Picture id="m_Picture" x="3" y="4" z="0" width="41" height="42" window_state="6">
+                    <piece_info value="poker_number_red_9"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="31" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="11" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="85" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_7"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="139" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="10" y="5" z="0" width="25" height="40" window_state="6">
+                    <piece_info value="poker_number_black_6"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="194" y="-37" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_5"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow7" x="785" y="108" z="0" width="276" height="79" window_state="6">
+            <Picture id="m_Card1" x="-23" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_4"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="31" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="11" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_4"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="85" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_4"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="139" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_0"/>
+                <Picture id="m_Picture" x="9" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_red_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="194" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_7"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow8" x="785" y="205" z="0" width="276" height="79" window_state="6">
+            <Picture id="m_Card1" x="-23" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_4"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="31" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="11" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_4"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="85" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_2"/>
+                <Picture id="m_Picture" x="8" y="4" z="0" width="29" height="41" window_state="6">
+                    <piece_info value="poker_number_red_5"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="139" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_5"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="194" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_7"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow9" x="785" y="302" z="0" width="276" height="79" window_state="6">
+            <Picture id="m_Card1" x="-23" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_4"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="31" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="11" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_4"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="85" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_2"/>
+                <Picture id="m_Picture" x="8" y="4" z="0" width="29" height="41" window_state="6">
+                    <piece_info value="poker_number_red_12"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="139" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="10" y="5" z="0" width="25" height="40" window_state="6">
+                    <piece_info value="poker_number_black_6"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="194" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_7"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Panel id="m_PanCardRow10" x="785" y="401" z="0" width="276" height="79" window_state="6">
+            <Picture id="m_Card1" x="-23" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="7" y="3" z="0" width="33" height="41" window_state="6">
+                    <piece_info value="poker_number_black_0"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card2" x="31" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_2"/>
+                <Picture id="m_Picture" x="9" y="3" z="0" width="29" height="41" window_state="6">
+                    <piece_info value="poker_number_red_12"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card3" x="85" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_3"/>
+                <Picture id="m_Picture" x="10" y="3" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_8"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="139" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="9" y="3" z="0" width="26" height="42" window_state="6">
+                    <piece_info value="poker_number_black_7"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Card4" x="194" y="-36" z="0" width="107" height="151" window_state="6">
+                <scale x="0.44" y="0.41999999" z="0.41999999"/>
+                <piece_info value="poker_face_big_1"/>
+                <Picture id="m_Picture" x="10" y="4" z="0" width="25" height="40" window_state="6">
+                    <piece_info value="poker_number_black_6"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <RichLabel id="m_RichLabel3" x="413" y="-100" z="0" width="269" height="65" window_state="6">
+            <text value="TEXASPOKER_SETTING_HELP_TITLE_HELP"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="250" height="330" window_state="6">
+    <Picture id="ref" x="0" y="0" z="0" width="250" height="330" window_state="6">
+        <piece_info value="slots_004_icon_008"/>
+    </Picture>
+    <Picture id="m_Picture1" x="49" y="73" z="0" width="149" height="185" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <piece_info value="glow_hp_lydia"/>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="250" height="330" window_state="6">
+        <piece_info value="icon_008bg"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-46" y="-85" z="0" width="341" height="500" window_state="6">
+        <sprite_file value="slots_004/sprites/icon008.spr"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <dynamic_attr key="EagleMorph" type="string" value="m_ReelFrame.m_GameReels.m_ReelTop.m_EagleMorph"/>
+    <dynamic_attr key="FreeSpinReel" type="string" value="m_ReelFrame.m_GameReels.m_FreeSpin"/>
+    <dynamic_attr key="ReelTopPanel" type="string" value="m_ReelFrame.m_GameReels.m_ReelTop"/>
+    <dynamic_attr key="NormalSpinReel" type="string" value="m_ReelFrame.m_GameReels.m_NormalSpin"/>
+    <dynamic_attr key="ReelMesh" type="string" value="m_ReelFrame.m_GameReels.m_ReelBoard.m_Mesh"/>
+    <Panel id="m_SkyPanel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_SkyBox" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+            <Panel id="m_FreeGame" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+                <Picture id="m_OlympusPalace" x="0" y="-842" z="0" width="1136" height="842" window_state="262">
+                    <piece_info value="slots_006_bg002"/>
+                    <scale_mode value="3"/>
+                </Picture>
+                <BlendTargetMask id="m_BlendTargetMask" x="110" y="-843" z="0" width="973" height="119" window_state="6" fullscreen="0" target_enable="1">
+                    <anchor_point x="0.5" y="0" z="0"/>
+                    <mask_piece value="slots_006_mask_cloud"/>
+                    <Sprite id="m_Sprite" x="-90" y="3" z="0" width="1136" height="640" window_state="4" style="ngs_panel_bg">
+                        <action_id value="animation_slot006_base_game_darknight_02"/>
+                        <sprite_file value="slots_006/sprites/vfx_18_clouds_running_lightning_02.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Picture id="DarkCloud_01" x="249" y="49" z="0" width="404" height="153" window_state="6">
+                        <scale x="2.5999999" y="-2" z="2"/>
+                        <color_scale x="2.7" y="2.7" z="2.7" w="0.60000002"/>
+                        <blend_mode value="2"/>
+                        <piece_info value="animation_slot006_base_game_darknight_01"/>
+                    </Picture>
+                    <Picture id="DarkCloud_02" x="240" y="80" z="0" width="404" height="153" window_state="4">
+                        <scale x="2.3" y="2" z="2"/>
+                        <color_scale x="1.5" y="1.5" z="1.5" w="1"/>
+                        <action_id value="animation_slot006_base_game_darknight_01"/>
+                        <piece_info value="animation_slot006_base_game_darknight_01"/>
+                    </Picture>
+                    <Picture id="DarkCloud_03" x="240" y="60" z="0" width="404" height="153" window_state="4">
+                        <scale x="2.5" y="2" z="2"/>
+                        <rotation x="3.1415927" y="0" z="0"/>
+                        <color_scale x="3" y="2" z="2" w="0.5"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_slot006_base_game_darknight_01"/>
+                        <piece_info value="animation_slot006_base_game_darknight_01"/>
+                    </Picture>
+                    <Picture id="DarkCloud_04" x="163" y="152" z="0" width="404" height="153" window_state="4">
+                        <scale x="3" y="3" z="2"/>
+                        <rotation x="3.1415927" y="0" z="0"/>
+                        <color_scale x="1.6" y="1.35" z="1.33" w="1"/>
+                        <action_id value="animation_slot006_base_game_darknight_01"/>
+                        <piece_info value="animation_slot006_base_game_darknight_01"/>
+                    </Picture>
+                    <Picture id="DarkCloud_05" x="240" y="80" z="0" width="404" height="153" window_state="4">
+                        <scale x="2.3" y="2" z="2"/>
+                        <color_scale x="1.5" y="1.5" z="1.5" w="1"/>
+                        <action_id value="animation_slot006_base_game_darknight_01"/>
+                        <piece_info value="animation_slot006_base_game_darknight_01"/>
+                    </Picture>
+                    <Picture id="DarkCloud_06" x="250" y="83" z="0" width="404" height="153" window_state="4">
+                        <scale x="2.8" y="3" z="2"/>
+                        <rotation x="3.1415927" y="0" z="0"/>
+                        <color_scale x="5" y="4" z="3" w="0.69999999"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_slot006_base_game_darknight_02"/>
+                        <piece_info value="animation_slot006_base_game_darknight_01"/>
+                    </Picture>
+                </BlendTargetMask>
+                <Panel id="m_Clouds_05" x="0" y="-577" z="0" width="1136" height="375" window_state="6">
+                    <action_id value="animation_slot006_cloud05"/>
+                    <Picture id="Clouds_05_2" x="1105" y="113" z="0" width="398" height="150" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_05"/>
+                    </Picture>
+                    <Picture id="Clouds_05_1" x="113" y="113" z="0" width="398" height="150" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_05"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Clouds_05_Loop" x="0" y="-577" z="0" width="1136" height="375" window_state="4">
+                    <action_id value="animation_slot006_cloud05b"/>
+                    <Picture id="Clouds_05_2" x="1105" y="113" z="0" width="398" height="150" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_05"/>
+                    </Picture>
+                    <Picture id="Clouds_05_1" x="113" y="113" z="0" width="398" height="150" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_05"/>
+                    </Picture>
+                </Panel>
+                <Picture id="Clouds_14L_Loop" x="-192" y="-442" z="0" width="496" height="161" window_state="4">
+                    <scale x="1.5" y="1.5" z="1.5"/>
+                    <action_id value="animation_slot006_cloud14b"/>
+                    <piece_info value="clouds_14"/>
+                </Picture>
+                <Picture id="Clouds_14L" x="-192" y="-442" z="0" width="496" height="161" window_state="6">
+                    <scale x="1.5" y="1.5" z="1.5"/>
+                    <action_id value="animation_slot006_cloud14"/>
+                    <piece_info value="clouds_14"/>
+                </Picture>
+                <Picture id="Clouds_14R_Loop" x="815" y="-478" z="0" width="496" height="161" window_state="6">
+                    <scale x="1.5" y="1.5" z="1.5"/>
+                    <action_id value="animation_slot006_cloud14d"/>
+                    <piece_info value="clouds_14"/>
+                </Picture>
+                <Picture id="Clouds_14R" x="815" y="-478" z="0" width="496" height="161" window_state="6">
+                    <scale x="1.5" y="1.5" z="1.5"/>
+                    <action_id value="animation_slot006_cloud14c"/>
+                    <piece_info value="clouds_14"/>
+                </Picture>
+                <Panel id="m_Clouds_06" x="0" y="-444" z="0" width="1136" height="242" window_state="6">
+                    <action_id value="animation_slot006_cloud05"/>
+                    <Picture id="Clouds_06_1" x="-470" y="72" z="0" width="610" height="97" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_06"/>
+                    </Picture>
+                    <Picture id="Clouds_06_2" x="1042" y="72" z="0" width="610" height="97" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_06"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Clouds_06_Loop" x="0" y="-444" z="0" width="1136" height="242" window_state="4">
+                    <action_id value="animation_slot006_cloud05b"/>
+                    <Picture id="Clouds_06_1" x="-470" y="72" z="0" width="610" height="97" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_06"/>
+                    </Picture>
+                    <Picture id="Clouds_06_2" x="1042" y="72" z="0" width="610" height="97" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_06"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Clouds_07" x="0" y="-442" z="0" width="1136" height="240" window_state="6">
+                    <action_id value="animation_slot006_cloud06"/>
+                    <Picture id="Clouds_07_1" x="12" y="70" z="0" width="440" height="96" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_07"/>
+                    </Picture>
+                    <Picture id="Clouds_07_2" x="1105" y="70" z="0" width="440" height="96" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_07"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Clouds_07_Loop" x="0" y="-442" z="0" width="1136" height="240" window_state="4">
+                    <action_id value="animation_slot006_cloud06b"/>
+                    <Picture id="Clouds_07_1" x="12" y="70" z="0" width="440" height="96" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_07"/>
+                    </Picture>
+                    <Picture id="Clouds_07_2" x="1105" y="70" z="0" width="440" height="96" window_state="6">
+                        <scale x="2.5" y="2.5" z="2.5"/>
+                        <piece_info value="clouds_07"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Clouds_08" x="0" y="-418" z="0" width="1136" height="216" window_state="6">
+                    <action_id value="animation_slot006_cloud07"/>
+                    <Picture id="Clouds_08_1" x="-735" y="31" z="0" width="596" height="154" window_state="6">
+                        <scale x="1.4" y="1.4" z="1.4"/>
+                        <piece_info value="clouds_08"/>
+                    </Picture>
+                    <Picture id="Clouds_08_2" x="99" y="31" z="0" width="596" height="154" window_state="6">
+                        <scale x="1.4" y="1.4" z="1.4"/>
+                        <piece_info value="clouds_08"/>
+                    </Picture>
+                    <Picture id="Clouds_08_3" x="933" y="31" z="0" width="596" height="154" window_state="6">
+                        <scale x="1.4" y="1.4" z="1.4"/>
+                        <piece_info value="clouds_08"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_Clouds_08_Loop" x="0" y="-418" z="0" width="1136" height="216" window_state="4">
+                    <action_id value="animation_slot006_cloud07b"/>
+                    <Picture id="Clouds_08_1" x="-735" y="31" z="0" width="596" height="154" window_state="6">
+                        <scale x="1.4" y="1.4" z="1.4"/>
+                        <piece_info value="clouds_08"/>
+                    </Picture>
+                    <Picture id="Clouds_08_2" x="99" y="31" z="0" width="596" height="154" window_state="6">
+                        <scale x="1.4" y="1.4" z="1.4"/>
+                        <piece_info value="clouds_08"/>
+                    </Picture>
+                    <Picture id="Clouds_08_3" x="933" y="31" z="0" width="596" height="154" window_state="6">
+                        <scale x="1.4" y="1.4" z="1.4"/>
+                        <piece_info value="clouds_08"/>
+                    </Picture>
+                </Panel>
+                <Picture id="Lightning_CSide" x="510" y="-790" z="0" width="261" height="250" window_state="4">
+                    <scale x="5" y="2" z="1"/>
+                    <color_scale x="1" y="1" z="1" w="1.5"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot006_cloud17"/>
+                    <piece_info value="clouds_17"/>
+                </Picture>
+                <Picture id="Clouds_15R_Loop" x="745" y="-920" z="0" width="421" height="230" window_state="4">
+                    <scale x="1.4" y="1.4" z="1.4"/>
+                    <action_id value="animation_slot006_cloud08b"/>
+                    <piece_info value="clouds_15"/>
+                </Picture>
+                <Picture id="Clouds_15R" x="745" y="-920" z="0" width="421" height="230" window_state="6">
+                    <scale x="1.4" y="1.4" z="1.4"/>
+                    <action_id value="animation_slot006_cloud08"/>
+                    <piece_info value="clouds_15"/>
+                </Picture>
+                <Panel id="Lightning_RSide" x="580" y="-842" z="0" width="600" height="600" window_state="4">
+                    <action_id value="animation_slot006_cloud17b"/>
+                    <Picture id="Lightning_R1" x="204" y="142" z="0" width="261" height="250" window_state="6">
+                        <scale x="3" y="3" z="3"/>
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <color_scale x="1" y="1" z="1" w="1.3"/>
+                        <blend_mode value="2"/>
+                        <piece_info value="clouds_17"/>
+                    </Picture>
+                    <Picture id="Lightning_R2" x="230" y="67" z="0" width="261" height="250" window_state="6">
+                        <scale x="3" y="1.5" z="1"/>
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <color_scale x="0.75" y="1.5" z="2.5" w="2"/>
+                        <blend_mode value="2"/>
+                        <piece_info value="clouds_17"/>
+                    </Picture>
+                    <Picture id="Lightning_R3" x="15" y="62" z="0" width="261" height="250" window_state="6">
+                        <scale x="1.6" y="1.6" z="1.6"/>
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <blend_mode value="2"/>
+                        <piece_info value="clouds_17"/>
+                    </Picture>
+                </Panel>
+                <Picture id="Clouds_09_Loop" x="758" y="-808" z="0" width="314" height="154" window_state="4">
+                    <scale x="1.5" y="1.5" z="1.5"/>
+                    <action_id value="animation_slot006_cloud09b"/>
+                    <piece_info value="clouds_09"/>
+                </Picture>
+                <Picture id="Clouds_09" x="758" y="-808" z="0" width="314" height="154" window_state="6">
+                    <scale x="1.5" y="1.5" z="1.5"/>
+                    <action_id value="animation_slot006_cloud09"/>
+                    <piece_info value="clouds_09"/>
+                </Picture>
+                <Picture id="Clouds_10_Loop" x="820" y="-754" z="0" width="327" height="129" window_state="4">
+                    <scale x="1.4" y="1.6" z="1"/>
+                    <action_id value="animation_slot006_cloud10b"/>
+                    <piece_info value="clouds_10"/>
+                </Picture>
+                <Picture id="Clouds_10" x="820" y="-754" z="0" width="327" height="129" window_state="6">
+                    <scale x="1.4" y="1.6" z="1"/>
+                    <action_id value="animation_slot006_cloud10"/>
+                    <piece_info value="clouds_10"/>
+                </Picture>
+                <Picture id="Clouds_11_Loop" x="715" y="-625" z="0" width="470" height="113" window_state="4">
+                    <scale x="1.3" y="1.3" z="1.3"/>
+                    <action_id value="animation_slot006_cloud11b"/>
+                    <piece_info value="clouds_11"/>
+                </Picture>
+                <Picture id="Clouds_11" x="715" y="-625" z="0" width="470" height="113" window_state="6">
+                    <scale x="1.3" y="1.3" z="1.3"/>
+                    <action_id value="animation_slot006_cloud11"/>
+                    <piece_info value="clouds_11"/>
+                </Picture>
+                <Picture id="Clouds_12_Loop" x="-116" y="-802" z="0" width="405" height="223" window_state="4">
+                    <scale x="1.4" y="1.4" z="1.4"/>
+                    <action_id value="animation_slot006_cloud12b"/>
+                    <piece_info value="clouds_12"/>
+                </Picture>
+                <Picture id="Clouds_12" x="-116" y="-802" z="0" width="405" height="223" window_state="6">
+                    <scale x="1.4" y="1.4" z="1.4"/>
+                    <action_id value="animation_slot006_cloud12"/>
+                    <piece_info value="clouds_12"/>
+                </Picture>
+                <Picture id="Clouds_13_Loop" x="-200" y="-580" z="0" width="404" height="85" window_state="4">
+                    <scale x="1.2" y="1.2" z="1.2"/>
+                    <action_id value="animation_slot006_cloud13b"/>
+                    <piece_info value="clouds_13"/>
+                </Picture>
+                <Picture id="Clouds_13" x="-200" y="-580" z="0" width="404" height="85" window_state="6">
+                    <scale x="1.2" y="1.2" z="1.2"/>
+                    <action_id value="animation_slot006_cloud13"/>
+                    <piece_info value="clouds_13"/>
+                </Picture>
+                <Picture id="Lightning_LSide" x="70" y="-700" z="0" width="261" height="250" window_state="4">
+                    <scale x="3" y="3" z="3"/>
+                    <color_scale x="1" y="1" z="1" w="1.5"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot006_cloud17"/>
+                    <piece_info value="clouds_17"/>
+                </Picture>
+                <Picture id="Clouds_15L_Loop" x="-30" y="-800" z="0" width="421" height="230" window_state="4">
+                    <action_id value="animation_slot006_cloud15b"/>
+                    <piece_info value="clouds_15"/>
+                </Picture>
+                <Picture id="Clouds_15L" x="-30" y="-800" z="0" width="421" height="230" window_state="6">
+                    <action_id value="animation_slot006_cloud15"/>
+                    <piece_info value="clouds_15"/>
+                </Picture>
+                <Picture id="Clouds_16_L1" x="60" y="-500" z="0" width="421" height="274" window_state="6">
+                    <scale x="1.4" y="1.4" z="1"/>
+                    <action_id value="animation_slot006_cloud16"/>
+                    <piece_info value="clouds_16"/>
+                </Picture>
+                <Picture id="Clouds_16_C1" x="360" y="-485" z="0" width="421" height="274" window_state="6">
+                    <action_id value="animation_slot006_cloud16b"/>
+                    <piece_info value="clouds_16"/>
+                </Picture>
+                <Picture id="Clouds_16_C2" x="470" y="-590" z="0" width="421" height="274" window_state="6">
+                    <scale x="1.5" y="1" z="1"/>
+                    <color_scale x="1" y="1" z="1" w="0.44999999"/>
+                    <action_id value="animation_slot006_cloud16c"/>
+                    <piece_info value="clouds_16"/>
+                </Picture>
+                <Picture id="Clouds_16_R1" x="592" y="-460" z="0" width="421" height="274" window_state="6">
+                    <action_id value="animation_slot006_cloud16d"/>
+                    <piece_info value="clouds_16"/>
+                </Picture>
+                <Picture id="Clouds_18_L1" x="-60" y="-320" z="0" width="253" height="253" window_state="6">
+                    <scale x="1.2" y="1.2" z="1.2"/>
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                    <action_id value="animation_slot006_cloud18b"/>
+                    <piece_info value="clouds_18"/>
+                </Picture>
+                <Picture id="Clouds_19_L1" x="208" y="-360" z="0" width="279" height="279" window_state="6">
+                    <scale x="1.2" y="1.2" z="1.2"/>
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <action_id value="animation_slot006_cloud18b"/>
+                    <piece_info value="clouds_19"/>
+                </Picture>
+                <Picture id="Clouds_18_R2" x="976" y="-415" z="0" width="253" height="253" window_state="6">
+                    <scale x="1.4" y="1.4" z="1.4"/>
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <action_id value="animation_slot006_cloud18"/>
+                    <piece_info value="clouds_18"/>
+                </Picture>
+                <Sprite id="vfx_43_flare_zoom-in_anim" x="142" y="-770" z="0" width="852" height="480" window_state="4" style="ngs_panel_bg">
+                    <scale x="1.4" y="1.4" z="1.4"/>
+                    <sprite_file value="slots_006/sprites/vfx_43_flare_zoom-in_anim.xml"/>
+                    <sprite_state value="0"/>
+                </Sprite>
+            </Panel>
+            <Panel id="m_BaseGame" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+                <Picture id="m_GreekCity" x="0" y="0" z="0" width="1136" height="640" window_state="262">
+                    <piece_info value="slots_006_bg001"/>
+                    <scale_mode value="3"/>
+                </Picture>
+                <Picture id="Cloud_Effect_03" x="289" y="310" z="0" width="557" height="86" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud03"/>
+                    <piece_info value="clouds_03"/>
+                </Picture>
+                <Picture id="Cloud_Effect_03a" x="-845" y="310" z="0" width="557" height="86" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud03"/>
+                    <piece_info value="clouds_03"/>
+                </Picture>
+                <Picture id="Cloud_Effect_04" x="565" y="-60" z="0" width="350" height="100" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud04"/>
+                    <piece_info value="clouds_04"/>
+                </Picture>
+                <Picture id="Cloud_Effect_04a" x="-564" y="-60" z="0" width="350" height="100" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud04"/>
+                    <piece_info value="clouds_04"/>
+                </Picture>
+                <Picture id="Cloud_Effect_01" x="470" y="72" z="0" width="400" height="125" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud01"/>
+                    <piece_info value="clouds_01"/>
+                </Picture>
+                <Picture id="Cloud_Effect_01a" x="-664" y="72" z="0" width="400" height="125" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud01"/>
+                    <piece_info value="clouds_01"/>
+                </Picture>
+                <Picture id="Cloud_Effect_02" x="292" y="185" z="0" width="546" height="148" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud02"/>
+                    <piece_info value="clouds_02"/>
+                </Picture>
+                <Picture id="Cloud_Effect_02a" x="-842" y="185" z="0" width="546" height="148" window_state="6">
+                    <scale x="2.04" y="2.04" z="2.04"/>
+                    <action_id value="animation_slot006_cloud02"/>
+                    <piece_info value="clouds_02"/>
+                </Picture>
+                <Picture id="Cloud_Effect" x="378" y="480" z="0" width="380" height="100" window_state="6">
+                    <scale x="3" y="3" z="3"/>
+                    <color_scale x="1" y="1" z="1" w="0.30000001"/>
+                    <action_id value="animation_slot006_cloud"/>
+                    <piece_info value="zues_effect_cloud_01"/>
+                </Picture>
+                <Picture id="Cloud_Effecta" x="-760" y="480" z="0" width="380" height="100" window_state="6">
+                    <scale x="3" y="3" z="3"/>
+                    <color_scale x="1" y="1" z="1" w="0.30000001"/>
+                    <action_id value="animation_slot006_cloud"/>
+                    <piece_info value="zues_effect_cloud_01"/>
+                </Picture>
+                <Picture id="m_Castle" x="0" y="6" z="0" width="538" height="290" window_state="6">
+                    <piece_info value="slots_006_panel_030"/>
+                </Picture>
+                <Sprite id="vfx_BuildingGodRays" x="-30" y="-36" z="0" width="400" height="240" window_state="6">
+                    <blend_mode value="2"/>
+                    <sprite_file value="slots_006/sprites/vfx_10_building_god_rays.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Panel id="m_ReelFrame" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <action_id value="animation_slot006_zeus@Idle"/>
+        <Panel id="m_Background" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+            <Picture id="m_DebugBoard" x="82" y="58" z="0" width="0" height="0" window_state="260">
+                <anchor_point x="0.5" y="1" z="0"/>
+                <scale_mode value="3"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_GameReels" x="82" y="58" z="0" width="971" height="447" window_state="14">
+            <anchor_point x="0.5" y="1" z="0"/>
+            <Panel id="m_ReelBoard" x="0" y="0" z="0" width="971" height="447" window_state="14">
+                <anchor_point x="0.5" y="1" z="0"/>
+                <Mesh id="m_Mesh" x="0" y="0" z="0" width="944" height="443" window_state="2054">
+                    <scale x="1.01" y="1.01" z="1.01"/>
+                    <mesh_file value="slots_006/models/reel.model"/>
+                    <mesh_scale x="94" y="94" z="94"/>
+                    <lights>
+                        <element>
+                            <direction x="5.5" y="-4" z="0"/>
+                            <color r="250" g="186" b="249" a="255"/>
+                            <brightness value="1.2"/>
+                            <specular_power value="131"/>
+                            <specular_intensity value="2.45"/>
+                        </element>
+                        <element>
+                            <color r="167" g="250" b="241" a="255"/>
+                            <brightness value="0.40000001"/>
+                        </element>
+                    </lights>
+                </Mesh>
+            </Panel>
+            <Panel id="m_NormalSpin" x="0" y="0" z="0" width="971" height="447" window_state="14">
+                <anchor_point x="0.5" y="1" z="0"/>
+                <Panel id="m_ReelsPanelClip" x="18" y="16" z="0" width="870" height="412" window_state="917510">
+                    <after_render_depth value="2"/>
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="655366">
+                        <after_render_depth value="1"/>
+                        <dynamic_attr key="reel_windows" type="array" value="6" inner="string">
+                            <item>m_Reel0</item>
+                            <item>m_Reel1</item>
+                            <item>m_Reel2</item>
+                            <item>m_Reel3</item>
+                            <item>m_Reel4</item>
+                            <item>m_Reel5</item>
+                        </dynamic_attr>
+                        <dynamic_attr key="icon_h" type="float" value="58.000000"/>
+                        <dynamic_attr key="h" type="float" value="412.000000"/>
+                        <dynamic_attr key="w" type="float" value="870.000000"/>
+                        <dynamic_attr key="icon_w" type="float" value="140.000000"/>
+                        <dynamic_attr key="x0" type="float" value="0.000000"/>
+                        <dynamic_attr key="y0" type="float" value="0.000000"/>
+                        <Panel id="m_Reel0" x="0" y="147" z="0" width="145" height="116" window_state="1048582"/>
+                        <Panel id="m_Reel1" x="145" y="119" z="0" width="144" height="174" window_state="1048582"/>
+                        <Panel id="m_Reel2" x="289" y="90" z="0" width="145" height="232" window_state="1048582"/>
+                        <Panel id="m_Reel3" x="434" y="60" z="0" width="144" height="290" window_state="1048582"/>
+                        <Panel id="m_Reel4" x="578" y="32" z="0" width="144" height="348" window_state="1048582"/>
+                        <Panel id="m_Reel5" x="722" y="2" z="0" width="140" height="406" window_state="1048582"/>
+                    </Panel>
+                    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="842" window_state="260">
+                        <piece_info value="slots_006_bg002"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_ReelsPanelClipEffect" x="18" y="16" z="0" width="870" height="412" window_state="917510">
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="655366">
+                        <after_render_depth value="1"/>
+                        <dynamic_attr key="reel_windows" type="array" value="6" inner="string">
+                            <item>m_Reel0</item>
+                            <item>m_Reel1</item>
+                            <item>m_Reel2</item>
+                            <item>m_Reel3</item>
+                            <item>m_Reel4</item>
+                            <item>m_Reel5</item>
+                        </dynamic_attr>
+                        <dynamic_attr key="icon_h" type="float" value="58.000000"/>
+                        <dynamic_attr key="h" type="float" value="412.000000"/>
+                        <dynamic_attr key="w" type="float" value="870.000000"/>
+                        <dynamic_attr key="icon_w" type="float" value="140.000000"/>
+                        <dynamic_attr key="x0" type="float" value="0.000000"/>
+                        <dynamic_attr key="y0" type="float" value="0.000000"/>
+                        <Panel id="m_Reel0" x="0" y="147" z="0" width="145" height="116" window_state="1048582"/>
+                        <Panel id="m_Reel1" x="145" y="119" z="0" width="144" height="174" window_state="1048582"/>
+                        <Panel id="m_Reel2" x="289" y="90" z="0" width="145" height="232" window_state="1048582"/>
+                        <Panel id="m_Reel3" x="434" y="60" z="0" width="144" height="290" window_state="1048582"/>
+                        <Panel id="m_Reel4" x="578" y="32" z="0" width="144" height="348" window_state="1048582"/>
+                        <Panel id="m_Reel5" x="722" y="2" z="0" width="140" height="406" window_state="1048582"/>
+                    </Panel>
+                </Panel>
+                <Panel id="m_ReelsPanelClipSticky" x="18" y="16" z="0" width="870" height="412" window_state="131078">
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="131078">
+                        <after_render_depth value="1"/>
+                    </Panel>
+                </Panel>
+                <Panel id="m_pReelsPanelClipScatter" x="18" y="16" z="0" width="870" height="412" window_state="131078">
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="131078">
+                        <after_render_depth value="1"/>
+                    </Panel>
+                </Panel>
+                <Panel id="m_NearWin" x="19" y="16" z="0" width="870" height="412" window_state="6">
+                    <Panel id="m_NearWin2" x="293" y="25" z="0" width="140" height="348" window_state="4">
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-197" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-362" y="-236" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-350" y="-170" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light01" x="-34" y="-159" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Picture id="m_Picture04" x="15" y="116" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture03" x="16" y="131" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                    </Panel>
+                    <Panel id="m_NearWin3" x="434" y="22" z="0" width="140" height="348" window_state="4">
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-192" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-342" y="-236" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Picture id="m_Picture06" x="19" y="126" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture05" x="17" y="68" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-29" y="-161" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light03" x="-350" y="-172" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Panel>
+                    <Panel id="m_NearWin4" x="580" y="25" z="0" width="140" height="348" window_state="4">
+                        <scale x="1" y="1.14" z="1"/>
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-192" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-332" y="-228" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Picture id="m_Picture07" x="14" y="98" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture08" x="12" y="96" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Sprite id="vfx_15_reel_speed_effect_light04" x="-31" y="-179" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-352" y="-179" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Panel>
+                    <Panel id="m_NearWin5" x="726" y="25" z="0" width="140" height="348" window_state="4">
+                        <scale x="1" y="1.35" z="1"/>
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-192" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-332" y="-228" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Picture id="m_Picture09" x="14" y="98" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture10" x="12" y="96" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-354" y="-179" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light04" x="-35" y="-179" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Panel>
+                </Panel>
+                <Panel id="m_ReelMask" x="21" y="15" z="0" width="796" height="420" window_state="4"/>
+                <Panel id="m_PayLinesPanel" x="18" y="16" z="0" width="870" height="412" window_state="14">
+                    <window_layout_align_h value="0"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_FreeSpin" x="0" y="0" z="0" width="971" height="447" window_state="14">
+                <rotation x="0" y="3.1415927" z="0"/>
+                <anchor_point x="0.5" y="1" z="0"/>
+                <Panel id="m_ReelsPanelClip" x="89" y="18" z="0" width="870" height="412" window_state="917510">
+                    <after_render_depth value="2"/>
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="655366">
+                        <after_render_depth value="1"/>
+                        <dynamic_attr key="reel_windows" type="array" value="6" inner="string">
+                            <item>m_Reel5</item>
+                            <item>m_Reel4</item>
+                            <item>m_Reel3</item>
+                            <item>m_Reel2</item>
+                            <item>m_Reel1</item>
+                            <item>m_Reel0</item>
+                        </dynamic_attr>
+                        <dynamic_attr key="icon_h" type="float" value="58.000000"/>
+                        <dynamic_attr key="h" type="float" value="412.000000"/>
+                        <dynamic_attr key="w" type="float" value="870.000000"/>
+                        <dynamic_attr key="icon_w" type="float" value="140.000000"/>
+                        <dynamic_attr key="x0" type="float" value="0.000000"/>
+                        <dynamic_attr key="y0" type="float" value="0.000000"/>
+                        <Panel id="m_Reel5" x="0" y="0" z="0" width="145" height="406" window_state="1048582"/>
+                        <Panel id="m_Reel4" x="145" y="30" z="0" width="145" height="348" window_state="1048582"/>
+                        <Panel id="m_Reel3" x="290" y="59" z="0" width="143" height="290" window_state="1048582"/>
+                        <Panel id="m_Reel2" x="433" y="88" z="0" width="145" height="232" window_state="1048582"/>
+                        <Panel id="m_Reel1" x="578" y="117" z="0" width="145" height="174" window_state="1048582"/>
+                        <Panel id="m_Reel0" x="723" y="147" z="0" width="140" height="116" window_state="1048582"/>
+                    </Panel>
+                    <Picture id="m_Picture" x="-91" y="-59" z="0" width="1136" height="842" window_state="260">
+                        <piece_info value="slots_006_bg002"/>
+                    </Picture>
+                </Panel>
+                <Panel id="m_ReelsPanelClipEffect" x="89" y="18" z="0" width="870" height="412" window_state="917510">
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="655366">
+                        <after_render_depth value="1"/>
+                        <dynamic_attr key="reel_windows" type="array" value="6" inner="string">
+                            <item>m_Reel5</item>
+                            <item>m_Reel4</item>
+                            <item>m_Reel3</item>
+                            <item>m_Reel2</item>
+                            <item>m_Reel1</item>
+                            <item>m_Reel0</item>
+                        </dynamic_attr>
+                        <dynamic_attr key="icon_h" type="float" value="58.000000"/>
+                        <dynamic_attr key="h" type="float" value="412.000000"/>
+                        <dynamic_attr key="w" type="float" value="870.000000"/>
+                        <dynamic_attr key="icon_w" type="float" value="140.000000"/>
+                        <dynamic_attr key="x0" type="float" value="0.000000"/>
+                        <dynamic_attr key="y0" type="float" value="0.000000"/>
+                        <Panel id="m_Reel5" x="0" y="0" z="0" width="145" height="406" window_state="1048582"/>
+                        <Panel id="m_Reel4" x="145" y="30" z="0" width="145" height="348" window_state="1048582"/>
+                        <Panel id="m_Reel3" x="290" y="59" z="0" width="143" height="290" window_state="1048582"/>
+                        <Panel id="m_Reel2" x="433" y="88" z="0" width="145" height="232" window_state="1048582"/>
+                        <Panel id="m_Reel1" x="578" y="117" z="0" width="145" height="174" window_state="1048582"/>
+                        <Panel id="m_Reel0" x="723" y="147" z="0" width="140" height="116" window_state="1048582"/>
+                    </Panel>
+                </Panel>
+                <Picture id="m_BirdFreeSpin" x="-13" y="-81" z="0" width="107" height="463" window_state="6">
+                    <piece_info value="slots_006_panel_012"/>
+                </Picture>
+                <Panel id="m_LightningLoop2" x="-82" y="-58" z="0" width="1136" height="640" window_state="4">
+                    <rotation x="0" y="3.1415927" z="0"/>
+                    <Sprite id="vfx_26_LightningLoop_01" x="835" y="-251" z="0" width="315" height="1038" window_state="14">
+                        <scale x="-0.5" y="0.52999997" z="0.5"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_01.spr"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                    <Sprite id="vfx_26_LightningLoop_02" x="43" y="9" z="12" width="958" height="244" window_state="14">
+                        <scale x="-1" y="1" z="1"/>
+                        <rotation x="0" y="0" z="-0.19198622"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_03.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_26_LightningLoop_03" x="54" y="304" z="0" width="958" height="244" window_state="14">
+                        <scale x="-1" y="-1" z="1"/>
+                        <rotation x="0" y="0" z="0.20943952"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_03.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_26_LightningLoop_04" x="-20" y="47" z="0" width="248" height="454" window_state="14">
+                        <scale x="-0.5" y="0.5" z="0.5"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_02.spr"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_04" x="-519" y="-364" z="13" width="2045" height="1361" window_state="6">
+                        <scale x="-0.69999999" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_06" x="-610" y="-340" z="10" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_07" x="-760" y="-311" z="13" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_08" x="-914" y="-284" z="13" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_09" x="-1048" y="-252" z="15" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_10" x="-1192" y="-224" z="15" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_11" x="-474" y="53" z="15" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_12" x="-614" y="23" z="15" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_13" x="-760" y="-3" z="16" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_14" x="-907" y="-31" z="16" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_15" x="-1056" y="-60" z="16" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_16" x="-1188" y="-88" z="16" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_ReelsPanelClipSticky" x="89" y="18" z="0" width="870" height="412" window_state="131078">
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="131078">
+                        <after_render_depth value="1"/>
+                    </Panel>
+                </Panel>
+                <Panel id="m_pReelsPanelClipScatter" x="89" y="18" z="0" width="870" height="412" window_state="131078">
+                    <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="870" height="412" window_state="131078">
+                        <after_render_depth value="1"/>
+                    </Panel>
+                </Panel>
+                <Panel id="m_NearWin" x="89" y="18" z="0" width="870" height="412" window_state="4">
+                    <Panel id="m_NearWin1" x="140" y="25" z="0" width="140" height="348" window_state="4">
+                        <scale x="1" y="1.14" z="1"/>
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-192" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-332" y="-228" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Picture id="m_Picture07" x="14" y="98" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture08" x="12" y="96" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Sprite id="vfx_15_reel_speed_effect_light04" x="-35" y="-179" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-354" y="-179" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Panel>
+                    <Panel id="m_NearWin2" x="290" y="22" z="0" width="140" height="348" window_state="4">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-192" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-342" y="-236" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Picture id="m_Picture06" x="19" y="126" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture05" x="17" y="68" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-29" y="-161" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light03" x="-348" y="-172" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Panel>
+                    <Panel id="m_NearWin3" x="430" y="25" z="0" width="140" height="348" window_state="4">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-197" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-362" y="-236" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Picture id="m_Picture04" x="15" y="116" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture03" x="16" y="131" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Sprite id="vfx_15_reel_speed_effect_light01" x="-34" y="-159" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-352" y="-170" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Panel>
+                    <Panel id="m_NearWin4" x="580" y="25" z="0" width="140" height="348" window_state="4">
+                        <scale x="1" y="0.75" z="1"/>
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <Picture id="m_Picture" x="24" y="137" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture01" x="12" y="117" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Picture id="m_Picture02" x="18" y="122" z="0" width="96" height="96" window_state="6">
+                            <scale x="0.89999998" y="1" z="1"/>
+                            <piece_info value="light_01121"/>
+                        </Picture>
+                        <Sprite id="vfx_15_reel_speed_effect_lightning" x="-192" y="-210" z="0" width="518" height="756" window_state="6">
+                            <scale x="0.57999998" y="0.5" z="0.5"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_lightning.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light" x="-349" y="-163" z="0" width="518" height="756" window_state="6">
+                            <blend_mode value="2"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_light02" x="-28" y="-153" z="0" width="518" height="756" window_state="6">
+                            <scale x="-1" y="1" z="1"/>
+                            <blend_mode value="2"/>
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_light.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                        <Sprite id="vfx_15_reel_speed_effect_smoke" x="-339" y="-236" z="0" width="518" height="756" window_state="6">
+                            <sprite_file value="slots_006/sprites/vfx_15_reel_speed_effect_smoke.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Panel>
+                </Panel>
+                <Panel id="m_ReelMask" x="21" y="15" z="0" width="886" height="420" window_state="4"/>
+                <Panel id="m_PayLinesPanel" x="84" y="16" z="0" width="870" height="412" window_state="12">
+                    <window_layout_align_h value="0"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_ReelTop" x="0" y="0" z="0" width="971" height="447" window_state="14">
+                <Picture id="m_BirdNormal" x="877" y="-81" z="0" width="107" height="463" window_state="4">
+                    <piece_info value="slots_006_panel_009"/>
+                </Picture>
+                <Panel id="m_EagleMorph" x="804" y="-58" z="0" width="250" height="420" window_state="4">
+                    <PictureMask id="animation_slot006_eagle_01" x="79" y="24" z="0" width="95" height="368" window_state="4">
+                        <scale x="-1" y="1" z="1"/>
+                        <action_id value="animation_slot006_eagle_01"/>
+                        <piece_info value="slots_006_panel_012"/>
+                        <mask_piece value="slots_006_panel_02"/>
+                        <enable_step_edge value="1"/>
+                        <step_edge value="1"/>
+                    </PictureMask>
+                    <PictureMask id="animation_slot006_eagle_02" x="79" y="24" z="0" width="95" height="368" window_state="4">
+                        <scale x="-1" y="1" z="1"/>
+                        <action_id value="animation_slot006_eagle_02"/>
+                        <piece_info value="slots_006_panel_012"/>
+                        <mask_piece value="slots_006_panel_02"/>
+                        <enable_step_edge value="1"/>
+                        <step_edge value="1"/>
+                    </PictureMask>
+                    <PictureMask id="animation_slot006_eagle_03" x="79" y="24" z="0" width="95" height="368" window_state="4">
+                        <action_id value="animation_slot006_eagle_02"/>
+                        <piece_info value="slots_006_panel_009"/>
+                        <mask_piece value="slots_006_panel_04"/>
+                        <enable_step_edge value="1"/>
+                        <step_edge value="1"/>
+                    </PictureMask>
+                    <PictureMask id="animation_slot006_eagle_04" x="79" y="24" z="0" width="95" height="368" window_state="6">
+                        <action_id value="animation_slot006_eagle_01"/>
+                        <piece_info value="slots_006_panel_009"/>
+                        <mask_piece value="slots_006_panel_04"/>
+                        <enable_step_edge value="1"/>
+                        <step_edge value="1"/>
+                    </PictureMask>
+                    <Sprite id="vfx_06_eagle_morphing_real" x="77" y="147" z="0" width="89" height="125" window_state="4">
+                        <scale x="3" y="3.4000001" z="3"/>
+                        <sprite_file value="slots_006/sprites/vfx_06_eagle_morphing_real.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_LightningStrike" x="-82" y="-58" z="0" width="1136" height="640" window_state="4">
+                    <Sprite id="vfx_05_Big_Bolt_Electric" x="512" y="99" z="0" width="132" height="124" window_state="6">
+                        <scale x="3" y="3" z="3"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_05_big_bolt_vertical_small_light.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                    <Picture id="vfx_05_Big_Bolt_Glow" x="520" y="272" z="0" width="96" height="96" window_state="6">
+                        <scale x="4" y="4" z="4"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_slot006_base_game_03"/>
+                        <piece_info value="vfx_05_big_bolt_vertical_layer_02"/>
+                    </Picture>
+                    <Sprite id="vfx_05_Big_Bolt_Lightning" x="516" y="37" z="0" width="132" height="124" window_state="6">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_05_big_bolt_vertical_lingning.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                    <Sprite id="vfx_Reel_Lightning_01" x="462" y="221" z="0" width="132" height="124" window_state="6">
+                        <scale x="1.8" y="-1.8" z="1.8"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_38_glow_lightning_effect.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                    <Sprite id="vfx_Reel_Lightning" x="462" y="219" z="0" width="132" height="124" window_state="6">
+                        <scale x="1.8" y="1.8" z="1.8"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_38_glow_lightning_effect.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="m_LightningLoop" x="-84" y="-45" z="0" width="1136" height="640" window_state="4">
+                    <scale x="1" y="0.94999999" z="1"/>
+                    <blend_mode value="2"/>
+                    <Sprite id="vfx_35_LightningLoop_01" x="531" y="113" z="0" width="100" height="326" window_state="6">
+                        <scale x="1.5" y="1.55" z="1.5"/>
+                        <color_scale x="0.69" y="0.69" z="0.69" w="0.69"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_35_eagle_arrives_lightning_long_01.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_02" x="248" y="187" z="0" width="644" height="166" window_state="6">
+                        <scale x="1.5" y="1.5" z="1.5"/>
+                        <rotation x="0" y="0" z="-0.15707964"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_35_eagle_arrives_lightning_long_02.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_02b" x="264" y="150" z="0" width="644" height="166" window_state="6">
+                        <scale x="1.5700001" y="-1.6900001" z="1.5"/>
+                        <rotation x="0" y="0" z="0.12217305"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_35_eagle_arrives_lightning_long_02.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_03" x="260" y="200" z="0" width="644" height="166" window_state="6">
+                        <scale x="1.5" y="1.5" z="1.5"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_35_eagle_arrives_lightning_long_03.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_04" x="-514" y="-394" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.69999999" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_06" x="-610" y="-371" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_07" x="-760" y="-337" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_08" x="-914" y="-310" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_09" x="-1048" y="-278" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_10" x="-1192" y="-250" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_11" x="-474" y="49" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_12" x="-614" y="19" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_13" x="-760" y="-10" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_14" x="-907" y="-42" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_15" x="-1056" y="-70" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="vfx_35_LightningLoop_16" x="-1188" y="-103" z="0" width="2045" height="1361" window_state="6">
+                        <scale x="-0.60000002" y="0.69999999" z="1"/>
+                        <blend_mode value="2"/>
+                        <sprite_file value="slots_006/sprites/vfx_26_loop_lightning_wrap_reelarea_04.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Panel>
+            </Panel>
+            <Panel id="m_LightningStrike" x="15" y="-58" z="0" width="870" height="480" window_state="6">
+                <Panel id="LightningStrike_5" x="-5" y="0" z="0" width="155" height="548" window_state="4">
+                    <anchor_point x="0.5" y="0.93000001" z="0"/>
+                    <Sprite id="m_Spr_Strike_top" x="-22" y="48" z="0" width="200" height="500" window_state="6">
+                        <scale x="1" y="1.2" z="1"/>
+                        <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_Spr_hit_top" x="-97" y="341" z="0" width="350" height="300" window_state="6">
+                        <sprite_file value="slots_006/sprites/lightning_hit.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="LightningStrike_4" x="142" y="0" z="0" width="155" height="548" window_state="4">
+                    <anchor_point x="0.5" y="0.93000001" z="0"/>
+                    <Sprite id="m_Spr_Strike_top" x="-22" y="48" z="0" width="200" height="500" window_state="6">
+                        <scale x="1" y="1.2" z="1"/>
+                        <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_Spr_hit_top" x="-97" y="341" z="0" width="350" height="300" window_state="6">
+                        <sprite_file value="slots_006/sprites/lightning_hit.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="LightningStrike_3" x="286" y="0" z="0" width="155" height="548" window_state="4">
+                    <anchor_point x="0.5" y="0.93000001" z="0"/>
+                    <Sprite id="m_Spr_Strike_top" x="-22" y="48" z="0" width="200" height="500" window_state="6">
+                        <scale x="1" y="1.2" z="1"/>
+                        <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_Spr_hit_top" x="-97" y="341" z="0" width="350" height="300" window_state="6">
+                        <sprite_file value="slots_006/sprites/lightning_hit.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="LightningStrike_2" x="430" y="0" z="0" width="155" height="548" window_state="4">
+                    <anchor_point x="0.5" y="0.93000001" z="0"/>
+                    <Sprite id="m_Spr_Strike_top" x="-22" y="48" z="0" width="200" height="500" window_state="6">
+                        <scale x="1" y="1.2" z="1"/>
+                        <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_Spr_hit_top" x="-97" y="341" z="0" width="350" height="300" window_state="6">
+                        <sprite_file value="slots_006/sprites/lightning_hit.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="LightningStrike_1" x="575" y="0" z="0" width="155" height="548" window_state="4">
+                    <anchor_point x="0.5" y="0.93000001" z="0"/>
+                    <Sprite id="m_Spr_Strike_top" x="-22" y="48" z="0" width="200" height="500" window_state="6">
+                        <scale x="1" y="1.2" z="1"/>
+                        <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_Spr_hit_top" x="-97" y="341" z="0" width="350" height="300" window_state="6">
+                        <sprite_file value="slots_006/sprites/lightning_hit.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+                <Panel id="LightningStrike_0" x="721" y="0" z="0" width="155" height="548" window_state="4">
+                    <anchor_point x="0.5" y="0.93000001" z="0"/>
+                    <Sprite id="m_Spr_Strike_top" x="-22" y="48" z="0" width="200" height="500" window_state="6">
+                        <scale x="1" y="1.2" z="1"/>
+                        <sprite_file value="slots_006/sprites/lightning_strike.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                    <Sprite id="m_Spr_hit_top" x="-97" y="341" z="0" width="350" height="300" window_state="6">
+                        <sprite_file value="slots_006/sprites/lightning_hit.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                </Panel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Overlay" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+            <Panel id="m_FullscreenGlow" x="0" y="0" z="0" width="1136" height="640" window_state="4" style="cs_White">
+                <color_scale x="1" y="1" z="1" w="0"/>
+            </Panel>
+        </Panel>
+        <Picture id="m_Payline1" x="1053" y="255" z="0" width="76" height="90" window_state="6">
+            <piece_info value="slots_006_panel_031"/>
+        </Picture>
+        <Picture id="m_Payline2" x="1053" y="255" z="0" width="76" height="90" window_state="6">
+            <piece_info value="slots_006_panel_032"/>
+        </Picture>
+    </Panel>
+    <Picture id="m_TitlePic" x="380" y="-1" z="0" width="396" height="90" window_state="6">
+        <action_id value="animation_slot006_base_game_02"/>
+        <piece_info value="slots_006_icon_001"/>
+    </Picture>
+    <Panel id="m_IconAnimationPanel" x="250" y="127" z="0" width="776" height="420" window_state="14">
+        <window_layout_align_h value="0"/>
+    </Panel>
+    <Panel id="m_ReelMaskOverPayLine" x="243" y="127" z="0" width="796" height="420" window_state="14"/>
+    <Picture id="match_mask" x="250" y="114" z="0" width="773" height="449" window_state="12">
+        <color_scale x="1.1799999" y="1.1799999" z="1.1799999" w="1"/>
+        <action_id value="animation_jackpot_mask"/>
+    </Picture>
+    <Panel id="m_TransformPanel" x="243" y="103" z="0" width="796" height="460" window_state="393220">
+        <after_render_depth value="2"/>
+        <dynamic_attr key="icon_h" type="float" value="138.000000"/>
+        <dynamic_attr key="h" type="float" value="420.000000"/>
+        <dynamic_attr key="w" type="float" value="796.000000"/>
+        <dynamic_attr key="icon_w" type="float" value="147.000000"/>
+        <dynamic_attr key="x0" type="float" value="-6.000000"/>
+        <dynamic_attr key="y0" type="float" value="0.000000"/>
+    </Panel>
+    <Panel id="m_ControllerPanel" x="0" y="504" z="0" width="1136" height="136" window_state="6">
+        <action_id value="animation_slot006_base_game_01"/>
+        <Panel id="m_NormalSpinControlBar" x="0" y="-3" z="0" width="1136" height="140" window_state="4">
+            <Picture id="m_Background" x="0" y="-38" z="0" width="1136" height="177" window_state="262">
+                <piece_info value="slots_006_panel_002"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <Button id="m_BtnInfo" x="10" y="54" z="0" width="172" height="77" window_state="6" style="bs_slots_006_button_006">
+                <font_size value="28"/>
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="23" y="12" z="0" width="126" height="50" window_state="14">
+                    <text value="SLOTS_ZEUS_BASEGAME_BUTTON_PAYTABLE"/>
+                    <text_color value="cs_zeus_yellow_2"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Button id="m_BtnLine" x="95" y="57" z="0" width="0" height="0" window_state="260">
+                <line_height value="30"/>
+                <RichLabel id="m_LblLine" x="-7" y="36" z="0" width="146" height="30" window_state="14">
+                    <text value="$50"/>
+                    <font_size value="35"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture" x="35" y="14" z="0" width="61" height="25" window_state="14"/>
+            </Button>
+            <Button id="m_BtnBet" x="188" y="54" z="0" width="172" height="77" window_state="6" style="bs_slots_006_button_006">
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="23" y="9" z="0" width="126" height="30" window_state="14">
+                    <text value="SLOTS_ZEUS_BASEGAME_BUTTON_TOTALBET"/>
+                    <text_color value="cs_zeus_yellow_2"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblTotalBet" x="13" y="37" z="0" width="146" height="30" window_state="14">
+                    <text value="50"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="32"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.36000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnStop" x="930" y="24" z="0" width="217" height="105" window_state="6">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="200" height="106" window_state="14" style="bs_slots_006_button_003">
+                    <RichLabel id="m_RichLabel" x="62" y="60" z="0" width="96" height="30" window_state="4">
+                        <text value="SLOTS_ZEUS_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="52" y="9" z="0" width="96" height="96" window_state="14">
+                        <piece_info value="slots_006_panel_034"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="200" height="106" window_state="12" style="bs_slots_006_button_003">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <RichLabel id="m_RichLabel" x="59" y="61" z="0" width="96" height="30" window_state="4">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="SLOTS_ZEUS_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="52" y="9" z="0" width="96" height="96" window_state="14">
+                        <piece_info value="slots_006_panel_034"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnSpin" x="930" y="24" z="0" width="217" height="105" window_state="4">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="200" height="106" window_state="14" style="bs_slots_006_button_003">
+                    <RichLabel id="m_RichLabel" x="57" y="78" z="0" width="96" height="30" window_state="6">
+                        <text value="SLOTS_ZEUS_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="1"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.47999999"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="56" y="1" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_006_panel_033"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="200" height="106" window_state="12" style="bs_slots_006_button_003">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <RichLabel id="m_RichLabel" x="59" y="79" z="0" width="96" height="30" window_state="6">
+                        <text value="SLOTS_ZEUS_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_White"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="1"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.47999999"/>
+                        <word_spacing value="1.4"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="57" y="3" z="0" width="96" height="96" window_state="14">
+                        <piece_info value="slots_006_panel_033"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnAutoSpin" x="930" y="24" z="0" width="217" height="105" window_state="4">
+                <font_size value="26"/>
+                <text_color value="cs_LightPurple"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <outline_color value="cs_LightPurple"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="200" height="106" window_state="14" style="bs_slots_006_button_003">
+                    <RichLabel id="m_RichLabel" x="57" y="8" z="0" width="96" height="30" window_state="6">
+                        <text value="500"/>
+                        <font_size value="34"/>
+                        <text_color value="cs_lightgreen2"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0"/>
+                        <glyph_center value="0.34999999"/>
+                        <outline_center value="0.46000001"/>
+                        <word_spacing value="2.5"/>
+                        <outline_color value="cs_yellowTxt04"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="59" y="21" z="0" width="96" height="96" window_state="6">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_006_panel_034"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="200" height="106" window_state="12" style="bs_slots_006_button_003">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <RichLabel id="m_RichLabel" x="57" y="8" z="0" width="96" height="30" window_state="6">
+                        <text value="500"/>
+                        <font_size value="34"/>
+                        <text_color value="cs_lightgreen2"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0"/>
+                        <glyph_center value="0.34999999"/>
+                        <outline_center value="0.46000001"/>
+                        <word_spacing value="2.5"/>
+                        <outline_color value="cs_yellowTxt04"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="59" y="22" z="0" width="96" height="96" window_state="6">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_006_panel_034"/>
+                    </Picture>
+                </Panel>
+                <RichLabel id="m_LblAutoSpin" x="18" y="2" z="0" width="180" height="55" window_state="4">
+                    <text value="500"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_blue"/>
+                    <smooth value="0.050000001"/>
+                    <outline_center value="0.43000001"/>
+                    <word_spacing value="6"/>
+                    <outline_color value="null"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <RichLabel id="m_LblWinNum" x="465" y="85" z="0" width="206" height="40" window_state="6">
+                <text value="0"/>
+                <font_size value="53"/>
+                <text_color value="cs_White"/>
+                <text_style value="32"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button id="m_BtnLine1" x="95" y="57" z="0" width="0" height="0" window_state="292">
+                <color_scale x="0.75" y="0.75" z="0.75" w="1"/>
+                <line_height value="30"/>
+                <RichLabel id="m_LblLine" x="-9" y="36" z="0" width="146" height="30" window_state="14">
+                    <text value="30"/>
+                    <font_size value="35"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture" x="10" y="14" z="0" width="107" height="24" window_state="14"/>
+            </Button>
+            <Button id="m_BtnMaxBet" x="778" y="49" z="0" width="127" height="80" window_state="262" style="bs_slots_006_button_001">
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="0" y="15" z="0" width="126" height="50" window_state="14">
+                    <text value="SLOTS_ZEUS_BASEGAME_BUTTON_MAXBET"/>
+                    <text_color value="cs_zeus_yellow_2"/>
+                    <rich_label_state value="5"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <line_height value="25"/>
+                </RichLabel>
+            </Button>
+            <RichLabel id="m_RichLabel2" x="461" y="51" z="0" width="213" height="40" window_state="6">
+                <text value="SLOTS_ZEUS_BASEGAME_TEXT_WIN"/>
+                <font_size value="48"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="4"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_FreeSpinControlBar" x="0" y="-9" z="0" width="1137" height="153" window_state="6">
+            <Picture id="m_Picture" x="330" y="-34" z="0" width="482" height="87" window_state="4">
+                <Picture id="m_Picture5" x="52" y="43" z="0" width="160" height="30" window_state="6"/>
+                <Panel id="m_LblFreeSpinWinNum1" x="229" y="37" z="0" width="218" height="42" window_state="6">
+                    <window_layout value="1"/>
+                    <RichLabel id="m_LblCurSpinNum" x="25" y="1" z="0" width="66" height="40" window_state="6">
+                        <action_id value="animation_volcano_spinleft"/>
+                        <text value="999"/>
+                        <font_size value="45"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.38999999"/>
+                        <outline_center value="0.47999999"/>
+                        <word_spacing value="2"/>
+                        <outline_color value="cs_yellowTxt04"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabel1" x="91" y="1" z="0" width="36" height="40" window_state="6">
+                        <text value="SLOTS_ZEUS_FREEGAME_TEXT_PROGRESS_OF"/>
+                        <font_size value="45"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.38999999"/>
+                        <outline_center value="0.47999999"/>
+                        <word_spacing value="2"/>
+                        <outline_color value="cs_yellowTxt04"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LblTotalSpinNum" x="127" y="1" z="0" width="66" height="40" window_state="6">
+                        <action_id value="animation_volcano_spinleft"/>
+                        <text value="999"/>
+                        <font_size value="45"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.38999999"/>
+                        <outline_center value="0.47999999"/>
+                        <word_spacing value="2"/>
+                        <outline_color value="cs_yellowTxt04"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+            </Picture>
+            <Picture id="m_Background" x="0" y="-32" z="0" width="1136" height="177" window_state="262">
+                <piece_info value="slots_006_panel_002"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <Picture id="m_Picture1" x="9" y="59" z="0" width="172" height="77" window_state="6">
+                <piece_info value="slots_006_button_002"/>
+            </Picture>
+            <Picture id="m_Picture4" x="187" y="59" z="0" width="172" height="77" window_state="6">
+                <piece_info value="slots_006_button_002"/>
+            </Picture>
+            <Panel id="m_PanelFreeSpinNum" x="21" y="93" z="0" width="148" height="32" window_state="6">
+                <window_layout value="1"/>
+                <RichLabel id="m_LblCurSpinNum" x="16" y="1" z="0" width="116" height="30" window_state="6">
+                    <action_id value="animation_volcano_spinleft"/>
+                    <text value="999"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.38999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Picture id="m_Picture3" x="22" y="59" z="0" width="115" height="123" window_state="4">
+                <scale x="0.80000001" y="0.5" z="0.75"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_spinleft01"/>
+            </Picture>
+            <Button implement_class="SwitchButton" id="m_BtnFreeSpin" x="930" y="28" z="0" width="217" height="105" window_state="6">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="200" height="106" window_state="14" style="bs_slots_006_button_003">
+                    <RichLabel id="m_RichLabel" x="62" y="60" z="0" width="96" height="30" window_state="4">
+                        <text value="SLOTS_ZEUS_FREEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="52" y="9" z="0" width="96" height="96" window_state="14">
+                        <piece_info value="slots_006_panel_033"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="200" height="106" window_state="12" style="bs_slots_006_button_003">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <RichLabel id="m_RichLabel" x="59" y="61" z="0" width="96" height="30" window_state="4">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="SLOTS_ZEUS_FREEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="52" y="9" z="0" width="96" height="96" window_state="14">
+                        <piece_info value="slots_006_panel_033"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <RichLabel id="m_LblFreeSpinTotalWin" x="474" y="89" z="0" width="206" height="40" window_state="6">
+                <text value="5000"/>
+                <font_size value="53"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblFreeSpinTotalBet" x="200" y="95" z="0" width="146" height="30" window_state="6">
+                <text value="500"/>
+                <font_size value="35"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblFreeSpinWinNum" x="471" y="53" z="0" width="213" height="40" window_state="6">
+                <text value="SLOTS_ZEUS_FREEGAME_TEXT_TOTALWIN"/>
+                <font_size value="45"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="1"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture2" x="738" y="83" z="0" width="119" height="25" window_state="4"/>
+            <RichLabel id="m_RichLabel" x="23" y="68" z="0" width="144" height="30" window_state="6">
+                <text value="SLOTS_ZEUS_FREEGAME_TEXT_FREESPINS"/>
+                <text_color value="cs_zeus_yellow_2"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.37"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="195" y="68" z="0" width="156" height="30" window_state="6">
+                <text value="SLOTS_ZEUS_FREEGAME_TEXT_TOTALBET"/>
+                <text_color value="cs_zeus_yellow_2"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.36000001"/>
+                <outline_center value="0.47"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button id="m_Max bet" x="779" y="55" z="0" width="127" height="81" window_state="38" style="bs_slots_006_button_001">
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="0" y="15" z="0" width="126" height="50" window_state="14">
+                    <text value="MAX
+BET"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="5"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="1"/>
+                    <line_height value="25"/>
+                </RichLabel>
+            </Button>
+        </Panel>
+    </Panel>
+    <Panel id="m_AutoSpinSelector" x="889" y="92" z="0" width="253" height="444" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_SpinChoicePanel" x="0" y="-14" z="0" width="243" height="476" window_state="6">
+            <scale x="1" y="0.97000003" z="1"/>
+            <piece_info value="slots_006_panel_021"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <ToggleButton id="m_SpinChoice0" x="29" y="280" z="0" width="186" height="63" window_state="262">
+            <text value="5"/>
+            <font_size value="45"/>
+            <text_color value="cs_zeus_beige2_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice1" x="29" y="215" z="0" width="186" height="63" window_state="262">
+            <text value="10"/>
+            <font_size value="45"/>
+            <text_color value="cs_zeus_beige2_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice2" x="29" y="150" z="0" width="186" height="63" window_state="262">
+            <text value="25"/>
+            <font_size value="45"/>
+            <text_color value="cs_zeus_beige1_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice3" x="29" y="85" z="0" width="186" height="63" window_state="262">
+            <text value="100"/>
+            <font_size value="45"/>
+            <text_color value="cs_zeus_beige2_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice4" x="29" y="20" z="0" width="186" height="63" window_state="262">
+            <text value="500"/>
+            <font_size value="45"/>
+            <text_color value="cs_zeus_beige2_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_BtnFastSpin" x="29" y="346" z="0" width="186" height="56" window_state="6">
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_006_button_008b"/>
+            <unchecked_bg_style value="bs_slots_006_button_008a"/>
+        </ToggleButton>
+    </Panel>
+    <Panel id="m_BetSelector" x="136" y="84" z="0" width="283" height="478" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_SpinChoicePanel" x="14" y="4" z="0" width="243" height="476" window_state="6">
+            <scale x="0.98000002" y="0.93000001" z="1"/>
+            <anchor_point x="0.5" y="1" z="0"/>
+            <piece_info value="slots_006_panel_021"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <List id="m_List" x="43" y="61" z="0" width="191" height="368" window_state="6">
+            <scroll_state value="6"/>
+            <content_size x="0" y="56.699997" z="0"/>
+            <page_size x="1" y="100" z="1"/>
+            <ToggleButton id="m_SpinChoice0" x="0" y="0" z="0" width="186" height="63" window_state="262">
+                <scale x="1" y="0.89999998" z="1"/>
+                <text value="10"/>
+                <font_size value="50"/>
+                <text_color value="cs_zeus_beige2_txt"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.40000001"/>
+                <outline_center value="0.47"/>
+                <outline_color value="cs_blueblack"/>
+                <line_height value="30"/>
+                <checked_bg_style value="bs_slots_006_button_009b"/>
+                <unchecked_bg_style value="bs_slots_006_button_009a"/>
+                <checked_text_color_style value="cs_zeus_beige1_txt"/>
+                <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+            </ToggleButton>
+        </List>
+    </Panel>
+    <Panel id="m_LineSelector" x="-26" y="84" z="0" width="283" height="478" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_SpinChoicePanel" x="20" y="4" z="0" width="243" height="476" window_state="6">
+            <scale x="1.03" y="1" z="1"/>
+            <piece_info value="slots_006_panel_021"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Panel id="m_SpinDivider" x="36" y="29" z="0" width="210" height="400" window_state="6">
+            <Picture id="m_Divider1" x="15" y="59" z="0" width="180" height="2" window_state="6">
+                <piece_info value="slots_006_panel_020"/>
+            </Picture>
+            <Picture id="m_Divider2" x="15" y="116" z="0" width="180" height="2" window_state="6">
+                <piece_info value="slots_006_panel_020"/>
+            </Picture>
+            <Picture id="m_Divider3" x="15" y="173" z="0" width="180" height="2" window_state="6">
+                <piece_info value="slots_006_panel_020"/>
+            </Picture>
+            <Picture id="m_Divider4" x="15" y="231" z="0" width="180" height="2" window_state="6">
+                <piece_info value="slots_006_panel_020"/>
+            </Picture>
+            <Picture id="m_Divider5" x="15" y="287" z="0" width="180" height="2" window_state="6">
+                <piece_info value="slots_006_panel_020"/>
+            </Picture>
+            <Picture id="m_Divider6" x="15" y="345" z="0" width="180" height="2" window_state="6">
+                <piece_info value="slots_006_panel_020"/>
+            </Picture>
+        </Panel>
+        <ToggleButton id="m_SpinChoice0" x="48" y="316" z="0" width="186" height="63" window_state="262">
+            <scale x="1" y="0.89999998" z="1"/>
+            <text value="10"/>
+            <font_size value="50"/>
+            <text_color value="cs_zeus_beige2_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice1" x="48" y="259" z="0" width="186" height="63" window_state="262">
+            <scale x="1" y="0.89999998" z="1"/>
+            <text value="50"/>
+            <font_size value="50"/>
+            <text_color value="cs_zeus_beige1_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice2" x="48" y="202" z="0" width="186" height="63" window_state="262">
+            <scale x="1" y="0.89999998" z="1"/>
+            <text value="100"/>
+            <font_size value="50"/>
+            <text_color value="cs_zeus_beige1_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice3" x="48" y="145" z="0" width="186" height="63" window_state="262">
+            <scale x="1" y="0.89999998" z="1"/>
+            <text value="200"/>
+            <font_size value="50"/>
+            <text_color value="cs_zeus_beige2_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice4" x="48" y="88" z="0" width="186" height="63" window_state="262">
+            <scale x="1" y="0.89999998" z="1"/>
+            <text value="500"/>
+            <font_size value="50"/>
+            <text_color value="cs_zeus_beige2_txt"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_blueblack"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_006_button_009b"/>
+            <unchecked_bg_style value="bs_slots_006_button_009a"/>
+            <checked_text_color_style value="cs_zeus_beige1_txt"/>
+            <unchecked_text_color_style value="cs_zeus_beige2_txt"/>
+        </ToggleButton>
+        <Button id="m_ButtonUp" x="48" y="31" z="0" width="186" height="56" window_state="6" style="bs_slots_006_button_009a">
+            <scale x="1" y="0.89999998" z="1"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="72" y="16" z="0" width="42" height="24" window_state="14">
+                <scale x="1" y="1.1" z="1"/>
+                <rotation x="0" y="0" z="3.1415927"/>
+                <piece_info value="slots_006_panel_019"/>
+            </Picture>
+        </Button>
+        <Button id="m_ButtonDown" x="48" y="373" z="0" width="186" height="56" window_state="6" style="bs_slots_006_button_009a">
+            <scale x="1" y="0.89999998" z="1"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="72" y="19" z="0" width="42" height="24" window_state="14">
+                <scale x="1" y="1.1" z="1"/>
+                <piece_info value="slots_006_panel_019"/>
+            </Picture>
+        </Button>
+    </Panel>
+    <Panel id="m_PreTransformReel" x="234" y="117" z="0" width="820" height="450" window_state="4">
+        <Panel id="m_Panel0" x="17" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="-0.16" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="252" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel1" x="174" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="-0.16" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="252" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel2" x="332" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="-0.16" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="252" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel3" x="484" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="-0.16" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="252" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel4" x="636" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="-0.16" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="252" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.16" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <scale_mode value="1"/>
+                <mask_scale value="1.39"/>
+                <mask_offset x="0.18000001" y="-0.18000001" z="0"/>
+                <target_offset x="0" y="0.22" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+    </Panel>
+    <Panel id="m_PanelFog" x="473" y="265" z="0" width="210" height="130" window_state="4">
+        <Picture id="m_PicFogBg" x="57" y="141" z="0" width="96" height="96" window_state="6">
+            <scale x="5.5999999" y="5.5999999" z="5.5999999"/>
+            <action_id value="animation_volcanic_smoke_01"/>
+        </Picture>
+        <Picture id="m_PicCloud" x="84" y="248" z="0" width="96" height="96" window_state="4">
+            <scale x="4" y="4" z="4"/>
+            <anchor_point x="0.5" y="1.33" z="0"/>
+            <action_id value="animation_volcanic_smoke"/>
+        </Picture>
+        <Sprite id="m_SpriteFog" x="-238" y="-254" z="0" width="800" height="640" window_state="4">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_smoke_erupt.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_Picture" x="36" y="323" z="0" width="200" height="110" window_state="6">
+            <scale x="3.9200001" y="3.9200001" z="3.9200001"/>
+            <color_scale x="1" y="1" z="1" w="0.5"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <action_id value="animation_volcano_spinleft01"/>
+        </Picture>
+    </Panel>
+    <SkinMesh id="m_3D_EagleBase" x="385" y="-360" z="0" width="1270" height="1500" window_state="2060">
+        <scale x="1.65" y="1.65" z="1.65"/>
+        <action_id value="animation_slot006_eagle@eagle01"/>
+        <mesh_file value="slots_006/models/eagle.model"/>
+        <mesh_rotation x="0" y="0.17453292" z="0"/>
+        <mesh_scale x="150" y="150" z="150"/>
+        <clear_depth value="1"/>
+        <far_clip_distance value="15000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials>
+            <mesh_id_0>
+                <material_id value="0"/>
+            </mesh_id_0>
+        </mesh_materials>
+    </SkinMesh>
+    <SkinMesh id="m_3D_EagleFree" x="-509" y="-336" z="0" width="1270" height="1500" window_state="2060">
+        <scale x="1.65" y="1.65" z="1.65"/>
+        <action_id value="animation_slot006_eagle@eagle03"/>
+        <mesh_file value="slots_006/models/eagle.model"/>
+        <mesh_rotation x="0" y="-0.17453292" z="0"/>
+        <mesh_scale x="150" y="150" z="150"/>
+        <clear_depth value="1"/>
+        <far_clip_distance value="7000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials>
+            <mesh_id_0>
+                <material_id value="0"/>
+            </mesh_id_0>
+        </mesh_materials>
+    </SkinMesh>
+    <Sprite id="vfx_44_Eagle_FlyOut" x="704" y="159" z="0" width="527" height="249" window_state="4">
+        <sprite_file value="slots_006/sprites/vfx_44_eagle_gone_01.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="vfx_44_Eagle_Stand" x="697" y="123" z="0" width="527" height="249" window_state="4">
+        <sprite_file value="slots_006/sprites/vfx_44_eagle_gone_02.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Panel implement_class="LobbyPopupMenu" id="m_PanelMenu" x="812" y="-3" z="0" width="345" height="643" window_state="6">
+        <Picture id="m_PicBg" x="26" y="0" z="0" width="298" height="643" window_state="6" style="ngs_casino_lobby_panel11"/>
+        <Picture id="m_PicMask" x="-137" y="-12" z="0" width="531" height="323" window_state="6">
+            <piece_info value="casino_common_panel30"/>
+        </Picture>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem0" x="62" y="102" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="12" z="0" width="176" height="55" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="14" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_SOUND"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <ToggleButton id="m_BtnToggle" x="73" y="1" z="0" width="102" height="51" window_state="14">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <line_height value="30"/>
+                    <checked value="1"/>
+                    <checked_bg_style value="bs_casino_common_btn024a"/>
+                    <unchecked_bg_style value="bs_casino_common_btn024"/>
+                </ToggleButton>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Sound" x="19" y="17" z="0" width="40" height="40" window_state="14">
+                    <piece_info value="casino_common_menu4"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem1" x="62" y="192" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_SLOTS"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Lobby" x="10" y="15" z="0" width="45" height="45" window_state="14">
+                    <piece_info value="casino_common_menu1"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem2" x="62" y="282" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_BUY"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Buy" x="17" y="19" z="0" width="41" height="38" window_state="14">
+                    <piece_info value="casino_common_menu5"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem3" x="62" y="372" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_FANPAGE"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Buy" x="22" y="20" z="0" width="36" height="36" window_state="14">
+                    <piece_info value="casino_common_menu7"/>
+                </Picture>
+            </Button>
+        </Button>
+    </Panel>
+</Panel>

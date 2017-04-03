@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bonus_text02.png" width="256" height="512" blend="1" loop="1">
+    <sprite n="00019" x="2" y="182" w="188" h="58" oX="108" oY="179" oW="400" oH="300" dr="60"/>
+    <sprite n="00020" x="194" y="126" w="58" h="188" oX="108" oY="179" oW="400" oH="300" r="y" dr="60"/>
+    <sprite n="00021" x="2" y="2" w="204" h="62" oX="108" oY="176" oW="400" oH="300" dr="60"/>
+    <sprite n="00022" x="2" y="66" w="200" h="58" oX="107" oY="179" oW="400" oH="300" dr="60"/>
+    <sprite n="00023" x="2" y="126" w="190" h="54" oX="108" oY="182" oW="400" oH="300" dr="60"/>
+    <sprite n="00024" x="2" y="242" w="188" h="54" oX="108" oY="182" oW="400" oH="300" dr="120"/>
+</TextureAtlas>

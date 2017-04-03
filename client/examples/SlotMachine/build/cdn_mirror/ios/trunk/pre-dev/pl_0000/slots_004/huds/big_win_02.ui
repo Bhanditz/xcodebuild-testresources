@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_BlackPanel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+    </Panel>
+    <Picture id="m_Picture4" x="261" y="119" z="0" width="613" height="303" window_state="6">
+        <piece_info value="slots_004_panel_013"/>
+        <scale_mode value="3"/>
+        <RichLabel id="m_RichLabel" x="261" y="144" z="0" width="96" height="30" window_state="4">
+            <text value="SLOTS_SPOOKYSPINNERS_FREEGAME_POPUP_TEXT_VALUE"/>
+            <font_size value="48"/>
+            <text_color value="cs_yellowTxt"/>
+            <rich_label_state value="1"/>
+            <glyph_center value="0.41"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel1" x="253" y="182" z="0" width="96" height="30" window_state="4">
+            <text value="SLOTS_SPOOKYSPINNERS_FREEGAME_POPUP_TEXT_ADVANCE"/>
+            <font_size value="39"/>
+            <rich_label_state value="1"/>
+            <glyph_center value="0.41999999"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel2" x="262" y="227" z="0" width="96" height="30" window_state="4">
+            <text value="SLOTS_SPOOKYSPINNERS_FREEGAME_POPUP_TEXT_NEXTLEVEL"/>
+            <font_size value="79"/>
+            <text_color value="cs_line_color_04"/>
+            <rich_label_state value="1"/>
+            <glyph_center value="0.46000001"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Panel id="m_Panel" x="64" y="123" z="0" width="489" height="161" window_state="6">
+            <RichLabel id="m_Picture" x="199" y="15" z="0" width="96" height="30" window_state="6">
+                <text value="SLOTS_SPOOKYSPINNERS_FREEGAME_POPUP_TEXT_CLEAR"/>
+                <font_size value="39"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_Picture1" x="198" y="125" z="0" width="96" height="30" window_state="6">
+                <text value="SLOTS_SPOOKYSPINNERS_POPUP_TEXT_CHIPSREWARED"/>
+                <font_size value="39"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Picture>
+    <RichLabel id="m_RichLabel2000" x="379" y="247" z="0" width="375" height="120" window_state="6">
+        <text value="20,000"/>
+        <font_size value="32"/>
+        <text_color value="cs_yellowTxt02"/>
+        <font_id value="bj"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.47"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Picture id="m_Picture33" x="414" y="175" z="0" width="307" height="188" window_state="4">
+        <scale x="2" y="2" z="2"/>
+        <piece_info value="slots_004_panel_013_glow3"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_Picture11" x="415" y="178" z="0" width="307" height="188" window_state="4">
+        <scale x="2.3099999" y="2.3099999" z="2.3099999"/>
+        <piece_info value="slots_004_panel_013_glow2"/>
+        <scale_mode value="3"/>
+    </Picture>
+</Panel>

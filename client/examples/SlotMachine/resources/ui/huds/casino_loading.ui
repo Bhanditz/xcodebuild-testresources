@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="BG" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.113" y="1.113" z="1.113"/>
+        <piece_info value="casino_lobby_loading_bg01_07"/>
+        <scale_mode value="4"/>
+    </Picture>
+    <Panel id="m_snowflake_light" x="170" y="-2" z="0" width="936" height="612" window_state="6">
+        <Picture id="m_snowlight1" x="24" y="219" z="0" width="84" height="82" window_state="6">
+            <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight2" x="-16" y="322" z="0" width="84" height="82" window_state="6">
+            <scale x="0.47" y="0.47" z="0.47"/>
+            <rotation x="-0.12217305" y="0.2443461" z="-0.40142572"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight3" x="122" y="319" z="0" width="84" height="82" window_state="6">
+            <scale x="0.28" y="0.28" z="0.28"/>
+            <rotation x="0" y="0" z="-0.43633232"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight4" x="220" y="362" z="0" width="84" height="82" window_state="6">
+            <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+            <rotation x="0" y="0" z="-0.47123888"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight5" x="100" y="147" z="0" width="84" height="82" window_state="6">
+            <scale x="0.22" y="0.22" z="0.22"/>
+            <rotation x="0" y="0.10471976" z="0"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight6" x="159" y="98" z="0" width="84" height="82" window_state="6">
+            <scale x="0.31999999" y="0.31999999" z="0.31999999"/>
+            <rotation x="0" y="0.10471976" z="0"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight7" x="235" y="29" z="0" width="84" height="82" window_state="6">
+            <scale x="0.23" y="0.23" z="0.23"/>
+            <rotation x="0" y="0.10471976" z="-0.57595867"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight8" x="270" y="60" z="0" width="84" height="82" window_state="6">
+            <scale x="0.23" y="0.23" z="0.23"/>
+            <rotation x="0" y="0.10471976" z="-0.69813168"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight9" x="291" y="57" z="0" width="84" height="82" window_state="6">
+            <scale x="0.15000001" y="0.15000001" z="0.15000001"/>
+            <rotation x="0" y="0.10471976" z="-0.57595867"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight10" x="331" y="40" z="0" width="84" height="82" window_state="6">
+            <scale x="0.15000001" y="0.15000001" z="0.15000001"/>
+            <rotation x="0" y="0.10471976" z="-0.57595867"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight11" x="299" y="-9" z="0" width="84" height="82" window_state="6">
+            <scale x="0.38999999" y="0.38999999" z="0.38999999"/>
+            <rotation x="0" y="0" z="-0.52359873"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight12" x="361" y="-44" z="0" width="84" height="82" window_state="6">
+            <scale x="0.38999999" y="0.38999999" z="0.38999999"/>
+            <rotation x="0" y="0" z="0.61086529"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight13" x="392" y="35" z="0" width="84" height="82" window_state="6">
+            <scale x="0.23" y="0.23" z="0.23"/>
+            <rotation x="0" y="0.13962634" z="-0.54105204"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight14" x="445" y="17" z="0" width="84" height="82" window_state="6">
+            <scale x="0.22" y="0.22" z="0.22"/>
+            <rotation x="0" y="0.10471976" z="0"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight15" x="438" y="67" z="0" width="84" height="82" window_state="6">
+            <scale x="0.28999999" y="0.28999999" z="0.28999999"/>
+            <rotation x="0.017453292" y="-0.27925268" z="-0.4537856"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight16" x="472" y="82" z="0" width="84" height="82" window_state="6">
+            <scale x="0.15000001" y="0.15000001" z="0.15000001"/>
+            <rotation x="0" y="0.10471976" z="-0.57595867"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight17" x="523" y="73" z="0" width="84" height="82" window_state="6">
+            <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+            <rotation x="0" y="0" z="-0.38397241"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight18" x="476" y="340" z="0" width="84" height="82" window_state="6">
+            <scale x="0.22" y="0.22" z="0.22"/>
+            <rotation x="0" y="0.10471976" z="-0.17453292"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight19" x="656" y="218" z="0" width="84" height="82" window_state="6">
+            <scale x="0.22" y="0.22" z="0.22"/>
+            <rotation x="0" y="0.10471976" z="-0.17453292"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight20" x="609" y="265" z="0" width="84" height="82" window_state="6">
+            <scale x="0.28" y="0.28" z="0.28"/>
+            <rotation x="-0.20943952" y="-0.33161256" z="-0.41887897"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight21" x="661" y="309" z="0" width="84" height="82" window_state="6">
+            <scale x="0.76999998" y="0.76999998" z="0.76999998"/>
+            <rotation x="-0.31415927" y="0.4537856" z="-0.29670593"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight22" x="701" y="465" z="0" width="84" height="82" window_state="6">
+            <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+            <rotation x="0" y="0" z="0.2617994"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight23" x="543" y="530" z="0" width="84" height="82" window_state="6">
+            <scale x="0.76999998" y="0.76999998" z="0.76999998"/>
+            <rotation x="-0.31415927" y="0.4537856" z="-0.29670593"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight24" x="577" y="103" z="0" width="84" height="82" window_state="6">
+            <scale x="0.23" y="0.23" z="0.23"/>
+            <rotation x="0" y="0.10471976" z="-0.69813168"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+        <Picture id="m_snowlight25" x="878" y="265" z="0" width="84" height="82" window_state="6">
+            <scale x="0.22" y="0.22" z="0.22"/>
+            <rotation x="0" y="0.10471976" z="-0.17453292"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_loading_light_xmas"/>
+        </Picture>
+    </Panel>
+    <Picture id="m_Light1" x="167" y="412" z="0" width="109" height="140" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <anchor_point x="0.72000003" y="0.77999997" z="0"/>
+        <piece_info value="casino_common_loading_light"/>
+    </Picture>
+    <Picture id="m_Light2" x="724" y="427" z="0" width="109" height="140" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <anchor_point x="0.72000003" y="0.77999997" z="0"/>
+        <piece_info value="casino_common_loading_light"/>
+    </Picture>
+    <Picture id="m_Light3" x="940" y="457" z="0" width="109" height="140" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <anchor_point x="0.72000003" y="0.77999997" z="0"/>
+        <piece_info value="casino_common_loading_light"/>
+    </Picture>
+    <Picture id="m_Light4" x="240" y="176" z="0" width="45" height="349" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.2443461"/>
+        <color_scale x="1" y="1" z="1" w="0.60000002"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.1" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light2"/>
+    </Picture>
+    <Picture id="m_Light5" x="222" y="204" z="0" width="46" height="322" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.40000001"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.54000002" y="0.98000002" z="0"/>
+        <piece_info value="casino_common_loading_light4"/>
+    </Picture>
+    <Picture id="m_Light6" x="826" y="200" z="0" width="45" height="349" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <anchor_point x="0.1" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light2"/>
+    </Picture>
+    <Picture id="m_Light7" x="1016" y="220" z="0" width="45" height="349" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.2443461"/>
+        <color_scale x="1" y="1" z="1" w="0.30000001"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.1" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light2"/>
+    </Picture>
+    <Picture id="m_Light8" x="1046" y="340" z="0" width="55" height="321" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.40142572"/>
+        <color_scale x="1" y="1" z="1" w="0.60000002"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.44999999" y="0.99000001" z="0"/>
+        <piece_info value="casino_common_loading_light3"/>
+    </Picture>
+    <Picture id="m_Light9" x="680" y="264" z="0" width="134" height="486" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="0.6457718"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.41999999" y="0.89999998" z="0"/>
+        <piece_info value="casino_common_loading_light1"/>
+    </Picture>
+    <Picture id="m_Light10" x="370" y="264" z="0" width="134" height="486" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <rotation x="0" y="0" z="-0.62831855"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.41999999" y="0.89999998" z="0"/>
+        <piece_info value="casino_common_loading_light1"/>
+    </Picture>
+    <RichLabel id="m_RichLabel" x="274" y="587" z="0" width="588" height="35" window_state="6">
+        <text value="PALTFORM_CASINOLOADING_TEXT_COPYRIGHT"/>
+        <font_size value="35"/>
+        <text_color value="cs_purpleTxt4"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel id="m_PanelRefresh" x="0" y="539" z="0" width="242" height="101" window_state="6">
+        <Button id="m_BtnRefresh" x="10" y="13" z="0" width="204" height="80" window_state="6" style="ngs_casino_common_btn05">
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="17" y="22" z="0" width="44" height="37" window_state="270">
+                <piece_info value="casino_common_icon05"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="82" y="25" z="0" width="96" height="30" window_state="14">
+                <text value="PALTFORM_CASINOLOADING_BUTTON_REFRESH"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+    </Panel>
+    <Panel id="m_PanelFeedback" x="924" y="551" z="0" width="205" height="81" window_state="6">
+        <Button id="m_BtnFeedback" x="-6" y="2" z="0" width="210" height="83" window_state="6" style="ngs_casino_common_btn05">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <font_size value="25"/>
+            <text_align_h value="3"/>
+            <text_offset x="-82" y="-1" z="0"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="17"/>
+        </Button>
+        <Picture id="m_FeedbackIcon" x="142" y="24" z="0" width="47" height="38" window_state="14">
+            <piece_info value="casino_common_icon04"/>
+        </Picture>
+        <RichLabel id="m_GiveFeedback" x="12" y="35" z="0" width="112" height="18" window_state="14">
+            <text value="PALTFORM_CASINOLOADING_BUTTON_LS"/>
+            <font_size value="25"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="3"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="18"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_PanelProgress" x="282" y="482" z="0" width="572" height="112" window_state="6">
+        <ProgressBarH id="m_ProgressBarBase" x="23" y="18" z="0" width="509" height="31" window_state="6" style="ngs_casino_lobby_loading_panel01">
+            <edge_picture_offset x="0" y="0" z="0"/>
+            <edge_picture_scale x="1" y="1" z="1"/>
+        </ProgressBarH>
+        <ProgressBarH id="m_ProgressBar" x="31" y="18" z="0" width="494" height="31" window_state="6">
+            <progress_style value="bs_casino_lobby_loading_panel02"/>
+            <edge_picture_offset x="0" y="0" z="0"/>
+            <edge_picture_scale x="1" y="1" z="1"/>
+        </ProgressBarH>
+        <RichLabel id="m_RblProgress" x="235" y="47" z="0" width="101" height="65" window_state="262">
+            <text value="100%"/>
+            <font_size value="65"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.47"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

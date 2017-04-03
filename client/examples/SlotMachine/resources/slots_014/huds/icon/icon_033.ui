@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="160" height="145" window_state="6">
+    <Picture id="m_Bg" x="2" y="1" z="0" width="156" height="141" window_state="262">
+        <piece_info value="slots_014_icon_11"/>
+    </Picture>
+    <Picture id="m_Picture" x="9" y="-8" z="0" width="146" height="146" window_state="262">
+        <piece_info value="slots_014_icon_11_a"/>
+    </Picture>
+    <Picture id="m_Picture2" x="-37" y="89" z="0" width="73" height="64" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <piece_info value="slots_014_icon_11_04"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="2" y="-66" z="0" width="160" height="160" window_state="6">
+        <sprite_file value="slots_014/sprites/icon002.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="21" y="58" z="0" width="100" height="100" window_state="6">
+        <sprite_file value="slots_014/sprites/wild03.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

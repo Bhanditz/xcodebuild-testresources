@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wildsweep.png" width="256" height="256" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="01" x="87" y="114" w="83" h="40" oX="1" oY="13" oW="85" oH="64" dr="60"/>
+    <sprite n="03" x="89" y="60" w="85" h="52" oY="7" oW="85" oH="64" dr="60"/>
+    <sprite n="05" x="2" y="2" w="85" h="58" oY="5" oW="85" oH="64" dr="60"/>
+    <sprite n="07" x="172" y="126" w="79" h="58" oX="1" oY="6" oW="85" oH="64" dr="60"/>
+    <sprite n="09" x="176" y="64" w="65" h="60" oX="9" oY="4" oW="85" oH="64" dr="60"/>
+    <sprite n="11" x="63" y="186" w="51" h="60" oX="16" oY="3" oW="85" oH="64" dr="60"/>
+    <sprite n="13" x="163" y="186" w="37" h="60" oX="23" oY="4" oW="85" oH="64" dr="60"/>
+    <sprite n="15" x="2" y="156" w="60" h="27" oX="28" oY="4" oW="85" oH="64" r="y" dr="60"/>
+    <sprite n="17" x="2" y="122" w="60" h="25" oX="29" oY="4" oW="85" oH="64" r="y" dr="60"/>
+    <sprite n="19" x="202" y="186" w="35" h="60" oX="24" oY="4" oW="85" oH="64" dr="60"/>
+    <sprite n="21" x="116" y="186" w="45" h="60" oX="19" oY="3" oW="85" oH="64" dr="60"/>
+    <sprite n="23" x="2" y="186" w="59" h="60" oX="11" oY="3" oW="85" oH="64" dr="60"/>
+    <sprite n="25" x="176" y="2" w="71" h="60" oX="7" oY="4" oW="85" oH="64" dr="60"/>
+    <sprite n="27" x="2" y="62" w="83" h="58" oX="1" oY="5" oW="85" oH="64" dr="60"/>
+    <sprite n="28" x="89" y="2" w="85" h="56" oY="6" oW="85" oH="64" dr="60"/>
+</TextureAtlas>

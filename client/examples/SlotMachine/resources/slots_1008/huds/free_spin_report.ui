@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1008_panel023"/>
+    <PictureMirror id="m_PictureMirror" x="186" y="0" z="0" width="764" height="157" window_state="6">
+        <piece_info value="slots_1008_panel010"/>
+    </PictureMirror>
+    <Picture id="m_Congratulations" x="327" y="26" z="0" width="484" height="85" window_state="6">
+        <piece_info value="slots_1008_panel018"/>
+    </Picture>
+    <Picture id="m_Picture" x="234" y="168" z="0" width="667" height="365" window_state="6">
+        <piece_info value="slots_1008_panel011"/>
+    </Picture>
+    <RichLabel id="m_TotalWin" x="385" y="346" z="0" width="366" height="30" window_state="6">
+        <text value="2,800,000"/>
+        <font_size value="150"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="32"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.41"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="5"/>
+        <outline_color value="cs_yellowTxt2"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_Chips" x="469" y="439" z="0" width="197" height="52" window_state="6">
+        <text value="SLOTS_KINGSRANSOM2_FREESPINREPOT_TEXT_CHIPS"/>
+        <font_size value="52"/>
+        <text_color value="cs_yellowTxt06"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.34999999"/>
+        <outline_center value="0.46000001"/>
+        <word_spacing value="2"/>
+        <outline_color value="cs_yellowTxt2"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_16_Pup_up.png" width="1024" height="1024" blend="2" loop="-1">
+    <sprite n="Pup_up_00000" x="669" y="292" w="351" h="288" oX="85" oW="511" oH="288" dr="80"/>
+    <sprite n="Pup_up_00001" x="669" y="292" w="351" h="288" oX="85" oW="511" oH="288" dr="80"/>
+    <sprite n="Pup_up_00002" x="435" y="2" w="407" h="288" oX="51" oW="511" oH="288" dr="80"/>
+    <sprite n="Pup_up_00003" x="2" y="292" w="288" h="383" oX="64" oW="511" oH="288" r="y" dr="80"/>
+    <sprite n="Pup_up_00004" x="2" y="677" w="375" h="288" oX="68" oW="511" oH="288" dr="80"/>
+    <sprite n="Pup_up_00005" x="292" y="292" w="288" h="359" oX="76" oW="511" oH="288" r="y" dr="80"/>
+    <sprite n="Pup_up_00006" x="379" y="653" w="288" h="351" oX="76" oW="511" oH="288" r="y" dr="80"/>
+    <sprite n="Pup_up_00007" x="2" y="2" w="431" h="288" oX="35" oW="511" oH="288" dr="80"/>
+</TextureAtlas>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1001_panel018"/>
+    <Picture id="m_Picture" x="237" y="10" z="0" width="661" height="579" window_state="6">
+        <piece_info value="slots_1001_panel001"/>
+    </Picture>
+    <Button id="m_StartBtn" x="409" y="455" z="0" width="331" height="103" window_state="6" style="bs_slots_1001_button001">
+        <scale x="0.88" y="0.88" z="0.88"/>
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="m_FreeSpinLbl" x="415" y="283" z="0" width="306" height="90" window_state="6">
+        <text value="999"/>
+        <font_size value="80"/>
+        <text_color value="cs_discount_greenTxt"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.38"/>
+        <outline_center value="0.47999999"/>
+        <word_spacing value="5"/>
+        <outline_color value="cs_BlueTxt03"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel" x="520" y="377" z="0" width="96" height="30" window_state="6">
+        <text value="SLOTS_ROCKAGE2_BASEGAME_POPUP_TEXT_FREESPIN"/>
+        <font_size value="40"/>
+        <text_color value="cs_yellow_1"/>
+        <rich_label_state value="1"/>
+        <glyph_center value="0.31999999"/>
+        <outline_center value="0.46000001"/>
+        <outline_color value="cs_brown_1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel1" x="520" y="255" z="0" width="96" height="30" window_state="6">
+        <text value="SLOTS_ROCKAGE2_BASEGAME_POPUP_TEXT_YOUWIN"/>
+        <font_size value="40"/>
+        <text_color value="cs_yellow_1"/>
+        <rich_label_state value="1"/>
+        <glyph_center value="0.31999999"/>
+        <outline_center value="0.46000001"/>
+        <outline_color value="cs_brown_1"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

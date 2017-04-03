@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="cd01.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="00000" x="250" y="294" w="246" h="144" oW="250" oH="144" dr="90"/>
+    <sprite n="00001" x="2" y="294" w="246" h="144" oW="250" oH="144" dr="90"/>
+    <sprite n="00002" x="250" y="148" w="246" h="144" oW="250" oH="144" dr="90"/>
+    <sprite n="00003" x="2" y="148" w="246" h="144" oW="250" oH="144" dr="90"/>
+    <sprite n="00004" x="250" y="2" w="246" h="144" oW="250" oH="144" dr="90"/>
+    <sprite n="00005" x="2" y="2" w="246" h="144" oW="250" oH="144" dr="90"/>
+</TextureAtlas>

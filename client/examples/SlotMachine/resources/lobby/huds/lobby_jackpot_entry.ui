@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="267" height="393" window_state="14">
+    <Picture id="m_ref" x="0" y="0" z="0" width="267" height="397" window_state="270" style="bs_casino_lobby_jackpot_big0"/>
+    <Sprite id="m_Sprite3" x="-19" y="-4" z="0" width="100" height="100" window_state="12">
+        <sprite_file value="lobby/sprites/casino_red.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite4" x="187" y="-4" z="0" width="100" height="100" window_state="12">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="lobby/sprites/casino_red.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="35" y="-3" z="0" width="200" height="60" window_state="12">
+        <sprite_file value="lobby/sprites/casino_marquee01.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite" x="17" y="160" z="0" width="240" height="100" window_state="12">
+        <sprite_file value="lobby/sprites/jackpot_vfx01.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite2" x="-8" y="94" z="0" width="280" height="200" window_state="12">
+        <blend_mode value="2"/>
+        <sprite_file value="lobby/sprites/jackpot_vfx03.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <PictureMask id="m_PictureMask" x="38" y="68" z="0" width="191" height="31" window_state="6">
+        <blend_mode value="2"/>
+        <action_id value="animation_lobby_jackpotsweep"/>
+        <piece_info value="jackpot_mask01"/>
+        <mask_piece value="jackpot_sweep"/>
+        <mask_offset x="0.5" y="0" z="0"/>
+    </PictureMask>
+    <RichLabel id="m_Total_Jackpot" x="60" y="12" z="0" width="146" height="35" window_state="6">
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="32"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

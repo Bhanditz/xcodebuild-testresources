@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_TranslucentBlack" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+    </Panel>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_Popup" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <Picture id="m_Picture1" x="317" y="153" z="0" width="502" height="394" window_state="270">
+                <piece_info value="slots_015_panel_04a"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="270">
+                <piece_info value="slots_015_panel_04"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="521" y="52" z="0" width="96" height="78" window_state="14">
+                <text value="YOU HAVE WIN CHEST BONUS,GOOD LUCK"/>
+                <font_size value="40"/>
+                <font_id value="shopfont2"/>
+                <outline_center value="0.49000001"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Button" x="443" y="530" z="0" width="241" height="93" window_state="14">
+            <Picture id="m_Picture" x="0" y="0" z="0" width="241" height="93" window_state="270">
+                <piece_info value="slots_015_button_08b"/>
+            </Picture>
+            <Button id="m_BtnStart" x="38" y="3" z="0" width="165" height="79" window_state="262" style="bs_slots_015_button_08a">
+                <font_size value="60"/>
+                <text_align_v value="1"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+    </Panel>
+</Panel>

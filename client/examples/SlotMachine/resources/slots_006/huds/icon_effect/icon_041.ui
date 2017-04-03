@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="140" height="58" window_state="6">
+    <Panel id="m_Panel1" x="-93" y="-401" z="0" width="320" height="595" window_state="4" style="ngs_panel_bg"/>
+    <Picture id="ref" x="2" y="-20" z="0" width="140" height="99" window_state="4">
+        <piece_info value="slots_006_icon_011"/>
+    </Picture>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="140" height="58" window_state="6">
+        <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+        <action_id value="animation_slot006_icon_001_04"/>
+        <Picture id="m_Bg" x="-46" y="-53" z="0" width="232" height="164" window_state="6">
+            <scale x="0.73000002" y="0.73000002" z="0.73000002"/>
+            <action_id value="animation_slot006_icon_001_03"/>
+            <piece_info value="slots_006_icon_011bg"/>
+        </Picture>
+        <Panel id="m_ClipPanel" x="20" y="-20" z="0" width="100" height="91" window_state="262150">
+            <Picture id="m_Fist" x="-66" y="-33" z="0" width="232" height="164" window_state="6">
+                <scale x="0.73000002" y="0.73000002" z="0.73000002"/>
+                <action_id value="animation_slot006_icon_001_02"/>
+                <piece_info value="slots_006_icon_011shou"/>
+            </Picture>
+        </Panel>
+        <Picture id="m_Ring" x="-46" y="-53" z="0" width="232" height="164" window_state="6">
+            <scale x="0.73000002" y="0.73000002" z="0.73000002"/>
+            <action_id value="animation_slot006_icon_001_03"/>
+            <piece_info value="slots_006_icon_011ring"/>
+        </Picture>
+        <Picture id="m_Bolt" x="-46" y="-53" z="0" width="232" height="164" window_state="6">
+            <scale x="0.73000002" y="0.73000002" z="0.73000002"/>
+            <action_id value="animation_slot006_icon_001_01"/>
+            <piece_info value="slots_006_icon_01arowe"/>
+        </Picture>
+        <Panel id="m_ClipPanel2" x="20" y="-20" z="0" width="100" height="60" window_state="262150">
+            <Picture id="m_Fingers" x="-66" y="-33" z="0" width="232" height="164" window_state="6">
+                <scale x="0.73000002" y="0.73000002" z="0.73000002"/>
+                <action_id value="animation_slot006_icon_001_02"/>
+                <piece_info value="slots_006_icon_01quan"/>
+            </Picture>
+        </Panel>
+        <Sprite id="m_Sprite" x="-21" y="-57" z="0" width="188" height="182" window_state="4">
+            <scale x="1.0599999" y="1.0599999" z="1.0599999"/>
+            <sprite_file value="slots_006/sprites/vfx_14_Scatter.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Vfx_Win" x="0" y="0" z="0" width="140" height="58" window_state="6">
+        <Sprite id="vfx_25_3_scattered_lightnings" x="59" y="-252" z="0" width="212" height="102" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_006/sprites/vfx_25_3_scattered_lightnings.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="vfx_19_ring_fireball_effect" x="-160" y="-170" z="0" width="464" height="380" window_state="4">
+            <scale x="0.56999999" y="0.56999999" z="0.56999999"/>
+            <color_scale x="1.4" y="1.1799999" z="1.3" w="0.94999999"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_006/sprites/vfx_19_ring_fireball_effect.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="vfx_25_3_scattered_lightnings_01" x="-22" y="-37" z="0" width="177" height="134" window_state="4">
+            <scale x="1.1" y="1.1" z="1.1"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot006_icon_41_01"/>
+            <piece_info value="zeuse_effect_pic_02"/>
+        </Picture>
+    </Panel>
+</Panel>

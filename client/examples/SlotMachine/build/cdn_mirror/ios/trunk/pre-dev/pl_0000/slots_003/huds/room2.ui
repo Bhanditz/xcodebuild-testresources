@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <action_id value="animation_disco_screencut02"/>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="slots_003_bg_04"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_Panel" x="0" y="25" z="0" width="1136" height="616" window_state="6">
+        <Picture id="m_Picture1" x="141" y="30" z="0" width="880" height="536" window_state="6">
+            <piece_info value="slots_003_panel_021"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <ScrollContainer id="m_ScrollContainer" x="-13" y="-76" z="0" width="1150" height="692" window_state="262150">
+            <Picture id="m_Picture2" x="844" y="64" z="0" width="405" height="686" window_state="6">
+                <piece_info value="slots_003_panel_019"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <Picture id="m_Picture1" x="-811" y="-72" z="0" width="1711" height="764" window_state="6">
+                <piece_info value="slots_003_panel_020"/>
+                <scale_mode value="3"/>
+            </Picture>
+        </ScrollContainer>
+    </Panel>
+</Panel>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="267" height="397" window_state="14">
+    <Picture id="m_PicCover" x="0" y="0" z="0" width="267" height="397" window_state="14"/>
+    <Panel id="m_LimitDays" x="21" y="104" z="0" width="226" height="35" window_state="12">
+        <window_layout value="1"/>
+        <RichLabel id="m_Days" x="24" y="-2" z="0" width="176" height="40" window_state="270">
+            <text value="Ends: 10/9/2016"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_CountDown" x="21" y="103" z="0" width="226" height="38" window_state="14">
+        <RichLabel id="m_Day" x="12" y="-1" z="0" width="38" height="40" window_state="14">
+            <text value="20"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="3"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_DayLabel" x="53" y="-1" z="0" width="51" height="40" window_state="270">
+            <text value="DAYS"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Hour" x="107" y="-1" z="0" width="28" height="40" window_state="14">
+            <text value="24"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="3"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Separator1" x="136" y="-1" z="0" width="6" height="40" window_state="270">
+            <text value=":"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Minutes" x="143" y="-1" z="0" width="25" height="40" window_state="14">
+            <text value="60"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Separator2" x="169" y="-1" z="0" width="6" height="40" window_state="270">
+            <text value=":"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Second" x="176" y="-1" z="0" width="28" height="40" window_state="14">
+            <text value="60"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="1"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.51999998"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="13" game="Luxury City">
+		<BonusGames>
+		</BonusGames>
+		<Icons>
+			<Icon id="1" pieceId="slots_013_icon_02c"  bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_02b" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="2" pieceId="slots_013_icon_05c"  bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_05b" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="3" pieceId="slots_013_icon_01c"  bgPieceId="" sprite="">     <!--  -->
+				<GroupIcon pieceId="slots_013_icon_01b" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="4" pieceId="slots_013_icon_04c"  bgPieceId="" sprite="">     <!--  -->
+				<GroupIcon pieceId="slots_013_icon_04b" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="5" pieceId="slots_013_icon_03c"  bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_03b" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="6" pieceId="slots_013_icon_06b"  bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_06a" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="7" pieceId="slots_013_icon_07b" bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_06c" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="8" pieceId="slots_013_icon_09b"  bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_09a" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="9" pieceId="slots_013_icon_08b"  bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_08a" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="10" pieceId="slots_013_icon_10b"  bgPieceId="" sprite="">		<!--  -->
+				<GroupIcon pieceId="slots_013_icon_10a" iconsOnX="3" iconsOnY="3" iconWidth="650" iconHeight="480"/>
+			</Icon>
+			<Icon id="31" pieceId="slots_013_icon_12c"  bgPieceId="slots_013_icon_12a" sprite="" render_order="1"/>		<!--  -->			
+			<Icon id="41" pieceId="slots_013_icon_11d" bgPieceId="" sprite="" render_order="2"/>		<!-- bonus -->
+		</Icons>
+		<Reel>
+			<!-- near win reel for both basegame and freegame -->
+			<NearWinInfo name="basegame" ReelIds="3" PossibleIconPerReel="3"/> <!-- id starts from 0 -->
+			<NearWinInfo name="freegame" ReelIds="1" PossibleIconPerReel="3" MinTriggerCount="3" ForceCheckIconIds="1,2,3,4,5,6,7,8,9,10"/> <!-- id starts from 0 -->
+			<SpinType name="normal">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.0625"/>
+				<OneReelStopDelayTime value="0.35"/>
+				<OneReelPullDownTime value="0.03"/>
+				<OneReelRollBackTime value="0.06"/>
+				<BestSpinCostTime value="1.2"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.0474"/>
+				<OneReelStopDelayTime value="0.30"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="1.1"/>
+				<NearWinCostTime value="3.2"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="2.0" sequenceTime="3.0" pieceId="">
+			<Payline id="1" lineColor="0xFFFFFFFF" />
+		</Paylines>
+		
+		<Paytables winTextColor="cs_green" /> 
+	</Theme>
+</SlotsConfig>

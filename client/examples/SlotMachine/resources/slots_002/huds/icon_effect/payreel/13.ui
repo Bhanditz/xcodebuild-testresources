@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6">
+    <Picture id="ref" x="-9" y="-18" z="0" width="174" height="136" window_state="6">
+        <action_id value="animation_Sparta_scatter"/>
+        <piece_info value="slots_002_icon9"/>
+    </Picture>
+    <Panel id="m_Panel" x="-9" y="-25" z="0" width="174" height="136" window_state="6">
+        <action_id value="animation_Sparta_scatter"/>
+        <Panel id="m_Panel_light" x="-13" y="-32" z="0" width="200" height="200" window_state="14">
+            <scale x="1.2" y="0.85000002" z="1"/>
+            <Picture id="m_Picture_light" x="5" y="1" z="0" width="189" height="198" window_state="14">
+                <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_Sparta_scatterlight"/>
+                <piece_info value="scatter_light"/>
+            </Picture>
+        </Panel>
+        <Picture id="m_Picture" x="14" y="15" z="0" width="147" height="91" window_state="14">
+            <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+            <anchor_point x="0.5" y="0.57999998" z="0"/>
+            <piece_info value="scatter_front"/>
+        </Picture>
+        <PictureMask id="m_PictureMask_1" x="7" y="10" z="0" width="161" height="104" window_state="14">
+            <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_scatterlight01"/>
+            <piece_info value="slots_002_icon9mask"/>
+            <mask_piece value="scatter_light_01"/>
+            <mask_scale value="0.5"/>
+            <mask_offset x="5.75" y="0" z="0"/>
+        </PictureMask>
+        <PictureMask id="m_PictureMask_2" x="-19" y="-4" z="0" width="211" height="144" window_state="14">
+            <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_scatterlight02"/>
+            <piece_info value="slots_002_icon9amask"/>
+            <mask_piece value="scatter_light_02"/>
+            <mask_scale value="0.5"/>
+            <mask_offset x="7.6500001" y="0" z="0"/>
+        </PictureMask>
+    </Panel>
+</Panel>

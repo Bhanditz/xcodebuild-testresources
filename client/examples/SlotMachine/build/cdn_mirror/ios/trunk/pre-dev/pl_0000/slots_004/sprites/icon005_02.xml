@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="icon005_02.png" width="1024" height="1024" blend="1" loop="1">
+    <sprite n="00012" x="2" y="2" w="246" h="322" oX="1" oW="250" oH="330" dr="100"/>
+    <sprite n="00013" x="2" y="326" w="246" h="314" oX="1" oW="250" oH="330" dr="140"/>
+    <sprite n="00014" x="250" y="2" w="300" h="246" oX="1" oY="13" oW="250" oH="330" r="y" dr="140"/>
+    <sprite n="00015" x="2" y="642" w="246" h="300" oX="1" oY="13" oW="250" oH="330" dr="140"/>
+    <sprite n="00016" x="250" y="250" w="300" h="244" oX="2" oY="13" oW="250" oH="330" r="y" dr="140"/>
+    <sprite n="00017" x="552" y="248" w="300" h="244" oX="2" oY="13" oW="250" oH="330" r="y" dr="140"/>
+    <sprite n="00018" x="552" y="2" w="300" h="244" oX="2" oY="13" oW="250" oH="330" r="y" dr="1600"/>
+</TextureAtlas>

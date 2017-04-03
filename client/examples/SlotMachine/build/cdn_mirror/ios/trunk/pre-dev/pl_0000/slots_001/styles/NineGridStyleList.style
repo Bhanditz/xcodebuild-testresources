@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NineGridStyleList>
+  <NineGridStyle id="ngs_nine_grid_style0">
+    <normal piece_id="slots_001_panel20" min_x="4" min_y="4" max_x="5" max_y="5"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel05">
+    <normal piece_id="slots_001_panel05" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel07">
+    <normal piece_id="slots_001_panel07" min_x="5" min_y="5" max_x="40" max_y="40"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel08">
+    <normal piece_id="slots_001_panel08" min_x="40" min_y="40" max_x="220" max_y="70"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel13">
+    <normal piece_id="slots_001_panel13" min_x="9" min_y="9" max_x="10" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel14">
+    <normal piece_id="slots_001_panel14" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel15">
+    <normal piece_id="slots_001_panel15" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel18">
+    <normal piece_id="slots_001_panel18" min_x="0" min_y="24" max_x="0" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel20">
+    <normal piece_id="slots_001_panel20" min_x="4" min_y="4" max_x="5" max_y="5"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel22">
+    <normal piece_id="slots_001_panel22" min_x="0" min_y="10" max_x="0" max_y="12"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel23">
+    <normal piece_id="slots_001_panel23" min_x="0" min_y="10" max_x="0" max_y="12"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel28">
+    <normal piece_id="slots_001_panel28" min_x="34" min_y="0" max_x="35" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_001_panel29">
+    <normal piece_id="slots_001_panel29" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+</NineGridStyleList>

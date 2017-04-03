@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="210" height="121" window_state="6">
+    <Panel id="m_StarPoints" x="0" y="0" z="0" width="172" height="48" window_state="6">
+        <window_layout value="1"/>
+        <window_layout_align_h value="0"/>
+        <anchor_point x="0" y="0" z="0"/>
+        <RichLabel id="m_LblStar" x="0" y="5" z="0" width="176" height="37" window_state="6">
+            <anchor_point x="0" y="0" z="0"/>
+            <text value="+-"/>
+            <font_size value="40"/>
+            <text_color value="cs_green"/>
+            <text_align_h value="1"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

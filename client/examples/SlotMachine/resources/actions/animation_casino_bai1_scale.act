@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ActionSequeue>
+	<ActionPictureScale scale_top_begin="0.5" scale_top_end="1.43" scale_bottom_begin="0.5" scale_bottom_end="2.44" duration="0.67" />
+	<ActionPictureScale scale_top_begin="1.43" scale_top_end="0.5" scale_bottom_begin="2.44" scale_bottom_end="0.5" duration="0.3" />
+	<ActionPictureScale scale_top_begin="0.5" scale_top_end="0.5" scale_bottom_begin="0.5" scale_bottom_end="0.5" duration="0.82" />
+	<ActionPictureScale scale_top_begin="0.5" scale_top_end="1.43" scale_bottom_begin="0.5" scale_bottom_end="2.44" duration="0.27" />
+	<ActionPictureScale scale_top_begin="1.43" scale_top_end="0.5" scale_bottom_begin="2.44" scale_bottom_end="0.5" duration="0.62" />
+</ActionSequeue>

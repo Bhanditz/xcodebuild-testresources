@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6" style="ngs_panel_bg">
+    <Picture id="ref" x="0" y="0" z="0" width="156" height="100" window_state="4">
+        <piece_info value="slots_002_icon23"/>
+    </Picture>
+    <Sprite id="m_SpartaAnimation02" x="-125" y="-182" z="0" width="400" height="450" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_animation02.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_SpartaAnimation03" x="-125" y="-182" z="0" width="400" height="450" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_animation03.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Left1arrow1" x="20" y="-130" z="0" width="159" height="240" window_state="4">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_002/sprites/Sparta_left2arrow_01.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Left1arrow2" x="20" y="-130" z="0" width="159" height="240" window_state="6">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_002/sprites/Sparta_left2arrow_02.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Left1arrow3" x="24" y="-127" z="0" width="158" height="568" window_state="4">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_002/sprites/Sparta_left2arrow_03.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite_Wild" x="-24" y="-22" z="0" width="200" height="110" window_state="4">
+        <sprite_file value="slots_002/sprites/Sparta_wild.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+</Panel>

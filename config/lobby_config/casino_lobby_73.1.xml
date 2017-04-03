@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<root>		
+	<Theme name="CasinoLobby" id="1" tag="0" icon="0" link="CasinoLobby"/>
+	<Theme name="CasinoLobby" id="2" icon="0" link="Slot"/>
+	<Theme name="Slot" id="1" icon="1" link="Slot@1"/>
+	<Theme name="VideoPoker" id="1" icon="1" link="VideoPoker"/>
+	<Theme name="Slot" id="2" icon="1" link="Slot@2"/>
+	<Theme name="BlackJack" id="1" icon="1" link="BlackJack"/>
+</root>

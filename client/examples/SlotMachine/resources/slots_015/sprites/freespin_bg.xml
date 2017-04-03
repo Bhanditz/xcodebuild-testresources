@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="freespin_bg.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="00001" x="204" y="2" w="184" h="188" oX="58" oY="63" oW="300" oH="300" r="y" dr="80"/>
+    <sprite n="00003" x="350" y="192" w="142" h="168" oX="68" oY="84" oW="300" oH="300" r="y" dr="80"/>
+    <sprite n="00005" x="2" y="204" w="184" h="194" oX="58" oY="60" oW="300" oH="300" r="y" dr="80"/>
+    <sprite n="00006" x="2" y="2" w="200" h="200" oX="61" oY="45" oW="300" oH="300" dr="80"/>
+    <sprite n="00007" x="188" y="204" w="160" h="192" oX="53" oY="44" oW="300" oH="300" dr="80"/>
+</TextureAtlas>

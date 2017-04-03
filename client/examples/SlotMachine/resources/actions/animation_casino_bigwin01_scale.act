@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ActionSequeue>
+	<ActionDelay duration="0.0" />
+	<ActionLoop repeat="-1">
+		<ActionSequeue>
+		        <ActionPictureScale scale_top_begin="1.65" scale_top_end="0.8" scale_bottom_begin="2.14" scale_bottom_end="0.6" duration="2.42" />
+		        <ActionPictureScale scale_top_begin="0.8" scale_top_end="1.65" scale_bottom_begin="0.6" scale_bottom_end="2.14" duration="2.42" />
+		</ActionSequeue>
+	</ActionLoop>
+</ActionSequeue>

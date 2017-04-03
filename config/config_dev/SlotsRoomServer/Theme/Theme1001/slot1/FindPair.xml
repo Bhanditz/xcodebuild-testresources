@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<!-- 
+		
+-->
+
+<root>
+	<FindPair id="1" Time="15" TimeBonus="50">
+		<CardList>
+			<Card id="1" Res="1" Value="500"/>
+			<Card id="2" Res="2" Value="500"/>
+			<Card id="3" Res="3" Value="500"/>
+			<Card id="4" Res="4" Value="500"/>
+			<Card id="5" Res="5" Value="500"/>
+			<Card id="6" Res="6" Value="500"/>
+		</CardList>
+	</FindPair>
+	
+	<FindPair id="2" Time="15" TimeBonus="50">
+		<CardList>
+			<Card id="1" Res="1" Value="2000"/>
+			<Card id="2" Res="2" Value="2000"/>
+			<Card id="3" Res="3" Value="2000"/>
+			<Card id="4" Res="4" Value="2000"/>
+			<Card id="5" Res="5" Value="2000"/>
+			<Card id="6" Res="6" Value="2000"/>
+		</CardList>
+	</FindPair>
+	
+	<FindPair id="3" Time="15" TimeBonus="50">
+		<CardList>
+			<Card id="1" Res="1" Value="10000"/>
+			<Card id="2" Res="2" Value="10000"/>
+			<Card id="3" Res="3" Value="10000"/>
+			<Card id="4" Res="4" Value="10000"/>
+			<Card id="5" Res="5" Value="10000"/>
+			<Card id="6" Res="6" Value="10000"/>
+		</CardList>
+	</FindPair>
+</root>

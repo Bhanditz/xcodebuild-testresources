@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<!-- 
+	ID结：黑盒游戏的编号
+	MaxKindType:最大选出的选择类别
+	
+	KindCollect结点元素：
+		Type :类型编号 从1开始
+		AppearWeight:显示类型的权重
+		ConditionAppear:显示条件，0表示都显示  1表示最大注显示  2表示非最大注时显示
+	
+	ChoiceList结点元素wq 
+		id:选项的编号 ，不可以重复
+		kindType:归属类型id
+		selectWeight:选择权重
+		ChoiceCondition:选项的附加条件
+				ChoicePriority：优项优先级 当前选项：ChoiceID 前置选项：PreChoiceID
+				EndCondition：触发结束的选项组合
+				
+		
+	Trigger结点元素
+		KindID:命中的类型id
+		CollectedAmount:需要收集的个数
+		LastTrigger: 1时是最后一个选项
+		
+		CollectedAmount:需要收集个数
+		TriggerType:满足条件，触发游戏类型  上前的类型有：BonusGame,Jackpot,PayCoins,Freespin
+		TriggerTargetID:触发的目标id,如果类型是BonusGame,则该属性为BonusGame的id
+		TriggerTargetInput:输入参数
+		
+		如果类型BonusGame
+		TriggerTargetID:表示bounsgameid
+		TriggerTargetInput:附加参数
+		
+		如果类型Jackpot
+		TriggerTargetID:表示basegame的主题id(SlotList.xml中的id属性)
+		TriggerTargetInput:表示JackpotID
+		
+		如果类型PayCoins
+		TriggerTargetID:填0
+		TriggerTargetInput:表示赠送的筹码数
+		
+		如果类型Freespin
+				TriggerTargetID:packid
+		TriggerTargetInput:免费次数
+		
+		如果类型MultiplePayCredit 抽取金币 如果TriggerTargetInput有配置值，则直接用这个固定值
+		如果类型MultiplePayLevelUp 升级抽取的金币分组
+		如果类型End 结束Trigger
+		如果类型MultiplePayExtraCredit 额外奖励抽取
+		
+-->
+
+<root>
+
+</root>

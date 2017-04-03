@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="casino_offer_bg"/>
+    </Picture>
+    <Button id="m_BtnCollect" x="347" y="529" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn012">
+        <font_size value="90"/>
+        <text_offset x="0" y="-2" z="0"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+        <Picture id="m_Picture0" x="46" y="19" z="0" width="160" height="47" window_state="14">
+            <scale x="0.97000003" y="0.97000003" z="0.97000003"/>
+            <piece_info value="casino_common_icon48"/>
+        </Picture>
+        <Picture id="m_Picture1" x="216" y="3" z="0" width="182" height="78" window_state="14">
+            <scale x="0.93000001" y="0.93000001" z="0.93000001"/>
+            <piece_info value="casino_common_icon48a"/>
+        </Picture>
+    </Button>
+    <Button id="m_BtnClose" x="1034" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+    <RichLabel id="m_GetnowValue" x="305" y="425" z="0" width="244" height="30" window_state="6">
+        <text value="600,000"/>
+        <text_align_h value="1"/>
+        <font_id value="UnlockNewGame"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_DailyAwardValue" x="715" y="425" z="0" width="244" height="30" window_state="6">
+        <text value="50,000"/>
+        <text_align_h value="1"/>
+        <font_id value="UnlockNewGame"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel implement_class="ExpBuffIcon" id="m_Buff" x="973" y="419" z="0" width="148" height="160" window_state="6">
+        <scale x="0.87" y="0.87" z="0.87"/>
+        <Picture id="m_Picture0" x="-31" y="10" z="0" width="203" height="155" window_state="6">
+            <piece_info value="casino_common_panel99"/>
+        </Picture>
+        <RichLabel id="m_LbBuffBetValue" x="6" y="6" z="0" width="73" height="25" window_state="6">
+            <text value="3"/>
+            <font_size value="25"/>
+            <text_align_h value="1"/>
+            <font_id value="buff"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_x" x="62" y="4" z="0" width="73" height="25" window_state="6">
+            <text value="x"/>
+            <font_size value="25"/>
+            <font_id value="buff"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LbBuffTime" x="9" y="126" z="0" width="122" height="30" window_state="6">
+            <text value="1.5 Hours"/>
+            <font_size value="40"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.31999999"/>
+            <outline_center value="0.52999997"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

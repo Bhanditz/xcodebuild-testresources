@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<trans key="COMMON_ATTR_CHIPS" trunk="Chips" numchar="-1" from="code.po"/>
+	<trans key="BINGO_ROOM_ATTR_BINGOS" trunk="#0 BINGOS" numchar="-1" from="code.po"/>
+	<trans key="BINGO_BUY_CARDS" trunk="#0 CARDS" numchar="-1" from="code.po"/>
+	<trans key="BINGO_BUY_TO_SPIN" trunk="#0 TO SPIN" numchar="-1" from="code.po"/>
+	<trans key="BINGO_ADD_XP" trunk="+#0 XP" numchar="-1" from="code.po"/>
+	<trans key="BINGO_STATE_BOOSTS" trunk="BOOSTS" numchar="-1" from="code.po"/>
+	<trans key="BINGO_BUY" trunk="BUY" numchar="-1" from="code.po"/>
+	<trans key="ACCOUNT_RESULT_FAILED_MSG_01" trunk="BoundVendor AccountLogin with error code=#0" numchar="-1" from="code.po"/>
+	<trans key="ACCOUNT_SWITCH_FAILED_MSG_02" trunk="Restart the game with a new account?" numchar="-1" from="code.po"/>
+	<trans key="BINGO_STATE_BUY_BOOST" trunk="Buy boost" numchar="-1" from="code.po"/>
+	<trans key="COMMON_ACCOUNT_BIND_ACCOUNT" trunk="Bind Account" numchar="-1" from="code.po"/>
+	<trans key="COMMON_ACCOUNT_SWITCH_ACCOUNT" trunk="Switch Account" numchar="-1" from="code.po"/>
+	<trans key="COMMON_ACCOUNT_FREEZED_01" trunk="Sorry!Your account has been fozen.\nPlease contact Live Support." numchar="-1" from="code.po"/>
+	<trans key="COMMON_ACCOUNT_FREEZED_02" trunk="NOTICE" numchar="-1" from="code.po"/>
+	<trans key="COMMON_ACCOUNT_FREEZED_03" trunk="Live Support" numchar="-1" from="code.po"/>
+	<trans key="COMMON_BIGWIN_BUTTON_COLLECTNOW" trunk="Collect Now" numchar="-1" from="code.po"/>
+	<trans key="COMMON_BIGWIN_BUTTON_SKIP" trunk="Skip" numchar="-1" from="code.po"/>
+	<trans key="COMMON_IGGID" trunk="IGGID: #0" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MSG_BOX_CANCEL" trunk="Cancel" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MSG_BOX_CONTINUE" trunk="Continue" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MSG_BOX_EXIT" trunk="Exit" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MSG_BOX_HINT" trunk="Hint" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MSG_BOX_NO" trunk="No" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MSG_BOX_OK" trunk="Ok" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MSG_BOX_YES" trunk="Yes" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_EXP_TO_NEXT_LV" trunk="EXP to Next Level:" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_LV" trunk="Lv." numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_LV#0" trunk="Lv.#0" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_MAX_BET_INCREASE" trunk="Max Bet Increase:" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_NEXT_LV_REWARD" trunk="Next Level Reward:" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_RECORD_DAYS" trunk="Days" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_RECORD_HOURS" trunk="Hours" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_RECORD_MINUTES" trunk="Mins" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_RECORD_SECONDS" trunk="Sec" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_RECORD_YEARS" trunk="Years" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_STAR#0" trunk="STAR#0" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PLAYER_UNLOCK_LV" trunk="Unlock:" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PROFILE_EDIT_FLAG" trunk="Hello there!" numchar="-1" from="code.po"/>
+	<trans key="COMMON_PROFILE_ERIT" trunk="Profile Edit" numchar="-1" from="code.po"/>
+	<trans key="COMMON_QUIT_MSG_01" trunk="Game in progress. Are you sure you want to quit?" numchar="-1" from="code.po"/>
+	<trans key="COMMON_RANK_#0" trunk="#0th" numchar="-1" from="code.po"/>
+	<trans key="COMMON_RANK_1" trunk="1st" numchar="-1" from="code.po"/>
+	<trans key="COMMON_RANK_2" trunk="2nd" numchar="-1" from="code.po"/>
+	<trans key="COMMON_RANK_3" trunk="3rd" numchar="-1" from="code.po"/>
+	<trans key="BINGO_STATE_COOLDOWN" trunk="COOLDOWN" numchar="-1" from="code.po"/>
+	<trans key="BINGO_CARD_REWARD_MSG_01" trunk="Card to reveal a bonus#0" numchar="-1" from="code.po"/>
+	<trans key="BINGO_CARD_REWARD_MSG_02" trunk="Cards to reveal a bonus#0" numchar="-1" from="code.po"/>
+	<trans key="DATA_SOURCE_CASH_#0" trunk="DATA_SOURCE_CASH_#0" numchar="-1" from="code.po"/>
+	<trans key="DATA_SOURCE_COIN_#0" trunk="DATA_SOURCE_COIN_#0" numchar="-1" from="code.po"/>
+	<trans key="BINGO_BUY_FREE_SPIN" trunk="FREE SPIN" numchar="-1" from="code.po"/>
+	<trans key="FRIEND_ADD_SUCCESS" trunk="You have successfully added #0 as a friend!" numchar="-1" from="code.po"/>
+	<trans key="FRIEND_IS_FULL" trunk="Your friend list is full! please unfriend someone before adding more friend." numchar="-1" from="code.po"/>
+	<trans key="FRIEND_NOT_FOUND" trunk="No matches found.Sorry!" numchar="-1" from="code.po"/>
+	<trans key="FRIEND_REMOVED" trunk="Friend Removed!" numchar="-1" from="code.po"/>
+	<trans key="FRIEND_REQUEST_SENT" trunk="Friend Request Sent!" numchar="-1" from="code.po"/>
+	<trans key="BINGO_FINDING_OPPONENT" trunk="Finding Opponent" numchar="-1" from="code.po"/>
+	<trans key="COMMON_QUIT_MSG_02" trunk="Game in progress. Are you sure you want to forfeit your cards and quit this game?" numchar="-1" from="code.po"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_ALL_FAILURE_MSG" trunk="Take All Reward Error!\n Result Type:#0" numchar="-1" from="code.po"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_ALL_FAILURE_TITLE" trunk="Take All Reward Error" numchar="-1" from="code.po"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_FAILURE_MSG" trunk="Take Reward Error!\n Result:#0\n ItemType:#1  ItemId:#2" numchar="-1" from="code.po"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_FAILURE_TITLE" trunk="Take Reward Error" numchar="-1" from="code.po"/>
+	<trans key="BINGO_ALERT_MSG_01" trunk="It's a failed bingo , proceed?" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_BA" trunk="LANGUAGE_BA" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_DE" trunk="LANGUAGE_DE" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_EN_US" trunk="LANGUAGE_EN_US" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_FP_TW" trunk="LANGUAGE_FP_TW" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_FR" trunk="LANGUAGE_FR" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_I18N" trunk="LANGUAGE_I18N" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_IT" trunk="LANGUAGE_IT" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_JP" trunk="LANGUAGE_JP" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_KR" trunk="LANGUAGE_KR" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_RU" trunk="LANGUAGE_RU" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_TH" trunk="LANGUAGE_TH" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_TRUNK" trunk="LANGUAGE_TRUNK" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_UNKNOWN" trunk="LANGUAGE_UNKNOWN" numchar="-1" from="code.po"/>
+	<trans key="LANGUAGE_ZH_TW" trunk="LANGUAGE_ZH_TW" numchar="-1" from="code.po"/>
+	<trans key="LIKE_LIKEFAIL_BUTTON" trunk="OK" numchar="-1" from="code.po"/>
+	<trans key="LIKE_LIKEFAIL_CONTENT" trunk="Failed to LIKE on Facebook, please try again!" numchar="-1" from="code.po"/>
+	<trans key="LIKE_LIKEFAIL_TITLE" trunk="TRY AGAIN!" numchar="-1" from="code.po"/>
+	<trans key="LIKE_POPUP_BUTTON1" trunk="NOT NOW" numchar="-1" from="code.po"/>
+	<trans key="LIKE_POPUP_BUTTON2" trunk="LIKE NOW" numchar="-1" from="code.po"/>
+	<trans key="LIKE_POPUP_CONTENT1" trunk="Like our game? Please like us on Facebook! \nHere is some chips reward for your support." numchar="-1" from="code.po"/>
+	<trans key="LIKE_POPUP_CONTENT2" trunk="#0 chips" numchar="-1" from="code.po"/>
+	<trans key="LIKE_POPUP_TITLE" trunk="LIKE US ON FACEBOOK" numchar="-1" from="code.po"/>
+	<trans key="LOBBY_BUTTON_BACK_TO_LOBBY" trunk="BACK TO LOBBY" numchar="-1" from="code.po"/>
+	<trans key="LOBBY_BUTTON_BACK_TO_SLOTS" trunk="BACK TO SLOTS" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_ERROR_MSG" trunk="login failed error code=#0, retry ?" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_MSG_01" trunk="connect to user server failed" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_MSG_02" trunk="connect to game server failed" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_MSG_03" trunk="max number of game server connection" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_MSG_04" trunk="connect to db server failed" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_MSG_05" trunk="duplicate login request" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_MSG_06" trunk="igg verify failed" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_MSG_07" trunk="igg verify timeout" numchar="-1" from="code.po"/>
+	<trans key="LS_CONNECTING_GS" trunk="LS_CONNECTING_GS" numchar="-1" from="code.po"/>
+	<trans key="LS_CONNECTING_LS" trunk="LS_CONNECTING_LS" numchar="-1" from="code.po"/>
+	<trans key="LS_END_DOWNLOADING_SERVER_LIST" trunk="LS_END_DOWNLOADING_SERVER_LIST" numchar="-1" from="code.po"/>
+	<trans key="LS_END_GS_LOGIN" trunk="LS_END_GS_LOGIN" numchar="-1" from="code.po"/>
+	<trans key="LS_END_INITIALIZE" trunk="LS_END_INITIALIZE" numchar="-1" from="code.po"/>
+	<trans key="LS_END_LS_LOGIN" trunk="LS_END_LS_LOGIN" numchar="-1" from="code.po"/>
+	<trans key="LS_END_PLATFORM_LOGIN" trunk="LS_END_PLATFORM_LOGIN" numchar="-1" from="code.po"/>
+	<trans key="LS_END_RECEIVING_ROLE_INFO" trunk="LS_END_RECEIVING_ROLE_INFO" numchar="-1" from="code.po"/>
+	<trans key="LS_FAILED_GS_LOGIN_CONNECTION" trunk="LS_FAILED_GS_LOGIN_CONNECTION" numchar="-1" from="code.po"/>
+	<trans key="LS_FAILED_GS_LOGIN_STATE_ERROR" trunk="LS_FAILED_GS_LOGIN_STATE_ERROR" numchar="-1" from="code.po"/>
+	<trans key="LS_FAILED_GS_LOGIN_THREAD_ERROR" trunk="LS_FAILED_GS_LOGIN_THREAD_ERROR" numchar="-1" from="code.po"/>
+	<trans key="LS_FAILED_LS_LOGIN_CONNECTION" trunk="LS_FAILED_LS_LOGIN_CONNECTION" numchar="-1" from="code.po"/>
+	<trans key="LS_FAILED_LS_LOGIN_STATE_ERROR" trunk="LS_FAILED_LS_LOGIN_STATE_ERROR" numchar="-1" from="code.po"/>
+	<trans key="LS_FAILED_LS_LOGIN_THREAD_ERROR" trunk="LS_FAILED_LS_LOGIN_THREAD_ERROR" numchar="-1" from="code.po"/>
+	<trans key="LS_INIT_CONFIGS" trunk="LS_INIT_CONFIGS" numchar="-1" from="code.po"/>
+	<trans key="LS_INIT_HANDLERS" trunk="LS_INIT_HANDLERS" numchar="-1" from="code.po"/>
+	<trans key="LS_LOBBY_ENTERED" trunk="LS_LOBBY_ENTERED" numchar="-1" from="code.po"/>
+	<trans key="LS_PRE_INIT_MSGBOXS" trunk="LS_PRE_INIT_MSGBOXS" numchar="-1" from="code.po"/>
+	<trans key="LS_PRE_INIT_SCREENS" trunk="LS_PRE_INIT_SCREENS" numchar="-1" from="code.po"/>
+	<trans key="LS_START_DOWNLOADING_SERVER_LIST" trunk="LS_START_DOWNLOADING_SERVER_LIST" numchar="-1" from="code.po"/>
+	<trans key="LS_START_GS_LOGIN" trunk="LS_START_GS_LOGIN" numchar="-1" from="code.po"/>
+	<trans key="LS_START_INITIALIZE" trunk="LS_START_INITIALIZE" numchar="-1" from="code.po"/>
+	<trans key="LS_START_LS_LOGIN" trunk="LS_START_LS_LOGIN" numchar="-1" from="code.po"/>
+	<trans key="LS_START_PLATFORM_LOGIN" trunk="LS_START_PLATFORM_LOGIN" numchar="-1" from="code.po"/>
+	<trans key="LS_START_RECEIVING_ROLE_INFO" trunk="LS_START_RECEIVING_ROLE_INFO" numchar="-1" from="code.po"/>
+	<trans key="TOURNMENT_LV_RANGE" trunk="Level:#0 - #1" numchar="-1" from="code.po"/>
+	<trans key="BINGO_LOADING" trunk="Loading" numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_TITLE_01" trunk="Failed to login." numchar="-1" from="code.po"/>
+	<trans key="LOGIN_RESULT_TITLE_02" trunk="Switch Account" numchar="-1" from="code.po"/>
+	<trans key="NETWORK_CONNECTION_BREAK" trunk="connection break" numchar="-1" from="code.po"/>
+	<trans key="NETWORK_CONNECTION_BREAK_MSG" trunk="network connection break, retry ?" numchar="-1" from="code.po"/>
+	<trans key="NETWORK_CONNECTION_BREAK_TITLE" trunk="network problem" numchar="-1" from="code.po"/>
+	<trans key="NETWORK_ERROR_MSG" trunk="network unreachable, retry again ?" numchar="-1" from="code.po"/>
+	<trans key="NETWORK_ERROR_TITLE" trunk="network error" numchar="-1" from="code.po"/>
+	<trans key="BINGO_STATE_NO_BOOST" trunk="NO BOOST" numchar="-1" from="code.po"/>
+	<trans key="BINGO_RANK_SCRATCH_CARD_NEED_SCORE" trunk="Need:Score #0" numchar="-1" from="code.po"/>
+	<trans key="PANEL_SETTING_LOGIN_FAILED_#0_#1" trunk="PANEL_SETTING_LOGIN_FAILED_#0_#1" numchar="-1" from="code.po"/>
+	<trans key="PD_ACCOUNT_BALANCE" trunk="Account Balance: #0" numchar="-1" from="code.po"/>
+	<trans key="PD_ACCOUNT_BALANCE_WITH_AVAILABLE" trunk="Account Balance: #0 (#1 available)" numchar="-1" from="code.po"/>
+	<trans key="PD_ADD_EXP_STRING_#0" trunk="+#0 EXP" numchar="-1" from="code.po"/>
+	<trans key="PD_BUY_INTO_GAME" trunk="Buy In" numchar="-1" from="code.po"/>
+	<trans key="PD_BUY_IN_BTN_TEXT_#0" trunk="&lt;image scale='0.9' id='poker_icon_005'/&gt;  #0" numchar="-1" from="code.po"/>
+	<trans key="PD_BUY_IN_ROOM_SPEED_FAST" trunk="Fast" numchar="-1" from="code.po"/>
+	<trans key="PD_BUY_IN_ROOM_SPEED_NORMAL" trunk="Normal" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_IN_PUBLIC_CARD_#0" trunk="&lt;font color=&quot;cs_yellow&quot;&gt;#0&lt;/font&gt;" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_FLUSH" trunk="Flush" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_FOUR_OF_A_KIND" trunk="Four of a Kind" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_FULL_HOUSE" trunk="Full House" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_HIGH_CARD" trunk="High Card" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_ONE_PAIR" trunk="One Pair" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_ROYAL_STRAIGHT" trunk="Royal Flush" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_STRAIGHT" trunk="Straight" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_STRAIGHT_FLUSH" trunk="Straight Flush" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_TWO_PAIR" trunk="Two Pair" numchar="-1" from="code.po"/>
+	<trans key="PD_CARD_TYPE_X_OF_A_KIND" trunk="Three of a Kind" numchar="-1" from="code.po"/>
+	<trans key="PD_CHAT_WARNNING_FORBID_SAY" trunk="You have been muted. Please contact Live Support." numchar="-1" from="code.po"/>
+	<trans key="PD_CONFIRM" trunk="OK" numchar="-1" from="code.po"/>
+	<trans key="PD_END_OF_SNG" trunk="End of Sit&amp;Go" numchar="-1" from="code.po"/>
+	<trans key="PD_END_OF_STO" trunk="End of SHOOTOUT" numchar="-1" from="code.po"/>
+	<trans key="PD_ENTER_ROOM_FAILED_#0" trunk="Failed to join Room #0" numchar="-1" from="code.po"/>
+	<trans key="PD_ENTER_ROOM_NEED_UNLOCK_MORE_ROOM" trunk="Increase your VIP level to unlock more Multi-Play tables." numchar="-1" from="code.po"/>
+	<trans key="PD_ENTER_ROOM_NOT_ENOUGH_MONEY" trunk="You don't have enough Chips to buy into these rooms. Choose a room with a lower buy-in or get more Chips!" numchar="-1" from="code.po"/>
+	<trans key="PD_ENTER_ROOM_ONLY_CAN_ONE_SHOOTOUT" trunk="You can only join one Shootout tournament at a time." numchar="-1" from="code.po"/>
+	<trans key="PD_EXIT_TO_LOBBY_TITLE" trunk="Back to Lobby" numchar="-1" from="code.po"/>
+	<trans key="PD_FIRST_RANK_PLAY_NEXT_ROUND_#0" trunk="Play Round #0" numchar="-1" from="code.po"/>
+	<trans key="PD_GAME_ACTION_PLAYER_CARD_#0_#1_#2" trunk="#0 has #1(#2)" numchar="-1" from="code.po"/>
+	<trans key="PD_HINT_PLEASE_SIT_DOWN" trunk="Sit to Play" numchar="-1" from="code.po"/>
+	<trans key="PD_HINT_SNG_ROOM_#0" trunk="#0 more players needed to start the game." numchar="-1" from="code.po"/>
+	<trans key="PD_HINT_STO_ROOM_#0" trunk="#0 more players needed to start the game." numchar="-1" from="code.po"/>
+	<trans key="PD_HINT_WAIT_FOR_NEXT_HAND" trunk="Please wait for the next hand" numchar="-1" from="code.po"/>
+	<trans key="PD_HINT_WAIT_MORE_PLAYER" trunk="Please wait for more players to join the table." numchar="-1" from="code.po"/>
+	<trans key="PD_LEAVE_TOURNAMENT_ROOM" trunk="You'll forfeit the game if you leave the room. Leave anyway?" numchar="-1" from="code.po"/>
+	<trans key="PD_LEAVE_TOURNAMENT_ROOM_TITLE" trunk="Leave Room" numchar="-1" from="code.po"/>
+	<trans key="PD_LOBBY_STATEMULTI_TABLE" trunk="Select Table" numchar="-1" from="code.po"/>
+	<trans key="PD_LOBBY_STATE_HOLDEM" trunk="Max Buy-In" numchar="-1" from="code.po"/>
+	<trans key="PD_LOBBY_STATE_SNG" trunk="Entry Fee" numchar="-1" from="code.po"/>
+	<trans key="PD_LOBBY_STO_FREE" trunk="Free to Play" numchar="-1" from="code.po"/>
+	<trans key="PD_LOBBY_STO_TO_PLAY" trunk="#0 to play" numchar="-1" from="code.po"/>
+	<trans key="PD_LOBBY_STO_TO_PLAY_AGAIN" trunk="#0 to play again" numchar="-1" from="code.po"/>
+	<trans key="PD_MSG_BUTTON_01" numchar="-1" from="code.po"/>
+	<trans key="PD_MSG_BUTTON_02" numchar="-1" from="code.po"/>
+	<trans key="PD_MULTI_ROOM_ADD_TABLE" trunk="Add Table" numchar="-1" from="code.po"/>
+	<trans key="PD_MULTI_ROOM_BTN_NO_SELECT" trunk="Set a Table" numchar="-1" from="code.po"/>
+	<trans key="PD_MULTI_ROOM_BTN_TEXT2_#0" trunk="Play #0 Tables" numchar="-1" from="code.po"/>
+	<trans key="PD_MULTI_ROOM_BTN_TEXT_#0" trunk="Play #0 Table" numchar="-1" from="code.po"/>
+	<trans key="PD_MULTI_ROOM_ENTER_ONE_AL_LEAST" trunk="Set at least one room type" numchar="-1" from="code.po"/>
+	<trans key="PD_MULTI_ROOM_SELECT_TIP" trunk="Select Room" numchar="-1" from="code.po"/>
+	<trans key="PD_MULTI_TABLE_UNLOCK_OF_STAR_#0" trunk="Unlocks at&#xA;VIP #0" numchar="-1" from="code.po"/>
+	<trans key="PD_OPER_HINT_ALL_IN" trunk="Go all in for #0?" numchar="-1" from="code.po"/>
+	<trans key="PD_OPER_HINT_CALL" trunk="Call for #0?" numchar="-1" from="code.po"/>
+	<trans key="PD_OPER_HINT_CHECK_OR_BET" trunk="Check or Bet?" numchar="-1" from="code.po"/>
+	<trans key="PD_OPER_TIME_OUT_MAX_TIP" trunk="You were removed for inactivity." numchar="-1" from="code.po"/>
+	<trans key="PD_OPER_TIME_OUT_TIP_#0_#1" trunk="#0/#1 turns missed!&#xA;Play the next turn to stay in the tournament." numchar="-1" from="code.po"/>
+	<trans key="PD_PLAY_NOW" trunk="Play Now" numchar="-1" from="code.po"/>
+	<trans key="PD_POKER_ROOM_YOUR_FRIEND_LEAVE_ROOM_#0" trunk="#0 has left the room." numchar="-1" from="code.po"/>
+	<trans key="PD_POKER_ROOM_YOUR_FRIEND_ON_THE_TABLE_#0" trunk="#0 is currently at a table. Go join them!" numchar="-1" from="code.po"/>
+	<trans key="PD_POKER_ROOM_YOUR_FRIEND_WATCHING_#0" trunk="#0 is watching." numchar="-1" from="code.po"/>
+	<trans key="PD_POP_UP_MENU_ROOM_INFO_#0_#1" trunk="&lt;image id = 'poker_icon_012'/&gt; #0 &lt;image id = 'poker_icon_013'/&gt; #1" numchar="-1" from="code.po"/>
+	<trans key="PD_PROFILE_EDIT_LATER" trunk="Not Now" numchar="-1" from="code.po"/>
+	<trans key="PD_PROFILE_STATE_MULTI_TABLE" trunk="Multi-Play" numchar="-1" from="code.po"/>
+	<trans key="PD_QUIT_ALL_ROOM_HINT" trunk="You'll leave all your tables when you exit to the lobby. Proceed?" numchar="-1" from="code.po"/>
+	<trans key="PD_RECONNECT_NORMAL_BACK_GAME" trunk="Welcome back! We removed you from the last table to keep you from losing any Chips." numchar="-1" from="code.po"/>
+	<trans key="PD_RECONNECT_NORMAL_BACK_LOBBY" trunk="Welcome back! We've been keeping your Chips safe for you." numchar="-1" from="code.po"/>
+	<trans key="PD_RECONNECT_TOURNAMENT_BACK_GAME" trunk="Welcome back! We kept your seat warm for you!" numchar="-1" from="code.po"/>
+	<trans key="PD_RECONNECT_TOURNAMENT_BACK_LOBBY" trunk="Welcome back! We've been keeping your Chips safe for you." numchar="-1" from="code.po"/>
+	<trans key="PD_ROLE_LEVEL_UP_#0" trunk="Congratulations! You've reached Lv #0!" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_BET" trunk="Bet" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_BUTTON_ALL_IN" trunk="All In" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_CALL_ANY" trunk="Call Any" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_MAX_BET" trunk="Max Bet" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_HOLDEM_TABLE" trunk="HOLD'EM Tables" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_HOLDEM_TABLE_#0" trunk="HOLD'EM: #0" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_HOLDEM_TABLE_2_#0" trunk="HOLD'EM: #0" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_HOLDEM_TABLE_SHORT" trunk="HOLD'EM" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_SNG" trunk="Sit &amp; Go" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_SNG_#0" trunk="Sit &amp; Go #0" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_SNG_2_#0" trunk="Buy-in and fee: #0" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_STO" trunk="SHOOTOUT" numchar="-1" from="code.po"/>
+	<trans key="PD_ROOM_NAME_STO_#0" trunk="SHOOTOUT #0" numchar="-1" from="code.po"/>
+	<trans key="PD_SNG_FEE" trunk="Sit &amp; Go #0" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_BUY_IN_FREE_TO_PLAY" trunk="Free to Play" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_BUY_IN_TICKET_#0" trunk="#0 &lt;image id = 'poker_common_shootout_icon2' scale ='0.85' /&gt; to play" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_BUY_IN_TICKET_NUM_#0_#1" trunk="#0 R#1 Tickets left" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_BUY_IN_WIN_RESULT" trunk="Winner gets #0 Chips" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_BUY_IN_WIN_ROUND_TO_PLAY" trunk="Win round #0 to enter" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_HELP_FINAL_REWARD_#0" trunk="Win all three rounds to get a #0 Chip reward!" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_ROUND_OF" trunk="Round #0" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_ROUND_OF_2" trunk="Shootout R#0" numchar="-1" from="code.po"/>
+	<trans key="PD_STO_ROUND_TITLE_#0_#1" trunk="ROUND #0 WINS YOU #1" numchar="-1" from="code.po"/>
+	<trans key="PD_TOURNAMENT_RANK_RESULT_#0" trunk="You finished in #0." numchar="-1" from="code.po"/>
+	<trans key="PD_TOURNAMENT_RANK_RESULT_AND_WIN_COINS_#0_#1" trunk="You finished in #0 and won #1." numchar="-1" from="code.po"/>
+	<trans key="PD_TOURNAMENT_RANK_WIN_#0" trunk="You won #0!" from="code.po" nnumchar="-1"/>
+	<trans key="PD_VOICE_NEED_SIT_DOWN" trunk="You must be seated to talk to the table." numchar="-1" from="code.po"/>
+	<trans key="POKER_LEAVE_TABLE" numchar="-1" from="code.po"/>
+	<trans key="POKER_NO_MONEY_LEAVE_TABLE" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_ALL_IN" trunk="All In" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_BIG_BLIND" trunk="Big Blind" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_CALL" trunk="Call" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_CHECK" trunk="Check" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_FOLD" trunk="Fold" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_JOIN_TABLE" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_RAISE" trunk="Raise" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_SMALL_BLIND" trunk="Small Blind" numchar="-1" from="code.po"/>
+	<trans key="POKER_ROOM_WAINTING" numchar="-1" from="code.po"/>
+	<trans key="POKER_SMALL_BLIND_CHANGE_#0_#1" trunk="Blinds are at #0/#1." numchar="-1" from="code.po"/>
+	<trans key="PURCHASE_RESULT_FAIL_MSG_01" trunk="purchase failed, error string=#0" numchar="-1" from="code.po"/>
+	<trans key="PURCHASE_RESULT_FAIL_TITLE_01" trunk="Purchase Error" numchar="-1" from="code.po"/>
+	<trans key="BINGO_CARD_REWARD_MSG_03" trunk="Pick #0 Card to reveal a bonus prize!" numchar="-1" from="code.po"/>
+	<trans key="BINGO_CARD_REWARD_MSG_04" trunk="Pick #0 Cards to reveal a bonus prize!" numchar="-1" from="code.po"/>
+	<trans key="BINGO_STATE_READY" trunk="READY" numchar="-1" from="code.po"/>
+	<trans key="REWARD_ALLCOLLECTED" trunk="REWARD_ALLCOLLECTED" numchar="-1" from="code.po"/>
+	<trans key="REWARD_CANCOLLECT" trunk="REWARD_CANCOLLECT" numchar="-1" from="code.po"/>
+	<trans key="REWARD_FREETIME_#0" trunk="REWARD_FREETIME_#0" numchar="-1" from="code.po"/>
+	<trans key="ACCOUNT_RESULT_NOT_BIND" trunk="ACCOUNT_NOT_BIND" numchar="-1" from="code.po"/>
+	<trans key="SETTING_IGGID#0" trunk="SETTING_IGGID#0" numchar="-1" from="code.po"/>
+	<trans key="SHARE_BIGWIN_CONTENT" trunk="I win #0 chips in Casino Deluxe! Join now to try your lucky spin!" numchar="-1" from="code.po"/>
+	<trans key="SHARE_BIGWIN_TITLE" trunk="What a BIG WIN!" numchar="-1" from="code.po"/>
+	<trans key="SHARE_JACKPOT_CONTENT" trunk="WOW! I just hit the JACKPOT #0 chips in Casino Deluxe, download and enjoy the fun with me!" numchar="-1" from="code.po"/>
+	<trans key="SHARE_JACKPOT_TITLE" trunk="Hit the JACKPOT!!" numchar="-1" from="code.po"/>
+	<trans key="SHARE_MEGAWIN_CONTENT" trunk="I win #0 chips in Casino Deluxe! Join now to try your lucky spin!" numchar="-1" from="code.po"/>
+	<trans key="SHARE_MEGAWIN_TITLE" trunk="What a MEGA WIN!" numchar="-1" from="code.po"/>
+	<trans key="SHARE_SUPERWIN_CONTENT" trunk="I win #0 chips in Casino Deluxe! Join now to try your lucky spin!" numchar="-1" from="code.po"/>
+	<trans key="SHARE_SUPERWIN_TITLE" trunk="What a SUPER WIN!" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_CONTROL_TOTALBET" trunk="TOTAL BET" numchar="-1" from="code.po"/>
+	<trans key="TIME_DAYS_#0" trunk="TIME_DAYS_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_DAY_#0" trunk="TIME_DAY_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_FORMAT_DHM_#0_#1_#2" trunk="TIME_FORMAT_DHM_#0_#1_#2" numchar="-1" from="code.po"/>
+	<trans key="TIME_FORMAT_HMS_#0_#1_#2" trunk="TIME_FORMAT_HMS_#0_#1_#2" numchar="-1" from="code.po"/>
+	<trans key="TIME_FORMAT_MS_#0_#1" trunk="TIME_FORMAT_MS_#0_#1" numchar="-1" from="code.po"/>
+	<trans key="TIME_HOURS_#0" trunk="TIME_HOURS_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_HOUR_#0" trunk="TIME_HOUR_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_MINITES_#0" trunk="TIME_MINITES_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_MINITE_#0" trunk="TIME_MINITE_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_MONTHES_#0" trunk="TIME_MONTHES_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_MONTH_#0" trunk="TIME_MONTH_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_SECONDS_#0" trunk="TIME_SECONDS_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_SECOND_#0" trunk="TIME_SECOND_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_WEEKS_#0" trunk="TIME_WEEKS_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_WEEK_#0" trunk="TIME_WEEK_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_YEARS_#0" trunk="TIME_YEARS_#0" numchar="-1" from="code.po"/>
+	<trans key="TIME_YEAR_#0" trunk="TIME_YEAR_#0" numchar="-1" from="code.po"/>
+	<trans key="BINGO_ROOM_UNLOCK_LV" trunk="Unlocks at Lv #0" numchar="-1" from="code.po"/>
+	<trans key="BINGO_LEAVE_ROOM_MSG_01" trunk="You can pick %d card, are you sure back to lobby?" numchar="-1" from="code.po"/>
+	<trans key="BINGO_LEAVE_ROOM_MSG_02" trunk="You can pick %d cards, are you sure back to lobby?" numchar="-1" from="code.po"/>
+	<trans key="BINGO_EASTER_REWARD_MSG_01" trunk="You found #0 Easter Eggs! Open them to get your rewards!" numchar="-1" from="code.po"/>
+	<trans key="BINGO_ROOM_CHESTS_MSG_01" trunk="You found #0 chests" numchar="-1" from="code.po"/>
+	<trans key="BINGO_EASTER_REWARD_MSG_02" trunk="You get #0 Jackpot Boxs! Open them to get your rewards!" numchar="-1" from="code.po"/>
+	<trans key="BINGO_ROOM_CHESTS_MSG_02" trunk="You open #0 chests and got" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_PRESS_DEAL_TO_PLAY" trunk="PRESS DEAL TO PLAY" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_PLAY_AGAIN" trunk="PLAY AGAIN" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_BET_ONE" trunk="BET ONE" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_TOTAL_BET" trunk="TOTAL BET" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_HANDS" trunk="HANDS" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UNKNOWN_HAND_RANK" trunk="Unknown Hand Rank" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_LOSING_HAND" trunk="Losing Hand" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_ROYAL_FLUSH" trunk="Royal Flush" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_WILD_ROYAL_FLUSH" trunk="Wild Royal Flush" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FOUR_DEUCES" trunk="Four Deuces" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FIVE_OF_A_KIND" trunk="Five of a Kind" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_STRAIGHT_FLUSH" trunk="Straight Flush" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FOUR_OF_A_KIND" trunk="Four of a Kind" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FULL_HOUSE" trunk="Full House" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FLUSH" trunk="Flush" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_STRAIGHT" trunk="Straight" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_THREE_OF_A_KIND" trunk="Three of a Kind" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_TWO_PAIR" trunk="Two Pair" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_JACKS_OR_BETTER" trunk="Jacks or Better" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FOUR_ACES" trunk="Four Aces" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FOUR_2_3_4" trunk="Four 2, 3, or 4" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_FOUR_5_TO_K" trunk="Four 5 to K" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_ROYAL_FLUSH" trunk="ROYAL FLUSH" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_WILD_ROYAL_FLUSH" trunk="WILD ROYAL FLUSH" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FOUR_DEUCES" trunk="FOUR DEUCES" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FIVE_OF_A_KIND" trunk="FIVE OF A KIND" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_STRAIGHT_FLUSH" trunk="STRAIGHT FLUSH" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FOUR_OF_A_KIND" trunk="FOUR OF A KIND" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FULL_HOUSE" trunk="FULL HOUSE" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FLUSH" trunk="FLUSH" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_STRAIGHT" trunk="STRAIGHT" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_THREE_OF_A_KIND" trunk="THREE OF A KIND" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_TWO_PAIR" trunk="TWO PAIR" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_JACKS_OR_BETTER" trunk="JACKS OR BETTER" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FOUR_ACES" trunk="FOUR ACES" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FOUR_2_3_4" trunk="FOUR 2, 3, OR 4" numchar="-1" from="code.po"/>
+	<trans key="VIDEOPOKER_UPPERCASE_FOUR_5_TO_K" trunk="FOUR 5 TO K" numchar="-1" from="code.po"/>
+	<trans key="LOBBY_DISCOUNT_DATE_01" trunk="DAY" numchar="-1" from="code.po"/>
+	<trans key="LOBBY_DISCOUNT_DATE_02" trunk="DAYS" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_MARQUEE_STARLEVELUP_TEXT" trunk="#0 has reached VIP#1! Congratulations!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_MARQUEE_WINJACKPOT_TEXT" trunk="#0 hit the jackpot in #1 and won #2 Chips!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_MARQUEE_JACKPOTOVERFLOW_TEXT" trunk="#0 is overflowing with Chips! Everyone has a greater chance to hit the jackpot! Come now!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_MARQUEE_BUYLIFETIMEBONDS_TEXT" trunk="#0 purchased [Lifetime Bonds]! Wow!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_5STARRATING_NOWIN_POPUP_TEXT" trunk="Give us a 5-Star rating!\nYou will have our everlasting gratitude!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_5STARRATING_REWARD_POPUP_TEXT" trunk="Give us a 5-Star rating and win #0 Chips!\nThank you for playing our game!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_INFO_OFFLINERELOAD_TEXT" trunk="You left #0 Chips unclaimed when you went offline!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_PUSH_COUNTDOWNREWARD_TEXT" trunk="Free Chips are ready to collect!" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1" trunk="Lucky Volcano" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_2" trunk="Rage of Sparta" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_3" trunk="Disco Dolly" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_4" trunk="Spooky Spinners" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_5" trunk="Jackpot Diamond" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_6" trunk="Zeus Wild" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_7" trunk="Meow Money" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_8" trunk="Buffalo Stampede" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_18" trunk="Santa's Visit" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1001" trunk="Rock Age 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1002" trunk="Tipsy Tea Time 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1003" trunk="Happy Farm 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1004" trunk="The Jadelotos 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1005" trunk="Road To Oz 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1006" trunk="Meowing 20's 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1007" trunk="Reel &amp; Spin 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1008" trunk="King's Ransom 2" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_NAME_1009" trunk="Tut's Gold 2" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_0" trunk="Anonymous" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_1" trunk="Gambler" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_2" trunk="Ace" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_3" trunk="Heart" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_4" trunk="Diamond" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_5" trunk="Club" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_6" trunk="Spade" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_7" trunk="Pocket Aces" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_8" trunk="Poker Fan" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_9" trunk="Free Hand" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_10" trunk="Wild Card" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_11" trunk="Card Shark" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_12" trunk="Rookie" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_13" trunk="Casino Guest" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_14" trunk="Deluxe Guest" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_15" trunk="Shuffler" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_16" trunk="Joker" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_17" trunk="Hot Streak" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_18" trunk="First Timer" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_19" trunk="Young Buck" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_GUESTNAME_20" trunk="Power Player" numchar="-1" from="code.po"/>
+	<trans key="STAR_COIN_PACKAGES" trunk="COIN PACKAGES" numchar="-1" from="code.po"/>
+	<trans key="STAR_POINTS" trunk="STAR POINTS" numchar="-1" from="code.po"/>
+	<trans key="STAR_DAILY_GIFT" trunk="DAILY GIFT" numchar="-1" from="code.po"/>
+	<trans key="STAR_UNLOCK_THE_THEME" trunk="UNLOCK THE THEME" numchar="-1" from="code.po"/>
+	<trans key="STAR_ONLINE_GIFT" trunk="ONLINE GIFT" numchar="-1" from="code.po"/>
+	<trans key="STAR_WHEEL_MULTIPLIER" trunk="WHEEL MULTIPLIER" numchar="-1" from="code.po"/>
+	<trans key="STAR_MAX_FRIENDS" trunk="MAX FRIENDS" numchar="-1" from="code.po"/>
+	<trans key="STAR_MULTI-PLAY_TABLES" trunk="MULTI-PLAY TABLES" numchar="-1" from="code.po"/>
+	<trans key="STAR_COIN_PACKAGES_TIPS" trunk="Coins from the BUY tab will be multiplied according to your current Player Rewards status." numchar="-1" from="code.po"/>
+	<trans key="STAR_POINTS_TIPS" trunk="Earn more STAR Points with each purchase .your STAR Point multiplier increases according to your STAR Level" numchar="-1" from="code.po"/>
+	<trans key="STAR_DAILY_GIFT_TIPS" trunk="Your Daily Gift will be multiplied according to your Player Rewards status" numchar="-1" from="code.po"/>
+	<trans key="STAR_UNLOCK_THE_THEME_TIPS" trunk="To specify star rating will unlock all games theme" numchar="-1" from="code.po"/>
+	<trans key="STAR_ONLINE_GIFT_TIPS" trunk="Your Online Gift will be multiplied according to your Player Rewards status" numchar="-1" from="code.po"/>
+	<trans key="STAR_WHEEL_MULTIPLIER_TIPS" trunk="STAR get a multiplier on all Wheel Rewards." numchar="-1" from="code.po"/>
+	<trans key="STAR_MAX_FRIENDS_TIPS" trunk="Increase your STAR Level to add more friends" numchar="-1" from="code.po"/>
+	<trans key="STAR_MULTI-PLAY_TABLES_TIPS" trunk="STAR can unlock more Multi-Play tables." numchar="-1" from="code.po"/>
+	<trans key="STAR_STAR_LEVEL" trunk="STAR#0" numchar="-1" from="code.po"/>
+	<trans key="STAR_ADD_STAR_POINTS" trunk="+ #0 STAR Points" numchar="-1" from="code.po"/>
+	<trans key="STAR_NEXT_LEVEL_TIPS" trunk="You need #0 points to rise to the next STAR Level!" numchar="-1" from="code.po"/>
+	<trans key="MONTHLY_REWARD_RECEIVED" trunk="RECEIVED" numchar="-1" from="code.po"/>
+	<trans key="MONTHLY_REWARD_TODAY" trunk="TODAY" numchar="-1" from="code.po"/>
+	<trans key="MONTHLY_REWARD_DAY" trunk="DAY #0" numchar="-1" from="code.po"/>
+	<trans key="COMMON_JANUARY" trunk="JANUARY" numchar="-1" from="code.po"/>
+	<trans key="COMMON_FEBRUARY" trunk="FEBRUARY" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MARCH" trunk="MARCH" numchar="-1" from="code.po"/>
+	<trans key="COMMON_APRIL" trunk="APRIL" numchar="-1" from="code.po"/>
+	<trans key="COMMON_MAY" trunk="MAY" numchar="-1" from="code.po"/>
+	<trans key="COMMON_JUNE" trunk="JUNE" numchar="-1" from="code.po"/>
+	<trans key="COMMON_JULY" trunk="JULY" numchar="-1" from="code.po"/>
+	<trans key="COMMON_AUGUST" trunk="AUGUST" numchar="-1" from="code.po"/>
+	<trans key="COMMON_SEPTEMBER" trunk="SEPTEMBER" numchar="-1" from="code.po"/>
+	<trans key="COMMON_OCTOBER" trunk="OCTOBER" numchar="-1" from="code.po"/>
+	<trans key="COMMON_NOVEMBER" trunk="NOVEMBER" numchar="-1" from="code.po"/>
+	<trans key="COMMON_DECEMBER" trunk="DECEMBER" numchar="-1" from="code.po"/>
+	<trans key="MONTH_CARD_LEVEL" trunk="LEVEL#0" numchar="-1" from="code.po"/>
+	<trans key="MONTH_CARD_DAILY_BENEFITS_DAY" trunk="DAILY BENEFITS(#0 DAY)" numchar="-1" from="code.po"/>
+	<trans key="MONTH_CARD_MAX_LEVEL" trunk="LEVEL" numchar="-1" from="code.po"/>
+	<trans key="MONTH_CARD_SOLD" trunk="VALUE \n#0" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_NAME_BASE" trunk="#0 Tournament" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_NAME_HOURS" trunk="#0 Hours" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_NAME_MINUTE" trunk="#0 Minute" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_SECONDS_AGO" trunk="#0 seconds ago" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_MINUTES_AGO" trunk="#0 minutes ago" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_HOURS_AGO" trunk="#0 hours ago" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_DAY_AGO" trunk="#0 days ago" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_IN_X" trunk="in #0" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_IN_X_MINUTES" trunk="in #0 minutes" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_IN_X_HOURS" trunk="in #0 hours" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_IN_X_DAYS" trunk="in #0 days" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_X_DAY_LEFT" trunk="#0 day(s) left" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_X_DAY_LATER" trunk="#0 day(s) later" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_END_DES" trunk="#0 Special Tournament has ended." numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_END_TITLE" trunk="#0 Special Tournament!" numchar="-1" from="code.po"/>
+	<trans key="TOURNAMENTS_COMING_SOON" trunk="COMING SOON" numchar="-1" from="code.po"/>
+	<trans key="PD_TIP_DEALER_1" trunk="Thanks, #0!" numchar="-1" from="code.po"/>
+	<trans key="PD_TIP_DEALER_2" trunk="Good luck, #0!" numchar="-1" from="code.po"/>
+	<trans key="PD_TIP_DEALER_3" trunk="Thank you very much!" numchar="-1" from="code.po"/>
+	<trans key="SPECIAL_OFFER_RESET_TIMES" trunk="RESTRICTION TIMES:  #0/#1" numchar="-1" from="code.po"/>
+	<trans key="LIFETIME_BONDS" trunk="LIFETIME BONDS" numchar="-1" from="code.po"/>
+	<trans key="X_DAY_BONDS" trunk="#0 DAY BONDS" numchar="-1" from="code.po"/>
+	<trans key="COUNTDOWN_X" trunk="COUNTDOWN #0" numchar="-1" from="code.po"/>
+	<trans key="BLACK_JACK_PLAYER_LEVEL" trunk="Lv.#0" numchar="-1" from="code.po"/>
+	<trans key="BLACK_JACK_WIN_LABEL" trunk="+#0 CHIPS" numchar="-1" from="code.po"/>
+	<trans key="COMMON_X_DAYS" trunk="#0 Days" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_COMMON_POPUP_TEXT_NOCHIPS" trunk="Sorry, you need more chips to finish this bet, buy chips now!" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_COMMON_POPUP_BUTTON_BUYCHIPS" trunk="To the Shop" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_PRESS_SPIN_TO_START" trunk="PRESS SPIN\nTO START" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_GOOD_LUCK" trunk="GOOD LUCK" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_FREE_SPINS_WON" trunk="FREE SPINS\nWON!" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_EXTRA_BONUS_WHEEL" trunk="EXTRA\nBONUS WHEEL" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_@xxx_CHIPS_WON" trunk="@xxx\CHIPS WON!" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_SPARTAN_WILD_REEL_WON" trunk="SPARTAN WILD REEL\nWON!" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_2X_SPARTAN_WILD_WON" trunk="2X SPARTAN WILD\nWON!" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_3_MORE_SPINS_WON" trunk="3 MORE SPINS\nWON!" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_4_MORE_SPINS_WON" trunk="4 MORE SPINS\nWON!" numchar="-1" from="code.po"/>
+	<trans key="SPARTAN_PROMPT_5_MORE_SPINS_WON" trunk="5 MORE SPINS\nWON!" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_INFO_REWARD_TEXT_TIME" trunk="#1-#2-#0" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_LEVELUP_UNLOCKTHEMES" trunk="YOU UNLOCKED #0 NEW THEMES!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_LEVELUP_UNLOCKTHEME" trunk="YOU UNLOCKED #0 NEW THEME!" numchar="-1" from="code.po"/>
+	<trans key="PLATFORM_POPUP_PURCHASEERROR_TEXT_LIVESUPPOT" trunk="Please contract Live Support!"/>
+	<trans key="PLATFORM_OFFER_POPUP_TITLE" trunk="OFFER"/>
+	<trans key="PLATFORM_OFFER_POPUP_BUTTON1" trunk="Tapjoy"/>
+	<trans key="PLATFORM_OFFER_POPUP_BUTTON2" trunk="Fyber"/>
+	<trans key="PLATFORM_OFFER_POPUP_BUTTON3" trunk="TBD1"/>
+	<trans key="PLATFORM_OFFER_POPUP_BUTTON4" trunk="TBD2"/>
+	<trans key="PLATFORM_EVENT_TEXT_NOCHIPS" trunk="No reward currently"/>
+	<trans key="PLATFORM_JACKPOT_TIP_WINNER" trunk="Winner is #0, get the #1 subpool and win #2 coins."/>
+	<trans key="PLATFORM_JACKPOT_TIP_REWARD" trunk="#0 reward has exceeded!"/>
+	<trans key="PLATFORM_JACKPOT_DIAMOND1" trunk="Pearl"/>
+	<trans key="PLATFORM_JACKPOT_DIAMOND2" trunk="Ruby"/>
+	<trans key="PLATFORM_JACKPOT_DIAMOND3" trunk="Emerald"/>
+	<trans key="PLATFORM_JACKPOT_DIAMOND4" trunk="Sapphire"/>
+	<trans key="PLATFORM_JACKPOT_DIAMOND5" trunk="Diamond"/>
+	<trans key="PLATFORM_FRIEND_TIPS_FULL" trunk="The player's Friend List is full!"/>
+	<trans key="PLATFORM_SHOP_POPUP_TEXT_FREQUENCY" trunk="Slow down, please try agnain later."/>
+	<trans key="PLATFORM_SHOP_POPUP_TEXT_VERRIFICATION" trunk="Failed to verify the bill, error code=#0"/>
+	<trans key="COMMON_FESTIVAL_1" trunk="NEW YEAR BONUS"/>
+	<trans key="COMMON_FESTIVAL_2" trunk="VALENTINE'S DAY BONUS"/>
+	<trans key="COMMON_FESTIVAL_3" trunk="SAINT PATRICK'S DAY BONUS"/>
+	<trans key="COMMON_FESTIVAL_4" trunk="APRIL FOOL BONUS"/>
+	<trans key="COMMON_FESTIVAL_5" trunk="EASTER BONUS"/>
+	<trans key="COMMON_FESTIVAL_6" trunk="MOTHER'S DAY BONUS"/>
+	<trans key="COMMON_FESTIVAL_7" trunk="MEMORIAL DAY BONUS"/>
+	<trans key="COMMON_FESTIVAL_8" trunk="FATHER'S DAY BONUS"/>
+	<trans key="COMMON_FESTIVAL_9" trunk="INDEPENDENCE DAY BONUS"/>
+	<trans key="COMMON_FESTIVAL_10" trunk="LABOR DAY BONUS"/>
+	<trans key="COMMON_FESTIVAL_11" trunk="HALLOWEEN BONUS"/>
+	<trans key="COMMON_FESTIVAL_12" trunk="THANKSGIVING BONUS"/>
+	<trans key="COMMON_FESTIVAL_13" trunk="CHRISTMAS BONUS"/>
+	<trans key="COMMON_FESTIVAL_14" trunk="SUPER WEEKEND BONUS"/>
+	<trans key="COMMON_FESTIVAL_15" trunk="EVENT BONUS"/>
+	<trans key="COMMON_FESTIVAL_16" trunk="IGG ANNIVERSARY BONUS"/>
+	<trans key="COMMON_FESTIVAL_17" trunk="CD ANNIVERSARY BONUS"/>
+	<trans key="PLATFORM_SHOP_POPUP_TEXT_FREQUENCY" trunk="Excessive operation detected. Please try again later."/>
+	<trans key="PLATFORM_SHOP_POPUP_TEXT_VERRIFICATION" trunk="Purchase verification error, error string = #0"/>
+	<trans key="PLATFORM_TOURNAMENT_POPUP_PRIZE" trunk="You won the #0!&#xA;Your Rank: #1    Chips Won: #2"/>
+	<trans key="ROOMSERVER_NOT_OPEN_MSG" trunk="The game is under fast maintenance, will\n be available soon, please try again later." numchar="-1" from="code.po"/>
+	<trans key="ROOMSERVER_NOT_OPEN_TITLE" trunk="The game is under fast maintenance, will\n be available soon, please try again later." numchar="-1" from="code.po"/>
+	<trans key="SLOTS_FAIRYQUEEN_FREEGAME_FINALROUND" trunk="Final Round"/>
+	<trans key="SLOTS_FAIRYQUEEN_FREEGAME_ROUND" trunk="#0 Round"/>
+	<trans key="SLOTS_FAIRYQUEEN_FREEGAME_POPUP_RETRIGGER1" trunk="YOU REACHED THE NEXT STAGE AND WON &lt;font size=&quot;60&quot;&gt;5&lt;/font&gt; MORE FREE SPINS!&#xA;WILD REELS WILL APPEAR DURING EACH SPIN!"/>
+	<trans key="SLOTS_FAIRYQUEEN_FREEGAME_POPUP_RETRIGGER2" trunk="YOU REACHED THE FINAL STAGE AND WON &lt;font size=&quot;60&quot;&gt;5&lt;/font&gt; MORE FREE SPINS!&#xA;WILD REELS WILL APPEAR DURING EACH SPIN!"/>
+	<trans key="SLOTS_FAIRYQUEEN_BASEEGAME_POPUP_TRIGGER" trunk="YOU WON A BONUS GAME OF 5 FREE SPINS! WILD REELS WILL APPEAR DURING EACH SPIN!"/>
+	<trans key="PLATFORM_SHOP_CHARGEARRIVAL_TEXT_EXPMULPLIER" trunk="Received Slots Exp Boost!"/>
+	<trans key="PLATFORM_SHOP_CHARGEARRIVAL_TEXT_TIME" trunk="Boost Duration: #0"/>
+	<trans key="COMMON_PLAYERINFO_EXPMULTIPLIER_TIME" trunk="Ends in: #0"/>
+	<trans key="COMMON_PLAYERINFO_EXPMULTIPLIER" trunk="#0X Slots Exp Boost"/>
+	<trans key="PLATFORM_SHOP_TIPS_EXPMULTIPLIER_TEXT" trunk="Buy Chips to enjoy a #0X Slots EXP Boost"/>
+	<trans key="PLATFORM_SHOP_TIPS_EXPMULTIPLIER_DESCRIPTION" trunk="Buy Chips to enjoy a #0X Slots EXP Boost for a period of time. Boost duration can be stacked by making multiple purchases, and continues to run even if you are offline."/>
+	<trans key="SLOTS_LOBBY_UNLOCKTYPE_EVENT" trunk="Event Reward"/>
+	<trans key="PLATFORM_EVENTCENTRE_TABBUTTON_NEWBIERABATE" trunk="EVENT REBATES"/>
+	<trans key="PLATFORM_EVENTCENTRE_TABBUTTON_TIMEBONUS" trunk="TIME BONUS"/>
+	<trans key="PLATFORM_EVENTCENTRE_TABBUTTON_BONDS" trunk="BONDS"/>
+	<trans key="PLATFORM_STAR_BENEFIT_LEVELUP" trunk="Earn #0 more STAR Points to reach STAR#1"/>
+	<trans key="PLATFORM_STAR_BENEFIT_BUY" trunk="Available for any orders"/>
+	<trans key="PLATFORM_STAR_BENEFIT_TOUNLOCKALL" trunk="Reach STAR#0 to unlock all themes!"/>
+	<trans key="PLATFORM_STAR_BENEFIT_ALLUNLOCKED" trunk="You've reached STAR#0 with all themes unlocked!"/>
+	<trans key="PLATFORM_SETTING_ABOUT_TEXT_COPYRIGHT_IOS" trunk="© IGG Inc. All Rights Reserved.&#xA; &#xA;Support: ihelp.casinodeluxe@igg.com&#xA; &#xA;http://www.igg.com"/>
+	<trans key="PLATFORM_SOCIAL_FRIENDLIST_BUTTON_LOGINFACEBOOK" trunk="Link to Facebook"/>
+	<trans key="PLATFORM_SOCIAL_FRIENDLIST_BUTTON_SWITCH" trunk="Switch Account"/>
+</root>

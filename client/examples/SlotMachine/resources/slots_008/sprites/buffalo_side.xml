@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="buffalo_side.png" width="1024" height="1024" blend="1" loop="1">
+    <sprite n="00000" x="2" y="238" w="421" h="236" oX="15" oY="14" oW="455" oH="256" dr="40"/>
+    <sprite n="00001" x="2" y="2" w="429" h="234" oX="5" oY="16" oW="455" oH="256" dr="40"/>
+    <sprite n="00002" x="433" y="2" w="427" h="232" oX="8" oY="18" oW="455" oH="256" dr="40"/>
+    <sprite n="00003" x="433" y="236" w="423" h="228" oX="13" oY="22" oW="455" oH="256" dr="40"/>
+    <sprite n="00004" x="220" y="476" w="226" h="419" oX="18" oY="24" oW="455" oH="256" r="y" dr="40"/>
+    <sprite n="00005" x="2" y="476" w="216" h="421" oX="17" oY="34" oW="455" oH="256" r="y" dr="40"/>
+    <sprite n="00006" x="662" y="466" w="210" h="411" oX="28" oY="41" oW="455" oH="256" r="y" dr="40"/>
+    <sprite n="00007" x="448" y="466" w="212" h="411" oX="28" oY="39" oW="455" oH="256" r="y" dr="40"/>
+</TextureAtlas>

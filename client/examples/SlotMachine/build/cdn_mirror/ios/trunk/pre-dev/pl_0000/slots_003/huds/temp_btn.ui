@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_EffectPanel" x="0" y="0" z="0" width="267" height="132" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Panelpress" x="0" y="0" z="0" width="267" height="132" window_state="14">
+        <Picture id="m_Piclight111" x="82" y="100" z="0" width="114" height="77" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <action_id value="animation_disco_spin01"/>
+            <piece_info value="spin_highlight"/>
+        </Picture>
+        <Picture id="m_Piclight222" x="82" y="100" z="0" width="114" height="77" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <action_id value="animation_disco_spin"/>
+            <piece_info value="spin_highlight"/>
+        </Picture>
+        <Particle id="m_Particle333" x="123" y="122" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_003/particles/disco.ptc"/>
+            <particle_name value="spin press"/>
+        </Particle>
+        <Sprite id="m_Sprite_1" x="-59" y="-231" z="0" width="400" height="400" window_state="6">
+            <scale x="1.1" y="1.1" z="1.1"/>
+            <sprite_file value="slots_003/sprites/spin_press.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_P444" x="67" y="16" z="0" width="200" height="42" window_state="6">
+            <anchor_point x="0.82999998" y="0.44999999" z="0"/>
+            <action_id value="animation_disco_spin02"/>
+            <piece_info value="slots_003_panel_026"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Panelremain" x="0" y="0" z="0" width="267" height="132" window_state="14">
+        <Particle id="m_Particle" x="123" y="122" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_003/particles/disco.ptc"/>
+            <particle_name value="spin remain"/>
+        </Particle>
+        <Sprite id="m_Sprite" x="-57" y="-131" z="0" width="200" height="400" window_state="6">
+            <sprite_file value="slots_003/sprites/spin_remain.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="140" y="-131" z="0" width="200" height="400" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_003/sprites/spin_remain.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Picture id="m_Picture" x="64" y="69" z="0" width="149" height="42" window_state="14">
+        <action_id value="animation_disco_spintext02"/>
+        <piece_info value="slots_003_button_010"/>
+    </Picture>
+</Panel>

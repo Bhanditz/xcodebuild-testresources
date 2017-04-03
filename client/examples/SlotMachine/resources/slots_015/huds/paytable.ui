@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_bg" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+        <Picture id="m_Paytable" x="0" y="0" z="0" width="567" height="629" window_state="270">
+            <piece_info value="slots_015_panel_05"/>
+        </Picture>
+        <Picture id="m_Paytable1" x="567" y="0" z="0" width="567" height="629" window_state="270">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <piece_info value="slots_015_panel_05"/>
+        </Picture>
+        <Picture id="m_logo" x="391" y="-4" z="0" width="353" height="127" window_state="270">
+            <piece_info value="slots_015_logo_02"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Pages" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_Page1" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+            <Panel id="m_Panel1" x="255" y="250" z="0" width="90" height="87" window_state="6">
+                <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                <Picture id="m_Picture1" x="7" y="-37" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture2" x="7" y="18" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture3" x="7" y="73" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture4" x="61" y="-63" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture5" x="61" y="-8" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture6" x="61" y="46" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture7" x="61" y="101" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture8" x="115" y="-93" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture9" x="115" y="-38" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture10" x="115" y="17" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture11" x="115" y="72" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture12" x="115" y="126" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture13" x="169" y="-62" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture14" x="169" y="-9" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture15" x="169" y="46" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture16" x="169" y="101" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture17" x="223" y="-36" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture18" x="223" y="19" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture19" x="223" y="74" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Panel id="m_jiantou" x="23" y="21" z="0" width="238" height="52" window_state="6" style="ngs_slots_015_panel_12b">
+                    <rotation x="0" y="3.1415927" z="0"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_Panel2" x="603" y="250" z="0" width="90" height="87" window_state="6">
+                <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                <Picture id="m_Picture1" x="7" y="-37" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture2" x="7" y="18" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture3" x="7" y="73" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture4" x="61" y="-63" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture5" x="61" y="-8" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture6" x="61" y="46" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture7" x="61" y="101" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture8" x="115" y="-93" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture9" x="115" y="-38" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture10" x="115" y="17" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture11" x="115" y="72" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture12" x="115" y="126" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture13" x="169" y="-62" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture14" x="169" y="-9" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture15" x="169" y="46" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture16" x="169" y="101" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture17" x="223" y="-36" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture18" x="223" y="19" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Picture id="m_Picture19" x="223" y="74" z="0" width="57" height="58" window_state="270">
+                    <piece_info value="slots_015_panel_12a"/>
+                </Picture>
+                <Panel id="m_jiantou" x="24" y="21" z="0" width="238" height="52" window_state="6" style="ngs_slots_015_panel_12b"/>
+            </Panel>
+            <RichLabel id="m_Paytable" x="520" y="121" z="0" width="96" height="30" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE1_TITLE"/>
+                <font_size value="35"/>
+                <font_id value="shopfont2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="520" y="428" z="0" width="96" height="90" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE1_TEXT"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page2" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <Panel id="m_Panel" x="116" y="119" z="0" width="904" height="419" window_state="6"/>
+            <RichLabel id="m_RichLabel" x="458" y="135" z="0" width="219" height="40" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE3_TITLE"/>
+                <font_size value="35"/>
+                <font_id value="shopfont2"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Panel3" x="272" y="156" z="0" width="208" height="216" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <action_id value="slot015_freespin"/>
+                <Picture id="m_Picture3" x="0" y="0" z="0" width="208" height="216" window_state="262">
+                    <piece_info value="slots_015_panel_09c"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="56" y="5" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL1_12"/>
+                    <font_size value="50"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="56" y="67" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL1_FREESPIN"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_blue1"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="56" y="94" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL1_MULTIPLIER"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="56" y="136" z="0" width="96" height="57" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL1_RANDOM"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_line_color_01"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel2" x="465" y="157" z="0" width="207" height="216" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <action_id value="slot015_freespin"/>
+                <Picture id="m_Picture2" x="0" y="0" z="0" width="207" height="216" window_state="262">
+                    <piece_info value="slots_015_panel_09b"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="55" y="4" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL2_7"/>
+                    <font_size value="50"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="55" y="66" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL2_FREESPIN"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_blue1"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="55" y="93" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL2_MULTIPLIER"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="55" y="135" z="0" width="96" height="57" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL2_RANDOM"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_line_color_01"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel1" x="657" y="162" z="0" width="196" height="204" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <action_id value="slot015_freespin"/>
+                <Picture id="m_Picture1" x="0" y="0" z="0" width="196" height="204" window_state="262">
+                    <piece_info value="slots_015_panel_09a"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="50" y="-1" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL3_4"/>
+                    <font_size value="50"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="50" y="61" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL3_FREESPIN"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_blue1"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="50" y="88" z="0" width="96" height="98" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL3_MULTIPLIER"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="50" y="130" z="0" width="96" height="57" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE3_PANEL3_RANDOM"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_line_color_01"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <RichLabel id="m_RichLabel1" x="206" y="415" z="0" width="646" height="30" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE3_DESCRIPTION"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page3" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+            <Panel id="m_Panel" x="116" y="119" z="0" width="904" height="419" window_state="6"/>
+            <Picture id="m_Picture" x="334" y="171" z="0" width="148" height="110" window_state="262">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <piece_info value="slots_015_icon_31"/>
+            </Picture>
+            <Picture id="m_Jiantou" x="446" y="188" z="0" width="120" height="52" window_state="270">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <rotation x="0" y="3.1415927" z="-0.40142572"/>
+                <piece_info value="slots_015_panel_12b"/>
+            </Picture>
+            <Picture id="m_Picture2" x="552" y="176" z="0" width="36" height="29" window_state="262">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <piece_info value="slots_015_panel_15"/>
+            </Picture>
+            <Picture id="m_Jiantou1" x="576" y="192" z="0" width="120" height="52" window_state="270">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <rotation x="0" y="3.1415927" z="0.40142572"/>
+                <piece_info value="slots_015_panel_12b"/>
+            </Picture>
+            <Picture id="m_Picture3" x="483" y="29" z="0" width="502" height="394" window_state="262">
+                <scale x="0.25" y="0.25" z="0.25"/>
+                <piece_info value="slots_015_panel_04a"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="454" y="123" z="0" width="227" height="45" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_TITLE"/>
+                <font_size value="35"/>
+                <font_id value="shopfont2"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="167" y="284" z="0" width="801" height="50" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_TEXT1"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="167" y="343" z="0" width="671" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_TEXT2"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="167" y="373" z="0" width="131" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MEGA"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4" x="297" y="373" z="0" width="173" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MEGA_PAYOUT"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel5" x="167" y="399" z="0" width="131" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MAJOR"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel6" x="297" y="399" z="0" width="173" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MAJOR_PAYOUT"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel7" x="167" y="425" z="0" width="131" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MINOR"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel8" x="297" y="425" z="0" width="173" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MINOR_PAYOUT"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel9" x="167" y="451" z="0" width="131" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MINI"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel10" x="297" y="451" z="0" width="173" height="25" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_MINI_PAYOUT"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel11" x="167" y="481" z="0" width="801" height="50" window_state="14">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE4_TEXT3"/>
+                <font_size value="25"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page4" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <RichLabel id="m_RichLabel" x="483" y="110" z="0" width="168" height="50" window_state="6">
+                <text value="ASGARDSAIL_PAYTABLE_PAGE2_TITLE"/>
+                <font_size value="35"/>
+                <font_id value="shopfont2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Panel1" x="158" y="183" z="0" width="330" height="160" window_state="6" style="ngs_casino_common_panel24">
+                <Picture id="m_Picture" x="8" y="25" z="0" width="148" height="110" window_state="270">
+                    <piece_info value="slots_015_icon_41"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="179" y="25" z="0" width="96" height="30" window_state="6">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_PANEL1_SCATTER"/>
+                    <text_color value="cs_line_color_14"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="161" y="62" z="0" width="156" height="66" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_PANEL1_TEXT"/>
+                    <font_size value="22"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel2" x="158" y="353" z="0" width="330" height="160" window_state="6" style="ngs_casino_common_panel24">
+                <Picture id="m_Picture" x="8" y="25" z="0" width="148" height="110" window_state="270">
+                    <piece_info value="slots_015_icon_31"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="179" y="25" z="0" width="96" height="30" window_state="6">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_PANEL2_WILD"/>
+                    <text_color value="cs_line_color_14"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="161" y="65" z="0" width="169" height="53" window_state="14">
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_PANEL2_TEXT"/>
+                    <font_size value="22"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group1" x="516" y="158" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Picture id="m_Picture" x="-25" y="-21" z="0" width="148" height="136" window_state="270">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                    <piece_info value="slots_015_icon_51"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP1_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP1_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP1_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP1_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP1_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP1_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="516" y="255" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Picture id="m_Picture" x="-25" y="-8" z="0" width="148" height="110" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_015_icon_02"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP2_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP2_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP2_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP2_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP2_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP2_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="516" y="352" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Picture id="m_Picture" x="-25" y="-8" z="0" width="148" height="110" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_015_icon_03"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP3_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP3_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP3_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP3_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP3_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP3_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="516" y="448" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Picture" x="-25" y="-8" z="0" width="148" height="110" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_015_icon_04"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP4_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP4_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP4_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP4_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP4_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP4_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="760" y="158" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Picture id="m_Picture" x="-22" y="-8" z="0" width="148" height="110" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_015_icon_05"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP5_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP5_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP5_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP5_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP5_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP5_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="760" y="255" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Picture" x="-22" y="-8" z="0" width="148" height="110" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_015_icon_06"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP6_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP6_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP6_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP6_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP6_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP6_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group7" x="760" y="352" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Picture" x="-22" y="-8" z="0" width="148" height="110" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_015_icon_07"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP7_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP7_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP7_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP7_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP7_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP7_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group8" x="760" y="448" z="0" width="210" height="93" window_state="6" style="ngs_casino_common_panel24">
+                <dynamic_attr key="icon_ids" type="string" value="8"/>
+                <Picture id="m_Picture" x="-22" y="-8" z="0" width="148" height="110" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_015_icon_08"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="66" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP8_ICONS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="66" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP8_ICONS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="66" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP8_ICONS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP8_REWARDS1"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP8_REWARDS2"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="ASGARDSAIL_PAYTABLE_PAGE2_GROUP8_REWARDS3"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Button id="m_NextBtn" x="674" y="561" z="0" width="59" height="49" window_state="262" style="bs_slots_015_button_10">
+        <rotation x="0" y="3.1415927" z="0"/>
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BackBtn" x="470" y="560" z="0" width="194" height="50" window_state="262" style="bs_slots_015_button_09">
+        <text_offset x="0" y="-5" z="0"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.44999999"/>
+        <outline_center value="0.2"/>
+        <word_spacing value="1"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="32" y="37" z="0" width="196" height="40" window_state="12">
+            <text value="BACK TO GAME"/>
+            <font_size value="34"/>
+            <text_color value="cs_line_color_10"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38999999"/>
+            <outline_center value="0.47999999"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_PrevBtn" x="401" y="561" z="0" width="59" height="49" window_state="262" style="bs_slots_015_button_10">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

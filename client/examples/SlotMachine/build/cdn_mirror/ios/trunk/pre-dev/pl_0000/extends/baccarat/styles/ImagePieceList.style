@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="baccarat_extends" file_name="baccarat_extends.png" width="256" height="256"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="casino_lobby_baccarat_small1_comingsoon" image_id="baccarat_extends" x="0" y="0" width="250" height="190"/>
+  </PieceList>
+</ImagePiece>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="camera01.png" width="256" height="256" scale_x="3.04" scale_y="3.04" blend="1" loop="1">
+    <sprite n="camera01_00000.png" x="251" y="2" w="3" h="6" oX="69" oY="72" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00001.png" x="236" y="137" w="12" h="11" oX="68" oY="66" oW="267" oH="128" r="y" dr="100"/>
+    <sprite n="camera01_00002.png" x="236" y="121" w="17" h="14" oX="68" oY="64" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00003.png" x="236" y="94" w="18" h="25" oX="69" oY="60" oW="267" oH="128" r="y" dr="100"/>
+    <sprite n="camera01_00004.png" x="156" y="170" w="31" h="20" oX="69" oY="59" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00005.png" x="83" y="138" w="22" h="39" oX="68" oY="57" oW="267" oH="128" r="y" dr="100"/>
+    <sprite n="camera01_00006.png" x="196" y="32" w="47" h="26" oX="69" oY="54" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00007.png" x="196" y="2" w="53" h="28" oX="68" oY="53" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00008.png" x="194" y="60" w="59" h="32" oX="69" oY="51" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00009.png" x="116" y="134" w="67" h="34" oX="68" oY="51" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00010.png" x="2" y="181" w="36" h="73" oX="69" oY="49" oW="267" oH="128" r="y" dr="100"/>
+    <sprite n="camera01_00011.png" x="2" y="138" w="79" h="40" oX="68" oY="46" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00012.png" x="190" y="94" w="44" h="85" oX="69" oY="43" oW="267" oH="128" r="y" dr="100"/>
+    <sprite n="camera01_00013.png" x="2" y="90" w="89" h="46" oX="69" oY="42" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00014.png" x="97" y="88" w="91" h="44" oX="69" oY="44" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00015.png" x="99" y="40" w="93" h="46" oX="68" oY="40" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00016.png" x="2" y="44" w="93" h="44" oX="68" oY="40" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00017.png" x="2" y="2" w="95" h="40" oX="68" oY="40" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00018.png" x="99" y="2" w="95" h="36" oX="70" oY="41" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00019.png" x="156" y="192" w="87" h="38" oX="79" oY="41" oW="267" oH="128" dr="100"/>
+    <sprite n="camera01_00020.png" x="116" y="170" w="38" h="75" oX="91" oY="39" oW="267" oH="128" r="y" dr="100"/>
+    <sprite n="camera01_00021.png" x="40" y="181" w="36" h="71" oX="95" oY="41" oW="267" oH="128" r="y" dr="100"/>
+    <sprite n="camera01_00022.png" x="78" y="181" w="36" h="69" oX="96" oY="41" oW="267" oH="128" r="y" dr="100"/>
+</TextureAtlas>

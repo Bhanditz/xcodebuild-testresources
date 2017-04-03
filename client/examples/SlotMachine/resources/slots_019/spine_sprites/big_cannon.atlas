@@ -1,0 +1,20 @@
+
+big_cannon.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_cannon__01
+  rotate: false
+  xy: 368, 166
+  size: 280, 258
+  orig: 280, 258
+  offset: 0, 0
+  index: -1
+_cannon__02
+  rotate: false
+  xy: 2, 2
+  size: 364, 422
+  orig: 364, 422
+  offset: 0, 0
+  index: -1

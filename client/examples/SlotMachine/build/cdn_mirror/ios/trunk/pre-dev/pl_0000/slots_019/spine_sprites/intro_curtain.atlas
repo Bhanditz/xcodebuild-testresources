@@ -1,0 +1,20 @@
+
+intro_curtain.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+curtain_0000s_0001_curtains-left
+  rotate: false
+  xy: 2, 644
+  size: 667, 640
+  orig: 667, 640
+  offset: 0, 0
+  index: -1
+curtains-right
+  rotate: false
+  xy: 2, 2
+  size: 568, 640
+  orig: 568, 640
+  offset: 0, 0
+  index: -1

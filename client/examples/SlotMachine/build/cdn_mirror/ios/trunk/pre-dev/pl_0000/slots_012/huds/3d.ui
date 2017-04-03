@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="112" y="57" z="0" width="1607" height="979" window_state="6" style="ngs_panel_bg">
+    <SkinMesh id="m_SkinMesh" x="75" y="42" z="0" width="843" height="613" window_state="2054" style="ngs_panel_bg">
+        <action_id value="test"/>
+        <mesh_file value="slots_012/models/queen.model"/>
+        <mesh_position x="-62" y="298" z="117"/>
+        <mesh_rotation x="0" y="1.2042772" z="0"/>
+        <mesh_scale x="8" y="8" z="8"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+    </SkinMesh>
+    <Mesh id="m_Mesh" x="-74" y="460" z="0" width="1244" height="668" window_state="2052" style="ngs_panel_bg">
+        <mesh_file value="slots_012/models/zhuanglun.model"/>
+        <mesh_scale x="400" y="400" z="400"/>
+        <custom_fov value="1"/>
+        <fov value="0.62831855"/>
+        <clear_depth value="1"/>
+        <sky_color r="216" g="216" b="216" a="255"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+    </Mesh>
+    <SkinMesh id="m_SkinMesh1" x="75" y="42" z="0" width="843" height="613" window_state="2054" style="ngs_panel_bg">
+        <action_id value="test"/>
+        <mesh_file value="slots_012/models/butterfly.model"/>
+        <mesh_position x="-62" y="298" z="117"/>
+        <mesh_rotation x="0" y="1.5707964" z="0"/>
+        <mesh_scale x="8" y="8" z="8"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+    </SkinMesh>
+</Panel>

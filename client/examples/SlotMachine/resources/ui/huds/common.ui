@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="960" height="640" window_state="6" style="ngs_panel_bg">
+    <PictureMirror id="m_Content" x="135" y="120" z="0" width="690" height="400" window_state="6">
+        <Picture id="m_PicBase" x="-52" y="-65" z="0" width="793" height="493" window_state="6" style="ngs_casino_common_panel12">
+            <Picture id="m_PicBaseGlow" x="297" y="184" z="0" width="199" height="124" window_state="14">
+                <scale x="4" y="4" z="4"/>
+                <piece_info value="casino_common_panel12d"/>
+            </Picture>
+            <Picture id="m_PicTop" x="18" y="20" z="0" width="757" height="89" window_state="6" style="ngs_casino_common_panel12a">
+                <Picture id="m_Picture" x="169" y="9" z="0" width="419" height="68" window_state="14">
+                    <scale x="1.25" y="1.25" z="1.25"/>
+                    <piece_info value="casino_common_panel12e"/>
+                </Picture>
+            </Picture>
+        </Picture>
+        <Button id="m_BtnYes" x="319" y="287" z="0" width="285" height="70" window_state="4" style="ngs_casino_common_btn08">
+            <text value="PLATFORM_COMMON_POPUP_BUTTON_YES"/>
+            <font_size value="45"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnNo" x="82" y="287" z="0" width="215" height="70" window_state="4" style="ngs_casino_common_btn025">
+            <text value="PLATFORM_COMMON_POPUP_BUTTON_NO"/>
+            <font_size value="45"/>
+            <text_color value="cs_white"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnOk" x="251" y="295" z="0" width="188" height="61" window_state="6" style="ngs_casino_common_btn08b">
+            <text value="PLATFORM_COMMON_POPUP_BUTTON_OK"/>
+            <font_size value="45"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </Button>
+        <RichLabel id="m_LblTitle" x="104" y="-41" z="0" width="479" height="65" window_state="6">
+            <text value="PLATFORM_COMMON_POPUP_TITLE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblMessage" x="46" y="77" z="0" width="597" height="139" window_state="6">
+            <text value="PLATFORM_COMMON_POPUP_TEXT11"/>
+            <font_size value="45"/>
+            <text_color value="cs_lightgrey"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <ToggleButton id="m_BtnToggle" x="93" y="233" z="0" width="40" height="41" window_state="6">
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </ToggleButton>
+        <RichLabel id="m_LblToggle" x="111" y="216" z="0" width="467" height="60" window_state="6">
+            <text value="PLATFORM_COMMON_POPUP_TEXT12"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </PictureMirror>
+    <Button id="m_BtnClose" x="755" y="81" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+</Panel>

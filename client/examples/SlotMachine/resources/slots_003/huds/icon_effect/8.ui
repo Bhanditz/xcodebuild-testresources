@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="173" height="99" window_state="6">
+    <Panel id="ref" x="0" y="0" z="0" width="173" height="99" window_state="6">
+        <Panel id="bg" x="0" y="0" z="0" width="173" height="99" window_state="6">
+            <Picture id="m_Picture" x="44" y="33" z="0" width="84" height="44" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="slots_003_icon_015"/>
+            </Picture>
+        </Panel>
+    </Panel>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="173" height="99" window_state="6">
+        <action_id value="animation_disco_highpayicon"/>
+        <Sprite id="m_Sprite1" x="-38" y="-21" z="0" width="249" height="142" window_state="6">
+            <sprite_file value="slots_003/sprites/recorder_bgglow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite" x="-38" y="-22" z="0" width="250" height="143" window_state="6">
+            <sprite_file value="slots_003/sprites/recorder.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="-38" y="-21" z="0" width="250" height="142" window_state="6">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_003/sprites/recorder_frontglow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+</Panel>

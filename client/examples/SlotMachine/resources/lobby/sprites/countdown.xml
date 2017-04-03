@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="countdown.png" width="256" height="512" blend="2" loop="-1">
+    <sprite n="01" x="2" y="193" w="247" h="189" oX="5" oY="8" oW="199" oH="265" r="y" dr="150"/>
+    <sprite n="02" x="2" y="2" w="249" h="189" oX="5" oY="8" oW="199" oH="265" r="y" dr="150"/>
+</TextureAtlas>

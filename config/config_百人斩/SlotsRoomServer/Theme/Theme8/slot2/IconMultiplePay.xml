@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		Feature: 图标多倍赔付
+				在指定列出现图标时，多倍赔付。
+				Pay赔付结果 value用value/100来表示倍数
+				ReelID赔付的列范围
+		<IconMultiplePay id="1" iconID="1">
+		<MultiplePay>
+			<Pay value="100" weight="40"/>
+			<Pay value="150" weight="120"/>
+			<Pay value="200" weight="60"/>
+			<Pay value="300" weight="10"/>
+			<Pay value="400" weight="1"/>
+			<Pay value="500" weight="0"/>
+		</MultiplePay>
+		<ReelID>
+			<Reel id="2"/>
+			<Reel id="3"/>
+			<Reel id="4"/>
+		</ReelID>
+	</IconMultiplePay>
+ -->
+<root>
+	<IconMultiplePay id="1" iconID="31">
+		<MultiplePay>
+			<Pay value="200" weight="800"/>
+			<Pay value="300" weight="800"/>
+			<Pay value="400" weight="350"/>
+			<Pay value="500" weight="250"/>
+			<Pay value="600" weight="200"/>
+			<Pay value="700" weight="100"/>
+		</MultiplePay>
+		<ReelID>
+			<Reel id="2"/>
+			<Reel id="3"/>
+			<Reel id="4"/>
+		</ReelID>
+	</IconMultiplePay>
+</root>

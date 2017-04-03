@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="790" height="444" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_ReelsFrame" x="-172" y="-88" z="0" width="1136" height="640" window_state="131076">
+        <Picture id="m_Picture1" x="166" y="72" z="0" width="826" height="516" window_state="6" style="ngs_slots_1006_panel037"/>
+        <Panel id="m_NormalSpin" x="61" y="22" z="0" width="1000" height="600" window_state="131078">
+            <Panel id="m_ReelsPanelClip" x="107" y="65" z="0" width="800" height="444" window_state="393222">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="444" window_state="131078">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="444.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="148.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="160.000000"/>
+                    <dynamic_attr key="reel_gaps" type="array" value="5" inner="float">
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="800.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                </Panel>
+            </Panel>
+        </Panel>
+        <Panel id="m_FreeSpin" x="61" y="22" z="0" width="1000" height="600" window_state="131078">
+            <Panel id="m_ReelsPanelClip" x="107" y="65" z="0" width="800" height="444" window_state="393222">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="444" window_state="131078">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="444.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="148.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="160.000000"/>
+                    <dynamic_attr key="reel_gaps" type="array" value="5" inner="float">
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                        <item>0.000000</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="800.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                </Panel>
+            </Panel>
+        </Panel>
+        <Picture id="m_Picture2" x="173" y="87" z="0" width="789" height="446" window_state="6" style="ngs_slots_1006_panel038"/>
+        <Picture id="m_Picture3" x="317" y="81" z="0" width="26" height="493" window_state="6">
+            <piece_info value="slots_1006_panel039"/>
+        </Picture>
+        <Picture id="m_Picture6" x="476" y="81" z="0" width="26" height="493" window_state="6">
+            <piece_info value="slots_1006_panel039"/>
+        </Picture>
+        <Picture id="m_Picture5" x="636" y="81" z="0" width="26" height="493" window_state="6">
+            <piece_info value="slots_1006_panel039"/>
+        </Picture>
+        <Picture id="m_Picture4" x="795" y="81" z="0" width="26" height="493" window_state="6">
+            <piece_info value="slots_1006_panel039"/>
+        </Picture>
+        <PictureMirror id="m_PictureMirror" x="129" y="47" z="0" width="878" height="506" window_state="6">
+            <piece_info value="slots_1006_panel006"/>
+        </PictureMirror>
+        <Panel id="m_AnticipationPanel" x="173" y="87" z="0" width="790" height="444" window_state="6">
+            <Panel id="m_AnticipationPanel0" x="-3" y="-1" z="0" width="160" height="462" window_state="6">
+                <window_layout value="1"/>
+                <window_layout_align_v value="0"/>
+            </Panel>
+            <Panel id="m_AnticipationPanel1" x="155" y="-1" z="0" width="160" height="462" window_state="6">
+                <window_layout value="1"/>
+                <window_layout_align_v value="0"/>
+            </Panel>
+            <Panel id="m_AnticipationPanel2" x="315" y="-1" z="0" width="160" height="462" window_state="6">
+                <window_layout value="1"/>
+                <window_layout_align_v value="0"/>
+            </Panel>
+            <Panel id="m_AnticipationPanel3" x="476" y="-1" z="0" width="160" height="462" window_state="6">
+                <window_layout value="1"/>
+                <window_layout_align_v value="0"/>
+            </Panel>
+            <Panel id="m_AnticipationPanel4" x="633" y="-1" z="0" width="160" height="462" window_state="6">
+                <window_layout value="1"/>
+                <window_layout_align_v value="0"/>
+            </Panel>
+        </Panel>
+        <Picture id="m_Picture" x="331" y="-18" z="0" width="473" height="92" window_state="6">
+            <piece_info value="slots_1006_panel002"/>
+        </Picture>
+        <Picture id="m_Picture25" x="976" y="242" z="0" width="65" height="102" window_state="6">
+            <piece_info value="slots_1006_panel034"/>
+        </Picture>
+    </Panel>
+    <Particle id="m_Particle" x="-25" y="439" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle1" x="798" y="439" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle2" x="147" y="443" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle3" x="307" y="443" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle4" x="467" y="443" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle5" x="626" y="443" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+</Panel>

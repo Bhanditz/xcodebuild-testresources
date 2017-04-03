@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<!--
+	Type:
+		Blackbox
+		Whitebox
+		FindPair
+ -->
+<root>
+		<BonusGame id="1" Type="Blackbox" GameID="1" desc="Chest Bonus"/>
+		<BonusGame id="2" Type="Whitebox" GameID="2" desc=""/>
+</root>

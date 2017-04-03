@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wild_coins.png" width="128" height="256" blend="1" loop="-1">
+    <sprite n="a0000" x="56" y="52" w="52" h="36" oX="6" oY="14" oW="64" oH="64" dr="90"/>
+    <sprite n="a0001" x="52" y="122" w="48" h="36" oX="14" oY="8" oW="64" oH="64" r="y" dr="90"/>
+    <sprite n="a0002" x="2" y="56" w="52" h="34" oX="14" oY="6" oW="64" oH="64" r="y" dr="90"/>
+    <sprite n="a0003" x="56" y="2" w="52" h="48" oX="6" oY="8" oW="64" oH="64" dr="90"/>
+    <sprite n="a0004" x="2" y="92" w="48" h="44" oX="10" oY="8" oW="64" oH="64" r="y" dr="90"/>
+    <sprite n="a0005" x="56" y="90" w="52" h="30" oX="17" oY="6" oW="64" oH="64" r="y" dr="90"/>
+    <sprite n="a0006" x="2" y="2" w="52" h="52" oX="6" oY="6" oW="64" oH="64" dr="90"/>
+</TextureAtlas>

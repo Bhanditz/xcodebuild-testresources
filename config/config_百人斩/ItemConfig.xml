@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!-- 
+type:1表示筹码
+     2表示shootout门票  param1表示场次只允许是 2,3
+     3表示月卡 param1表示月卡类型允许是1、2、3
+     4表示STAR经验
+     5表示勋章经验 
+	 6表示解锁主题
+-->
+<ItemList>
+  <Item id="1" type="1" param1="0"/>
+  <Item id="2" type="2" param1="3"/>
+  <Item id="3" type="3" param1="3"/>
+  <Item id="4" type="4" param1="0"/>
+  <Item id="5" type="5" param1="0"/>  
+</ItemList>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vip_vfx04.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="a00000" x="182" y="268" w="80" h="178" oX="10" oY="12" oW="200" oH="100" r="y" dr="60"/>
+    <sprite n="a00001" x="2" y="88" w="84" h="178" oX="9" oY="8" oW="200" oH="100" r="y" dr="60"/>
+    <sprite n="a00002" x="268" y="86" w="178" h="82" oX="10" oY="10" oW="200" oH="100" dr="60"/>
+    <sprite n="a00003" x="264" y="268" w="78" h="178" oX="10" oY="14" oW="200" oH="100" r="y" dr="60"/>
+    <sprite n="a00004" x="2" y="268" w="178" h="80" oX="10" oY="12" oW="200" oH="100" dr="60"/>
+    <sprite n="a00005" x="268" y="2" w="178" h="82" oX="10" oY="10" oW="200" oH="100" dr="60"/>
+    <sprite n="a00006" x="88" y="88" w="82" h="178" oX="10" oY="10" oW="200" oH="100" r="y" dr="60"/>
+    <sprite n="a00007" x="350" y="170" w="80" h="178" oX="10" oY="12" oW="200" oH="100" r="y" dr="60"/>
+    <sprite n="a00008" x="172" y="182" w="176" h="84" oX="11" oY="8" oW="200" oH="100" dr="60"/>
+    <sprite n="a00009" x="182" y="2" w="84" h="178" oX="10" oY="8" oW="200" oH="100" r="y" dr="60"/>
+    <sprite n="a00010" x="2" y="2" w="178" h="84" oX="10" oY="8" oW="200" oH="100" dr="60"/>
+    <sprite n="a00011" x="432" y="170" w="78" h="178" oX="10" oY="14" oW="200" oH="100" r="y" dr="60"/>
+    <sprite n="a00012" x="2" y="350" w="176" h="80" oX="11" oY="12" oW="200" oH="100" dr="60"/>
+</TextureAtlas>

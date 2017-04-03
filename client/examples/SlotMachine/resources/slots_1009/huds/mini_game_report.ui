@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1009_panel028"/>
+    <Picture id="m_Picture" x="329" y="180" z="0" width="478" height="323" window_state="6">
+        <piece_info value="slots_1009_panel006"/>
+    </Picture>
+    <Panel id="m_ReportPanel" x="294" y="90" z="0" width="555" height="433" window_state="6">
+        <Picture id="m_Picture" x="5" y="10" z="0" width="533" height="87" window_state="6">
+            <piece_info value="slots_1009_panel025"/>
+        </Picture>
+        <Picture id="m_Picture1" x="83" y="156" z="0" width="388" height="52" window_state="4">
+            <piece_info value="slots_1009_panel023"/>
+        </Picture>
+        <Picture id="m_Picture2" x="221" y="300" z="0" width="112" height="30" window_state="260">
+            <piece_info value="slots_1009_panel022"/>
+        </Picture>
+    </Panel>
+    <RichLabel id="m_TotalWin" x="457" y="308" z="0" width="216" height="70" window_state="6">
+        <text value="2,800,000"/>
+        <font_size value="80"/>
+        <text_color value="cs_yellowTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.41999999"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel" x="523" y="267" z="0" width="96" height="30" window_state="6" style="ngs_panel_bg">
+        <text value="SLOTS_TUTSGOLD2_MINIGAMEREPORT_TEXT_YOUWIN"/>
+        <font_size value="45"/>
+        <text_color value="cs_GreenTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.02"/>
+        <glyph_center value="0.40000001"/>
+        <outline_center value="0.49000001"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt02"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

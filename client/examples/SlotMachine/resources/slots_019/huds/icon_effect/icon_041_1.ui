@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="160" height="136" window_state="6">
+    <Panel id="m_Panel" x="-217" y="-201" z="0" width="607" height="520" window_state="6" style="ngs_panel_bg"/>
+    <Picture id="m_Picture" x="-12" y="-24" z="0" width="184" height="184" window_state="262">
+        <piece_info value="slots_019_icon_041"/>
+    </Picture>
+    <SpineSprite id="m_SpineSprite" x="29" y="80" z="0" width="100" height="100" window_state="6">
+        <spine_file value="slots_019/spine_sprites/ic_cannon_041.json"/>
+        <auto_anim_name value="idle"/>
+    </SpineSprite>
+    <Sprite id="m_Sprite1" x="-73" y="-138" z="0" width="300" height="300" window_state="6">
+        <sprite_file value="slots_019/sprites/bonus winning02.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite" x="-73" y="-126" z="0" width="300" height="300" window_state="6">
+        <sprite_file value="slots_019/sprites/bonus winning01.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="firetrail1.png" width="512" height="512" scale_x="2.5" scale_y="2.5" blend="1" loop="1">
+    <sprite n="firetrail1_00000.png" x="442" y="303" w="55" h="93" oX="106" oY="105" oW="263" oH="257" dr="60"/>
+    <sprite n="firetrail1_00001.png" x="2" y="423" w="117" h="85" oX="91" oY="81" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00002.png" x="218" y="97" w="119" h="91" oX="91" oY="79" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00003.png" x="319" y="303" w="121" h="99" oX="88" oY="77" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00004.png" x="218" y="2" w="121" h="93" oX="88" oY="77" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00005.png" x="375" y="404" w="123" h="95" oX="87" oY="75" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00006.png" x="250" y="413" w="123" h="95" oX="87" oY="75" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00007.png" x="375" y="208" w="125" h="93" oX="88" oY="73" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00008.png" x="121" y="415" w="127" h="95" oX="88" oY="71" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00009.png" x="375" y="107" w="127" h="99" oX="88" oY="71" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00010.png" x="375" y="2" w="129" h="103" oX="86" oY="69" oW="263" oH="257" r="y" dr="60"/>
+    <sprite n="firetrail1_00011.png" x="216" y="280" w="101" h="131" oX="86" oY="67" oW="263" oH="257" dr="60"/>
+    <sprite n="firetrail1_00012.png" x="107" y="280" w="107" h="133" oX="82" oY="65" oW="263" oH="257" dr="60"/>
+    <sprite n="firetrail1_00013.png" x="107" y="143" w="109" h="135" oX="80" oY="63" oW="263" oH="257" dr="60"/>
+    <sprite n="firetrail1_00014.png" x="109" y="2" w="107" h="135" oX="82" oY="63" oW="263" oH="257" dr="60"/>
+    <sprite n="firetrail1_00015.png" x="2" y="284" w="103" h="137" oX="86" oY="61" oW="263" oH="257" dr="60"/>
+    <sprite n="firetrail1_00016.png" x="2" y="2" w="105" h="139" oX="84" oY="59" oW="263" oH="257" dr="60"/>
+    <sprite n="firetrail1_00017.png" x="2" y="143" w="103" h="139" oX="86" oY="59" oW="263" oH="257" dr="60"/>
+</TextureAtlas>

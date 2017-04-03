@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="slots_1006_extends" file_name="slots_1006_extends.png" width="512" height="512"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="casino_lobby_slot_small1006" image_id="slots_1006_extends" x="0" y="0" width="250" height="190"/>
+    <Piece id="slots_1006__loading_icon_1" image_id="slots_1006_extends" x="252" y="169" width="158" height="203"/>
+    <Piece id="slots_1006__loading_icon_2" image_id="slots_1006_extends" x="252" y="0" width="160" height="167"/>
+  </PieceList>
+</ImagePiece>

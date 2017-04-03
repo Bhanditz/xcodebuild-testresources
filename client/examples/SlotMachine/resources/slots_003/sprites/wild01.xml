@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wild01.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="00000" x="2" y="379" w="166" h="85" oX="92" oY="58" oW="350" oH="201" dr="120"/>
+    <sprite n="00001" x="294" y="99" w="186" h="95" oX="86" oY="54" oW="350" oH="201" dr="120"/>
+    <sprite n="00002" x="294" y="2" w="192" h="95" oX="82" oY="53" oW="350" oH="201" dr="120"/>
+    <sprite n="00003" x="2" y="2" w="290" h="161" oX="39" oY="24" oW="350" oH="201" dr="120"/>
+    <sprite n="00004" x="268" y="196" w="234" h="181" oX="63" oY="4" oW="350" oH="201" dr="120"/>
+    <sprite n="00005" x="2" y="165" w="264" h="181" oX="42" oY="4" oW="350" oH="201" dr="120"/>
+</TextureAtlas>

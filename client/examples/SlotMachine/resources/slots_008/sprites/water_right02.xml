@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:31739fb4a41c9ebc2a4c8b212deec056$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="water_right02.png" width="128" height="512">
+    <sprite n="00024" x="2" y="302" w="124" h="148" oX="5" oY="21" oW="160" oH="160" r="y"/>
+    <sprite n="00026" x="2" y="152" w="124" h="148" oX="5" oY="21" oW="160" oH="160" r="y"/>
+    <sprite n="00028" x="2" y="2" w="124" h="148" oX="5" oY="21" oW="160" oH="160" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Multi_1" x="0" y="0" z="0" width="300" height="300" window_state="6" style="ngs_panel_bg">
+    <Particle id="m_Particle_0" x="108" y="128" z="0" width="32" height="32" window_state="12">
+        <particle_state value="0"/>
+        <package_file value="slots_003/particles/disco.ptc"/>
+        <particle_name value="multiply01_b"/>
+    </Particle>
+    <Picture id="m_BackGround_0" x="76" y="96" z="0" width="96" height="96" window_state="6">
+        <scale x="0.86000001" y="0.86000001" z="0.86000001"/>
+        <color_scale x="1" y="1" z="1" w="0.89999998"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply03"/>
+        <piece_info value="slots_003_icon_vfx03"/>
+    </Picture>
+    <Particle id="m_Particle_1" x="108" y="128" z="0" width="32" height="32" window_state="14">
+        <particle_state value="0"/>
+        <package_file value="slots_003/particles/disco.ptc"/>
+        <particle_name value="multiply05"/>
+    </Particle>
+    <Picture id="m_BackGround_1" x="76" y="96" z="0" width="96" height="96" window_state="6">
+        <scale x="1.1" y="1.1" z="1.1"/>
+        <color_scale x="1" y="1" z="1" w="0.69999999"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply04"/>
+        <piece_info value="slots_003_icon_vfx05"/>
+    </Picture>
+    <Picture id="m_BackGround_2" x="76" y="96" z="0" width="96" height="96" window_state="6">
+        <color_scale x="1" y="1" z="1" w="0.80000001"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply04_01"/>
+        <piece_info value="slots_003_icon_vfx05"/>
+    </Picture>
+    <Picture id="m_Circle_0" x="60" y="80" z="0" width="127" height="127" window_state="4">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply05"/>
+        <piece_info value="circle_01"/>
+    </Picture>
+    <Picture id="m_Circle_1" x="60" y="80" z="0" width="127" height="127" window_state="4">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply05"/>
+        <piece_info value="circle_01"/>
+    </Picture>
+    <Picture id="m_Light" x="-4" y="104" z="0" width="256" height="80" window_state="4">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply06"/>
+        <piece_info value="light_01"/>
+    </Picture>
+    <Picture id="m_multiply_X" x="128" y="123" z="0" width="45" height="49" window_state="6">
+        <action_id value="animation_disco_multiply02"/>
+        <piece_info value="slots_003_icon_030"/>
+    </Picture>
+    <Picture id="m_multiply_Num" x="68" y="97" z="0" width="56" height="81" window_state="6">
+        <action_id value="animation_disco_multiply01"/>
+        <piece_info value="slots_003_mul_number_big_005"/>
+    </Picture>
+    <Picture id="m_number_Effect" x="-47" y="103" z="0" width="136" height="62" window_state="4">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply01_01"/>
+        <piece_info value="blur_01"/>
+    </Picture>
+    <Picture id="m_X_Effect" x="114" y="112" z="0" width="136" height="62" window_state="4">
+        <scale x="-1" y="1" z="1"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_disco_multiply02_02"/>
+        <piece_info value="blur_01"/>
+    </Picture>
+</Panel>

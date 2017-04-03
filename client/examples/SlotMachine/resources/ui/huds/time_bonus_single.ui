@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel implement_class="TimeBonus" id="m_Button0" x="34" y="51" z="0" width="200" height="309" window_state="6">
+    <Picture id="m_BtnNormal" x="17" y="5" z="0" width="199" height="246" window_state="6" style="ngs_casino_common_panel68a">
+        <Picture id="m_Picture0" x="8" y="6" z="0" width="170" height="135" window_state="6">
+            <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="0.80000001"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_panel68e"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_BtnToday" x="17" y="5" z="0" width="199" height="246" window_state="4" style="ngs_casino_common_panel68b">
+        <Picture id="m_Picture0" x="9" y="6" z="0" width="169" height="135" window_state="6">
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_panel68e"/>
+        </Picture>
+        <Picture id="m_Picture1" x="8" y="85" z="0" width="176" height="142" window_state="6">
+            <color_scale x="0.85000002" y="0.85000002" z="0.85000002" w="0.85000002"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_panel68f"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_BtnNextDay" x="17" y="5" z="0" width="199" height="239" window_state="4" style="ngs_casino_common_panel68a">
+        <Picture id="m_Picture0" x="9" y="6" z="0" width="169" height="135" window_state="6">
+            <scale x="1.01" y="1" z="1"/>
+            <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="0.80000001"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_panel68e"/>
+        </Picture>
+        <Picture id="m_Picture1" x="9" y="84" z="0" width="176" height="142" window_state="6">
+            <scale x="1.01" y="1" z="1"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_panel68f"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_BtnReceive" x="17" y="5" z="0" width="199" height="246" window_state="4" style="ngs_casino_common_panel68">
+        <Picture id="m_Picture0" x="8" y="6" z="0" width="169" height="135" window_state="6">
+            <color_scale x="0.5" y="0.5" z="0.5" w="0.5"/>
+            <blend_mode value="2"/>
+            <piece_info value="casino_common_panel68e"/>
+        </Picture>
+        <RichLabel id="m_Received" x="15" y="181" z="0" width="148" height="29" window_state="6">
+            <color_scale x="0.5" y="0.5" z="0.5" w="0.5"/>
+            <text value="PLATFORM_EVENTCENTRE_TIMEBONUS_TEXT_RECEIVED"/>
+            <font_size value="40"/>
+            <text_color value="cs_black"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="29"/>
+        </RichLabel>
+        <RichLabel id="m_Step" x="33" y="22" z="0" width="112" height="29" window_state="6">
+            <color_scale x="0.5" y="0.5" z="0.5" w="0.5"/>
+            <text value="PLATFORM_EVENTCENTRE_TIMEBONUS_TEXT_STEP1"/>
+            <font_size value="45"/>
+            <text_color value="cs_black"/>
+            <text_style value="8"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="29"/>
+        </RichLabel>
+    </Picture>
+    <Picture id="m_BtnWhite" x="17" y="5" z="0" width="199" height="246" window_state="4" style="ngs_casino_common_panel68d"/>
+    <RichLabel id="m_NextStep" x="30" y="27" z="0" width="152" height="29" window_state="6">
+        <text value="STEP 1"/>
+        <font_size value="45"/>
+        <text_color value="cs_BrownTxt"/>
+        <text_style value="8"/>
+        <font_id value="Bebas"/>
+        <rich_label_state value="4"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="29"/>
+    </RichLabel>
+    <Panel id="m_FlyEffectPanel" x="20" y="0" z="0" width="190" height="279" window_state="12">
+        <Panel id="m_FlyEffectBeginPos" x="90" y="103" z="0" width="26" height="26" window_state="14"/>
+        <Panel id="m_FlyEffectEndPos" x="-104" y="-252" z="0" width="26" height="26" window_state="14"/>
+    </Panel>
+    <Picture id="m_PicCoins" x="92" y="69" z="0" width="103" height="76" window_state="262">
+        <scale x="0.75" y="0.75" z="0.75"/>
+        <anchor_point x="0.16" y="0.5" z="0"/>
+        <piece_info value="casino_common_chip_single_shadow"/>
+        <Picture id="m_PicCoins1" x="-65" y="23" z="0" width="100" height="82" window_state="6">
+            <piece_info value="casino_common_chip_single_shadow"/>
+        </Picture>
+        <Picture id="m_PicCoins2" x="-7" y="53" z="0" width="100" height="82" window_state="6">
+            <piece_info value="casino_common_chip_single_shadow"/>
+        </Picture>
+        <Panel id="m_AllCredits" x="-69" y="-25" z="0" width="171" height="158" window_state="6">
+            <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+            <Picture id="Pic" x="73" y="15" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_01"/>
+            </Picture>
+            <Picture id="Pic1" x="73" y="9" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_01"/>
+            </Picture>
+            <Picture id="Pic2" x="73" y="3" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_01"/>
+            </Picture>
+            <Picture id="Pic3" x="73" y="-3" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_01"/>
+            </Picture>
+            <Picture id="Pic4" x="0" y="42" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_02"/>
+            </Picture>
+            <Picture id="Pic5" x="0" y="36" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_02"/>
+            </Picture>
+            <Picture id="Pic6" x="0" y="30" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_02"/>
+            </Picture>
+            <Picture id="Pic7" x="0" y="24" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_02"/>
+            </Picture>
+            <Picture id="Pic8" x="0" y="18" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_02"/>
+            </Picture>
+            <Picture id="Pic9" x="66" y="78" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_03"/>
+            </Picture>
+            <Picture id="Pic10" x="66" y="72" z="0" width="100" height="82" window_state="6">
+                <piece_info value="casino_common_chip_single_03"/>
+            </Picture>
+        </Panel>
+    </Picture>
+    <Picture id="m_PicChecked" x="69" y="78" z="0" width="90" height="89" window_state="4">
+        <piece_info value="casino_common_panel71"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-137" y="102" z="0" width="500" height="200" window_state="4">
+        <scale x="0.64999998" y="0.83999997" z="0.83999997"/>
+        <color_scale x="0.60000002" y="0.60000002" z="0.60000002" w="0.60000002"/>
+        <sprite_file value="ui/sprites/login_vfx01.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <RichLabel id="m_RewardValue" x="35" y="187" z="0" width="150" height="30" window_state="14">
+        <text value="&lt;image id = &apos;casino_common_icon02&apos; scale = &apos;0.3&apos;/&gt; -"/>
+        <font_size value="40"/>
+        <text_color value="cs_BrownTxt"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RewardValueWhite" x="35" y="187" z="0" width="150" height="30" window_state="12">
+        <text value="&lt;image id = &apos;casino_common_icon02&apos; scale = &apos;0.3&apos;/&gt; 10000"/>
+        <font_size value="40"/>
+        <text_color value="cs_White"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Picture id="m_PicRewardValueOdds" x="121" y="139" z="0" width="85" height="65" window_state="14">
+        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+        <piece_info value="casino_common_panel21"/>
+    </Picture>
+    <RichLabel id="m_RewardValueOdds" x="146" y="146" z="0" width="50" height="30" window_state="6">
+        <text value="x -"/>
+        <text_color value="cs_color_yellowish"/>
+        <text_align_h value="1"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.44"/>
+        <outline_center value="0.5"/>
+        <outline_color value="cs_white"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_Timer" x="-7" y="240" z="0" width="227" height="74" window_state="4" style="ngs_casino_common_btn025">
+        <gray_scale value="0"/>
+        <font_size value="55"/>
+        <text_offset x="20" y="-4" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+        <RichLabel id="m_LbTime" x="36" y="10" z="0" width="155" height="42" window_state="14">
+            <text value="00:00:00"/>
+            <font_size value="50"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_Collect" x="-7" y="240" z="0" width="227" height="74" window_state="4" style="ngs_casino_common_btn08">
+        <action_id value="animation_common_bottonlight"/>
+        <text value="PLATFORM_EVENTCENTRE_TIMEBONUS_BUTTON_COLLECT"/>
+        <font_size value="55"/>
+        <text_offset x="0" y="-4" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

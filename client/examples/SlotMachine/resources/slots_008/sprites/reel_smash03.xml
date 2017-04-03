@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="reel_smash03.png" width="1024" height="1024" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="00009" x="2" y="646" w="568" h="320" dr="70"/>
+    <sprite n="00010" x="2" y="324" w="568" h="320" dr="80"/>
+    <sprite n="00011" x="572" y="2" w="320" h="568" r="y" dr="60"/>
+    <sprite n="00012" x="2" y="2" w="568" h="320" dr="40"/>
+</TextureAtlas>

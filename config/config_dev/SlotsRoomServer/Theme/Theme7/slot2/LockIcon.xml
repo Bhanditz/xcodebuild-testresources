@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		锁定图标
+ -->
+<root>
+		<LockIcon id="1" symbol="1" TargetSymbol="32">
+				<ReelID>
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="2" symbol="2" TargetSymbol="33">
+				<ReelID>
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="3" symbol="3" TargetSymbol="34">
+				<ReelID>
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="4" symbol="4" TargetSymbol="35">
+				<ReelID>
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+</root>

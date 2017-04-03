@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="bingo_theme801_bg" file_name="bingo_theme801_bg.png" width="1024" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="theme801_bg" image_id="bingo_theme801_bg" x="0" y="0" width="960" height="720"/>
+  </PieceList>
+</ImagePiece>

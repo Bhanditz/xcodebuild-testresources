@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_MainPanel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_PicBG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11"/>
+    <Panel id="m_Login" x="170" y="30" z="0" width="800" height="570" window_state="6">
+        <Picture id="m_PicBase" x="-21" y="-3" z="0" width="839" height="586" window_state="6" style="ngs_casino_common_panel12"/>
+        <Panel id="m_SlotTheme70%size" x="0" y="34" z="0" width="795" height="448" window_state="6"/>
+        <Picture id="m_Gradient" x="-1" y="326" z="0" width="798" height="156" window_state="6" style="ngs_casino_common_panel38"/>
+        <RichLabel id="m_LblText" x="59" y="379" z="0" width="676" height="60" window_state="6">
+            <text value="PLATFORM_LOGIN_POPUP_FACEBOOKUNLOCK_TEXT"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="29"/>
+        </RichLabel>
+        <Picture id="m_PicTop" x="-3" y="17" z="0" width="803" height="89" window_state="6" style="ngs_casino_common_panel12a">
+            <Picture id="m_Picture" x="192" y="9" z="0" width="419" height="68" window_state="14">
+                <scale x="1.25" y="1.25" z="1.25"/>
+                <piece_info value="casino_common_panel12e"/>
+            </Picture>
+            <RichLabel id="m_LblNote" x="162" y="4" z="0" width="479" height="65" window_state="6">
+                <text value="PLATFORM_LOGIN_POPUP_FACEBOOKUNLOCK_TITLE"/>
+                <font_size value="55"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+    </Panel>
+    <Button id="m_BtnClose" x="867" y="53" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+    <Button id="m_BtnLogin" x="363" y="477" z="0" width="409" height="98" window_state="6" style="ngs_casino_common_btn029">
+        <text value="PLATFORM_LOGIN_POPUP_FACEBOOKUNLOCK_BUTTON"/>
+        <font_size value="50"/>
+        <text_offset x="45" y="0" z="0"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

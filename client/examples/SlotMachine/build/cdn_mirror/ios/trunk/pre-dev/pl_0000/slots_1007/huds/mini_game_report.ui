@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1007_panel005"/>
+    <Picture id="m_Picture" x="302" y="7" z="0" width="532" height="505" window_state="6">
+        <piece_info value="slots_1007_panel007"/>
+    </Picture>
+    <RichLabel id="m_TotalWin" x="376" y="287" z="0" width="380" height="30" window_state="6">
+        <text value="999"/>
+        <font_size value="105"/>
+        <text_color value="cs_lightblue"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.44"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="5"/>
+        <outline_color value="cs_color_style1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel" x="488" y="211" z="0" width="157" height="62" window_state="6">
+        <text value="SLOTS_REELSPIN2_MINIGAMEREPORT_TEXT_YOUWIN"/>
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.41"/>
+        <outline_center value="0.47"/>
+        <word_spacing value="2"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

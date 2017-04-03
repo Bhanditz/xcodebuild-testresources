@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bonusgame_hit.png" width="256" height="512" blend="2" loop="1">
+    <sprite n="MLP_hit_00" x="2" y="226" w="100" h="92" oX="41" oY="61" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="MLP_hit_02" x="124" y="2" w="114" h="108" oX="49" oY="48" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="MLP_hit_04" x="2" y="2" w="120" h="112" oX="42" oY="45" oW="200" oH="200" dr="60"/>
+    <sprite n="MLP_hit_06" x="2" y="116" w="108" h="108" oX="45" oY="50" oW="200" oH="200" dr="60"/>
+    <sprite n="MLP_hit_08" x="104" y="226" w="96" h="92" oX="52" oY="55" oW="200" oH="200" dr="60"/>
+    <sprite n="MLP_hit_10" x="2" y="320" w="90" h="90" oX="56" oY="56" oW="200" oH="200" dr="60"/>
+    <sprite n="MLP_hit_12" x="124" y="112" w="112" h="112" oX="44" oY="45" oW="200" oH="200" dr="60"/>
+    <sprite n="MLP_hit_14" x="2" y="412" w="80" h="82" oX="58" oY="54" oW="200" oH="200" r="y" dr="60"/>
+</TextureAtlas>

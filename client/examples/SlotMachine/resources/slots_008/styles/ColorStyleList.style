@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorStyleList>
+  <ColorStyle id="cs_slots_008_txt_beige">
+    <normal value="0xfef1b1"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_008_txt_cyan">
+    <normal value="0x59d5f9"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_008_txt_grey">
+    <normal value="0x262523"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_008_txt_orange">
+    <normal value="0xff8400"/>
+  </ColorStyle>
+  <ColorStyle id="cs_slots_008_txt_yellow">
+    <normal value="0xfef32a"/>
+  </ColorStyle>
+</ColorStyleList>

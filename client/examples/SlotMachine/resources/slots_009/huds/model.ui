@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="342" y="188" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <SkinMesh id="m_SkinMesh" x="-385" y="-238" z="0" width="1560" height="920" window_state="2054" style="ngs_panel_bg">
+        <action_id value="animation_slot009_long@long00"/>
+        <mesh_file value="slots_009/models/long.model"/>
+        <mesh_scale x="30" y="30" z="30"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials>
+            <mesh_id_0>
+                <material_id value="0"/>
+            </mesh_id_0>
+            <mesh_id_1>
+                <material_id value="0"/>
+            </mesh_id_1>
+            <mesh_id_2>
+                <material_id value="0"/>
+            </mesh_id_2>
+        </mesh_materials>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh1" x="521" y="-230" z="0" width="326" height="301" window_state="2054" style="ngs_panel_bg">
+        <action_id value="animation_slot009_longtou@longtou00"/>
+        <mesh_file value="slots_009/models/longtou.model"/>
+        <mesh_scale x="30" y="30" z="30"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials>
+            <mesh_id_0>
+                <material_id value="0"/>
+            </mesh_id_0>
+        </mesh_materials>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh2" x="-364" y="-168" z="0" width="718" height="488" window_state="2054" style="ngs_panel_bg">
+        <action_id value="animation_slot009_aaaaaa"/>
+        <mesh_file value="slots_009/models/longwei.model"/>
+        <mesh_position x="-180" y="0" z="0"/>
+        <mesh_scale x="40" y="40" z="40"/>
+        <far_clip_distance value="1000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials>
+            <mesh_id_0>
+                <material_id value="0"/>
+            </mesh_id_0>
+        </mesh_materials>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh" x="-460" y="187" z="0" width="517" height="481" window_state="2054" style="ngs_panel_bg">
+        <action_id value="animation_slot009_aaaaaa"/>
+        <mesh_file value="slots_009/models/longzhua.model"/>
+        <mesh_position x="0" y="100" z="0"/>
+        <mesh_scale x="100" y="100" z="100"/>
+        <far_clip_distance value="3000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials>
+            <mesh_id_0>
+                <material_id value="0"/>
+            </mesh_id_0>
+        </mesh_materials>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh3" x="161" y="-375" z="0" width="482" height="391" window_state="2054" style="ngs_panel_bg">
+        <mesh_file value="slots_009/models/longzhu.model"/>
+        <mesh_position x="240" y="-24" z="-120"/>
+        <mesh_scale x="30" y="30" z="30"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials>
+            <mesh_id_0>
+                <material_id value="0"/>
+            </mesh_id_0>
+            <mesh_id_1>
+                <material_id value="7"/>
+            </mesh_id_1>
+        </mesh_materials>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMesh4" x="-192" y="-346" z="0" width="100" height="100" window_state="2054" style="ngs_panel_bg">
+        <mesh_file value="editor_res/models/sphere/sphere.model"/>
+        <mesh_scale x="100" y="100" z="100"/>
+        <far_clip_distance value="1000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+        <mesh_materials/>
+    </SkinMesh>
+</Panel>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_shootout1" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_BG" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="lobby_bg02"/>
+        <Picture id="m_Picture" x="2" y="0" z="0" width="1021" height="62" window_state="6" style="ngs_poker_purple_background_strip"/>
+        <Picture id="m_PicBgCongrats" x="0" y="0" z="0" width="1024" height="577" window_state="6">
+            <piece_info value="casino_bg03"/>
+        </Picture>
+        <Picture id="m_Picture" x="-56" y="-3" z="0" width="1137" height="84" window_state="6" style="ngs_casino_common_panel01a">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+        </Picture>
+    </Picture>
+    <Panel id="m_PanelGameWin" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <RichLabel id="m_LblRankWin" x="68" y="127" z="0" width="1000" height="55" window_state="6">
+            <text value="YOU FINISHED IN - PLACE AND WON -!"/>
+            <font_size value="50"/>
+            <text_color value="cs_yellowTxt"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblBonus" x="444" y="429" z="0" width="250" height="48" window_state="6">
+            <text value="You won -!"/>
+            <font_size value="50"/>
+            <text_color value="cs_White"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblTitleWin" x="291" y="10" z="0" width="554" height="50" window_state="6">
+            <text value="TEXASPOKER_SNG_RESULT_TITLE_CONGRATULATIONS"/>
+            <font_size value="65"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_PicBonus" x="316" y="219" z="0" width="488" height="195" window_state="6">
+            <scale x="1.08" y="1.08" z="1.08"/>
+            <piece_info value="poker_shootout_icon1"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_PanelGameEnd" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+        <RichLabel id="m_LblTitleEnd" x="291" y="10" z="0" width="554" height="50" window_state="6">
+            <text value="TEXASPOKER_SNG_RESULT_TITLE_GAMEEND"/>
+            <font_size value="65"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblRankEnd" x="68" y="250" z="0" width="1000" height="55" window_state="6">
+            <text value="YOU FINISHED IN 9TH PLACE!"/>
+            <font_size value="55"/>
+            <text_color value="cs_yellowTxt"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblPlayAgain" x="67" y="324" z="0" width="1001" height="55" window_state="6">
+            <text value="TEXASPOKER_SNG_RESULT_TEXT_PLAYAGAIN"/>
+            <font_size value="50"/>
+            <text_color value="cs_yellowTxt"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <RichLabel id="m_LblBalance" x="318" y="474" z="0" width="500" height="30" window_state="6">
+        <text value="New Account Balance: -"/>
+        <font_size value="35"/>
+        <text_color value="cs_lightgrey"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_BtnPlayNow" x="347" y="530" z="0" width="441" height="79" window_state="6" style="ngs_poker_profile_button3">
+        <text value="- to Play Again"/>
+        <font_size value="50"/>
+        <text_offset x="0" y="-5" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BtnClose" x="1033" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+</Panel>

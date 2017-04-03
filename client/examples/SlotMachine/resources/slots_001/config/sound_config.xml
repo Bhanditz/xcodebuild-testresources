@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_001/sound/GreatEruption_SE_spin.ogg"  volume="0.5"/>
+		<Sound name="STOP_CLICK" value=""/>		
+		<Sound name="REEL_READY_STOP" value="slots_001/sound/GreatEruption_reel_stop.ogg" volume="0.3"/>
+		<Sound name="NEAR_WIN" value="slots_001/sound/GreatEruption_SE_Focus.ogg" volume="0.7"/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_STOP" value=""/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg" volume="0.6"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg" volume="0.6"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		<Sound name="BASEGAME_BGM" value=""/>
+		
+		<Sound name="BASEGAME_NORMAL_SPIN_1" value="slots_001/sound/Normal_Spin_01.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_2" value="slots_001/sound/Normal_Spin_02.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_3" value="slots_001/sound/Normal_Spin_03.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_4" value="slots_001/sound/Normal_Spin_04.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_5" value="slots_001/sound/Normal_Spin_05.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_6" value="slots_001/sound/Normal_Spin_06.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_7" value="slots_001/sound/Normal_Spin_07.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_8" value="slots_001/sound/Normal_Spin_08.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_9" value="slots_001/sound/Normal_Spin_09.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_NORMAL_SPIN_10" value="slots_001/sound/Normal_Spin_10.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_1" value="slots_001/sound/Fast_Spin_01.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_2" value="slots_001/sound/Fast_Spin_02.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_3" value="slots_001/sound/Fast_Spin_03.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_4" value="slots_001/sound/Fast_Spin_04.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_5" value="slots_001/sound/Fast_Spin_05.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_6" value="slots_001/sound/Fast_Spin_06.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_7" value="slots_001/sound/Fast_Spin_07.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_8" value="slots_001/sound/Fast_Spin_08.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_9" value="slots_001/sound/Fast_Spin_09.ogg" volume="0.9"/>
+		<Sound name="BASEGAME_FAST_SPIN_10" value="slots_001/sound/Fast_Spin_10.ogg" volume="0.9"/>
+				
+		<Sound name="FREEGAME_START_BTN" value="slots_001/sound/Start_button_rumble_animation_01.ogg"  volume="1"/>
+		<Sound name="FREEGAME_BGM" value="slots_001/sound/GreatEruption_SE_FreeGame-bgm.ogg"  volume="1.0"/>
+		<Sound name="FREEGAME_AMBIENT" value="slots_001/sound/AMBIENCE_rumble_Loop.ogg"  volume="1.0"/>
+		<Sound name="FREEGAME_VOICE" value="slots_001/sound/GreatEruption_SE_Trigger.ogg"  volume="1"/>
+		<Sound name="FREEGAME_FOG" value="slots_001/sound/GreatEruption_SE_Fog.ogg" volume="0.9"/>
+		<Sound name="FREEGAME_RETRIGGER" value="slots_001/sound/GreatEruption_SE_ReTrigger.ogg"  volume="1"/>
+		
+		<!-- Scatter / Bonus Icon-->
+		<Sound name="ICON_SPECIAL_1" value="slots_001/sound/GreatEruption_SE_Bonus_Icon_hit1.ogg" volume="0.7"/>
+		<Sound name="ICON_SPECIAL_3" value="slots_001/sound/GreatEruption_SE_Bonus_Icon_hit2.ogg" volume="0.7"/>
+		<Sound name="ICON_SPECIAL_5" value="slots_001/sound/GreatEruption_SE_Bonus_Icon_hit3.ogg" volume="0.7"/>
+		<Sound name="ICON_SPECIAL_WIN" value="slots_001/sound/GreatEruption_SE_Bonus.ogg" volume="0.7"/>
+		
+		<Sound name="BONUS_BGM" value="slots_001/sound/GreatEruption_SE_Black_box-bgm.ogg" volume="0.8"/>
+		<Sound name="BONUS_VOICE" value="slots_001/sound/GreatEruption_SE_BonusTrigger.ogg" volume="1"/>
+		<Sound name="BONUS_TRANSITION" value="slots_001/sound/GreatEruption_SE_Stone.ogg" volume="1"/>
+		<Sound name="BONUS_CARD_SHUFFLE" value="slots_001/sound/GreatEruption_SE_SFCard.ogg" volume="0.8"/>
+		
+		<Sound name="PICK_CARD" value="slots_001/sound/GreatEruption_SE_SelCard.ogg" volume="0.9"/>
+		<Sound name="PICK_CARD_LAST" value="slots_001/sound/GreatEruption_SE_SelCardEnd.ogg" volume="0.9"/>
+		<Sound name="PICK_CARD_END" value="slots_001/sound/GreatEruption_SE_The_end_of_the_flop.ogg" volume="0.9"/>
+		
+		<Sound name="BIG_BONUS_BGM" value="slots_001/sound/GreatEruption_SE_big_bonus-bgm.ogg"/>
+		<Sound name="BIG_BONUS_VOICE" value="slots_001/sound/GreatEruption_SE_BigBonusTrigger.ogg" volume="1"/>
+		<Sound name="BIG_BONUS_GATE" value="slots_001/sound/GreatEruption_SE_Lava_wall.ogg" volume="1"/>
+		<Sound name="BIG_BONUS_LVL1" value="slots_001/sound/303-GreatEruption_SE_Progressive001.ogg" volume="0.8"/>
+		<Sound name="BIG_BONUS_LVL2" value="slots_001/sound/304-GreatEruption_SE_Progressive002.ogg" volume="0.8"/>
+		<Sound name="BIG_BONUS_LVL3" value="slots_001/sound/305-GreatEruption_SE_Progressive003.ogg" volume="0.8"/>
+		<Sound name="BIG_BONUS_LVL4" value="slots_001/sound/306-GreatEruption_SE_Progressive004.ogg" volume="0.8"/>
+		<Sound name="BIG_BONUS_LVL5" value="slots_001/sound/307-GreatEruption_SE_Progressive005.ogg" volume="0.8"/>
+		<Sound name="BIG_BONUS_LVL6" value="slots_001/sound/GreatEruption_JACKPOTicon.ogg" volume="0.8"/>
+		<Sound name="BIG_BONUS_TRANSITION" value="slots_001/sound/GreatEruption_SE_ProgressiveEnd.ogg" volume="0.8"/>
+		
+		<Sound name="JACKPOT_STEP1" value="slots_001/sound/23-GreatEruption_SE_Progressive.ogg" volume="0.6"/>
+		<Sound name="JACKPOT_STEP2" value="slots_001/sound/24-GreatEruption_SE_Progressive.ogg" volume="0.6"/>
+		<Sound name="JACKPOT_STEP3" value="slots_001/sound/25-GreatEruption_SE_Progressive.ogg" volume="0.7"/>
+		<Sound name="JACKPOT_STEP4" value="slots_001/sound/26-GreatEruption_SE_Progressive.ogg" volume="0.8"/>
+		<Sound name="JACKPOT_STEP5" value="slots_001/sound/27-GreatEruption_SE_Progressive.ogg" volume="1"/>
+		<Sound name="JACKPOT_ERUPTION" value="slots_001/sound/GreatEruption_SE_Lava_eruption.ogg" volume="0.8"/>
+		<Sound name="JACKPOT_SHAKE" value="slots_001/sound/GreatEruption_SE_ProgressiveEnd.ogg" volume="0.8"/>
+		
+		<Sound name="TRANSFORM_WILD" value="slots_001/sound/GreatEruption_SE_Lava_event.ogg" volume="0.8"/>
+		<Sound name="TRANSFORM_WILD_SMASH" value="slots_001/sound/GreatEruption_SE_Smash_lava.ogg" volume="0.7"/>
+		
+		<Sound name="WIN_RESULT_BGM" value="slots_001/sound/GreatEruption_SE_Settlement.ogg" volume="0.8"/>
+	</SoundInfo>
+</SlotsConfig>

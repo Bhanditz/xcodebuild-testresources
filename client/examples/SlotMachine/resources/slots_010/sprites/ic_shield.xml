@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ic_shield.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="shield_00001.png" x="2" y="284" w="111" h="139" oX="7" oY="2" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00002.png" x="115" y="284" w="109" h="139" oX="9" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00003.png" x="333" y="2" w="101" h="139" oX="15" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00004.png" x="143" y="425" w="139" h="81" oX="27" oY="3" oW="123" oH="145" r="y" dr="35"/>
+    <sprite n="shield_00005.png" x="335" y="143" w="59" h="139" oX="40" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00006.png" x="408" y="284" w="43" h="139" oX="47" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00007.png" x="396" y="143" w="57" h="139" oX="30" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00008.png" x="226" y="284" w="91" h="139" oX="12" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00009.png" x="117" y="2" w="109" h="139" oX="4" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00010.png" x="2" y="2" w="113" h="139" oX="4" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00011.png" x="226" y="143" w="107" h="139" oX="9" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00012.png" x="319" y="284" w="87" h="139" oX="20" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00013.png" x="284" y="425" w="139" h="63" oX="26" oY="3" oW="123" oH="145" r="y" dr="35"/>
+    <sprite n="shield_00014.png" x="453" y="284" w="39" h="139" oX="36" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00015.png" x="436" y="2" w="55" h="139" oX="29" oY="3" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00016.png" x="2" y="425" w="139" h="85" oX="12" oY="3" oW="123" oH="145" r="y" dr="35"/>
+    <sprite n="shield_00017.png" x="228" y="2" w="103" h="139" oX="6" oY="2" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00018.png" x="115" y="143" w="109" h="139" oX="5" oY="2" oW="123" oH="145" dr="35"/>
+    <sprite n="shield_00019.png" x="2" y="143" w="111" h="139" oX="7" oY="2" oW="123" oH="145" dr="35"/>
+</TextureAtlas>

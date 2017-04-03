@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model mesh="longzhua.meshdata">
+    <MaterialList>
+        <Material id="0" name="Material__230-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+		<Material id="1" name="Material__230-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_1.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+		<Material id="2" name="Material__230-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_2.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+		<Material id="3" name="Material__230-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_3.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+		<Material id="4" name="Material__230-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_4.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+		<Material id="5" name="Material__230-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_5.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+		<Material id="6" name="Material__230-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_6.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+    </MaterialList>
+    <MeshList>
+        <Mesh id="0" name="Object016" material="0" num_verts="448" num_faces="408" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT"/>
+    </MeshList>
+    <NodeList>
+        <Node id="0" parent_id="-1" name="unnamed" trans="0.0254,0,0,0,0,0,0.0254,0,0,-0.0254,0,0,0,0,0,1"/>
+        <Node id="1" parent_id="0" name="EnvironmentAmbientLight" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="2" parent_id="0" name="Object016" trans="-0.956298,-0.292394,-3.42727e-007,0,-0.171528,0.560994,0.809854,0,-0.236796,0.774462,-0.586631,0,0,0,0,1"/>
+        <Node id="3" parent_id="2" name="$ColladaAutoName$_19" meshes="0" trans="1,0,0,443.854,0,1,0,31.2886,0,0,1,-139.462,0,0,0,1"/>
+    </NodeList>
+</Model>

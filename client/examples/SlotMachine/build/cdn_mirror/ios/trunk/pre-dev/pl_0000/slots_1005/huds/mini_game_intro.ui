@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1005_panel012"/>
+    <Picture id="m_Picture" x="230" y="25" z="0" width="675" height="570" window_state="6">
+        <piece_info value="slots_1005_panel010"/>
+    </Picture>
+    <RichLabel id="you win" x="431" y="265" z="0" width="279" height="37" window_state="6">
+        <text value="SLOTS_ROADTOOZ2_MINIGAMEINTRO_TEXT_YOUWIN"/>
+        <font_size value="55"/>
+        <text_color value="cs_yellow001_style"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.38999999"/>
+        <outline_center value="0.49000001"/>
+        <word_spacing value="2"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_StartBtn" x="446" y="482" z="0" width="252" height="111" window_state="6" style="bs_slots_1005_button016">
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="m_Description1" x="417" y="295" z="0" width="306" height="90" window_state="4">
+        <text value="THE"/>
+        <font_size value="52"/>
+        <text_color value="cs_yellow001_style"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.41"/>
+        <outline_center value="0.49000001"/>
+        <outline_color value="cs_brown_1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_Description" x="417" y="337" z="0" width="306" height="90" window_state="6">
+        <text value="SLOTS_ROADTOOZ2_MINIGAMEINTRO_TEXT_BONUSGAME"/>
+        <font_size value="60"/>
+        <text_color value="cs_yellow001_style"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.41999999"/>
+        <outline_center value="0.49000001"/>
+        <outline_color value="cs_brown_1"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

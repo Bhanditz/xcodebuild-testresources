@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="20" y="188" z="0" width="1136" height="123" window_state="6" style="ngs_panel_bg">
+    <RichLabel id="m_LblRank" x="210" y="57" z="0" width="372" height="50" window_state="262">
+        <text value="YOU FINISHED IN 7TH PLACE"/>
+        <font_size value="50"/>
+        <text_color value="cs_lightgrey"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_BtnPlayNow" x="775" y="47" z="0" width="342" height="69" window_state="6" style="ngs_poker_profile_button3">
+        <text value="$2K to Play Again"/>
+        <font_size value="44"/>
+        <text_offset x="0" y="-4" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

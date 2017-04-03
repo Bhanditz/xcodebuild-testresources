@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel implement_class="PanelSlideInHint" id="m_PanelHint" x="-2" y="68" z="0" width="1140" height="73" window_state="6">
+    <action_id value="poker_slide_hint"/>
+    <Picture id="m_Picture1" x="1" y="5" z="0" width="1138" height="70" window_state="6" style="ngs_poker_common_icon_051">
+        <scale x="1" y="1.1" z="1"/>
+    </Picture>
+    <RichLabel id="m_LblHint" x="14" y="3" z="0" width="1111" height="77" window_state="6">
+        <text value="Tap ME to edit your profile to post yourself on the wall."/>
+        <font_size value="40"/>
+        <text_color value="cs_Sallow"/>
+        <text_style value="8"/>
+        <font_id value="DroidSansFallback"/>
+        <rich_label_state value="4"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="28"/>
+    </RichLabel>
+    <Button id="m_BtnClear" x="1076" y="20" z="0" width="43" height="43" window_state="6" style="bs_casino_common_btn010">
+        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BtnOk" x="947" y="9" z="0" width="188" height="69" window_state="4" style="ngs_casino_common_btn08b">
+        <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+        <text value="Retry"/>
+        <font_size value="55"/>
+        <text_offset x="0" y="-7" z="0"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

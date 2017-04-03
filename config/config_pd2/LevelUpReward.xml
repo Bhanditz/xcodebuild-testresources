@@ -1,0 +1,103 @@
+<!--配置说明：
+id在1至60间。也就是最大只允许配置60条
+每个奖励的物品数，只允许3条
+ -->
+<?xml version="1.0" ?>
+<LevelRewardList>
+  <RewardLevel id="1" level="5">
+    <RewardItem itemId="1" itemNum="10000"/>
+  </RewardLevel>
+  
+  <RewardLevel id="2" level="10">
+    <RewardItem itemId="1" itemNum="30000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="3" level="15">
+    <RewardItem itemId="1" itemNum="60000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="4" level="20">
+    <RewardItem itemId="1" itemNum="120000"/>
+  </RewardLevel>
+  
+    <RewardLevel id="5" level="25">
+    <RewardItem itemId="1" itemNum="240000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="6" level="30">
+    <RewardItem itemId="1" itemNum="360000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="7" level="35">
+    <RewardItem itemId="1" itemNum="480000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="8" level="40">
+    <RewardItem itemId="1" itemNum="600000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="9" level="45">
+    <RewardItem itemId="1" itemNum="720000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="10" level="50">
+    <RewardItem itemId="1" itemNum="900000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="11" level="55">
+    <RewardItem itemId="1" itemNum="1200000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="12" level="60">
+    <RewardItem itemId="1" itemNum="1500000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="13" level="65">
+    <RewardItem itemId="1" itemNum="1800000"/>
+  </RewardLevel>
+  
+  
+    <RewardLevel id="14" level="70">
+    <RewardItem itemId="1" itemNum="2100000"/>
+  </RewardLevel>
+  
+    
+    <RewardLevel id="15" level="75">
+    <RewardItem itemId="1" itemNum="2400000"/>
+  </RewardLevel>  
+  
+  
+    <RewardLevel id="16" level="80">
+    <RewardItem itemId="1" itemNum="2700000"/>
+  </RewardLevel>
+    
+  
+    <RewardLevel id="17" level="85">
+    <RewardItem itemId="1" itemNum="3000000"/>
+  </RewardLevel>
+    
+  
+    <RewardLevel id="18" level="90">
+    <RewardItem itemId="1" itemNum="3300000"/>
+  </RewardLevel>
+    
+  
+    <RewardLevel id="19" level="95">
+    <RewardItem itemId="1" itemNum="3600000"/>
+  </RewardLevel>
+    
+  
+    <RewardLevel id="20" level="100">
+    <RewardItem itemId="1" itemNum="4500000"/>
+  </RewardLevel>
+</LevelRewardList>

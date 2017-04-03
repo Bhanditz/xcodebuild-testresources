@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Sprite id="m_Sprite" x="-1" y="-1" z="0" width="1139" height="643" window_state="6">
+        <action_id value="animation_sd1_cutscreen"/>
+        <sprite_file value="slots/sprites/screen_cut.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="-1" y="-1" z="0" width="1139" height="643" window_state="4">
+        <action_id value="animation_sd1_cutscreen01"/>
+        <sprite_file value="slots/sprites/screen_cut01.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

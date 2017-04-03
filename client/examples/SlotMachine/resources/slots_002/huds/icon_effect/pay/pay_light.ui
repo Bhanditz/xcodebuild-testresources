@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6" style="ngs_panel_bg">
+    <Picture id="ref" x="39" y="25" z="0" width="78" height="50" window_state="262">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_Sparta_paylight"/>
+        <piece_info value="pay_shanbai"/>
+    </Picture>
+</Panel>

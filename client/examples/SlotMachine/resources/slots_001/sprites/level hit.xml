@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="level hit.png" width="256" height="256" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="a00000" x="50" y="196" w="34" h="36" oX="34" oY="32" oW="100" oH="100" dr="60"/>
+    <sprite n="a00001" x="2" y="196" w="46" h="48" oX="27" oY="27" oW="100" oH="100" dr="60"/>
+    <sprite n="a00002" x="92" y="192" w="66" h="62" oX="19" oY="18" oW="100" oH="100" r="y" dr="60"/>
+    <sprite n="a00003" x="94" y="2" w="78" h="84" oX="12" oY="9" oW="100" oH="100" dr="60"/>
+    <sprite n="a00004" x="92" y="100" w="84" h="90" oX="8" oY="6" oW="100" oH="100" dr="60"/>
+    <sprite n="a00005" x="2" y="100" w="88" h="94" oX="7" oY="4" oW="100" oH="100" dr="60"/>
+    <sprite n="a00006" x="2" y="2" w="90" h="96" oX="6" oY="3" oW="100" oH="100" dr="60"/>
+</TextureAtlas>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="75" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="150" height="75" window_state="6">
+        <Picture id="m_Bg" x="0" y="0" z="0" width="150" height="75" window_state="262">
+            <piece_info value="slots_012_icon_03"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="-15" y="-13" z="0" width="180" height="100" window_state="4">
+            <sprite_file value="slots_012/sprites/icon003.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Picture id="m_Picture" x="0" y="0" z="0" width="150" height="75" window_state="262">
+            <piece_info value="slots_012_icon_03a"/>
+        </Picture>
+        <Panel id="m_Spine" x="0" y="0" z="0" width="150" height="75" window_state="4">
+            <Panel id="m_Clip" x="4" y="1" z="0" width="140" height="70" window_state="262150">
+                <SpineSprite id="m_SpineSprite" x="12" y="36" z="0" width="100" height="100" window_state="6">
+                    <action_id value="animation_slot012_lizard@animation"/>
+                    <spine_file value="slots_012/spine_sprites/lizard.json"/>
+                    <auto_anim_name value="death"/>
+                </SpineSprite>
+            </Panel>
+            <Picture id="m_BottomFrame" x="0" y="34" z="0" width="150" height="40" window_state="6">
+                <piece_info value="slots_012_panel_17"/>
+            </Picture>
+        </Panel>
+    </Panel>
+</Panel>

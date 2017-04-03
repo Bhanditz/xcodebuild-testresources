@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="icon041_01.png" width="1024" height="1024" blend="1" loop="1">
+    <sprite n="000" x="216" y="588" w="218" h="220" oX="79" oY="115" oW="400" oH="400" dr="60"/>
+    <sprite n="002" x="234" y="272" w="194" h="216" oX="94" oY="127" oW="400" oH="400" dr="60"/>
+    <sprite n="004" x="208" y="822" w="166" h="200" oX="108" oY="150" oW="400" oH="400" dr="60"/>
+    <sprite n="006" x="422" y="2" w="174" h="204" oX="103" oY="148" oW="400" oH="400" dr="60"/>
+    <sprite n="008" x="376" y="810" w="182" h="206" oX="97" oY="146" oW="400" oH="400" dr="60"/>
+    <sprite n="010" x="2" y="822" w="204" h="200" oX="84" oY="145" oW="400" oH="400" r="y" dr="60"/>
+    <sprite n="012" x="2" y="588" w="212" h="232" oX="59" oY="136" oW="400" oH="400" r="y" dr="60"/>
+    <sprite n="014" x="2" y="318" w="230" h="268" oX="31" oY="124" oW="400" oH="400" r="y" dr="60"/>
+    <sprite n="016" x="204" y="2" w="216" h="268" oX="102" oY="85" oW="400" oH="400" dr="60"/>
+    <sprite n="018" x="2" y="2" w="200" h="314" oX="121" oY="42" oW="400" oH="400" dr="1000"/>
+</TextureAtlas>

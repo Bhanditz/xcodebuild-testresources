@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wild_dragon04_b.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="00018" x="308" y="152" w="146" h="146" oX="23" oY="27" oW="192" oH="192" dr="60"/>
+    <sprite n="00020" x="308" y="2" w="150" h="148" oX="21" oY="27" oW="192" oH="192" dr="60"/>
+    <sprite n="00022" x="156" y="320" w="150" h="152" oX="22" oY="25" oW="192" oH="192" r="y" dr="60"/>
+    <sprite n="00024" x="2" y="162" w="154" h="156" oX="21" oY="19" oW="192" oH="192" dr="60"/>
+    <sprite n="00026" x="2" y="2" w="154" h="158" oX="21" oY="16" oW="192" oH="192" dr="60"/>
+    <sprite n="00028" x="2" y="320" w="152" h="154" oX="21" oY="18" oW="192" oH="192" dr="60"/>
+    <sprite n="00030" x="158" y="2" w="148" h="136" oX="20" oY="28" oW="192" oH="192" dr="60"/>
+    <sprite n="00032" x="158" y="140" w="148" h="128" oX="20" oY="31" oW="192" oH="192" dr="60"/>
+</TextureAtlas>

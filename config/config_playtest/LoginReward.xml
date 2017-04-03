@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<!--
+  	登录奖励
+  
+-->
+<root>
+		<VipLoginReward>
+				<Reward Level="1" Coins="0"/>
+				<Reward Level="2" Coins="5000"/>
+				<Reward Level="3" Coins="7500"/>
+				<Reward Level="4" Coins="10000"/>
+				<Reward Level="5" Coins="15000"/>
+				<Reward Level="6" Coins="20000"/>
+		</VipLoginReward>
+		
+		<FriendLoginReward OneFriendCoins="1000">
+				<Reward FriendCount="1" Coins="1000"/>
+				<Reward FriendCount="2" Coins="2000"/>
+				<Reward FriendCount="3" Coins="3000"/>
+				<Reward FriendCount="4" Coins="4000"/>
+				<Reward FriendCount="5" Coins="5000"/>
+				<Reward FriendCount="6" Coins="6000"/>
+				<Reward FriendCount="7" Coins="7000"/>
+				<Reward FriendCount="8" Coins="8000"/>
+				<Reward FriendCount="9" Coins="9000"/>
+				<Reward FriendCount="10" Coins="10000"/>
+				<Reward FriendCount="11" Coins="11000"/>
+				<Reward FriendCount="12" Coins="12000"/>
+				<Reward FriendCount="13" Coins="13000"/>
+				<Reward FriendCount="14" Coins="14000"/>
+				<Reward FriendCount="15" Coins="15000"/>
+				<Reward FriendCount="16" Coins="16000"/>
+				<Reward FriendCount="17" Coins="17000"/>
+				<Reward FriendCount="18" Coins="18000"/>
+				<Reward FriendCount="19" Coins="19000"/>
+				<Reward FriendCount="20" Coins="20000"/>
+				<Reward FriendCount="21" Coins="21000"/>
+				<Reward FriendCount="22" Coins="22000"/>
+				<Reward FriendCount="23" Coins="23000"/>
+				<Reward FriendCount="24" Coins="24000"/>
+				<Reward FriendCount="25" Coins="25000"/>
+		</FriendLoginReward>
+		
+		<LoginReward OneDayCoins="1000">
+			 <Day Index="1" Coins="1000"/>
+			 <Day Index="2" Coins="2000"/>
+			 <Day Index="3" Coins="3000"/>
+			 <Day Index="4" Coins="4000"/>
+			 <Day Index="5" Coins="5000"/>
+			 <Day Index="6" Coins="6000"/>
+			 <Day Index="7" Coins="7000"/>
+		</LoginReward>
+	
+		<LoginMonthReward>
+			<RewardTable>
+				<Table id="1"><!-- 1.3.0前2016年1月份数据老玩家奖励不变 -->
+					<Day itemid="1" itemnum="15000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="15000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="30000" starExtraPercent="100" starlev="2" />
+					<Day itemid="1" itemnum="18000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="18000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="18000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="30000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="22000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="22000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="33000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="26000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="26000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="36000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="30000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="40000" starExtraPercent="500" starlev="5" />
+					<Day itemid="1" itemnum="35000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="35000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="45000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="40000" starExtraPercent="0" starlev="1" />
+					<Day itemid="1" itemnum="50000" starExtraPercent="0" starlev="1" />
+					<LastReward itemid="1" itemnum="50000" />
+				</Table>
+				
+				<Table id="2"><!-- 1.3.0修改，大礼包没有Star加成，Star3开始每天都有倍数加成 -->
+					<Day itemid="1" itemnum="3000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="3000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="7500" starExtraPercent="400" starlev="3" />
+					<Day itemid="1" itemnum="5000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="5000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="10500" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="7500" starExtraPercent="400" starlev="3" />
+					<Day itemid="1" itemnum="12000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="15000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="12000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="12000" starExtraPercent="200" starlev="3" />
+					<LastReward itemid="1" itemnum="12000" />
+				</Table>
+				
+				<Table id="3"><!-- 1.3.0修改，大礼包没有Star加成，Star3开始每天都有倍数加成 -->
+					<Day itemid="1" itemnum="3000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="3000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="7500" starExtraPercent="400" starlev="3" />
+					<Day itemid="1" itemnum="5000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="5000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="10500" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="7500" starExtraPercent="400" starlev="3" />
+					<Day itemid="1" itemnum="12000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="15000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="10500" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="12000" starExtraPercent="200" starlev="3" />
+					<LastReward itemid="1" itemnum="12000" />
+				</Table>
+				
+				<Table id="4"><!-- 1.3.0修改，大礼包没有Star加成，Star3开始每天都有倍数加成 -->
+					<Day itemid="1" itemnum="3000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="3000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="4000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="7500" starExtraPercent="400" starlev="3" />
+					<Day itemid="1" itemnum="5000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="5000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="6000" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="10500" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="7500" starExtraPercent="400" starlev="3" />
+					<Day itemid="1" itemnum="12000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="9000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="15000" starExtraPercent="100" starlev="3" />
+					<Day itemid="1" itemnum="10500" starExtraPercent="200" starlev="3" />
+					<Day itemid="1" itemnum="12000" starExtraPercent="200" starlev="3" />
+					<LastReward itemid="1" itemnum="12000"/>
+				</Table>
+			</RewardTable>
+			
+			<MonthTable>
+				<!-- 匹配大于等于regtime，否则取下一组数据 -->
+				<regtime time="20170308"> 
+				</regtime>
+				<regtime time="20170121"> 
+					<Month id="1" RewardTable="4" />
+					<Month id="2" RewardTable="2" />
+					<Month id="3" RewardTable="4" />
+				</regtime>
+				<regtime time="20160101"> 
+					<Month id="1" RewardTable="1" />
+					<Month id="2" RewardTable="2" />
+					<Month id="3" RewardTable="4" />
+				</regtime>
+			</MonthTable>
+		</LoginMonthReward>
+		
+		<First7DayLoginReward >
+			<!-- 匹配大于等于regtime，否则取下一组数据 -->
+			<regtime time="20170331">
+			</regtime>
+			<regtime time="20170121">
+			 <Day itemid="1" itemnum="6000" />
+			 <Day itemid="1" itemnum="8000" />
+			 <Day itemid="1" itemnum="10000" />
+			 <Day itemid="1" itemnum="12000" />
+			 <Day itemid="1" itemnum="15000" />
+			 <Day itemid="1" itemnum="20000" />
+			 <Day itemid="1" itemnum="80000" />
+			</regtime>
+			<regtime time="20160101">
+			 <Day itemid="1" itemnum="20000" />
+			 <Day itemid="1" itemnum="25000" />
+			 <Day itemid="1" itemnum="30000" />
+			 <Day itemid="1" itemnum="35000" />
+			 <Day itemid="1" itemnum="40000" />
+			 <Day itemid="1" itemnum="50000" />
+			 <Day itemid="1" itemnum="250000" />
+			</regtime>
+		</First7DayLoginReward>
+		
+		<ReelsReward>
+				<Reward Index="1" Coins="1000000" Weight="1" Icon1="2" Icon2="2" Icon3="2"/>
+				<Reward Index="2" Coins="100000" Weight="49" Icon1="1" Icon2="1" Icon3="1"/>
+				
+				<Reward Index="3" Coins="30000" Weight="1450" Icon1="4" Icon2="4" Icon3="4"/>
+				<Reward Index="4" Coins="15000" Weight="1750" Icon1="5" Icon2="5" Icon3="5"/>
+				<Reward Index="5" Coins="8000" Weight="1750" Icon1="6" Icon2="6" Icon3="6"/>
+				
+				<Reward Index="6" Coins="3000" Weight="63" Icon1="4" Icon2="4" Icon3="5"/>
+				<Reward Index="7" Coins="3000" Weight="62" Icon1="4" Icon2="4" Icon3="6"/>
+				<Reward Index="8" Coins="3000" Weight="63" Icon1="4" Icon2="5" Icon3="4"/>
+				<Reward Index="9" Coins="3000" Weight="62" Icon1="4" Icon2="5" Icon3="5"/>
+				<Reward Index="10" Coins="3000" Weight="63" Icon1="4" Icon2="5" Icon3="6"/>
+				<Reward Index="11" Coins="3000" Weight="62" Icon1="4" Icon2="6" Icon3="4"/>
+				<Reward Index="12" Coins="3000" Weight="63" Icon1="4" Icon2="6" Icon3="5"/>
+				<Reward Index="13" Coins="3000" Weight="62" Icon1="4" Icon2="6" Icon3="6"/>
+				
+				<Reward Index="14" Coins="3000" Weight="63" Icon1="5" Icon2="4" Icon3="4"/>
+				<Reward Index="15" Coins="3000" Weight="62" Icon1="5" Icon2="4" Icon3="5"/>
+				<Reward Index="16" Coins="3000" Weight="63" Icon1="5" Icon2="4" Icon3="6"/>
+				<Reward Index="17" Coins="3000" Weight="62" Icon1="5" Icon2="5" Icon3="4"/>
+				<Reward Index="18" Coins="3000" Weight="63" Icon1="5" Icon2="5" Icon3="6"/>
+				<Reward Index="19" Coins="3000" Weight="62" Icon1="5" Icon2="6" Icon3="4"/>
+				<Reward Index="20" Coins="3000" Weight="63" Icon1="5" Icon2="6" Icon3="5"/>
+				<Reward Index="21" Coins="3000" Weight="62" Icon1="5" Icon2="6" Icon3="6"/>
+				
+				<Reward Index="22" Coins="3000" Weight="63" Icon1="6" Icon2="4" Icon3="4"/>
+				<Reward Index="23" Coins="3000" Weight="62" Icon1="6" Icon2="4" Icon3="5"/>
+				<Reward Index="24" Coins="3000" Weight="63" Icon1="6" Icon2="4" Icon3="6"/>
+				<Reward Index="25" Coins="3000" Weight="62" Icon1="6" Icon2="5" Icon3="4"/>
+				<Reward Index="26" Coins="3000" Weight="63" Icon1="6" Icon2="5" Icon3="5"/>
+				<Reward Index="27" Coins="3000" Weight="62" Icon1="6" Icon2="5" Icon3="6"/>
+				<Reward Index="28" Coins="3000" Weight="63" Icon1="6" Icon2="6" Icon3="4"/>
+				<Reward Index="29" Coins="3000" Weight="62" Icon1="6" Icon2="6" Icon3="5"/>
+				
+				<Reward Index="30" Coins="5000" Weight="2000" Icon1="3" Icon2="3" Icon3="3"/>
+				
+				<Reward Index="31" Coins="2000" Weight="100" Icon1="3" Icon2="3" Icon3="1"/>
+				<Reward Index="32" Coins="2000" Weight="100" Icon1="3" Icon2="3" Icon3="4"/>
+				<Reward Index="33" Coins="2000" Weight="100" Icon1="3" Icon2="3" Icon3="5"/>
+				<Reward Index="34" Coins="2000" Weight="100" Icon1="3" Icon2="3" Icon3="6"/>
+				<Reward Index="35" Coins="2000" Weight="100" Icon1="3" Icon2="1" Icon3="3"/>
+				<Reward Index="36" Coins="2000" Weight="100" Icon1="3" Icon2="4" Icon3="3"/>
+				<Reward Index="37" Coins="2000" Weight="100" Icon1="3" Icon2="5" Icon3="3"/>
+				<Reward Index="38" Coins="2000" Weight="100" Icon1="3" Icon2="6" Icon3="3"/>
+				<Reward Index="39" Coins="2000" Weight="100" Icon1="5" Icon2="3" Icon3="3"/>
+				<Reward Index="40" Coins="2000" Weight="100" Icon1="6" Icon2="3" Icon3="3"/>
+				
+				<Reward Index="41" Coins="1000" Weight="50" Icon1="3" Icon2="1" Icon3="4"/>
+				<Reward Index="42" Coins="1000" Weight="50" Icon1="1" Icon2="3" Icon3="5"/>
+				<Reward Index="43" Coins="1000" Weight="50" Icon1="3" Icon2="1" Icon3="6"/>
+				<Reward Index="44" Coins="1000" Weight="50" Icon1="4" Icon2="3" Icon3="1"/>
+				<Reward Index="45" Coins="1000" Weight="50" Icon1="3" Icon2="4" Icon3="5"/>
+				<Reward Index="46" Coins="1000" Weight="50" Icon1="3" Icon2="4" Icon3="6"/>
+				<Reward Index="47" Coins="1000" Weight="50" Icon1="5" Icon2="3" Icon3="2"/>
+				<Reward Index="48" Coins="1000" Weight="50" Icon1="3" Icon2="5" Icon3="4"/>
+				<Reward Index="49" Coins="1000" Weight="50" Icon1="3" Icon2="1" Icon3="5"/>
+				<Reward Index="50" Coins="1000" Weight="50" Icon1="3" Icon2="5" Icon3="6"/>
+		</ReelsReward>		
+ </root>
+ 

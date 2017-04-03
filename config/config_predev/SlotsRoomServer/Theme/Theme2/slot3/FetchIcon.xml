@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		获取图标
+		<FetchIcon id="1">
+		<Target Symbol="10"/>
+		<IconAmount>
+			<Amount amount="0" weight="40"/>
+			<Amount amount="1" weight="120"/>
+			<Amount amount="2" weight="60"/>
+			<Amount amount="3" weight="10"/>
+			<Amount amount="4" weight="1"/>
+			<Amount amount="5" weight="0"/>
+		</IconAmount>
+		<ReelID>
+			<Reel id="1" weight="10"/>
+			<Reel id="2" weight="10"/>
+			<Reel id="3" weight="10"/>
+			<Reel id="4" weight="15"/>
+			<Reel id="5" weight="20"/>
+		</ReelID>
+	</FetchIcon>
+ -->
+<root>
+	<FetchIcon id="1"><!--掉将军-->
+	<Target Symbol="1"/>
+	<IconAmount>
+		<Amount amount="0" weight="3870" WildRate="500"/>
+		<Amount amount="8" weight="35"/>
+		<Amount amount="9" weight="30"/>
+		<Amount amount="10" weight="25"/>
+		<Amount amount="11" weight="20"/>
+		<Amount amount="12" weight="15"/>
+		<Amount amount="13" weight="2"/>
+		<Amount amount="14" weight="2"/>
+		<Amount amount="15" weight="1"/>
+		<Amount amount="16" weight="1"/>
+	</IconAmount>
+	<ReelID>
+		<Reel id="1" weight="10"/>
+		<Reel id="2" weight="10"/>
+		<Reel id="3" weight="10"/>
+		<Reel id="4" weight="10"/>
+		<Reel id="5" weight="10"/>
+	</ReelID>
+	</FetchIcon>
+</root>

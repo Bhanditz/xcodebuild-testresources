@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata>
+	<Section name="ZeusWorld">
+		<PersistentLevel>/huds/base_game.ui</PersistentLevel>
+		<FreeSpinTouchStartUI>/huds/freespin_touch_start.ui</FreeSpinTouchStartUI>
+		<FreeSpinReportSummaryUI>/huds/freespin_report_scene.ui</FreeSpinReportSummaryUI>
+	</Section>
+	<Section name="Timelines">
+		<Timeline>/timelines/opening_intro.tl</Timeline>
+	</Section>
+	<Section name="Cutscenes">
+		<Opening_Base>/timelines/base_preinit.tl</Opening_Base>
+		<Opening_Base>/timelines/opening_intro.tl</Opening_Base>
+		<Opening_Base>/timelines/base_from_opening.tl</Opening_Base>
+		<Opening_Base>/timelines/base_game_enter.tl</Opening_Base>
+		<Base_FreeSpin>/timelines/base_game_leave.tl</Base_FreeSpin>
+		<Base_FreeSpin>/timelines/free_game_enter.tl</Base_FreeSpin>
+		<FreeSpin_Base>/timelines/free_game_leave.tl</FreeSpin_Base>
+		<FreeSpin_Base>/timelines/base_game_enter.tl</FreeSpin_Base>
+		<FreeSpinReport>/timelines/free_report_init.tl</FreeSpinReport>
+		<FreeSpinReport>/timelines/free_report_summary.tl</FreeSpinReport>
+		<FreeSpinReport>/timelines/free_report_exit.tl</FreeSpinReport>
+	</Section>
+	<Section name="ZeusSlotGame">
+		<ScatterAppear>/timelines/zeus_icon_041.tl</ScatterAppear>
+		<ScatterWin>/timelines/zeus_icon_041_win.tl</ScatterWin>
+		<ScatterDisappear>/timelines/zeus_icon_041_no_win.tl</ScatterDisappear>
+		<PreEnterFreeSpin>/timelines/lightning_strike.tl</PreEnterFreeSpin>
+		<PreExitFreeSpin>/timelines/lightning_strike2.tl</PreExitFreeSpin>
+	</Section>
+	<Section name="ZeusMegaIcon">
+		<NextPlayDelay>0.2</NextPlayDelay>
+	</Section>
+	<Section name="ZeusFreeSpinGame">
+		<FreeSpinIntroStart>/timelines/free_pop_up_in.tl</FreeSpinIntroStart>
+		<FreeSpinIntroEnd>/timelines/free_pop_up_out.tl</FreeSpinIntroEnd>
+	</Section>
+	<Section name="/timelines/opening_intro.tl">
+		<UIPackage>("/huds/opening_scene.ui",true)</UIPackage>
+		<Function>(name="Step_OpeningScene",intrinsic=("TouchToSkip",(10.000000)))</Function>
+	</Section>
+	<Section name="/timelines/free_game_enter.tl">
+		<Function>(name="Step_WaitForStart",intrinsic=("FreeGameWaitForStart",("")))</Function>
+	</Section>
+	<Section name="/timelines/zeus_icon_041.tl">
+		<UIPackage>/huds/icon_effect/icon_041.ui</UIPackage>
+	</Section>
+	<Section name="/timelines/zeus_icon_041_no_win.tl">
+		<UIPackage>/huds/icon_effect/icon_041.ui</UIPackage>
+	</Section>
+	<Section name="ZeusMegaIcon">
+		<Mega2>/timelines/zeus_icon_mega_frame2.tl</Mega2>
+		<Mega3>/timelines/zeus_icon_mega_frame3.tl</Mega3>
+		<Mega4>/timelines/zeus_icon_mega_frame4.tl</Mega4>
+		<Mega5>/timelines/zeus_icon_mega_frame5.tl</Mega5>
+		<Mega6>/timelines/zeus_icon_mega_frame6.tl</Mega6>
+		<Mega7>/timelines/zeus_icon_mega_frame7.tl</Mega7>
+		<Mega2b>/timelines/zeus_icon_mega_frame2b.tl</Mega2b>
+		<Mega3b>/timelines/zeus_icon_mega_frame3b.tl</Mega3b>
+		<Mega4b>/timelines/zeus_icon_mega_frame4b.tl</Mega4b>
+		<Mega5b>/timelines/zeus_icon_mega_frame5b.tl</Mega5b>
+		<Mega6b>/timelines/zeus_icon_mega_frame6b.tl</Mega6b>
+		<Mega7b>/timelines/zeus_icon_mega_frame7b.tl</Mega7b>
+		<Mega2reset>/timelines/zeus_icon_mega_frame2_reset.tl</Mega2reset>
+		<Mega3reset>/timelines/zeus_icon_mega_frame3_reset.tl</Mega3reset>
+		<Mega4reset>/timelines/zeus_icon_mega_frame4_reset.tl</Mega4reset>
+		<Mega5reset>/timelines/zeus_icon_mega_frame5_reset.tl</Mega5reset>
+		<Mega6reset>/timelines/zeus_icon_mega_frame6_reset.tl</Mega6reset>
+		<Mega7reset>/timelines/zeus_icon_mega_frame7_reset.tl</Mega7reset>
+	</Section>
+	<Version>
+		<Rank>1374136528.000000</Rank>
+	</Version>
+</Metadata>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+  	好友配置
+  
+-->
+<root>
+	<maxfriendnum num="50" />
+	<maxgiftnum num="20" />
+		
+	<sendgift times="1">
+		<giftcoin>
+		</giftcoin>
+		
+		<giftspin spinnum="5">
+			<slotitem id="10001,10002,10003,10004,10005,10006,10007,10008,10010,10012,10014,10018,11001,11002,11003,11004,11005,11006,11007,11008,11009" />
+		</giftspin>
+	</sendgift>
+	
+	<fetchgift times="20">
+		<giftcoin>
+			<coin value="1000" probably="70" />
+			<coin value="1500" probably="20" />
+			<coin value="2000" probably="10" />
+		</giftcoin>
+	</fetchgift>
+				
+ </root>
+ 

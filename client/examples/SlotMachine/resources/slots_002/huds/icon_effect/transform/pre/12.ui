@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6" style="ngs_panel_bg">
+    <Picture id="ref" x="0" y="0" z="0" width="156" height="100" window_state="4"/>
+    <Picture id="m_Picture14" x="0" y="0" z="0" width="156" height="100" window_state="6">
+        <action_id value="animation_Sparta_icondrop"/>
+        <piece_info value="slots_002_icon13"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-174" y="-194" z="0" width="500" height="500" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_highpaysmoke.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

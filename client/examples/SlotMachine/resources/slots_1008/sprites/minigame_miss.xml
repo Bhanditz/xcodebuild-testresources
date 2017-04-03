@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="minigame_miss.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="00000" x="2" y="350" w="170" h="160" oX="44" oY="57" oW="256" oH="256" dr="50"/>
+    <sprite n="00001" x="2" y="174" w="160" h="174" oX="41" oY="57" oW="256" oH="256" r="y" dr="50"/>
+    <sprite n="00002" x="228" y="2" w="210" h="170" oX="24" oY="57" oW="256" oH="256" dr="50"/>
+    <sprite n="00003" x="2" y="2" w="224" h="170" oX="20" oY="57" oW="256" oH="256" dr="50"/>
+    <sprite n="00004" x="164" y="174" w="126" h="134" oX="66" oY="60" oW="256" oH="256" dr="50"/>
+    <sprite n="00005" x="174" y="310" w="122" h="124" oX="67" oY="66" oW="256" oH="256" dr="50"/>
+    <sprite n="00006" x="298" y="296" w="120" h="112" oX="73" oY="67" oW="256" oH="256" r="y" dr="50"/>
+    <sprite n="00007" x="292" y="174" w="112" h="120" oX="73" oY="67" oW="256" oH="256" dr="50"/>
+</TextureAtlas>

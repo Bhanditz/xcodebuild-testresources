@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="theme804" file_name="theme804.png" width="1024" height="1024"/>
+    <Image id="theme804_01" file_name="theme804_01.png" width="1024" height="256"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="formal_btn_h05" image_id="theme804" x="1" y="586" width="335" height="112"/>
+    <Piece id="formal_icon_egg_01" image_id="theme804" x="1" y="699" width="150" height="179"/>
+    <Piece id="formal_icon_egg_02" image_id="theme804" x="152" y="699" width="150" height="179"/>
+    <Piece id="formal_icon_egg_03" image_id="theme804" x="303" y="839" width="150" height="179"/>
+    <Piece id="formal_icon_egg_04" image_id="theme804" x="454" y="839" width="150" height="179"/>
+    <Piece id="formal_icon_jinb_01" image_id="theme804" x="337" y="663" width="189" height="175"/>
+    <Piece id="formal_panel_h11" image_id="theme804" x="0" y="0" width="471" height="585"/>
+    <Piece id="formal_panel_h12" image_id="theme804_01" x="0" y="0" width="571" height="190"/>
+    <Piece id="theme804_bg02" image_id="theme804" x="472" y="1" width="523" height="559"/>
+    <Piece id="theme804_gridBg" image_id="theme804" x="76" y="879" width="83" height="79"/>
+    <Piece id="theme804_icon01" image_id="theme804" x="527" y="663" width="156" height="148"/>
+    <Piece id="theme804_icon02" image_id="theme804" x="605" y="812" width="156" height="148"/>
+    <Piece id="theme804_icon03" image_id="theme804" x="684" y="663" width="156" height="148"/>
+    <Piece id="theme804_icon04" image_id="theme804" x="762" y="812" width="156" height="148"/>
+    <Piece id="theme804_icon05" image_id="theme804" x="841" y="663" width="156" height="148"/>
+    <Piece id="theme804_icon06" image_id="theme804" x="936" y="561" width="74" height="91"/>
+    <Piece id="theme804_icon07" image_id="theme804" x="919" y="812" width="74" height="91"/>
+    <Piece id="theme804_icon08" image_id="theme804" x="919" y="904" width="74" height="91"/>
+    <Piece id="theme804_icon10" image_id="theme804" x="1" y="879" width="74" height="91"/>
+    <Piece id="theme804_icon14" image_id="theme804" x="337" y="586" width="81" height="64"/>
+    <Piece id="theme804_icon15" image_id="theme804" x="472" y="561" width="463" height="101"/>
+  </PieceList>
+</ImagePiece>

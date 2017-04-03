@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="volcano_focus01.png" width="512" height="512" offset_x="-5" offset_y="0" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="00000" x="122" y="2" w="254" h="124" oX="42" oY="23" oW="200" oH="300" r="y" dr="90"/>
+    <sprite n="00001" x="122" y="244" w="252" h="112" oX="48" oY="24" oW="200" oH="300" r="y" dr="90"/>
+    <sprite n="00002" x="122" y="128" w="254" h="114" oX="47" oY="23" oW="200" oH="300" r="y" dr="90"/>
+    <sprite n="00003" x="122" y="358" w="242" h="118" oX="45" oY="29" oW="200" oH="300" r="y" dr="90"/>
+    <sprite n="00004" x="376" y="248" w="122" h="236" oX="43" oY="32" oW="200" oH="300" dr="90"/>
+    <sprite n="00005" x="378" y="2" w="124" h="244" oX="42" oY="28" oW="200" oH="300" dr="90"/>
+    <sprite n="00006" x="2" y="2" w="118" h="256" oX="45" oY="22" oW="200" oH="300" dr="90"/>
+    <sprite n="00007" x="2" y="260" w="118" h="250" oX="45" oY="25" oW="200" oH="300" dr="90"/>
+</TextureAtlas>

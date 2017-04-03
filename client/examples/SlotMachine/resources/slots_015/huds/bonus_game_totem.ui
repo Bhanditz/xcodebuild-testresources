@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="119" height="121" window_state="14">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="119" height="121" window_state="14">
+        <Button id="m_Bonusicon0" x="0" y="0" z="0" width="119" height="121" window_state="270" style="bs_slots_015_bonudicon_01">
+            <line_height value="30"/>
+            <Picture id="m_Picture1" x="0" y="0" z="0" width="118" height="120" window_state="268">
+                <piece_info value="slots_015_bonudicon_02"/>
+            </Picture>
+            <Picture id="m_Picture1_font" x="30" y="48" z="0" width="58" height="23" window_state="268">
+                <piece_info value="slots_015_fonts_05"/>
+            </Picture>
+            <Picture id="m_Picture2" x="0" y="0" z="0" width="118" height="120" window_state="268">
+                <piece_info value="slots_015_bonudicon_03"/>
+            </Picture>
+            <Picture id="m_Picture2_font" x="38" y="49" z="0" width="42" height="22" window_state="268">
+                <piece_info value="slots_015_fonts_08"/>
+            </Picture>
+            <Picture id="m_Picture3" x="0" y="0" z="0" width="118" height="120" window_state="268">
+                <piece_info value="slots_015_bonudicon_04"/>
+            </Picture>
+            <Picture id="m_Picture3_font" x="24" y="49" z="0" width="70" height="22" window_state="268">
+                <piece_info value="slots_015_fonts_06"/>
+            </Picture>
+            <Picture id="m_Picture4" x="0" y="0" z="0" width="118" height="120" window_state="268">
+                <piece_info value="slots_015_bonudicon_05"/>
+            </Picture>
+            <Picture id="m_Picture4_font" x="26" y="49" z="0" width="65" height="22" window_state="268">
+                <piece_info value="slots_015_fonts_07"/>
+            </Picture>
+            <Particle id="m_ParticlePress" x="49" y="50" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp press"/>
+            </Particle>
+            <Particle id="m_ParticleMinor" x="49" y="50" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp blue"/>
+            </Particle>
+            <Particle id="m_ParticleMega" x="49" y="50" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp red"/>
+            </Particle>
+            <Particle id="m_ParticleMajor" x="49" y="50" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp yellow"/>
+            </Particle>
+            <Particle id="m_ParticleMini" x="49" y="50" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp copper"/>
+            </Particle>
+            <Particle id="m_ParticleMatch" x="49" y="50" z="0" width="20" height="20" window_state="12">
+                <particle_state value="0"/>
+                <package_file value="slots_015/particles/viking.ptc"/>
+                <particle_name value="mlp match"/>
+            </Particle>
+        </Button>
+    </Panel>
+</Panel>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="19" game="Bling_Bros_Circus">
+		<BonusGames>
+		</BonusGames>
+		<Icons>
+			<Icon id="1" pieceId="slots_019_icon_001"  bgPieceId="" sprite=""/>		<!-- bodybuilder -->
+			<Icon id="2" pieceId="slots_019_icon_002"  bgPieceId="" sprite=""/>		<!-- knife thrower -->
+			<Icon id="3" pieceId="slots_019_icon_003"  bgPieceId="" sprite=""/>     <!-- fire eater -->
+			<Icon id="4" pieceId="slots_019_icon_004"  bgPieceId="" sprite=""/>     <!-- clown -->
+			<Icon id="5" pieceId="slots_019_icon_005"  bgPieceId="" sprite=""/>		<!-- elephant -->
+			<Icon id="6" pieceId="slots_019_icon_006"  bgPieceId="" sprite=""/>		<!-- A -->
+			<Icon id="7" pieceId="slots_019_icon_007" bgPieceId="" sprite=""/>		<!-- K -->
+			<Icon id="8" pieceId="slots_019_icon_008"  bgPieceId="" sprite=""/>		<!-- Q -->
+			<Icon id="9" pieceId="slots_019_icon_009"  bgPieceId="" sprite=""/>		<!-- J -->
+			<Icon id="10" pieceId="slots_019_icon_010"  bgPieceId="" sprite=""/>		<!-- 10 -->
+			<Icon id="31" pieceId="slots_019_icon_031"  bgPieceId="" sprite="" render_order="1"/>		<!-- wild -->
+			<Icon id="41" pieceId="slots_019_icon_041" bgPieceId="" sprite="" render_order="2"/>		<!-- bonus -->
+		</Icons>
+		<Reel>
+			<!-- near win reel for both basegame and freegame -->
+			<NearWinInfo name="basegame" ReelIds="3" /> <!-- id starts from 0 -->
+			<NearWinInfo name="freegame" ReelIds="3" /> <!-- id starts from 0 -->
+			<SpinType name="normal">
+				<BestSpinIconCount value="10"/>
+				<OneReelStartDelayTime value="0.0625"/>
+				<OneReelStopDelayTime value="0.4"/>
+				<OneReelPullDownTime value="0.04"/>
+				<OneReelRollBackTime value="0.01"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="1.5"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="12"/>
+				<OneReelStartDelayTime value="0.0474"/>
+				<OneReelStopDelayTime value="0.30"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="0.8"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.0" pieceId="slots_019_panel_002">
+			//<Payline id="1" lineColor="0xFFFFFFFF" />
+		</Paylines>
+		
+		<Paytables winTextColor="cs_slots_012_Red" /> 
+	</Theme>
+</SlotsConfig>

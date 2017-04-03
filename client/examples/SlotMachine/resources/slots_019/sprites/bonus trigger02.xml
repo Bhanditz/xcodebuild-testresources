@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bonus trigger02.png" width="256" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="00003" x="66" y="438" w="36" h="38" oX="56" oY="57" oW="150" oH="150" dr="90"/>
+    <sprite n="00005" x="2" y="438" w="62" h="72" oX="39" oY="43" oW="150" oH="150" r="y" dr="90"/>
+    <sprite n="00007" x="114" y="342" w="78" h="88" oX="37" oY="28" oW="150" oH="150" dr="90"/>
+    <sprite n="00009" x="2" y="340" w="110" h="96" oX="30" oY="12" oW="150" oH="150" r="y" dr="90"/>
+    <sprite n="00011" x="122" y="236" w="116" h="104" oX="28" oY="8" oW="150" oH="150" r="y" dr="90"/>
+    <sprite n="00013" x="2" y="234" w="118" h="104" oX="22" oY="9" oW="150" oH="150" r="y" dr="90"/>
+    <sprite n="00015" x="130" y="116" w="122" h="118" oX="16" oY="8" oW="150" oH="150" r="y" dr="90"/>
+    <sprite n="00017" x="2" y="2" w="126" h="122" oX="12" oY="9" oW="150" oH="150" dr="90"/>
+    <sprite n="00019" x="130" y="2" w="124" h="112" oX="13" oY="7" oW="150" oH="150" dr="90"/>
+    <sprite n="00021" x="2" y="126" w="120" h="106" oX="19" oY="8" oW="150" oH="150" dr="90"/>
+    <sprite n="00023" x="104" y="438" w="100" h="36" oX="40" oY="44" oW="150" oH="150" dr="90"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_RetriggerFreeSpin" x="73" y="195" z="0" width="990" height="250" window_state="6">
+        <Panel id="m_Black_Tint" x="-73" y="-195" z="0" width="1136" height="640" window_state="6" style="cs_black">
+            <color_scale x="1" y="1" z="1" w="0.40000001"/>
+        </Panel>
+        <Picture id="m_Retrigger" x="26" y="44" z="0" width="1000" height="166" window_state="6">
+            <piece_info value="slots_008_panel_017b"/>
+            <RichLabel id="m_TriggerValue" x="-6" y="70" z="0" width="90" height="20" window_state="6">
+                <text value="20"/>
+                <font_size value="16"/>
+                <text_align_h value="3"/>
+                <font_id value="Buffalo1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Particle id="m_Particle" x="485" y="115" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_008/particles/buffalo.ptc"/>
+            <particle_name value="feature"/>
+        </Particle>
+    </Panel>
+</Panel>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ActionGoldFlyTo>
+	<textinfo count="3" textTimeDif="0.5"></textinfo>
+	<flyinfo num="6" timeDif="0.08" during="0.7" strMeshRes="meshes/jinbi.xml"></flyinfo>
+	<strMeshAction name="animation_jinbixuanzhuan1"></strMeshAction>
+	<strMeshAction name="animation_jinbixuanzhuan2"></strMeshAction>
+	<strMeshAction name="animation_jinbixuanzhuan3"></strMeshAction>
+	<strTargetAction name="animation_jinbi"></strTargetAction>
+</ActionGoldFlyTo>

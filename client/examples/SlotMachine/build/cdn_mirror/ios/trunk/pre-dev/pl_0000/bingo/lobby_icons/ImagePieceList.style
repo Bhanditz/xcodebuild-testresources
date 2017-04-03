@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="lobby_icons_01" file_name="lobby_icons_01.png" width="512" height="1024"/>
+    <Image id="lobby_icons_02" file_name="lobby_icons_02.png" width="512" height="1024"/>
+    <Image id="lobby_icons_03" file_name="lobby_icons_03.png" width="512" height="1024"/>
+    <Image id="lobby_icons_04" file_name="lobby_icons_04.png" width="512" height="1024"/>
+    <Image id="lobby_icons_special" file_name="lobby_icons_special.png" width="512" height="1024"/>
+    <Image id="lobby_icons_special2" file_name="lobby_icons_special2.png" width="512" height="1024"/>
+    <Image id="lobby_title" file_name="lobby_title.png" width="512" height="512"/>
+    <Image id="lobby_title2" file_name="lobby_title2.png" width="512" height="512"/>
+    <Image id="lobby_title3" file_name="lobby_title3.png" width="512" height="512"/>
+    <Image id="lobby_title4" file_name="lobby_title4.png" width="512" height="512"/>
+    <Image id="lobby_title5" file_name="lobby_title5.png" width="512" height="512"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="theme01_icon" image_id="lobby_icons_01" x="0" y="0" width="447" height="319"/>
+    <Piece id="theme01_title" image_id="lobby_title" x="0" y="0" width="392" height="105"/>
+    <Piece id="theme02_icon" image_id="lobby_icons_01" x="1" y="320" width="447" height="319"/>
+    <Piece id="theme02_title" image_id="lobby_title" x="1" y="106" width="392" height="105"/>
+    <Piece id="theme03_icon" image_id="lobby_icons_01" x="1" y="640" width="447" height="319"/>
+    <Piece id="theme03_title" image_id="lobby_title" x="1" y="212" width="392" height="105"/>
+    <Piece id="theme04_icon" image_id="lobby_icons_02" x="1" y="320" width="447" height="319"/>
+    <Piece id="theme04_title" image_id="lobby_title" x="1" y="318" width="392" height="105"/>
+    <Piece id="theme05_icon" image_id="lobby_icons_02" x="0" y="0" width="447" height="319"/>
+    <Piece id="theme05_title" image_id="lobby_title2" x="0" y="0" width="392" height="105"/>
+    <Piece id="theme06_icon" image_id="lobby_icons_02" x="1" y="640" width="447" height="319"/>
+    <Piece id="theme06_title" image_id="lobby_title2" x="1" y="106" width="392" height="105"/>
+    <Piece id="theme07_icon" image_id="lobby_icons_03" x="1" y="320" width="447" height="319"/>
+    <Piece id="theme07_title" image_id="lobby_title2" x="1" y="212" width="392" height="105"/>
+    <Piece id="theme08_icon" image_id="lobby_icons_03" x="1" y="640" width="447" height="319"/>
+    <Piece id="theme08_title" image_id="lobby_title2" x="1" y="318" width="392" height="105"/>
+    <Piece id="theme09_icon" image_id="lobby_icons_04" x="1" y="640" width="447" height="319"/>
+    <Piece id="theme09_title" image_id="lobby_title5" x="1" y="106" width="333" height="105"/>
+    <Piece id="theme501_icon" image_id="lobby_icons_04" x="0" y="0" width="447" height="319"/>
+    <Piece id="theme501_title" image_id="lobby_title5" x="1" y="212" width="315" height="114"/>
+    <Piece id="theme5021_title" image_id="lobby_title4" x="1" y="212" width="332" height="117"/>
+    <Piece id="theme502_icon" image_id="lobby_icons_04" x="1" y="320" width="447" height="319"/>
+    <Piece id="theme502_title" image_id="lobby_title5" x="0" y="0" width="392" height="105"/>
+    <Piece id="theme801_icon" image_id="lobby_icons_special2" x="1" y="320" width="447" height="319"/>
+    <Piece id="theme801_title" image_id="lobby_title4" x="1" y="330" width="315" height="114"/>
+    <Piece id="theme802_icon" image_id="lobby_icons_special" x="0" y="0" width="447" height="319"/>
+    <Piece id="theme802_title" image_id="lobby_title3" x="1" y="349" width="306" height="109"/>
+    <Piece id="theme803_icon" image_id="lobby_icons_special2" x="1" y="640" width="447" height="319"/>
+    <Piece id="theme803_title" image_id="lobby_title3" x="1" y="129" width="349" height="109"/>
+    <Piece id="theme804_icon" image_id="lobby_icons_special" x="1" y="320" width="447" height="319"/>
+    <Piece id="theme804_title" image_id="lobby_title3" x="1" y="239" width="349" height="109"/>
+    <Piece id="theme805_icon" image_id="lobby_icons_03" x="0" y="0" width="447" height="319"/>
+    <Piece id="theme805_title" image_id="lobby_title4" x="0" y="0" width="392" height="105"/>
+    <Piece id="theme806_icon" image_id="lobby_icons_special" x="1" y="640" width="447" height="319"/>
+    <Piece id="theme806_title" image_id="lobby_title3" x="0" y="0" width="353" height="128"/>
+    <Piece id="theme807_icon" image_id="lobby_icons_special2" x="0" y="0" width="447" height="319"/>
+    <Piece id="theme807_title" image_id="lobby_title4" x="1" y="106" width="392" height="105"/>
+  </PieceList>
+</ImagePiece>

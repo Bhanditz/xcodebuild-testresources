@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_18_clouds_running_lightning_02.png" width="256" height="512" blend="2" loop="-1">
+    <sprite n="1.png" x="135" y="229" w="39" h="80" oX="239" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="2.png" x="185" y="117" w="61" h="134" oX="217" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="3.png" x="1" y="229" w="132" h="53" oX="217" oW="1136" oH="640" dr="80"/>
+    <sprite n="4.png" x="1" y="1" w="247" h="114" oX="193" oW="1136" oH="640" dr="80"/>
+    <sprite n="5.png" x="1" y="284" w="131" h="54" oX="218" oW="1136" oH="640" dr="80"/>
+    <sprite n="6.png" x="1" y="117" w="182" h="110" oX="255" oW="1136" oH="640" dr="80"/>
+    <sprite n="7.png" x="176" y="253" w="75" h="123" oX="260" oW="1136" oH="640" r="y" dr="80"/>
+    <sprite n="8.png" x="134" y="311" w="35" h="58" oX="266" oW="1136" oH="640" r="y" dr="80"/>
+</TextureAtlas>

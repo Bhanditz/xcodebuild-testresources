@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <RichLabel id="m_rlNumber" x="40" y="253" z="0" width="1035" height="170" window_state="6">
+        <text value="1000"/>
+        <font_size value="45"/>
+        <text_align_v value="1"/>
+        <text_style value="32"/>
+        <font_id value="Sparta"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_rlTop" x="69" y="21" z="0" width="1000" height="200" window_state="6">
+        <text value="CONGRATULATIONS!
+YOU WON"/>
+        <font_size value="100"/>
+        <text_color value="cs_White"/>
+        <text_align_v value="1"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<font>
+  <info face="Arial" size="32" bold="0" italic="0" charset="" unicode="1" stretchH="100" smooth="1" aa="1" padding="0,0,0,0" spacing="1,1" outline="0"/>
+  <common lineHeight="32" base="26" scaleW="512" scaleH="512" pages="1" packed="0" alphaChnl="0" redChnl="3" greenChnl="3" blueChnl="3"/>
+  <pages>
+    <page id="0" file="bj_0.png" />
+  </pages>
+  <chars count="11">
+    <char id="44" x="224" y="0" width="21" height="103" xoffset="0" yoffset="0" xadvance="21" page="0" chnl="15" />
+    <char id="48" x="67" y="104" width="82" height="98" xoffset="0" yoffset="0" xadvance="82" page="0" chnl="15" />
+    <char id="49" x="310" y="0" width="60" height="102" xoffset="0" yoffset="0" xadvance="60" page="0" chnl="15" />
+    <char id="50" x="371" y="0" width="80" height="100" xoffset="0" yoffset="0" xadvance="80" page="0" chnl="15" />
+    <char id="51" x="150" y="104" width="75" height="97" xoffset="0" yoffset="0" xadvance="75" page="0" chnl="15" />
+    <char id="52" x="88" y="0" width="74" height="103" xoffset="0" yoffset="0" xadvance="74" page="0" chnl="15" />
+    <char id="53" x="0" y="0" width="87" height="103" xoffset="0" yoffset="0" xadvance="87" page="0" chnl="15" />
+    <char id="54" x="163" y="0" width="60" height="103" xoffset="0" yoffset="0" xadvance="60" page="0" chnl="15" />
+    <char id="55" x="226" y="104" width="68" height="94" xoffset="0" yoffset="0" xadvance="68" page="0" chnl="15" />
+    <char id="56" x="0" y="104" width="66" height="99" xoffset="0" yoffset="0" xadvance="66" page="0" chnl="15" />
+    <char id="57" x="246" y="0" width="63" height="102" xoffset="0" yoffset="0" xadvance="63" page="0" chnl="15" />
+  </chars>
+</font>

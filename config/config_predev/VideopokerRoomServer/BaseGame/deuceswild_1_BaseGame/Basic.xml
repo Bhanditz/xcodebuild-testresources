@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+
+<root>
+        <PackId>4</PackId>
+        <Name>DEUCES WILD</Name>
+        <ExpGain> 5  </ExpGain>
+        <BigWinBetMultiplier>6</BigWinBetMultiplier>
+        <HandList> 1,2,3,5,10 </HandList>
+        <WildCard> 2,15,28,41 </WildCard>
+        <Bets>
+            <Bet>
+                <Value> 1 </Value>	<!-- 下注的倍数,跟当前range相乘就是当年的具体金额   -->
+                <Column> 1 </Column>
+            </Bet>
+            <Bet>
+                <Value> 2 </Value>
+                <Column> 2 </Column>
+            </Bet>
+            <Bet>
+                <Value> 3 </Value>
+                <Column> 3 </Column>
+            </Bet>
+            <Bet>
+                <Value> 4 </Value>
+                <Column> 4 </Column>
+            </Bet>
+            <Bet>
+                <Value> 5 </Value>
+                <Column> 5 </Column>
+            </Bet>
+        </Bets>
+</root>

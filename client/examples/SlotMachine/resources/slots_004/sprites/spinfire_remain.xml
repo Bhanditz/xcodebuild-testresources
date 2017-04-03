@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="spinfire_remain.png" width="256" height="256" blend="1" loop="1">
+    <sprite n="00000" x="2" y="106" w="70" h="102" oX="16" oY="28" oW="100" oH="150" dr="60"/>
+    <sprite n="00001" x="178" y="2" w="68" h="102" oX="17" oY="27" oW="100" oH="150" dr="60"/>
+    <sprite n="00002" x="74" y="2" w="102" h="68" oX="17" oY="28" oW="100" oH="150" r="y" dr="60"/>
+    <sprite n="00003" x="2" y="2" w="70" h="102" oX="16" oY="28" oW="100" oH="150" dr="60"/>
+</TextureAtlas>

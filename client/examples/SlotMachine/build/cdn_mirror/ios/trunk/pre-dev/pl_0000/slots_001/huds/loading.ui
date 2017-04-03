@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <ScrollContainer id="m_ScrollContainer" x="0" y="0" z="0" width="1136" height="640" window_state="262150" style="ngs_panel_bg">
+        <Picture id="m_Picture" x="67" y="-59" z="0" width="1156" height="660" window_state="6">
+            <scale x="1.14" y="1.14" z="1.14"/>
+            <piece_info value="slots_001_bg07"/>
+            <Panel id="m_Panel" x="261" y="502" z="0" width="480" height="118" window_state="6">
+                <Picture id="m_Picture" x="81" y="3" z="0" width="316" height="115" window_state="6" style="ngs_slots_001_panel28"/>
+                <Button id="m_Button" x="99" y="16" z="0" width="281" height="86" window_state="6" style="bs_slots_001_button_019">
+                    <line_height value="30"/>
+                    <Picture id="m_Picture" x="75" y="22" z="0" width="131" height="42" window_state="6">
+                        <piece_info value="slots_001_text45"/>
+                    </Picture>
+                </Button>
+            </Panel>
+        </Picture>
+    </ScrollContainer>
+    <Picture id="m_Picture" x="390" y="11" z="0" width="317" height="167" window_state="6">
+        <scale x="1.3" y="1.3" z="1.3"/>
+        <piece_info value="slots_001_text39"/>
+    </Picture>
+    <Panel id="m_Panel" x="15" y="154" z="0" width="609" height="318" window_state="6">
+        <Picture id="m_Picture3" x="10" y="17" z="0" width="150" height="142" window_state="6">
+            <scale x="0.75" y="0.75" z="0.75"/>
+            <piece_info value="slots_001_icon_10"/>
+        </Picture>
+        <Picture id="m_Picture1" x="8" y="176" z="0" width="150" height="142" window_state="6">
+            <scale x="0.75" y="0.75" z="0.75"/>
+            <piece_info value="slots_001_icon_11"/>
+        </Picture>
+        <RichLabel id="m_RichLabel1" x="166" y="44" z="0" width="557" height="30" window_state="262">
+            <text value="SLOTS_VOLCANO_LOADING_TEXT_SELECTVOLCANO"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_align_h value="1"/>
+            <text_align_v value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel2" x="152" y="202" z="0" width="548" height="30" window_state="262">
+            <text value="SLOTS_VOLCANO_LOADING_TEXT_VOLCANOERUPT"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_align_h value="1"/>
+            <text_align_v value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_Panel1" x="107" y="490" z="0" width="921" height="141" window_state="4">
+        <Picture id="m_Picture" x="154" y="64" z="0" width="613" height="32" window_state="6" style="ngs_slots_001_panel29"/>
+        <ScrollContainer id="m_ScrollContainer" x="155" y="53" z="0" width="370" height="49" window_state="262150">
+            <Picture id="m_Picture" x="0" y="8" z="0" width="618" height="36" window_state="6">
+                <piece_info value="slots_001_panel31"/>
+            </Picture>
+        </ScrollContainer>
+        <Picture id="m_Picture1" x="524" y="65" z="0" width="2" height="29" window_state="6">
+            <piece_info value="slots_001_panel30"/>
+        </Picture>
+        <RichLabel id="m_RichLabel2" x="250" y="34" z="0" width="561" height="30" window_state="262">
+            <text value="SLOTS_VOLCANO_LOADING_TEXT_PREPARINGGAME"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel1" x="380" y="101" z="0" width="57" height="40" window_state="262">
+            <text value="60%"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="vpoker_001_bg_01"/>
+    </Picture>
+    <Panel id="m_Panel" x="75" y="374" z="0" width="989" height="208" window_state="6">
+        <Button id="m_Button" x="102" y="23" z="0" width="113" height="154" window_state="6">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button1" x="274" y="23" z="0" width="113" height="154" window_state="6">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button2" x="446" y="23" z="0" width="113" height="154" window_state="6">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button3" x="618" y="23" z="0" width="113" height="154" window_state="6">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button4" x="790" y="23" z="0" width="113" height="154" window_state="6">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <line_height value="30"/>
+        </Button>
+        <Picture id="m_Picture1" x="135" y="77" z="0" width="719" height="46" window_state="6" style="ngs_vpoker_001_panel_017">
+            <RichLabel id="m_RichLabel" x="159" y="8" z="0" width="400" height="30" window_state="6">
+                <text value="PRESS DEAL TO PLAY"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+    </Panel>
+    <Panel id="m_Panel" x="-1" y="-3" z="0" width="1167" height="76" window_state="6">
+        <Picture id="m_Picture" x="-11" y="-11" z="0" width="1160" height="96" window_state="6" style="ngs_vpoker_001_panel_07">
+            <Picture id="m_Picture" x="336" y="81" z="0" width="487" height="2" window_state="6" style="ngs_vpoker_001_panel_09">
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+            </Picture>
+        </Picture>
+    </Panel>
+    <Panel id="m_Panel1" x="0" y="0" z="0" width="1139" height="94" window_state="6">
+        <Panel id="m_Panel" x="-1" y="1" z="0" width="407" height="71" window_state="6">
+            <Picture id="m_Picture" x="24" y="16" z="0" width="209" height="42" window_state="6">
+                <piece_info value="vpoker_001_panel_05"/>
+            </Picture>
+            <Picture id="m_Picture1" x="12" y="9" z="0" width="62" height="53" window_state="6">
+                <piece_info value="vpoker_001_icon_02"/>
+            </Picture>
+            <Picture id="m_Picture" x="285" y="-13" z="0" width="568" height="86" window_state="6">
+                <piece_info value="vpoker_001_panel_100"/>
+            </Picture>
+            <Button id="m_Button" x="206" y="14" z="0" width="106" height="46" window_state="6" style="bs_vpoker_001_button_04">
+                <text value="BUY"/>
+                <font_size value="35"/>
+                <glyph_center value="0.46000001"/>
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_RichLabel" x="58" y="24" z="0" width="168" height="30" window_state="6">
+                <text value="800,900,908"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.47"/>
+                <outline_center value="0.49000001"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="454" y="9" z="0" width="230" height="55" window_state="6">
+                <text value="JACKS OR BETTER"/>
+                <font_size value="55"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Button id="m_Button1" x="1025" y="3" z="0" width="91" height="88" window_state="6" style="bs_vpoker_001_button_043">
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <Panel id="m_Panel2" x="0" y="575" z="0" width="1136" height="70" window_state="6">
+        <Button id="m_Button" x="246" y="3" z="0" width="210" height="60" window_state="6" style="ngs_vpoker_001_button_016">
+            <font_size value="35"/>
+            <text_offset x="-67" y="0" z="0"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.47"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture1" x="112" y="19" z="0" width="18" height="28" window_state="6">
+                <scale x="1.2" y="1.2" z="1.2"/>
+                <piece_info value="vpoker_001_icon_03"/>
+            </Picture>
+            <Picture id="m_Picture2" x="132" y="19" z="0" width="18" height="28" window_state="38">
+                <scale x="1.2" y="1.2" z="1.2"/>
+                <piece_info value="vpoker_001_icon_03"/>
+            </Picture>
+            <Picture id="m_Picture3" x="152" y="19" z="0" width="18" height="28" window_state="38">
+                <scale x="1.2" y="1.2" z="1.2"/>
+                <piece_info value="vpoker_001_icon_03"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="26" y="15" z="0" width="76" height="30" window_state="6">
+                <text value="Speed"/>
+                <font_size value="35"/>
+                <text_align_h value="1"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <Button id="m_Button1" x="467" y="3" z="0" width="200" height="60" window_state="6" style="ngs_vpoker_001_button_016">
+            <text value="Hands"/>
+            <font_size value="35"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button2" x="909" y="3" z="0" width="200" height="60" window_state="6" style="ngs_vpoker_001_button_017">
+            <text value="Deal"/>
+            <font_size value="35"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button3" x="688" y="3" z="0" width="200" height="60" window_state="6" style="ngs_vpoker_001_button_016">
+            <text value="Bet $100,000"/>
+            <font_size value="35"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button4" x="25" y="3" z="0" width="200" height="60" window_state="6" style="ngs_vpoker_001_button_016">
+            <text value="Other VP Game"/>
+            <font_size value="35"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <Panel id="m_Panel10" x="18" y="73" z="0" width="1116" height="272" window_state="6">
+        <Panel id="m_Panel4" x="825" y="2" z="0" width="299" height="263" window_state="6">
+            <Picture id="m_Picture" x="82" y="-5" z="0" width="204" height="259" window_state="6">
+                <piece_info value="vpoker_001_panel_0130"/>
+                <Picture id="m_Picture3" x="19" y="41" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+                <Picture id="m_Picture1" x="20" y="85" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+                <RichLabel id="m_RichLabel" x="31" y="19" z="0" width="146" height="20" window_state="6">
+                    <text value="Royal Flush"/>
+                    <font_size value="25"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="31" y="42" z="0" width="146" height="20" window_state="6">
+                    <text value="260"/>
+                    <font_size value="25"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="31" y="62" z="0" width="146" height="20" window_state="6">
+                    <text value="Straight Flush"/>
+                    <font_size value="25"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture4" x="19" y="217" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+                <RichLabel id="m_RichLabel3" x="31" y="86" z="0" width="146" height="20" window_state="6">
+                    <text value="50"/>
+                    <font_size value="25"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="31" y="107" z="0" width="146" height="20" window_state="6">
+                    <text value="Four of a kind "/>
+                    <font_size value="25"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="31" y="129" z="0" width="146" height="20" window_state="6">
+                    <text value="25"/>
+                    <font_size value="25"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture2" x="19" y="141" z="0" width="165" height="49" window_state="4" style="ngs_vpoker_001_panel_024"/>
+                <Picture id="m_Picture7" x="20" y="149" z="0" width="166" height="47" window_state="6" style="ngs_vpoker_001_panel_024"/>
+                <RichLabel id="m_RichLabel6" x="31" y="152" z="0" width="146" height="20" window_state="6">
+                    <text value="Full House"/>
+                    <font_size value="25"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel15" x="31" y="195" z="0" width="146" height="20" window_state="6">
+                    <text value="Flush"/>
+                    <font_size value="25"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel14" x="31" y="174" z="0" width="146" height="20" window_state="6">
+                    <text value="9"/>
+                    <font_size value="25"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel7" x="31" y="217" z="0" width="146" height="20" window_state="6">
+                    <text value="6"/>
+                    <font_size value="25"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture5" x="19" y="128" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+                <Picture id="m_Picture6" x="20" y="173" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Panel5" x="236" y="16" z="0" width="628" height="245" window_state="6">
+            <Button id="m_Button" x="24" y="36" z="0" width="113" height="154" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="141" y="36" z="0" width="113" height="154" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="258" y="36" z="0" width="113" height="154" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="375" y="36" z="0" width="113" height="154" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="492" y="36" z="0" width="113" height="154" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button5" x="275" y="63" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_019">
+                <scale x="1.4" y="1.4" z="1.4"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="-31" y="-29" z="0" width="96" height="96" window_state="14">
+                    <piece_info value="vpoker_001_icon_017"/>
+                </Picture>
+            </Button>
+            <Picture id="m_Picture1" x="239" y="92" z="0" width="148" height="66" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <piece_info value="vpoker_001_icon_030"/>
+                <RichLabel id="m_RichLabel" x="17" y="31" z="0" width="96" height="30" window_state="6">
+                    <text value="Hold"/>
+                    <text_color value="cs_White"/>
+                    <font_id value="LatoReg"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.38"/>
+                    <outline_center value="0.5"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Picture id="m_Picture5" x="-15" y="132" z="0" width="659" height="38" window_state="6" style="ngs_vpoker_001_panel_023">
+                <RichLabel id="m_RichLabel" x="129" y="5" z="0" width="400" height="30" window_state="6">
+                    <text value="JACKS OR BETTER"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+        </Panel>
+    </Panel>
+    <Panel id="m_Panel3" x="-22" y="75" z="0" width="299" height="263" window_state="6">
+        <Picture id="m_Picture" x="30" y="-5" z="0" width="204" height="259" window_state="6">
+            <piece_info value="vpoker_001_panel_0130"/>
+            <Picture id="m_Picture3" x="19" y="41" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+            <Picture id="m_Picture1" x="20" y="85" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+            <RichLabel id="m_RichLabel" x="31" y="19" z="0" width="146" height="20" window_state="6">
+                <text value="Royal Flush"/>
+                <font_size value="25"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="31" y="42" z="0" width="146" height="20" window_state="6">
+                <text value="260"/>
+                <font_size value="25"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="31" y="63" z="0" width="146" height="20" window_state="6">
+                <text value="Straight Flush"/>
+                <font_size value="25"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture4" x="19" y="217" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+            <RichLabel id="m_RichLabel3" x="31" y="86" z="0" width="146" height="20" window_state="6">
+                <text value="50"/>
+                <font_size value="25"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4" x="31" y="107" z="0" width="146" height="20" window_state="6">
+                <text value="Four of a kind "/>
+                <font_size value="25"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel5" x="31" y="129" z="0" width="146" height="20" window_state="6">
+                <text value="25"/>
+                <font_size value="25"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture2" x="19" y="141" z="0" width="165" height="49" window_state="6" style="ngs_vpoker_001_panel_024"/>
+            <RichLabel id="m_RichLabel6" x="31" y="152" z="0" width="146" height="20" window_state="6">
+                <text value="Full House"/>
+                <font_size value="25"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel15" x="31" y="195" z="0" width="146" height="20" window_state="6">
+                <text value="Flush"/>
+                <font_size value="25"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel14" x="31" y="174" z="0" width="146" height="20" window_state="6">
+                <text value="9"/>
+                <font_size value="25"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel7" x="31" y="217" z="0" width="146" height="20" window_state="6">
+                <text value="6"/>
+                <font_size value="25"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture5" x="19" y="128" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+            <Picture id="m_Picture6" x="20" y="173" z="0" width="165" height="22" window_state="6" style="ngs_vpoker_001_panel_018"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_Panel6" x="254" y="84" z="0" width="628" height="265" window_state="6">
+        <Button id="m_Button" x="24" y="-14" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button1" x="141" y="-14" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button2" x="258" y="-14" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button3" x="375" y="-14" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button4" x="492" y="-14" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button5" x="24" y="117" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button6" x="141" y="117" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button7" x="258" y="117" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button8" x="375" y="117" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Button9" x="492" y="117" z="0" width="113" height="154" window_state="6">
+            <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <Panel id="m_Panel7" x="254" y="83" z="0" width="628" height="265" window_state="6">
+        <Panel id="m_Panel" x="24" y="-2" z="0" width="288" height="134" window_state="6">
+            <Button id="m_Button" x="-5" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="38" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="81" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="124" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="167" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel1" x="329" y="-2" z="0" width="288" height="134" window_state="6">
+            <Button id="m_Button" x="-5" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="38" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="81" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="124" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="167" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel2" x="24" y="130" z="0" width="288" height="134" window_state="6">
+            <Button id="m_Button" x="-5" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="38" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="81" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="124" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="167" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel3" x="329" y="130" z="0" width="288" height="134" window_state="6">
+            <Button id="m_Button" x="-5" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="38" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="81" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="124" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="167" y="-12" z="0" width="113" height="154" window_state="6">
+                <scale x="0.82999998" y="0.82999998" z="0.82999998"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+    </Panel>
+    <Panel id="m_Panel8" x="237" y="72" z="0" width="658" height="279" window_state="6">
+        <Panel id="m_Panel" x="24" y="-2" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="94" y="-2" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_020">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="-30" y="-28" z="0" width="96" height="96" window_state="14">
+                    <piece_info value="vpoker_001_icon_013"/>
+                </Picture>
+            </Button>
+            <Button id="m_Button4" x="124" y="-2" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_020">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <color_scale x="0.41999999" y="0.41999999" z="0.41999999" w="1"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="-30" y="-28" z="0" width="96" height="96" window_state="14">
+                    <piece_info value="vpoker_001_icon_013"/>
+                </Picture>
+            </Button>
+            <Picture id="m_Picture1" x="11" y="52" z="0" width="184" height="37" window_state="6" style="ngs_vpoker_001_panel_024">
+                <RichLabel id="m_RichLabel" x="38" y="3" z="0" width="96" height="30" window_state="6">
+                    <text value="Two pair"/>
+                    <font_size value="25"/>
+                    <font_id value="LatoReg"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+        </Panel>
+        <Panel id="m_Panel1" x="227" y="-2" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel2" x="24" y="85" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel3" x="430" y="-2" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel4" x="227" y="85" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel5" x="430" y="85" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel6" x="23" y="172" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel7" x="227" y="171" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Panel8" x="431" y="172" z="0" width="208" height="100" window_state="6">
+            <Button id="m_Button" x="-14" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button1" x="16" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button2" x="46" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button3" x="76" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_Button4" x="106" y="-28" z="0" width="113" height="154" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+    </Panel>
+    <Panel id="m_Panel9" x="75" y="329" z="0" width="989" height="258" window_state="6">
+        <Button id="m_Button1" x="291" y="96" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_020">
+            <scale x="1.8" y="1.8" z="1.8"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="-30" y="-28" z="0" width="96" height="96" window_state="14">
+                <piece_info value="vpoker_001_icon_013"/>
+            </Picture>
+        </Button>
+        <Button id="m_Button2" x="464" y="96" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_021">
+            <scale x="1.8" y="1.8" z="1.8"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="-32" y="-28" z="0" width="96" height="96" window_state="14">
+                <piece_info value="vpoker_001_icon_018"/>
+            </Picture>
+        </Button>
+        <Button id="m_Button3" x="637" y="96" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_022">
+            <scale x="1.8" y="1.8" z="1.8"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="-32" y="-28" z="0" width="96" height="96" window_state="14">
+                <piece_info value="vpoker_001_icon_015"/>
+            </Picture>
+        </Button>
+        <Button id="m_Button4" x="809" y="96" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_019">
+            <scale x="1.8" y="1.8" z="1.8"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="-32" y="-27" z="0" width="96" height="96" window_state="14">
+                <piece_info value="vpoker_001_icon_024"/>
+            </Picture>
+        </Button>
+        <Picture id="m_Picture1" x="135" y="9" z="0" width="719" height="38" window_state="4" style="ngs_vpoker_001_panel_017">
+            <RichLabel id="m_RichLabel" x="159" y="4" z="0" width="400" height="30" window_state="4">
+                <text value="Q Hight"/>
+                <font_size value="32"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.36000001"/>
+                <outline_center value="0.47999999"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Button id="m_Button" x="119" y="96" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_019">
+            <scale x="1.8" y="1.8" z="1.8"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="-31" y="-29" z="0" width="96" height="96" window_state="14">
+                <piece_info value="vpoker_001_icon_017"/>
+            </Picture>
+        </Button>
+        <Picture id="m_Picture2" x="93" y="128" z="0" width="148" height="66" window_state="6">
+            <piece_info value="vpoker_001_icon_030"/>
+        </Picture>
+        <Picture id="m_Picture5" x="165" y="9" z="0" width="659" height="38" window_state="4" style="ngs_vpoker_001_panel_023">
+            <RichLabel id="m_RichLabel" x="129" y="4" z="0" width="400" height="30" window_state="6">
+                <text value="YOU WIN $300,000"/>
+                <font_size value="32"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.36000001"/>
+                <outline_center value="0.47999999"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+    </Panel>
+    <Picture id="m_Picture2" x="340" y="457" z="0" width="148" height="66" window_state="6">
+        <piece_info value="vpoker_001_icon_030"/>
+    </Picture>
+    <Panel id="HoldEffect_G" x="514" y="387" z="0" width="126" height="180" window_state="6">
+        <Picture id="hold_glow02" x="15" y="42" z="0" width="96" height="96" window_state="14">
+            <scale x="1.24" y="1.26" z="1.26"/>
+            <color_scale x="1" y="1" z="1" w="1.2"/>
+            <action_id value="animation_vp_hold01"/>
+            <piece_info value="hold_glow02"/>
+        </Picture>
+        <Picture id="hold_glow01" x="15" y="42" z="0" width="96" height="96" window_state="14">
+            <scale x="1.24" y="1.26" z="1.26"/>
+            <piece_info value="hold_glow01"/>
+        </Picture>
+    </Panel>
+</Panel>

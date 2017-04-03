@@ -1,0 +1,16 @@
+
+<d base="">
+	<d name="actions" base="*" />
+	<d name="configs" base="*" />
+	<d name="fonts" base="*" />
+	<d name="ui" base="*" />
+	<d name="shaders" base="*" />
+	<d name="lobby" base="*" />
+	<d name="loadings" base="*" />
+	
+	<d name="slots" base="*" />
+	<d name="slots_008" base="*" />
+	
+	<f name="remote_package.xml"/>
+	<f name="appConfig.properties"/>
+</d>

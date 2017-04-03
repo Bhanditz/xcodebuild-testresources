@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="theme01_bg" file_name="theme01_bg.png" width="1024" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="theme01_bg" image_id="theme01_bg" x="0" y="0" width="960" height="720"/>
+  </PieceList>
+</ImagePiece>

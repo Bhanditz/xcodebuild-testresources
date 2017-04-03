@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="nearwin_03.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="00000" x="292" y="2" w="192" h="134" oX="12" oY="1" oW="150" oH="200" r="y" dr="60"/>
+    <sprite n="00001" x="282" y="282" w="140" h="186" oX="8" oY="13" oW="150" oH="200" dr="60"/>
+    <sprite n="00002" x="2" y="2" w="140" h="200" oX="9" oW="150" oH="200" dr="60"/>
+    <sprite n="00003" x="292" y="138" w="190" h="142" oX="6" oY="2" oW="150" oH="200" r="y" dr="60"/>
+    <sprite n="00004" x="142" y="204" w="138" h="194" oX="10" oW="150" oH="200" dr="60"/>
+    <sprite n="00005" x="144" y="2" w="146" h="192" oX="4" oY="1" oW="150" oH="200" dr="60"/>
+    <sprite n="00007" x="2" y="204" w="138" h="198" oX="10" oW="150" oH="200" dr="60"/>
+</TextureAtlas>

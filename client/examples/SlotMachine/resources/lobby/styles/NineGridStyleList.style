@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NineGridStyleList>
+  <NineGridStyle id="ngs_casino_lobby_btn012">
+    <normal piece_id="casino_lobby_btn012" min_x="52" min_y="0" max_x="53" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_btn014" auto_bitmap="true">
+    <normal piece_id="casino_lobby_btn014" min_x="56" min_y="0" max_x="57" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_btn08a" auto_bitmap="true">
+    <normal piece_id="casino_lobby_btn08a" min_x="88" min_y="0" max_x="90" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_icon014">
+    <normal piece_id="casino_lobby_icon014" min_x="65" min_y="0" max_x="70" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_panel02" auto_bitmap="true">
+    <normal piece_id="casino_lobby_panel02" min_x="79" min_y="0" max_x="80" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_panel06">
+    <normal piece_id="casino_lobby_panel06" min_x="13" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_panel07">
+    <normal piece_id="casino_lobby_panel07" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_panel13">
+    <normal piece_id="casino_lobby_panel13" min_x="30" min_y="17" max_x="40" max_y="19"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_casino_lobby_panel49" auto_bitmap="true">
+    <normal piece_id="casino_lobby_panel49" min_x="42" min_y="42" max_x="43" max_y="43"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_lobby_button_019" auto_bitmap="true">
+    <normal piece_id="poker_lobby_button_019" min_x="35" min_y="34" max_x="36" max_y="35"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_lobby_multi_panel3">
+    <normal piece_id="poker_lobby_multi_panel3" min_x="88" min_y="81" max_x="89" max_y="82"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_selected_glow3">
+    <normal piece_id="selected_glow3" min_x="38" min_y="38" max_x="39" max_y="39"/>
+  </NineGridStyle>
+</NineGridStyleList>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorStyleList>
+  <ColorStyle id="cs_zeus_beige1_txt">
+    <normal value="0xffffb2"/>
+    <down value="0xffffaf"/>
+  </ColorStyle>
+  <ColorStyle id="cs_zeus_beige2_txt">
+    <normal value="0xd8d896"/>
+  </ColorStyle>
+  <ColorStyle id="cs_zeus_gold_outline">
+    <normal value="0x665d33"/>
+  </ColorStyle>
+  <ColorStyle id="cs_zeus_green">
+    <normal value="0x6cff00"/>
+  </ColorStyle>
+  <ColorStyle id="cs_zeus_orange">
+    <normal value="0xff4800"/>
+  </ColorStyle>
+  <ColorStyle id="cs_zeus_yellow">
+    <normal value="0xffde00"/>
+  </ColorStyle>
+  <ColorStyle id="cs_zeus_yellow_2">
+    <normal value="0xfaff6f"/>
+  </ColorStyle>
+</ColorStyleList>

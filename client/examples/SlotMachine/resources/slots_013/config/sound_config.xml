@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="NORMAL_GAME_BGM" value="slots_013/sound/LuxuryCity_BGM_basegame.ogg"/>		
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_013/sound/LuxuryCity_SE_spin.ogg"/>
+		<Sound name="STOP_CLICK" value="slots_013/sound/LuxuryCity_SE_spin.ogg"/>
+		<Sound name="REEL_READY_STOP" value=""/>
+		<Sound name="NEAR_WIN" value="slots_013/sound/LuxuryCity_SE_focus.ogg"/>
+		<Sound name="NEAR_WIN_MISS" value=""/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_SPINNING" value=""/>
+		<Sound name="REEL_STOP" value="slots_013/sound/LuxuryCity_SE_reel_stop.ogg"/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		
+		<!-- BaseGame -->
+		<!-- Sound name="BASEGAME_BGM" value="slots_013/sound/cc_basegame_bgm.ogg" /-->		
+		<Sound name="BASE_GAME_WIN_EXTRA" value="slots_013/sound/LuxuryCity_SE_full_position_win.ogg"/>
+		<Sound name="BASE_GAME_WIN_EXTRA_LOGO" value="slots_013/sound/LuxuryCity_SE_logo.ogg"/>
+
+		<!-- BonusGame -->
+		<Sound name="ENTER_BONUS_GAME" value="slots_013/sound/LuxuryCity_SE_transition.ogg"/>
+		<Sound name="BONUS_GAME_SELECT" value="slots_013/sound/LuxuryCity_SE_select.ogg"/>
+		
+		<!-- FreeGame -->
+		<Sound name="ENTER_FREE_GAME" value="slots_013/sound/LuxuryCity_SE_transition.ogg"/>
+		<Sound name="FREEGAME_BGM" value="slots_013/sound/LuxuryCity_BGM_freegame.ogg" />		
+		<Sound name="FREEGAME_REPORT" value="slots_013/sound/LuxuryCity_SE_settlement.ogg" />
+		<Sound name="FREEGAME_REPORT_LOOP" value="slots_013/sound/LuxuryCity_SE__chip_increment_loop.ogg" />
+		
+		<!-- Effects -->
+		
+		<!-- Scatters -->
+		<Sound name="SCATTER_APPEAR" value="slots_013/sound/LuxuryCity_SE_scatter_symbol.ogg"/>
+		<Sound name="BONUS_WIN" value="slots_013/sound/LuxuryCity_SE_scatter_win.ogg"/>
+		<Sound name="FREE_SPIN_START" value=""/>
+				
+		
+		<!-- Paylines -->
+		
+		
+	</SoundInfo>
+</SlotsConfig>

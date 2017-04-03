@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="lava02.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="00009" x="2" y="152" w="162" h="134" oX="19" oY="26" oW="200" oH="200" dr="120"/>
+    <sprite n="00010" x="2" y="2" w="162" h="148" oX="19" oY="17" oW="200" oH="200" dr="120"/>
+    <sprite n="00011" x="2" y="288" w="132" h="162" oX="19" oY="27" oW="200" oH="200" r="y" dr="120"/>
+    <sprite n="00012" x="166" y="148" w="162" h="138" oX="19" oY="23" oW="200" oH="200" dr="120"/>
+    <sprite n="00013" x="330" y="146" w="162" h="140" oX="19" oY="21" oW="200" oH="200" dr="120"/>
+    <sprite n="00014" x="330" y="2" w="162" h="142" oX="19" oY="18" oW="200" oH="200" dr="120"/>
+    <sprite n="00015" x="166" y="2" w="162" h="144" oX="19" oY="17" oW="200" oH="200" dr="120"/>
+    <sprite n="00016" x="136" y="288" w="122" h="160" oX="20" oY="36" oW="200" oH="200" r="y" dr="120"/>
+    <sprite n="00017" x="260" y="288" w="116" h="148" oX="26" oY="36" oW="200" oH="200" r="y" dr="120"/>
+</TextureAtlas>

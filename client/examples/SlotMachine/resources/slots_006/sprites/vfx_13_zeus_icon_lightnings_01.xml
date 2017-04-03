@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_13_zeus_icon_lightnings_01.png" width="256" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="vfx_13_zeus_icon_lightnings_01_00000" x="2" y="308" w="128" h="96" oX="8" oY="1" oW="106" oH="132" r="y" dr="60"/>
+    <sprite n="vfx_13_zeus_icon_lightnings_01_00001" x="132" y="262" w="96" h="128" oX="7" oY="1" oW="106" oH="132" dr="60"/>
+    <sprite n="vfx_13_zeus_icon_lightnings_01_00002" x="2" y="208" w="128" h="98" oX="7" oY="1" oW="106" oH="132" r="y" dr="60"/>
+    <sprite n="vfx_13_zeus_icon_lightnings_01_00003" x="132" y="132" w="98" h="128" oX="8" oY="1" oW="106" oH="132" dr="60"/>
+    <sprite n="vfx_13_zeus_icon_lightnings_01_00004" x="2" y="106" w="128" h="100" oX="4" oY="1" oW="106" oH="132" r="y" dr="60"/>
+    <sprite n="vfx_13_zeus_icon_lightnings_01_00005" x="132" y="2" w="102" h="128" oX="4" oY="1" oW="106" oH="132" dr="60"/>
+    <sprite n="vfx_13_zeus_icon_lightnings_01_00006" x="2" y="2" w="128" h="102" oX="4" oY="1" oW="106" oH="132" r="y" dr="60"/>
+</TextureAtlas>

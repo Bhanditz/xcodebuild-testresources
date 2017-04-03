@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		Feature 整列图标到指定位置
+ -->
+<root>
+		<AddReel id="1" symbol="31" targetSymbol="31">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</AddReel>
+</root>

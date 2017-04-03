@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+    <Panel id="m_PanelHint" x="-2" y="0" z="0" width="1140" height="83" window_state="6">
+        <action_id value="playerwall_item_in_1"/>
+        <Picture id="m_Pic1" x="1" y="0" z="0" width="1138" height="75" window_state="6" style="ngs_casino_common_panel59"/>
+        <RichLabel id="m_LbMessage" x="14" y="2" z="0" width="1111" height="51" window_state="6">
+            <text value="Message Here"/>
+            <font_size value="40"/>
+            <text_color value="cs_Sallow"/>
+            <text_style value="8"/>
+            <font_id value="DroidSansFallback"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="28"/>
+        </RichLabel>
+    </Panel>
+</Panel>

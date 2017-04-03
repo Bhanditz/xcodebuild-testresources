@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="slots_001_icon_12_1" x="302" y="177" z="0" width="147" height="138" window_state="6">
+    <Picture id="slots_001_icon_12bg" x="0" y="0" z="0" width="146" height="137" window_state="270">
+        <piece_info value="slots_001_icon_12bg"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-62" y="-155" z="0" width="270" height="320" window_state="14">
+        <sprite_file value="slots_001/sprites/volcano06.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="-62" y="-155" z="0" width="270" height="320" window_state="14">
+        <sprite_file value="slots_001/sprites/volcano05.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

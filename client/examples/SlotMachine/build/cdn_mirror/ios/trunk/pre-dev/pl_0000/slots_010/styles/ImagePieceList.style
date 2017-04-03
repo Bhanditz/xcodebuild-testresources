@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="slots_010_01" file_name="slots_010_01.png" width="2048" height="1024"/>
+    <Image id="slots_010_02" file_name="slots_010_02.png" width="1024" height="1024"/>
+    <Image id="slots_010_icon_light" file_name="slots_010_icon_light.png" width="256" height="256"/>
+    <Image id="slots_010_vfx_01" file_name="slots_010_vfx_01.png" width="1024" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="slots_010_bg_02a" image_id="slots_010_02" x="0" y="763" width="290" height="190"/>
+    <Piece id="slots_010_bg_02b" image_id="slots_010_02" x="292" y="763" width="265" height="190"/>
+    <Piece id="slots_010_bg_03" image_id="slots_010_02" x="467" y="562" width="289" height="127"/>
+    <Piece id="slots_010_bg_04a" image_id="slots_010_02" x="0" y="226" width="411" height="190"/>
+    <Piece id="slots_010_bg_04b" image_id="slots_010_02" x="574" y="202" width="419" height="248"/>
+    <Piece id="slots_010_bg_05a" image_id="slots_010_02" x="0" y="418" width="393" height="160"/>
+    <Piece id="slots_010_bg_05b" image_id="slots_010_02" x="714" y="0" width="296" height="200"/>
+    <Piece id="slots_010_bg_06" image_id="slots_010_02" x="0" y="580" width="358" height="181"/>
+    <Piece id="slots_010_bg_07a" image_id="slots_010_02" x="758" y="553" width="212" height="95"/>
+    <Piece id="slots_010_bg_07b" image_id="slots_010_02" x="0" y="0" width="712" height="167"/>
+    <Piece id="slots_010_bg_07c" image_id="slots_010_02" x="559" y="691" width="269" height="78"/>
+    <Piece id="slots_010_bg_08a" image_id="slots_010_02" x="360" y="639" width="42" height="114"/>
+    <Piece id="slots_010_bg_08b" image_id="slots_010_02" x="559" y="771" width="62" height="123"/>
+    <Piece id="slots_010_bg_08c" image_id="slots_010_02" x="404" y="639" width="61" height="113"/>
+    <Piece id="slots_010_bg_08d" image_id="slots_010_02" x="569" y="452" width="59" height="105"/>
+    <Piece id="slots_010_bg_08e" image_id="slots_010_02" x="0" y="169" width="572" height="55"/>
+    <Piece id="slots_010_bg_09a" image_id="slots_010_02" x="630" y="452" width="197" height="99"/>
+    <Piece id="slots_010_bg_09b" image_id="slots_010_02" x="503" y="226" width="65" height="188"/>
+    <Piece id="slots_010_bg_09c" image_id="slots_010_02" x="413" y="272" width="79" height="157"/>
+    <Piece id="slots_010_bg_09d" image_id="slots_010_02" x="395" y="467" width="64" height="170"/>
+    <Piece id="slots_010_bg_09e" image_id="slots_010_02" x="494" y="416" width="73" height="144"/>
+    <Piece id="slots_010_bg_09f" image_id="slots_010_02" x="413" y="226" width="88" height="44"/>
+    <Piece id="slots_010_bg_09g" image_id="slots_010_02" x="574" y="169" width="42" height="21"/>
+    <Piece id="slots_010_bg_09h" image_id="slots_010_02" x="618" y="169" width="42" height="21"/>
+    <Piece id="slots_010_bg_09i" image_id="slots_010_02" x="395" y="431" width="73" height="34"/>
+    <Piece id="slots_010_btn_001a" image_id="slots_010_01" x="1516" y="445" width="175" height="80"/>
+    <Piece id="slots_010_btn_001b" image_id="slots_010_01" x="1342" y="932" width="175" height="80"/>
+    <Piece id="slots_010_btn_002a" image_id="slots_010_01" x="717" y="479" width="158" height="60"/>
+    <Piece id="slots_010_btn_002b" image_id="slots_010_01" x="948" y="765" width="158" height="60"/>
+    <Piece id="slots_010_btn_003a" image_id="slots_010_01" x="1108" y="765" width="158" height="60"/>
+    <Piece id="slots_010_btn_003b" image_id="slots_010_01" x="1268" y="758" width="158" height="60"/>
+    <Piece id="slots_010_btn_004" image_id="slots_010_01" x="404" y="892" width="132" height="54"/>
+    <Piece id="slots_010_btn_005a" image_id="slots_010_01" x="475" y="948" width="135" height="75"/>
+    <Piece id="slots_010_btn_006a" image_id="slots_010_01" x="1943" y="0" width="100" height="75"/>
+    <Piece id="slots_010_btn_007a" image_id="slots_010_01" x="1008" y="939" width="165" height="85"/>
+    <Piece id="slots_010_btn_007b" image_id="slots_010_01" x="1175" y="939" width="165" height="85"/>
+    <Piece id="slots_010_btn_008" image_id="slots_010_01" x="604" y="479" width="111" height="64"/>
+    <Piece id="slots_010_btn_009" image_id="slots_010_01" x="1294" y="445" width="220" height="83"/>
+    <Piece id="slots_010_btn_010" image_id="slots_010_01" x="604" y="361" width="190" height="57"/>
+    <Piece id="slots_010_btn_011" image_id="slots_010_01" x="604" y="420" width="190" height="57"/>
+    <Piece id="slots_010_btn_012" image_id="slots_010_01" x="538" y="892" width="188" height="53"/>
+    <Piece id="slots_010_btn_013" image_id="slots_010_01" x="795" y="831" width="188" height="53"/>
+    <Piece id="slots_010_btn_014" image_id="slots_010_01" x="877" y="445" width="361" height="87"/>
+    <Piece id="slots_010_btn_015" image_id="slots_010_01" x="1240" y="445" width="52" height="85"/>
+    <Piece id="slots_010_icon_001" image_id="slots_010_01" x="857" y="541" width="160" height="110"/>
+    <Piece id="slots_010_icon_002" image_id="slots_010_01" x="1135" y="333" width="160" height="110"/>
+    <Piece id="slots_010_icon_003" image_id="slots_010_01" x="948" y="653" width="160" height="110"/>
+    <Piece id="slots_010_icon_004" image_id="slots_010_01" x="1019" y="534" width="160" height="110"/>
+    <Piece id="slots_010_icon_005" image_id="slots_010_01" x="1008" y="827" width="160" height="110"/>
+    <Piece id="slots_010_icon_006" image_id="slots_010_01" x="1170" y="827" width="160" height="110"/>
+    <Piece id="slots_010_icon_007" image_id="slots_010_01" x="1110" y="646" width="160" height="110"/>
+    <Piece id="slots_010_icon_008" image_id="slots_010_01" x="1181" y="534" width="160" height="110"/>
+    <Piece id="slots_010_icon_009" image_id="slots_010_01" x="1297" y="333" width="160" height="110"/>
+    <Piece id="slots_010_icon_010" image_id="slots_010_01" x="1459" y="333" width="160" height="110"/>
+    <Piece id="slots_010_icon_011a" image_id="slots_010_01" x="616" y="0" width="180" height="215"/>
+    <Piece id="slots_010_icon_011b" image_id="slots_010_01" x="488" y="0" width="62" height="265"/>
+    <Piece id="slots_010_icon_011c" image_id="slots_010_01" x="552" y="0" width="62" height="265"/>
+    <Piece id="slots_010_icon_011d" image_id="slots_010_01" x="798" y="0" width="180" height="215"/>
+    <Piece id="slots_010_icon_012" image_id="slots_010_01" x="0" y="0" width="200" height="550"/>
+    <Piece id="slots_010_icon_012b" image_id="slots_010_01" x="0" y="552" width="160" height="440"/>
+    <Piece id="slots_010_icon_013" image_id="slots_010_01" x="695" y="545" width="160" height="147"/>
+    <Piece id="slots_010_icon_light" image_id="slots_010_icon_light" x="0" y="0" width="200" height="200"/>
+    <Piece id="slots_010_logo" image_id="slots_010_01" x="1143" y="188" width="814" height="110"/>
+    <Piece id="slots_010_panel_001" image_id="slots_010_01" x="1272" y="646" width="160" height="110"/>
+    <Piece id="slots_010_panel_002" image_id="slots_010_01" x="1343" y="530" width="160" height="110"/>
+    <Piece id="slots_010_panel_003" image_id="slots_010_01" x="1332" y="820" width="160" height="110"/>
+    <Piece id="slots_010_panel_004" image_id="slots_010_01" x="1434" y="642" width="160" height="110"/>
+    <Piece id="slots_010_panel_005" image_id="slots_010_01" x="1505" y="530" width="160" height="110"/>
+    <Piece id="slots_010_panel_006" image_id="slots_010_01" x="1621" y="333" width="160" height="110"/>
+    <Piece id="slots_010_panel_007" image_id="slots_010_01" x="1783" y="300" width="160" height="110"/>
+    <Piece id="slots_010_panel_008" image_id="slots_010_01" x="401" y="951" width="72" height="65"/>
+    <Piece id="slots_010_panel_009" image_id="slots_010_01" x="202" y="0" width="284" height="360"/>
+    <Piece id="slots_010_panel_010" image_id="slots_010_01" x="795" y="694" width="151" height="135"/>
+    <Piece id="slots_010_panel_011" image_id="slots_010_01" x="858" y="886" width="148" height="135"/>
+    <Piece id="slots_010_panel_012" image_id="slots_010_01" x="728" y="892" width="128" height="121"/>
+    <Piece id="slots_010_panel_013" image_id="slots_010_01" x="488" y="267" width="306" height="92"/>
+    <Piece id="slots_010_panel_014" image_id="slots_010_01" x="616" y="217" width="525" height="44"/>
+    <Piece id="slots_010_panel_015a" image_id="slots_010_01" x="0" y="994" width="17" height="20"/>
+    <Piece id="slots_010_panel_015b" image_id="slots_010_01" x="37" y="994" width="18" height="14"/>
+    <Piece id="slots_010_panel_016" image_id="slots_010_01" x="162" y="951" width="237" height="72"/>
+    <Piece id="slots_010_panel_017" image_id="slots_010_01" x="1494" y="754" width="160" height="110"/>
+    <Piece id="slots_010_panel_018" image_id="slots_010_01" x="1596" y="642" width="160" height="110"/>
+    <Piece id="slots_010_panel_019" image_id="slots_010_01" x="674" y="947" width="50" height="50"/>
+    <Piece id="slots_010_panel_020" image_id="slots_010_01" x="1943" y="77" width="90" height="85"/>
+    <Piece id="slots_010_panel_021" image_id="slots_010_01" x="19" y="994" width="16" height="16"/>
+    <Piece id="slots_010_panel_022" image_id="slots_010_01" x="0" y="1016" width="39" height="6"/>
+    <Piece id="slots_010_ui_001" image_id="slots_010_01" x="404" y="732" width="198" height="158"/>
+    <Piece id="slots_010_ui_002" image_id="slots_010_01" x="1330" y="0" width="200" height="186"/>
+    <Piece id="slots_010_ui_003" image_id="slots_010_01" x="1959" y="164" width="61" height="167"/>
+    <Piece id="slots_010_ui_004" image_id="slots_010_01" x="980" y="0" width="348" height="186"/>
+    <Piece id="slots_010_ui_005" image_id="slots_010_01" x="202" y="362" width="400" height="186"/>
+    <Piece id="slots_010_ui_006" image_id="slots_010_01" x="604" y="732" width="189" height="158"/>
+    <Piece id="slots_010_ui_007" image_id="slots_010_01" x="404" y="550" width="231" height="180"/>
+    <Piece id="slots_010_ui_008" image_id="slots_010_01" x="637" y="545" width="56" height="150"/>
+    <Piece id="slots_010_ui_009" image_id="slots_010_01" x="796" y="263" width="337" height="180"/>
+    <Piece id="slots_010_ui_010" image_id="slots_010_01" x="1532" y="0" width="409" height="180"/>
+    <Piece id="slots_010_ui_011" image_id="slots_010_01" x="612" y="947" width="60" height="60"/>
+    <Piece id="slots_010_ui_012" image_id="slots_010_01" x="1428" y="758" width="60" height="60"/>
+    <Piece id="slots_010_ui_013" image_id="slots_010_01" x="162" y="552" width="240" height="397"/>
+    <Piece id="slots_010_vfx_001" image_id="slots_010_vfx_01" x="534" y="214" width="284" height="172"/>
+    <Piece id="slots_010_vfx_002" image_id="slots_010_vfx_01" x="0" y="589" width="132" height="300"/>
+    <Piece id="slots_010_vfx_003" image_id="slots_010_vfx_01" x="0" y="92" width="335" height="320"/>
+    <Piece id="slots_010_vfx_004" image_id="slots_010_vfx_01" x="0" y="0" width="559" height="90"/>
+    <Piece id="slots_010_vfx_005" image_id="slots_010_vfx_01" x="0" y="414" width="234" height="173"/>
+    <Piece id="slots_010_vfx_006" image_id="slots_010_vfx_01" x="337" y="302" width="176" height="276"/>
+    <Piece id="slots_010_vfx_007" image_id="slots_010_vfx_01" x="820" y="214" width="150" height="172"/>
+    <Piece id="slots_010_vfx_008" image_id="slots_010_vfx_01" x="134" y="791" width="102" height="66"/>
+    <Piece id="slots_010_vfx_009" image_id="slots_010_vfx_01" x="561" y="0" width="414" height="212"/>
+    <Piece id="slots_010_vfx_010" image_id="slots_010_vfx_01" x="0" y="891" width="103" height="115"/>
+    <Piece id="slots_010_vfx_011" image_id="slots_010_vfx_01" x="236" y="414" width="80" height="100"/>
+    <Piece id="slots_010_vfx_012" image_id="slots_010_vfx_01" x="105" y="891" width="112" height="112"/>
+    <Piece id="slots_010_vfx_013" image_id="slots_010_vfx_01" x="134" y="589" width="225" height="200"/>
+  </PieceList>
+</ImagePiece>

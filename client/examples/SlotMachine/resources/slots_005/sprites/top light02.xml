@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="top light02.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="00000" x="272" y="96" w="220" h="84" oX="16" oY="35" oW="250" oH="150" dr="120"/>
+    <sprite n="00002" x="96" y="96" w="88" h="220" oX="16" oY="36" oW="250" oH="150" r="y" dr="120"/>
+    <sprite n="00004" x="2" y="96" w="92" h="220" oX="16" oY="36" oW="250" oH="150" r="y" dr="120"/>
+    <sprite n="00006" x="224" y="2" w="220" h="92" oX="16" oY="36" oW="250" oH="150" dr="120"/>
+    <sprite n="00008" x="2" y="2" w="220" h="92" oX="16" oY="36" oW="250" oH="150" dr="120"/>
+    <sprite n="00010" x="2" y="318" w="220" h="90" oX="16" oY="35" oW="250" oH="150" dr="120"/>
+    <sprite n="00012" x="2" y="410" w="220" h="84" oX="16" oY="35" oW="250" oH="150" dr="120"/>
+    <sprite n="00014" x="272" y="266" w="220" h="82" oX="16" oY="36" oW="250" oH="150" dr="120"/>
+    <sprite n="00016" x="272" y="182" w="220" h="82" oX="16" oY="36" oW="250" oH="150" dr="120"/>
+    <sprite n="00018" x="186" y="96" w="84" h="220" oX="16" oY="35" oW="250" oH="150" r="y" dr="120"/>
+</TextureAtlas>

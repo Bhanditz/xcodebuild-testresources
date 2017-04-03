@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="210" height="260" window_state="6" style="ngs_panel_bg">
+        <Picture id="m_Picture02" x="57" y="82" z="0" width="96" height="96" window_state="6">
+            <piece_info value="slots_009_panel_007"/>
+        </Picture>
+        <Sprite id="vfx2_wild_loop" x="55" y="80" z="0" width="100" height="100" window_state="6">
+            <sprite_file value="slots_009/sprites/wild_Loop_wl.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="vfx2_wild_loop1" x="55" y="80" z="0" width="100" height="100" window_state="6">
+            <sprite_file value="slots_009/sprites/wild_loop_text.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel1" x="250" y="0" z="0" width="210" height="255" window_state="6" style="ngs_panel_bg">
+        <Picture id="m_Picture2" x="58" y="82" z="0" width="96" height="96" window_state="6">
+            <piece_info value="slots_009_panel_007"/>
+        </Picture>
+        <Sprite id="vfx1_wild_sg" x="54" y="75" z="0" width="100" height="100" window_state="6">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_009/sprites/wild_sg.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="vfx1_wild_fire" x="48" y="82" z="0" width="100" height="100" window_state="6">
+            <sprite_file value="slots_009/sprites/wild_fire.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Particle id="vfx1_wild_boom" x="94" y="124" z="0" width="20" height="20" window_state="6">
+            <particle_state value="0"/>
+            <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+            <particle_name value="fire_boom2"/>
+        </Particle>
+        <Sprite id="vfx1_wild_text" x="56" y="80" z="0" width="100" height="100" window_state="6">
+            <sprite_file value="slots_009/sprites/wild_text.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="vfx1_wild_text1" x="58" y="80" z="0" width="96" height="96" window_state="6">
+            <piece_info value="wild_text1"/>
+        </Picture>
+        <Picture id="vfx1_wild_text2" x="62" y="77" z="0" width="96" height="96" window_state="6">
+            <action_id value="animation_sloot009_wild_text2"/>
+            <piece_info value="wild_text2"/>
+        </Picture>
+        <Picture id="vfx1_wild_text3" x="60" y="80" z="0" width="96" height="96" window_state="6">
+            <action_id value="animation_sloot009_wild_text3"/>
+            <piece_info value="wild_text3"/>
+        </Picture>
+        <Particle id="vfx1_text_particular" x="-12" y="125" z="0" width="20" height="20" window_state="6">
+            <particle_state value="0"/>
+            <package_file value="slots_009/particles/slots009_icon023_01.ptc"/>
+            <particle_name value="text_par"/>
+        </Particle>
+    </Panel>
+</Panel>

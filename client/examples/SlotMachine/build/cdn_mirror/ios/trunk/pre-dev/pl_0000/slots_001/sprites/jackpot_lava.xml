@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="jackpot_lava.png" width="256" height="256" scale_x="2" scale_y="2" blend="1" loop="-1">
+    <sprite n="00001" x="166" y="166" w="82" h="80" oX="33" oY="36" oW="150" oH="150" dr="100"/>
+    <sprite n="00002" x="84" y="166" w="80" h="82" oX="33" oY="36" oW="150" oH="150" r="y" dr="100"/>
+    <sprite n="00003" x="168" y="84" w="82" h="80" oX="33" oY="36" oW="150" oH="150" dr="100"/>
+    <sprite n="00004" x="84" y="84" w="82" h="80" oX="32" oY="36" oW="150" oH="150" dr="100"/>
+    <sprite n="00005" x="2" y="168" w="80" h="82" oX="32" oY="36" oW="150" oH="150" r="y" dr="100"/>
+    <sprite n="00006" x="2" y="84" w="80" h="82" oX="32" oY="36" oW="150" oH="150" r="y" dr="100"/>
+    <sprite n="00007" x="170" y="2" w="82" h="80" oX="33" oY="36" oW="150" oH="150" dr="100"/>
+    <sprite n="00008" x="86" y="2" w="82" h="80" oX="33" oY="36" oW="150" oH="150" dr="100"/>
+    <sprite n="00009" x="2" y="2" w="82" h="80" oX="33" oY="36" oW="150" oH="150" dr="100"/>
+</TextureAtlas>

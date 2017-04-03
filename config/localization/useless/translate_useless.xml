@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<trans key="SLOTS_VOLCANO_BIGBONUS_TEXT_PAYTABLE" trunk="PAYTABLE" numchar="-1" from="code.po"/>
+	<trans key="SLOTS_VOLCANO_PAYTABLE_HIGHLIGHTS_BIGBONUS_TEXT2" trunk="1 scattered on reel 5 trigger &#xA;BIG BONUS game or win from &#xA;BONUS PICKUP." numchar="-1" from="paytable.ui"/>
+	<trans key="PD_MSG_BUTTON_01"/>
+	<trans key="PD_MSG_BUTTON_02"/>
+	<trans key="LS_INIT_CONFIGS" en_us="LS_INIT_CONFIGS"/>
+	<trans key="LS_INIT_HANDLERS" en_us="LS_INIT_HANDLERS"/>
+	<trans key="LS_LOBBY_ENTERED" en_us="LS_LOBBY_ENTERED"/>
+	<trans key="LS_PRE_INIT_MSGBOXS" en_us="LS_PRE_INIT_MSGBOXS"/>
+	<trans key="LS_PRE_INIT_SCREENS" en_us="LS_PRE_INIT_SCREENS"/>
+	<trans key="LS_START_DOWNLOADING_SERVER_LIST" en_us="LS_START_DOWNLOADING_SERVER_LIST"/>
+	<trans key="LS_START_GS_LOGIN" en_us="LS_START_GS_LOGIN"/>
+	<trans key="LS_START_INITIALIZE" en_us="LS_START_INITIALIZE"/>
+	<trans key="LS_START_LS_LOGIN" en_us="LS_START_LS_LOGIN"/>
+	<trans key="LS_START_PLATFORM_LOGIN" en_us="LS_START_PLATFORM_LOGIN"/>
+	<trans key="LS_START_RECEIVING_ROLE_INFO" en_us="LS_START_RECEIVING_ROLE_INFO"/>
+	<trans key="SLOTS_SPOOKYSPINNERS_BASEGAME_BONUSDANCINGWILD_TEXT_212" en_us="GET 2 12X"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_ACCOUNT"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_CHIPSLOST"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_CHIPSNOTRECEIVE"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_GIFTNOTRECEIVE"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_HACKING"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_LOGIN"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_OTHERS"/>
+	<trans key="PLATFORM_LOBBY_CONTACTUS_BUTTON_REPORT"/>
+	<trans key="PLATFORM_LOGIN_POPUP_FACEBOOKUNLOCK_TEXT" trunk="Connect to Facebook to instantly unlock this awesome new slot and unique RESPIN Bonus Game!"/>
+	<trans key="PLATFORM_LOGIN_POPUP_FACEBOOKUNLOCK_TITLE" trunk="FACEBOOK PLAYERS ONLY!"/>
+	<trans key="PLATFORM_SOCIAL_FRIENDLIST_TEXT_MOREFRIEND" trunk="Add more friends!"/>
+	<trans key="PLATFORM_TIMEBONUS_TEXT_SIGNIN" trunk="Sign in daily straight up to get $1,000,000 Chips."/>
+	<trans key="STAR_UNLOCK_THE_THEME" trunk="UNLOCK THE THEME"/>
+	<trans key="STAR_UNLOCK_THE_THEME_TIPS" trunk="To specify star rating will unlock all games theme."/>
+	<trans key="PLATFORM_SOCIAL_FRIENDLIST_BUTTON_VIEWFRIENDWALL" />
+	<trans key="PLATFORM_PROFIEL_TITLE_RECORDS" />
+	<trans key="PLATFORM_PROFILE_RECORD_BINGO_LIST" />
+	<trans key="PLATFORM_PROFILE_RECORD_BLACKJACK_LIST" />
+	<trans key="PLATFORM_PROFILE_RECORD_BUTTON_LIST_BINGO" />
+	<trans key="PLATFORM_PROFILE_RECORD_BUTTON_LIST_BLACKJACK" />
+	<trans key="PLATFORM_PROFILE_RECORD_BUTTON_LIST_HOLDEM" />
+	<trans key="PLATFORM_PROFILE_RECORD_BUTTON_LIST_SLOTS" />
+	<trans key="PLATFORM_PROFILE_RECORD_BUTTON_LIST_VIDEOPOKER" />
+	<trans key="PLATFORM_PROFILE_RECORD_SLOTS_CHIPS" />
+	<trans key="PLATFORM_PROFILE_RECORD_SLOTS_LIST" />
+	<trans key="PLATFORM_PROFILE_RECORD_TEXASPOKER_LIST1" />
+	<trans key="PLATFORM_PROFILE_RECORD_TEXASPOKER_LIST2" />
+	<trans key="PLATFORM_PROFILE_RECORD_VIDEOPOKER_LIST" />
+	<trans key="PLATFORM_PROFILE_TITLE_ACHIEVEMENT" />
+	<trans key="TEXASPOKER_SHOOTOUT_BUYIN_BUTTON_TICKET" en_us="1 &lt;image id = 'poker_common_shootout_icon2' scale ='0.85' /&gt; To Play"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_ALL_FAILURE_MSG" en_us="Take All Reward Error!\n Result Type:#0"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_ALL_FAILURE_TITLE" en_us="Take All Reward Error"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_FAILURE_MSG" en_us="INFOCENTER_SYSTEM_REWARD_FAILURE_MSG"/>
+	<trans key="INFOCENTER_SYSTEM_REWARD_FAILURE_TITLE" en_us="Take Reward Error"/>
+</root>

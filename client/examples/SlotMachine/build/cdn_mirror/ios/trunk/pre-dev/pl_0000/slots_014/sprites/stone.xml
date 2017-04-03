@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="stone.png" width="256" height="256" blend="1" loop="1">
+    <sprite n="00000" x="100" y="2" w="96" h="64" oX="26" oY="48" oW="150" oH="150" dr="60"/>
+    <sprite n="00001" x="2" y="2" w="96" h="84" oX="27" oY="30" oW="150" oH="150" dr="60"/>
+    <sprite n="00002" x="100" y="68" w="94" h="88" oX="28" oY="25" oW="150" oH="150" dr="60"/>
+    <sprite n="00003" x="2" y="88" w="94" h="76" oX="27" oY="36" oW="150" oH="150" dr="60"/>
+    <sprite n="00004" x="98" y="158" w="70" h="94" oX="28" oY="43" oW="150" oH="150" r="y" dr="60"/>
+    <sprite n="00005" x="198" y="2" w="56" h="94" oX="28" oY="58" oW="150" oH="150" r="y" dr="60"/>
+</TextureAtlas>

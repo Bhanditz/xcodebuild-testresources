@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_PicBg" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <scale_mode value="4"/>
+    </Picture>
+    <RichLabel id="m_RichLabel" x="274" y="587" z="0" width="588" height="35" window_state="6">
+        <text value="PLATFORM_LOADING_TEXT_COPYRIGHT"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <font_id value="MyraidPro"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel id="m_PanelProgress" x="282" y="482" z="0" width="572" height="112" window_state="6">
+        <ProgressBarH id="m_ProgressBarBase" x="23" y="18" z="0" width="509" height="31" window_state="6" style="ngs_casino_lobby_loading_panel01">
+            <edge_picture_offset x="0" y="0" z="0"/>
+            <edge_picture_scale x="1" y="1" z="1"/>
+        </ProgressBarH>
+        <ProgressBarH id="m_ProgressBar" x="31" y="18" z="0" width="494" height="31" window_state="6">
+            <progress_style value="bs_casino_lobby_loading_panel02"/>
+            <edge_picture_offset x="0" y="0" z="0"/>
+            <edge_picture_scale x="1" y="1" z="1"/>
+        </ProgressBarH>
+        <RichLabel id="m_RblProgress" x="233" y="47" z="0" width="118" height="65" window_state="262">
+            <text value="100%"/>
+            <font_size value="65"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

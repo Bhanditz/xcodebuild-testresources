@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+	<Image id="slots_002_panel3" file_name="slots_002_panel3.jpg" width="931" height="493"/>
+	<Image id="slots_002_panel5" file_name="slots_002_panel5.jpg" width="920" height="494"/>
+	<Image id="lots_002_paytable_01" file_name="lots_002_paytable_01.jpg" width="1136" height="640"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="slots_002_panel3" image_id="slots_002_panel3" x="0" y="0" width="931" height="493"/>
+    <Piece id="slots_002_panel5" image_id="slots_002_panel5" x="0" y="0" width="920" height="494"/>
+	<Piece id="lots_002_paytable_01" image_id="lots_002_paytable_01" x="0" y="0" width="1136" height="640"/>
+	
+  </PieceList>
+</ImagePiece>

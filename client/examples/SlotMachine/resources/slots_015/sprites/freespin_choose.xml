@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="freespin_choose.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="00000" x="2" y="356" w="142" h="150" oX="30" oY="16" oW="200" oH="200" dr="60"/>
+    <sprite n="00001" x="146" y="354" w="158" h="138" oX="32" oY="16" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="00002" x="142" y="2" w="138" h="162" oX="35" oY="19" oW="200" oH="200" dr="60"/>
+    <sprite n="00003" x="2" y="2" w="138" h="176" oX="35" oY="13" oW="200" oH="200" dr="60"/>
+    <sprite n="00004" x="2" y="180" w="134" h="174" oX="39" oY="22" oW="200" oH="200" dr="60"/>
+    <sprite n="00005" x="138" y="180" w="132" h="172" oX="39" oY="25" oW="200" oH="200" dr="60"/>
+    <sprite n="00006" x="272" y="166" w="134" h="162" oX="34" oY="34" oW="200" oH="200" dr="60"/>
+    <sprite n="00007" x="282" y="2" w="132" h="134" oX="36" oY="60" oW="200" oH="200" dr="60"/>
+    <sprite n="00008" x="306" y="330" w="122" h="126" oX="36" oY="68" oW="200" oH="200" r="y" dr="60"/>
+</TextureAtlas>

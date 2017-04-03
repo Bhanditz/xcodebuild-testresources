@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_06_eagle_morphing_real.png" width="512" height="512" blend="2" loop="1">
+    <sprite n="VFX_06_eagle_morphing_real_00001" x="472" y="17" w="15" h="15" oX="24" oY="110" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00002" x="472" y="2" w="31" h="13" oX="30" oY="94" oW="89" oH="125" r="y" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00003" x="269" y="180" w="105" h="87" oY="20" oW="89" oH="125" r="y" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00004" x="180" y="307" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00005" x="180" y="180" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00006" x="307" y="91" w="125" h="87" oW="89" oH="125" r="y" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00007" x="180" y="91" w="125" h="87" oW="89" oH="125" r="y" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00008" x="91" y="345" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00009" x="91" y="218" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00010" x="91" y="91" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00011" x="345" y="2" w="125" h="87" oW="89" oH="125" r="y" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00012" x="218" y="2" w="125" h="87" oW="89" oH="125" r="y" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00013" x="91" y="2" w="125" h="87" oW="89" oH="125" r="y" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00014" x="2" y="383" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00015" x="2" y="256" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00016" x="2" y="129" w="87" h="125" oW="89" oH="125" dr="60"/>
+    <sprite n="VFX_06_eagle_morphing_real_00017" x="2" y="2" w="87" h="125" oW="89" oH="125" dr="60"/>
+</TextureAtlas>

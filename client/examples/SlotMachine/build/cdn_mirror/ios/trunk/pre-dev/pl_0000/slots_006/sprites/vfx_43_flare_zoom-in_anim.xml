@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_43_flare_zoom-in_anim.png" width="512" height="512" scale_x="3" scale_y="3" blend="2" loop="1">
+    <sprite n="tilt_win_flare_00001" x="450" y="234" w="44" h="94" oX="122" oY="33" oW="284" oH="160" dr="120"/>
+    <sprite n="tilt_win_flare_00002" x="450" y="124" w="50" h="108" oX="120" oY="30" oW="284" oH="160" dr="120"/>
+    <sprite n="tilt_win_flare_00003" x="450" y="2" w="56" h="120" oX="117" oY="28" oW="284" oH="160" dr="120"/>
+    <sprite n="tilt_win_flare_00004" x="2" y="164" w="62" h="132" oX="115" oY="26" oW="284" oH="160" dr="120"/>
+    <sprite n="tilt_win_flare_00005" x="2" y="330" w="68" h="138" oX="112" oY="22" oW="284" oH="160" dr="120"/>
+    <sprite n="tilt_win_flare_00006" x="288" y="2" w="160" h="284" r="y" dr="120"/>
+    <sprite n="tilt_win_flare_00007" x="2" y="2" w="284" h="160" dr="120"/>
+</TextureAtlas>

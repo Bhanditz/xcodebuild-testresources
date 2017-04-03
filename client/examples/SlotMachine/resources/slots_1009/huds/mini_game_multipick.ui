@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="slots_1009_bg01"/>
+    </Picture>
+    <Panel id="m_SelectionPanel" x="9" y="10" z="0" width="1121" height="570" window_state="6">
+        <Panel id="m_Selection1" x="48" y="94" z="0" width="125" height="120" window_state="6">
+            <Button id="m_Button" x="3" y="0" z="0" width="123" height="121" window_state="6" style="bs_slots_1009_icon028">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="0" y="40" z="0" width="129" height="42" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="56" y="74" z="0" width="18" height="46" window_state="12">
+                <text value="150"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-68" y="-83" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection2" x="13" y="360" z="0" width="130" height="192" window_state="6">
+            <Button id="m_Button" x="-26" y="6" z="0" width="137" height="184" window_state="6" style="bs_slots_1009_icon019">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="20" y="66" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="70" y="100" z="0" width="16" height="42" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-60" y="-57" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection3" x="720" y="144" z="0" width="100" height="240" window_state="6">
+            <Button id="m_Button" x="14" y="1" z="0" width="92" height="226" window_state="6" style="bs_slots_1009_icon021">
+                <rotation x="0" y="3.1415927" z="0"/>
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="-8" y="66" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="41" y="100" z="0" width="16" height="42" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-88" y="-46" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection4" x="247" y="426" z="0" width="147" height="130" window_state="6">
+            <Button id="m_Button" x="3" y="5" z="0" width="140" height="118" window_state="6" style="bs_slots_1009_icon022">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="14" y="36" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="25" y="70" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-72" y="-84" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection6" x="413" y="200" z="0" width="286" height="98" window_state="6">
+            <Button id="m_Button" x="-15" y="5" z="0" width="313" height="103" window_state="6" style="bs_slots_1009_icon025">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="84" y="12" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="95" y="46" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="2" y="-110" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection5" x="613" y="320" z="0" width="85" height="84" window_state="6">
+            <RichLabel id="m_GreetText" x="-16" y="-4" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="-5" y="30" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-95" y="-109" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Button id="m_Button" x="1" y="1" z="0" width="82" height="83" window_state="6" style="bs_slots_1009_icon024">
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+        <Panel id="m_Selection7" x="657" y="430" z="0" width="145" height="122" window_state="6">
+            <Button id="m_Button" x="-1" y="3" z="0" width="143" height="117" window_state="262" style="bs_slots_1009_icon026">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="13" y="36" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="24" y="70" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-62" y="-95" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection8" x="903" y="408" z="0" width="204" height="140" window_state="6">
+            <Button id="m_Button" x="-43" y="-12" z="0" width="245" height="162" window_state="262" style="bs_slots_1009_icon027">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="43" y="46" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="54" y="80" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-29" y="-77" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection9" x="463" y="300" z="0" width="135" height="201" window_state="6">
+            <Button id="m_Button" x="0" y="0" z="0" width="140" height="206" window_state="6" style="bs_slots_1009_icon023">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="8" y="76" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="19" y="110" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-70" y="-42" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection10" x="837" y="185" z="0" width="88" height="257" window_state="6">
+            <Button id="m_Button" x="2" y="1" z="0" width="105" height="258" window_state="6" style="bs_slots_1009_icon020">
+                <rotation x="0" y="3.1415927" z="0"/>
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="-14" y="84" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="-4" y="118" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-93" y="-35" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection11" x="294" y="149" z="0" width="95" height="230" window_state="6">
+            <Button id="m_Button" x="-14" y="1" z="0" width="92" height="226" window_state="6" style="bs_slots_1009_icon021">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="-11" y="81" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="0" y="115" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-91" y="-55" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection12" x="175" y="182" z="0" width="88" height="257" window_state="6">
+            <Button id="m_Button" x="-19" y="2" z="0" width="105" height="258" window_state="6" style="bs_slots_1009_icon020">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="-14" y="78" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="-4" y="112" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-88" y="-38" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Selection13" x="382" y="331" z="0" width="70" height="90" window_state="6">
+            <Button id="m_Button" x="-20" y="2" z="0" width="85" height="98" window_state="6" style="bs_slots_1009_icon029">
+                <line_height value="30"/>
+            </Button>
+            <RichLabel id="m_GreetText" x="-23" y="18" z="0" width="117" height="38" window_state="12">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_AMAZING"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_ScoreText" x="-13" y="52" z="0" width="96" height="30" window_state="12">
+                <text value="0"/>
+                <font_size value="42"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Sprite id="m_Sprite" x="-100" y="-101" z="0" width="267" height="267" window_state="4">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <sprite_file value="slots_1009/sprites/bomb.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+    </Panel>
+    <Picture id="m_GamePanel" x="-6" y="559" z="0" width="1148" height="81" window_state="6">
+        <piece_info value="slots_1009_panel002"/>
+        <RichLabel id="m_Score" x="273" y="30" z="0" width="156" height="30" window_state="6">
+            <anchor_point x="0" y="0.5" z="0"/>
+            <text value="888,888"/>
+            <font_size value="35"/>
+            <text_color value="cs_yellowTxt"/>
+            <text_align_h value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Score1" x="273" y="30" z="0" width="156" height="30" window_state="6">
+            <anchor_point x="0" y="0.5" z="0"/>
+            <text value="888,888"/>
+            <font_size value="35"/>
+            <text_color value="cs_yellowTxt"/>
+            <text_align_h value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <Panel id="m_MissPanel" x="602" y="561" z="0" width="405" height="80" window_state="6">
+        <Picture id="m_MissIcon1" x="131" y="9" z="0" width="67" height="67" window_state="6">
+            <action_id value="animation_slot1009_focus"/>
+            <piece_info value="slots_1009_panel015"/>
+        </Picture>
+        <Picture id="m_MissIcon2" x="201" y="8" z="0" width="67" height="67" window_state="6">
+            <action_id value="animation_slot1009_focus"/>
+            <piece_info value="slots_1009_panel015"/>
+        </Picture>
+        <Picture id="m_MissIcon3" x="268" y="10" z="0" width="67" height="67" window_state="6">
+            <action_id value="animation_slot1009_focus"/>
+            <piece_info value="slots_1009_panel015"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_InfoPanel" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+        <Panel id="m_DescPanel" x="379" y="83" z="0" width="378" height="80" window_state="4">
+            <Grid id="Grid_Top" x="29" y="30" z="0" width="320" height="20" window_state="6" style="ngs_slots_1009_panel029">
+                <scale x="1.2" y="2.5" z="1"/>
+            </Grid>
+            <RichLabel id="m_DescLbl" x="22" y="21" z="0" width="333" height="38" window_state="6">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_CLICKITEM"/>
+                <font_size value="38"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_StartPanel" x="380" y="240" z="0" width="378" height="80" window_state="6">
+            <Grid id="Grid_Center" x="29" y="30" z="0" width="320" height="20" window_state="4" style="ngs_slots_1009_panel029">
+                <scale x="1.2" y="2.5" z="1"/>
+            </Grid>
+            <RichLabel id="m_StartLbl" x="134" y="14" z="0" width="108" height="52" window_state="4">
+                <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_START"/>
+                <font_size value="52"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <RichLabel id="m_GameOverLbl" x="432" y="260" z="0" width="270" height="64" window_state="4" style="ngs_panel_bg">
+            <text value="SLOTS_TUTSGOLD2_MINIGAMEPICK_TEXT_GAMEOVER"/>
+            <font_size value="64"/>
+            <text_style value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

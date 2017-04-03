@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorStyleList>
+  <ColorStyle id="cs_BlueTxt">
+    <normal value="0xaeef"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_BrownTxt">
+    <normal value="0x5c3c06"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_Redtxt">
+    <normal value="0xff0000"/>
+  </ColorStyle>
+  <ColorStyle id="cs_White">
+    <normal value="0xffffff"/>
+    <disabled value="0x7d7d7d"/>
+  </ColorStyle>
+  <ColorStyle id="cs_black_txt">
+    <normal value="0x0"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_color_style">
+    <normal value="0xffeca2"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_color_style0">
+    <normal value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_color_style1">
+    <normal value="0x3abd"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_color_style2">
+    <normal value="0x3f3b3b"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_color_style3">
+    <normal value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_gray">
+    <normal value="0x7d7d7d"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_gray2">
+    <normal value="0xa6a6a6"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_01">
+    <normal value="0xffffff"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_02">
+    <normal value="0x2dff41"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_03">
+    <normal value="0xae330e"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_04">
+    <normal value="0xddff1e"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_05">
+    <normal value="0x1bffd7"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_06">
+    <normal value="0xb0001d"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_07">
+    <normal value="0xffffff"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_08">
+    <normal value="0xb0001d"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_09">
+    <normal value="0x7a0fb1"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_10">
+    <normal value="0xfff719"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_11">
+    <normal value="0xffffff"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_12">
+    <normal value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_13">
+    <normal value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_line_color_14">
+    <normal value="0xf1d787"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_red_dark_txt">
+    <normal value="0x590707"/>
+    <disabled value="0x0"/>
+  </ColorStyle>
+  <ColorStyle id="cs_yellowTxt">
+    <normal value="0xffc000"/>
+    <disabled value="0x808080"/>
+  </ColorStyle>
+</ColorStyleList>

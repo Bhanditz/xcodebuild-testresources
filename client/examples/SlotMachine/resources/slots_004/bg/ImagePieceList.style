@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="bg1" file_name="bg1.jpg" width="932" height="345"/>
+	<Image id="slots_004_bg_01" file_name="slots_004_bg_01.jpg" width="1136" height="640"/>
+	<Image id="slots_004_bg_03" file_name="slots_004_bg_03.jpg" width="1136" height="640"/>
+	<Image id="slots_004_bg_04" file_name="slots_004_bg_04.jpg" width="1136" height="640"/>
+    <Image id="slots_004_bg_05" file_name="slots_004_bg_05.jpg" width="682" height="148"/>
+	<Image id="slots_004_bg_05o" file_name="slots_004_bg_05o.jpg" width="682" height="148"/>
+    <Image id="slots_004_bg_05p" file_name="slots_004_bg_05p.jpg" width="682" height="148"/>
+	
+  </ImageList>
+  <PieceList>
+	<Piece id="slots_004_bg_01" image_id="slots_004_bg_01" x="0" y="0" width="1136" height="640"/>
+	<Piece id="slots_004_bg_03" image_id="slots_004_bg_03" x="0" y="0" width="1136" height="640"/>
+	<Piece id="slots_004_bg_04" image_id="slots_004_bg_04" x="0" y="0" width="1136" height="640"/>
+    <Piece id="slots_004_bg_05o" image_id="slots_004_bg_05o" x="0" y="0" width="682" height="148"/>
+	<Piece id="slots_004_bg_05" image_id="slots_004_bg_05" x="0" y="0" width="682" height="148"/>
+    <Piece id="slots_004_bg_05p" image_id="slots_004_bg_05p" x="0" y="0" width="682" height="148"/>
+    
+  </PieceList>
+</ImagePiece>

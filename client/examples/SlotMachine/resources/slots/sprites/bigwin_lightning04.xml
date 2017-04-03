@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bigwin_lightning04.png" width="512" height="512" scale_x="2.5" scale_y="2.5" blend="2" loop="1">
+    <sprite n="00000" x="144" y="322" w="38" h="32" oX="212" oW="250" oH="256" dr="40"/>
+    <sprite n="00001" x="430" y="128" w="48" h="44" oX="202" oW="250" oH="256" dr="40"/>
+    <sprite n="00002" x="430" y="72" w="58" h="54" oX="192" oW="250" oH="256" dr="40"/>
+    <sprite n="00003" x="430" y="2" w="68" h="68" oX="182" oW="250" oH="256" dr="40"/>
+    <sprite n="00004" x="144" y="144" w="160" h="176" oX="90" oW="250" oH="256" dr="40"/>
+    <sprite n="00005" x="214" y="322" w="160" h="170" oX="80" oW="250" oH="256" r="y" dr="40"/>
+    <sprite n="00006" x="2" y="144" w="140" h="212" oX="38" oW="250" oH="256" r="y" dr="40"/>
+    <sprite n="00007" x="216" y="2" w="212" h="140" oX="38" oW="250" oH="256" dr="40"/>
+    <sprite n="00008" x="2" y="2" w="212" h="140" oX="38" oW="250" oH="256" dr="40"/>
+    <sprite n="00009" x="2" y="358" w="210" h="138" oX="40" oW="250" oH="256" dr="40"/>
+    <sprite n="00010" x="376" y="390" w="130" h="108" oX="120" oW="250" oH="256" dr="40"/>
+    <sprite n="00011" x="376" y="278" w="132" h="110" oX="118" oW="250" oH="256" dr="40"/>
+    <sprite n="00012" x="306" y="144" w="114" h="132" oX="118" oW="250" oH="256" r="y" dr="40"/>
+</TextureAtlas>

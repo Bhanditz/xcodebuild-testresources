@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+	<Image id="casino_slots_loading_bg" file_name="casino_slots_loading_bg.jpg" width="1024" height="577"/>
+	<Image id="slots_jackpot_bg" file_name="slots_jackpot_bg.jpg" width="1024" height="577"/>
+	<Image id="vpoker_loading_bg01" file_name="vpoker_loading_bg01.jpg" width="1204" height="577"/>
+    <Image id="blackjack_loading_bg01" file_name="blackjack_loading_bg01.jpg" width="1024" height="577"/>
+	<Image id="poker_loading" file_name="poker_loading.jpg" width="1024" height="577"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="casino_slots_loading_bg" image_id="casino_slots_loading_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="slots_jackpot_bg" image_id="slots_jackpot_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="vpoker_loading_bg01" image_id="vpoker_loading_bg01" x="0" y="0" width="1024" height="577"/>
+    <Piece id="blackjack_loading_bg01" image_id="blackjack_loading_bg01" x="0" y="0" width="1024" height="577"/>
+	<Piece id="poker_loading" image_id="poker_loading" x="0" y="0" width="1024" height="577"/>
+  </PieceList>
+</ImagePiece>
+

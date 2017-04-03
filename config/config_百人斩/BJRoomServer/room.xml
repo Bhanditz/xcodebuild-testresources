@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<!-- 
+    roomtype(玩法设定):
+    deckofcards (扑克牌副数):
+    minplayer(最少人数):
+    maxplayer(最多人数):
+    maxhands(每个玩家最多手数):
+	maxhandssplit(每手可分牌最多手数):
+    unlocklev(玩家解锁等级):
+    betarray(下注额数组):
+    minbet(最低下注额):
+    maxbet(最高下注额):
+	betmsec(开始下注cd):
+	choose(房间选择规则)：
+ -->
+<root>
+	<room roomtype="1" deckofcards="6" minplayer="1" maxplayer="1" choose="0" initseatid="3" maxhands="1" maxhandssplit="2" unlocklev="1"  betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	<room roomtype="2" deckofcards="6" minplayer="1" maxplayer="5" choose="2/3/1/4/0" initseatid="1/2/3/4/5" maxhands="1" maxhandssplit="2" unlocklev="1"  betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	<room roomtype="3" deckofcards="6" minplayer="1" maxplayer="1" choose="0" initseatid="3" maxhands="1" maxhandssplit="2" unlocklev="1" betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	<room roomtype="4" deckofcards="6" minplayer="1" maxplayer="5" choose="2/3/1/4/0" initseatid="1/2/3/4/5" maxhands="1" maxhandssplit="2" unlocklev="1"  betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	<room roomtype="5" deckofcards="6" minplayer="1" maxplayer="1" choose="0" initseatid="3" maxhands="1" maxhandssplit="2" unlocklev="1" betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	<room roomtype="6" deckofcards="6" minplayer="1" maxplayer="5" choose="2/3/1/4/0" initseatid="1/2/3/4/5" maxhands="1" maxhandssplit="2" unlocklev="1"  betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	<room roomtype="7" deckofcards="6" minplayer="1" maxplayer="1" choose="0" initseatid="3" maxhands="1" maxhandssplit="2" unlocklev="1" betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	<room roomtype="8" deckofcards="6" minplayer="1" maxplayer="5" choose="2/3/1/4/0" initseatid="1/2/3/4/5" maxhands="1" maxhandssplit="2" unlocklev="1" betmsec="15000" playmsec="15000" insurancemsec="15000" />
+	
+	<roombet roomtype="1">
+		<level maxlev="49" betarrary="20/50/100/200" />
+		<level maxlev="79" betarrary="200/500/1000/2000" />
+		<level maxlev="119" betarrary="1000/2000/5000/10000" />
+		<level maxlev="159" betarrary="2000/5000/10000/20000" />
+		<level maxlev="199" betarrary="5000/10000/20000/50000" />
+		<level maxlev="359" betarrary="5000/10000/20000/50000" />
+		<level maxlev="10000" betarrary="10000/20000/50000/100000" />
+	</roombet>
+	
+	<roombet roomtype="2">
+		<level maxlev="49" betarrary="20/50/100/200" />
+		<level maxlev="79" betarrary="200/500/1000/2000" />
+		<level maxlev="119" betarrary="1000/2000/5000/10000" />
+		<level maxlev="159" betarrary="2000/5000/10000/20000" />
+		<level maxlev="199" betarrary="5000/10000/20000/50000" />
+		<level maxlev="359" betarrary="5000/10000/20000/50000" />
+		<level maxlev="10000" betarrary="10000/20000/50000/100000" />
+	</roombet>
+	
+	<roombet roomtype="3">
+		<level maxlev="49" betarrary="100/200/500/1000" />
+		<level maxlev="79" betarrary="500/1000/2000/5000" />
+		<level maxlev="119" betarrary="2000/5000/10000/20000" />
+		<level maxlev="159" betarrary="5000/10000/20000/50000" />
+		<level maxlev="199" betarrary="10000/20000/50000/100000" />
+		<level maxlev="359" betarrary="10000/20000/50000/100000" />
+		<level maxlev="10000" betarrary="20000/50000/100000/200000" />
+	</roombet>
+	
+	<roombet roomtype="4">
+		<level maxlev="49" betarrary="100/200/500/1000" />
+		<level maxlev="79" betarrary="500/1000/2000/5000" />
+		<level maxlev="119" betarrary="2000/5000/10000/20000" />
+		<level maxlev="159" betarrary="5000/10000/20000/50000" />
+		<level maxlev="199" betarrary="10000/20000/50000/100000" />
+		<level maxlev="359" betarrary="10000/20000/50000/100000" />
+		<level maxlev="10000" betarrary="20000/50000/100000/200000" />
+	</roombet>
+	
+	<roombet roomtype="5">
+		<level maxlev="49" betarrary="500/1000/2000/5000" />
+		<level maxlev="79" betarrary="2000/5000/10000/20000" />
+		<level maxlev="119" betarrary="5000/10000/20000/50000" />
+		<level maxlev="159" betarrary="10000/20000/50000/100000" />
+		<level maxlev="199" betarrary="20000/50000/100000/200000" />
+		<level maxlev="359" betarrary="50000/100000/200000/500000" />
+		<level maxlev="10000" betarrary="50000/100000/200000/500000" />
+	</roombet>
+	
+	<roombet roomtype="6">
+		<level maxlev="49" betarrary="500/1000/2000/5000" />
+		<level maxlev="79" betarrary="2000/5000/10000/20000" />
+		<level maxlev="119" betarrary="5000/10000/20000/50000" />
+		<level maxlev="159" betarrary="10000/20000/50000/100000" />
+		<level maxlev="199" betarrary="20000/50000/100000/200000" />
+		<level maxlev="359" betarrary="50000/100000/200000/500000" />
+		<level maxlev="10000" betarrary="50000/100000/200000/500000" />
+	</roombet>
+	
+	<roombet roomtype="7">
+		<level maxlev="49" betarrary="5000/10000/20000/50000" />
+		<level maxlev="79" betarrary="10000/20000/50000/100000" />
+		<level maxlev="119" betarrary="20000/50000/100000/200000" />
+		<level maxlev="159" betarrary="50000/100000/200000/500000" />
+		<level maxlev="199" betarrary="100000/200000/500000/1000000" />
+		<level maxlev="359" betarrary="200000/500000/1000000/2000000" />
+		<level maxlev="10000" betarrary="200000/500000/1000000/2000000" />
+	</roombet>
+	
+	<roombet roomtype="8">
+		<level maxlev="49" betarrary="5000/10000/20000/50000" />
+		<level maxlev="79" betarrary="10000/20000/50000/100000" />
+		<level maxlev="119" betarrary="20000/50000/100000/200000" />
+		<level maxlev="159" betarrary="50000/100000/200000/500000" />
+		<level maxlev="199" betarrary="100000/200000/500000/1000000" />
+		<level maxlev="359" betarrary="200000/500000/1000000/2000000" />
+		<level maxlev="10000" betarrary="200000/500000/1000000/2000000" />
+	</roombet>
+</root>

@@ -1,0 +1,286 @@
+
+ic_fireeater_003.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0000_hide
+  rotate: false
+  xy: 2, 2
+  size: 6, 4
+  orig: 6, 4
+  offset: 0, 0
+  index: -1
+orange_0000_face_stun02blink2
+  rotate: false
+  xy: 381, 142
+  size: 30, 22
+  orig: 30, 22
+  offset: 0, 0
+  index: -1
+orange_0000_match
+  rotate: true
+  xy: 194, 2
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+orange_0000s_0001s_0000_thumb03
+  rotate: true
+  xy: 325, 75
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+orange_0000s_0001s_0001_thumb02
+  rotate: false
+  xy: 397, 123
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+orange_0000s_0001s_0002_thumb01
+  rotate: false
+  xy: 282, 65
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+orange_0000s_0001s_0004_finger03_B
+  rotate: false
+  xy: 377, 106
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+orange_0000s_0001s_0008_palm
+  rotate: false
+  xy: 381, 166
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+orange_0000s_0002s_0001_shoulder02
+  rotate: false
+  xy: 43, 9
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+orange_0000s_0002s_0002_body
+  rotate: false
+  xy: 223, 81
+  size: 61, 52
+  orig: 61, 52
+  offset: 0, 0
+  index: -1
+orange_0000s_0002s_0003_shoulder01
+  rotate: false
+  xy: 325, 89
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+orange_0001_face_stun02blink1
+  rotate: true
+  xy: 353, 115
+  size: 30, 22
+  orig: 30, 22
+  offset: 0, 0
+  index: -1
+orange_0001_flameextinguish
+  rotate: true
+  xy: 286, 151
+  size: 52, 44
+  orig: 52, 44
+  offset: 0, 0
+  index: -1
+orange_0002_flame03
+  rotate: false
+  xy: 242, 205
+  size: 95, 49
+  orig: 95, 49
+  offset: 0, 0
+  index: -1
+orange_0003_flame02
+  rotate: false
+  xy: 143, 204
+  size: 97, 50
+  orig: 97, 50
+  offset: 0, 0
+  index: -1
+orange_0003_head-stun2
+  rotate: true
+  xy: 143, 140
+  size: 62, 85
+  orig: 62, 85
+  offset: 0, 0
+  index: -1
+orange_0003_mask2
+  rotate: true
+  xy: 207, 28
+  size: 110, 14
+  orig: 110, 14
+  offset: 0, 0
+  index: -1
+orange_0004_flame01
+  rotate: false
+  xy: 230, 135
+  size: 54, 67
+  orig: 54, 67
+  offset: 0, 0
+  index: -1
+orange_0005_eyebrow02
+  rotate: false
+  xy: 194, 28
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+orange_0006_eyebrow01
+  rotate: true
+  xy: 501, 239
+  size: 15, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+orange_0007_cheek_0uter
+  rotate: false
+  xy: 143, 2
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+orange_0011_finger03_C
+  rotate: true
+  xy: 194, 36
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+orange_0013_finger03
+  rotate: true
+  xy: 286, 81
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1
+orange_0014_finger02
+  rotate: false
+  xy: 412, 169
+  size: 10, 21
+  orig: 10, 21
+  offset: 0, 0
+  index: -1
+orange_0015_finger01
+  rotate: false
+  xy: 282, 44
+  size: 10, 19
+  orig: 10, 19
+  offset: 0, 0
+  index: -1
+orange_0017_arm
+  rotate: false
+  xy: 325, 118
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+orange_0018_hand-finger-default
+  rotate: false
+  xy: 308, 78
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+orange_0019_armor
+  rotate: true
+  xy: 286, 93
+  size: 56, 37
+  orig: 56, 37
+  offset: 0, 0
+  index: -1
+orange_0023_eyeball_02
+  rotate: false
+  xy: 346, 99
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+orange_0024_head-blowupNOSE
+  rotate: true
+  xy: 2, 8
+  size: 30, 39
+  orig: 30, 39
+  offset: 0, 0
+  index: -1
+orange_0025_eyeball_01
+  rotate: false
+  xy: 362, 100
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+orange_0026_head-blowupEAR
+  rotate: false
+  xy: 377, 121
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+orange_0027_head-blowup
+  rotate: false
+  xy: 2, 40
+  size: 75, 83
+  orig: 75, 83
+  offset: 0, 0
+  index: -1
+orange_0028_cheek_inner
+  rotate: true
+  xy: 332, 147
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+orange_0029_head-openmouthJAW
+  rotate: false
+  xy: 223, 36
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+orange_0030_head-openmouth
+  rotate: true
+  xy: 425, 196
+  size: 58, 74
+  orig: 58, 74
+  offset: 0, 0
+  index: -1
+orange_0033_head-stun
+  rotate: false
+  xy: 79, 38
+  size: 62, 85
+  orig: 62, 85
+  offset: 0, 0
+  index: -1
+orange_0034_head-eat
+  rotate: false
+  xy: 143, 54
+  size: 62, 84
+  orig: 62, 84
+  offset: 0, 0
+  index: -1
+orange_0035_head-default
+  rotate: true
+  xy: 339, 192
+  size: 62, 84
+  orig: 62, 84
+  offset: 0, 0
+  index: -1
+orange_0036_bade
+  rotate: false
+  xy: 2, 125
+  size: 139, 129
+  orig: 139, 129
+  offset: 0, 0
+  index: -1

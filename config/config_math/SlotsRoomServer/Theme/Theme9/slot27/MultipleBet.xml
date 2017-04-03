@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+	Multiple Bet翻倍结算
+		id: 序列号
+		TriggerType: 1(符号组合) 2 （每次Spin）
+		MultiType：奖励方式：1（符号）2（位置）3（全部）
+		multipleSymbol：结算符号
+		multipleCol、multipleRow：结算位置
+		
+		TriggerSymbol：触发的符号组合
+				id:符号ID
+				Amount:数量
+				
+		MultipleBetTimes：倍数百分比配置
+				SymbolCount: 赔付比例的附加条件，在图标个数不同的情况下采用不同的赔付比例。
+				Percentage：奖励的百分比
+				Weightage：权重
+	
+-->
+<root>
+	<MultipleBet id="1" TriggerType="2"  MultiType="1" multipleSymbol="31" >
+
+	<MultipleBetTimes>
+		<Times Percentage="1000" Weightage="33"/>
+		<Times Percentage="1500" Weightage="12"/>
+		<Times Percentage="3000" Weightage="5"/>
+	</MultipleBetTimes>	
+	</MultipleBet>
+</root>

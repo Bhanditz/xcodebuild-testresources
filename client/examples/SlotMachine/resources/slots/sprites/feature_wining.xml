@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="feature_wining.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="Frame_00001" x="398" y="270" w="106" h="106" oX="46" oY="42" oW="200" oH="200" dr="60"/>
+    <sprite n="Frame_00003" x="406" y="100" w="96" h="96" oX="51" oY="47" oW="200" oH="200" dr="60"/>
+    <sprite n="Frame_00005" x="406" y="2" w="96" h="96" oX="51" oY="47" oW="200" oH="200" dr="60"/>
+    <sprite n="Frame_00007" x="2" y="144" w="134" h="138" oX="29" oY="27" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="Frame_00009" x="138" y="144" w="134" h="136" oX="30" oY="29" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="Frame_00011" x="2" y="284" w="128" h="138" oX="33" oY="25" oW="200" oH="200" dr="60"/>
+    <sprite n="Frame_00013" x="272" y="2" w="132" h="134" oX="31" oY="29" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="Frame_00015" x="274" y="138" w="130" h="130" oX="35" oY="29" oW="200" oH="200" dr="60"/>
+    <sprite n="Frame_00017" x="2" y="2" w="136" h="140" oX="32" oY="24" oW="200" oH="200" dr="60"/>
+    <sprite n="Frame_00019" x="132" y="284" w="136" h="136" oX="30" oY="26" oW="200" oH="200" dr="60"/>
+    <sprite n="Frame_00021" x="140" y="2" w="130" h="136" oX="31" oY="30" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="Frame_00023" x="270" y="282" w="126" h="128" oX="34" oY="34" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="Frame_00025" x="44" y="424" w="88" h="68" oX="53" oY="55" oW="200" oH="200" r="y" dr="60"/>
+    <sprite n="Frame_00027" x="2" y="424" w="40" h="84" oX="54" oY="56" oW="200" oH="200" dr="60"/>
+</TextureAtlas>

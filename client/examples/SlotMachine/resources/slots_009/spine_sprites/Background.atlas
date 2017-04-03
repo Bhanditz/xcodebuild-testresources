@@ -1,0 +1,83 @@
+
+Background.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_1
+  rotate: false
+  xy: 2, 787
+  size: 440, 199
+  orig: 440, 199
+  offset: 0, 0
+  index: -1
+cloud_1_2
+  rotate: false
+  xy: 2, 134
+  size: 318, 226
+  orig: 318, 226
+  offset: 0, 0
+  index: -1
+cloud_2_1
+  rotate: false
+  xy: 2, 362
+  size: 336, 211
+  orig: 336, 211
+  offset: 0, 0
+  index: -1
+cloud_2_2
+  rotate: true
+  xy: 816, 680
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+cloud_3_1
+  rotate: false
+  xy: 444, 631
+  size: 320, 185
+  orig: 320, 185
+  offset: 0, 0
+  index: -1
+cloud_3_2
+  rotate: true
+  xy: 647, 420
+  size: 209, 126
+  orig: 209, 126
+  offset: 0, 0
+  index: -1
+cloud_3_3
+  rotate: false
+  xy: 2, 575
+  size: 357, 210
+  orig: 357, 210
+  offset: 0, 0
+  index: -1
+cloud_3_4
+  rotate: false
+  xy: 444, 818
+  size: 370, 168
+  orig: 370, 168
+  offset: 0, 0
+  index: -1
+cloud_shadow
+  rotate: true
+  xy: 2, 2
+  size: 130, 400
+  orig: 130, 400
+  offset: 0, 0
+  index: -1
+sea
+  rotate: false
+  xy: 775, 532
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+sea_up
+  rotate: true
+  xy: 361, 394
+  size: 235, 284
+  orig: 235, 284
+  offset: 0, 0
+  index: -1

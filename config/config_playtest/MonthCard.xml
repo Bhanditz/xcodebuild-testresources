@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+
+<root>
+
+<!--
+对某注册日期之后的玩家关闭月卡功能
+-->	
+<closemonthcard regtime="20170331" />
+
+<tempcard daycoin="25000" endtmrewardday="3">
+<!--
+	tempcard:
+	type=1(月卡界面时常态显示)
+	type2(打开界面时，未购买过任意类型月卡时显示 7日卡)
+	type3(通过领取界面续费按钮点击弹出的续费弹窗界面)
+	type4(通过月卡失效提示机制触发的弹窗界面)
+	type5(打开界面时，未购买过任意类型月卡时显示 10日卡)
+-->
+	<display id="1" saleid="5" />
+	<display id="2" saleid="1" />
+	<display id="3" saleid="4" />
+	<display id="4" saleid="4"/>
+	<display id="5" saleid="20"/>
+</tempcard>
+		
+<!--
+终生卡数据配置。
+-->	
+<lifecard discountbeginday="8" discountkeeptday="8" normalsaleid="3" discountsaleid="2">
+	<level lev="1" daycoin="25000" />
+	<level lev="2" daycoin="51000" />
+	<level lev="3" daycoin="78000" />
+	<level lev="4" daycoin="106000" />
+	<level lev="5" daycoin="135000" />
+</lifecard>
+	
+<!--
+买终生卡送月卡，条件是终生卡等级没满级，且在订单有效期内
+-->	
+<buylifecardgettempcard beginday="1" keeptday="7" saleid="6" />
+		
+ </root>
+ 

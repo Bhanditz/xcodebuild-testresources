@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <PictureMirror id="m_Background" x="0" y="-10" z="0" width="1136" height="640" window_state="6"/>
+    <ScrollContainer id="m_ScrollContainer" x="0" y="0" z="0" width="1136" height="640" window_state="262158">
+        <Picture id="m_Picture_bg" x="63" y="45" z="0" width="953" height="639" window_state="6">
+            <action_id value="animation_slot007_intro04"/>
+            <piece_info value="slots_007_panel_008"/>
+        </Picture>
+        <Picture id="m_Piclight" x="341" y="192" z="0" width="454" height="256" window_state="6">
+            <scale x="2.5" y="2.5" z="2.5"/>
+            <piece_info value="intro_02"/>
+        </Picture>
+        <Picture id="m_Piclight1" x="341" y="192" z="0" width="454" height="256" window_state="6">
+            <scale x="2.5" y="2.5" z="2.5"/>
+            <blend_mode value="2"/>
+            <piece_info value="intro_03"/>
+        </Picture>
+        <Picture id="m_Piclight2" x="637" y="-7" z="0" width="323" height="392" window_state="6">
+            <scale x="2.5" y="2.5" z="2.5"/>
+            <rotation x="0" y="0" z="0.62831849"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.15000001" z="0"/>
+            <action_id value="animation_slot007_intro01"/>
+            <piece_info value="intro_01"/>
+        </Picture>
+        <Picture id="m_Picture1" x="-208" y="-87" z="0" width="795" height="780" window_state="6">
+            <scale x="1.04" y="1.04" z="1.04"/>
+            <action_id value="animation_slot007_intro02"/>
+            <piece_info value="slots_007_panel_010"/>
+            <Picture id="m_Picture2" x="54" y="557" z="0" width="202" height="117" window_state="6">
+                <piece_info value="slots_007_panel_011"/>
+            </Picture>
+            <Sprite id="m_Sprite" x="189" y="-209" z="0" width="200" height="600" window_state="6">
+                <scale x="1" y="1.0599999" z="1"/>
+                <rotation x="0" y="0" z="0.40142572"/>
+                <sprite_file value="slots_007/sprites/spotlight.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="238" y="-140" z="0" width="200" height="600" window_state="6">
+                <scale x="1.09" y="1.09" z="1.09"/>
+                <rotation x="0" y="0" z="0.34906581"/>
+                <sprite_file value="slots_007/sprites/spotlight.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite5" x="333" y="-219" z="0" width="200" height="600" window_state="6">
+                <scale x="0.72000003" y="0.72000003" z="0.72000003"/>
+                <rotation x="0" y="0" z="0.19198619"/>
+                <sprite_file value="slots_007/sprites/spotlight.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite2" x="288" y="100" z="0" width="200" height="600" window_state="6">
+                <scale x="1.09" y="1.09" z="1.09"/>
+                <rotation x="0" y="0" z="0.47123882"/>
+                <sprite_file value="slots_007/sprites/spotlight.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Picture id="m_flower8" x="222" y="564" z="0" width="133" height="76" window_state="262">
+                <piece_info value="slots_007_panel_035"/>
+            </Picture>
+            <Picture id="m_flower2" x="236" y="536" z="0" width="31" height="39" window_state="262">
+                <anchor_point x="0.25" y="0.86000001" z="0"/>
+                <piece_info value="slots_007_panel_034"/>
+            </Picture>
+            <Picture id="m_flower4" x="297" y="571" z="0" width="74" height="42" window_state="262">
+                <anchor_point x="0.15000001" y="0.18000001" z="0"/>
+                <piece_info value="slots_007_panel_030"/>
+            </Picture>
+            <Picture id="m_flower9" x="288" y="606" z="0" width="60" height="33" window_state="262">
+                <anchor_point x="0.76999998" y="0.31999999" z="0"/>
+                <piece_info value="slots_007_panel_032"/>
+            </Picture>
+            <Picture id="m_flower3" x="187" y="569" z="0" width="101" height="70" window_state="262">
+                <anchor_point x="0.41" y="0.63" z="0"/>
+                <piece_info value="slots_007_panel_029"/>
+            </Picture>
+            <Picture id="m_flower1" x="216" y="571" z="0" width="27" height="29" window_state="262">
+                <anchor_point x="0.54000002" y="0.83999997" z="0"/>
+                <piece_info value="slots_007_panel_028"/>
+            </Picture>
+            <Picture id="m_flower5" x="317" y="591" z="0" width="41" height="31" window_state="262">
+                <piece_info value="slots_007_panel_031"/>
+            </Picture>
+            <Picture id="m_flower6" x="243" y="569" z="0" width="46" height="17" window_state="262">
+                <anchor_point x="0.82999998" y="0.5" z="0"/>
+                <piece_info value="slots_007_panel_033"/>
+            </Picture>
+            <Picture id="m_flower7" x="264" y="555" z="0" width="27" height="25" window_state="262">
+                <anchor_point x="0.75999999" y="0.67000002" z="0"/>
+                <piece_info value="slots_007_panel_036"/>
+            </Picture>
+            <Picture id="m_flower" x="257" y="570" z="0" width="65" height="46" window_state="262">
+                <piece_info value="slots_007_panel_027"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_Picture" x="352" y="-80" z="0" width="1075" height="780" window_state="262">
+            <action_id value="animation_slot007_intro03"/>
+            <piece_info value="slots_007_panel_009"/>
+            <Picture id="m_leaf1" x="503" y="56" z="0" width="166" height="98" window_state="262">
+                <piece_info value="slots_007_panel_022"/>
+            </Picture>
+            <Picture id="m_leaf" x="548" y="122" z="0" width="144" height="99" window_state="262">
+                <piece_info value="slots_007_panel_021"/>
+            </Picture>
+            <Picture id="m_leaf2" x="657" y="164" z="0" width="90" height="94" window_state="262">
+                <piece_info value="slots_007_panel_023"/>
+            </Picture>
+            <Picture id="m_leaf5" x="502" y="114" z="0" width="172" height="111" window_state="262">
+                <piece_info value="slots_007_panel_026"/>
+            </Picture>
+            <Picture id="m_leaf4" x="477" y="166" z="0" width="213" height="133" window_state="262">
+                <piece_info value="slots_007_panel_025"/>
+            </Picture>
+            <Picture id="m_leaf3" x="517" y="122" z="0" width="116" height="85" window_state="262">
+                <piece_info value="slots_007_panel_024"/>
+            </Picture>
+            <Sprite id="m_Sprite4" x="595" y="-152" z="0" width="200" height="600" window_state="6">
+                <scale x="0.99000001" y="0.99000001" z="0.99000001"/>
+                <rotation x="0" y="0" z="0.10471969"/>
+                <sprite_file value="slots_007/sprites/spotlight01.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite3" x="527" y="-147" z="0" width="200" height="600" window_state="6">
+                <scale x="0.98000002" y="0.98000002" z="0.98000002"/>
+                <rotation x="0" y="0" z="0.33161253"/>
+                <sprite_file value="slots_007/sprites/spotlight.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite2" x="444" y="-159" z="0" width="200" height="600" window_state="6">
+                <scale x="1.01" y="1.01" z="1.01"/>
+                <rotation x="0" y="0" z="0.50614542"/>
+                <sprite_file value="slots_007/sprites/spotlight.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="655" y="128" z="0" width="200" height="600" window_state="6">
+                <scale x="0.99000001" y="0.99000001" z="0.99000001"/>
+                <rotation x="0" y="0" z="0.38397238"/>
+                <sprite_file value="slots_007/sprites/spotlight01.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+        </Picture>
+        <Particle id="m_Particle" x="558" y="310" z="0" width="20" height="20" window_state="6">
+            <particle_state value="0"/>
+            <package_file value="slots_007/particles/cat.ptc"/>
+            <particle_name value="intro dust"/>
+        </Particle>
+        <Picture id="m_logo" x="420" y="271" z="0" width="296" height="98" window_state="6">
+            <piece_info value="slots_007_icon_008"/>
+            <PictureMask id="m_PictureMask" x="0" y="0" z="0" width="296" height="98" window_state="6">
+                <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_mask"/>
+                <mask_piece value="logo_light"/>
+                <mask_offset x="-0.14" y="0" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="0" y="0" z="0" width="296" height="98" window_state="6">
+                <blend_mode value="2"/>
+                <piece_info value="logo_mask01"/>
+                <mask_piece value="logo_light"/>
+                <mask_offset x="-0.0099999998" y="0" z="0"/>
+            </PictureMask>
+            <Picture id="m_Picstar" x="-5" y="19" z="0" width="54" height="54" window_state="6">
+                <scale x="0.63999999" y="0.63999999" z="0.63999999"/>
+                <rotation x="0" y="0" z="0.48869219"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_star"/>
+            </Picture>
+            <Picture id="m_Picstar1" x="89" y="-10" z="0" width="54" height="54" window_state="6">
+                <scale x="0.62" y="0.62" z="0.62"/>
+                <rotation x="0" y="0" z="-0.78539819"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_star"/>
+            </Picture>
+            <Picture id="m_Picstar2" x="146" y="-1" z="0" width="54" height="54" window_state="6">
+                <scale x="0.68000001" y="0.68000001" z="0.68000001"/>
+                <rotation x="0" y="0" z="0.54105204"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_star"/>
+            </Picture>
+            <Picture id="m_Picstar3" x="239" y="-11" z="0" width="54" height="54" window_state="6">
+                <scale x="0.52999997" y="0.52999997" z="0.52999997"/>
+                <rotation x="0" y="0" z="0.73303831"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_star"/>
+            </Picture>
+            <Picture id="m_Picstar4" x="53" y="51" z="0" width="54" height="54" window_state="6">
+                <scale x="0.5" y="0.5" z="0.5"/>
+                <rotation x="0" y="0" z="1.0471976"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_star"/>
+            </Picture>
+            <Picture id="m_Picstar5" x="173" y="40" z="0" width="54" height="54" window_state="6">
+                <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                <rotation x="0" y="0" z="0.59341192"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_star"/>
+            </Picture>
+            <Picture id="m_Picstar6" x="257" y="31" z="0" width="54" height="54" window_state="6">
+                <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                <rotation x="0" y="0" z="1.3613569"/>
+                <blend_mode value="2"/>
+                <piece_info value="logo_star"/>
+            </Picture>
+        </Picture>
+    </ScrollContainer>
+    <Particle id="m_Particle" x="122" y="17" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="2"/>
+        <package_file value="slots_007/particles/cat.ptc"/>
+        <particle_name value="defoliation"/>
+    </Particle>
+    <Particle id="m_Particle1" x="999" y="17" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="2"/>
+        <package_file value="slots_007/particles/cat.ptc"/>
+        <particle_name value="defoliation2"/>
+    </Particle>
+    <SkinMesh id="m_SkinMesh" x="-57" y="-269" z="0" width="1261" height="911" window_state="2052">
+        <action_id value="animation_slot007_catreel@opening0"/>
+        <mesh_file value="slots_007/model/cat.model"/>
+        <mesh_position x="0" y="76" z="0"/>
+        <mesh_scale x="303" y="303" z="303"/>
+        <sky_brightness value="1.25"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element/>
+            <element/>
+        </lights>
+    </SkinMesh>
+    <SpineSprite id="m_tanchuang_xiaobai" x="519" y="448" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+        <scale x="0.57429999" y="0.57599998" z="0.57599998"/>
+        <action_id value="animation_slot007_xiaobaimao_tanchuang@Animation1"/>
+        <spine_file value="slots_007/spine_sprites/xiaobaimao_tanchuang.json"/>
+        <auto_anim_name value="Animation1"/>
+    </SpineSprite>
+    <Particle id="m_Particle2" x="557" y="9" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="0"/>
+        <package_file value="slots_007/particles/cat.ptc"/>
+        <particle_name value="defoliation3"/>
+    </Particle>
+    <Picture id="m_Picture2" x="997" y="473" z="0" width="139" height="167" window_state="6">
+        <piece_info value="slots_007_panel_007"/>
+    </Picture>
+    <Panel id="m_Collect" x="-9" y="38" z="0" width="164" height="507" window_state="4">
+        <Panel id="m_Group1" x="2" y="4" z="0" width="165" height="143" window_state="6">
+            <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_002"/>
+            </Picture>
+            <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_001"/>
+            </Picture>
+            <Picture id="m_Picture2" x="37" y="6" z="0" width="96" height="96" window_state="6">
+                <piece_info value="slots_007_icon_003"/>
+            </Picture>
+            <Picture id="m_Dangao1" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao2" x="61" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao3" x="90" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_DangaoTemp" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Sprite id="m_SpriteTemp" x="-10" y="50" z="0" width="120" height="120" window_state="4">
+                <sprite_file value="slots_007/sprites/cake01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-24" y="-35" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/icon_003.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite" x="-17" y="-33" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/smallicon_change.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Group2" x="2" y="123" z="0" width="165" height="143" window_state="6">
+            <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_002"/>
+            </Picture>
+            <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_001"/>
+            </Picture>
+            <Picture id="m_Picture2" x="33" y="3" z="0" width="101" height="96" window_state="6">
+                <piece_info value="slots_007_icon_004"/>
+            </Picture>
+            <Picture id="m_Dangao1" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao2" x="61" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao3" x="89" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_DangaoTemp" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Sprite id="m_SpriteTemp" x="-10" y="50" z="0" width="120" height="120" window_state="4">
+                <sprite_file value="slots_007/sprites/cake01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-24" y="-35" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/icon_004.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite" x="-19" y="-38" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/smallicon_change.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Group3" x="2" y="241" z="0" width="165" height="143" window_state="6">
+            <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_002"/>
+            </Picture>
+            <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_001"/>
+            </Picture>
+            <Picture id="m_Picture2" x="44" y="10" z="0" width="72" height="88" window_state="6">
+                <piece_info value="slots_007_icon_005"/>
+            </Picture>
+            <Picture id="m_Dangao1" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao2" x="61" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao3" x="88" y="92" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_DangaoTemp" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Sprite id="m_SpriteTemp" x="-10" y="50" z="0" width="120" height="120" window_state="4">
+                <sprite_file value="slots_007/sprites/cake01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-24" y="-35" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/icon_005.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite" x="-18" y="-33" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/smallicon_change.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Group4" x="2" y="360" z="0" width="165" height="143" window_state="6">
+            <Picture id="m_Picture1" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_002"/>
+            </Picture>
+            <Picture id="m_Picture" x="22" y="3" z="0" width="121" height="127" window_state="6">
+                <piece_info value="slots_007_icon_001"/>
+            </Picture>
+            <Picture id="m_Picture2" x="30" y="7" z="0" width="97" height="89" window_state="6">
+                <piece_info value="slots_007_icon_006"/>
+            </Picture>
+            <Picture id="m_Dangao1" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao2" x="61" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_Dangao3" x="89" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Picture id="m_DangaoTemp" x="33" y="93" z="0" width="35" height="35" window_state="4">
+                <piece_info value="slots_007_icon_007"/>
+            </Picture>
+            <Sprite id="m_SpriteTemp" x="-10" y="50" z="0" width="120" height="120" window_state="4">
+                <sprite_file value="slots_007/sprites/cake01.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-24" y="-36" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/icon_006.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite" x="-19" y="-34" z="0" width="200" height="200" window_state="4">
+                <sprite_file value="slots_007/sprites/smallicon_change.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+    </Panel>
+    <SpineSprite id="m_chengmao" x="986" y="444" z="0" width="100" height="100" window_state="14" style="ngs_panel_bg">
+        <scale x="0.44" y="0.44" z="0.44"/>
+        <spine_file value="slots_007/spine_sprites/chengmao.json"/>
+        <auto_anim_name value="revert"/>
+    </SpineSprite>
+    <Panel id="m_LayerSpineBack" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+        <Panel id="m_zhuanchang" x="340" y="57" z="0" width="580" height="490" window_state="6">
+            <scale x="1.7" y="1.7" z="1.7"/>
+            <SpineSprite id="m_lanmao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <action_id value="animation_slot007_lanmao1@zhuanchang2"/>
+                <spine_file value="slots_007/spine_sprites/lanmao1.json"/>
+                <auto_anim_name value="zhuanchang3"/>
+            </SpineSprite>
+            <SpineSprite id="m_huangmao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <action_id value="animation_slot007_lanmao1@zhuanchang2"/>
+                <spine_file value="slots_007/spine_sprites/huangmao1.json"/>
+                <auto_anim_name value="zhuanchang3"/>
+            </SpineSprite>
+            <SpineSprite id="m_baimao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <action_id value="animation_slot007_lanmao1@zhuanchang2"/>
+                <spine_file value="slots_007/spine_sprites/baimao1.json"/>
+                <auto_anim_name value="zhuanchang3"/>
+            </SpineSprite>
+            <SpineSprite id="m_chengmao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <action_id value="animation_slot007_lanmao1@zhuanchang2"/>
+                <spine_file value="slots_007/spine_sprites/chengmao1.json"/>
+                <auto_anim_name value="zhuanchang3"/>
+            </SpineSprite>
+        </Panel>
+    </Panel>
+    <Panel id="m_ReelFrame" x="1" y="0" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_NormalSpin" x="175" y="80" z="0" width="796" height="407" window_state="6">
+            <Picture id="m_Bg" x="-8" y="-11" z="0" width="813" height="430" window_state="6" style="cs_White"/>
+            <PictureMirror id="m_Frame" x="-33" y="-67" z="0" width="862" height="515" window_state="6">
+                <piece_info value="slots_007_panel_003"/>
+            </PictureMirror>
+            <Panel id="m_ReelsPanelClip" x="-2" y="2" z="0" width="800" height="405" window_state="393222">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="405" window_state="131086">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="405.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="135.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="150.000000"/>
+                    <dynamic_attr key="reel_windows" type="array" value="5" inner="string">
+                        <item>m_Reel0</item>
+                        <item>m_Reel1</item>
+                        <item>m_Reel2</item>
+                        <item>m_Reel3</item>
+                        <item>m_Reel4</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="750.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                    <Panel id="m_Reel0" x="5" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel1" x="165" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel2" x="325" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel3" x="485" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel4" x="646" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_ReelMask" x="-2" y="2" z="0" width="800" height="405" window_state="14">
+                <Panel id="m_ReelMask0" x="0" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask1" x="159" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask2" x="318" y="0" z="0" width="159" height="409" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask3" x="477" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask4" x="636" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_PayLinesPanel" x="0" y="2" z="0" width="798" height="409" window_state="14">
+                <window_layout_align_h value="0"/>
+            </Panel>
+            <Picture id="m_logo" x="250" y="-75" z="0" width="296" height="98" window_state="6">
+                <piece_info value="slots_007_icon_008"/>
+            </Picture>
+            <Panel id="m_ReelsPanelClipEffect" x="-2" y="2" z="0" width="800" height="405" window_state="131078">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="405" window_state="131086">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="405.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="135.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="150.000000"/>
+                    <dynamic_attr key="reel_windows" type="array" value="5" inner="string">
+                        <item>m_Reel0</item>
+                        <item>m_Reel1</item>
+                        <item>m_Reel2</item>
+                        <item>m_Reel3</item>
+                        <item>m_Reel4</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="750.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                    <Panel id="m_Reel0" x="5" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel1" x="165" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel2" x="325" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel3" x="485" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel4" x="646" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_ReelsPanelClipSticky" x="-2" y="2" z="0" width="800" height="405" window_state="131078">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="405" window_state="131086">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="405.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="135.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="150.000000"/>
+                    <dynamic_attr key="reel_windows" type="array" value="5" inner="string">
+                        <item>m_Reel0</item>
+                        <item>m_Reel1</item>
+                        <item>m_Reel2</item>
+                        <item>m_Reel3</item>
+                        <item>m_Reel4</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="750.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                    <Panel id="m_Reel0" x="5" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel1" x="165" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel2" x="325" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel3" x="485" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel4" x="646" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                </Panel>
+            </Panel>
+            <Picture id="m_Picture_40" x="807" y="138" z="0" width="63" height="86" window_state="6">
+                <piece_info value="slots_007_panel_020"/>
+            </Picture>
+            <Picture id="m_Picture_star1" x="-17" y="-18" z="0" width="39" height="35" window_state="262">
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+            <Picture id="m_Picture_star2" x="774" y="390" z="0" width="39" height="35" window_state="262">
+                <rotation x="3.1415927" y="3.1415927" z="0"/>
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+            <Picture id="m_Picture_star3" x="-17" y="390" z="0" width="39" height="35" window_state="262">
+                <rotation x="3.1415927" y="0" z="0"/>
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+            <Picture id="m_Picture_star4" x="774" y="-18" z="0" width="39" height="35" window_state="262">
+                <rotation x="0" y="3.1415927" z="0"/>
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_FreeSpin" x="175" y="80" z="0" width="796" height="407" window_state="4">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <Picture id="m_Bg_fs" x="-28" y="-20" z="0" width="850" height="450" window_state="6" style="ngs_slots_007_panel_004"/>
+            <PictureMirror id="m_Frame" x="-33" y="-67" z="0" width="862" height="515" window_state="6">
+                <piece_info value="slots_007_panel_003"/>
+            </PictureMirror>
+            <Panel id="m_ReelsPanelClip" x="-2" y="2" z="0" width="800" height="405" window_state="393222">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="405" window_state="131086">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="405.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="135.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="150.000000"/>
+                    <dynamic_attr key="reel_windows" type="array" value="5" inner="string">
+                        <item>m_Reel0</item>
+                        <item>m_Reel1</item>
+                        <item>m_Reel2</item>
+                        <item>m_Reel3</item>
+                        <item>m_Reel4</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="750.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                    <Panel id="m_Reel0" x="5" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel1" x="165" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel2" x="325" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel3" x="485" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel4" x="646" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_ReelMask" x="-2" y="2" z="0" width="800" height="405" window_state="14">
+                <Panel id="m_ReelMask0" x="0" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask1" x="159" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask2" x="318" y="0" z="0" width="159" height="409" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask3" x="477" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+                <Panel id="m_ReelMask4" x="636" y="0" z="0" width="159" height="406" window_state="6" style="cs_black">
+                    <color_scale x="1" y="1" z="1" w="0"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_PayLinesPanel" x="0" y="2" z="0" width="798" height="409" window_state="14">
+                <window_layout_align_h value="0"/>
+            </Panel>
+            <Panel id="m_FxLayer" x="-165" y="-80" z="0" width="1136" height="640" window_state="6"/>
+            <Picture id="m_logo" x="250" y="-75" z="0" width="296" height="98" window_state="6">
+                <piece_info value="slots_007_icon_008"/>
+            </Picture>
+            <Panel id="m_ReelsPanelClipEffect" x="-2" y="2" z="0" width="800" height="405" window_state="131078">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="405" window_state="131086">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="405.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="135.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="150.000000"/>
+                    <dynamic_attr key="reel_windows" type="array" value="5" inner="string">
+                        <item>m_Reel0</item>
+                        <item>m_Reel1</item>
+                        <item>m_Reel2</item>
+                        <item>m_Reel3</item>
+                        <item>m_Reel4</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="750.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                    <Panel id="m_Reel0" x="5" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel1" x="165" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel2" x="325" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel3" x="485" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel4" x="646" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_ReelsPanelClipSticky" x="-2" y="2" z="0" width="800" height="405" window_state="131078">
+                <after_render_depth value="2"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="800" height="405" window_state="131086">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="405.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="135.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="150.000000"/>
+                    <dynamic_attr key="reel_windows" type="array" value="5" inner="string">
+                        <item>m_Reel0</item>
+                        <item>m_Reel1</item>
+                        <item>m_Reel2</item>
+                        <item>m_Reel3</item>
+                        <item>m_Reel4</item>
+                    </dynamic_attr>
+                    <dynamic_attr key="w" type="float" value="750.000000"/>
+                    <dynamic_attr key="x0" type="float" value="0.000000"/>
+                    <dynamic_attr key="y0" type="float" value="0.000000"/>
+                    <Panel id="m_Reel0" x="5" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel1" x="165" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel2" x="325" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel3" x="485" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                    <Panel id="m_Reel4" x="646" y="0" z="0" width="150" height="405" window_state="1048582"/>
+                </Panel>
+                <Picture id="m_Picture" x="807" y="136" z="0" width="67" height="86" window_state="4">
+                    <piece_info value="slots_007_panel_020"/>
+                </Picture>
+            </Panel>
+            <Picture id="m_Picture_star5" x="-17" y="-18" z="0" width="39" height="35" window_state="262">
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+            <Picture id="m_Picture_star6" x="774" y="-18" z="0" width="39" height="35" window_state="262">
+                <rotation x="0" y="3.1415927" z="0"/>
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+            <Picture id="m_Picture_star7" x="774" y="390" z="0" width="39" height="35" window_state="262">
+                <rotation x="3.1415927" y="3.1415927" z="0"/>
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+            <Picture id="m_Picture_star8" x="-17" y="390" z="0" width="39" height="35" window_state="262">
+                <rotation x="3.1415927" y="0" z="0"/>
+                <piece_info value="slots_007_panel_003a"/>
+            </Picture>
+        </Panel>
+    </Panel>
+    <Picture id="m_logo" x="425" y="5" z="0" width="296" height="98" window_state="4">
+        <piece_info value="slots_007_icon_008"/>
+    </Picture>
+    <Panel id="m_IconAnimationPanel" x="173" y="82" z="0" width="802" height="406" window_state="14">
+        <window_layout_align_h value="0"/>
+    </Panel>
+    <PictureMirror id="m_Foreground" x="0" y="0" z="0" width="1136" height="640" window_state="14"/>
+    <PictureMirror id="m_Effectground" x="0" y="0" z="0" width="1136" height="640" window_state="14"/>
+    <SpineSprite id="m_xiaobaimao" x="509" y="460" z="0" width="100" height="100" window_state="12" style="ngs_panel_bg">
+        <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+        <spine_file value="slots_007/spine_sprites/xiaobaimao.json"/>
+        <auto_anim_name value="Animation2"/>
+    </SpineSprite>
+    <Panel id="m_ControllerPanel" x="2" y="533" z="0" width="1140" height="115" window_state="6">
+        <Panel id="m_NormalSpinControlBar" x="1" y="3" z="0" width="1140" height="115" window_state="4">
+            <Picture id="m_bottombacking" x="-2" y="-37" z="0" width="1136" height="145" window_state="6">
+                <piece_info value="slots_007_panel_002"/>
+            </Picture>
+            <RichLabel id="m_Lbl" x="508" y="14" z="0" width="102" height="28" window_state="14">
+                <text value="WIN
+"/>
+                <font_size value="26"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.34999999"/>
+                <outline_center value="0.47"/>
+                <word_spacing value="2"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button implement_class="SwitchButton" id="m_BtnStop" x="917" y="2" z="0" width="217" height="105" window_state="6">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="216" height="110" window_state="14" style="bs_slots_007_button_001">
+                    <RichLabel id="m_RichLabel" x="62" y="60" z="0" width="96" height="30" window_state="4">
+                        <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="59" y="9" z="0" width="96" height="96" window_state="14">
+                        <piece_info value="slots_007_panel_037"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="216" height="110" window_state="14" style="bs_slots_007_button_017">
+                    <RichLabel id="m_RichLabel" x="59" y="61" z="0" width="96" height="30" window_state="4">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="59" y="9" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_007_panel_037"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnAutoSpin" x="917" y="2" z="0" width="217" height="105" window_state="4">
+                <font_size value="26"/>
+                <text_color value="cs_LightPurple"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <outline_color value="cs_LightPurple"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="216" height="110" window_state="14" style="bs_slots_007_button_001">
+                    <RichLabel id="m_RichLabel" x="64" y="21" z="0" width="96" height="30" window_state="6">
+                        <text value="500"/>
+                        <font_size value="34"/>
+                        <text_color value="cs_lightgreen2"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0"/>
+                        <glyph_center value="0.34999999"/>
+                        <outline_center value="0.46000001"/>
+                        <word_spacing value="2.5"/>
+                        <outline_color value="cs_yellowTxt05"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="62" y="18" z="0" width="96" height="96" window_state="6">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_007_panel_037"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="216" height="110" window_state="14" style="bs_slots_007_button_017">
+                    <RichLabel id="m_RichLabel" x="64" y="23" z="0" width="96" height="30" window_state="6">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="500"/>
+                        <font_size value="34"/>
+                        <text_color value="cs_lightgreen2"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0"/>
+                        <glyph_center value="0.34999999"/>
+                        <outline_center value="0.46000001"/>
+                        <word_spacing value="2.5"/>
+                        <outline_color value="cs_yellowTxt05"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="62" y="19" z="0" width="96" height="96" window_state="6">
+                        <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                        <piece_info value="slots_007_panel_037"/>
+                    </Picture>
+                </Panel>
+                <RichLabel id="m_LblAutoSpin" x="18" y="2" z="0" width="180" height="55" window_state="4">
+                    <text value="500"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_blue"/>
+                    <smooth value="0.050000001"/>
+                    <outline_center value="0.43000001"/>
+                    <word_spacing value="6"/>
+                    <outline_color value="null"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnSpin" x="917" y="2" z="0" width="217" height="105" window_state="4">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="216" height="110" window_state="14" style="bs_slots_007_button_001">
+                    <RichLabel id="m_RichLabel" x="62" y="60" z="0" width="96" height="30" window_state="6">
+                        <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="62" y="-2" z="0" width="96" height="96" window_state="6">
+                        <piece_info value="slots_007_panel_038"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="216" height="110" window_state="14" style="bs_slots_007_button_017">
+                    <RichLabel id="m_RichLabel" x="59" y="61" z="0" width="96" height="30" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="59" y="0" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_007_panel_038"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <Button implement_class="Button" id="m_BtnInfo" x="-7" y="13" z="0" width="174" height="98" window_state="6" style="bs_slots_007_button_004">
+                <line_height value="30"/>
+                <RichLabel id="m_max" x="37" y="34" z="0" width="102" height="28" window_state="14">
+                    <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_PAYTABLE"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.36000001"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_redTxt02"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblBetEachLine" x="29" y="21" z="0" width="96" height="30" window_state="12">
+                    <text value="$ 100"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_color_style1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Lbl" x="26" y="1" z="0" width="102" height="28" window_state="12">
+                    <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_TOTALBET"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_color_style1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblTotalBet" x="55" y="46" z="0" width="96" height="30" window_state="12">
+                    <text value="$ 100"/>
+                    <font_size value="32"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <ToggleButton id="m_BtnFastSpin" x="816" y="29" z="0" width="63" height="75" window_state="6">
+                <font_size value="25"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <line_height value="20"/>
+                <checked value="1"/>
+                <Picture id="m_Picture" x="7" y="10" z="0" width="53" height="37" window_state="14"/>
+            </ToggleButton>
+            <Picture id="m_Picture3" x="331" y="34" z="0" width="346" height="68" window_state="14"/>
+            <RichLabel id="m_LblWinNum" x="443" y="52" z="0" width="230" height="31" window_state="6">
+                <text value="999"/>
+                <font_size value="40"/>
+                <text_color value="cs_White"/>
+                <text_style value="32"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button implement_class="Button" id="m_BtnBet" x="155" y="13" z="0" width="217" height="97" window_state="6" style="bs_slots_007_button_005">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <RichLabel id="m_max" x="60" y="22" z="0" width="102" height="28" window_state="14">
+                    <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_TOTALBET"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.36000001"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_redTxt02"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblBetEachLine" x="29" y="21" z="0" width="96" height="30" window_state="12">
+                    <text value="$ 100"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_color_style1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Lbl" x="26" y="1" z="0" width="102" height="28" window_state="12">
+                    <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_TOTALBET"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_color_style1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblTotalBet" x="58" y="46" z="0" width="96" height="30" window_state="14">
+                    <text value="100"/>
+                    <font_size value="32"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="32"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.46000001"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <RichLabel id="m_RichLabel2" x="456" y="35" z="0" width="96" height="30" window_state="4">
+                <text value="SLOTS_MEOWMONEY_BASEGAME_TEXT_WIN"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <glyph_center value="0.31999999"/>
+                <outline_center value="0.47"/>
+                <word_spacing value="2"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button implement_class="Button" id="m_BtnMaxBet" x="758" y="13" z="0" width="141" height="97" window_state="262" style="bs_slots_007_button_003">
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="4"/>
+                <line_height value="25"/>
+                <RichLabel id="m_LblBetEachLine1" x="19" y="35" z="0" width="102" height="28" window_state="14">
+                    <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_MAXBET"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.36000001"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_redTxt02"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Picture id="m_Picture" x="32" y="106" z="0" width="98" height="4" window_state="14">
+                <color_scale x="1.09" y="1.09" z="1.09" w="1"/>
+            </Picture>
+            <Picture id="m_Picture1" x="193" y="106" z="0" width="98" height="4" window_state="14">
+                <color_scale x="1.09" y="1.09" z="1.09" w="1"/>
+            </Picture>
+            <Picture id="m_Picture2" x="728" y="105" z="0" width="98" height="4" window_state="14">
+                <color_scale x="1.09" y="1.09" z="1.09" w="1"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_FreeSpinControlBar" x="1" y="3" z="0" width="1140" height="115" window_state="6">
+            <Picture id="m_bottombacking" x="-2" y="-40" z="0" width="1136" height="151" window_state="6">
+                <piece_info value="slots_007_panel_002"/>
+                <Picture id="m_Picture" x="-5" y="57" z="0" width="188" height="91" window_state="6">
+                    <piece_info value="slots_007_panel_001"/>
+                    <RichLabel id="m_max" x="46" y="13" z="0" width="102" height="28" window_state="14">
+                        <text value="SLOTS_MEOWMONEY_FREESPIN_TEXT_FREESPINS"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.36000001"/>
+                        <outline_center value="0.47"/>
+                        <word_spacing value="1"/>
+                        <outline_color value="cs_redTxt02"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture1" x="180" y="57" z="0" width="188" height="91" window_state="6">
+                    <piece_info value="slots_007_panel_000"/>
+                    <RichLabel id="m_max" x="46" y="13" z="0" width="102" height="28" window_state="14">
+                        <text value="SLOTS_MEOWMONEY_FREEGAME_TEXT_TOTALBET"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.36000001"/>
+                        <outline_center value="0.47"/>
+                        <word_spacing value="1"/>
+                        <outline_color value="cs_redTxt02"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Picture>
+            <RichLabel id="m_LblFreeSpinTotalBet" x="223" y="58" z="0" width="96" height="30" window_state="14">
+                <text value="100"/>
+                <font_size value="32"/>
+                <text_color value="cs_White"/>
+                <text_style value="32"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.37"/>
+                <outline_center value="0.46000001"/>
+                <word_spacing value="2"/>
+                <outline_color value="cs_line_color_09"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_PanelFreeSpinNum" x="18" y="63" z="0" width="135" height="32" window_state="6">
+                <Picture id="m_FreeSpinBackEffect" x="65" y="1" z="0" width="46" height="30" window_state="12"/>
+                <RichLabel id="m_LblCurSpinNum" x="9" y="-5" z="0" width="116" height="30" window_state="14">
+                    <text value="99"/>
+                    <font_size value="32"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="32"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.37"/>
+                    <outline_center value="0.46000001"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblTotalSpinNum" x="111" y="3" z="0" width="31" height="26" window_state="4">
+                    <text value="999"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.38999999"/>
+                    <outline_center value="0.47999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <RichLabel id="m_LblFreeSpinWinNum" x="455" y="13" z="0" width="212" height="28" window_state="6">
+                <text value="SLOTS_MEOWMONEY_FREEGAME_TEXT_TOTALWIN"/>
+                <font_size value="26"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.34999999"/>
+                <outline_center value="0.47"/>
+                <word_spacing value="2"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button implement_class="SwitchButton" id="m_BtnFreeSpin" x="917" y="2" z="0" width="217" height="105" window_state="6">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-3" z="0" width="216" height="110" window_state="14" style="bs_slots_007_button_001">
+                    <RichLabel id="m_RichLabel" x="62" y="60" z="0" width="96" height="30" window_state="4">
+                        <text value="SLOTS_MEOWMONEY_FREEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="59" y="9" z="0" width="96" height="96" window_state="14">
+                        <piece_info value="slots_007_panel_038"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-3" z="0" width="216" height="110" window_state="12" style="bs_slots_007_button_017">
+                    <RichLabel id="m_RichLabel" x="59" y="61" z="0" width="96" height="30" window_state="4">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="SLOTS_MEOWMONEY_FREEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="59" y="9" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_007_panel_038"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <RichLabel id="m_LblFreeSpinTotalWin" x="398" y="52" z="0" width="320" height="31" window_state="6">
+                <text value="999"/>
+                <font_size value="40"/>
+                <text_color value="cs_White"/>
+                <text_style value="32"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_FreeSpinLbl" x="9" y="45" z="0" width="146" height="30" window_state="4">
+                <text value="SLOTS_MEOWMONEY_FREEGAME_TEXT_FREESPINS"/>
+                <font_size value="26"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.34999999"/>
+                <outline_center value="0.47"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_TotalBetLbl" x="168" y="44" z="0" width="146" height="30" window_state="4">
+                <text value="SLOTS_MEOWMONEY_FREEGAME_TEXT_TOTALBET"/>
+                <font_size value="26"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.34999999"/>
+                <outline_center value="0.47"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button implement_class="Button" id="m_Max bet" x="758" y="13" z="0" width="141" height="97" window_state="38" style="bs_slots_007_button_003">
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="4"/>
+                <line_height value="25"/>
+                <RichLabel id="m_LblBetEachLine1" x="20" y="36" z="0" width="102" height="28" window_state="6">
+                    <text value="SLOTS_MEOWMONEY_FREEGAME_BUTTON_MAXBET"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.36000001"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_redTxt02"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Picture id="m_Picture2" x="728" y="105" z="0" width="98" height="4" window_state="6">
+                <color_scale x="1.09" y="1.09" z="1.09" w="1"/>
+            </Picture>
+            <Picture id="m_Picture5" x="192" y="105" z="0" width="98" height="4" window_state="6">
+                <color_scale x="1.09" y="1.09" z="1.09" w="1"/>
+            </Picture>
+            <Picture id="m_Picture6" x="28" y="105" z="0" width="98" height="4" window_state="6">
+                <color_scale x="1.09" y="1.09" z="1.09" w="1"/>
+            </Picture>
+        </Panel>
+    </Panel>
+    <Panel id="m_AutoSpinSelector" x="914" y="64" z="0" width="218" height="454" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_Picture" x="93" y="63" z="0" width="40" height="40" window_state="262">
+            <scale x="4.5999999" y="8.6899996" z="1"/>
+            <anchor_point x="0.5" y="0" z="0"/>
+            <piece_info value="slots_007_panel_039"/>
+        </Picture>
+        <Picture id="m_SpinChoicePanel" x="10" y="25" z="0" width="205" height="422" window_state="6" style="ngs_slots_007_panel_019">
+            <scale_mode value="3"/>
+        </Picture>
+        <ToggleButton id="m_BtnFastSpin" x="21" y="347" z="0" width="186" height="63" window_state="6">
+            <text value="SLOTS_MEOWMONEY_BASEGAME_BUTTON_FASTSPIN"/>
+            <font_size value="26"/>
+            <text_color value="cs_White"/>
+            <text_offset x="19" y="0" z="0"/>
+            <rich_label_state value="4"/>
+            <glyph_center value="0.47"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_color_style1"/>
+            <line_height value="20"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_007_button_010"/>
+            <unchecked_bg_style value="bs_slots_007_button_011"/>
+            <checked_text_color_style value="cs_White"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice0" x="19" y="292" z="0" width="186" height="60" window_state="262">
+            <text value="10"/>
+            <font_size value="37"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice1" x="19" y="234" z="0" width="186" height="60" window_state="262">
+            <text value="50"/>
+            <font_size value="37"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice2" x="19" y="176" z="0" width="186" height="60" window_state="262">
+            <text value="100"/>
+            <font_size value="37"/>
+            <text_color value="cs_White"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice3" x="19" y="119" z="0" width="186" height="60" window_state="262">
+            <text value="200"/>
+            <font_size value="37"/>
+            <text_color value="cs_White"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice4" x="19" y="62" z="0" width="186" height="60" window_state="262">
+            <text value="500"/>
+            <font_size value="37"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+    </Panel>
+    <Panel id="m_BetSelector" x="178" y="182" z="0" width="207" height="357" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_Picture" x="83" y="38" z="0" width="40" height="40" window_state="262">
+            <scale x="4.5999999" y="7.1999998" z="1"/>
+            <anchor_point x="0.5" y="0" z="0"/>
+            <piece_info value="slots_007_panel_039"/>
+        </Picture>
+        <Picture id="m_SpinChoicePanel" x="0" y="2" z="0" width="205" height="360" window_state="6" style="ngs_slots_007_panel_019">
+            <anchor_point x="0.5" y="1" z="0"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <List id="m_List" x="10" y="43" z="0" width="190" height="276" window_state="6">
+            <scroll_state value="6"/>
+            <content_size x="0" y="60" z="0"/>
+            <page_size x="1" y="100" z="1"/>
+            <ToggleButton id="m_SpinChoice0" x="0" y="0" z="0" width="186" height="60" window_state="262">
+                <text value="10"/>
+                <font_size value="37"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_offset x="0" y="2" z="0"/>
+                <smooth value="0.050000001"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+                <checked_bg_style value="bs_slots_007_button_006"/>
+                <unchecked_bg_style value="bs_slots_007_button_007"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_yellowTxt02"/>
+            </ToggleButton>
+        </List>
+    </Panel>
+    <Panel id="m_LineSelector" x="1" y="172" z="0" width="207" height="357" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_SpinChoicePanel" x="0" y="9" z="0" width="205" height="358" window_state="6" style="ngs_slots_007_panel_019">
+            <scale_mode value="3"/>
+        </Picture>
+        <ToggleButton id="m_SpinChoice0" x="10" y="268" z="0" width="186" height="63" window_state="6">
+            <text value="10"/>
+            <font_size value="37"/>
+            <text_color value="cs_White"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice1" x="10" y="212" z="0" width="186" height="63" window_state="6">
+            <text value="50"/>
+            <font_size value="37"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice2" x="10" y="155" z="0" width="186" height="63" window_state="6">
+            <text value="100"/>
+            <font_size value="37"/>
+            <text_color value="cs_White"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice3" x="10" y="99" z="0" width="186" height="63" window_state="6">
+            <text value="200"/>
+            <font_size value="37"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice4" x="10" y="43" z="0" width="186" height="63" window_state="6">
+            <text value="500"/>
+            <font_size value="37"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_offset x="0" y="2" z="0"/>
+            <smooth value="0.050000001"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_007_button_006"/>
+            <unchecked_bg_style value="bs_slots_007_button_007"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt02"/>
+        </ToggleButton>
+        <Button id="m_ButtonDown" x="61" y="328" z="0" width="86" height="42" window_state="6" style="bs_slots_007_button_015">
+            <scale x="1" y="0.89999998" z="1"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="21" y="12" z="0" width="42" height="24" window_state="14">
+                <scale x="1" y="1.1" z="1"/>
+                <rotation x="0" y="0" z="3.1415927"/>
+                <piece_info value="slots_007_button_016b"/>
+            </Picture>
+        </Button>
+        <Button id="m_ButtonUp" x="61" y="5" z="0" width="86" height="42" window_state="6" style="bs_slots_007_button_015">
+            <scale x="1" y="0.89999998" z="1"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="21" y="12" z="0" width="42" height="24" window_state="14">
+                <scale x="1" y="1.1" z="1"/>
+                <rotation x="0" y="0" z="3.1415927"/>
+                <piece_info value="slots_007_button_016"/>
+            </Picture>
+        </Button>
+    </Panel>
+    <Picture id="m_Picture1" x="0" y="554" z="0" width="12" height="25" window_state="4">
+        <rotation x="0" y="0" z="-3.1590459"/>
+    </Picture>
+    <SpineSprite id="m_huangmao" x="864" y="434" z="0" width="100" height="100" window_state="14" style="ngs_panel_bg">
+        <scale x="0.47999999" y="0.47999999" z="0.47999999"/>
+        <spine_file value="slots_007/spine_sprites/huangmao.json"/>
+        <auto_anim_name value="idle_02_01"/>
+    </SpineSprite>
+    <SpineSprite id="m_lanmao" x="1021" y="435" z="0" width="100" height="100" window_state="14" style="ngs_panel_bg">
+        <scale x="0.47" y="0.47" z="0.47"/>
+        <spine_file value="slots_007/spine_sprites/lanmao.json"/>
+        <auto_anim_name value="idle4"/>
+    </SpineSprite>
+    <SpineSprite id="m_mao2" x="990" y="434" z="0" width="100" height="100" window_state="14" style="ngs_panel_bg">
+        <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+        <spine_file value="slots_007/spine_sprites/mao2.json"/>
+        <auto_anim_name value="idle02_3"/>
+    </SpineSprite>
+    <Panel id="m_LayerSpineForward" x="0" y="2" z="0" width="1136" height="640" window_state="4">
+        <Panel id="m_PromptMask" x="0" y="-2" z="0" width="1136" height="640" window_state="6" style="cs_black">
+            <color_scale x="1" y="1" z="1" w="0.55000001"/>
+        </Panel>
+        <Panel id="m_zhuanchang" x="343" y="57" z="0" width="580" height="490" window_state="6">
+            <scale x="1.7" y="1.7" z="1.7"/>
+            <SpineSprite id="m_chengmao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <spine_file value="slots_007/spine_sprites/chengmao1.json"/>
+                <auto_anim_name value="idle"/>
+            </SpineSprite>
+            <SpineSprite id="m_baimao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <spine_file value="slots_007/spine_sprites/baimao1.json"/>
+                <auto_anim_name value="idle"/>
+            </SpineSprite>
+            <SpineSprite id="m_dangao1" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <spine_file value="slots_007/spine_sprites/dangao1.json"/>
+                <auto_anim_name value="zhuanchang"/>
+            </SpineSprite>
+            <SpineSprite id="m_lanmao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <spine_file value="slots_007/spine_sprites/lanmao1.json"/>
+                <auto_anim_name value="idle"/>
+            </SpineSprite>
+            <SpineSprite id="m_huangmao01" x="208" y="412" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <spine_file value="slots_007/spine_sprites/huangmao1.json"/>
+                <auto_anim_name value="idle"/>
+            </SpineSprite>
+        </Panel>
+        <SpineSprite id="m_tanchuang2" x="513" y="309" z="0" width="100" height="100" window_state="4" style="ngs_panel_bg">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="animation_slot007_skeleton_cat@idle"/>
+            <spine_file value="slots_007/spine_sprites/skeleton_cat.json"/>
+            <auto_anim_name value="animation"/>
+        </SpineSprite>
+        <SpineSprite id="m_tanchuang3" x="513" y="309" z="0" width="100" height="100" window_state="4" style="ngs_panel_bg">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="animation_slot007_skeleton_cat@animation"/>
+            <spine_file value="slots_007/spine_sprites/skeleton.json"/>
+            <auto_anim_name value="animation"/>
+        </SpineSprite>
+        <SpineSprite id="m_tanchuang1" x="513" y="309" z="0" width="100" height="100" window_state="4" style="ngs_panel_bg">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <action_id value="animation_slot007_skeleton1@idle"/>
+            <spine_file value="slots_007/spine_sprites/skeleton1.json"/>
+            <auto_anim_name value="idle"/>
+        </SpineSprite>
+        <Button id="m_BtnStart" x="441" y="445" z="0" width="243" height="123" window_state="4" style="bs_slots_007_button_018">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <font_size value="40"/>
+            <line_height value="30"/>
+        </Button>
+        <RichLabel id="m_TextOfAmount1" x="407" y="309" z="0" width="310" height="140" window_state="4">
+            <text value="15"/>
+            <font_size value="150"/>
+            <text_color value="cs_White"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.46000001"/>
+            <outline_color value="cs_pink2_style"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_TextOfAmount" x="502" y="286" z="0" width="112" height="140" window_state="4">
+            <text value="15"/>
+            <font_size value="150"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.46000001"/>
+            <outline_color value="cs_pink2_style"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_TextOfInfo" x="442" y="394" z="0" width="248" height="65" window_state="4">
+            <text value="SLOTS_MEOWMONEY_BASEGAME_TEXT_FREESPINS"/>
+            <font_size value="55"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.41"/>
+            <outline_center value="0.5"/>
+            <outline_color value="cs_pink2_style"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_InsertTrigger" x="1041" y="433" z="0" width="50" height="50" window_state="6" style="cs_black"/>
+    <Panel implement_class="LobbyPopupMenu" id="m_PanelMenu" x="812" y="-2" z="0" width="345" height="643" window_state="4">
+        <Picture id="m_PicBg" x="26" y="-1" z="0" width="298" height="643" window_state="6" style="ngs_casino_lobby_panel11"/>
+        <Picture id="m_PicMask" x="-137" y="-12" z="0" width="531" height="323" window_state="6">
+            <piece_info value="casino_common_panel30"/>
+        </Picture>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem0" x="62" y="102" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="12" z="0" width="176" height="55" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="14" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_SOUND"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <ToggleButton id="m_BtnToggle" x="73" y="1" z="0" width="102" height="51" window_state="14">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <line_height value="30"/>
+                    <checked value="1"/>
+                    <checked_bg_style value="bs_casino_common_btn024a"/>
+                    <unchecked_bg_style value="bs_casino_common_btn024"/>
+                </ToggleButton>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Sound" x="19" y="17" z="0" width="40" height="40" window_state="14">
+                    <piece_info value="casino_common_menu4"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem1" x="62" y="192" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_SLOTS"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Lobby" x="10" y="15" z="0" width="45" height="45" window_state="14">
+                    <piece_info value="casino_common_menu1"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem2" x="62" y="282" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_BUY"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Buy" x="17" y="19" z="0" width="41" height="38" window_state="14">
+                    <piece_info value="casino_common_menu5"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem3" x="62" y="372" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_FANPAGE"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Buy" x="22" y="20" z="0" width="36" height="36" window_state="14">
+                    <piece_info value="casino_common_menu7"/>
+                </Picture>
+            </Button>
+        </Button>
+    </Panel>
+</Panel>

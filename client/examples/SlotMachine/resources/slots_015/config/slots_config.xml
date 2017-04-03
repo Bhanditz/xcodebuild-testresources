@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="15" game="AsgardSails2">
+		<BonusGames>
+		</BonusGames>
+		<Icons>
+			<Icon id="1" pieceId="slots_015_icon_01"  bgPieceId="" sprite=""/>                    <!-- High Pay 1. Yellow beard man -->
+			<Icon id="2" pieceId="slots_015_icon_02"  bgPieceId="" sprite=""/>                    <!-- High Pay 2. Red beard man -->
+			<Icon id="3" pieceId="slots_015_icon_03"  bgPieceId="" sprite=""/>                    <!-- High Pay 3. Brown beard man -->
+			<Icon id="4" pieceId="slots_015_icon_04"  bgPieceId="" sprite=""/>                    <!-- Low Pay 1. Helmet -->
+			<Icon id="5" pieceId="slots_015_icon_05"  bgPieceId="" sprite=""/>                    <!-- Low Pay 2. Axe -->
+			<Icon id="6" pieceId="slots_015_icon_06"  bgPieceId="" sprite=""/>                    <!-- Low Pay 3. Dagger -->
+			<Icon id="7" pieceId="slots_015_icon_07"  bgPieceId="" sprite=""/>                    <!-- Low Pay 4. Bowl -->
+			<Icon id="8" pieceId="slots_015_icon_08"  bgPieceId="" sprite=""/>                    <!-- Low Pay 5. Jormungand, the Midgard Serpent -->
+			<Icon id="31" pieceId="slots_015_icon_31" bgPieceId="" sprite="" render_order="1"/>   <!-- Wild -->
+			<Icon id="41" pieceId="slots_015_icon_41" bgPieceId="" sprite="" render_order="2"/>   <!-- Scatter -->
+		</Icons>
+		<Reel>
+			<NearWinInfo name="basegame" ReelIds="4" />
+			<SpinType name="normal">
+				<BestSpinIconCount value="14"/>
+				<OneReelStartDelayTime value="0.08"/>
+				<OneReelStopDelayTime value="0.4"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.10"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.06"/>
+				<OneReelStopDelayTime value="0.3"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="0.9"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+                                    <SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xffffffff" showAllTime="2.0" sequenceTime="2.0">  
+			<!--Payline id="1" lineColor="0xffea00ff" />
+			<Payline id="2" lineColor="0xffea00ff" />
+			<Payline id="3" lineColor="0xffea00ff" />
+			<Payline id="4" lineColor="0xffea00ff" />
+			<Payline id="5" lineColor="0xffea00ff" />
+			<Payline id="6" lineColor="0xffea00ff" />
+			<Payline id="7" lineColor="0xffea00ff" />
+			<Payline id="8" lineColor="0xffea00ff" />
+			<Payline id="9" lineColor="0xffea00ff" />
+			<Payline id="10" lineColor="0xffea00ff" />
+			<Payline id="11" lineColor="0xffea00ff" />
+			<Payline id="12" lineColor="0xffea00ff" />
+			<Payline id="13" lineColor="0xffea00ff" />
+			<Payline id="14" lineColor="0xffea00ff" />
+			<Payline id="15" lineColor="0xffea00ff" />
+			<Payline id="16" lineColor="0xffea00ff" />
+			<Payline id="17" lineColor="0xffea00ff" />
+			<Payline id="18" lineColor="0xffea00ff" />
+			<Payline id="19" lineColor="0xffea00ff" />
+			<Payline id="20" lineColor="0xffea00ff" />
+			<Payline id="21" lineColor="0xffea00ff" />
+			<Payline id="22" lineColor="0xffea00ff" />
+			<Payline id="23" lineColor="0xffea00ff" />
+			<Payline id="24" lineColor="0xffea00ff" />
+			<Payline id="25" lineColor="0xffea00ff" />
+			<Payline id="26" lineColor="0xffea00ff" />
+			<Payline id="27" lineColor="0xffea00ff" />
+			<Payline id="28" lineColor="0xffea00ff" />
+			<Payline id="29" lineColor="0xffea00ff" />
+			<Payline id="30" lineColor="0xffea00ff" /-->
+		</Paylines>
+		
+		<Paytables winTextColor="cs_lightgreen" /> 
+		
+	</Theme>
+</SlotsConfig>

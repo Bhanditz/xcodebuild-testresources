@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="particles.png" width="256" height="256" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="particles_00000.png" x="123" y="2" w="115" h="99" oX="26" oY="10" oW="131" oH="131" r="y" dr="45"/>
+    <sprite n="particles_00001.png" x="123" y="103" w="111" h="105" oX="18" oY="11" oW="131" oH="131" r="y" dr="45"/>
+    <sprite n="particles_00002.png" x="2" y="2" w="119" h="121" oX="7" oY="7" oW="131" oH="131" dr="45"/>
+    <sprite n="particles_00003.png" x="2" y="125" w="119" h="121" oX="5" oY="9" oW="131" oH="131" r="y" dr="45"/>
+</TextureAtlas>

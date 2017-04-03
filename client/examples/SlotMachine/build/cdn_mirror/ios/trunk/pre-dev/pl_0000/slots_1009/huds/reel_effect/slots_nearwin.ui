@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="170" height="420" window_state="6" style="ngs_panel_bg">
+    <Particle id="m_Particle" x="0" y="1" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="nearwin"/>
+    </Particle>
+    <Particle id="m_Particle1" x="150" y="400" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="nearwin"/>
+    </Particle>
+</Panel>

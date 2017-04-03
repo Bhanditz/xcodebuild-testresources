@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ball_glow.png" width="256" height="256" scale_x="1.54" scale_y="1.54" blend="1" loop="-1">
+    <sprite n="a00000" x="2" y="98" w="94" h="151" oX="9" oY="2" oW="169" oH="96" r="y" dr="120"/>
+    <sprite n="a00001" x="155" y="2" w="94" h="151" oX="9" oY="2" oW="169" oH="96" r="y" dr="120"/>
+    <sprite n="a00002" x="2" y="2" w="151" h="94" oX="9" oY="2" oW="169" oH="96" dr="120"/>
+    <sprite n="a00003" x="98" y="155" w="149" h="94" oX="10" oY="2" oW="169" oH="96" dr="120"/>
+</TextureAtlas>

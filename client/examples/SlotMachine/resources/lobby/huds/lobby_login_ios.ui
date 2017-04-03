@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="casino_bg03"/>
+        <scale_mode value="3"/>
+        <Picture id="m_Picture" x="0" y="62" z="0" width="1024" height="515" window_state="6" style="cs_black">
+            <color_scale x="0.30000001" y="0.30000001" z="0.30000001" w="0.30000001"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_Picture1" x="0" y="0" z="0" width="1136" height="70" window_state="6" style="ngs_casino_common_panel01a">
+        <Picture id="m_Picture" x="359" y="8" z="0" width="417" height="67" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_common_panel12b"/>
+        </Picture>
+    </Picture>
+    <Panel id="m_PanelSwitchAccount" x="42" y="118" z="0" width="1080" height="410" window_state="4">
+        <Button id="m_BtnFB" x="299" y="61" z="0" width="453" height="98" window_state="6" style="ngs_casino_common_btn029">
+            <scale x="1.35" y="1.35" z="1.35"/>
+            <font_id value="MyraidPro"/>
+            <line_height value="30"/>
+            <RichLabel id="m_RichLabel" x="112" y="19" z="0" width="245" height="32" window_state="14">
+                <text value="PLATFORM_LOGIN_SWITCHFB_LOGINFB"/>
+                <font_size value="40"/>
+                <text_align_h value="1"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+                <RichLabel id="m_RichLabel" x="0" y="29" z="0" width="310" height="35" window_state="14">
+                    <text value="PLATFORM_LOGIN_SWITCHFB_MOREFRIEND"/>
+                    <font_size value="25"/>
+                    <text_align_h value="1"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </RichLabel>
+        </Button>
+        <Picture id="m_Picture2" x="43" y="221" z="0" width="388" height="2" window_state="6" style="ngs_casino_common_panel15">
+            <scale x="1" y="1.7" z="1"/>
+            <color_scale x="2" y="2" z="2" w="2"/>
+            <Picture id="m_Picture2" x="578" y="0" z="0" width="388" height="2" window_state="6" style="ngs_casino_common_panel15">
+                <rotation x="0" y="0" z="3.1415927"/>
+            </Picture>
+        </Picture>
+        <RichLabel id="m_RichLabel1" x="238" y="194" z="0" width="576" height="55" window_state="6">
+            <text value="PLATFORM_LOGIN_SWITCH_TEXT_OR"/>
+            <font_size value="55"/>
+            <text_color value="cs_White"/>
+            <text_style value="2"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_BtnGuest" x="305" y="272" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn014b">
+            <text value="PLATFORM_LOGIN_SWITCHFB_BUTTON_GUEST"/>
+            <font_size value="60"/>
+            <text_offset x="19" y="-5" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="86" y="27" z="0" width="29" height="31" window_state="6">
+                <piece_info value="casino_lobby_icon016a"/>
+            </Picture>
+        </Button>
+        <Button id="m_BtnGmail" x="566" y="272" z="0" width="442" height="94" window_state="4" style="ngs_casino_common_btn012">
+            <text value="PLATFORM_LOGIN_SWITCHFB_BUTTON_GOOGLE"/>
+            <font_size value="60"/>
+            <text_offset x="19" y="-5" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="70" y="27" z="0" width="33" height="32" window_state="6">
+                <piece_info value="casino_lobby_icon016"/>
+            </Picture>
+        </Button>
+        <RichLabel id="m_RichLabel" x="271" y="-113" z="0" width="508" height="65" window_state="6">
+            <text value="PLATFORM_LOGIN_SWITCHFB_TITLE_SWITCHACCOUNT"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_PanelBind" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_PicBG" x="-10" y="-10" z="0" width="1156" height="660" window_state="4"/>
+        <RichLabel id="m_LblTitle" x="314" y="11" z="0" width="508" height="50" window_state="6">
+            <text value="PLATFORM_LOGIN_SWITCHFB_TITLE_BINDACCOUNT"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_BtnBindFb" x="531" y="345" z="0" width="403" height="98" window_state="6" style="ngs_casino_common_btn029">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <font_id value="MyraidPro"/>
+            <line_height value="30"/>
+            <RichLabel id="m_RichLabel" x="117" y="28" z="0" width="255" height="42" window_state="14">
+                <text value="PLATFORM_LOGIN_BIND_BUTTON_FB"/>
+                <font_size value="40"/>
+                <text_align_h value="1"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <RichLabel id="m_RichLabel" x="14" y="191" z="0" width="1108" height="45" window_state="6">
+            <text value="PLATFORM_LOGIN_BIND_TEXT_UNPGRADEFBUNLOCK"/>
+            <font_size value="50"/>
+            <text_color value="cs_White"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="38"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel" x="14" y="240" z="0" width="1108" height="35" window_state="6">
+            <text value="PLATFORM_LOGIN_BIND_TEXT_NEVERPOST"/>
+            <font_size value="35"/>
+            <text_color value="cs_Sallow"/>
+            <text_style value="8"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_BtnBindGooglePlus" x="347" y="496" z="0" width="442" height="94" window_state="4" style="ngs_casino_common_btn012">
+            <text value="PLATFORM_LOGIN_BIND_BUTTON_GG"/>
+            <font_size value="55"/>
+            <text_offset x="28" y="-5" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="50" y="27" z="0" width="33" height="32" window_state="6">
+                <piece_info value="casino_lobby_icon016"/>
+            </Picture>
+        </Button>
+        <Button id="m_BtnTheme" x="183" y="299" z="0" width="250" height="190" window_state="262" style="bs_casino_lobby_slot_small1003">
+            <line_height value="30"/>
+            <Picture id="m_PicFrame0" x="-6" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+        </Button>
+        <Picture id="m_Picture1" x="85" y="445" z="0" width="388" height="2" window_state="4" style="ngs_casino_common_panel15">
+            <scale x="1" y="1.7" z="1"/>
+            <color_scale x="2" y="2" z="2" w="2"/>
+            <Picture id="m_Picture2" x="578" y="0" z="0" width="388" height="2" window_state="6" style="ngs_casino_common_panel15">
+                <rotation x="0" y="0" z="3.1415927"/>
+            </Picture>
+        </Picture>
+        <RichLabel id="m_RichLabel1" x="279" y="418" z="0" width="576" height="55" window_state="4">
+            <text value="PLATFORM_LOGIN_SWITCH_TEXT_OR"/>
+            <font_size value="55"/>
+            <text_color value="cs_White"/>
+            <text_style value="2"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_PanelUpgrade" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+        <RichLabel id="m_LblTitle" x="314" y="11" z="0" width="508" height="50" window_state="6">
+            <text value="PLATFORM_LOGIN_SWITCHFB_TITLE_UPGRADEACCOUNT"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel" x="351" y="590" z="0" width="433" height="30" window_state="6">
+            <text value="PLATFORM_LOGIN_BIND_TEXT_COPYRIGHT"/>
+            <text_color value="cs_Sallow"/>
+            <font_id value="DroidSansFallback"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel" x="14" y="110" z="0" width="1108" height="95" window_state="6">
+            <text value="PLATFORM_LOGIN_BIND_TEXT_LOGINTOUNLOCK"/>
+            <font_size value="50"/>
+            <text_color value="cs_White"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="42"/>
+        </RichLabel>
+        <Button id="m_BtnUpgrade" x="604" y="443" z="0" width="333" height="98" window_state="6" style="ngs_casino_common_btn029">
+            <scale x="1.15" y="1.15" z="1.15"/>
+            <font_id value="MyraidPro"/>
+            <line_height value="30"/>
+            <RichLabel id="m_RichLabel" x="109" y="16" z="0" width="215" height="62" window_state="14">
+                <text value="PLATFORM_LOGIN_BIND_BUTTON_LOGINFB"/>
+                <font_size value="45"/>
+                <text_align_h value="1"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <Button id="m_BtnExit" x="200" y="449" z="0" width="309" height="95" window_state="6" style="ngs_casino_common_btn014">
+            <text value="PLATFORM_LOGIN_BIND_BUTTON_EXIT"/>
+            <font_size value="60"/>
+            <text_color value="cs_white"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnTheme" x="443" y="222" z="0" width="250" height="190" window_state="262" style="bs_casino_lobby_slot_small1003">
+            <line_height value="30"/>
+            <Picture id="m_PicFrame0" x="-6" y="-6" z="0" width="263" height="203" window_state="14" style="ngs_selected_glow2"/>
+        </Button>
+    </Panel>
+    <Panel id="m_PanelUpgradeSuccess" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+        <RichLabel id="m_LblTitle" x="314" y="11" z="0" width="508" height="50" window_state="6">
+            <text value="PLATFORM_LOGIN_LOGINFBSUCCESS_TITLE_CONGRATE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblBindReward1" x="125" y="125" z="0" width="866" height="95" window_state="6">
+            <text value="PLATFORM_LOGIN_LOGINFBSUCCESS_TEXT_LOGINFBSUCCESS"/>
+            <font_size value="50"/>
+            <text_color value="cs_White"/>
+            <text_align_v value="1"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0"/>
+            <word_spacing value="1"/>
+            <line_height value="44"/>
+        </RichLabel>
+        <RichLabel id="m_LblBindReward" x="0" y="236" z="0" width="1136" height="55" window_state="4">
+            <text value="PD_ACCOUNT_BIND_SUCCESS_GIVE_REWARD"/>
+            <font_size value="60"/>
+            <text_color value="cs_White"/>
+            <text_align_v value="1"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0"/>
+            <word_spacing value="1"/>
+            <line_height value="50"/>
+        </RichLabel>
+        <Button id="m_BtnBindOk" x="347" y="435" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn012">
+            <text value="OK"/>
+            <font_size value="65"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <line_height value="30"/>
+        </Button>
+        <RichLabel id="m_RichLabel" x="406" y="590" z="0" width="323" height="30" window_state="6">
+            <text value="@IGG Inc. All Rights Reserved."/>
+            <text_color value="cs_Sallow"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_BtnTheme" x="443" y="225" z="0" width="250" height="190" window_state="262" style="bs_casino_lobby_slot_small1003">
+            <line_height value="30"/>
+            <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+        </Button>
+    </Panel>
+    <Panel id="m_BtnFeedback" x="926" y="556" z="0" width="205" height="81" window_state="6">
+        <Button id="m_BtnFeedback" x="-6" y="2" z="0" width="210" height="83" window_state="6" style="ngs_casino_common_btn05">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <font_size value="25"/>
+            <text_align_h value="3"/>
+            <text_offset x="-82" y="-1" z="0"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="17"/>
+        </Button>
+        <Picture id="m_FeedbackIcon" x="142" y="24" z="0" width="47" height="38" window_state="14">
+            <piece_info value="casino_common_icon04"/>
+        </Picture>
+        <RichLabel id="m_GiveFeedback" x="12" y="35" z="0" width="112" height="18" window_state="14">
+            <text value="PLATFORM_LOGIN_COMMON_BUTTON_LS"/>
+            <font_size value="25"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="3"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="18"/>
+        </RichLabel>
+    </Panel>
+    <Button id="m_BtnClose" x="1033" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+</Panel>

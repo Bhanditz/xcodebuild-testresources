@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="electric.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="-1">
+    <sprite n="00000" x="2" y="2" w="292" h="50" oX="3" oW="300" oH="50" dr="90"/>
+    <sprite n="00001" x="2" y="54" w="48" h="292" oX="3" oY="1" oW="300" oH="50" r="y" dr="90"/>
+    <sprite n="00002" x="224" y="54" w="40" h="292" oX="3" oY="5" oW="300" oH="50" r="y" dr="90"/>
+    <sprite n="00003" x="182" y="54" w="40" h="292" oX="3" oY="5" oW="300" oH="50" r="y" dr="90"/>
+    <sprite n="00004" x="140" y="54" w="40" h="292" oX="3" oY="5" oW="300" oH="50" r="y" dr="90"/>
+    <sprite n="00005" x="98" y="54" w="40" h="292" oX="3" oY="5" oW="300" oH="50" r="y" dr="90"/>
+    <sprite n="00006" x="2" y="396" w="290" h="40" oX="4" oY="5" oW="300" oH="50" dr="90"/>
+    <sprite n="00007" x="266" y="54" w="42" h="290" oX="4" oY="4" oW="300" oH="50" r="y" dr="90"/>
+    <sprite n="00008" x="52" y="54" w="44" h="292" oX="3" oY="3" oW="300" oH="50" r="y" dr="90"/>
+    <sprite n="00009" x="2" y="348" w="292" h="46" oX="3" oY="2" oW="300" oH="50" dr="90"/>
+</TextureAtlas>

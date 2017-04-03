@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<root>
+    <HandType Type="1">
+        <Id> 1 </Id>
+        <Name>ROYAL FLUSH</Name>
+    </HandType>
+    <HandType Type="2">
+        <Id> 2 </Id>
+        <Name>WILD ROYAL FLUSH</Name>
+    </HandType>
+    <HandType Type="3">
+        <Id> 3 </Id>
+        <Name>FOUR DEUCES</Name>
+    </HandType>
+    <HandType  Type="4">
+        <Id> 4 </Id>
+        <Name>FIVE OF A KIND</Name>
+    </HandType>
+    <HandType  Type="5">
+        <Id> 5 </Id>
+        <Name>STRAIGHT FLUSH</Name>
+    </HandType>
+    <HandType  Type="6">
+        <Id> 6 </Id>
+        <Name>FOUR OF A KIND</Name>
+    </HandType>
+    <HandType  Type="7">
+        <Id> 7 </Id>
+        <Name>FULL HOUSE</Name>
+    </HandType>
+    <HandType Type="8">
+        <Id> 8 </Id>
+        <Name>FLUSH</Name>
+    </HandType>
+    <HandType  Type="9">
+        <Id> 9 </Id>
+        <Name>STRAIGHT</Name>
+    </HandType>
+    <HandType  Type="10">
+        <Id> 10 </Id>
+        <Name>THREE OF A KIND</Name>
+    </HandType>
+    <HandType  Type="11">
+        <Id> 11 </Id>
+        <Name>TWO PAIR</Name>
+    </HandType>
+     <HandType  Type="12">
+        <Id> 12 </Id>
+        <Name>PAIR OF JACKS OR BETTER</Name>
+    </HandType>
+    
+     <HandType  Type="13">
+        <Id> 13 </Id>
+        <Name>FOUR ACE</Name>
+    </HandType>
+    
+     <HandType  Type="14">
+        <Id> 14 </Id>
+        <Name>FOUR 2,3,4</Name>
+    </HandType>
+        
+     <HandType  Type="15">
+        <Id> 15 </Id>
+        <Name>FOUR 5...k</Name>
+    </HandType>
+    
+     <HandType  Type="16">
+        <Id> 16 </Id>
+        <Name>PAIR</Name>
+    </HandType>
+
+</root>

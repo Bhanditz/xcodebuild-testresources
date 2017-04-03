@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="fireball.png" width="512" height="512" scale_x="2.6500001" scale_y="2.6500001" blend="1" loop="1">
+    <sprite n="fireball_00000.png" x="246" y="2" w="114" h="148" oX="25" oY="27" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00001.png" x="126" y="152" w="118" h="148" oX="20" oY="24" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00002.png" x="122" y="306" w="118" h="150" oX="21" oY="22" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00003.png" x="126" y="2" w="118" h="148" oX="22" oY="22" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00004.png" x="368" y="152" w="118" h="138" oX="21" oY="37" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00005.png" x="246" y="152" w="120" h="140" oX="20" oY="39" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00006.png" x="242" y="302" w="120" h="144" oX="20" oY="32" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00007.png" x="2" y="2" w="122" h="152" oX="19" oY="26" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00008.png" x="2" y="156" w="122" h="148" oX="19" oY="28" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00009.png" x="2" y="306" w="118" h="150" oX="24" oY="28" oW="156" oH="200" dr="80"/>
+    <sprite n="fireball_00010.png" x="364" y="294" w="146" h="114" oX="27" oY="32" oW="156" oH="200" r="y" dr="80"/>
+    <sprite n="fireball_00011.png" x="364" y="2" w="116" h="148" oX="24" oY="29" oW="156" oH="200" dr="80"/>
+</TextureAtlas>

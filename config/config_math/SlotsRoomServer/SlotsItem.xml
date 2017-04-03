@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<!--
+  Slots道具配置
+  type: 1(FreeSpin道具)
+-->
+<root>
+	<SlotsItem>
+		<Item id="8" type="1" themeID="8" coins="40" bet="1" betline="1024" >
+			<Param value="26" />
+			<Param value="21" />
+			<Param value="75" />
+			<Param value="55" />
+			<Param value="63" />
+		</Item>
+		<Item id="12" type="1" themeID="12" coins="96" bet="1" betline="96" >
+			<Param value="41" />
+			<Param value="47" />
+			<Param value="29" />
+			<Param value="15" />
+			<Param value="1" />
+		</Item>
+		<Item id="10001" type="2" themeID="1" coins="300" bet="10" betline="30" >
+		</Item>
+		<Item id="10002" type="2" themeID="2" coins="280" bet="7" betline="40" >
+		</Item>
+		<Item id="10003" type="2" themeID="3" coins="300" bet="10" betline="30" >
+		</Item>
+		<Item id="10004" type="2" themeID="4" coins="280" bet="7" betline="40" >
+		</Item>
+		<Item id="10005" type="2" themeID="5" coins="300" bet="300" betline="1" >
+		</Item>
+		<Item id="10006" type="2" themeID="6" coins="280" bet="7" betline="192" >
+		</Item>
+		<Item id="10007" type="2" themeID="7" coins="300" bet="10" betline="30" >
+		</Item>
+		<Item id="10008" type="2" themeID="8" coins="280" bet="7" betline="1024" >
+		</Item>
+		<Item id="10010" type="2" themeID="10" coins="280" bet="7" betline="40" >
+		</Item>
+		<Item id="10012" type="2" themeID="12" coins="288" bet="3" betline="96" >
+		</Item>
+		<Item id="10014" type="2" themeID="14" coins="375" bet="15" betline="25" >
+		</Item>
+		<Item id="10018" type="2" themeID="18" coins="280" bet="7" betline="40" >
+		</Item>
+		<Item id="11001" type="2" themeID="1001" coins="297" bet="3" betline="99" >
+		</Item>
+		<Item id="11002" type="2" themeID="1002" coins="300" bet="10" betline="30" >
+		</Item>
+		<Item id="11003" type="2" themeID="1003" coins="280" bet="7" betline="40" >
+		</Item>
+		<Item id="11004" type="2" themeID="1004" coins="350" bet="10" betline="35" >
+		</Item>
+		<Item id="11005" type="2" themeID="1005" coins="375" bet="15" betline="25" >
+		</Item>
+		<Item id="11006" type="2" themeID="1006" coins="375" bet="15" betline="25" >
+		</Item>
+		<Item id="11007" type="2" themeID="1007" coins="297" bet="3" betline="99" >
+		</Item>
+		<Item id="11008" type="2" themeID="1008" coins="375" bet="15" betline="25" >
+		</Item>
+		<Item id="11009" type="2" themeID="1009" coins="300" bet="10" betline="30" >
+		</Item>
+	</SlotsItem>
+ </root>

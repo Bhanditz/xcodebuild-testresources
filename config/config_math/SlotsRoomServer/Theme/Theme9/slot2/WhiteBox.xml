@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<!-- 
+	ID结：白盒游戏的编号
+	
+	
+	Trigger结点元素
+		TriggerType:满足条件，触发游戏类型  当前的类型有：1(Random)、2(FreeSpin)
+		TriggerTargetID:触发的目标id
+		TriggerTargetParam1:触发目标参数1
+		TriggerTargetParam2:触发目标参数2
+		
+		类型1(Random) 随机抽取Trigger
+		
+		类型2(FreeSpin)
+		TriggerTargetID: FreeSpin的PackID
+		TriggerTargetParam1: FreeSpin次数
+		
+-->
+
+<root>  
+	<WhiteBox>
+		<ID>1</ID>
+		<TriggerList>
+			<Trigger id="1" TriggerType="1"> 
+				<RandTrigger id="1" Weight="200" TriggerType="2" TriggerTargetID="7" TriggerTargetParam1="25" TriggerTargetParam2="200,300,500"/> 
+				<RandTrigger id="2" Weight="600" TriggerType="2" TriggerTargetID="8" TriggerTargetParam1="20" TriggerTargetParam2="200,300,500"/> 
+				<RandTrigger id="3" Weight="550" TriggerType="2" TriggerTargetID="9" TriggerTargetParam1="15" TriggerTargetParam2="200,300,500"/> 
+				<RandTrigger id="4" Weight="400" TriggerType="2" TriggerTargetID="10" TriggerTargetParam1="13" TriggerTargetParam2="200,300,500"/> 
+				<RandTrigger id="5" Weight="200" TriggerType="2" TriggerTargetID="11" TriggerTargetParam1="10" TriggerTargetParam2="200,300,500"/> 
+				<RandTrigger id="6" Weight="800" TriggerType="2" TriggerTargetID="12" TriggerTargetParam1="25" TriggerTargetParam2="300,500,800"/> 
+				<RandTrigger id="7" Weight="200" TriggerType="2" TriggerTargetID="13" TriggerTargetParam1="20" TriggerTargetParam2="300,500,800"/> 
+				<RandTrigger id="8" Weight="600" TriggerType="2" TriggerTargetID="14" TriggerTargetParam1="15" TriggerTargetParam2="300,500,800"/> 
+				<RandTrigger id="9" Weight="600" TriggerType="2" TriggerTargetID="15" TriggerTargetParam1="13" TriggerTargetParam2="300,500,800"/> 
+				<RandTrigger id="10" Weight="500" TriggerType="2" TriggerTargetID="16" TriggerTargetParam1="10" TriggerTargetParam2="300,500,800"/> 
+				<RandTrigger id="11" Weight="200" TriggerType="2" TriggerTargetID="17" TriggerTargetParam1="25" TriggerTargetParam2="500,800,1000"/> 
+				<RandTrigger id="12" Weight="550" TriggerType="2" TriggerTargetID="18" TriggerTargetParam1="20" TriggerTargetParam2="500,800,1000"/> 
+				<RandTrigger id="13" Weight="200" TriggerType="2" TriggerTargetID="19" TriggerTargetParam1="15" TriggerTargetParam2="500,800,1000"/> 
+				<RandTrigger id="14" Weight="600" TriggerType="2" TriggerTargetID="20" TriggerTargetParam1="13" TriggerTargetParam2="500,800,1000"/> 
+				<RandTrigger id="15" Weight="600" TriggerType="2" TriggerTargetID="21" TriggerTargetParam1="10" TriggerTargetParam2="500,800,1000"/> 
+				<RandTrigger id="16" Weight="200" TriggerType="2" TriggerTargetID="22" TriggerTargetParam1="25" TriggerTargetParam2="800,1000,1500"/> 
+				<RandTrigger id="17" Weight="200" TriggerType="2" TriggerTargetID="23" TriggerTargetParam1="20" TriggerTargetParam2="800,1000,1500"/> 
+				<RandTrigger id="18" Weight="700" TriggerType="2" TriggerTargetID="24" TriggerTargetParam1="15" TriggerTargetParam2="800,1000,1500"/> 
+				<RandTrigger id="19" Weight="200" TriggerType="2" TriggerTargetID="25" TriggerTargetParam1="13" TriggerTargetParam2="800,1000,1500"/> 
+				<RandTrigger id="20" Weight="600" TriggerType="2" TriggerTargetID="26" TriggerTargetParam1="10" TriggerTargetParam2="800,1000,1500"/> 
+				<RandTrigger id="21" Weight="200" TriggerType="2" TriggerTargetID="27" TriggerTargetParam1="25" TriggerTargetParam2="1000,1500,3000"/> 
+				<RandTrigger id="22" Weight="200" TriggerType="2" TriggerTargetID="28" TriggerTargetParam1="20" TriggerTargetParam2="1000,1500,3000"/> 
+				<RandTrigger id="23" Weight="300" TriggerType="2" TriggerTargetID="29" TriggerTargetParam1="15" TriggerTargetParam2="1000,1500,3000"/> 
+				<RandTrigger id="24" Weight="400" TriggerType="2" TriggerTargetID="30" TriggerTargetParam1="13" TriggerTargetParam2="1000,1500,3000"/> 
+				<RandTrigger id="25" Weight="200" TriggerType="2" TriggerTargetID="31" TriggerTargetParam1="10" TriggerTargetParam2="1000,1500,3000"/> 
+			</Trigger>
+			<Trigger id="2" TriggerType="2" TriggerTargetID="2" TriggerTargetParam1="25" TriggerTargetParam2="200,300,500"/> 
+			<Trigger id="3" TriggerType="2" TriggerTargetID="3" TriggerTargetParam1="20" TriggerTargetParam2="300,500,800"/> 
+			<Trigger id="4" TriggerType="2" TriggerTargetID="4" TriggerTargetParam1="15" TriggerTargetParam2="500,800,1000"/> 
+			<Trigger id="5" TriggerType="2" TriggerTargetID="5" TriggerTargetParam1="13" TriggerTargetParam2="800,1000,1500"/> 
+			<Trigger id="6" TriggerType="2" TriggerTargetID="6" TriggerTargetParam1="10" TriggerTargetParam2="1000,1500,3000"/> 
+		</TriggerList>
+	</WhiteBox>	
+</root>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="water_right02.png" width="128" height="512" blend="1" loop="1">
+    <sprite n="00024" x="2" y="302" w="124" h="148" oX="5" oY="21" oW="160" oH="160" r="y" dr="60"/>
+    <sprite n="00026" x="2" y="152" w="124" h="148" oX="5" oY="21" oW="160" oH="160" r="y" dr="60"/>
+    <sprite n="00028" x="2" y="2" w="124" h="148" oX="5" oY="21" oW="160" oH="160" r="y" dr="60"/>
+</TextureAtlas>

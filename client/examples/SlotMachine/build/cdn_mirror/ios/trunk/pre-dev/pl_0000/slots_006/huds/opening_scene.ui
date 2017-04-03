@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Background" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="slots_006_bg003"/>
+    </Picture>
+    <Sprite id="vfx_23_Throne_Lightnings_01" x="42" y="80" z="0" width="1051" height="480" window_state="4">
+        <sprite_file value="slots_006/sprites/vfx_23_throne_lightnings_01.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="vfx_23_Throne_Lightnings_02" x="572" y="-20" z="0" width="632" height="490" window_state="4">
+        <sprite_file value="slots_006/sprites/vfx_23_throne_lightnings_02.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Picture id="vfx_23_Throne_Lightnings_Bg_Left" x="156" y="152" z="0" width="96" height="96" window_state="4">
+        <scale x="5" y="4" z="4"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot006_vfx_23_01"/>
+        <piece_info value="vfx_23_throne_lightnings_bg"/>
+    </Picture>
+    <Picture id="vfx_23_Throne_Lightnings_Bg_Right" x="864" y="167" z="0" width="96" height="96" window_state="4">
+        <scale x="4" y="4" z="4"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot006_vfx_23_01"/>
+        <piece_info value="vfx_23_throne_lightnings_bg"/>
+    </Picture>
+    <Picture id="vfx_42_Clouds_04" x="760" y="322" z="0" width="298" height="227" window_state="6">
+        <scale x="-2" y="2" z="2"/>
+        <action_id value="animation_slot006_cloud_04"/>
+        <piece_info value="vfx_cloudlightcloudmist"/>
+    </Picture>
+    <Picture id="vfx_42_Clouds_01" x="722" y="564" z="0" width="306" height="297" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <action_id value="animation_slot006_cloud_01"/>
+        <piece_info value="vfx_cloudlight"/>
+    </Picture>
+    <Picture id="vfx_42_Clouds_03" x="48" y="330" z="0" width="298" height="227" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <action_id value="animation_slot006_cloud_03"/>
+        <piece_info value="vfx_cloudlightcloudmist"/>
+    </Picture>
+    <Picture id="vfx_42_Clouds_02" x="68" y="560" z="0" width="306" height="297" window_state="6">
+        <scale x="2" y="2" z="2"/>
+        <action_id value="animation_slot006_cloud_02"/>
+        <piece_info value="vfx_cloudlight"/>
+    </Picture>
+    <Picture id="m_Throne" x="321" y="303" z="0" width="505" height="360" window_state="6">
+        <piece_info value="slots_006_panel_010"/>
+    </Picture>
+    <Sprite id="vfx_42_Lightnings" x="640" y="135" z="0" width="382" height="322" window_state="4">
+        <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+        <sprite_file value="slots_006/sprites/vfx_42_lightnings.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Picture id="vfx_42_Clouds_05" x="284" y="580" z="0" width="568" height="50" window_state="6">
+        <scale x="-2" y="2" z="2"/>
+        <action_id value="animation_slot006_cloud_05"/>
+        <piece_info value="vfx_cloudlightthroneroom_mist_fg"/>
+    </Picture>
+    <SkinMesh id="m_SkinMesh" x="174" y="46" z="-200" width="784" height="1080" window_state="2054">
+        <scale x="1.15" y="1.15" z="1.15"/>
+        <action_id value="animation_slot006_zeus@anim00"/>
+        <mesh_file value="slots_006/models/zeus.model"/>
+        <mesh_rotation x="0.15707964" y="0" z="0"/>
+        <mesh_scale x="195" y="195" z="195"/>
+        <sky_brightness value="0.89999998"/>
+        <far_clip_distance value="2000"/>
+        <lights>
+            <element>
+                <direction x="1.8" y="2.5" z="-2"/>
+                <color r="204" g="199" b="207" a="255"/>
+                <specular_power value="119"/>
+                <specular_intensity value="7.5"/>
+            </element>
+            <element>
+                <direction x="3" y="-3" z="1"/>
+                <brightness value="-0.5"/>
+            </element>
+        </lights>
+    </SkinMesh>
+    <SkinMesh id="m_SkinMeshEagle" x="282" y="28" z="0" width="871" height="776" window_state="2054">
+        <scale x="1.35" y="1.35" z="1.35"/>
+        <action_id value="animation_slot006_eagle@eagle00"/>
+        <mesh_file value="slots_006/models/eagle.model"/>
+        <mesh_scale x="150" y="150" z="150"/>
+        <sky_color r="250" g="252" b="228" a="255"/>
+        <sky_brightness value="1.15"/>
+        <far_clip_distance value="2000"/>
+        <lights>
+            <element>
+                <direction x="12" y="-9" z="0"/>
+                <color r="240" g="240" b="240" a="255"/>
+                <brightness value="2.3"/>
+                <specular_power value="388"/>
+            </element>
+            <element>
+                <color r="225" g="225" b="225" a="255"/>
+                <brightness value="-0.89999998"/>
+            </element>
+        </lights>
+    </SkinMesh>
+</Panel>

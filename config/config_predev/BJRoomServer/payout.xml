@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!-- 
+    roomtype(玩法设定):
+    winblackjack (赢得bj可获得下注额的 %xx):
+    wininsurance(赢得保险可获得保险额的 %xx):
+    wingreater(比庄家大赢 可获得下注额的 %xx):
+ -->
+<root>
+	<room roomtype="1" winblackjack="250" wininsurance="300" wingreater="200" />
+	<room roomtype="2" winblackjack="250" wininsurance="300" wingreater="200" />
+	<room roomtype="3" winblackjack="250" wininsurance="300" wingreater="200" />
+	<room roomtype="4" winblackjack="250" wininsurance="300" wingreater="200" />
+	<room roomtype="5" winblackjack="250" wininsurance="300" wingreater="200" />
+	<room roomtype="6" winblackjack="250" wininsurance="300" wingreater="200" />
+	<room roomtype="7" winblackjack="250" wininsurance="300" wingreater="200" />
+	<room roomtype="8" winblackjack="250" wininsurance="300" wingreater="200" />
+</root>

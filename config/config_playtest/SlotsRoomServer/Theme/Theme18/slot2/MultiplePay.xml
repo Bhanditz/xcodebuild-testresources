@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+	Feature: 奖励随机翻倍
+		id: 序列号
+				
+		MultipleBetTimes：倍数百分比配置
+				Percentage：奖励的百分比
+				Weightage：权重
+				
+						<MultiplePay id="1" >
+				<Multiple Percentage="100" Weightage="25"/>
+					<Multiple Percentage="200" Weightage="40"/>
+					<Multiple Percentage="300" Weightage="20"/>
+					<Multiple Percentage="400" Weightage="10"/>
+					<Multiple Percentage="500" Weightage="5"/>
+	</MultiplePay>
+	
+-->
+<root>
+
+</root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model mesh="Luxury City_ani.meshdata" animation="Luxury City_ani.animdata" skelecton="Luxury City_ani.skelecton">
+    <MaterialList>
+        <Material id="0" name="Material__27-material" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="Luxury City.png"/>
+        </Material>
+    </MaterialList>
+    <MeshList>
+        <Mesh id="0" name="Object001" material="0" num_verts="5678" num_faces="5580" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+    </MeshList>
+    <AnimList>
+        <Animation id="0" name="Luxury City_ani00" duration="0.9666667" channels="1"/>
+    </AnimList>
+    <NodeList>
+        <Node id="0" parent_id="-1" name="unnamed" trans="1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1"/>
+        <Node id="1" parent_id="0" name="EnvironmentAmbientLight" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="2" parent_id="0" name="Object001" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="3" parent_id="2" name="$ColladaAutoName$_31" meshes="0" trans="1,0,0,-0.21131,0,1,0,-0.102473,0,0,1,1.67511e-005,0,0,0,1"/>
+        <Node id="4" parent_id="0" name="Bone001" trans="-1.92592e-012,-140.356,-0.000228109,0.0136042,-4.40599e-005,0.000228109,-140.356,2.52856,140.356,6.96811e-011,-4.40599e-005,23.6986,0,0,0,1"/>
+        <Node id="5" parent_id="4" name="Bone002" trans="1,0,-2.84217e-014,0.321949,0,1,0,-1.63913e-007,2.84217e-014,0,1,-1.49012e-008,0,0,0,1"/>
+    </NodeList>
+</Model>

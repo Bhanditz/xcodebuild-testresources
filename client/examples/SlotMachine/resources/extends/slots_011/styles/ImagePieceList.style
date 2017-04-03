@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="slots_011_extends" file_name="slots_011_extends.png" width="256" height="256"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="casino_lobby_slot_small11" image_id="slots_011_extends" x="0" y="0" width="250" height="190"/>
+  </PieceList>
+</ImagePiece>

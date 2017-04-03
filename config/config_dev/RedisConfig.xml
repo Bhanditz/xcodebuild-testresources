@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<RedisServers>
+	<UseRedis> 0 </UseRedis>
+	<RedisServer>
+		<Host> 10.0.3.13 </Host>
+		<Port> 6379 </Port>
+		<Password> </Password>
+		<Timeout> 5 </Timeout>
+	</RedisServer>
+	<MaxConnRedisCount>300</MaxConnRedisCount>
+</RedisServers>

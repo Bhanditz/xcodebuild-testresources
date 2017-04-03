@@ -1,0 +1,54 @@
+<skeleton name="jackpot2" frameRate="60" version="1.4">
+ <armatures>
+  <armature name="jackpot2">
+   <b name="jackpot_11" x="0.15" y="0" kX="0" kY="0" cX="1.24" cY="1.24" z="0" alpha="95" red="100" green="100" blue="100">
+    <d name="jackpot2_11"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="jackpot2">
+   <mov name="play" dr="129" to="6" drTW="129" lp="0" twE="NaN">
+    <b name="jackpot_11" sc="1" dl="0">
+     <f x="0.15" y="0" kX="0" kY="0" cX="1.24" cY="1.24" z="0" alpha="95" red="100" green="100" blue="100" dI="0" or="0" og="0" ob="0" oa="0" dr="6"/>
+     <f x="0.15" y="0" kX="0" kY="0" cX="0.77" cY="0.77" z="0" alpha="98" red="100" green="100" blue="100" dI="0" or="0" og="0" ob="0" oa="0" dr="2"/>
+     <f x="0.35" y="0.2" kX="0" kY="0" cX="0.74" cY="0.74" z="0" alpha="98" red="100" green="100" blue="100" dI="0" or="0" og="0" ob="0" oa="0"  dr="8"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="0" green="0" blue="0" dI="0" or="1.0" og="1.0" ob="1.0" oa="0" dr="4"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="0" green="0" blue="0" dI="0" or="1.0" og="1.0" ob="1.0" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="4" green="4" blue="4" dI="0" or="0.96" og="0.96" ob="0.96" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="7" green="7" blue="7" dI="0" or="0.93" og="0.93" ob="0.93" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="11" green="11" blue="11" dI="0" or="0.89" og="0.89" ob="0.89" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="14" green="14" blue="14" dI="0" or="0.86" og="0.86" ob="0.86" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="18" green="18" blue="18" dI="0" or="0.82" og="0.82" ob="0.82" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="21" green="21" blue="21" dI="0" or="0.79" og="0.79" ob="0.79" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="25" green="25" blue="25" dI="0" or="0.75" og="0.75" ob="0.75" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="29" green="29" blue="29" dI="0" or="0.71" og="0.71" ob="0.71" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="32" green="32" blue="32" dI="0" or="0.68" og="0.68" ob="0.68" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="36" green="36" blue="36" dI="0" or="0.64" og="0.64" ob="0.64" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="39" green="39" blue="39" dI="0" or="0.61" og="0.61" ob="0.61" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="43" green="43" blue="43" dI="0" or="0.57" og="0.57" ob="0.57" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="46" green="46" blue="46" dI="0" or="0.54" og="0.54" ob="0.54" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="50" green="50" blue="50" dI="0" or="0.50" og="0.50" ob="0.50" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="54" green="54" blue="54" dI="0" or="0.46" og="0.46" ob="0.46" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="57" green="57" blue="57" dI="0" or="0.43" og="0.43" ob="0.43" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="61" green="61" blue="61" dI="0" or="0.39" og="0.39" ob="0.39" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="64" green="64" blue="64" dI="0" or="0.36" og="0.36" ob="0.36" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="68" green="68" blue="68" dI="0" or="0.32" og="0.32" ob="0.32" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="71" green="71" blue="71" dI="0" or="0.29" og="0.29" ob="0.29" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="75" green="75" blue="75" dI="0" or="0.25" og="0.25" ob="0.25" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="78" green="78" blue="78" dI="0" or="0.22" og="0.22" ob="0.22" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="82" green="82" blue="82" dI="0" or="0.18" og="0.18" ob="0.18" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="86" green="86" blue="86" dI="0" or="0.14" og="0.14" ob="0.14" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="89" green="89" blue="89" dI="0" or="0.11" og="0.11" ob="0.11" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="93" green="93" blue="93" dI="0" or="0.07" og="0.07" ob="0.07" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="96" green="96" blue="96" dI="0" or="0.04" og="0.04" ob="0.04" oa="0" twE="0" dr="1"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="100" green="100" blue="100" dI="0" or="0" og="0" ob="0" oa="0" dr="80"/>
+     <f x="0.55" y="0.25" kX="0" kY="0" cX="0.78" cY="0.78" z="0" alpha="100" red="100" green="100" blue="100" dI="0" or="0" og="0" ob="0" oa="0" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="jackpot2" width="1024" height="128">
+  <SubTexture name="jackpot2_11" pX="255.7" pY="52.55" width="511" height="105" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>

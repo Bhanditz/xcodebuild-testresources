@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_base game" x="-347" y="3" z="0" width="1174" height="674" window_state="6">
+    <Picture id="m_bg" x="24" y="264" z="0" width="1136" height="393" window_state="262">
+        <piece_info value="slots_002_bg1"/>
+    </Picture>
+    <Sprite id="m_Sprite_sidefire" x="-39" y="317" z="0" width="300" height="300" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_bgsidefire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite_sidefire1" x="982" y="293" z="0" width="300" height="300" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_bgsidefire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Panel id="m_icon panel" x="178" y="84" z="0" width="833" height="442" window_state="6">
+        <Picture id="m_reel area" x="-50" y="-23" z="0" width="931" height="493" window_state="6">
+            <piece_info value="slots_002_panel3"/>
+        </Picture>
+        <Grid id="m_icons" x="-42" y="-13" z="0" width="914" height="480" window_state="6">
+            <gap x="181" y="117" z="100"/>
+            <row value="4"/>
+            <column value="5"/>
+            <Picture id="m_Picture2" x="0" y="0" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon7"/>
+            </Picture>
+            <Picture id="m_Picture1" x="181" y="0" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon10"/>
+            </Picture>
+            <Picture id="m_Picture3" x="362" y="0" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon12"/>
+            </Picture>
+            <Picture id="m_Picture4" x="543" y="0" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon7"/>
+            </Picture>
+            <Picture id="m_Picture5" x="724" y="0" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon11"/>
+            </Picture>
+            <Picture id="m_Picture6" x="0" y="117" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon6"/>
+            </Picture>
+            <Picture id="m_Picture7" x="181" y="117" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon8"/>
+            </Picture>
+            <Picture id="m_Picture8" x="362" y="117" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon7"/>
+            </Picture>
+            <Picture id="m_Picture9" x="543" y="117" z="0" width="189" height="128" window_state="6"/>
+            <Picture id="m_Picture10" x="724" y="117" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon11"/>
+            </Picture>
+            <Picture id="m_Picture11" x="0" y="234" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon3"/>
+            </Picture>
+            <Picture id="m_Picture12" x="181" y="234" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon1"/>
+            </Picture>
+            <Picture id="m_Picture13" x="362" y="234" z="0" width="189" height="128" window_state="6"/>
+            <Picture id="m_Picture14" x="543" y="234" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon13"/>
+            </Picture>
+            <Picture id="m_Picture15" x="724" y="234" z="0" width="200" height="200" window_state="6">
+                <piece_info value="slots_002_icon15"/>
+            </Picture>
+            <Picture id="m_Picture16" x="0" y="351" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon4"/>
+            </Picture>
+            <Picture id="m_Picture17" x="181" y="351" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon10"/>
+            </Picture>
+            <Picture id="m_Picture18" x="362" y="351" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon5"/>
+            </Picture>
+            <Picture id="m_Picture19" x="543" y="351" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon13"/>
+            </Picture>
+            <Picture id="m_Picture20" x="724" y="351" z="0" width="189" height="128" window_state="6">
+                <piece_info value="slots_002_icon8"/>
+            </Picture>
+            <Picture id="m_Picture21" x="0" y="468" z="0" width="200" height="200" window_state="6">
+                <piece_info value="slots_002_icon14"/>
+            </Picture>
+            <Picture id="m_Picture22" x="181" y="468" z="0" width="217" height="157" window_state="6">
+                <piece_info value="slots_002_icon9"/>
+            </Picture>
+        </Grid>
+    </Panel>
+    <Sprite id="m_Sprite_fire" x="122" y="409" z="0" width="500" height="200" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="m_Sprite_fire1" x="579" y="412" z="0" width="500" height="200" window_state="6">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_002/sprites/Sparta_abovebottonfire.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Panel id="m_bottom" x="22" y="545" z="0" width="1140" height="115" window_state="6">
+        <Panel id="m_Panel_totalwin" x="703" y="-55" z="0" width="200" height="200" window_state="14">
+            <scale x="1.2" y="0.89999998" z="1"/>
+            <Picture id="m_Picture_totalwin" x="52" y="52" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_Sparta_totalwin"/>
+                <piece_info value="totalwin_light"/>
+            </Picture>
+        </Panel>
+        <Picture id="m_bottombacking" x="2" y="1" z="0" width="1137" height="111" window_state="6">
+            <piece_info value="slots_002_panel4"/>
+            <RichLabel id="m_RichLabel" x="727" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="TOTAL WIN&lt;font color=&quot;cs_Sallow&quot;&gt;
+50000&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="45" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="SPINS LEFT&lt;font color=&quot;cs_Sallow&quot;&gt;
+5&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel" x="271" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="TOTAL BET&lt;font color=&quot;cs_Sallow&quot;&gt;
+500&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="494" y="38" z="0" width="142" height="58" window_state="6">
+                <text value="WIN&lt;font color=&quot;cs_Sallow&quot;&gt;
+500&lt;/font&gt;"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="1"/>
+                <rich_label_state value="4"/>
+                <outline_color value="null"/>
+                <line_height value="25"/>
+            </RichLabel>
+            <Button id="m_spin" x="916" y="1" z="0" width="220" height="110" window_state="6" style="bs_slots_002_btn1">
+                <text value="HOLD FOR AUTO SPIN"/>
+                <font_size value="25"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="38" y="8" z="0" width="144" height="75" window_state="6">
+                    <piece_info value="slots_002_text2"/>
+                </Picture>
+            </Button>
+        </Picture>
+    </Panel>
+    <Picture id="m_Picture15" x="133" y="28" z="0" width="200" height="200" window_state="6">
+        <piece_info value="slots_002_icon15"/>
+        <PictureMask id="m_PictureMask" x="13" y="10" z="0" width="174" height="170" window_state="262">
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_wildlight"/>
+            <piece_info value="2xwild_light"/>
+            <mask_piece value="scatter_light_02"/>
+            <mask_scale value="0.40000001"/>
+            <mask_offset x="0.63999999" y="0" z="0"/>
+        </PictureMask>
+        <Sprite id="m_Sprite_Wild2x" x="1" y="10" z="0" width="200" height="160" window_state="14">
+            <sprite_file value="slots_002/sprites/Sparta_wild2x.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Picture>
+    <Picture id="m_Picture21" x="316" y="28" z="0" width="200" height="200" window_state="6">
+        <piece_info value="slots_002_icon14"/>
+        <PictureMask id="m_PictureMask" x="9" y="9" z="0" width="183" height="171" window_state="6">
+            <color_scale x="1" y="1" z="1" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_wildlight"/>
+            <piece_info value="wild_light"/>
+            <mask_piece value="scatter_light_02"/>
+            <mask_scale value="0.40000001"/>
+            <mask_offset x="0.94999999" y="0" z="0"/>
+        </PictureMask>
+        <Sprite id="m_Sprite_Wild" x="0" y="30" z="0" width="200" height="110" window_state="14">
+            <sprite_file value="slots_002/sprites/Sparta_wild.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Picture>
+    <Picture id="m_Picture22" x="484" y="51" z="0" width="217" height="157" window_state="6">
+        <action_id value="animation_Sparta_scatter"/>
+        <piece_info value="slots_002_icon9"/>
+        <Panel id="m_Panel_light" x="5" y="-23" z="0" width="200" height="200" window_state="14">
+            <scale x="1.2" y="0.85000002" z="1"/>
+            <Picture id="m_Picture_light" x="5" y="1" z="0" width="189" height="198" window_state="14">
+                <blend_mode value="2"/>
+                <action_id value="animation_Sparta_scatterlight"/>
+                <piece_info value="scatter_light"/>
+            </Picture>
+        </Panel>
+        <Picture id="m_Picture" x="1" y="-13" z="0" width="217" height="157" window_state="14">
+            <piece_info value="scatter_front"/>
+        </Picture>
+        <PictureMask id="m_PictureMask_1" x="29" y="14" z="0" width="161" height="104" window_state="14">
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_scatterlight01"/>
+            <piece_info value="slots_002_icon9mask"/>
+            <mask_piece value="scatter_light_01"/>
+            <mask_scale value="0.5"/>
+            <mask_offset x="5.75" y="0" z="0"/>
+        </PictureMask>
+        <PictureMask id="m_PictureMask_2" x="3" y="0" z="0" width="211" height="144" window_state="14">
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_scatterlight02"/>
+            <piece_info value="slots_002_icon9amask"/>
+            <mask_piece value="scatter_light_02"/>
+            <mask_scale value="0.5"/>
+            <mask_offset x="7.6500001" y="0" z="0"/>
+        </PictureMask>
+    </Picture>
+    <Picture id="m_Picture14" x="679" y="73" z="0" width="189" height="128" window_state="6">
+        <piece_info value="slots_002_icon13"/>
+        <Sprite id="m_Sprite" x="-155" y="-186" z="0" width="500" height="500" window_state="6">
+            <sprite_file value="slots_002/sprites/Sparta_highpaysmoke.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Picture>
+    <Picture id="m_Picture17" x="858" y="72" z="0" width="189" height="128" window_state="6">
+        <piece_info value="slots_002_icon10"/>
+        <Sprite id="m_Sprite" x="-56" y="-48" z="0" width="300" height="226" window_state="6">
+            <sprite_file value="slots_002/sprites/Sparta_wild_02.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_Picture_wild" x="22" y="32" z="0" width="150" height="69" window_state="262">
+            <action_id value="animation_Sparta_wild"/>
+            <piece_info value="slots_002_wild"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_Picture23" x="129" y="265" z="0" width="200" height="200" window_state="14">
+        <piece_info value="slots_002_icon22"/>
+        <Picture id="m_wildglow" x="48" y="44" z="0" width="100" height="102" window_state="262">
+            <scale x="2.2" y="2.2" z="2.2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_wilddrop"/>
+            <piece_info value="wild_glow"/>
+        </Picture>
+        <Picture id="m_2Xwildglow" x="38" y="32" z="0" width="126" height="120" window_state="260">
+            <scale x="2.2" y="2.2" z="2.2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_Sparta_wilddrop"/>
+            <piece_info value="wild2x_glow"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="-150" y="-150" z="0" width="500" height="500" window_state="14">
+            <sprite_file value="slots_002/sprites/Sparta_highpaysmoke.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Picture>
+    <Panel id="m_SpartaAnimation" x="667" y="296" z="0" width="210" height="130" window_state="6">
+        <Sprite id="m_SpartaAnimation01" x="-95" y="-160" z="0" width="0" height="0" window_state="14">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpartaAnimation02" x="-95" y="-160" z="0" width="0" height="0" window_state="12">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpartaAnimation03" x="-95" y="-160" z="0" width="0" height="0" window_state="12">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpartaAnimation04" x="-95" y="-160" z="0" width="0" height="0" window_state="12">
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Picture id="m_Picture1" x="125" y="162" z="0" width="200" height="200" window_state="6">
+        <piece_info value="slots_002_icon22"/>
+    </Picture>
+    <Sprite id="m_Left1arrow1" x="84" y="87" z="0" width="0" height="0" window_state="4">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Left1arrow2" x="84" y="87" z="0" width="0" height="0" window_state="6">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Left1arrow3" x="83" y="85" z="0" width="0" height="0" window_state="4">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Picture id="m_Picture2" x="313" y="162" z="0" width="200" height="200" window_state="6">
+        <piece_info value="slots_002_icon22"/>
+    </Picture>
+    <Sprite id="m_Left2arrow1" x="316" y="78" z="0" width="0" height="0" window_state="4">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Left2arrow2" x="316" y="78" z="0" width="0" height="0" window_state="6">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Left2arrow3" x="314" y="78" z="0" width="0" height="0" window_state="4">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Picture id="m_Picture3" x="494" y="162" z="0" width="200" height="200" window_state="6">
+        <piece_info value="slots_002_icon22"/>
+    </Picture>
+    <Sprite id="m_Midarrow1" x="539" y="143" z="0" width="0" height="0" window_state="4">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Midarrow2" x="539" y="143" z="0" width="0" height="0" window_state="6">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Midarrow3" x="537" y="151" z="0" width="0" height="0" window_state="4">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite_Flyarrow" x="24" y="17" z="0" width="0" height="0" window_state="14">
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_SpriteNearWinOutline" x="756" y="-2" z="0" width="400" height="600" window_state="14">
+        <scale x="1.26" y="1.1900001" z="1.22"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

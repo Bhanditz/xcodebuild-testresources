@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1156" height="660" window_state="6" style="ngs_panel_bg">
+    <action_id value="animation_jackpot_wiggle02"/>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1156" height="660" window_state="14">
+        <piece_info value="slots_001_bg04"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="jackpot_mask" x="10" y="10" z="0" width="1137" height="640" window_state="4" style="ngs_slots_001_panel13">
+        <action_id value="animation_jackpot_mask"/>
+    </Picture>
+    <Panel id="m_Panel" x="8" y="180" z="0" width="390" height="490" window_state="6">
+        <Sprite id="jackpot_yanjiang_L" x="101" y="132" z="0" width="300" height="300" window_state="6">
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L1" x="-12" y="175" z="0" width="300" height="300" window_state="6">
+            <scale x="0.81999999" y="0.81999999" z="0.81999999"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L2" x="-106" y="253" z="0" width="300" height="300" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <rotation x="0" y="0" z="0.10471976"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L3" x="37" y="197" z="0" width="300" height="300" window_state="6">
+            <scale x="0.99000001" y="0.99000001" z="0.99000001"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L4" x="155" y="50" z="0" width="300" height="300" window_state="6">
+            <scale x="0.50999999" y="0.50999999" z="0.50999999"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L5" x="35" y="100" z="0" width="300" height="300" window_state="6">
+            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel1" x="728" y="184" z="0" width="390" height="490" window_state="6">
+        <scale x="-1" y="1" z="1"/>
+        <Sprite id="jackpot_yanjiang_L" x="83" y="66" z="0" width="300" height="300" window_state="6">
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L1" x="-33" y="187" z="0" width="300" height="300" window_state="6">
+            <scale x="0.81999999" y="0.81999999" z="0.81999999"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L2" x="-63" y="268" z="0" width="300" height="300" window_state="6">
+            <scale x="1.29" y="1.29" z="1.29"/>
+            <rotation x="0" y="0" z="0.2443461"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L3" x="27" y="170" z="0" width="300" height="300" window_state="6">
+            <scale x="0.99000001" y="0.99000001" z="0.99000001"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L4" x="133" y="-24" z="0" width="300" height="300" window_state="6">
+            <scale x="0.50999999" y="0.50999999" z="0.50999999"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L5" x="19" y="110" z="0" width="300" height="300" window_state="6">
+            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="jackpot_yanjiang_L6" x="-106" y="163" z="0" width="300" height="300" window_state="6">
+            <scale x="0.40000001" y="0.40000001" z="0.40000001"/>
+            <rotation x="0" y="0" z="-0.052359879"/>
+            <sprite_file value="slots_001/sprites/jackpot_lava.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Particle id="m_Particle" x="340" y="-136" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="jackpot rock L2"/>
+        <attach_bone value=""/>
+    </Particle>
+    <Particle id="m_Particle1" x="741" y="-141" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="jackpot rock R3"/>
+        <attach_bone value=""/>
+    </Particle>
+    <Panel id="m_JackpotContainer" x="341" y="16" z="0" width="473" height="659" window_state="14">
+        <Panel id="m_JackpotLvl5" x="48" y="21" z="0" width="384" height="132" window_state="6">
+            <action_id value="animation_jackpot_wiggle01"/>
+            <Panel id="black" x="1" y="32" z="0" width="360" height="70" window_state="6" style="ngs_slots_001_panel05"/>
+            <Panel id="LoopEffect_comp" x="70" y="0" z="0" width="210" height="130" window_state="6">
+                <blend_mode value="2"/>
+                <Sprite id="LoopEffect_r" x="82" y="-102" z="0" width="334" height="260" window_state="6">
+                    <sprite_file value="slots_001/sprites/volcano_winning_jackpot.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+                <Sprite id="LoopEffect_L" x="-200" y="-102" z="0" width="334" height="260" window_state="6">
+                    <scale x="-1" y="1" z="-1"/>
+                    <sprite_file value="slots_001/sprites/volcano_winning_jackpot.xml"/>
+                    <sprite_state value="1"/>
+                </Sprite>
+            </Panel>
+            <RichLabel id="Number" x="14" y="40" z="0" width="331" height="55" window_state="6">
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <text value="0"/>
+                <font_size value="55"/>
+                <text_color value="cs_White"/>
+                <smooth value="0.039999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="level_text_light" x="131" y="-35" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="jackpot_text_light"/>
+            </Picture>
+            <Picture id="Level_text" x="88" y="-14" z="0" width="186" height="61" window_state="262">
+                <color_scale x="0.5" y="0.5" z="0.5" w="1"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="slots_001_panel_text6"/>
+            </Picture>
+            <Panel id="LightPosition" x="77" y="2" z="0" width="210" height="130" window_state="14">
+                <blend_mode value="2"/>
+                <Particle id="m_Particle" x="87" y="45" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+                    <scale x="1.29" y="1.29" z="1.29"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="jackpot winning"/>
+                    <attach_bone value=""/>
+                </Particle>
+                <Picture id="m_Picture1" x="-88" y="-20" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition01"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="m_Picture2" x="217" y="47" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition02"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="light_W" x="55" y="13" z="0" width="96" height="96" window_state="6">
+                    <scale x="4.27" y="4.0700002" z="4"/>
+                    <action_id value="animation_jackpot_w"/>
+                    <piece_info value="slots_001_W"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_JackpotLvl4" x="42" y="124" z="0" width="384" height="152" window_state="6">
+            <action_id value="animation_jackpot_wiggle01"/>
+            <Picture id="Lv_color_bg" x="140" y="48" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="level5_color_bg"/>
+            </Picture>
+            <Panel id="black" x="33" y="64" z="0" width="310" height="65" window_state="6" style="ngs_slots_001_panel05"/>
+            <RichLabel id="Number" x="39" y="69" z="0" width="293" height="55" window_state="6">
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <text value="0"/>
+                <font_size value="55"/>
+                <text_color value="cs_White"/>
+                <smooth value="0.039999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="LoopEffectLv" x="77" y="43" z="0" width="222" height="106" window_state="6">
+                <scale x="2" y="2.0699999" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="level5_072"/>
+            </Picture>
+            <Picture id="level_text_light" x="137" y="-4" z="0" width="96" height="96" window_state="6">
+                <blend_mode value="2"/>
+                <piece_info value="level5_text_light"/>
+            </Picture>
+            <Picture id="Level_text" x="110" y="25" z="0" width="156" height="42" window_state="262">
+                <color_scale x="0.5" y="0.5" z="0.5" w="1"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="slots_001_panel_text5"/>
+            </Picture>
+            <Picture id="Lv_light" x="131" y="48" z="0" width="96" height="96" window_state="4">
+                <scale x="2.8" y="2.8" z="2.8"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1_light"/>
+                <piece_info value="w_mask"/>
+            </Picture>
+            <Panel id="LightPosition" x="83" y="31" z="0" width="210" height="130" window_state="6">
+                <scale x="0.77999997" y="0.77999997" z="0.77999997"/>
+                <blend_mode value="2"/>
+                <Particle id="m_Particle" x="87" y="45" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+                    <scale x="1.29" y="1.29" z="1.29"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="jackpot winning"/>
+                    <attach_bone value=""/>
+                </Particle>
+                <Picture id="m_Picture1" x="-88" y="-20" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition01"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="m_Picture2" x="217" y="47" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition02"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="light_W" x="55" y="13" z="0" width="96" height="96" window_state="14">
+                    <scale x="4.27" y="4.27" z="4.27"/>
+                    <action_id value="animation_jackpot_w"/>
+                    <piece_info value="slots_001_W"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_JackpotLvl3" x="44" y="247" z="0" width="384" height="152" window_state="6">
+            <action_id value="animation_jackpot_wiggle01"/>
+            <Picture id="Lv_color_bg" x="133" y="40" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="level4_color_bg"/>
+            </Picture>
+            <Panel id="black" x="47" y="60" z="0" width="270" height="60" window_state="6" style="ngs_slots_001_panel05"/>
+            <RichLabel id="Number" x="58" y="62" z="0" width="250" height="55" window_state="6">
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <text value="0"/>
+                <font_size value="55"/>
+                <text_color value="cs_White"/>
+                <smooth value="0.039999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="LoopEffectLv" x="81" y="32" z="0" width="200" height="100" window_state="262">
+                <scale x="2" y="1.96" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="level4_053"/>
+            </Picture>
+            <Picture id="level_text_light" x="132" y="-4" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="level4_text_light"/>
+            </Picture>
+            <Picture id="Level_text" x="105" y="23" z="0" width="154" height="42" window_state="262">
+                <color_scale x="0.5" y="0.5" z="0.5" w="1"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="slots_001_panel_text4"/>
+            </Picture>
+            <Picture id="Lv_light" x="133" y="42" z="0" width="96" height="96" window_state="4">
+                <scale x="2.5" y="2.5" z="2.5"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1_light"/>
+                <piece_info value="w_mask"/>
+            </Picture>
+            <Panel id="LightPosition" x="77" y="25" z="0" width="210" height="130" window_state="6">
+                <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                <blend_mode value="2"/>
+                <Particle id="m_Particle" x="87" y="45" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+                    <scale x="1.29" y="1.29" z="1.29"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="jackpot winning"/>
+                    <attach_bone value=""/>
+                </Particle>
+                <Picture id="m_Picture1" x="-88" y="-20" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition01"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="m_Picture2" x="217" y="47" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition02"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="light_W" x="55" y="13" z="0" width="96" height="96" window_state="14">
+                    <scale x="4.27" y="4.27" z="4.27"/>
+                    <action_id value="animation_jackpot_w"/>
+                    <piece_info value="slots_001_W"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_JackpotLvl2" x="48" y="370" z="0" width="384" height="152" window_state="6">
+            <action_id value="animation_jackpot_wiggle01"/>
+            <Picture id="Lv_color_bg" x="128" y="30" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="level3_color_bg"/>
+            </Picture>
+            <Panel id="black" x="65" y="60" z="0" width="230" height="50" window_state="6" style="ngs_slots_001_panel05"/>
+            <RichLabel id="Number" x="68" y="57" z="0" width="222" height="55" window_state="6">
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <text value="0"/>
+                <font_size value="55"/>
+                <text_color value="cs_White"/>
+                <smooth value="0.050000001"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="LoopEffectLv" x="93" y="29" z="0" width="173" height="96" window_state="262">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="level3"/>
+            </Picture>
+            <Picture id="level_text_light" x="129" y="-3" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="level3_text_light"/>
+            </Picture>
+            <Picture id="Level_text" x="119" y="26" z="0" width="121" height="34" window_state="262">
+                <color_scale x="0.5" y="0.5" z="0.5" w="1"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="slots_001_panel_text3"/>
+            </Picture>
+            <Picture id="Lv_light" x="125" y="37" z="0" width="96" height="96" window_state="4">
+                <scale x="2.3" y="2.3" z="2.3"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1_light"/>
+                <piece_info value="w_mask"/>
+            </Picture>
+            <Panel id="LightPosition" x="75" y="20" z="0" width="210" height="130" window_state="6">
+                <scale x="0.56" y="0.56" z="0.56"/>
+                <blend_mode value="2"/>
+                <Particle id="m_Particle" x="87" y="45" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+                    <scale x="1.29" y="1.29" z="1.29"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="jackpot winning"/>
+                    <attach_bone value=""/>
+                </Particle>
+                <Picture id="m_Picture1" x="-88" y="-20" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition01"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="m_Picture2" x="217" y="47" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition02"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="light_W" x="55" y="13" z="0" width="96" height="96" window_state="14">
+                    <scale x="4.27" y="4.27" z="4.27"/>
+                    <action_id value="animation_jackpot_w"/>
+                    <piece_info value="slots_001_W"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_JackpotLvl1" x="49" y="493" z="0" width="384" height="152" window_state="6">
+            <action_id value="animation_jackpot_wiggle01"/>
+            <Picture id="Lv_color_bg" x="133" y="37" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="level2_color_bg"/>
+            </Picture>
+            <Panel id="black" x="81" y="60" z="0" width="200" height="50" window_state="6" style="ngs_slots_001_panel05"/>
+            <RichLabel id="Number" x="81" y="57" z="0" width="195" height="55" window_state="6">
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <text value="0"/>
+                <font_size value="55"/>
+                <text_color value="cs_White"/>
+                <smooth value="0.039999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="LoopEffectLv" x="92" y="36" z="0" width="173" height="96" window_state="262">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="level2"/>
+            </Picture>
+            <Picture id="level_text_light" x="132" y="-3" z="0" width="96" height="96" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="level2_text_light"/>
+            </Picture>
+            <Picture id="Level_text" x="122" y="27" z="0" width="118" height="34" window_state="262">
+                <color_scale x="0.5" y="0.5" z="0.5" w="1"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="slots_001_panel_text2"/>
+            </Picture>
+            <Picture id="Lv_light" x="128" y="37" z="0" width="96" height="96" window_state="4">
+                <scale x="1.85" y="1.85" z="1.85"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1_light"/>
+                <piece_info value="w_mask"/>
+            </Picture>
+            <Panel id="LightPosition" x="76" y="20" z="0" width="210" height="130" window_state="6">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <blend_mode value="2"/>
+                <Particle id="m_Particle" x="87" y="45" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+                    <scale x="1.29" y="1.29" z="1.29"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="jackpot winning"/>
+                    <attach_bone value=""/>
+                </Particle>
+                <Picture id="m_Picture1" x="-88" y="-20" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition01"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="m_Picture2" x="217" y="47" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition02"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="light_W" x="55" y="13" z="0" width="96" height="96" window_state="14">
+                    <scale x="4.27" y="4.27" z="4.27"/>
+                    <action_id value="animation_jackpot_w"/>
+                    <piece_info value="slots_001_W"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_JackpotLvl0" x="52" y="616" z="0" width="384" height="152" window_state="14">
+            <action_id value="animation_jackpot_wiggle01"/>
+            <Picture id="Lv_color_bg" x="128" y="39" z="0" width="96" height="96" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="level1_color_bg"/>
+            </Picture>
+            <Panel id="black" x="78" y="64" z="0" width="200" height="50" window_state="14" style="ngs_slots_001_panel05"/>
+            <RichLabel id="Number" x="80" y="59" z="0" width="192" height="55" window_state="14">
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <text value="0"/>
+                <font_size value="55"/>
+                <text_color value="cs_White"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="LoopEffectLv" x="89" y="39" z="0" width="173" height="96" window_state="270">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="level01_014"/>
+            </Picture>
+            <Picture id="level_text_light" x="126" y="0" z="0" width="96" height="96" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="level1_text_light"/>
+            </Picture>
+            <Picture id="Level_text" x="120" y="31" z="0" width="115" height="34" window_state="262">
+                <color_scale x="0.5" y="0.5" z="0.5" w="1"/>
+                <action_id value="animation_jackpot_lv1Color01"/>
+                <piece_info value="slots_001_panel_text1"/>
+            </Picture>
+            <Picture id="Lv_light" x="125" y="40" z="0" width="96" height="96" window_state="4">
+                <scale x="1.85" y="1.85" z="1.85"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_jackpot_lv1_light"/>
+                <piece_info value="w_mask"/>
+            </Picture>
+            <Panel id="LightPosition" x="73" y="26" z="0" width="210" height="130" window_state="6">
+                <scale x="0.61000001" y="0.61000001" z="0.61000001"/>
+                <blend_mode value="2"/>
+                <Particle id="m_Particle" x="87" y="45" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+                    <scale x="1.29" y="1.29" z="1.29"/>
+                    <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+                    <particle_name value="jackpot winning"/>
+                    <attach_bone value=""/>
+                </Particle>
+                <Picture id="m_Picture1" x="-88" y="-20" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition01"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="m_Picture2" x="217" y="47" z="0" width="96" height="96" window_state="14">
+                    <scale x="2" y="2" z="2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_jackpot_LightPosition02"/>
+                    <piece_info value="slots_001_light_P"/>
+                </Picture>
+                <Picture id="light_W" x="55" y="13" z="0" width="96" height="96" window_state="14">
+                    <scale x="4.27" y="4.27" z="4.27"/>
+                    <action_id value="animation_jackpot_w"/>
+                    <piece_info value="slots_001_W"/>
+                </Picture>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Picture id="match_mask" x="0" y="0" z="0" width="1156" height="660" window_state="4" style="ngs_slots_001_panel13">
+        <action_id value="animation_jackpot_mask"/>
+    </Picture>
+    <Panel id="m_TopMostLayer" x="-22" y="12" z="0" width="207" height="2" window_state="268">
+        <scale x="1.05" y="1.05" z="1.05"/>
+        <Sprite id="m_SpriteEruption_R" x="554" y="-27" z="0" width="666" height="666" window_state="262">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_001/sprites/erupt_05.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteEruption_L" x="-75" y="-27" z="0" width="666" height="666" window_state="262">
+            <sprite_file value="slots_001/sprites/erupt_05.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite" x="-20" y="-30" z="0" width="1158" height="666" window_state="6">
+            <sprite_file value="slots_001/sprites/erupt_05_1.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+</Panel>

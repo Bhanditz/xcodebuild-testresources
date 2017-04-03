@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanelServerList" x="71" y="44" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Grid id="m_GridServerList" x="24" y="6" z="0" width="1090" height="310" window_state="6" style="ngs_panel_bg">
+        <gap x="292" y="75" z="100"/>
+        <column value="4"/>
+        <Button id="m_BtnServerAddress10" x="0" y="0" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.4.0.183"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="Pre-DEV-&lt;font color=&apos;cs_yellowTxt&apos;&gt;Taiwan&lt;/font&gt;"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress0" x="292" y="0" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.3.19"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="Pre-DEV"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress1" x="584" y="0" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.2.168"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="DEV"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress2" x="876" y="0" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="192.243.44.80"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="Pre-Alpha"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress3" x="0" y="75" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.3.21"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="Math-Verify"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress4" x="292" y="75" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.2.169"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="Play test"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress5" x="584" y="75" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.17.84"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="PRIVATE-&lt;font color=&apos;cs_yellowTxt&apos;&gt;HongDong&lt;/font&gt;"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress6" x="876" y="75" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.17.29"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="PRIVATE-&lt;font color=&apos;cs_yellowTxt&apos;&gt;DuanHongfei&lt;/font&gt;"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress7" x="0" y="150" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.17.135"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="PRIVATE-&lt;font color=&apos;cs_yellowTxt&apos;&gt;YuXingxing&lt;/font&gt;"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress8" x="292" y="150" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.17.5"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="PRIVATE-&lt;font color=&apos;cs_yellowTxt&apos;&gt;JiangJun&lt;/font&gt;"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnServerAddress9" x="584" y="150" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.4.0.89"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="PRIVATE-&lt;font color=&apos;cs_yellowTxt&apos;&gt;DaiLeVi&lt;/font&gt;"/>
+            <font_size value="25"/>
+            <text_style value="1"/>
+            <text_offset x="6" y="0" z="0"/>
+            <line_height value="30"/>
+        </Button>
+    </Grid>
+    <RichLabel id="m_RblVersion" x="25" y="261" z="0" width="400" height="55" window_state="6" style="cs_GreenTxt03">
+        <text value="Version"/>
+        <text_align_h value="1"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_BtnServerAddressInput" x="899" y="259" z="0" width="211" height="55" window_state="6" style="cs_BlueTxt">
+        <dynamic_attr key="ip" type="string" value="10.4.0.89"/>
+        <dynamic_attr key="port" type="int" value="5999"/>
+        <text value="PRIVATE-&lt;font color=&apos;cs_yellowTxt&apos;&gt;Input&lt;/font&gt;"/>
+        <font_size value="25"/>
+        <text_style value="1"/>
+        <text_offset x="6" y="0" z="0"/>
+        <line_height value="30"/>
+    </Button>
+    <EditBox id="m_RblServerIP" x="438" y="261" z="0" width="254" height="55" window_state="6" style="cs_GreenTxt03">
+        <text value="&lt;font&gt;127.0.0.1&lt;/font&gt;"/>
+        <font_size value="40"/>
+        <line_height value="30"/>
+        <edit_box_state value="0"/>
+        <ime_height_offset value="0"/>
+        <multi_line value="0"/>
+    </EditBox>
+    <EditBox id="m_RblServerPort" x="704" y="261" z="0" width="184" height="55" window_state="6" style="cs_GreenTxt03">
+        <text value="&lt;font&gt;5999&lt;/font&gt;"/>
+        <font_size value="40"/>
+        <line_height value="30"/>
+        <edit_box_state value="0"/>
+        <ime_height_offset value="0"/>
+        <multi_line value="0"/>
+    </EditBox>
+    <Panel id="m_PanelCurrAccount" x="24" y="324" z="0" width="1090" height="70" window_state="6" style="cs_GreenTxt03">
+        <Panel id="m_PanelBg" x="0" y="0" z="0" width="905" height="72" window_state="14">
+            <color_scale x="3" y="3" z="3" w="3"/>
+        </Panel>
+        <RichLabel id="m_LblDeviceId" x="14" y="6" z="0" width="278" height="30" window_state="14">
+            <text_align_h value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblAccountId" x="14" y="34" z="0" width="306" height="30" window_state="38">
+            <text_align_h value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_BtnDel" x="825" y="6" z="0" width="119" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.3.28"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="-"/>
+            <text_style value="1"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnAdd" x="968" y="7" z="0" width="119" height="55" window_state="6" style="cs_BlueTxt">
+            <dynamic_attr key="ip" type="string" value="10.0.3.28"/>
+            <dynamic_attr key="port" type="int" value="5999"/>
+            <text value="+"/>
+            <text_style value="1"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <List id="m_ListAccount" x="24" y="405" z="0" width="1090" height="211" window_state="6" style="ngs_panel_bg">
+        <scroll_state value="6"/>
+        <content_size x="0" y="72" z="0"/>
+        <page_size x="1" y="100" z="1"/>
+        <Panel implement_class="PanelGuestAccountItem" id="m_PanelGuestAccountItemTemplate" x="0" y="0" z="0" width="1090" height="72" window_state="6" style="cs_GreenTxt03">
+            <Panel id="m_PanelBg" x="0" y="0" z="0" width="905" height="72" window_state="14"/>
+            <RichLabel id="m_LblDeviceId" x="14" y="6" z="0" width="278" height="30" window_state="14">
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblAccountId" x="14" y="34" z="0" width="306" height="30" window_state="14">
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button id="m_BtnUse" x="840" y="8" z="0" width="249" height="55" window_state="6" style="cs_BlueTxt">
+                <dynamic_attr key="ip" type="string" value="10.0.3.28"/>
+                <dynamic_attr key="port" type="int" value="5999"/>
+                <text value="check"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </Button>
+        </Panel>
+    </List>
+</Panel>

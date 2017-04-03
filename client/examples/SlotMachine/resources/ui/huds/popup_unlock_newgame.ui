@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_PicRef" x="284" y="160" z="0" width="568" height="320" window_state="4">
+        <scale x="2" y="2" z="2"/>
+    </Picture>
+    <Picture id="m_PicPopupBG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11"/>
+    <Button id="m_BtnClose" x="1033" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+    <RichLabel id="m_LblTitle" x="184" y="47" z="0" width="766" height="90" window_state="6">
+        <text value="YOU HAVE UNLOCKED 3 THEMES!"/>
+        <font_id value="UnlockNewGame"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblLvl1" x="116" y="557" z="0" width="906" height="45" window_state="6">
+        <text value="PLATFORM_LEVELUP_POPUP_TEXT"/>
+        <font_size value="40"/>
+        <font_id value="MyraidPro"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.34"/>
+        <outline_center value="0.47999999"/>
+        <outline_color value="cs_BrownTxt"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel id="m_PanelContainer" x="0" y="107" z="0" width="1136" height="456" window_state="262150">
+        <GridList id="m_GridListMix" x="-182" y="14" z="0" width="1500" height="426" window_state="262150">
+            <scroll_state value="37"/>
+            <content_size x="249" y="872" z="0"/>
+            <page_size x="1136" y="436" z="1"/>
+            <gap x="249" y="436" z="0"/>
+            <row value="1"/>
+            <column value="6"/>
+            <Panel id="m_PanelPrev" x="0" y="0" z="0" width="256" height="435" window_state="6">
+                <window_layout value="1"/>
+                <rotation x="0" y="0.017453292" z="0"/>
+                <color_scale x="0.30000001" y="0.30000001" z="0.30000001" w="1"/>
+                <Button id="m_BtnRow0" x="3" y="122" z="0" width="250" height="190" window_state="262">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSize1" x="249" y="0" z="0" width="256" height="435" window_state="6">
+                <window_layout value="1"/>
+                <rotation x="0" y="0.017453292" z="0"/>
+                <Button id="m_BtnRow0" x="3" y="122" z="0" width="250" height="190" window_state="262">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSize2" x="498" y="0" z="0" width="256" height="435" window_state="6">
+                <window_layout value="1"/>
+                <Button id="m_BtnRow0" x="3" y="122" z="0" width="250" height="190" window_state="262">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSize3" x="747" y="0" z="0" width="256" height="435" window_state="6">
+                <window_layout value="1"/>
+                <Button id="m_BtnRow0" x="3" y="122" z="0" width="250" height="190" window_state="262">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSize4" x="996" y="0" z="0" width="256" height="435" window_state="6">
+                <window_layout value="1"/>
+                <Button id="m_BtnRow0" x="3" y="122" z="0" width="250" height="190" window_state="262">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelNext" x="1245" y="0" z="0" width="256" height="435" window_state="6">
+                <window_layout value="1"/>
+                <rotation x="0" y="0.017453292" z="0"/>
+                <color_scale x="0.30000001" y="0.30000001" z="0.30000001" w="1"/>
+                <Button id="m_BtnRow0" x="3" y="122" z="0" width="250" height="190" window_state="262">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSingle" x="0" y="436" z="0" width="256" height="435" window_state="6">
+                <window_layout value="1"/>
+                <Button id="m_BtnRow0" x="3" y="122" z="0" width="250" height="190" window_state="6">
+                    <scale x="1.6" y="1.6" z="1.6"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+        </GridList>
+        <GridList implement_class="GridListUnlock" id="m_GridListUnlock" x="-182" y="14" z="0" width="1500" height="426" window_state="262150">
+            <scroll_state value="37"/>
+            <page_size x="1136" y="436" z="1"/>
+            <gap x="249" y="436" z="0"/>
+            <row value="1"/>
+            <column value="6"/>
+        </GridList>
+        <Button id="m_BtnPrevPage" x="17" y="208" z="0" width="88" height="88" window_state="4">
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnNextPage" x="1040" y="209" z="0" width="88" height="88" window_state="4">
+            <line_height value="30"/>
+        </Button>
+        <Panel id="m_PanSwitch" x="268" y="427" z="0" width="600" height="30" window_state="4">
+            <Picture id="m_PicPage0" x="13" y="11" z="0" width="8" height="8" window_state="6">
+                <piece_info value="casino_common_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage1" x="33" y="11" z="0" width="8" height="8" window_state="6">
+                <piece_info value="casino_common_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage2" x="53" y="11" z="0" width="8" height="8" window_state="6">
+                <piece_info value="casino_common_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage3" x="73" y="11" z="0" width="8" height="8" window_state="6">
+                <piece_info value="casino_common_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage4" x="93" y="11" z="0" width="8" height="8" window_state="6">
+                <piece_info value="casino_common_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage5" x="113" y="11" z="0" width="8" height="8" window_state="6">
+                <piece_info value="casino_common_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage6" x="133" y="11" z="0" width="8" height="8" window_state="6">
+                <piece_info value="casino_common_scroll"/>
+            </Picture>
+            <Picture id="m_PicCurrent" x="31" y="9" z="0" width="12" height="12" window_state="6">
+                <piece_info value="casino_common_scrolla"/>
+            </Picture>
+        </Panel>
+    </Panel>
+</Panel>

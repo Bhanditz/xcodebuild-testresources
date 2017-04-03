@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="-51" z="0" width="1136" height="446" window_state="6" style="ngs_panel_bg">
+    <Button implement_class="ButtonStarterPack" id="m_BtnStarterPack" x="-118" y="51" z="0" width="209" height="100" window_state="6" style="ngs_casino_lobby_btn012">
+        <line_height value="30"/>
+        <Picture id="m_PictureBox" x="117" y="8" z="0" width="76" height="79" window_state="14" style="bs_casino_lobby_icon015">
+            <scale x="0.94" y="0.94" z="0.94"/>
+            <action_id value="animation_lobby_package"/>
+        </Picture>
+        <Particle id="m_Particle" x="145" y="38" z="0" width="20" height="20" window_state="14">
+            <particle_state value="0"/>
+            <package_file value="lobby/particles/lobby.ptc"/>
+            <particle_name value="xinshoulibao"/>
+        </Particle>
+        <Picture id="m_InfoCenterlight01" x="70" y="-37" z="0" width="173" height="170" window_state="12">
+            <scale x="0.68000001" y="0.68000001" z="0.68000001"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_volcanic_smoke02"/>
+            <piece_info value="casino_lobby_panel12b"/>
+        </Picture>
+        <Picture id="m_InfoCenterlight02" x="70" y="-37" z="0" width="173" height="170" window_state="12">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_volcanic_smoke02"/>
+            <piece_info value="casino_lobby_panel12b"/>
+        </Picture>
+        <Panel id="m_Countdown" x="120" y="42" z="0" width="61" height="48" window_state="14">
+            <RichLabel id="m_DayLabel" x="3" y="12" z="0" width="34" height="20" window_state="270">
+                <text value="02 DAY"/>
+                <font_size value="20"/>
+                <text_color value="cs_White"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.40000001"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_TimeLabel" x="3" y="25" z="0" width="20" height="20" window_state="14">
+                <text value="00 : 00 : 00"/>
+                <font_size value="20"/>
+                <text_color value="cs_White"/>
+                <text_align_h value="1"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.40000001"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Button>
+    <Panel implement_class="PanelLoginUpgrade" id="m_BtnUpgrade" x="893" y="52" z="0" width="285" height="100" window_state="6" style="ngs_casino_lobby_btn012">
+        <dynamic_attr key="shrink_amount" type="float" value="133.000000"/>
+        <Button id="m_BtnLoginFb" x="109" y="36" z="0" width="130" height="50" window_state="6" style="ngs_casino_lobby_btn014">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <line_height value="30"/>
+        </Button>
+        <RichLabel id="m_FbBtnRichLabel" x="152" y="50" z="0" width="59" height="20" window_state="14">
+            <text value="PLATFORM_STARTERPACK_BUTTON_LOGIN"/>
+            <font_size value="25"/>
+            <font_id value="DroidSansFallback"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="17"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel" x="112" y="14" z="0" width="123" height="26" window_state="14">
+            <text value="PLATFORM_STARTERPACK_TEXT_UNLOCKTHEME"/>
+            <font_size value="25"/>
+            <text_style value="32"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="17"/>
+        </RichLabel>
+        <Button id="m_BtnLoginStart" x="13" y="7" z="0" width="97" height="83" window_state="6" style="bs_casino_lobby_btn014a">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <Panel implement_class="LobbyInfoNotifications" id="m_InfoNotifications" x="591" y="352" z="0" width="97" height="110" window_state="12">
+        <Picture id="m_Base" x="2" y="0" z="0" width="92" height="111" window_state="4"/>
+        <Picture id="m_Info" x="-29" y="-13" z="0" width="154" height="119" window_state="4">
+            <scale x="0.40000001" y="0.43000001" z="0.40000001"/>
+            <piece_info value="casino_common_icon13"/>
+        </Picture>
+        <Picture id="m_Info1" x="19" y="25" z="0" width="57" height="46" window_state="4"/>
+    </Panel>
+</Panel>

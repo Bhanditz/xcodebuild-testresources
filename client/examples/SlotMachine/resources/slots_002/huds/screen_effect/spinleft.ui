@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+    <Picture id="ref" x="0" y="529" z="0" width="1137" height="111" window_state="12">
+        <piece_info value="slots_002_panel4"/>
+    </Picture>
+    <Sprite id="m_SpriteSpinleft" x="-6" y="490" z="0" width="200" height="200" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_spinleft.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="nearwin01.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="-1">
+    <sprite n="0000" x="442" y="2" w="68" h="284" oX="46" oY="11" oW="120" oH="320" dr="90"/>
+    <sprite n="0003" x="2" y="292" w="288" h="72" oX="42" oY="10" oW="120" oH="320" r="y" dr="90"/>
+    <sprite n="0006" x="368" y="2" w="72" h="282" oX="42" oY="17" oW="120" oH="320" dr="90"/>
+    <sprite n="0009" x="150" y="2" w="70" h="286" oX="44" oY="15" oW="120" oH="320" dr="90"/>
+    <sprite n="0012" x="2" y="440" w="282" h="70" oX="44" oY="12" oW="120" oH="320" r="y" dr="90"/>
+    <sprite n="0015" x="76" y="2" w="72" h="286" oX="42" oY="10" oW="120" oH="320" dr="90"/>
+    <sprite n="0018" x="2" y="2" w="72" h="288" oX="42" oY="10" oW="120" oH="320" dr="90"/>
+    <sprite n="0021" x="294" y="2" w="72" h="282" oX="42" oY="18" oW="120" oH="320" dr="90"/>
+    <sprite n="0024" x="222" y="2" w="70" h="284" oX="44" oY="14" oW="120" oH="320" dr="90"/>
+    <sprite n="0027" x="2" y="366" w="282" h="72" oX="42" oY="12" oW="120" oH="320" r="y" dr="90"/>
+</TextureAtlas>

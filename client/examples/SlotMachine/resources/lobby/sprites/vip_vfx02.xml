@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vip_vfx02.png" width="128" height="256" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="00078" x="2" y="204" w="44" h="44" oX="28" oY="28" oW="100" oH="100" dr="30"/>
+    <sprite n="00079" x="2" y="156" w="46" h="46" oX="27" oY="26" oW="100" oH="100" dr="30"/>
+    <sprite n="00080" x="2" y="106" w="48" h="48" oX="26" oY="25" oW="100" oH="100" dr="30"/>
+    <sprite n="00081" x="54" y="104" w="50" h="48" oX="26" oY="24" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="00082" x="56" y="2" w="50" h="50" oX="25" oY="25" oW="100" oH="100" dr="30"/>
+    <sprite n="00083" x="2" y="2" w="52" h="52" oX="24" oY="24" oW="100" oH="100" dr="30"/>
+    <sprite n="00084" x="52" y="154" w="48" h="46" oX="29" oY="26" oW="100" oH="100" dr="30"/>
+    <sprite n="00085" x="2" y="56" w="50" h="48" oX="27" oY="24" oW="100" oH="100" r="y" dr="30"/>
+    <sprite n="00086" x="56" y="54" w="50" h="48" oX="30" oY="26" oW="100" oH="100" r="y" dr="30"/>
+</TextureAtlas>

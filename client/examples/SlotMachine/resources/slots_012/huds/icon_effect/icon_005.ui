@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="75" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="150" height="75" window_state="6">
+        <Picture id="m_Bg" x="0" y="0" z="0" width="150" height="75" window_state="262">
+            <piece_info value="slots_012_icon_06"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="-17" y="-12" z="0" width="180" height="100" window_state="4">
+            <sprite_file value="slots_012/sprites/icon005.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Picture id="m_Picture" x="0" y="0" z="0" width="150" height="75" window_state="262">
+            <piece_info value="slots_012_icon_06a"/>
+        </Picture>
+        <Panel id="m_Spine" x="0" y="0" z="0" width="150" height="75" window_state="4">
+            <Panel id="m_Panel" x="0" y="-25" z="0" width="180" height="100" window_state="786438">
+                <Panel id="m_Clip" x="2" y="-3" z="0" width="180" height="100" window_state="524294">
+                    <Panel id="m_Panel" x="1" y="32" z="0" width="80" height="68" window_state="1048582"/>
+                    <Panel id="m_Panel1" x="80" y="0" z="0" width="65" height="100" window_state="1048582"/>
+                </Panel>
+                <SpineSprite id="m_SpineSprite" x="13" y="48" z="0" width="100" height="100" window_state="6">
+                    <action_id value="animation_slot012_snail@animation"/>
+                    <spine_file value="slots_012/spine_sprites/snail.json"/>
+                    <auto_anim_name value="death"/>
+                </SpineSprite>
+            </Panel>
+        </Panel>
+        <Panel id="m_Panel1" x="0" y="0" z="0" width="148" height="73" window_state="262150">
+            <Particle id="m_Particle" x="65" y="37" z="0" width="20" height="20" window_state="6">
+                <particle_state value="0"/>
+                <package_file value="slots_012/particles/fairy queen.ptc"/>
+                <particle_name value="icon005bg"/>
+            </Particle>
+        </Panel>
+    </Panel>
+</Panel>

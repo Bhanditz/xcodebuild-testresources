@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="blackjack02.png" width="256" height="512" scale_x="2.5" scale_y="2.5" blend="1" loop="1">
+    <sprite n="00017" x="2" y="122" w="172" h="114" oX="8" oY="1" oW="200" oH="120" dr="90"/>
+    <sprite n="00018" x="2" y="2" w="176" h="118" oX="4" oW="200" oH="120" dr="90"/>
+    <sprite n="00019" x="2" y="238" w="170" h="116" oX="8" oY="4" oW="200" oH="120" dr="90"/>
+</TextureAtlas>

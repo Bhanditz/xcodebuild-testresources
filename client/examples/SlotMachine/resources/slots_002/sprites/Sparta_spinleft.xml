@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Sparta_spinleft.png" width="256" height="256" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="00000" x="104" y="2" w="92" h="60" oX="2" oY="22" oW="100" oH="100" dr="60"/>
+    <sprite n="00001" x="2" y="2" w="100" h="72" oY="16" oW="100" oH="100" dr="60"/>
+    <sprite n="00002" x="2" y="182" w="70" h="72" oX="9" oY="14" oW="100" oH="100" r="y" dr="60"/>
+    <sprite n="00003" x="104" y="64" w="88" h="66" oX="5" oY="19" oW="100" oH="100" dr="60"/>
+    <sprite n="00004" x="194" y="114" w="58" h="66" oX="24" oY="18" oW="100" oH="100" dr="60"/>
+    <sprite n="00005" x="74" y="182" w="50" h="66" oX="24" oY="13" oW="100" oH="100" dr="60"/>
+    <sprite n="00006" x="198" y="54" w="52" h="58" oX="23" oY="11" oW="100" oH="100" dr="60"/>
+    <sprite n="00007" x="198" y="2" w="54" h="50" oX="24" oY="12" oW="100" oH="100" r="y" dr="60"/>
+    <sprite n="00008" x="2" y="132" w="40" h="42" oX="24" oY="11" oW="100" oH="100" r="y" dr="60"/>
+</TextureAtlas>

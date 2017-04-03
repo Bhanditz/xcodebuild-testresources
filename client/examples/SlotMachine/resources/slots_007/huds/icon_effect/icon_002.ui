@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="130" window_state="6">
+    <Picture id="ref" x="-4" y="-11" z="0" width="159" height="152" window_state="6">
+        <piece_info value="slots_007_icon_015"/>
+    </Picture>
+    <SpineSprite id="m_SpineSprite" x="26" y="8" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+        <scale x="0.97000003" y="0.97000003" z="0.97000003"/>
+        <spine_file value="slots_007/spine_sprites/lanmao_tubiao.json"/>
+        <auto_anim_name value="tb_lanmao2"/>
+    </SpineSprite>
+</Panel>

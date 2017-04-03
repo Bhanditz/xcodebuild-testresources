@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+    <Picture id="m_TranslucentBg" x="0" y="0" z="0" width="1136" height="640" window_state="262">
+        <piece_info value="slots_013_bg_02"/>
+    </Picture>
+    <Picture id="m_Picture" x="-41" y="147" z="0" width="81" height="524" window_state="262">
+        <scale x="1.75" y="1.75" z="1.75"/>
+        <rotation x="0" y="0" z="0.9075712"/>
+        <color_scale x="1" y="1" z="1" w="0.74000001"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.52999997" y="0.94" z="0"/>
+        <piece_info value="slots_013_winning_vfx01"/>
+    </Picture>
+    <Picture id="m_Picture1" x="1098" y="151" z="0" width="81" height="524" window_state="262">
+        <scale x="1.75" y="1.75" z="1.75"/>
+        <rotation x="0" y="0" z="-0.94247788"/>
+        <color_scale x="1" y="1" z="1" w="0.74000001"/>
+        <blend_mode value="2"/>
+        <anchor_point x="0.52999997" y="0.94" z="0"/>
+        <piece_info value="slots_013_winning_vfx01"/>
+    </Picture>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+        <Particle id="m_Particle" x="518" y="307" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <blend_mode value="2"/>
+            <particle_state value="2"/>
+            <package_file value="slots_013/particles/lizi.ptc"/>
+            <particle_name value="lizi10"/>
+        </Particle>
+        <RichLabel id="m_RichLabel" x="520" y="51" z="0" width="96" height="78" window_state="14">
+            <text value="CONGRATULATIONS!"/>
+            <font_size value="40"/>
+            <font_id value="UnlockNewGame"/>
+            <word_spacing value="10"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel1" x="328" y="168" z="0" width="480" height="67" window_state="14">
+            <text value="YOU WIN"/>
+            <text_align_v value="1"/>
+            <font_id value="UnlockNewGame"/>
+            <smooth value="0.30000001"/>
+            <word_spacing value="10"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel2" x="328" y="259" z="0" width="480" height="155" window_state="14">
+            <text value="0123456789"/>
+            <font_size value="35"/>
+            <text_align_v value="1"/>
+            <font_id value="slots_013"/>
+            <smooth value="0.30000001"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_Picture" x="153" y="50" z="0" width="200" height="45" window_state="6">
+            <scale x="1.3200001" y="1.3200001" z="1.3200001"/>
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_panel_07c"/>
+        </Picture>
+    </Panel>
+</Panel>

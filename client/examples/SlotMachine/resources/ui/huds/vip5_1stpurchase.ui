@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel implement_class="CumulativeRechargeAwardCell" id="m_VIPPopup" x="0" y="0" z="0" width="635" height="96" window_state="262150">
+    <Picture id="m_Base0" x="-442" y="20" z="0" width="826" height="63" window_state="12">
+        <scale x="1.6" y="1.6" z="1.6"/>
+        <piece_info value="casino_common_panel06a"/>
+    </Picture>
+    <Picture id="m_Base1" x="-442" y="20" z="0" width="826" height="63" window_state="14">
+        <scale x="1.6" y="1.6" z="1.6"/>
+        <piece_info value="casino_common_panel06b"/>
+    </Picture>
+    <Picture id="m_Base2" x="58" y="12" z="0" width="471" height="75" window_state="12">
+        <scale x="1.4299999" y="1.33" z="1.33"/>
+        <piece_info value="casino_common_panel98"/>
+    </Picture>
+    <Panel id="m_PanelChip" x="11" y="3" z="0" width="130" height="86" window_state="6">
+        <Panel id="m_Chips" x="0" y="0" z="0" width="130" height="86" window_state="6">
+            <Picture id="m_Icon" x="3" y="-10" z="0" width="124" height="81" window_state="6">
+                <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                <piece_info value="casino_common_chip9"/>
+            </Picture>
+            <RichLabel id="m_ChipValue" x="-3" y="53" z="0" width="136" height="30" window_state="6">
+                <color_scale x="0.60000002" y="0.60000002" z="0.60000002" w="1"/>
+                <text value="-"/>
+                <font_size value="35"/>
+                <text_color value="cs_BrownTxt"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_FlyEffectBegin" x="55" y="33" z="0" width="20" height="20" window_state="14"/>
+        </Panel>
+    </Panel>
+    <Panel id="m_PanelStar" x="141" y="2" z="0" width="130" height="86" window_state="6">
+        <Panel id="m_Star" x="0" y="0" z="0" width="130" height="86" window_state="6">
+            <Picture id="m_Star" x="-2" y="-39" z="0" width="135" height="137" window_state="6">
+                <scale x="0.38" y="0.38" z="0.38"/>
+                <piece_info value="casino_common_icon29"/>
+            </Picture>
+            <Sprite id="m_SpriteStar" x="-55" y="-90" z="0" width="240" height="240" window_state="4">
+                <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+                <sprite_file value="ui/sprites/1stpurchase_vfx03.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <RichLabel id="m_StarValue" x="17" y="54" z="0" width="96" height="30" window_state="6">
+                <color_scale x="0.60000002" y="0.60000002" z="0.60000002" w="1"/>
+                <text value="-"/>
+                <font_size value="35"/>
+                <text_color value="cs_BrownTxt"/>
+                <text_style value="32"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_StarPointsFly" x="-2" y="22" z="0" width="136" height="37" window_state="6">
+                <text value="+ -"/>
+                <text_color value="cs_green"/>
+                <text_style value="32"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.38"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="2.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+    <Panel id="m_PanelThemeCont" x="270" y="2" z="0" width="130" height="86" window_state="6">
+        <Panel id="m_PanelTheme" x="0" y="0" z="0" width="130" height="86" window_state="6">
+            <Button id="m_Theme" x="-60" y="-52" z="0" width="250" height="190" window_state="14">
+                <scale x="0.41" y="0.41" z="0.41"/>
+                <line_height value="30"/>
+                <Picture id="m_PicFrame0" x="-7" y="-6" z="0" width="263" height="203" window_state="6" style="ngs_selected_glow2"/>
+            </Button>
+        </Panel>
+    </Panel>
+    <Picture id="m_Difference" x="406" y="19" z="0" width="204" height="56" window_state="4" style="ngs_casino_common_panel97">
+        <RichLabel id="m_RichLabel" x="86" y="15" z="0" width="116" height="30" window_state="6">
+            <text value="PLATFORM_NEWBIERABATE_TEXT_NEEDMORE"/>
+            <font_size value="35"/>
+            <text_color value="cs_Sallow"/>
+            <text_align_h value="1"/>
+            <text_style value="32"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_value" x="6" y="13" z="0" width="76" height="30" window_state="6">
+            <color_scale x="1.5" y="1.5" z="1.5" w="1"/>
+            <text value="$-"/>
+            <text_color value="cs_red"/>
+            <text_align_h value="3"/>
+            <text_style value="32"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <RichLabel id="m_Collected" x="435" y="29" z="0" width="146" height="40" window_state="6">
+        <color_scale x="0.60000002" y="0.60000002" z="0.60000002" w="1"/>
+        <text value="PLATFORM_NEWBIERABATE_TEXT_COLLECTED"/>
+        <font_size value="55"/>
+        <text_color value="cs_BrownTxt"/>
+        <text_style value="32"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_Claim" x="405" y="17" z="0" width="206" height="64" window_state="4" style="bs_casino_common_btn026">
+        <text value="PLATFORM_NEWBIERABATE_BUTTON_CLAIM"/>
+        <font_size value="50"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <Picture id="m_Check" x="159" y="0" z="0" width="90" height="89" window_state="6">
+        <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+        <piece_info value="casino_common_panel71"/>
+    </Picture>
+</Panel>

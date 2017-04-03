@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<!--
+首充礼品
+
+itemid:1表示筹码
+     2表示shootout门票  param1表示场次只允许是 2,3
+     3表示月卡 param1表示月卡类型允许是1、2、3
+     4表示STAR经验
+     5表示勋章经验 
+	 6表示解锁主题
+-->
+<root>
+
+  <Item itemid="1" itemnum="60000" />
+  <Item itemid="4" itemnum="300" />
+  <Item itemid="6" itemnum="1002" />
+  
+  <stickchargenewplayer keeptime="168" version="1.3.1">
+	<charge amount="99">
+		<reward itemid="1" itemnum="60000" />
+		<reward itemid="4" itemnum="300" />
+		<reward itemid="6" itemnum="1002" />
+	</charge>
+	<charge amount="900">
+		<reward itemid="1" itemnum="500000" />
+	</charge>
+	<charge amount="2400">
+		<reward itemid="1" itemnum="1500000" />
+	</charge>
+	<charge amount="4900">
+		<reward itemid="1" itemnum="3600000" />
+		<reward itemid="6" itemnum="10" />
+	</charge>
+	<charge amount="14900">
+		<reward itemid="1" itemnum="30000000" />
+	</charge>
+  </stickchargenewplayer>
+
+ </root>
+ 

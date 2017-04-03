@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6">
+    <Picture id="ref" x="0" y="0" z="0" width="156" height="100" window_state="4" style="ngs_panel_bg">
+        <piece_info value="slots_002_icon13"/>
+    </Picture>
+    <Picture id="m_Picture" x="30" y="2" z="0" width="96" height="96" window_state="65542">
+        <piece_info value="slots_002_icon14"/>
+    </Picture>
+    <Sprite id="m_Sprite_Wild" x="-27" y="-25" z="0" width="208" height="114" window_state="65542">
+        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+        <sprite_file value="slots_002/sprites/Sparta_wild.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <PictureMask id="m_PictureMask" x="-13" y="-43" z="0" width="183" height="171" window_state="65550">
+        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+        <color_scale x="1" y="1" z="1" w="0.69999999"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_Sparta_wildlight"/>
+        <piece_info value="wild_light"/>
+        <mask_piece value="scatter_light_02"/>
+        <mask_scale value="0.40000001"/>
+        <mask_offset x="0.94999999" y="0" z="0"/>
+    </PictureMask>
+</Panel>

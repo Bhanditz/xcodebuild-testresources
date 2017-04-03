@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sprite loop="1">
+    <Nodes>
+        <Node id="0" data="nearwin01.xml" apply="1"/>
+        <Node id="1" data="nearwin02.xml" apply="1"/>
+    </Nodes>
+</Sprite>

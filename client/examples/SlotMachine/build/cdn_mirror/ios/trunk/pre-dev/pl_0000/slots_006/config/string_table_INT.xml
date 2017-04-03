@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata inherit="">
+	<Section name="MessageBox">
+		<ClickToSkip>Skip</ClickToSkip>
+	</Section>
+	<Section name="ErrorReport">
+		<ErrorReport>Error Report</ErrorReport>
+		<NoImplementCutscene>This cutscene not implement yet.</NoImplementCutscene>
+	</Section>
+</Metadata>

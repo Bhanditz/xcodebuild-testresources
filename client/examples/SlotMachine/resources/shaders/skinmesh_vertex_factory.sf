@@ -1,0 +1,231 @@
+//// skinmesh_vertex_factory.sh
+
+/**
+ *	Defined by the C++ code:
+ *		PER_VERTEX_COLOR
+ */
+
+///////////////////////////////////////////////////////////////////////////////
+//// struct FVertexFactoryInterpolantsVSToPS
+varying	vec3	interpolantWorldPosition;
+varying	vec3	interpolantTangentToWorldX;
+varying	vec4	interpolantTangentToWorldZ;
+
+#ifdef PER_VERTEX_COLOR
+varying	vec4	interpolantVertexColor;
+#endif
+
+#ifdef NUM_MATERIAL_TEXCOORDS
+varying	vec2	interpolantTexCoords[NUM_MATERIAL_TEXCOORDS];
+#endif
+
+#ifdef ENABLE_FOG
+varying float	interpolantFogFactor;
+#endif
+///////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////
+#ifdef VERTEX_SHADER
+
+//// Definitions
+#define SKINNING_JOINT_COUNT		60
+#define FBoneMatrix					mat4
+
+///////////////////////////////////////////////////////////////////////////////
+//============================
+// Vertex Factory Uniforms
+//============================
+uniform mat4	u_matLocalToWorld;
+uniform vec3	u_inverseNonUniformScale;
+
+// bone matrix
+uniform vec4	u_matrixPalette[SKINNING_JOINT_COUNT * 3];
+
+#ifdef ENABLE_FOG
+uniform vec2	u_fogDist;
+#endif
+
+///////////////////////////////////////////////////////////////////////////////
+//============================
+// Vertex Factory Inputs
+//============================
+attribute vec3	a_position;
+attribute vec3	a_normal;
+
+// a_tangent.w contains sign of tangent basis determinant
+attribute vec4	a_tangent;
+
+#ifdef MATERIAL_TEXCOORD_0
+attribute vec2	a_texCoord;
+#endif
+#ifdef MATERIAL_TEXCOORD_1
+attribute vec2	a_texCoord1;
+#endif
+#ifdef MATERIAL_TEXCOORD_2
+attribute vec2	a_texCoord2;
+#endif
+#ifdef MATERIAL_TEXCOORD_3
+attribute vec2	a_texCoord3;
+#endif
+
+#ifdef PER_VERTEX_COLOR
+attribute vec4	a_color;
+#endif
+
+attribute vec4	a_boneIndex;
+attribute vec4	a_boneWeight;
+
+///////////////////////////////////////////////////////////////////////////////
+// Cache data to avoid multiple calculation
+struct FVertexFactoryIntermediates
+{
+	// Blend Matrix (used for position/tangents)
+	FBoneMatrix	blendMatrix;
+
+	// Tangent Basis
+	mat3	tangentToLocal;
+
+#ifdef PER_VERTEX_COLOR
+	// Vertex Color
+	vec4	vertexColor;
+#endif
+};
+
+///////////////////////////////////////////////////////////////////////////////
+FVertexFactoryIntermediates intermediates;
+
+///////////////////////////////////////////////////////////////////////////////
+FBoneMatrix getBoneMatrix(int index)
+{
+	return FBoneMatrix(
+		u_matrixPalette[index * 3 + 0],
+		u_matrixPalette[index * 3 + 1],
+		u_matrixPalette[index * 3 + 2],
+		vec4(0.0, 0.0, 0.0, 1.0));
+}
+///////////////////////////////////////////////////////////////////////////////
+FBoneMatrix calcBoneMatrix()
+{
+	FBoneMatrix blendMatrix = a_boneWeight.x * getBoneMatrix(int(a_boneIndex.x));
+	blendMatrix += a_boneWeight.y * getBoneMatrix(int(a_boneIndex.y));
+	blendMatrix += a_boneWeight.z * getBoneMatrix(int(a_boneIndex.z));
+	blendMatrix += a_boneWeight.w * getBoneMatrix(int(a_boneIndex.w));
+	return blendMatrix;
+}
+///////////////////////////////////////////////////////////////////////////////
+/** Transform the tangent basis vectors (tangent space to local space) */
+mat3 skinTangents(FBoneMatrix blendMatrix)
+{
+	mat3 tangentBasis;
+
+	// Note the use of (Vector*Matrix), bone matrices are stored transposed for tighter packing.
+	tangentBasis[0] = ((vec4(a_tangent.xyz, 0.0) * blendMatrix).xyz);
+	tangentBasis[2] = ((vec4(a_normal, 0.0) * blendMatrix).xyz);
+
+	// derive the new binormal by getting the cross product of the normal and tangent
+	// and flip vector based on sign of tangent basis determinant
+	tangentBasis[1] = cross(tangentBasis[0], tangentBasis[2]) * a_tangent.w;
+	return tangentBasis;
+}
+///////////////////////////////////////////////////////////////////////////////
+void initializeVertexFactoryIntermediates()
+{
+	intermediates.blendMatrix = calcBoneMatrix();
+	intermediates.tangentToLocal = skinTangents(intermediates.blendMatrix);
+
+#ifdef PER_VERTEX_COLOR
+	intermediates.vertexColor = a_color;
+#endif
+}
+///////////////////////////////////////////////////////////////////////////////
+mat3 intermediates_GetVertexFactoryTangentToLocal()
+{
+	return intermediates.tangentToLocal;
+}
+///////////////////////////////////////////////////////////////////////////////
+void setupVertexFactoryInterpolantsVSToPS()
+{
+	interpolantWorldPosition = parameters.worldPosition.xyz;
+
+	// Calculate the transform from tangent to world space
+	mat3 tangentToWorld = mat3(
+		// remove scaling information from LocalToWorld
+		u_matLocalToWorld[0].xyz * u_inverseNonUniformScale.x,
+		u_matLocalToWorld[1].xyz * u_inverseNonUniformScale.y,
+		u_matLocalToWorld[2].xyz * u_inverseNonUniformScale.z) * intermediates.tangentToLocal;
+
+	interpolantTangentToWorldX = tangentToWorld[0];
+	interpolantTangentToWorldZ = vec4(tangentToWorld[2], a_tangent.w);
+
+#if defined(MATERIAL_TEXCOORD_0)
+	interpolantTexCoords[0] = a_texCoord;
+#endif
+#if defined(MATERIAL_TEXCOORD_1)
+	interpolantTexCoords[1] = a_texCoord1;
+#endif
+#if defined(MATERIAL_TEXCOORD_2)
+	interpolantTexCoords[2] = a_texCoord2;
+#endif
+#if defined(MATERIAL_TEXCOORD_3)
+	interpolantTexCoords[3] = a_texCoord3;
+#endif
+
+#ifdef PER_VERTEX_COLOR
+	interpolantVertexColor = intermediates.vertexColor;
+#endif
+
+#ifdef ENABLE_FOG
+	interpolantFogFactor = computeLinearFogFactor(parameters.worldPosition.xyz, u_fogDist);
+#endif
+}
+///////////////////////////////////////////////////////////////////////////////
+/** Converts from vertex factory specific input to a FMaterialVertexParameters, which is used by vertex shader material inputs. */
+void initializeMaterialVertexParameters()
+{
+	// transform position by weighted sum of skinning matrices
+	// note the use of (Vector*Matrix), bone matrices are stored transposed for tighter packing.
+	parameters.worldPosition = u_matLocalToWorld * (vec4(a_position, 1.0) * intermediates.blendMatrix);
+}
+#endif //#ifdef VERTEX_SHADER
+///////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////////
+#ifdef PIXEL_SHADER
+/** Converts from vertex factory specific input to a FMaterialPixelParameters, which is used by material inputs. */
+void initializeMaterialPixelParameters()
+{
+#ifdef MATERIAL_TEXCOORD_0
+	parameters.textureCoords[0] = interpolantTexCoords[0];
+#endif
+#ifdef MATERIAL_TEXCOORD_1
+	parameters.textureCoords[1] = interpolantTexCoords[1];
+#endif
+#ifdef MATERIAL_TEXCOORD_2
+	parameters.textureCoords[2] = interpolantTexCoords[2];
+#endif
+#ifdef MATERIAL_TEXCOORD_3
+	parameters.textureCoords[3] = interpolantTexCoords[3];
+#endif
+
+#ifdef PER_VERTEX_COLOR
+	parameters.vertexColor = interpolantVertexColor;
+#else
+	parameters.vertexColor = vec4(1.0);
+#endif
+
+#ifdef SUPPORT_TANGENT_NORMAL
+	parameters.tangentNormal = vec3(0.0);
+#endif
+
+	parameters.worldNormal = vec3(0.0);
+	parameters.tangentToWorld = assembleTangentToWorld(interpolantTangentToWorldX, interpolantTangentToWorldZ);
+
+#ifdef SUPPORT_SCREEN_POSITION
+	parameters.screenPosition = vec4(0.0);
+#endif
+
+	parameters.twoSidedSign = 1.0;
+}
+#endif // #ifdef PIXEL_SHADER
+///////////////////////////////////////////////////////////////////////////////

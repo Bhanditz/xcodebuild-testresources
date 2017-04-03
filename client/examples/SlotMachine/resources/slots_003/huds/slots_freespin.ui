@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_MainPanel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_PicBG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11">
+        <Picture id="m_PicBG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11"/>
+    </Picture>
+    <Panel id="m_PanNote" x="148" y="51" z="0" width="840" height="500" window_state="6">
+        <Picture id="m_PicBase" x="24" y="5" z="0" width="792" height="494" window_state="6" style="ngs_casino_common_panel12">
+            <Picture id="m_PicTop" x="18" y="19" z="0" width="756" height="89" window_state="6" style="ngs_casino_common_panel12f"/>
+            <Picture id="m_PicBaseGlow" x="296" y="185" z="0" width="199" height="124" window_state="14">
+                <scale x="4" y="4" z="4"/>
+                <piece_info value="casino_common_panel12d"/>
+            </Picture>
+            <Picture id="m_Picture" x="183" y="29" z="0" width="419" height="68" window_state="14">
+                <scale x="1.25" y="1.25" z="1.25"/>
+                <piece_info value="casino_common_panel12e"/>
+            </Picture>
+            <RichLabel id="m_LblNote" x="319" y="22" z="0" width="151" height="60" window_state="6">
+                <text value="SLOTS_COMMON_POPUP_FEATUREGAME_TITLE"/>
+                <font_size value="65"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="-25" y="61" z="0" width="341" height="410" window_state="14">
+                <piece_info value="casino_common_panel80"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_PicGame" x="426" y="175" z="0" width="267" height="207" window_state="6">
+            <piece_info value="casino_lobby_slot_small3"/>
+        </Picture>
+        <RichLabel id="m_LblGame" x="221" y="442" z="0" width="676" height="30" window_state="6">
+            <text value="SLOTS_COMMON_POPUP_FEATUREGAME_TEXT_FREESPIN"/>
+            <text_color value="cs_Sallow"/>
+            <text_style value="8"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="29"/>
+        </RichLabel>
+        <Button id="m_BtnUse" x="435" y="373" z="0" width="248" height="62" window_state="6" style="ngs_casino_common_btn08b">
+            <text value="SLOTS_COMMON_POPUP_FEATUREGAME_BUTTON_START"/>
+            <font_size value="45"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Picture id="m_PicFreespins" x="359" y="117" z="0" width="400" height="70" window_state="14">
+            <piece_info value="casino_common_panel80a"/>
+            <Picture id="m_Picture" x="-70" y="-38" z="0" width="350" height="80" window_state="14">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <blend_mode value="2"/>
+                <piece_info value="casino_light02"/>
+            </Picture>
+            <Picture id="m_Picture" x="132" y="14" z="0" width="350" height="80" window_state="14">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <blend_mode value="2"/>
+                <piece_info value="casino_light02"/>
+            </Picture>
+        </Picture>
+    </Panel>
+</Panel>

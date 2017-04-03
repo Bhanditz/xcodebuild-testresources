@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<!--
+  该配置用于玩家等级对应的基础jackpot奖池、直接赔付基础筹码
+-->
+<root>
+    <PlayerLevelJackpot>
+      <levelJackpot level="1" JackpotBaseChips = "1000" DirectPayCreditsBaseChips="3000" levelBet="1" />
+      <levelJackpot level="2" JackpotBaseChips = "1000" DirectPayCreditsBaseChips="30000" levelBet="1" />
+      <levelJackpot level="3" JackpotBaseChips = "1000" DirectPayCreditsBaseChips="30000" levelBet="1" />
+      <levelJackpot level="4" JackpotBaseChips = "1000" DirectPayCreditsBaseChips="30000" levelBet="1" />
+      <levelJackpot level="5" JackpotBaseChips = "1000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="6" JackpotBaseChips = "5000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="7" JackpotBaseChips = "5000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="8" JackpotBaseChips = "5000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="9" JackpotBaseChips = "5000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="10" JackpotBaseChips = "5000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="11" JackpotBaseChips = "10000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="12" JackpotBaseChips = "10000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="13" JackpotBaseChips = "10000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="14" JackpotBaseChips = "10000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+      <levelJackpot level="15" JackpotBaseChips = "10000" DirectPayCreditsBaseChips="300000" levelBet="1" />
+    </PlayerLevelJackpot>
+ </root>

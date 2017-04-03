@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="2" game="spartan">
+		<BonusGames>
+			<BonusGame id="3" game="spartan_choice"/>
+		</BonusGames>
+		<Icons>
+			<Icon id="1" pieceId="slots_002_icon13" renderdepth="0"/> <!-- å¤§å???-->
+			<Icon id="2" pieceId="slots_002_icon12" renderdepth="0"/> <!-- ä¸­å???-->
+			<Icon id="3" pieceId="slots_002_icon11" renderdepth="0"/> <!-- å°å???-->
+			<Icon id="4" pieceId="slots_002_icon7" renderdepth="0"/>
+			<Icon id="5" pieceId="slots_002_icon8" renderdepth="0"/>
+			<Icon id="6" pieceId="slots_002_icon6" renderdepth="0"/>
+			<Icon id="7" pieceId="slots_002_icon5" renderdepth="0"/>
+			<Icon id="8" pieceId="slots_002_icon4" renderdepth="0"/>
+			<Icon id="9" pieceId="slots_002_icon3" renderdepth="0"/>
+			<Icon id="10" pieceId="slots_002_icon2" renderdepth="0"/>
+			<Icon id="11" pieceId="slots_002_icon1" renderdepth="0"/>
+			<Icon id="12" pieceId="slots_002_icon10" renderdepth="0"/> <!-- Wild -->
+			<Icon id="13" pieceId="slots_002_icon9" renderdepth="1"/> <!-- BONUS -->		
+			<Icon id="14" pieceId="slots_002_icon15" renderdepth="0"/> <!-- 2XWild -->					
+			<Icon id="15" pieceId="slots_002_icon14" renderdepth="0"/> <!-- STICKY WILD -->
+		</Icons>
+		<Reel>
+			<NearWinInfo name="basegame" ReelIds="4" /> 
+			<NearWinInfo name="freegame" ReelIds="4" />
+			<SpinType name="normal">
+				<BestSpinIconCount value="14"/>
+				<OneReelStartDelayTime value="0.08"/>
+				<OneReelStopDelayTime value="0.4"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.10"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="3.8"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.06"/>
+				<OneReelStopDelayTime value="0.3"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="0.9"/>
+				<NearWinCostTime value="3.8"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+
+		
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.0" pieceId="slots_002_icon27">  
+			<!-- Payline id="1" lineColor="0xFFFFFFFF" /-->
+		</Paylines>
+		
+		<Paytables winTextColor="cs_line_color_14" />  
+		
+	</Theme>
+</SlotsConfig>

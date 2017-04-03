@@ -1,0 +1,6 @@
+[ios_resources] auto commit resources from R. 20715M
+build command: ./build.sh pre-dev ios_debug ios trunk
+ENGINE_VER=1.2.15
+CASINO_VER=1.4.0
+OPT_COMPRESS_TEXTURE=true
+TEXTURE_COMPRESS_FMT=pvrtc1

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="175" height="156" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="175" height="156" window_state="6">
+        <Picture id="m_Bg" x="0" y="0" z="0" width="175" height="156" window_state="262">
+            <piece_info value="slots_013_icon_11c"/>
+        </Picture>
+        <Panel id="m_icon" x="15" y="7" z="0" width="145" height="142" window_state="6">
+            <Picture id="m_Picture" x="0" y="0" z="0" width="145" height="142" window_state="270">
+                <piece_info value="slots_013_icon_11b"/>
+            </Picture>
+            <Picture id="m_Picture1" x="-13" y="64" z="0" width="171" height="44" window_state="268">
+                <piece_info value="slots_013_icon_11a"/>
+            </Picture>
+            <Picture id="m_Picture2" x="-15" y="58" z="0" width="171" height="43" window_state="268">
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_icon_11g"/>
+            </Picture>
+            <PictureMask id="m_PictureMask" x="-9" y="-6" z="0" width="162" height="138" window_state="4">
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_icon_11_mask"/>
+                <mask_piece value="slots_013_icon_11_sweep"/>
+                <mask_offset x="-0.44999999" y="0" z="0"/>
+            </PictureMask>
+            <Particle id="m_Particle" x="60" y="53" z="0" width="20" height="20" window_state="6">
+                <particle_state value="0"/>
+                <package_file value="slots_013/particles/lizi.ptc"/>
+                <particle_name value="scatter"/>
+            </Particle>
+            <Picture id="m_Picture3" x="34" y="30" z="0" width="81" height="76" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_icon_11e"/>
+            </Picture>
+            <Picture id="m_Picture4" x="34" y="26" z="0" width="81" height="76" window_state="12">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <piece_info value="slots_013_icon_11f"/>
+            </Picture>
+        </Panel>
+        <Picture id="m_Picture5" x="17" y="69" z="0" width="99" height="97" window_state="268">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_11_star"/>
+        </Picture>
+        <Picture id="m_Picture6" x="-18" y="-16" z="0" width="99" height="97" window_state="4">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_11_star"/>
+        </Picture>
+        <Picture id="m_Picture7" x="104" y="3" z="0" width="99" height="97" window_state="4">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_11_star"/>
+        </Picture>
+    </Panel>
+</Panel>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<!--
+  Collecting Symbol 收集符号
+  	id:序列号
+  	type:1(图标) 2(黑盒)
+  	Index:图标或是黑盒的ID
+  	Amount:图标或黑盒的数量
+  	ResetType:重置方式1(整个老虎机)2（单次Spin）
+  	TriggerType:触发类型1(FreeSpin)2(黑盒)3(白盒)
+  	TargetID：触发的ID
+  	TriggerInput:触发的参数
+-->
+<root>
+    <CollectingSymbol id="1" Type="1" Index="1" Amount="100" ResetType="1" TriggerType="1" TargetID="1" TriggerInput="1"/>      
+ </root>
+ 

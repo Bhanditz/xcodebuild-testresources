@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_BG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11"/>
+    <Picture id="m_Base" x="172" y="55" z="0" width="793" height="493" window_state="6" style="ngs_casino_common_panel12">
+        <Picture id="m_PicBaseGlow" x="297" y="184" z="0" width="199" height="124" window_state="14">
+            <scale x="4" y="4" z="4"/>
+            <piece_info value="casino_common_panel12d"/>
+        </Picture>
+        <Picture id="m_PicTop" x="18" y="20" z="0" width="757" height="89" window_state="6" style="ngs_casino_common_panel12a">
+            <Picture id="m_Picture" x="152" y="9" z="0" width="419" height="68" window_state="14">
+                <scale x="1.25" y="1.25" z="1.25"/>
+                <piece_info value="casino_common_panel12e"/>
+            </Picture>
+            <RichLabel id="m_LblNote" x="138" y="4" z="0" width="479" height="65" window_state="6">
+                <text value="PLATFOMR_MAINTENANCE_POPUP_TITLE"/>
+                <font_size value="55"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+    </Picture>
+    <Button id="m_BtnClose" x="844" y="81" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+    <Panel id="m_PanMaintenance1" x="188" y="145" z="0" width="759" height="386" window_state="6">
+        <Picture id="m_Picture1" x="312" y="26" z="0" width="134" height="114" window_state="6">
+            <piece_info value="casino_common_icon42"/>
+        </Picture>
+        <RichLabel id="m_LblMaintainMsg" x="1" y="152" z="0" width="756" height="44" window_state="6">
+            <text value="Scheduled maintenance at 7:00pm to last about 4 hours."/>
+            <font_size value="35"/>
+            <text_color value="cs_White"/>
+            <text_style value="40"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="40"/>
+        </RichLabel>
+        <RichLabel id="m_LblMaintainMsg1" x="1" y="190" z="0" width="756" height="44" window_state="6">
+            <text value="Here are some chips for your support and patience!"/>
+            <font_size value="35"/>
+            <text_color value="cs_lightgrey"/>
+            <text_style value="40"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="40"/>
+        </RichLabel>
+        <RichLabel id="m_LblReward" x="79" y="237" z="0" width="600" height="45" window_state="6">
+            <text value="&lt;image id = &apos;casino_common_icon02&apos; scale = &apos;0.3&apos;/&gt; $#-"/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_style value="8"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="40"/>
+        </RichLabel>
+        <Button id="m_BtnClaim" x="237" y="295" z="0" width="285" height="70" window_state="6" style="ngs_casino_common_btn08">
+            <text value="PLATFOMR_MAINTENANCE_POPUP_BUTTON_CLAIM"/>
+            <font_size value="45"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <Panel id="m_PanMaintenance2" x="190" y="145" z="0" width="757" height="384" window_state="4">
+        <RichLabel id="m_LblBlockEnterRoomMsg" x="24" y="114" z="0" width="708" height="111" window_state="6">
+            <text value="PLATFOMR_MAINTENANCE_POPUP_TEXT_CANTENTER"/>
+            <font_size value="40"/>
+            <text_color value="cs_lightgrey"/>
+            <text_style value="8"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="35"/>
+        </RichLabel>
+        <Button id="m_BtnOk" x="235" y="295" z="0" width="285" height="70" window_state="6" style="ngs_casino_common_btn08">
+            <text value="PLATFORM_MAINTENANCE_BUTTON_OK"/>
+            <font_size value="45"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <RichLabel id="m_LblTip" x="218" y="450" z="0" width="622" height="35" window_state="260">
+        <text value="PLATFORM_MAINTENANCE_TEXT_SENDPRIZE"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel id="m_Panel" x="926" y="556" z="0" width="205" height="81" window_state="6">
+        <Button id="m_BtnFan" x="-6" y="2" z="0" width="210" height="83" window_state="6" style="ngs_casino_common_btn05">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <font_size value="25"/>
+            <text_align_h value="3"/>
+            <text_offset x="-82" y="-1" z="0"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="17"/>
+        </Button>
+        <Picture id="m_FanIcon" x="147" y="24" z="0" width="36" height="36" window_state="14">
+            <piece_info value="casino_common_menu7"/>
+        </Picture>
+        <RichLabel id="m_FanPage" x="14" y="35" z="0" width="112" height="18" window_state="14">
+            <text value="Fan Page"/>
+            <font_size value="25"/>
+            <text_color value="cs_White"/>
+            <font_id value="LatoReg"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="18"/>
+        </RichLabel>
+    </Panel>
+</Panel>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <dynamic_attr key="ClickStart" type="string" value="m_Panel.m_Button.m_BtnStart"/>
+    <dynamic_attr key="AmountNumbers" type="array" value="3" inner="string">
+        <item>m_Panel.m_Popup.m_Numbers.m_Number_10</item>
+        <item>m_Panel.m_Popup.m_Numbers.m_Number_25</item>
+        <item>m_Panel.m_Popup.m_Numbers.m_Number_50</item>
+    </dynamic_attr>
+    <dynamic_attr key="BonusTexts" type="array" value="2" inner="string">
+        <item>m_Panel.m_Popup.m_Freespin</item>
+        <item>m_Panel.m_Popup.m_Additional_Freespin</item>
+    </dynamic_attr>
+    <dynamic_attr key="StartButtonPanel" type="string" value="m_Panel.m_Button"/>
+    <Panel id="m_TranslucentBlack" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+    </Panel>
+    <Sprite id="vfx_16_Sparkles" x="312" y="168" z="0" width="511" height="288" window_state="6">
+        <scale x="2.3" y="2.3" z="2.3"/>
+        <sprite_file value="slots_006/sprites/vfx_16_Pup_up.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_Popup" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <Picture id="m_GoldRing" x="361" y="113" z="0" width="414" height="414" window_state="6">
+                <piece_info value="slots_006_panel_007"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <PictureMirror id="m_Freespin" x="275" y="368" z="0" width="586" height="69" window_state="6">
+                <piece_info value="slots_006_panel_004"/>
+                <Picture id="m_Freespin" x="65" y="13" z="0" width="456" height="45" window_state="6">
+                    <piece_info value="slots_006_panel_005"/>
+                </Picture>
+            </PictureMirror>
+            <PictureMirror id="m_Additional_Freespin" x="218" y="368" z="0" width="700" height="69" window_state="4">
+                <piece_info value="slots_006_panel_015"/>
+                <Picture id="m_Freespin" x="204" y="13" z="0" width="456" height="45" window_state="6">
+                    <piece_info value="slots_006_panel_005"/>
+                </Picture>
+                <Picture id="m_Additional" x="45" y="13" z="0" width="141" height="45" window_state="262">
+                    <piece_info value="slots_006_panel_016"/>
+                </Picture>
+            </PictureMirror>
+            <Panel id="m_Numbers" x="361" y="113" z="0" width="414" height="414" window_state="6">
+                <Picture id="m_Number_50" x="-12" y="-56" z="0" width="445" height="329" window_state="6">
+                    <dynamic_attr key="ReflectNumber" type="int" value="50"/>
+                    <piece_info value="slots_006_panel_014"/>
+                    <scale_mode value="3"/>
+                </Picture>
+                <Picture id="m_Number_25" x="-12" y="-56" z="0" width="445" height="329" window_state="4">
+                    <dynamic_attr key="ReflectNumber" type="int" value="25"/>
+                    <piece_info value="slots_006_panel_013"/>
+                    <scale_mode value="3"/>
+                </Picture>
+                <Picture id="m_Number_10" x="-12" y="-56" z="0" width="445" height="329" window_state="4">
+                    <dynamic_attr key="ReflectNumber" type="int" value="10"/>
+                    <piece_info value="slots_006_panel_006"/>
+                    <scale_mode value="3"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Flare" x="275" y="368" z="0" width="586" height="69" window_state="6">
+                <Picture id="m_flare1" x="186" y="-15" z="0" width="214" height="20" window_state="4">
+                    <scale x="2" y="1" z="1"/>
+                    <blend_mode value="2"/>
+                    <piece_info value="slots_006_panel_022"/>
+                </Picture>
+                <Picture id="light_animation_01" x="-50" y="-5" z="0" width="214" height="20" window_state="4">
+                    <blend_mode value="2"/>
+                    <action_id value="animation_slot006_icon_light_01"/>
+                    <piece_info value="slots_006_icon_038c"/>
+                </Picture>
+                <Picture id="m_flare2" x="186" y="64" z="0" width="214" height="12" window_state="6">
+                    <blend_mode value="2"/>
+                    <piece_info value="slots_006_panel_023"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_Button" x="411" y="433" z="0" width="313" height="152" window_state="6">
+            <Button id="m_BtnStart" x="5" y="13" z="0" width="303" height="126" window_state="6" style="bs_slots_006_button_005">
+                <font_size value="60"/>
+                <text_align_v value="1"/>
+                <line_height value="30"/>
+            </Button>
+            <PictureMask id="m_PictureMask" x="0" y="0" z="0" width="313" height="152" window_state="14">
+                <scale x="0.85000002" y="0.60000002" z="0.75"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_slot006_touch_start_01"/>
+                <piece_info value="satrt"/>
+                <mask_piece value="shine"/>
+                <mask_scale value="0.33000001"/>
+                <mul_factor value="0.76999998"/>
+                <mask_offset x="0.02" y="0" z="0"/>
+            </PictureMask>
+        </Panel>
+    </Panel>
+</Panel>

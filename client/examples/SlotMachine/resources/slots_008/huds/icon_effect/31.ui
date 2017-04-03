@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="165" height="112" window_state="6">
+    <Picture id="ref" x="0" y="0" z="0" width="165" height="112" window_state="4">
+        <piece_info value="slots_008_icon_013"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-52" y="-37" z="0" width="270" height="185" window_state="6">
+        <sprite_file value="slots_008/sprites/icon013.spr"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Picture id="vfx_flare" x="-106" y="-77" z="0" width="372" height="259" window_state="4">
+        <blend_mode value="2"/>
+        <piece_info value="slots_008_icon_013flare"/>
+    </Picture>
+    <Picture id="vfx_innerglow" x="0" y="0" z="0" width="165" height="112" window_state="4">
+        <piece_info value="slots_008_icon_013innerglow"/>
+    </Picture>
+    <Picture id="vfx_light" x="2" y="0" z="0" width="161" height="112" window_state="4">
+        <blend_mode value="2"/>
+        <piece_info value="slots_008_icon_013light"/>
+    </Picture>
+    <Picture id="vfx_smoke" x="2" y="11" z="0" width="161" height="112" window_state="4">
+        <piece_info value="slots_008_icon_013smoke"/>
+    </Picture>
+    <Picture id="vfx_sun" x="0" y="0" z="0" width="165" height="112" window_state="4">
+        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+        <blend_mode value="2"/>
+        <piece_info value="slots_008_icon_013sun"/>
+    </Picture>
+    <Picture id="vfx_glare" x="32" y="6" z="0" width="100" height="100" window_state="4">
+        <blend_mode value="2"/>
+        <piece_info value="slots_008_icon_013glare"/>
+    </Picture>
+</Panel>

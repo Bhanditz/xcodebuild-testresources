@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:6939270dcfcc6b3abcaa097bbfd890ad$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="lockedwild02.png" width="512" height="512">
+    <sprite n="00006" x="2" y="2" w="288" h="174" oX="37" oY="4" oW="340" oH="194"/>
+    <sprite n="00007" x="292" y="154" w="210" h="166" oX="46" oY="9" oW="340" oH="194"/>
+    <sprite n="00008" x="282" y="322" w="190" h="146" oX="70" oY="8" oW="340" oH="194"/>
+    <sprite n="00009" x="2" y="178" w="188" h="142" oX="66" oY="7" oW="340" oH="194"/>
+    <sprite n="00010" x="2" y="322" w="148" h="188" oX="70" oY="5" oW="340" oH="194" r="y"/>
+    <sprite n="00011" x="292" y="2" w="212" h="150" oX="41" oY="4" oW="340" oH="194"/>
+    <sprite n="00012" x="152" y="322" w="128" h="156" oX="90" oY="17" oW="340" oH="194" r="y"/>
+</TextureAtlas>

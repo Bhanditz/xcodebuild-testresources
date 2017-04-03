@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadingBGIdList>
+  <LoadingBgGroup value="Login" >
+    <LoadingBGID value="casino_lobby_bg01"/>
+    <LoadingTopID value="casino_lobby_bg01"/>
+  </LoadingBgGroup>
+  <LoadingBgGroup value="slots_001" >
+    <LoadingBGID value="slots_loading_bg"/>
+    <LoadingTopID value="slots_001_bg07"/>
+    <LoadingTopID value="slots_001_bg010"/>
+  </LoadingBgGroup>
+  <LoadingBgGroup value="slots_002" >
+    <LoadingBGID value="slots_loading_bg"/>
+    <LoadingTopID value="slots_002_panel5"/>
+  </LoadingBgGroup>
+  <LoadingBgGroup value="slots_003" >
+    <LoadingBGID value="slots_loading_bg"/>
+    <LoadingTopID value="slots_003_bg_02"/>
+    <LoadingTopID value="slots_003_bg_04"/>
+  </LoadingBgGroup>
+  <LoadingBgGroup value="slots_004" >
+    <LoadingBGID value="slots_loading_bg"/>
+    <LoadingTopID value="slots_004_bg_02"/>
+  </LoadingBgGroup>
+</LoadingBGIdList>

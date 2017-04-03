@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel_Congratulations" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Bg" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <scale_mode value="3"/>
+        <Picture id="m_Congrats" x="151" y="107" z="0" width="833" height="146" window_state="6">
+            <piece_info value="slots_008_panel_017a"/>
+        </Picture>
+        <RichLabel id="m_RichLabel" x="50" y="275" z="0" width="1036" height="190" window_state="6">
+            <text value="999,999"/>
+            <font_size value="35"/>
+            <text_style value="32"/>
+            <text_offset x="0" y="-71" z="0"/>
+            <font_id value="Buffalo1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+</Panel>

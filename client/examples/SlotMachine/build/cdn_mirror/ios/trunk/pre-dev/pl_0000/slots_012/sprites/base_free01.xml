@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="base_free01.png" width="512" height="512" blend="2" loop="1">
+    <sprite n="00002" x="2" y="2" w="232" h="150" oX="17" oY="24" oW="300" oH="200" dr="70"/>
+    <sprite n="00004" x="236" y="2" w="230" h="150" oX="17" oY="30" oW="300" oH="200" dr="70"/>
+    <sprite n="00006" x="2" y="154" w="134" h="232" oX="19" oY="38" oW="300" oH="200" r="y" dr="70"/>
+    <sprite n="00008" x="138" y="154" w="124" h="224" oX="25" oY="39" oW="300" oH="200" r="y" dr="70"/>
+    <sprite n="00010" x="2" y="388" w="224" h="112" oX="30" oY="47" oW="300" oH="200" dr="70"/>
+    <sprite n="00012" x="228" y="380" w="216" h="100" oX="34" oY="55" oW="300" oH="200" dr="70"/>
+    <sprite n="00014" x="264" y="154" w="86" h="210" oX="37" oY="64" oW="300" oH="200" r="y" dr="70"/>
+    <sprite n="00016" x="352" y="154" w="80" h="200" oX="46" oY="66" oW="300" oH="200" r="y" dr="70"/>
+    <sprite n="00018" x="446" y="154" w="60" h="194" oX="49" oY="81" oW="300" oH="200" r="y" dr="70"/>
+</TextureAtlas>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1174" height="674" window_state="6">
+    <Panel id="ref" x="0" y="0" z="0" width="1174" height="674" window_state="6">
+        <Picture id="m_bg1" x="24" y="-3" z="0" width="1136" height="374" window_state="6">
+            <action_id value="animation_Sparta_cloud01"/>
+            <piece_info value="slots_002_bg2"/>
+            <scale_mode value="2"/>
+        </Picture>
+        <Picture id="m_bg2" x="-1111" y="-3" z="0" width="1136" height="374" window_state="6">
+            <action_id value="animation_Sparta_cloud01"/>
+            <piece_info value="slots_002_bg2"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Sprite id="m_Sprite_BGlighting" x="19" y="25" z="0" width="230" height="280" window_state="6">
+            <sprite_file value="slots_002/sprites/Sparta_Lightning_01.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite_BGlighting1" x="189" y="21" z="0" width="300" height="230" window_state="6">
+            <sprite_file value="slots_002/sprites/Sparta_Lightning_02.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite_BGlighting2" x="816" y="20" z="0" width="350" height="300" window_state="6">
+            <sprite_file value="slots_002/sprites/Sparta_Lightning_03.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_bg3" x="137" y="28" z="0" width="909" height="216" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <action_id value="animation_Sparta_cloud02"/>
+            <piece_info value="slots_002_bg3"/>
+            <scale_mode value="2"/>
+        </Picture>
+        <Picture id="m_bg4" x="-998" y="28" z="0" width="909" height="216" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <action_id value="animation_Sparta_cloud02"/>
+            <piece_info value="slots_002_bg3"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_bg" x="24" y="241" z="0" width="1136" height="393" window_state="6">
+            <piece_info value="slots_002_bg1"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Sprite id="m_Sprite_sidefire" x="-89" y="291" z="0" width="300" height="300" window_state="4">
+            <sprite_file value="slots_002/sprites/Sparta_bgsidefire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite_sidefire1" x="974" y="290" z="0" width="300" height="300" window_state="4">
+            <sprite_file value="slots_002/sprites/Sparta_bgsidefire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+</Panel>

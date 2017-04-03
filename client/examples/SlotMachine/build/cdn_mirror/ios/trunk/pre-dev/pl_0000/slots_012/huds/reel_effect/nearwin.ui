@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="150" height="375" window_state="6">
+    <Sprite id="m_Sprite" x="-85" y="-95" z="0" width="320" height="560" window_state="262">
+        <scale x="1" y="0.83999997" z="1"/>
+        <sprite_file value="slots_012/sprites/nearwin.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Panel id="m_Panel1" x="82" y="-37" z="0" width="150" height="150" window_state="6">
+        <Sprite id="m_Sprite4" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01glow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel2" x="-81" y="172" z="0" width="150" height="150" window_state="6">
+        <Sprite id="m_Sprite4" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01glow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel3" x="82" y="208" z="0" width="150" height="150" window_state="6">
+        <Sprite id="m_Sprite4" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01glow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel4" x="11" y="322" z="0" width="150" height="150" window_state="6">
+        <Sprite id="m_Sprite4" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01glow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly01.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel5" x="-94" y="190" z="0" width="150" height="150" window_state="6">
+        <Sprite id="m_Sprite4" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly02glow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly02.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel6" x="-60" y="-78" z="0" width="150" height="150" window_state="6">
+        <Sprite id="m_Sprite4" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly02glow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="25" y="25" z="0" width="100" height="100" window_state="262">
+            <sprite_file value="slots_012/sprites/nearwin_butterfly02.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+</Panel>

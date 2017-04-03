@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="148" height="335" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="148" height="335" window_state="262150">
+        <Picture id="m_Bg" x="0" y="0" z="0" width="148" height="539" window_state="262">
+            <piece_info value="slots_015_panel_11b"/>
+        </Picture>
+        <SpineSprite id="m_SpineSprite" x="22" y="495" z="0" width="100" height="100" window_state="6" style="ngs_panel_bg">
+            <action_id value="animation_slot015_dragon@fire"/>
+            <spine_file value="slots_015/spine_sprites/dragon.json"/>
+            <auto_anim_name value="idle"/>
+        </SpineSprite>
+        <Sprite id="m_Sprite" x="-56" y="67" z="0" width="256" height="320" window_state="260">
+            <scale x="0.92000002" y="1" z="1"/>
+            <sprite_file value="slots_015/sprites/dragon_bottonfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="-29" y="15" z="0" width="200" height="512" window_state="260">
+            <scale x="0.92000002" y="1" z="1"/>
+            <sprite_file value="slots_015/sprites/dragon_firerelease.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Panel id="m_Panel1" x="0" y="0" z="0" width="148" height="539" window_state="262148">
+            <Picture id="m_Picture" x="39" y="137" z="0" width="70" height="265" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="slot015_icon041_01"/>
+                <piece_info value="slots_015_dragonbg"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Panel" x="0" y="0" z="0" width="148" height="335" window_state="6" style="ngs_slots_015_panel_11"/>
+        <Sprite id="m_Sprite1" x="-31" y="-30" z="0" width="200" height="600" window_state="260">
+            <scale x="1.3200001" y="0.94" z="1"/>
+            <sprite_file value="slots_015/sprites/dragon_fire.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Panel id="m_wild" x="0" y="0" z="0" width="148" height="539" window_state="4">
+            <Panel id="m_Panel1" x="20" y="29" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild1" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel2" x="20" y="138" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild2" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel3" x="20" y="247" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild3" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel4" x="20" y="356" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild4" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Panel5" x="20" y="465" z="0" width="107" height="52" window_state="6">
+                <Picture id="m_wild5" x="0" y="0" z="0" width="107" height="52" window_state="14">
+                    <piece_info value="slots_015_fonts_09"/>
+                </Picture>
+            </Panel>
+        </Panel>
+    </Panel>
+</Panel>

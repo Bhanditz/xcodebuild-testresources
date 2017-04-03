@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="reel_smash04_right.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="00013" x="2" y="2" w="106" h="320" oX="462" oW="568" oH="320" dr="30"/>
+    <sprite n="00014" x="110" y="2" w="106" h="284" oX="462" oW="568" oH="320" dr="30"/>
+    <sprite n="00015" x="218" y="228" w="106" h="212" oX="462" oW="568" oH="320" dr="30"/>
+    <sprite n="00016" x="218" y="2" w="106" h="224" oX="462" oW="568" oH="320" dr="30"/>
+    <sprite n="00017" x="326" y="2" w="106" h="198" oX="462" oY="38" oW="568" oH="320" dr="30"/>
+    <sprite n="00018" x="326" y="202" w="106" h="186" oX="462" oY="38" oW="568" oH="320" dr="30"/>
+    <sprite n="00019" x="2" y="324" w="106" h="186" oX="462" oY="38" oW="568" oH="320" dr="30"/>
+    <sprite n="00020" x="110" y="288" w="106" h="212" oX="462" oY="38" oW="568" oH="320" dr="30"/>
+    <sprite n="00021" x="434" y="2" w="50" h="120" oX="518" oY="127" oW="568" oH="320" dr="30"/>
+    <sprite n="00022" x="434" y="124" w="36" h="80" oX="532" oY="139" oW="568" oH="320" dr="30"/>
+    <sprite n="00023" x="486" y="2" w="22" h="64" oX="546" oY="157" oW="568" oH="320" dr="30"/>
+    <sprite n="00024" x="326" y="390" w="158" h="106" oX="462" oY="37" oW="568" oH="320" r="y" dr="30"/>
+</TextureAtlas>

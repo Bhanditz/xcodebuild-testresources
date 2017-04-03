@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wild_fire.png" width="512" height="512" scale_x="2" scale_y="2" blend="1" loop="1">
+    <sprite n="wild_fire_015.png" x="469" y="3" w="36" h="36" oX="45" oY="43" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_017.png" x="459" y="201" w="48" h="48" oX="39" oY="36" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_019.png" x="111" y="309" w="64" h="66" oX="31" oY="26" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_021.png" x="105" y="215" w="86" h="90" oX="21" oY="12" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_023.png" x="3" y="209" w="98" h="96" oX="15" oY="10" oW="120" oH="120" r="y" dr="70"/>
+    <sprite n="wild_fire_025.png" x="3" y="103" w="110" h="102" oX="5" oY="3" oW="120" oH="120" r="y" dr="70"/>
+    <sprite n="wild_fire_027.png" x="347" y="201" w="108" h="104" oX="5" oY="6" oW="120" oH="120" r="y" dr="70"/>
+    <sprite n="wild_fire_029.png" x="121" y="99" w="110" h="106" oX="6" oY="8" oW="120" oH="120" r="y" dr="70"/>
+    <sprite n="wild_fire_031.png" x="355" y="91" w="108" h="106" oX="6" oY="14" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_033.png" x="3" y="309" w="104" h="106" oX="8" oY="16" oW="120" oH="120" r="y" dr="70"/>
+    <sprite n="wild_fire_035.png" x="235" y="107" w="108" h="104" oX="7" oY="16" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_037.png" x="239" y="3" w="112" h="100" oX="5" oY="20" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_039.png" x="3" y="3" w="114" h="96" oX="4" oY="21" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_041.png" x="121" y="3" w="114" h="92" oX="5" oY="23" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_043.png" x="355" y="3" w="110" h="84" oX="10" oY="24" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_045.png" x="3" y="419" w="102" h="74" oX="18" oY="27" oW="120" oH="120" dr="70"/>
+    <sprite n="wild_fire_047.png" x="109" y="419" w="92" h="68" oX="26" oY="29" oW="120" oH="120" dr="70"/>
+</TextureAtlas>

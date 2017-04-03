@@ -1,0 +1,6 @@
+# build platform, can be "android" or "ios"
+PLATFORM="android"
+
+
+# texture compress format, can be "etc1" or "pvrtc1"
+TEXTURE_COMPRESS_FMT="etc1"

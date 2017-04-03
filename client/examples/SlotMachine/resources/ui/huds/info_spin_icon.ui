@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="108" height="89" window_state="6">
+    <Panel id="m_Panel" x="11" y="11" z="0" width="86" height="67" window_state="262150">
+        <Picture id="m_PicChips" x="-77" y="-61" z="0" width="243" height="189" window_state="6">
+            <scale x="0.30000001" y="0.30000001" z="0.30000001"/>
+            <piece_info value="casino_common_icon13"/>
+        </Picture>
+        <Picture id="m_Grey" x="-1" y="-3" z="0" width="86" height="71" window_state="6">
+            <piece_info value="casino_common_icon26"/>
+        </Picture>
+        <Panel id="m_Panel" x="0" y="3" z="0" width="87" height="60" window_state="262150">
+            <Picture id="m_Black" x="-1" y="-5" z="0" width="88" height="38" window_state="6">
+                <color_scale x="1" y="1" z="1" w="0.30000001"/>
+                <piece_info value="casino_common_icon26a"/>
+            </Picture>
+        </Panel>
+    </Panel>
+    <RichLabel id="m_RichLabel" x="6" y="21" z="0" width="96" height="50" window_state="6">
+        <text value="500"/>
+        <font_size value="50"/>
+        <font_id value="Bebas"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.43000001"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

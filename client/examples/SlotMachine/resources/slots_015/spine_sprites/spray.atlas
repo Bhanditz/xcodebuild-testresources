@@ -1,0 +1,34 @@
+
+spray.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fog
+  rotate: false
+  xy: 2, 65
+  size: 464, 409
+  orig: 464, 409
+  offset: 0, 0
+  index: -1
+sea
+  rotate: false
+  xy: 468, 195
+  size: 285, 279
+  orig: 285, 279
+  offset: 0, 0
+  index: -1
+spray_01
+  rotate: false
+  xy: 755, 283
+  size: 229, 191
+  orig: 229, 191
+  offset: 0, 0
+  index: -1
+spray_02
+  rotate: false
+  xy: 468, 2
+  size: 229, 191
+  orig: 229, 191
+  offset: 0, 0
+  index: -1

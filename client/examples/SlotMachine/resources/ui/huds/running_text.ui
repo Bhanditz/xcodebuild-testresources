@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_PanNotice" x="73" y="68" z="0" width="1000" height="60" window_state="262150">
+        <color_scale x="1" y="1" z="1" w="0"/>
+        <Picture id="m_PicBanner" x="1" y="6" z="0" width="1000" height="50" window_state="6" style="ngs_casino_common_panel04"/>
+        <RichLabel id="m_LblNotice" x="1" y="6" z="0" width="1000" height="50" window_state="6">
+            <text value="aldkfjasl;dkjfakl;sdfjamnivpiodfmvioemfnasdmvjkadfklasjfpkasdjfkopjaspdkofjapkdjfaopskdjfpasodjfpaosjfopiajefiopasjfjkpjasiopefjasefaefse"/>
+            <font_size value="40"/>
+            <text_color value="cs_Sallow"/>
+            <rich_label_state value="4"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_PanelHint" x="-2" y="0" z="0" width="1140" height="83" window_state="6">
+        <action_id value="playerwall_item_in_1"/>
+        <Picture id="m_Pic1" x="1" y="0" z="0" width="1138" height="75" window_state="6" style="ngs_casino_common_panel59"/>
+        <Panel id="m_HintLabelPanel" x="39" y="3" z="0" width="1065" height="50" window_state="262150">
+            <RichLabel id="m_LbMessage" x="30" y="-1" z="0" width="1000" height="50" window_state="6">
+                <text value="Rich&lt;font color=&quot;cs_Redtxt&quot;&gt;Label&lt;/font&gt;"/>
+                <font_size value="40"/>
+                <text_color value="cs_Sallow"/>
+                <rich_label_state value="4"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+</Panel>

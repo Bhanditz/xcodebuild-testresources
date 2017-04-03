@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="520" height="464" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="520" height="464" window_state="6">
+        <Picture id="m_Bg" x="0" y="0" z="0" width="520" height="464" window_state="262">
+            <piece_info value="slots_013_icon_10a"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="209" y="127" z="0" width="102" height="210" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot013_icon10"/>
+            <piece_info value="slots_013_icon_10_mask"/>
+            <mask_piece value="slots_013_icon_10_sweep"/>
+            <mask_offset x="-0.34999999" y="0" z="0"/>
+        </PictureMask>
+        <Picture id="m_Picture" x="122" y="114" z="0" width="98" height="98" window_state="4">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_06c"/>
+        </Picture>
+        <Picture id="m_Picture1" x="308" y="343" z="0" width="98" height="98" window_state="4">
+            <blend_mode value="2"/>
+            <piece_info value="slots_013_icon_06c"/>
+        </Picture>
+    </Panel>
+</Panel>

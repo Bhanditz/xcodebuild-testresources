@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="icon_023vfx.png" width="512" height="512" scale_x="1.67" scale_y="1.67" blend="2" loop="1">
+    <sprite n="Scatter_000.png" x="375" y="151" w="116" h="116" oX="47" oY="44" oW="200" oH="200" dr="70"/>
+    <sprite n="Scatter_002.png" x="3" y="187" w="166" h="168" oX="18" oY="18" oW="200" oH="200" dr="70"/>
+    <sprite n="Scatter_004.png" x="189" y="183" w="178" h="174" oX="14" oY="15" oW="200" oH="200" dr="70"/>
+    <sprite n="Scatter_006.png" x="3" y="3" w="182" h="180" oX="12" oY="11" oW="200" oH="200" dr="70"/>
+    <sprite n="Scatter_007.png" x="189" y="3" w="182" h="176" oX="12" oY="11" oW="200" oH="200" dr="70"/>
+    <sprite n="Scatter_008.png" x="143" y="361" w="136" h="146" oX="29" oY="36" oW="200" oH="200" r="y" dr="70"/>
+    <sprite n="Scatter_009.png" x="3" y="361" w="136" h="146" oX="29" oY="36" oW="200" oH="200" r="y" dr="70"/>
+    <sprite n="Scatter_010.png" x="371" y="271" w="136" h="146" oX="29" oY="36" oW="200" oH="200" r="y" dr="70"/>
+    <sprite n="Scatter_011.png" x="375" y="3" w="130" h="144" oX="29" oY="39" oW="200" oH="200" r="y" dr="70"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="251" height="566" window_state="6">
+    <Sprite id="m_SpriteNearWinOutline" x="-74" y="-17" z="0" width="400" height="600" window_state="14">
+        <scale x="1.26" y="1.1900001" z="1.22"/>
+        <sprite_file value="sprites/volcano_focus.spr"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

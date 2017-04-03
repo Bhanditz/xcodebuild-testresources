@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_TranslucentBlack" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+    </Panel>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Particle id="m_Particle3" x="558" y="310" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <particle_state value="1"/>
+            <package_file value="slots_014/particles/cc.ptc"/>
+            <particle_name value="freespin"/>
+        </Particle>
+        <Particle id="m_Particle1" x="558" y="310" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <particle_state value="1"/>
+            <package_file value="slots_014/particles/cc.ptc"/>
+            <particle_name value="report"/>
+        </Particle>
+        <Picture id="m_Picture2" x="496" y="242" z="0" width="199" height="160" window_state="6">
+            <scale x="4" y="4" z="4"/>
+            <blend_mode value="2"/>
+            <piece_info value="report_glow"/>
+        </Picture>
+        <Picture id="m_Picture" x="243" y="10" z="0" width="710" height="630" window_state="6">
+            <piece_info value="slots_014_icon_15_a"/>
+            <PictureMask id="m_PictureMask" x="229" y="195" z="0" width="193" height="164" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <color_scale x="1" y="1" z="1" w="0.30000001"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_slot014_reportsweep"/>
+                <piece_info value="report_mask"/>
+                <mask_piece value="report_sweep"/>
+                <mask_offset x="-0.5" y="0" z="0"/>
+            </PictureMask>
+        </Picture>
+        <RichLabel id="m_RichLabel" x="438" y="292" z="0" width="260" height="60" window_state="6">
+            <text value="36685"/>
+            <font_size value="28"/>
+            <font_id value="slots_014"/>
+            <smooth value="0.30000001"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_Picture1" x="400" y="162" z="0" width="432" height="320" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="slots_014_icon_15_d"/>
+        </Picture>
+        <Particle id="m_Particle2" x="558" y="444" z="0" width="20" height="20" window_state="4" style="ngs_panel_bg">
+            <particle_state value="1"/>
+            <package_file value="slots_014/particles/cc.ptc"/>
+            <particle_name value="report1"/>
+        </Particle>
+    </Panel>
+</Panel>

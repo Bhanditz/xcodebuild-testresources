@@ -1,0 +1,398 @@
+
+near_mao2.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/body
+  rotate: true
+  xy: 2, 16
+  size: 110, 198
+  orig: 110, 198
+  offset: 0, 0
+  index: -1
+images/dangao01
+  rotate: false
+  xy: 1735, 80
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+images/dangao02
+  rotate: false
+  xy: 1706, 102
+  size: 47, 24
+  orig: 47, 24
+  offset: 0, 0
+  index: -1
+images/dangao03
+  rotate: false
+  xy: 895, 97
+  size: 64, 29
+  orig: 64, 29
+  offset: 0, 0
+  index: -1
+images/hair_01
+  rotate: false
+  xy: 694, 88
+  size: 66, 38
+  orig: 66, 38
+  offset: 0, 0
+  index: -1
+images/hair_02
+  rotate: false
+  xy: 625, 84
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+images/head
+  rotate: false
+  xy: 202, 17
+  size: 120, 109
+  orig: 120, 109
+  offset: 0, 0
+  index: -1
+images/jiao_l
+  rotate: false
+  xy: 1968, 108
+  size: 37, 18
+  orig: 37, 18
+  offset: 0, 0
+  index: -1
+images/jiao_l_02
+  rotate: false
+  xy: 1891, 92
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+images/jiao_r
+  rotate: true
+  xy: 363, 18
+  size: 33, 22
+  orig: 33, 22
+  offset: 0, 0
+  index: -1
+images/meimao_l_01
+  rotate: false
+  xy: 1975, 90
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+images/meimao_r_01
+  rotate: false
+  xy: 2, 2
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+images/panzi
+  rotate: false
+  xy: 452, 101
+  size: 97, 25
+  orig: 97, 25
+  offset: 0, 0
+  index: -1
+images/shou_l_01
+  rotate: false
+  xy: 324, 2
+  size: 37, 49
+  orig: 37, 49
+  offset: 0, 0
+  index: -1
+images/shou_l_02
+  rotate: false
+  xy: 551, 79
+  size: 72, 47
+  orig: 72, 47
+  offset: 0, 0
+  index: -1
+images/shou_l_03
+  rotate: true
+  xy: 1291, 82
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+images/shou_r_01
+  rotate: true
+  xy: 511, 36
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+images/shou_r_02
+  rotate: true
+  xy: 1339, 90
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+images/shoubi_da_l_01
+  rotate: false
+  xy: 1081, 79
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+images/shoubi_da_r_01
+  rotate: true
+  xy: 387, 2
+  size: 53, 60
+  orig: 53, 60
+  offset: 0, 0
+  index: -1
+images/shoubi_da_r_02
+  rotate: true
+  xy: 449, 2
+  size: 53, 60
+  orig: 53, 60
+  offset: 0, 0
+  index: -1
+images/shoubi_xiao_l_10
+  rotate: true
+  xy: 1390, 91
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+images/shoubi_xiao_r_01
+  rotate: false
+  xy: 1242, 86
+  size: 47, 40
+  orig: 47, 40
+  offset: 0, 0
+  index: -1
+images/shoubi_xiao_r_02
+  rotate: false
+  xy: 387, 57
+  size: 63, 69
+  orig: 63, 69
+  offset: 0, 0
+  index: -1
+images/shouzhang_r_01
+  rotate: false
+  xy: 1667, 91
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+images/shouzhang_r_02
+  rotate: false
+  xy: 1929, 105
+  size: 37, 21
+  orig: 37, 21
+  offset: 0, 0
+  index: -1
+images/shouzhi_l_01
+  rotate: true
+  xy: 1583, 90
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+images/shouzhi_r_002
+  rotate: false
+  xy: 202, 2
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+images/shouzhi_r_01
+  rotate: false
+  xy: 1871, 78
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+images/shouzhi_r_02
+  rotate: false
+  xy: 1817, 74
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+images/shouzhi_r_03
+  rotate: false
+  xy: 1929, 80
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+images/shouzhi_r_04
+  rotate: false
+  xy: 1706, 81
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+images/tui_da_l
+  rotate: false
+  xy: 1440, 87
+  size: 45, 39
+  orig: 45, 39
+  offset: 0, 0
+  index: -1
+images/tui_da_l_02
+  rotate: false
+  xy: 324, 53
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+images/tui_da_r
+  rotate: false
+  xy: 1626, 88
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+images/tui_xiao_l
+  rotate: false
+  xy: 1760, 77
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+images/tui_xiao_l_02
+  rotate: false
+  xy: 1534, 93
+  size: 47, 33
+  orig: 47, 33
+  offset: 0, 0
+  index: -1
+images/tui_xiao_r
+  rotate: true
+  xy: 1803, 101
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+images/tui_xiao_r2
+  rotate: true
+  xy: 1847, 101
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+images/weiba
+  rotate: false
+  xy: 1188, 86
+  size: 52, 40
+  orig: 52, 40
+  offset: 0, 0
+  index: -1
+images/weiba_1
+  rotate: false
+  xy: 762, 91
+  size: 66, 35
+  orig: 66, 35
+  offset: 0, 0
+  index: -1
+images/weijing
+  rotate: true
+  xy: 452, 69
+  size: 30, 87
+  orig: 30, 87
+  offset: 0, 0
+  index: -1
+images/weijing_01
+  rotate: false
+  xy: 961, 89
+  size: 58, 37
+  orig: 58, 37
+  offset: 0, 0
+  index: -1
+images/yanbai_l_01
+  rotate: true
+  xy: 1891, 71
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+images/yanbai_r_01
+  rotate: true
+  xy: 1789, 77
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+images/yanjing_l_01
+  rotate: true
+  xy: 1959, 80
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+images/yanjing_l_02
+  rotate: false
+  xy: 1844, 74
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+images/yanjing_r_01
+  rotate: false
+  xy: 2007, 109
+  size: 33, 17
+  orig: 33, 17
+  offset: 0, 0
+  index: -1
+images/yanjing_r_02
+  rotate: true
+  xy: 511, 3
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+images/yanzhu_l_01
+  rotate: false
+  xy: 1918, 77
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+images/yanzhu_r_01
+  rotate: false
+  xy: 229, 2
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+images/zuiba
+  rotate: false
+  xy: 1487, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/zuiba_01
+  rotate: false
+  xy: 1021, 82
+  size: 58, 44
+  orig: 58, 44
+  offset: 0, 0
+  index: -1
+images/zuiba_02
+  rotate: false
+  xy: 1135, 83
+  size: 51, 43
+  orig: 51, 43
+  offset: 0, 0
+  index: -1
+images/zuiba_04
+  rotate: false
+  xy: 1755, 105
+  size: 46, 21
+  orig: 46, 21
+  offset: 0, 0
+  index: -1
+images/zuichun_01
+  rotate: false
+  xy: 830, 94
+  size: 63, 32
+  orig: 63, 32
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+	<Image id="casino_lobby_loading_bg01" file_name="casino_lobby_loading_bg01.jpg" width="1024" height="577"/>
+	<Image id="casino_vip_bg" file_name="casino_vip_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_monthlyreward_bg" file_name="casino_monthlyreward_bg.jpg" width="1024" height="577"/>
+	<Image id="lobby_bg01" file_name="lobby_bg01.jpg" width="1024" height="577"/>
+	<Image id="lobby_bg02" file_name="lobby_bg02.jpg" width="1024" height="577"/>
+	<Image id="casino_vip_lvl0" file_name="casino_vip_lvl0.jpg" width="335" height="215"/>
+	<Image id="casino_vip_lvl1" file_name="casino_vip_lvl1.jpg" width="335" height="215"/>
+	<Image id="casino_vip_lvl2" file_name="casino_vip_lvl2.jpg" width="335" height="215"/>
+	<Image id="casino_vip_lvl3" file_name="casino_vip_lvl3.jpg" width="335" height="215"/>
+	<Image id="casino_vip_lvl4" file_name="casino_vip_lvl4.jpg" width="335" height="215"/>
+	<Image id="casino_vip_lvl5" file_name="casino_vip_lvl5.jpg" width="335" height="215"/>
+	<Image id="casino_vip_lvl6" file_name="casino_vip_lvl6.jpg" width="335" height="215"/>
+	<Image id="casino_loginrewards_bg" file_name="casino_loginrewards_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_7day_bg" file_name="casino_7day_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_bust_bg" file_name="casino_bust_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_vip_return_bg" file_name="casino_vip_return_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_eventcenter_timebonus_bg" file_name="casino_eventcenter_timebonus_bg.jpg" width="1024" height="514"/>
+	<Image id="casino_ratings_bg" file_name="casino_ratings_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_tournamentwin_bg" file_name="casino_tournamentwin_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_turntable_bg" file_name="casino_turntable_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_birthday_bg" file_name="casino_birthday_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_jackpot_bg" file_name="casino_jackpot_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_loginrewards_bg2" file_name="casino_loginrewards_bg2.jpg" width="1024" height="577"/>
+	<Image id="casino_discount_bg" file_name="casino_discount_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_offer_bg" file_name="casino_offer_bg.jpg" width="1024" height="577"/>
+	<Image id="casino_7day_bg_lifetime" file_name="casino_7day_bg_lifetime.jpg" width="512" height="64"/>
+	<Image id="casino_7day_bg_promo" file_name="casino_7day_bg_promo.jpg" width="587" height="94"/>
+	<Image id="casino_bg03" file_name="casino_bg03.jpg" width="1024" height="577"/>
+	<Image id="casino_discount_bg_07" file_name="casino_discount_bg_07.jpg" width="1024" height="577"/>
+	<Image id="lobby_bg02_07" file_name="lobby_bg02_07.jpg" width="1024" height="577"/>
+	<Image id="casino_loginrewards_bg2_07" file_name="casino_loginrewards_bg2_07.jpg" width="1024" height="577"/>
+	<Image id="casino_monthlyreward_bg_07" file_name="casino_monthlyreward_bg_07.jpg" width="1024" height="514"/>
+	<Image id="casino_shop_07" file_name="casino_shop_07.jpg" width="1024" height="577"/>
+	<Image id="casino_eventcenter_timebonus_bg_07" file_name="casino_eventcenter_timebonus_bg_07.jpg" width="1024" height="514"/>
+	<Image id="casino_lobby_loading_bg01_07" file_name="casino_lobby_loading_bg01_07.jpg" width="1024" height="577"/>
+	<Image id="casino_monthlyreward_bg_small" file_name="casino_monthlyreward_bg_small.jpg" width="1024" height="514"/>
+	<Image id="casino_10day_bg_promo" file_name="casino_10day_bg_promo.jpg" width="587" height="94"/>
+	<Image id="casino_eventcenter_rebate" file_name="casino_eventcenter_rebate.jpg" width="1024" height="514"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="casino_lobby_loading_bg01" image_id="casino_lobby_loading_bg01" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_vip_bg" image_id="casino_vip_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_monthlyreward_bg" image_id="casino_monthlyreward_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="lobby_bg01" image_id="lobby_bg01" x="0" y="0" width="1024" height="577"/>
+	<Piece id="lobby_bg02" image_id="lobby_bg02" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_vip_lvl0" image_id="casino_vip_lvl0" x="0" y="0" width="335" height="215"/>
+	<Piece id="casino_vip_lvl1" image_id="casino_vip_lvl1" x="0" y="0" width="335" height="215"/>
+	<Piece id="casino_vip_lvl2" image_id="casino_vip_lvl2" x="0" y="0" width="335" height="215"/>
+	<Piece id="casino_vip_lvl3" image_id="casino_vip_lvl3" x="0" y="0" width="335" height="215"/>
+	<Piece id="casino_vip_lvl4" image_id="casino_vip_lvl4" x="0" y="0" width="335" height="215"/>
+	<Piece id="casino_vip_lvl5" image_id="casino_vip_lvl5" x="0" y="0" width="335" height="215"/>
+	<Piece id="casino_vip_lvl6" image_id="casino_vip_lvl6" x="0" y="0" width="335" height="215"/>
+	<Piece id="casino_loginrewards_bg" image_id="casino_loginrewards_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_7day_bg" image_id="casino_7day_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_bust_bg" image_id="casino_bust_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_vip_return_bg" image_id="casino_vip_return_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_eventcenter_timebonus_bg" image_id="casino_eventcenter_timebonus_bg" x="0" y="0" width="1024" height="514"/>
+	<Piece id="casino_ratings_bg" image_id="casino_ratings_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_tournamentwin_bg" image_id="casino_tournamentwin_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_turntable_bg" image_id="casino_turntable_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_birthday_bg" image_id="casino_birthday_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_jackpot_bg" image_id="casino_jackpot_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_loginrewards_bg2" image_id="casino_loginrewards_bg2" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_discount_bg" image_id="casino_discount_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_offer_bg" image_id="casino_offer_bg" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_7day_bg_lifetime" image_id="casino_7day_bg_lifetime" x="0" y="0" width="512" height="64"/>
+	<Piece id="casino_7day_bg_promo" image_id="casino_7day_bg_promo" x="0" y="0" width="587" height="94"/>
+	<Piece id="casino_bg03" image_id="casino_bg03" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_discount_bg_07" image_id="casino_discount_bg_07" x="0" y="0" width="1024" height="577"/>
+	<Piece id="lobby_bg02_07" image_id="lobby_bg02_07" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_loginrewards_bg2_07" image_id="casino_loginrewards_bg2_07" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_monthlyreward_bg_07" image_id="casino_monthlyreward_bg_07" x="0" y="0" width="1024" height="514"/>
+	<Piece id="casino_shop_07" image_id="casino_shop_07" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_eventcenter_timebonus_bg_07" image_id="casino_eventcenter_timebonus_bg_07" x="0" y="0" width="1024" height="514"/>
+	<Piece id="casino_lobby_loading_bg01_07" image_id="casino_lobby_loading_bg01_07" x="0" y="0" width="1024" height="577"/>
+	<Piece id="casino_monthlyreward_bg_small" image_id="casino_monthlyreward_bg_small" x="0" y="0" width="1024" height="514"/>
+	<Piece id="casino_10day_bg_promo" image_id="casino_10day_bg_promo" x="0" y="0" width="587" height="94"/>
+	<Piece id="casino_eventcenter_rebate" image_id="casino_eventcenter_rebate" x="0" y="0" width="1024" height="514"/>
+  </PieceList>
+</ImagePiece>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+  <Image id="blackjack_bg_01" file_name="blackjack_bg_01.jpg" width="1024" height="577"/> 
+  <Image id="blackjack_bg_02" file_name="blackjack_bg_02.jpg" width="1024" height="577"/> 
+  <Image id="blackjack_loading_bg01" file_name="blackjack_loading_bg01.jpg" width="1136" height="640"/> 
+  </ImageList>
+  <PieceList>
+  <Piece id="blackjack_bg_01" image_id="blackjack_bg_01" x="0" y="0" width="1024" height="577"/> 
+  <Piece id="blackjack_bg_02" image_id="blackjack_bg_02" x="0" y="0" width="1024" height="577"/>
+  <Piece id="blackjack_loading_bg01" image_id="blackjack_loading_bg01" x="0" y="0" width="1136" height="640"/>
+  </PieceList>
+ 
+</ImagePiece>
+
+

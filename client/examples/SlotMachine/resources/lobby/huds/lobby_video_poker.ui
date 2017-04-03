@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanelVideoPokerLobby" x="253" y="274" z="0" width="1136" height="446" window_state="6">
+    <Panel id="m_PanelContainer" x="0" y="-20" z="0" width="1136" height="446" window_state="262150" style="ngs_panel_bg">
+        <RichLabel id="m_LblLobby" x="425" y="7" z="0" width="286" height="40" window_state="6">
+            <text value="VIDEOPOKER_LOBBY_TITLE"/>
+            <font_size value="55"/>
+            <text_color value="cs_White"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblLobbyb" x="459" y="3" z="0" width="32" height="40" window_state="4">
+            <scale x="0.79000002" y="0.79000002" z="0.79000002"/>
+            <text value="V"/>
+            <font_size value="50"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.37"/>
+            <outline_center value="0.49000001"/>
+            <word_spacing value="3"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <GridList id="m_GridListMix" x="-189" y="14" z="0" width="1480" height="426" window_state="262150">
+            <scroll_state value="37"/>
+            <content_size x="0" y="436" z="0"/>
+            <page_size x="1136" y="436" z="1"/>
+            <gap x="249" y="436" z="0"/>
+            <row value="1"/>
+            <column value="6"/>
+            <Panel id="m_PanelPrev" x="0" y="0" z="0" width="256" height="435" window_state="6">
+                <rotation x="0" y="0.017453292" z="0"/>
+                <color_scale x="0.43000001" y="0.43000001" z="0.43000001" w="1"/>
+                <Button implement_class="ButtonTheme" id="m_BtnRow0" x="12" y="41" z="0" width="231" height="361" window_state="6" style="bs_casino_lobby_vp_big1">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-15" y="-14" z="0" width="261" height="390" window_state="14" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-15" y="-14" z="0" width="261" height="390" window_state="6" style="ngs_selected_glow"/>
+                </Button>
+                <RichLabel id="m_LblCountdown" x="70" y="115" z="0" width="116" height="30" window_state="4">
+                    <text value="02:00:01"/>
+                    <font_size value="40"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_PanelSize1" x="249" y="0" z="0" width="256" height="435" window_state="6">
+                <rotation x="0" y="0.017453292" z="0"/>
+                <Button implement_class="ButtonTheme" id="m_BtnRow0" x="12" y="41" z="0" width="231" height="361" window_state="262" style="bs_casino_lobby_vp_big1">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-14" y="-15" z="0" width="259" height="392" window_state="14" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-15" y="-14" z="0" width="261" height="390" window_state="4" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSize2" x="498" y="0" z="0" width="256" height="435" window_state="6">
+                <Button implement_class="ButtonTheme" id="m_BtnRow0" x="12" y="41" z="0" width="231" height="361" window_state="6" style="bs_casino_lobby_vp_big2">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-14" y="-15" z="0" width="259" height="392" window_state="14" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-15" y="-14" z="0" width="261" height="390" window_state="4" style="ngs_selected_glow"/>
+                </Button>
+                <Button id="m_BtnRow1" x="-5" y="214" z="0" width="0" height="0" window_state="260">
+                    <line_height value="30"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSize3" x="747" y="0" z="0" width="256" height="435" window_state="6">
+                <rotation x="0" y="0.017453292" z="0"/>
+                <Button implement_class="ButtonTheme" id="m_BtnRow0" x="14" y="41" z="0" width="231" height="361" window_state="6" style="bs_casino_lobby_vp_big3">
+                    <line_height value="30"/>
+                    <Picture id="m_PicFrame0" x="-14" y="-15" z="0" width="259" height="392" window_state="14" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-15" y="-14" z="0" width="261" height="390" window_state="4" style="ngs_selected_glow"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelSize4" x="996" y="0" z="0" width="256" height="435" window_state="6">
+                <Button implement_class="ButtonTheme" id="m_BtnRow0" x="13" y="41" z="0" width="231" height="361" window_state="262" style="bs_casino_lobby_vp_big4">
+                    <line_height value="30"/>
+                    <RichLabel id="m_LblName" x="15" y="271" z="0" width="198" height="40" window_state="4">
+                        <text value="Name and Unlock"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.47999999"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_PicFrame0" x="-14" y="-15" z="0" width="259" height="392" window_state="14" style="ngs_selected_glow2"/>
+                    <Picture id="m_PicFrame1" x="-15" y="-14" z="0" width="261" height="390" window_state="4" style="ngs_selected_glow"/>
+                </Button>
+                <Button id="m_BtnRow1" x="-5" y="214" z="0" width="0" height="0" window_state="260">
+                    <line_height value="30"/>
+                </Button>
+            </Panel>
+            <Panel id="m_PanelNext" x="1245" y="0" z="0" width="256" height="435" window_state="4">
+                <rotation x="0" y="0.017453292" z="0"/>
+                <color_scale x="0.43000001" y="0.43000001" z="0.43000001" w="1"/>
+                <Button id="m_BtnRow0" x="9" y="24" z="0" width="237" height="207" window_state="4">
+                    <line_height value="30"/>
+                </Button>
+                <Button id="m_BtnRow1" x="9" y="214" z="0" width="267" height="207" window_state="260">
+                    <line_height value="30"/>
+                </Button>
+            </Panel>
+        </GridList>
+        <GridList implement_class="GridListVideoPoker" id="m_GridListCasino" x="-9" y="15" z="0" width="1396" height="426" window_state="262148">
+            <scroll_state value="37"/>
+            <page_size x="234" y="180" z="1"/>
+            <gap x="237" y="180" z="0"/>
+            <row value="1"/>
+            <column value="6"/>
+        </GridList>
+        <Button id="m_BtnPrevPage" x="17" y="208" z="0" width="88" height="88" window_state="4">
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_BtnNextPage" x="1040" y="209" z="0" width="88" height="88" window_state="4">
+            <line_height value="30"/>
+        </Button>
+        <Panel id="m_PanSwitch" x="262" y="414" z="0" width="600" height="30" window_state="6">
+            <Picture id="m_PicPage0" x="13" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage1" x="33" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage2" x="53" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage3" x="73" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage4" x="93" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage5" x="113" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scroll"/>
+            </Picture>
+            <Picture id="m_PicPage6" x="133" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scroll"/>
+            </Picture>
+            <Picture id="m_PicCurrent" x="33" y="9" z="0" width="11" height="11" window_state="6">
+                <piece_info value="casino_lobby_slot_scrolla"/>
+            </Picture>
+        </Panel>
+    </Panel>
+</Panel>

@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_MultiTable" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_PicBG" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="lobby_bg02"/>
+        <Picture id="m_Picture" x="0" y="63" z="0" width="1024" height="513" window_state="6" style="cs_black">
+            <color_scale x="0.30000001" y="0.30000001" z="0.30000001" w="0.30000001"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_PicTop" x="0" y="0" z="0" width="1136" height="70" window_state="6" style="ngs_casino_common_panel01a">
+        <Picture id="m_PicTitle" x="359" y="8" z="0" width="417" height="67" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_common_panel12b"/>
+        </Picture>
+        <RichLabel id="m_RichLabel3" x="442" y="5" z="0" width="251" height="65" window_state="6">
+            <text value="TEXASPOKER_MULTIPLAY_TITLE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <RichLabel id="m_RichLabel" x="-1" y="87" z="0" width="1136" height="35" window_state="14">
+        <text value="TEXASPOKER_MULTIPLAY_TEXT_RULE"/>
+        <font_size value="35"/>
+        <text_color value="cs_White"/>
+        <font_id value="MyraidPro"/>
+        <rich_label_state value="5"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.30000001"/>
+        <outline_center value="0.5"/>
+        <line_height value="26"/>
+    </RichLabel>
+    <Panel id="m_PanelBtn" x="-23" y="122" z="0" width="1210" height="398" window_state="6">
+        <Button implement_class="ButtonMultiTblItem" id="m_BtnRoom0" x="49" y="10" z="0" width="205" height="375" window_state="6">
+            <line_height value="30"/>
+            <Panel id="m_PanelBg" x="1" y="-1" z="0" width="205" height="375" window_state="6" style="bs_poker_lobby_multi_button7"/>
+            <Picture id="m_Picture" x="27" y="22" z="0" width="154" height="173" window_state="6">
+                <piece_info value="casino_common_icon02"/>
+            </Picture>
+            <Picture id="m_PicLock" x="58" y="62" z="0" width="90" height="128" window_state="4">
+                <piece_info value="poker_lobby_multi_icon5b"/>
+            </Picture>
+            <Picture id="m_PicSit" x="46" y="57" z="0" width="114" height="139" window_state="260">
+                <piece_info value="poker_lobby_multi_icon5"/>
+            </Picture>
+            <Picture id="m_PicTick" x="73" y="305" z="0" width="60" height="44" window_state="4">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+                <piece_info value="poker_lobby_multi_icon6"/>
+            </Picture>
+            <RichLabel id="m_LblGameState" x="19" y="209" z="0" width="169" height="25" window_state="4">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_CHOOSEGAME"/>
+                <text_color value="cs_White"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblRoomNumber" x="76" y="264" z="0" width="52" height="75" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_LOBBY_TABLENUMBER_1"/>
+                <font_size value="100"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button id="m_BtnSetting" x="116" y="240" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <color_scale x="0.60000002" y="1.5" z="0.5" w="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <color_scale x="0.30000001" y="0.5" z="0.30000001" w="1"/>
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+            <Panel id="m_PanelExpand" x="25" y="259" z="0" width="120" height="63" window_state="4">
+                <RichLabel id="m_LblInfo" x="7" y="27" z="0" width="100" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="DroidSansFallback"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="8" y="1" z="0" width="404" height="25" window_state="262">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_MAXBUYIN"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnRemove" x="143" y="-8" z="0" width="78" height="83" window_state="4" style="bs_casino_common_btn01">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <piece_info value="casino_common_btn010"/>
+                </Picture>
+            </Button>
+            <RichLabel id="m_LblRoom" x="2" y="202" z="0" width="203" height="50" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_HOLDEM"/>
+                <font_size value="50"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <Button implement_class="ButtonMultiTblItem" id="m_BtnRoom2" x="487" y="10" z="0" width="205" height="375" window_state="6">
+            <line_height value="30"/>
+            <Panel id="m_PanelBg" x="0" y="-1" z="0" width="205" height="375" window_state="6" style="bs_poker_lobby_multi_button7"/>
+            <Picture id="m_Picture" x="21" y="36" z="0" width="163" height="190" window_state="6">
+                <piece_info value="poker_lobby_room_type_3"/>
+            </Picture>
+            <Picture id="m_PicLock" x="58" y="62" z="0" width="90" height="128" window_state="4">
+                <piece_info value="poker_lobby_multi_icon5b"/>
+            </Picture>
+            <Picture id="m_PicSit" x="46" y="57" z="0" width="114" height="139" window_state="260">
+                <piece_info value="poker_lobby_multi_icon5"/>
+            </Picture>
+            <Picture id="m_PicTick" x="73" y="302" z="0" width="60" height="44" window_state="4">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+                <piece_info value="poker_lobby_multi_icon6"/>
+            </Picture>
+            <RichLabel id="m_LblGameState" x="18" y="211" z="0" width="169" height="25" window_state="4">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_CHOOSEGAME"/>
+                <text_color value="cs_White"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblRoomNumber" x="77" y="262" z="0" width="52" height="75" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_LOBBY_TABLENUMBER_3"/>
+                <font_size value="110"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_PanelExpand" x="25" y="259" z="0" width="120" height="63" window_state="4">
+                <RichLabel id="m_LblInfo" x="7" y="27" z="0" width="100" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="DroidSansFallback"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="8" y="1" z="0" width="404" height="25" window_state="262">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_MAXBUYIN"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="116" y="240" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <color_scale x="0.60000002" y="1.5" z="0.5" w="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <color_scale x="0.30000001" y="0.5" z="0.30000001" w="1"/>
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+            <Button id="m_BtnRemove" x="143" y="-8" z="0" width="78" height="83" window_state="4" style="bs_casino_common_btn01">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <piece_info value="casino_common_btn010"/>
+                </Picture>
+            </Button>
+            <RichLabel id="m_LblRoom" x="0" y="206" z="0" width="203" height="45" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_SNG"/>
+                <font_size value="50"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <Panel id="m_PanelSelectTblR" x="261" y="4" z="0" width="492" height="386" window_state="4">
+            <Panel id="m_Panel" x="0" y="0" z="0" width="492" height="386" window_state="6" style="ngs_poker_lobby_multi_panel3"/>
+            <Button implement_class="ButtonMultiSelect" id="m_Btn0" x="217" y="18" z="0" width="263" height="68" window_state="6" style="ngs_poker_common_multi_button2">
+                <font_size value="55"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="0" y="4" z="0" width="176" height="58" window_state="270">
+                    <piece_info value="poker_common_icon_047"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="115" y="6" z="0" width="135" height="55" window_state="14">
+                    <text value="TEXASPOKER_MULTIPLAY_ADDTABLE_BUTTON_HOLDEM"/>
+                    <font_size value="50"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_PicGreen" x="-10" y="-11" z="0" width="281" height="88" window_state="14" style="ngs_poker_common_panel_003"/>
+            </Button>
+            <Button implement_class="ButtonMultiSelect" id="m_Btn1" x="217" y="89" z="0" width="263" height="68" window_state="6" style="ngs_poker_common_multi_button2">
+                <font_size value="55"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="3" y="4" z="0" width="176" height="58" window_state="270">
+                    <piece_info value="poker_common_icon_048"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="115" y="6" z="0" width="135" height="55" window_state="14">
+                    <text value="TEXASPOKER_MULTIPLAY_ADDTABLE_BUTTON_SNG"/>
+                    <font_size value="50"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_PicGreen" x="-10" y="-10" z="0" width="281" height="88" window_state="12" style="ngs_poker_common_panel_003"/>
+            </Button>
+            <Button implement_class="ButtonMultiSelect" id="m_Btn2" x="217" y="160" z="0" width="263" height="68" window_state="6" style="ngs_poker_common_multi_button2">
+                <font_size value="55"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="3" y="4" z="0" width="176" height="58" window_state="270">
+                    <piece_info value="poker_common_icon_046"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="91" y="6" z="0" width="159" height="55" window_state="14">
+                    <text value="TEXASPOKER_MULTIPLAY_ADDTABLE_BUTTON_SHOOTOUT"/>
+                    <font_size value="50"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_PicGreen" x="-10" y="-10" z="0" width="281" height="88" window_state="4" style="ngs_poker_common_panel_003"/>
+            </Button>
+        </Panel>
+        <Button implement_class="ButtonMultiTblItem" id="m_BtnRoom1" x="268" y="10" z="0" width="205" height="375" window_state="6">
+            <line_height value="30"/>
+            <Panel id="m_PanelBg" x="1" y="-1" z="0" width="205" height="375" window_state="6" style="bs_poker_lobby_multi_button7"/>
+            <Picture id="m_Picture" x="28" y="35" z="0" width="154" height="173" window_state="6">
+                <piece_info value="poker_lobby_room_type_2"/>
+            </Picture>
+            <Picture id="m_PicLock" x="58" y="62" z="0" width="90" height="128" window_state="4">
+                <piece_info value="poker_lobby_multi_icon5b"/>
+            </Picture>
+            <Picture id="m_PicSit" x="46" y="57" z="0" width="114" height="139" window_state="260">
+                <piece_info value="poker_lobby_multi_icon5"/>
+            </Picture>
+            <Picture id="m_PicTick" x="73" y="302" z="0" width="60" height="44" window_state="4">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+                <piece_info value="poker_lobby_multi_icon6"/>
+            </Picture>
+            <RichLabel id="m_LblGameState" x="19" y="211" z="0" width="169" height="25" window_state="4">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_CHOOSEGAME"/>
+                <text_color value="cs_White"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblRoomNumber" x="77" y="262" z="0" width="52" height="75" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_LOBBY_TABLENUMBER_2"/>
+                <font_size value="110"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_PanelExpand" x="25" y="259" z="0" width="120" height="63" window_state="4">
+                <RichLabel id="m_LblInfo" x="7" y="27" z="0" width="100" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="DroidSansFallback"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="8" y="1" z="0" width="404" height="25" window_state="262">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_MAXBUYIN"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="116" y="240" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <color_scale x="0.60000002" y="1.5" z="0.5" w="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <color_scale x="0.30000001" y="0.5" z="0.30000001" w="1"/>
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+            <Button id="m_BtnRemove" x="143" y="-8" z="0" width="78" height="83" window_state="4" style="bs_casino_common_btn01">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <piece_info value="casino_common_btn010"/>
+                </Picture>
+            </Button>
+            <RichLabel id="m_LblRoom" x="1" y="206" z="0" width="204" height="44" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_SHOOTOUT"/>
+                <font_size value="50"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <Panel id="m_PanelSelectTblL" x="426" y="4" z="0" width="492" height="386" window_state="4">
+            <Panel id="m_Panel" x="3" y="0" z="0" width="492" height="386" window_state="6" style="ngs_poker_lobby_multi_panel3">
+                <rotation x="0" y="3.1415927" z="0"/>
+            </Panel>
+            <Button implement_class="ButtonMultiSelect" id="m_Btn0" x="13" y="18" z="0" width="263" height="68" window_state="6" style="ngs_poker_common_multi_button2">
+                <font_size value="55"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="0" y="4" z="0" width="176" height="58" window_state="270">
+                    <piece_info value="poker_common_icon_047"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="115" y="6" z="0" width="135" height="55" window_state="14">
+                    <text value="TEXASPOKER_MULTIPLAY_ADDTABLE_BUTTON_HOLDEM"/>
+                    <font_size value="55"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_PicGreen" x="-10" y="-11" z="0" width="281" height="88" window_state="14" style="ngs_poker_common_panel_003"/>
+            </Button>
+            <Button implement_class="ButtonMultiSelect" id="m_Btn1" x="13" y="91" z="0" width="263" height="68" window_state="6" style="ngs_poker_common_multi_button2">
+                <font_size value="55"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="3" y="4" z="0" width="176" height="58" window_state="270">
+                    <piece_info value="poker_common_icon_048"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="115" y="6" z="0" width="135" height="55" window_state="14">
+                    <text value="TEXASPOKER_MULTIPLAY_ADDTABLE_BUTTON_SNG"/>
+                    <font_size value="55"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_PicGreen" x="-10" y="-11" z="0" width="281" height="88" window_state="14" style="ngs_poker_common_panel_003"/>
+            </Button>
+            <Button implement_class="ButtonMultiSelect" id="m_Btn2" x="13" y="164" z="0" width="263" height="68" window_state="6" style="ngs_poker_common_multi_button2">
+                <font_size value="55"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="3" y="4" z="0" width="176" height="58" window_state="270">
+                    <piece_info value="poker_common_icon_046"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="91" y="6" z="0" width="159" height="55" window_state="14">
+                    <text value="TEXASPOKER_MULTIPLAY_ADDTABLE_BUTTON_SHOOTOUT"/>
+                    <font_size value="55"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_PicGreen" x="-10" y="-11" z="0" width="281" height="88" window_state="14" style="ngs_poker_common_panel_003"/>
+            </Button>
+        </Panel>
+        <Button implement_class="ButtonMultiTblItem" id="m_BtnRoom3" x="706" y="10" z="0" width="205" height="375" window_state="6">
+            <line_height value="30"/>
+            <Panel id="m_PanelBg" x="1" y="-1" z="0" width="205" height="375" window_state="6" style="bs_poker_lobby_multi_button7"/>
+            <Picture id="m_Picture" x="26" y="38" z="0" width="155" height="170" window_state="6">
+                <piece_info value="poker_lobby_room_type_4"/>
+            </Picture>
+            <Picture id="m_PicLock" x="58" y="62" z="0" width="90" height="128" window_state="4">
+                <piece_info value="poker_lobby_multi_icon5b"/>
+            </Picture>
+            <Picture id="m_PicSit" x="46" y="57" z="0" width="114" height="139" window_state="260">
+                <piece_info value="poker_lobby_multi_icon5"/>
+            </Picture>
+            <Picture id="m_PicTick" x="73" y="302" z="0" width="60" height="44" window_state="4">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+                <piece_info value="poker_lobby_multi_icon6"/>
+            </Picture>
+            <RichLabel id="m_LblGameState" x="19" y="211" z="0" width="169" height="25" window_state="4">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_ADDTABLE"/>
+                <text_color value="cs_White"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblRoomNumber" x="77" y="262" z="0" width="52" height="75" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_LOBBY_TABLENUMBER_4"/>
+                <font_size value="110"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_PanelExpand" x="25" y="259" z="0" width="120" height="63" window_state="4">
+                <RichLabel id="m_LblInfo" x="7" y="27" z="0" width="100" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="DroidSansFallback"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="8" y="1" z="0" width="404" height="25" window_state="262">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_MAXBUYIN"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="116" y="240" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <color_scale x="0.60000002" y="1.5" z="0.5" w="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <color_scale x="0.30000001" y="0.5" z="0.30000001" w="1"/>
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+            <Button id="m_BtnRemove" x="143" y="-8" z="0" width="78" height="83" window_state="4" style="bs_casino_common_btn01">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <piece_info value="casino_common_btn010"/>
+                </Picture>
+            </Button>
+            <RichLabel id="m_LblRoom" x="2" y="207" z="0" width="203" height="45" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_MULTITABLE"/>
+                <font_size value="45"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <Button implement_class="ButtonMultiTblItem" id="m_BtnRoom4" x="925" y="10" z="0" width="205" height="375" window_state="38">
+            <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="1"/>
+            <gray_scale value="0.30000001"/>
+            <line_height value="30"/>
+            <Panel id="m_PanelBg" x="1" y="-1" z="0" width="205" height="375" window_state="6" style="bs_poker_lobby_multi_button7"/>
+            <Picture id="m_Picture" x="26" y="35" z="0" width="155" height="170" window_state="6">
+                <piece_info value="poker_lobby_room_type_4"/>
+            </Picture>
+            <Picture id="m_PicLock" x="58" y="62" z="0" width="90" height="128" window_state="4">
+                <piece_info value="poker_lobby_multi_icon5b"/>
+            </Picture>
+            <Picture id="m_PicSit" x="46" y="57" z="0" width="114" height="139" window_state="260">
+                <piece_info value="poker_lobby_multi_icon5"/>
+            </Picture>
+            <Picture id="m_PicTick" x="73" y="302" z="0" width="60" height="44" window_state="4">
+                <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+                <piece_info value="poker_lobby_multi_icon6"/>
+            </Picture>
+            <RichLabel id="m_LblGameState" x="18" y="209" z="0" width="170" height="25" window_state="4">
+                <text value="Unlocks at 
+STAR 4"/>
+                <text_color value="cs_White"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblRoomNumber" x="77" y="262" z="0" width="52" height="75" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_LOBBY_TABLENUMBER_5"/>
+                <font_size value="110"/>
+                <text_align_h value="1"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_PanelExpand" x="25" y="259" z="0" width="120" height="63" window_state="4">
+                <RichLabel id="m_LblInfo" x="7" y="27" z="0" width="100" height="25" window_state="6">
+                    <text value="-"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <font_id value="DroidSansFallback"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblState" x="8" y="1" z="0" width="404" height="25" window_state="262">
+                    <text value="TEXASPOKER_PDLOBBY_BUYIN_TEXT_MAXBUYIN"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_lightgrey"/>
+                    <text_align_h value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Button id="m_BtnSetting" x="116" y="240" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+                <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                <color_scale x="0.60000002" y="1.5" z="0.5" w="0.69999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Setting" x="20" y="26" z="0" width="37" height="30" window_state="14">
+                    <color_scale x="0.30000001" y="0.5" z="0.30000001" w="1"/>
+                    <piece_info value="poker_lobby_button_016"/>
+                </Picture>
+            </Button>
+            <Button id="m_BtnRemove" x="153" y="2" z="0" width="78" height="83" window_state="4" style="bs_casino_common_btn01">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+                    <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+                    <piece_info value="casino_common_btn010"/>
+                </Picture>
+            </Button>
+            <RichLabel id="m_LblRoom" x="3" y="206" z="0" width="203" height="45" window_state="6">
+                <text value="TEXASPOKER_MULTIPLAY_TEXT_MULTITABLE"/>
+                <font_size value="45"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="1.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+    </Panel>
+    <Button implement_class="ButtonStarInfo" id="m_BtnStar" x="24" y="14" z="0" width="159" height="54" window_state="6" style="ngs_casino_common_btn03">
+        <line_height value="30"/>
+        <RichLabel id="m_LblStar" x="66" y="6" z="0" width="79" height="35" window_state="14">
+            <text value="STAR 1"/>
+            <font_size value="35"/>
+            <text_align_h value="1"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_BtnVipChild" x="-20" y="-8" z="0" width="87" height="67" window_state="6" style="bs_casino_common_vipicon6">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <line_height value="30"/>
+        </Button>
+    </Button>
+    <Button id="m_BtnStart" x="347" y="528" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn012">
+        <text value="TEXASPOKER_MULTIPLAY_BUTTON_START"/>
+        <font_size value="65"/>
+        <text_offset x="0" y="-3" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BtnClose" x="1033" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+    <Button id="m_BtnPurchase" x="347" y="528" z="0" width="442" height="94" window_state="4" style="ngs_casino_common_btn014b">
+        <text value="BUY CHIPS"/>
+        <font_size value="65"/>
+        <text_offset x="0" y="-5" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Offer" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11">
+    <Picture id="m_Base" x="293" y="77" z="0" width="549" height="473" window_state="6" style="ngs_casino_common_panel12">
+        <Picture id="m_PicBaseGlow" x="197" y="197" z="0" width="199" height="124" window_state="14">
+            <scale x="2.8099999" y="3.3800001" z="3.3800001"/>
+            <piece_info value="casino_common_panel12d"/>
+        </Picture>
+    </Picture>
+    <Picture id="m_PicTop" x="311" y="96" z="0" width="514" height="89" window_state="6" style="ngs_casino_common_panel12a">
+        <Picture id="m_Picture" x="75" y="2" z="0" width="364" height="84" window_state="14">
+            <scale x="1.01" y="1.01" z="1.01"/>
+            <piece_info value="casino_common_btn011"/>
+        </Picture>
+        <RichLabel id="m_LblNote" x="102" y="4" z="0" width="309" height="65" window_state="6">
+            <text value="PLATFORM_OFFER_POPUP_TITLE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <GridList id="m_GridList" x="353" y="197" z="0" width="430" height="299" window_state="262150">
+        <scroll_state value="6"/>
+        <content_size x="200" y="340" z="0"/>
+        <slider_bar value="m_SliderBar"/>
+        <mode value="2"/>
+        <gap x="200" y="85" z="100"/>
+        <row value="10"/>
+        <column value="1"/>
+        <Button id="m_Btn1" x="0" y="0" z="0" width="430" height="80" window_state="6" style="ngs_casino_common_btn025">
+            <text value="PLATFORM_OFFER_POPUP_BUTTON1"/>
+            <font_size value="50"/>
+            <text_color value="cs_white"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Btn2" x="0" y="85" z="0" width="430" height="80" window_state="6" style="ngs_casino_common_btn025">
+            <text value="PLATFORM_OFFER_POPUP_BUTTON2"/>
+            <font_size value="50"/>
+            <text_color value="cs_white"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Btn3" x="0" y="170" z="0" width="430" height="80" window_state="6" style="ngs_casino_common_btn025">
+            <text value="PLATFORM_OFFER_POPUP_BUTTON3"/>
+            <font_size value="50"/>
+            <text_color value="cs_white"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_Btn4" x="0" y="255" z="0" width="430" height="80" window_state="6" style="ngs_casino_common_btn025">
+            <text value="PLATFORM_OFFER_POPUP_BUTTON4"/>
+            <font_size value="50"/>
+            <text_color value="cs_white"/>
+            <text_offset x="0" y="-4" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+    </GridList>
+    <SliderBar id="m_SliderBar" x="794" y="197" z="0" width="8" height="300" window_state="4" style="ngs_casino_scrolla">
+        <color_scale x="1" y="1" z="1" w="0"/>
+        <progress value="0"/>
+        <progress_max value="41"/>
+        <progress_page value="36"/>
+        <progress_style value="ngs_casino_scrollb"/>
+    </SliderBar>
+    <Button id="m_BtnClose" x="722" y="101" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+</Panel>

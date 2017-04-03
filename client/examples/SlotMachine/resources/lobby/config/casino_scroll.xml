@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<root>		
+	<EdgeVolume value="0.3"/> <!--最後一頁可拖動極限佔屏幕比例，最大值為1.0-->
+	<Friction value="0.4" /> <!--摩擦力係數，越大越難拖動-->
+	<ScrollPageTime value="0.4" /> <!--翻動一頁與彈回時間-->
+</root>

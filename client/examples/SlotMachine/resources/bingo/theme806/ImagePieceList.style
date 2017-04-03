@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="theme806" file_name="theme806.png" width="1024" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="formal_btn_h12" image_id="theme806" x="355" y="655" width="338" height="106"/>
+    <Piece id="formal_icon_h45" image_id="theme806" x="269" y="894" width="46" height="47"/>
+    <Piece id="formal_icon_h46" image_id="theme806" x="915" y="631" width="56" height="19"/>
+    <Piece id="formal_icon_h47" image_id="theme806" x="355" y="613" width="56" height="19"/>
+    <Piece id="formal_icon_h48" image_id="theme806" x="269" y="836" width="57" height="57"/>
+    <Piece id="formal_icon_h49" image_id="theme806" x="915" y="561" width="73" height="69"/>
+    <Piece id="formal_icon_h53" image_id="theme806" x="158" y="791" width="110" height="104"/>
+    <Piece id="formal_label_a710" image_id="theme806" x="1" y="722" width="332" height="68"/>
+    <Piece id="formal_label_a730" image_id="theme806" x="1" y="613" width="353" height="108"/>
+    <Piece id="formal_panel_h19" image_id="theme806" x="269" y="791" width="63" height="44"/>
+    <Piece id="formal_panel_h24" image_id="theme806" x="0" y="0" width="445" height="612"/>
+    <Piece id="theme806_bg01" image_id="theme806" x="446" y="561" width="468" height="93"/>
+    <Piece id="theme806_bg02" image_id="theme806" x="446" y="1" width="523" height="559"/>
+    <Piece id="theme806_icon01" image_id="theme806" x="694" y="655" width="156" height="148"/>
+    <Piece id="theme806_icon02" image_id="theme806" x="851" y="655" width="156" height="148"/>
+    <Piece id="theme806_icon03" image_id="theme806" x="334" y="762" width="156" height="148"/>
+    <Piece id="theme806_icon04" image_id="theme806" x="491" y="762" width="156" height="148"/>
+    <Piece id="theme806_icon05" image_id="theme806" x="1" y="791" width="156" height="148"/>
+  </PieceList>
+</ImagePiece>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="dragon_fire.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="frontfire_01" x="2" y="488" w="50" h="16" oX="26" oY="272" oW="100" oH="300" dr="60"/>
+    <sprite n="frontfire_03" x="106" y="384" w="50" h="78" oX="26" oY="210" oW="100" oH="300" dr="60"/>
+    <sprite n="frontfire_04" x="384" y="54" w="110" h="50" oX="26" oY="178" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_05" x="54" y="332" w="50" h="140" oX="26" oY="148" oW="100" oH="300" dr="60"/>
+    <sprite n="frontfire_06" x="332" y="2" w="174" h="50" oX="26" oY="114" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_07" x="2" y="280" w="50" h="206" oX="26" oY="82" oW="100" oH="300" dr="60"/>
+    <sprite n="frontfire_08" x="158" y="418" w="236" h="50" oX="26" oY="52" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_09" x="158" y="366" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_10" x="158" y="314" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_11" x="158" y="262" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_12" x="158" y="210" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_13" x="158" y="158" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_14" x="436" y="106" w="50" h="276" oX="26" oY="12" oW="100" oH="300" dr="60"/>
+    <sprite n="frontfire_15" x="158" y="106" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_16" x="106" y="106" w="50" h="276" oX="26" oY="12" oW="100" oH="300" dr="60"/>
+    <sprite n="frontfire_17" x="106" y="54" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_19" x="54" y="54" w="50" h="276" oX="26" oY="12" oW="100" oH="300" dr="60"/>
+    <sprite n="frontfire_21" x="54" y="2" w="276" h="50" oX="26" oY="12" oW="100" oH="300" r="y" dr="60"/>
+    <sprite n="frontfire_22" x="2" y="2" w="50" h="276" oX="26" oY="12" oW="100" oH="300" dr="60"/>
+</TextureAtlas>

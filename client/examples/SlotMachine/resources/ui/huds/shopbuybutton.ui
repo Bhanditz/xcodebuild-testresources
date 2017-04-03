@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="2" y="9" z="0" width="210" height="130" window_state="6" style="ngs_panel_bg">
+    <Button id="m_BtnBuy" x="467" y="31" z="0" width="208" height="64" window_state="6" style="bs_casino_common_btn026">
+        <scale x="1" y="0.89999998" z="1"/>
+        <action_id value="animation_common_bottonlight"/>
+        <text value="PLATFORM_SHOP_BUY_BUTTON"/>
+        <font_size value="50"/>
+        <text_offset x="-56" y="-1" z="0"/>
+        <font_id value="Bebas"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

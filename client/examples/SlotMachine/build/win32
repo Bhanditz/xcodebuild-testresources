@@ -1,0 +1,5 @@
+# build platform, can be "android", "ios" or "win32"
+PLATFORM="win32"
+
+# texture compress format, can be "etc1" or "pvrtc1"
+TEXTURE_COMPRESS_FMT=""

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FontConfig>
+	<Font id="default" file_path="fonts/default.fnt" fallback="DroidSansFallback" />
+	<Font id="debug" file_path="fonts/debug.fnt" fallback="DroidSansFallback" />
+	<Font id="DroidSansFallback" file_path="fonts/DroidSansFallback.ttf">
+		<Ttf resolution="72" font_size="35" ppp="55" atlas_width="128" atlas_height="2048" />
+	</Font>
+	<Font id="Bebas" file_path="fonts/bebas.fnt" />
+	<Font id="bule0-9" no_df="1" file_path="fonts/bule.fnt" />
+	<Font id="red0-9" no_df="1" file_path="fonts/red.fnt" />
+	<Font id="LatoReg" file_path="fonts/lato_reg.fnt" />
+	<Font id="MyraidPro" file_path="fonts/myraid_pro.fnt" />
+	<Font id="UnlockNewGame" no_df="1" file_path="fonts/UnlockNewGame.fnt" />
+	<Font id="font1" no_df="1" file_path="fonts/font1.fnt" />
+	<Font id="font2" no_df="1" file_path="fonts/font2.fnt" />
+	<Font id="jackpot" no_df="1" file_path="fonts/jackpot_font.fnt" />
+	<Font id="7DayPromoFont" no_df="1" file_path="fonts/7DayPromoFont.fnt" />
+	<Font id="7DayPromoFont2" no_df="1" file_path="fonts/7DayPromoFont2.fnt" />
+	<Font id="shop_font" no_df="1" file_path="fonts/shop_font.fnt" />
+	<Font id="shopfont2" no_df="1" file_path="fonts/shopfont2.fnt" />
+	<Font id="jackpot_white" no_df="1" file_path="fonts/jackpot_font_white.fnt" />
+	<Font id="buff" no_df="1" file_path="fonts/buff.fnt" />
+</FontConfig>

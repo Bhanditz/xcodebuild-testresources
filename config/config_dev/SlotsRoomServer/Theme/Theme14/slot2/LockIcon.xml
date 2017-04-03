@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		锁定图标
+ -->
+<root>
+		<LockIcon id="1" symbol="1" TargetSymbol="11">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="2" symbol="11" TargetSymbol="21">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="3" symbol="21" TargetSymbol="32">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="4" symbol="2" TargetSymbol="12">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="5" symbol="12" TargetSymbol="22">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="6" symbol="22" TargetSymbol="33">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="7" symbol="3" TargetSymbol="13">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="8" symbol="13" TargetSymbol="23">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+		<LockIcon id="9" symbol="23" TargetSymbol="34">
+				<ReelID>
+						<Reel id="1" />
+						<Reel id="2" />
+						<Reel id="3" />
+						<Reel id="4" />
+						<Reel id="5" />
+				</ReelID>
+		</LockIcon>
+</root>

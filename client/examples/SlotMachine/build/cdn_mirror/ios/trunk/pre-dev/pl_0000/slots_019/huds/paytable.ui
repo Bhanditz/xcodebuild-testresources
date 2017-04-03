@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="262">
+        <piece_info value="slots_019_bg_05"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_TitlePic" x="314" y="6" z="0" width="508" height="98" window_state="4">
+        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+    </Picture>
+    <Panel id="m_Pages" x="42" y="46" z="0" width="1058" height="564" window_state="6">
+        <Panel id="m_Page1" x="26" y="19" z="0" width="1008" height="524" window_state="6">
+            <RichLabel id="m_RichLabel" x="100" y="50" z="0" width="800" height="48" window_state="6">
+                <text value="PAYTABLE"/>
+                <font_size value="48"/>
+                <text_color value="cs_slots_019_yellow2"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Icon_Bonus" x="193" y="157" z="0" width="184" height="184" window_state="262">
+                <piece_info value="slots_019_icon_041"/>
+            </Picture>
+            <RichLabel id="m_RichLabel1" x="401" y="157" z="0" width="450" height="250" window_state="6">
+                <text value="&lt;font size=&quot;34&quot; color=&quot;cs_slots_019_yellow1&quot;&gt;SCATTER&lt;/font&gt;
+Hitting 3 Scatter symbols on reels 2, 3, 4 triggers 7 Free Spins and gives you 3x Total Bet
+
+7 Free Spins will be added for every retriggered "/>
+                <font_size value="28"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="40"/>
+                <rich_label_state value="4"/>
+                <line_height value="32"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page2" x="26" y="19" z="0" width="1008" height="524" window_state="4">
+            <RichLabel id="m_RichLabel" x="100" y="50" z="0" width="800" height="48" window_state="6">
+                <text value="FREE GAME WILD FEATURE"/>
+                <font_size value="48"/>
+                <text_color value="cs_slots_019_yellow2"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="577" y="116" z="0" width="395" height="196" window_state="6">
+                <text value="During Free Spins, a curtain will randomly fall over up to 5 reels and all symbols on these reels will be transformed into Wild symbols.
+&lt;font size=&quot;34&quot; color=&quot;cs_slots_019_yellow1&quot;&gt;WILD&lt;/font&gt;
+Wild symbol Substitutes for all symbols except for Bonus."/>
+                <font_size value="24"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <text_style value="40"/>
+                <rich_label_state value="4"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Group1" x="574" y="297" z="0" width="360" height="159" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="31"/>
+                <Picture id="m_Icon_Wild" x="0" y="0" z="0" width="160" height="160" window_state="262">
+                    <piece_info value="slots_019_icon_031"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="196" y="15" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="196" y="45" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="196" y="74" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="196" y="105" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="2x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="242" y="16" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="1000"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="242" y="46" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="242" y="76" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="242" y="105" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Picture id="m_Picture" x="52" y="118" z="0" width="150" height="324" window_state="262">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <piece_info value="slots_019_panel_012"/>
+            </Picture>
+            <Picture id="m_Picture1" x="201" y="92" z="0" width="203" height="371" window_state="262">
+                <piece_info value="slots_019_vfx_006"/>
+            </Picture>
+            <Picture id="m_Picture2" x="202" y="249" z="0" width="22" height="31" window_state="262">
+                <piece_info value="slots_019_panel_013"/>
+            </Picture>
+            <Picture id="m_Picture3" x="383" y="249" z="0" width="22" height="31" window_state="262">
+                <piece_info value="slots_019_panel_013"/>
+            </Picture>
+            <Picture id="m_Wild1" x="403" y="99" z="0" width="160" height="160" window_state="262">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <piece_info value="slots_019_icon_031"/>
+            </Picture>
+            <Picture id="m_Wild2" x="403" y="205" z="0" width="160" height="160" window_state="262">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <piece_info value="slots_019_icon_031"/>
+            </Picture>
+            <Picture id="m_Wild3" x="403" y="311" z="0" width="160" height="160" window_state="262">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <piece_info value="slots_019_icon_031"/>
+            </Picture>
+        </Panel>
+        <Panel id="m_Page3" x="26" y="19" z="0" width="1008" height="524" window_state="4">
+            <RichLabel id="m_RichLabel" x="100" y="50" z="0" width="800" height="48" window_state="4">
+                <text value="PAYTABLE"/>
+                <font_size value="48"/>
+                <text_color value="cs_slots_019_yellow2"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Divider" x="20" y="279" z="0" width="960" height="2" window_state="4" style="cs_white">
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+            </Panel>
+            <RichLabel id="m_RichLabel1" x="13" y="363" z="0" width="970" height="50" window_state="4">
+                <text value="BONUS PRIZE: During the bonus feature, a             on Reels 1 and Reel 5 pays 2x to 50x total bet."/>
+                <font_size value="25"/>
+                <text_style value="8"/>
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="401" y="-44" z="0" width="140" height="138" window_state="262">
+                    <scale x="0.38" y="0.38" z="0.38"/>
+                </Picture>
+            </RichLabel>
+            <Panel id="m_Group1" x="69" y="20" z="0" width="165" height="300" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Picture id="m_Picture" x="-1" y="-6" z="0" width="168" height="168" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_019_icon_001"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="50" y="139" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="50" y="167" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="50" y="195" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="50" y="223" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="2x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="89" y="139" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="1000"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="89" y="167" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="89" y="195" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="89" y="223" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="248" y="20" z="0" width="165" height="300" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Picture id="m_Picture" x="-1" y="0" z="0" width="160" height="160" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_019_icon_002"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="50" y="139" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="50" y="167" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="50" y="195" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="50" y="223" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="2x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="89" y="139" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="1000"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="89" y="167" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="89" y="195" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="89" y="223" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="427" y="20" z="0" width="165" height="300" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Picture id="m_Picture" x="-1" y="0" z="0" width="160" height="160" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_019_icon_003"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="50" y="139" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="50" y="167" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="50" y="195" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="50" y="223" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="2x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="89" y="139" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="1000"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="89" y="167" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="89" y="195" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="89" y="223" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="606" y="20" z="0" width="165" height="300" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Picture" x="-1" y="0" z="0" width="160" height="160" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_019_icon_004"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="50" y="139" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="50" y="167" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="50" y="195" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="50" y="223" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="2x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="89" y="139" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="1000"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="89" y="167" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="89" y="195" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="89" y="223" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="785" y="20" z="0" width="165" height="300" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Picture id="m_Picture" x="-1" y="0" z="0" width="160" height="160" window_state="262">
+                    <scale x="0.85000002" y="0.85000002" z="0.85000002"/>
+                    <piece_info value="slots_019_icon_005"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="50" y="139" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="50" y="167" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="50" y="195" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="50" y="223" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="2x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="89" y="139" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="1000"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="89" y="167" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="89" y="195" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="89" y="223" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="81" y="261" z="0" width="140" height="200" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Picture" x="0" y="0" z="0" width="140" height="140" window_state="262">
+                    <scale x="0.81999999" y="0.81999999" z="0.81999999"/>
+                    <piece_info value="slots_019_icon_006"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="37" y="108" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="37" y="133" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="37" y="158" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="76" y="108" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="76" y="133" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="76" y="158" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group7" x="260" y="261" z="0" width="140" height="200" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Picture" x="0" y="0" z="0" width="140" height="140" window_state="262">
+                    <scale x="0.81999999" y="0.81999999" z="0.81999999"/>
+                    <piece_info value="slots_019_icon_007"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="37" y="108" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="37" y="133" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="37" y="158" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="76" y="108" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="76" y="133" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="76" y="158" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group8" x="439" y="261" z="0" width="140" height="200" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="8"/>
+                <Picture id="m_Picture" x="0" y="0" z="0" width="140" height="140" window_state="262">
+                    <scale x="0.81999999" y="0.81999999" z="0.81999999"/>
+                    <piece_info value="slots_019_icon_008"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="37" y="108" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="37" y="133" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="37" y="158" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="76" y="108" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="76" y="133" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="76" y="158" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group9" x="618" y="261" z="0" width="140" height="200" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="9"/>
+                <Picture id="m_Picture" x="0" y="0" z="0" width="140" height="140" window_state="262">
+                    <scale x="0.81999999" y="0.81999999" z="0.81999999"/>
+                    <piece_info value="slots_019_icon_009"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="37" y="108" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="37" y="133" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="37" y="158" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="76" y="108" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="76" y="133" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="76" y="158" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group10" x="797" y="261" z="0" width="140" height="200" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="10"/>
+                <Picture id="m_Picture" x="0" y="0" z="0" width="140" height="140" window_state="262">
+                    <scale x="0.81999999" y="0.81999999" z="0.81999999"/>
+                    <piece_info value="slots_019_icon_010"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="37" y="108" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="5x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="37" y="133" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="4x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="37" y="158" z="0" width="12" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="3x"/>
+                    <text_color value="cs_slots_019_yellow3"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="76" y="108" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="800"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="76" y="133" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="600"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="76" y="158" z="0" width="36" height="30" window_state="6">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="400"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page4" x="26" y="19" z="0" width="1008" height="524" window_state="4">
+            <RichLabel id="m_RichLabel" x="100" y="50" z="0" width="800" height="48" window_state="6">
+                <text value="PAYLINES"/>
+                <font_size value="48"/>
+                <text_color value="cs_slots_019_yellow2"/>
+                <text_style value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_row1" x="8" y="138" z="0" width="984" height="60" window_state="6">
+                <Picture id="m_Picture1" x="10" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="262">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture2" x="107" y="0" z="0" width="90" height="56" window_state="6">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture3" x="204" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture4" x="301" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture5" x="398" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture6" x="495" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture7" x="592" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture8" x="689" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture9" x="786" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture10" x="883" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+            </Panel>
+            <Panel id="m_row2" x="8" y="252" z="0" width="984" height="60" window_state="6">
+                <Picture id="m_Picture1" x="10" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="262">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture2" x="107" y="0" z="0" width="90" height="56" window_state="6">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture3" x="204" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture4" x="301" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture5" x="398" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture6" x="495" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture7" x="592" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture8" x="689" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture9" x="786" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture10" x="883" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+            </Panel>
+            <Panel id="m_row3" x="8" y="365" z="0" width="984" height="60" window_state="6">
+                <Picture id="m_Picture1" x="10" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="262">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture2" x="107" y="0" z="0" width="90" height="56" window_state="6">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture3" x="204" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture4" x="301" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture5" x="398" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture6" x="495" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture7" x="592" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture8" x="689" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture9" x="786" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+                <Picture id="m_Picture10" x="883" y="0" z="0" width="90" height="56" window_state="262">
+                    <piece_info value="slots_019_panel_015"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_019_panel_014"/>
+                    </Picture>
+                </Picture>
+            </Panel>
+            <RichLabel id="m_RichLabel1" x="45" y="106" z="0" width="926" height="30" window_state="6">
+                <text value="   1             2               3              4              5              6               7             8              9              10"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="45" y="218" z="0" width="926" height="30" window_state="6">
+                <text value=" 11            12            13            14            15             16            17            18            19            20"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel3" x="45" y="332" z="0" width="926" height="30" window_state="6">
+                <text value=" 21            22            23            24            25             26            27            28            29            30"/>
+                <text_align_h value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+    <Button id="m_PrevBtn" x="380" y="558" z="0" width="71" height="83" window_state="262" style="bs_slots_019_btn_011">
+        <rotation x="0" y="6.2831855" z="0"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_NextBtn" x="685" y="558" z="0" width="71" height="83" window_state="262" style="bs_slots_019_btn_011">
+        <rotation x="0" y="3.1415927" z="0"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BackBtn" x="461" y="561" z="0" width="213" height="77" window_state="262" style="bs_slots_019_btn_012">
+        <font_size value="40"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.36000001"/>
+        <outline_center value="0.49000001"/>
+        <word_spacing value="2"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="8" y="16" z="0" width="196" height="38" window_state="14">
+            <text value="BACK TO GAME"/>
+            <font_size value="34"/>
+            <text_color value="cs_slots_019_yellow1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.47999999"/>
+            <word_spacing value="0.5"/>
+            <outline_color value="cs_line_color_12"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+</Panel>

@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1156" height="660" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1156" height="660" window_state="6">
+        <piece_info value="slots_001_bg01"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_BgGlow" x="347" y="166" z="0" width="462" height="221" window_state="6">
+        <scale x="2.5" y="2.5" z="2.5"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_volcano_Bgglow"/>
+        <piece_info value="bg_glow"/>
+    </Picture>
+    <Particle id="m_Particle" x="572" y="657" z="0" width="20" height="20" window_state="6">
+        <blend_mode value="2"/>
+        <particle_state value="0"/>
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="basegame spark"/>
+    </Particle>
+    <Picture id="m_RedReelBgPic" x="445" y="229" z="0" width="388" height="220" window_state="12">
+        <scale x="2" y="2" z="2"/>
+        <piece_info value="slots_001_panel19"/>
+    </Picture>
+    <Panel id="m_ReelFrame" x="0" y="0" z="0" width="1156" height="660" window_state="6">
+        <action_id value="animation_slot001_bonus01"/>
+        <Panel id="m_TopFire" x="213" y="7" z="0" width="857" height="131" window_state="14">
+            <Sprite id="m_SpriteTopFire" x="-37" y="-35" z="0" width="500" height="150" window_state="14">
+                <scale x="0.94999999" y="1" z="1"/>
+                <sprite_file value="slots_001/sprites/top_fire.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_SpriteTopFire1" x="382" y="-35" z="0" width="500" height="150" window_state="14">
+                <scale x="-0.98000002" y="1" z="1"/>
+                <sprite_file value="slots_001/sprites/top_fire.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Picture id="m_PicMask" x="210" y="55" z="0" width="429" height="43" window_state="6">
+                <scale x="2" y="2" z="2"/>
+            </Picture>
+        </Panel>
+        <Sprite id="m_SpriteVolcanoMouth" x="459" y="-23" z="0" width="500" height="150" window_state="14">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcanoash.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Picture id="m_Picture6" x="10" y="-17" z="0" width="1136" height="640" window_state="6">
+            <piece_info value="slots_001_panel27"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_Picture5" x="245" y="116" z="0" width="781" height="436" window_state="6">
+            <scale x="1" y="1.02" z="1"/>
+            <piece_info value="slots_001_panel19"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Panel id="m_NormalSpin" x="222" y="109" z="0" width="828" height="450" window_state="14">
+            <Panel id="m_ReelsPanelClip" x="24" y="15" z="0" width="796" height="420" window_state="393222">
+                <after_render_depth value="2"/>
+                <dynamic_attr key="h" type="float" value="420.000000"/>
+                <dynamic_attr key="icon_h" type="float" value="138.000000"/>
+                <dynamic_attr key="icon_w" type="float" value="158.000000"/>
+                <dynamic_attr key="w" type="float" value="796.000000"/>
+                <dynamic_attr key="x0" type="float" value="-3.000000"/>
+                <dynamic_attr key="y0" type="float" value="3.000000"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="796" height="420" window_state="131078">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="420.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="138.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="158.000000"/>
+                    <dynamic_attr key="w" type="float" value="796.000000"/>
+                    <dynamic_attr key="x0" type="float" value="-3.000000"/>
+                    <dynamic_attr key="y0" type="float" value="3.000000"/>
+                    <Picture id="m_Picture" x="312" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture1" x="312" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture2" x="160" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture3" x="616" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture4" x="464" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture5" x="8" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture6" x="8" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture7" x="312" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture8" x="616" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture9" x="464" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture10" x="160" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture11" x="160" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture12" x="464" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture13" x="8" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture14" x="616" y="140" z="0" width="160" height="150" window_state="4"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_ReelsMask" x="21" y="15" z="0" width="796" height="420" window_state="4"/>
+        </Panel>
+        <Panel id="m_FreeSpin" x="222" y="108" z="0" width="828" height="450" window_state="14">
+            <Panel id="m_ReelsPanelClip" x="24" y="15" z="0" width="796" height="420" window_state="393222">
+                <after_render_depth value="2"/>
+                <dynamic_attr key="h" type="float" value="420.000000"/>
+                <dynamic_attr key="icon_h" type="float" value="138.000000"/>
+                <dynamic_attr key="icon_w" type="float" value="158.000000"/>
+                <dynamic_attr key="w" type="float" value="796.000000"/>
+                <dynamic_attr key="x0" type="float" value="-3.000000"/>
+                <dynamic_attr key="y0" type="float" value="3.000000"/>
+                <Panel id="m_ReelsPanel" x="0" y="0" z="0" width="796" height="420" window_state="131078">
+                    <after_render_depth value="1"/>
+                    <dynamic_attr key="h" type="float" value="420.000000"/>
+                    <dynamic_attr key="icon_h" type="float" value="138.000000"/>
+                    <dynamic_attr key="icon_w" type="float" value="158.000000"/>
+                    <dynamic_attr key="w" type="float" value="796.000000"/>
+                    <dynamic_attr key="x0" type="float" value="-3.000000"/>
+                    <dynamic_attr key="y0" type="float" value="3.000000"/>
+                    <Picture id="m_Picture" x="312" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture1" x="312" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture2" x="160" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture3" x="616" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture4" x="464" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture5" x="8" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture6" x="8" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture7" x="312" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture8" x="616" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture9" x="464" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture10" x="160" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture11" x="160" y="140" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture12" x="464" y="4" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture13" x="8" y="276" z="0" width="160" height="150" window_state="4"/>
+                    <Picture id="m_Picture14" x="616" y="140" z="0" width="160" height="150" window_state="4"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_ReelMask" x="21" y="15" z="0" width="796" height="420" window_state="4"/>
+        </Panel>
+        <Picture id="m_Picture13" x="255" y="101" z="0" width="776" height="44" window_state="6">
+            <color_scale x="0.69999999" y="0.69999999" z="0.69999999" w="0.60000002"/>
+            <piece_info value="slots_001_panel16"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_Picture11" x="699" y="106" z="0" width="38" height="450" window_state="6">
+            <piece_info value="slots_001_panel36"/>
+        </Picture>
+        <Picture id="m_Picture12" x="858" y="105" z="0" width="38" height="450" window_state="6">
+            <piece_info value="slots_001_panel36"/>
+        </Picture>
+        <Picture id="m_Picture9" x="381" y="107" z="0" width="38" height="450" window_state="6">
+            <piece_info value="slots_001_panel36"/>
+        </Picture>
+        <Picture id="m_Picture10" x="540" y="107" z="0" width="38" height="450" window_state="6">
+            <piece_info value="slots_001_panel36"/>
+        </Picture>
+        <Picture id="m_Picture2" x="442" y="117" z="0" width="387" height="20" window_state="12">
+            <scale x="2" y="2" z="2"/>
+            <piece_info value="slots_001_panel16"/>
+        </Picture>
+        <Picture id="m_Picture3" x="444" y="530" z="0" width="387" height="20" window_state="12">
+            <scale x="2" y="2" z="2"/>
+            <piece_info value="slots_001_panel17"/>
+        </Picture>
+        <Picture id="m_Picture7" x="245" y="94" z="0" width="783" height="476" window_state="6">
+            <scale x="1" y="1.02" z="1"/>
+            <color_scale x="0.30000001" y="0.30000001" z="0.30000001" w="0.60000002"/>
+            <piece_info value="slots_001_panel34"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_Picture8" x="244" y="510" z="0" width="776" height="44" window_state="6">
+            <color_scale x="0.69999999" y="0.69999999" z="0.69999999" w="0.60000002"/>
+            <piece_info value="slots_001_panel17"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <Picture id="m_Picture1" x="1060" y="271" z="0" width="82" height="125" window_state="6">
+            <piece_info value="slots_001_panel06"/>
+            <RichLabel id="m_LblFreeSpinTotalBet" x="16" y="25" z="0" width="46" height="30" window_state="6">
+                <text value="SLOTS_VOLCANO_COMMON_LINES_30"/>
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt06"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture1" x="0" y="59" z="0" width="79" height="25" window_state="6">
+                <piece_info value="slots_001_text29"/>
+            </Picture>
+        </Picture>
+        <Sprite id="m_SpriteReelsLava" x="917" y="16" z="0" width="200" height="200" window_state="6">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_01.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava1" x="706" y="-23" z="0" width="200" height="200" window_state="14">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_02.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava2" x="185" y="16" z="0" width="200" height="200" window_state="6">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_03.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Picture id="m_PicVolcanoMouth" x="767" y="14" z="0" width="96" height="96" window_state="14">
+            <blend_mode value="2"/>
+            <piece_info value="slots_001_vfx06"/>
+        </Picture>
+        <Panel id="m_IconAnimationPanel" x="250" y="127" z="0" width="776" height="420" window_state="14">
+            <window_layout_align_h value="0"/>
+        </Panel>
+        <Sprite id="m_SpriteNearWinOutline" x="755" y="23" z="0" width="400" height="600" window_state="14">
+            <scale x="1.05" y="1.05" z="1.05"/>
+            <sprite_file value="slots/sprites/volcano_focus.spr"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_TitlePic" x="420" y="-7" z="0" width="317" height="167" window_state="6">
+            <piece_info value="slots_001_text39"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_PayLinesPanel" x="250" y="127" z="0" width="776" height="420" window_state="12">
+        <window_layout_align_h value="0"/>
+    </Panel>
+    <Panel id="m_ReelMaskOverPayLine" x="243" y="127" z="0" width="796" height="420" window_state="12"/>
+    <Picture id="match_mask" x="250" y="114" z="0" width="773" height="449" window_state="12" style="ngs_slots_001_panel18">
+        <color_scale x="1.1799999" y="1.1799999" z="1.1799999" w="1"/>
+        <action_id value="animation_jackpot_mask"/>
+    </Picture>
+    <Panel id="m_TransformPanel" x="243" y="103" z="0" width="796" height="460" window_state="393220">
+        <after_render_depth value="2"/>
+        <dynamic_attr key="h" type="float" value="420.000000"/>
+        <dynamic_attr key="icon_h" type="float" value="138.000000"/>
+        <dynamic_attr key="icon_w" type="float" value="147.000000"/>
+        <dynamic_attr key="w" type="float" value="796.000000"/>
+        <dynamic_attr key="x0" type="float" value="-3.000000"/>
+        <dynamic_attr key="y0" type="float" value="3.000000"/>
+    </Panel>
+    <Picture id="m_Jackpot" x="13" y="93" z="0" width="216" height="430" window_state="14">
+        <piece_info value="slots_001_panel01"/>
+        <scale_mode value="3"/>
+        <Picture id="m_PicJackpot" x="13" y="-2" z="0" width="198" height="96" window_state="270">
+            <action_id value="animation_volcano_maxbet"/>
+            <piece_info value="slots_001_text01"/>
+        </Picture>
+        <RichLabel id="m_LblReward5" x="24" y="72" z="0" width="172" height="40" window_state="14">
+            <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="1"/>
+            <text value="$500000"/>
+            <font_size value="35"/>
+            <text_color value="cs_White"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblId4" x="50" y="107" z="0" width="127" height="25" window_state="14">
+            <text value="SLOTS_VOLCANO_BASEGAME_TEXT_JACKPOTLEVEL5"/>
+            <font_size value="25"/>
+            <text_color value="cs_redTxt01"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.30000001"/>
+            <outline_center value="0.46000001"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblReward4" x="43" y="130" z="0" width="136" height="30" window_state="14">
+            <text value="$6,000"/>
+            <text_color value="cs_red"/>
+            <text_align_h value="3"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.31"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblId3" x="50" y="163" z="0" width="97" height="25" window_state="14">
+            <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="1"/>
+            <text value="SLOTS_VOLCANO_BASEGAME_TEXT_JACKPOTLEVEL4"/>
+            <font_size value="25"/>
+            <text_color value="cs_yellow"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.31999999"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblReward3" x="43" y="185" z="0" width="136" height="30" window_state="14">
+            <text value="$3,000"/>
+            <text_color value="cs_yellow"/>
+            <text_align_h value="3"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.34"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblId2" x="50" y="217" z="0" width="97" height="25" window_state="14">
+            <color_scale x="0.75" y="0.75" z="0.75" w="1"/>
+            <text value="SLOTS_VOLCANO_BASEGAME_TEXT_JACKPOTLEVEL3"/>
+            <font_size value="25"/>
+            <text_color value="cs_line_color_02"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.33000001"/>
+            <outline_center value="0.46000001"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblReward2" x="43" y="240" z="0" width="136" height="30" window_state="14">
+            <text value="$1,500"/>
+            <text_color value="cs_line_color_02"/>
+            <text_align_h value="3"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.34"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblId1" x="50" y="275" z="0" width="97" height="25" window_state="14">
+            <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="1"/>
+            <text value="SLOTS_VOLCANO_BASEGAME_TEXT_JACKPOTLEVEL2"/>
+            <font_size value="25"/>
+            <text_color value="cs_BlueTxt"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.30000001"/>
+            <outline_center value="0.46000001"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblReward1" x="45" y="295" z="0" width="134" height="30" window_state="14">
+            <text value="$800"/>
+            <text_color value="cs_BlueTxt"/>
+            <text_align_h value="3"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.33000001"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblId0" x="50" y="330" z="0" width="97" height="25" window_state="14">
+            <text value="SLOTS_VOLCANO_BASEGAME_TEXT_JACKPOTLEVEL1"/>
+            <font_size value="25"/>
+            <text_color value="cs_blue6"/>
+            <text_align_h value="1"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.31"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblReward0" x="45" y="350" z="0" width="134" height="30" window_state="14">
+            <text value="$500"/>
+            <text_color value="cs_blue6"/>
+            <text_align_h value="3"/>
+            <text_style value="32"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.31"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_PicCondition" x="11" y="10" z="0" width="197" height="71" window_state="14">
+            <piece_info value="slots_001_text37"/>
+        </Picture>
+    </Picture>
+    <Panel id="m_NormalLava" x="12" y="443" z="0" width="1136" height="130" window_state="4">
+        <Sprite id="m_SpriteReelsLava8" x="977" y="-55" z="0" width="200" height="200" window_state="6">
+            <scale x="0.69" y="0.69" z="0.69"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava7" x="1003" y="-74" z="0" width="200" height="200" window_state="6">
+            <scale x="0.79000002" y="1.02" z="1.02"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava5" x="41" y="-37" z="0" width="200" height="200" window_state="6">
+            <scale x="0.79000002" y="0.79000002" z="0.79000002"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava6" x="951" y="-52" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1" y="1.1" z="1.1"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava4" x="91" y="-62" z="0" width="200" height="200" window_state="6">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_FreeGamelLava" x="12" y="443" z="0" width="1136" height="130" window_state="6">
+        <Sprite id="m_SpriteReelsLava1" x="-18" y="-105" z="0" width="200" height="200" window_state="6">
+            <scale x="1.45" y="1.72" z="1.17"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava4" x="105" y="-115" z="0" width="200" height="200" window_state="6">
+            <scale x="1.45" y="1.84" z="1.17"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava5" x="43" y="-88" z="0" width="200" height="200" window_state="6">
+            <scale x="1.26" y="1.4400001" z="1.26"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava6" x="983" y="-109" z="0" width="200" height="200" window_state="6">
+            <scale x="1.38" y="1.5" z="1.38"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava8" x="935" y="-120" z="0" width="200" height="200" window_state="6">
+            <scale x="1.46" y="1.72" z="1.46"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava7" x="1019" y="-92" z="0" width="200" height="200" window_state="6">
+            <scale x="1.2" y="1.4299999" z="1.02"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava2" x="372" y="-29" z="0" width="200" height="200" window_state="6">
+            <scale x="1.29" y="1.29" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava3" x="553" y="-31" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1799999" y="1.51" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava9" x="213" y="-42" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1" y="1.47" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava10" x="809" y="-8" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1" y="1.47" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava11" x="671" y="-51" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1799999" y="1.59" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_SecondBonuslLava" x="12" y="443" z="0" width="1136" height="130" window_state="4">
+        <Sprite id="m_SpriteReelsLava1" x="257" y="-76" z="0" width="200" height="200" window_state="6">
+            <scale x="1.45" y="1.72" z="1.17"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava4" x="113" y="-41" z="0" width="200" height="200" window_state="6">
+            <scale x="0.70999998" y="0.70999998" z="0.70999998"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava3" x="553" y="-20" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1799999" y="1.5599999" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava11" x="347" y="-37" z="0" width="200" height="200" window_state="6">
+            <scale x="0.69999999" y="0.86000001" z="0.86000001"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Particle id="m_Particle" x="436" y="290" z="0" width="32" height="32" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+            <particle_name value="secondbonus"/>
+        </Particle>
+    </Panel>
+    <Panel id="m_ThirdBonusLava" x="12" y="443" z="0" width="1136" height="130" window_state="4">
+        <Sprite id="m_SpriteReelsLava1" x="-18" y="-105" z="0" width="200" height="200" window_state="6">
+            <scale x="1.45" y="1.72" z="1.17"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava4" x="195" y="-95" z="0" width="200" height="200" window_state="6">
+            <scale x="2" y="2.6800001" z="1.86"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava5" x="43" y="-88" z="0" width="200" height="200" window_state="6">
+            <scale x="1.26" y="1.4400001" z="1.26"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava6" x="952" y="-113" z="0" width="200" height="200" window_state="6">
+            <scale x="1.72" y="2.1700001" z="1.72"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava8" x="495" y="-20" z="0" width="200" height="200" window_state="6">
+            <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava7" x="1030" y="-92" z="0" width="200" height="200" window_state="6">
+            <scale x="1.2" y="1.4299999" z="1.02"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava2" x="372" y="-29" z="0" width="200" height="200" window_state="6">
+            <scale x="1.29" y="1.29" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava3" x="553" y="-31" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1799999" y="1.51" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava9" x="266" y="-33" z="0" width="200" height="200" window_state="6">
+            <scale x="0.66000003" y="0.81999999" z="0.81999999"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava10" x="789" y="-8" z="0" width="200" height="200" window_state="6">
+            <scale x="1.1" y="1.47" z="1.29"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava11" x="651" y="-71" z="0" width="200" height="200" window_state="6">
+            <scale x="1.66" y="1.89" z="1.66"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_SpriteReelsLava12" x="445" y="-30" z="0" width="200" height="200" window_state="6">
+            <scale x="0.75999999" y="0.94" z="0.75999999"/>
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_frame_04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_ControllerPanel" x="0" y="514" z="0" width="1156" height="136" window_state="6">
+        <Panel id="m_NormalSpinControlBar" x="8" y="-3" z="0" width="1136" height="140" window_state="6">
+            <Picture id="m_Picture" x="0" y="-7" z="0" width="1145" height="146" window_state="6">
+                <piece_info value="slots_001_panel12"/>
+                <scale_mode value="3"/>
+            </Picture>
+            <Button id="m_BtnInfo" x="19" y="59" z="0" width="127" height="73" window_state="6" style="bs_slots_001_btn03">
+                <font_size value="28"/>
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="0" y="11" z="0" width="126" height="50" window_state="14">
+                    <text value="SLOTS_VOLCANO_BASEGAME_BUTTON_PAYTABLE"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.31999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Button id="m_BtnLine" x="95" y="57" z="0" width="127" height="73" window_state="260" style="bs_slots_001_btn03">
+                <line_height value="30"/>
+                <RichLabel id="m_LblLine" x="-7" y="36" z="0" width="146" height="30" window_state="14">
+                    <text value="$50"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt06"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture" x="35" y="14" z="0" width="61" height="25" window_state="14">
+                    <piece_info value="slots_001_text29"/>
+                </Picture>
+            </Button>
+            <Button id="m_BtnBet" x="151" y="59" z="0" width="202" height="73" window_state="262" style="bs_slots_001_button_022">
+                <line_height value="30"/>
+                <RichLabel id="m_LblBetEachLine" x="28" y="36" z="0" width="146" height="30" window_state="12">
+                    <text value="$50"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Lbl" x="38" y="11" z="0" width="126" height="30" window_state="14">
+                    <text value="SLOTS_VOLCANO_BASEGAME_BUTTON_TOTALBET"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.31999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LblTotalBet" x="29" y="35" z="0" width="146" height="30" window_state="14">
+                    <text value="50"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="32"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnStop" x="930" y="37" z="0" width="217" height="105" window_state="6">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-15" z="0" width="214" height="127" window_state="14" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="62" y="60" z="0" width="96" height="30" window_state="4">
+                        <text value="SLOTS_VOLCANO_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="28" y="28" z="0" width="163" height="54" window_state="14">
+                        <piece_info value="slots_001_text13"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-11" z="0" width="214" height="127" window_state="12" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="59" y="61" z="0" width="96" height="30" window_state="4">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="SLOTS_VOLCANO_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="28" y="28" z="0" width="163" height="54" window_state="14">
+                        <piece_info value="slots_001_text13"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnSpin" x="930" y="37" z="0" width="217" height="105" window_state="4">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-15" z="0" width="214" height="127" window_state="14" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="66" y="66" z="0" width="96" height="30" window_state="6">
+                        <text value="SLOTS_VOLCANO_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="18"/>
+                        <text_color value="cs_Sallow"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="2"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="34" y="15" z="0" width="153" height="57" window_state="6">
+                        <piece_info value="slots_001_text12"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-11" z="0" width="214" height="127" window_state="12" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="66" y="66" z="0" width="96" height="30" window_state="14">
+                        <text value="SLOTS_VOLCANO_BASEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="18"/>
+                        <text_color value="cs_Sallow"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="2"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="34" y="15" z="0" width="153" height="57" window_state="14">
+                        <piece_info value="slots_001_text12"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <Button implement_class="SwitchButton" id="m_BtnAutoSpin" x="930" y="37" z="0" width="217" height="105" window_state="4">
+                <font_size value="26"/>
+                <text_color value="cs_LightPurple"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <outline_color value="cs_LightPurple"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-15" z="0" width="214" height="127" window_state="14" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="64" y="15" z="0" width="96" height="30" window_state="6">
+                        <text value="500"/>
+                        <font_size value="34"/>
+                        <text_color value="cs_lightgreen2"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0"/>
+                        <glyph_center value="0.34999999"/>
+                        <outline_center value="0.46000001"/>
+                        <word_spacing value="2.5"/>
+                        <outline_color value="cs_red1_style"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="30" y="45" z="0" width="163" height="54" window_state="6">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_001_text13"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-11" z="0" width="214" height="127" window_state="12" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="64" y="15" z="0" width="96" height="30" window_state="6">
+                        <text value="500"/>
+                        <font_size value="34"/>
+                        <text_color value="cs_lightgreen2"/>
+                        <rich_label_state value="1"/>
+                        <smooth value="0"/>
+                        <glyph_center value="0.34999999"/>
+                        <outline_center value="0.46000001"/>
+                        <word_spacing value="2.5"/>
+                        <outline_color value="cs_yellowTxt05"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="30" y="45" z="0" width="163" height="54" window_state="6">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <piece_info value="slots_001_text13"/>
+                    </Picture>
+                </Panel>
+                <RichLabel id="m_LblAutoSpin" x="18" y="2" z="0" width="180" height="55" window_state="4">
+                    <text value="500"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_blue"/>
+                    <smooth value="0.050000001"/>
+                    <outline_center value="0.43000001"/>
+                    <word_spacing value="6"/>
+                    <outline_color value="null"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <RichLabel id="m_LblWinNum" x="478" y="92" z="0" width="206" height="40" window_state="4">
+                <text value="0"/>
+                <font_size value="53"/>
+                <text_color value="cs_White"/>
+                <text_style value="32"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button id="m_BtnLine1" x="95" y="57" z="0" width="127" height="73" window_state="292" style="bs_slots_001_btn03">
+                <color_scale x="0.75" y="0.75" z="0.75" w="1"/>
+                <line_height value="30"/>
+                <RichLabel id="m_LblLine" x="-9" y="36" z="0" width="146" height="30" window_state="14">
+                    <text value="30"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_yellowTxt06"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture" x="10" y="14" z="0" width="107" height="24" window_state="14">
+                    <piece_info value="slots_001_text42"/>
+                </Picture>
+            </Button>
+            <Button id="m_BtnMaxBet" x="786" y="57" z="0" width="127" height="73" window_state="262" style="bs_slots_001_btn03">
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="1" y="15" z="0" width="126" height="50" window_state="14">
+                    <text value="SLOTS_VOLCANO_BASEGAME_BUTTON_MAXBET"/>
+                    <font_size value="32"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <RichLabel id="m_RichLabel2" x="468" y="51" z="0" width="213" height="40" window_state="6">
+                <text value="SLOTS_VOLCANO_BASEGAME_TEXT_WIN"/>
+                <font_size value="48"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="4"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_FreeSpinControlBar" x="8" y="-8" z="0" width="1137" height="153" window_state="4">
+            <Picture id="m_Picture" x="0" y="-1" z="0" width="1136" height="143" window_state="262">
+                <piece_info value="slots_001_panel12"/>
+                <scale_mode value="3"/>
+                <Picture id="m_Picture" x="109" y="33" z="0" width="154" height="110" window_state="6">
+                    <piece_info value="slots_001_panel35"/>
+                </Picture>
+            </Picture>
+            <Panel id="m_PanelFreeSpinNum" x="21" y="98" z="0" width="148" height="32" window_state="6">
+                <window_layout value="1"/>
+                <RichLabel id="m_LblCurSpinNum" x="16" y="1" z="0" width="116" height="30" window_state="6">
+                    <action_id value="animation_volcano_spinleft"/>
+                    <text value="999"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.38999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Picture id="m_Picture3" x="38" y="53" z="0" width="115" height="123" window_state="4">
+                <scale x="0.80000001" y="0.5" z="0.75"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_spinleft01"/>
+                <piece_info value="halo"/>
+            </Picture>
+            <Button implement_class="SwitchButton" id="m_BtnFreeSpin" x="930" y="42" z="0" width="217" height="105" window_state="6">
+                <font_size value="26"/>
+                <text_color value="cs_line_color_05"/>
+                <text_align_v value="3"/>
+                <text_offset x="0" y="-7" z="0"/>
+                <line_height value="30"/>
+                <Panel id="TouchUp" x="0" y="-15" z="0" width="214" height="127" window_state="14" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="62" y="60" z="0" width="96" height="30" window_state="4">
+                        <text value="SLOTS_VOLCANO_FREEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="35" y="27" z="0" width="153" height="57" window_state="14">
+                        <piece_info value="slots_001_text12"/>
+                    </Picture>
+                </Panel>
+                <Panel id="TouchDown" x="0" y="-11" z="0" width="214" height="127" window_state="12" style="bs_slots_001_button_017">
+                    <RichLabel id="m_RichLabel" x="59" y="61" z="0" width="96" height="30" window_state="4">
+                        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                        <text value="SLOTS_VOLCANO_FREEGAME_BUTTON_AUTOSPIN"/>
+                        <font_size value="17"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <font_id value="MyraidPro"/>
+                        <glyph_center value="0.40000001"/>
+                        <outline_center value="0.57999998"/>
+                        <word_spacing value="1.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="35" y="27" z="0" width="153" height="57" window_state="14">
+                        <piece_info value="slots_001_text12"/>
+                    </Picture>
+                </Panel>
+            </Button>
+            <RichLabel id="m_LblFreeSpinTotalWin" x="475" y="96" z="0" width="206" height="40" window_state="6">
+                <text value="5000"/>
+                <font_size value="53"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblFreeSpinTotalBet" x="199" y="99" z="0" width="146" height="30" window_state="6">
+                <text value="500"/>
+                <font_size value="35"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblFreeSpinWinNum" x="471" y="58" z="0" width="213" height="40" window_state="6">
+                <text value="SLOTS_VOLCANO_FREEGAME_TEXT_TOTALWIN"/>
+                <font_size value="48"/>
+                <text_color value="cs_yellowTxt02"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="1"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_Picture2" x="738" y="83" z="0" width="119" height="25" window_state="4">
+                <piece_info value="slots_001_text36"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="24" y="69" z="0" width="144" height="30" window_state="6">
+                <text value="SLOTS_VOLCANO_FREEGAME_TEXT_FREESPINS"/>
+                <text_color value="cs_yellowTxt02"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.47"/>
+                <outline_center value="0.51999998"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="194" y="70" z="0" width="156" height="30" window_state="6">
+                <text value="SLOTS_VOLCANO_FREEGAME_TEXT_TOTALBET"/>
+                <text_color value="cs_yellowTxt02"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.46000001"/>
+                <outline_color value="cs_yellowTxt02"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Button id="m_Max bet" x="778" y="61" z="0" width="127" height="73" window_state="294" style="bs_slots_001_btn03">
+                <line_height value="30"/>
+                <RichLabel id="m_LblCurSpinNum" x="15" y="17" z="0" width="96" height="40" window_state="6">
+                    <action_id value="animation_volcano_spinleft"/>
+                    <text value="SLOTS_VOLCANO_FREEGAME_BUTTON_MAXBET"/>
+                    <font_size value="33"/>
+                    <text_color value="cs_White"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.38999999"/>
+                    <outline_center value="0.47999999"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+        </Panel>
+    </Panel>
+    <Sprite id="m_SpriteReelsLava3" x="748" y="460" z="0" width="400" height="200" window_state="14">
+        <blend_mode value="2"/>
+        <sprite_file value="slots_001/sprites/volcano_frame_05.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Panel id="m_AutoSpinSelector" x="889" y="105" z="0" width="253" height="444" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_SpinChoicePanel" x="-11" y="8" z="0" width="267" height="450" window_state="6">
+            <scale x="1.08" y="1" z="1"/>
+            <piece_info value="slots_001_panel11"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <ToggleButton id="m_SpinChoice0" x="35" y="288" z="0" width="190" height="64" window_state="262">
+            <text value="10"/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_001_button_021"/>
+            <unchecked_bg_style value="bs_slots_001_button_020"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice1" x="35" y="222" z="0" width="190" height="64" window_state="262">
+            <text value="50"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_001_button_021"/>
+            <unchecked_bg_style value="bs_slots_001_button_020"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice2" x="35" y="157" z="0" width="190" height="64" window_state="262">
+            <text value="100"/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_001_button_021"/>
+            <unchecked_bg_style value="bs_slots_001_button_020"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice3" x="35" y="91" z="0" width="190" height="64" window_state="262">
+            <text value="200"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_001_button_021"/>
+            <unchecked_bg_style value="bs_slots_001_button_020"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice4" x="35" y="25" z="0" width="190" height="64" window_state="262">
+            <text value="500"/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_001_button_021"/>
+            <unchecked_bg_style value="bs_slots_001_button_020"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_BtnFastSpin" x="35" y="354" z="0" width="190" height="60" window_state="6">
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_001_btn04a"/>
+            <unchecked_bg_style value="bs_slots_001_btn04"/>
+        </ToggleButton>
+    </Panel>
+    <Panel id="m_BetSelector" x="113" y="84" z="0" width="283" height="478" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_SpinChoicePanel" x="5" y="1" z="0" width="267" height="476" window_state="6">
+            <scale x="1" y="0.94999999" z="1"/>
+            <anchor_point x="0.5" y="1" z="0"/>
+            <piece_info value="slots_001_panel11"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <List id="m_List" x="52" y="40" z="0" width="194" height="389" window_state="6">
+            <scroll_state value="6"/>
+            <content_size x="0" y="61" z="0"/>
+            <page_size x="1" y="100" z="1"/>
+            <ToggleButton id="m_SpinChoice0" x="0" y="0" z="0" width="189" height="61" window_state="262">
+                <text value="10"/>
+                <font_size value="45"/>
+                <text_color value="cs_yellowTxt06"/>
+                <text_offset x="0" y="-5" z="0"/>
+                <line_height value="30"/>
+                <checked_bg_style value="bs_slots_001_button_014b"/>
+                <unchecked_bg_style value="bs_slots_001_button_014"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_yellowTxt06"/>
+            </ToggleButton>
+        </List>
+    </Panel>
+    <Panel id="m_LineSelector" x="-26" y="84" z="0" width="283" height="478" window_state="4">
+        <dynamic_attr key="choice_num" type="int" value="5"/>
+        <dynamic_attr key="choice_path_pattern" type="string" value="m_SpinChoice#0"/>
+        <Picture id="m_SpinChoicePanel" x="8" y="1" z="0" width="267" height="476" window_state="6">
+            <scale x="1.03" y="1" z="1"/>
+            <piece_info value="slots_001_panel11"/>
+            <scale_mode value="3"/>
+        </Picture>
+        <ToggleButton id="m_SpinChoice0" x="55" y="314" z="0" width="189" height="61" window_state="262">
+            <text value="10"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_001_button_014b"/>
+            <unchecked_bg_style value="bs_slots_001_button_014"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice1" x="55" y="255" z="0" width="189" height="61" window_state="262">
+            <text value="50"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_001_button_014b"/>
+            <unchecked_bg_style value="bs_slots_001_button_014"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice2" x="55" y="196" z="0" width="189" height="61" window_state="6">
+            <text value="100"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_001_button_014b"/>
+            <unchecked_bg_style value="bs_slots_001_button_014"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice3" x="55" y="137" z="0" width="189" height="61" window_state="262">
+            <text value="200"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_001_button_014b"/>
+            <unchecked_bg_style value="bs_slots_001_button_014"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <ToggleButton id="m_SpinChoice4" x="55" y="78" z="0" width="189" height="61" window_state="262">
+            <text value="500"/>
+            <font_size value="45"/>
+            <text_color value="cs_yellowTxt06"/>
+            <text_offset x="0" y="-5" z="0"/>
+            <line_height value="30"/>
+            <checked_bg_style value="bs_slots_001_button_014b"/>
+            <unchecked_bg_style value="bs_slots_001_button_014"/>
+            <checked_text_color_style value="cs_White"/>
+            <unchecked_text_color_style value="cs_yellowTxt06"/>
+        </ToggleButton>
+        <Button id="m_ButtonUp" x="55" y="19" z="0" width="189" height="61" window_state="6" style="bs_slots_001_button_014a">
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="66" y="15" z="0" width="56" height="30" window_state="14">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <piece_info value="slots_001_button_018"/>
+            </Picture>
+        </Button>
+        <Button id="m_ButtonDown" x="55" y="373" z="0" width="189" height="61" window_state="6" style="bs_slots_001_button_014a">
+            <line_height value="30"/>
+            <Picture id="m_Picture" x="66" y="15" z="0" width="56" height="30" window_state="14">
+                <scale x="0.75" y="0.75" z="0.75"/>
+                <rotation x="3.1415927" y="0" z="0"/>
+                <piece_info value="slots_001_button_018"/>
+            </Picture>
+        </Button>
+    </Panel>
+    <Panel id="m_PreTransformReel" x="234" y="117" z="0" width="820" height="450" window_state="4">
+        <Panel id="m_Panel0" x="17" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask"/>
+                <mask_offset x="-0" y="-0.082000002" z="0"/>
+                <target_offset x="0" y="0.094999999" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.039999999" z="0"/>
+                <target_offset x="0" y="0.18000001" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="237" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.079999998" z="0"/>
+                <target_offset x="0" y="0.23" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.02" z="0"/>
+                <target_offset x="0" y="0.2" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="-0.029999999" z="0"/>
+                <target_offset x="0" y="0.13" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="lava03"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+                <piece_info value="lava01"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+                <piece_info value="lava02"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+                <piece_info value="rockshow"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel1" x="174" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask"/>
+                <mask_offset x="-0" y="-0.082000002" z="0"/>
+                <target_offset x="0" y="0.094999999" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.039999999" z="0"/>
+                <target_offset x="0" y="0.18000001" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="237" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.079999998" z="0"/>
+                <target_offset x="0" y="0.23" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.02" z="0"/>
+                <target_offset x="0" y="0.2" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="-0.029999999" z="0"/>
+                <target_offset x="0" y="0.13" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="lava03"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+                <piece_info value="lava01"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+                <piece_info value="lava02"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+                <piece_info value="rockshow"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel2" x="332" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask"/>
+                <mask_offset x="-0" y="-0.082000002" z="0"/>
+                <target_offset x="0" y="0.094999999" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.039999999" z="0"/>
+                <target_offset x="0" y="0.18000001" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="237" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.079999998" z="0"/>
+                <target_offset x="0" y="0.23" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.02" z="0"/>
+                <target_offset x="0" y="0.2" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="-0.029999999" z="0"/>
+                <target_offset x="0" y="0.13" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="lava03"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+                <piece_info value="lava01"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+                <piece_info value="lava02"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+                <piece_info value="rockshow"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel3" x="484" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask"/>
+                <mask_offset x="-0" y="-0.082000002" z="0"/>
+                <target_offset x="0" y="0.094999999" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.039999999" z="0"/>
+                <target_offset x="0" y="0.18000001" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="237" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.079999998" z="0"/>
+                <target_offset x="0" y="0.23" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.02" z="0"/>
+                <target_offset x="0" y="0.2" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="-0.029999999" z="0"/>
+                <target_offset x="0" y="0.13" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="lava03"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+                <piece_info value="lava01"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+                <piece_info value="lava02"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+                <piece_info value="rockshow"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+        <Panel id="m_Panel4" x="636" y="-73" z="0" width="160" height="744" window_state="6">
+            <Sprite id="m_Sprite" x="94" y="2" z="0" width="152" height="640" window_state="14">
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <Sprite id="m_Sprite1" x="-84" y="-26" z="0" width="152" height="640" window_state="14">
+                <scale x="-1" y="0.94" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_sidefire.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+            <PictureMask id="m_PictureMask0" x="41" y="192" z="0" width="80" height="372" window_state="14">
+                <scale x="2.0599999" y="2.0699999" z="2.0999999"/>
+                <action_id value="animation_volcano_lava"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask"/>
+                <mask_offset x="-0" y="-0.082000002" z="0"/>
+                <target_offset x="0" y="0.094999999" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask1" x="18" y="110" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.0700001" y="1.2" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.039999999" z="0"/>
+                <target_offset x="0" y="0.18000001" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask2" x="47" y="237" z="0" width="80" height="372" window_state="14">
+                <scale x="-1.47" y="0.94" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.69999999"/>
+                <action_id value="animation_volcano_lava02"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.079999998" z="0"/>
+                <target_offset x="0" y="0.23" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask3" x="65" y="258" z="0" width="80" height="372" window_state="14">
+                <scale x="0.80000001" y="1.0700001" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="0.02" z="0"/>
+                <target_offset x="0" y="0.2" z="0"/>
+            </PictureMask>
+            <PictureMask id="m_PictureMask4" x="45" y="-10" z="0" width="80" height="372" window_state="14">
+                <scale x="1.37" y="0.83999997" z="2.0999999"/>
+                <color_scale x="1" y="1" z="1" w="0.5"/>
+                <action_id value="animation_volcano_lava01"/>
+                <piece_info value="lava"/>
+                <mask_piece value="lava_mask01"/>
+                <mask_offset x="0" y="-0.029999999" z="0"/>
+                <target_offset x="0" y="0.13" z="0"/>
+            </PictureMask>
+            <Picture id="m_PicTopMask" x="41" y="46" z="0" width="79" height="63" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="lava03"/>
+            </Picture>
+            <Picture id="m_PicCooldown" x="39" y="188" z="0" width="81" height="345" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava03"/>
+                <piece_info value="lava01"/>
+            </Picture>
+            <Picture id="m_PicCrack" x="28" y="173" z="0" width="102" height="366" window_state="14">
+                <scale x="2" y="2" z="2"/>
+                <action_id value="animation_volcano_lava04"/>
+                <piece_info value="lava02"/>
+            </Picture>
+            <Picture id="m_PicStone" x="-198" y="-631" z="0" width="168" height="624" window_state="14">
+                <scale x="0.88" y="0.88" z="0.88"/>
+                <rotation x="0" y="0" z="-0.29670596"/>
+                <action_id value="animation_volcano_lava05"/>
+                <piece_info value="rockshow"/>
+            </Picture>
+            <Sprite id="m_SpriteBomb" x="-829" y="16" z="0" width="1820" height="640" window_state="4">
+                <scale x="1" y="1.2" z="1"/>
+                <sprite_file value="slots_001/sprites/bomb_down.xml"/>
+                <sprite_state value="0"/>
+            </Sprite>
+        </Panel>
+    </Panel>
+    <Panel id="m_PanelFog" x="473" y="265" z="0" width="210" height="130" window_state="4">
+        <Picture id="m_PicFogBg" x="57" y="141" z="0" width="96" height="96" window_state="4">
+            <scale x="5.5999999" y="5.5999999" z="5.5999999"/>
+            <action_id value="animation_volcanic_smoke_01"/>
+            <piece_info value="slots_001_vfx10"/>
+        </Picture>
+        <Picture id="m_PicCloud" x="84" y="248" z="0" width="96" height="96" window_state="4">
+            <scale x="4" y="4" z="4"/>
+            <anchor_point x="0.5" y="1.33" z="0"/>
+            <action_id value="animation_volcanic_smoke"/>
+            <piece_info value="slots_001_vfx09"/>
+        </Picture>
+        <Sprite id="m_SpriteFog" x="-238" y="-254" z="0" width="800" height="640" window_state="4">
+            <blend_mode value="2"/>
+            <sprite_file value="slots_001/sprites/volcano_smoke_erupt.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Picture id="m_Picture" x="36" y="323" z="0" width="200" height="110" window_state="4">
+            <scale x="3.9200001" y="3.9200001" z="3.9200001"/>
+            <color_scale x="1" y="1" z="1" w="0.5"/>
+            <blend_mode value="2"/>
+            <anchor_point x="0.5" y="0.95999998" z="0"/>
+            <action_id value="animation_volcano_spinleft01"/>
+            <piece_info value="fog_halo"/>
+        </Picture>
+    </Panel>
+    <Panel implement_class="LobbyPopupMenu" id="m_PanelMenu" x="832" y="11" z="0" width="345" height="643" window_state="4">
+        <Picture id="m_PicBg" x="26" y="-1" z="0" width="298" height="643" window_state="6" style="ngs_casino_lobby_panel11"/>
+        <Picture id="m_PicMask" x="-137" y="-12" z="0" width="531" height="323" window_state="6">
+            <piece_info value="casino_common_panel30"/>
+        </Picture>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem0" x="62" y="102" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="12" z="0" width="176" height="55" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="14" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_SOUND"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <ToggleButton id="m_BtnToggle" x="73" y="1" z="0" width="102" height="51" window_state="14">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <line_height value="30"/>
+                    <checked value="1"/>
+                    <checked_bg_style value="bs_casino_common_btn024a"/>
+                    <unchecked_bg_style value="bs_casino_common_btn024"/>
+                </ToggleButton>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Sound" x="19" y="17" z="0" width="40" height="40" window_state="14">
+                    <piece_info value="casino_common_menu4"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem1" x="62" y="192" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_SLOTS"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Lobby" x="10" y="15" z="0" width="45" height="45" window_state="14">
+                    <piece_info value="casino_common_menu1"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem2" x="62" y="282" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_BUY"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Buy" x="17" y="19" z="0" width="41" height="38" window_state="14">
+                    <piece_info value="casino_common_menu5"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem3" x="62" y="372" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="22" z="0" width="160" height="41" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="4" z="0" width="140" height="30" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="SLOTS_COMMON_MENU_FANPAGE"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Buy" x="22" y="20" z="0" width="36" height="36" window_state="14">
+                    <piece_info value="casino_common_menu7"/>
+                </Picture>
+            </Button>
+        </Button>
+    </Panel>
+</Panel>

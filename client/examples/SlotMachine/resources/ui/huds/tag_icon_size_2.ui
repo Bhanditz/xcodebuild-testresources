@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_TagPanel" x="0" y="0" z="0" width="250" height="190" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_PicFrame0" x="-6" y="-6" z="0" width="262" height="202" window_state="6" style="ngs_selected_glow2"/>
+    <Picture id="m_PicFrame1" x="-6" y="-6" z="0" width="262" height="202" window_state="6" style="ngs_selected_glow"/>
+    <Picture id="m_PicCover" x="9" y="10" z="0" width="232" height="171" window_state="6" style="ngs_casino_common_tag_panel"/>
+    <Picture id="m_PicTag0" x="19" y="19" z="0" width="96" height="96" window_state="4">
+        <piece_info value="casino_common_tag0"/>
+    </Picture>
+    <Picture id="m_PicTag1" x="19" y="18" z="0" width="96" height="96" window_state="4">
+        <piece_info value="casino_common_tag1"/>
+    </Picture>
+    <Picture id="m_PicTag2" x="11" y="110" z="0" width="70" height="70" window_state="4"/>
+    <Panel id="m_PicTag6" x="4" y="6" z="0" width="239" height="178" window_state="4">
+        <Picture id="m_PicTag6" x="0" y="-6" z="0" width="121" height="186" window_state="14" style="ngs_casino_common_tag6"/>
+        <Picture id="m_PicTag6a" x="121" y="-6" z="0" width="121" height="186" window_state="14" style="ngs_casino_common_tag6">
+            <rotation x="0" y="3.1415927" z="0"/>
+        </Picture>
+        <Picture id="m_PicTag" x="71" y="30" z="0" width="96" height="28" window_state="14">
+            <piece_info value="casino_common_tag6c"/>
+        </Picture>
+        <RichLabel id="m_LblJackpot" x="58" y="4" z="0" width="126" height="30" window_state="6">
+            <text value="$2,333,333,999"/>
+            <text_color value="cs_yellow"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_JackpotOverflow" x="2" y="0" z="0" width="246" height="133" window_state="4">
+        <Panel id="m_OverflowEffect" x="0" y="0" z="0" width="246" height="133" window_state="6">
+            <Sprite id="m_OverflowBg_Left" x="-31" y="-12" z="0" width="100" height="100" window_state="6">
+                <sprite_file value="lobby/sprites/casino_blue.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_OverflowBg_Right" x="177" y="-13" z="0" width="100" height="100" window_state="6">
+                <scale x="-1" y="1" z="1"/>
+                <sprite_file value="lobby/sprites/casino_blue.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+            <Sprite id="m_Overflow_Light" x="15" y="-19" z="0" width="220" height="80" window_state="6">
+                <scale x="-1" y="1" z="1"/>
+                <sprite_file value="lobby/sprites/casino_marquee.xml"/>
+                <sprite_state value="1"/>
+            </Sprite>
+        </Panel>
+    </Panel>
+    <Picture id="m_PicTag3" x="4" y="110" z="0" width="241" height="78" window_state="4">
+        <Picture id="m_ClipPanel" x="60" y="3" z="0" width="180" height="65" window_state="262156">
+            <Panel id="m_UnlockLvl" x="-207" y="-3" z="0" width="226" height="70" window_state="6">
+                <Panel id="m_Type1" x="-7" y="0" z="0" width="226" height="70" window_state="6">
+                    <Picture id="m_UnlockLvl" x="0" y="0" z="0" width="226" height="70" window_state="14" style="ngs_casino_common_tag3a"/>
+                    <RichLabel id="m_LblUnlockLvl" x="72" y="22" z="0" width="136" height="30" window_state="14">
+                        <color_scale x="0.69999999" y="0.69999999" z="0.69999999" w="0.69999999"/>
+                        <text value="NEED LEVEL 100"/>
+                        <text_color value="cs_Purple1Txt"/>
+                        <text_align_h value="1"/>
+                        <font_id value="Bebas"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel id="m_Type2" x="-7" y="0" z="0" width="226" height="70" window_state="6">
+                    <Picture id="m_UnlockLvl" x="0" y="0" z="0" width="226" height="70" window_state="14" style="ngs_casino_common_tag3m"/>
+                    <RichLabel id="m_LblUnlockLvl" x="72" y="22" z="0" width="136" height="30" window_state="14">
+                        <color_scale x="0.80000001" y="0.80000001" z="0.80000001" w="1"/>
+                        <text value="NEED STAR 5"/>
+                        <text_color value="cs_BrownTxt"/>
+                        <text_align_h value="1"/>
+                        <font_id value="Bebas"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+            </Panel>
+        </Picture>
+        <Panel id="m_Lock" x="7" y="0" z="0" width="230" height="70" window_state="4">
+            <Panel id="m_Type1" x="0" y="0" z="0" width="230" height="70" window_state="6">
+                <Picture id="m_Lock" x="0" y="0" z="0" width="70" height="70" window_state="6">
+                    <piece_info value="casino_common_tag3"/>
+                </Picture>
+                <Picture id="m_LockIcon" x="20" y="14" z="0" width="30" height="39" window_state="262">
+                    <piece_info value="casino_common_tag3b"/>
+                </Picture>
+                <RichLabel id="m_LblLevel" x="19" y="27" z="0" width="31" height="30" window_state="6">
+                    <text value="100"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_black"/>
+                    <font_id value="Bebas"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Type2" x="0" y="0" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame0" x="0" y="0" z="0" width="70" height="70" window_state="14">
+                    <piece_info value="casino_common_tag3l"/>
+                </Picture>
+                <Picture id="m_LockType" x="18" y="13" z="0" width="34" height="44" window_state="14">
+                    <piece_info value="casino_common_tag3h"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Type3" x="0" y="2" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame1" x="0" y="-2" z="0" width="226" height="70" window_state="14" style="ngs_casino_common_tag3e"/>
+                <Picture id="m_LockType1" x="20" y="13" z="0" width="33" height="39" window_state="14">
+                    <piece_info value="casino_common_tag3j"/>
+                </Picture>
+                <RichLabel id="m_LblLockType1" x="72" y="20" z="0" width="136" height="30" window_state="14">
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <text value="SLOTS_LOBBY_UNLOCKTYPE_CHARGE"/>
+                    <text_color value="cs_BlueTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_style value="32"/>
+                    <font_id value="Bebas"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Type4" x="0" y="2" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame1" x="0" y="-2" z="0" width="226" height="70" window_state="14" style="ngs_casino_common_tag3e"/>
+                <Picture id="m_LockType1" x="20" y="12" z="0" width="30" height="39" window_state="14">
+                    <piece_info value="casino_common_tag3i"/>
+                </Picture>
+                <RichLabel id="m_LblLockType1" x="69" y="20" z="0" width="142" height="30" window_state="14">
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <text value="SLOTS_LOBBY_UNLOCKTYPE_FACEBOOK"/>
+                    <text_color value="cs_BlueTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_style value="32"/>
+                    <font_id value="Bebas"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Type5" x="0" y="2" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame1" x="0" y="-2" z="0" width="226" height="70" window_state="14" style="ngs_casino_common_tag3e"/>
+                <Picture id="m_LockType1" x="19" y="11" z="0" width="31" height="41" window_state="14">
+                    <piece_info value="casino_common_tag3k"/>
+                </Picture>
+                <RichLabel id="m_LblLockType1" x="72" y="20" z="0" width="146" height="30" window_state="14">
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <text value="SLOTS_LOBBY_UNLOCKTYPE_MULTILOCK"/>
+                    <text_color value="cs_BlueTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_style value="32"/>
+                    <font_id value="Bebas"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_UnLock" x="7" y="0" z="0" width="230" height="70" window_state="4">
+            <Panel id="m_Type1" x="0" y="0" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame0" x="0" y="0" z="0" width="70" height="70" window_state="14">
+                    <piece_info value="casino_common_tag3n"/>
+                </Picture>
+                <Picture id="m_UnlockType1" x="17" y="11" z="0" width="35" height="42" window_state="6">
+                    <piece_info value="casino_common_tag3c"/>
+                </Picture>
+                <RichLabel id="m_LblLevel" x="19" y="30" z="0" width="30" height="26" window_state="4">
+                    <text value="100"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_black"/>
+                    <font_id value="Bebas"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Type2" x="0" y="2" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame0" x="0" y="-2" z="0" width="70" height="70" window_state="14">
+                    <piece_info value="casino_common_tag3n"/>
+                </Picture>
+                <Picture id="m_UnlockType2" x="17" y="9" z="0" width="35" height="42" window_state="6">
+                    <piece_info value="casino_common_tag3c"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Type3" x="0" y="0" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame0" x="0" y="0" z="0" width="70" height="70" window_state="14">
+                    <piece_info value="casino_common_tag3n"/>
+                </Picture>
+                <Picture id="m_UnlockType3" x="17" y="11" z="0" width="35" height="42" window_state="6">
+                    <piece_info value="casino_common_tag3c"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Type4" x="0" y="0" z="0" width="230" height="70" window_state="4">
+                <Picture id="m_OtherFrame0" x="0" y="0" z="0" width="70" height="70" window_state="14">
+                    <piece_info value="casino_common_tag3n"/>
+                </Picture>
+                <Picture id="m_UnlockType3" x="17" y="11" z="0" width="35" height="42" window_state="6">
+                    <piece_info value="casino_common_tag3c"/>
+                </Picture>
+            </Panel>
+            <Panel id="m_Type5" x="0" y="0" z="0" width="230" height="70" window_state="6">
+                <Picture id="m_OtherFrame0" x="0" y="0" z="0" width="70" height="70" window_state="14">
+                    <piece_info value="casino_common_tag3n"/>
+                </Picture>
+                <Picture id="m_UnlockType3" x="17" y="11" z="0" width="35" height="42" window_state="6">
+                    <piece_info value="casino_common_tag3c"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Panel id="m_TempUnlock" x="-8" y="29" z="0" width="158" height="58" window_state="14">
+            <Picture id="m_TimeBg" x="-23" y="-4" z="0" width="206" height="70" window_state="14" style="ngs_casino_common_tag3o">
+                <scale x="0.75" y="0.75" z="0.75"/>
+            </Picture>
+            <Picture id="m_TimeIcon" x="14" y="10" z="0" width="30" height="41" window_state="12">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                <piece_info value="casino_common_tag3f"/>
+            </Picture>
+            <Picture id="m_TimeIcon1" x="12" y="8" z="0" width="35" height="42" window_state="6">
+                <scale x="0.70999998" y="0.70999998" z="0.70999998"/>
+                <piece_info value="casino_common_tag3c"/>
+            </Picture>
+            <RichLabel id="m_Time" x="49" y="20" z="0" width="101" height="24" window_state="14">
+                <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                <text value="3 DAY  00:00:00"/>
+                <font_size value="23"/>
+                <text_color value="cs_BlueTxt03"/>
+                <font_id value="Bebas"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="0"/>
+            </RichLabel>
+        </Panel>
+    </Picture>
+    <Picture id="m_PicTag4" x="172" y="-5" z="0" width="90" height="89" window_state="12">
+        <piece_info value="casino_common_tag4"/>
+    </Picture>
+    <Picture id="m_PicTag5" x="4" y="5" z="0" width="73" height="73" window_state="4">
+        <piece_info value="casino_common_tag5"/>
+    </Picture>
+    <Picture id="m_PicTag7" x="76" y="47" z="0" width="98" height="98" window_state="4">
+        <Picture id="m_PicTag7a" x="0" y="0" z="0" width="98" height="98" window_state="6"/>
+        <Picture id="m_PicTag7b" x="0" y="0" z="0" width="98" height="98" window_state="6"/>
+    </Picture>
+    <Picture id="m_PicTag8" x="4" y="5" z="0" width="97" height="97" window_state="4">
+        <piece_info value="casino_common_tag8"/>
+    </Picture>
+</Panel>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skull.png" width="256" height="512" blend="1" loop="1">
+    <sprite n="00001" x="2" y="2" w="172" h="148" oX="23" oY="14" oW="200" oH="200" r="y" dr="120"/>
+    <sprite n="00000" x="2" y="152" w="162" h="148" oX="23" oY="13" oW="200" oH="200" r="y" dr="120"/>
+</TextureAtlas>

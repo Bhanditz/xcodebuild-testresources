@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+    <Panel id="m_Panel_spin" x="936" y="441" z="0" width="157" height="111" window_state="6">
+        <Sprite id="m_Sprite" x="90" y="-48" z="0" width="100" height="150" window_state="6">
+            <rotation x="0" y="0" z="1.1519173"/>
+            <sprite_file value="slots_004/sprites/spinfire_release.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="-21" y="-40" z="0" width="100" height="150" window_state="6">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <rotation x="0" y="0" z="-1.204277"/>
+            <sprite_file value="slots_004/sprites/spinfire_release.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Sprite id="m_Sprite4" x="359" y="458" z="0" width="100" height="150" window_state="6">
+        <sprite_file value="slots_004/sprites/smallfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite5" x="685" y="458" z="0" width="100" height="150" window_state="6">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_004/sprites/smallfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite6" x="413" y="440" z="0" width="100" height="150" window_state="6">
+        <sprite_file value="slots_004/sprites/smallfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite7" x="632" y="440" z="0" width="100" height="150" window_state="6">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_004/sprites/smallfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite8" x="459" y="425" z="0" width="100" height="150" window_state="6">
+        <sprite_file value="slots_004/sprites/smallfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite9" x="588" y="425" z="0" width="100" height="150" window_state="6">
+        <scale x="-1" y="1" z="1"/>
+        <sprite_file value="slots_004/sprites/smallfire.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+</Panel>

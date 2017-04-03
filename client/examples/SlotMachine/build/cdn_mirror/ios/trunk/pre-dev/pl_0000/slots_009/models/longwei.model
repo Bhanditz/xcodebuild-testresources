@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model mesh="longwei.meshdata" animation="longwei.animdata" skelecton="longwei.skelecton">
+    <MaterialList>
+        <Material id="0" name="Material__255-material" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+            <texture index="2" key="u_texSpecular" file="long_S.png"/>
+        </Material>
+		<Material id="1" name="long_material_1" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_1.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+			<texture index="2" key="u_texSpecular" file="long_S.png"/>
+        </Material>
+        <Material id="2" name="long_material_2" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_2.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+      		<texture index="2" key="u_texSpecular" file="long_S.png"/>
+        </Material>
+        <Material id="3" name="long_material_3" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_3.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+			<texture index="2" key="u_texSpecular" file="long_S.png"/>
+        </Material>
+        <Material id="4" name="long_material_4" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_4.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+      		<texture index="2" key="u_texSpecular" file="long_S.png"/>
+        </Material>
+        <Material id="5" name="long_material_5" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_5.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+			<texture index="2" key="u_texSpecular" file="long_S.png"/>
+        </Material>
+        <Material id="6" name="long_material_6" two_side="0" shader="skinmesh_phong.shader">
+            <texture index="0" key="u_texDiffuse" file="long_D_6.png"/>
+            <texture index="1" key="u_texNormal" file="long_N.png"/>
+			<texture index="2" key="u_texSpecular" file="long_S.png"/>
+        </Material>
+    </MaterialList>
+    <MeshList>
+        <Mesh id="0" name="Object013" material="0" num_verts="344" num_faces="396" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT|VA_SKIN"/>
+    </MeshList>
+    <AnimList>
+        <Animation id="0" name="animation" duration="2.2" channels="7"/>
+    </AnimList>
+    <NodeList>
+        <Node id="0" parent_id="-1" name="unnamed" trans="0.0254,0,0,0,0,0,0.0254,0,0,-0.0254,0,0,0,0,0,1"/>
+        <Node id="1" parent_id="0" name="EnvironmentAmbientLight" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="2" parent_id="0" name="Object013" meshes="0" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="3" parent_id="0" name="Bone07" trans="-1.06307,0.245851,0.20375,126.705,0.127368,-0.322998,1.05429,-18.798,0.292804,1.03311,0.281134,-101.005,0,0,0,1"/>
+        <Node id="4" parent_id="3" name="Bone08" trans="0.506242,-0.856564,-0.10009,50.6695,0.856021,0.513188,-0.0621838,4.95911e-005,0.104629,-0.0541989,0.993033,2.28882e-005,0,0,0,1"/>
+        <Node id="5" parent_id="4" name="Bone09" trans="0.856872,-0.515404,0.0113981,51.5408,0.510546,0.851448,0.119914,-3.43323e-005,-0.0715088,-0.0969315,0.992719,-0.00043726,0,0,0,1"/>
+        <Node id="6" parent_id="5" name="Bone10" trans="0.68156,0.0216182,0.731443,52.1039,0.626186,0.499976,-0.598259,1.52588e-005,-0.378637,0.86577,0.327226,0.000898361,0,0,0,1"/>
+        <Node id="7" parent_id="6" name="Bone11" trans="0.967401,-0.227312,0.111648,41.3362,0.236273,0.968804,-0.0747898,-1.90735e-006,-0.0911643,0.098731,0.990929,0.00280762,0,0,0,1"/>
+        <Node id="8" parent_id="7" name="Bone12" trans="0.949391,-0.291939,-0.115876,62.8418,0.283948,0.955437,-0.0807074,-3.33786e-006,0.134274,0.0437201,0.989979,-0.00485039,0,0,0,1"/>
+        <Node id="9" parent_id="8" name="Bone13" trans="0.875322,-0.194725,0.442599,52.0872,0.145076,0.97892,0.143769,3.8147e-006,-0.461265,-0.0616337,0.885119,0.000858307,0,0,0,1"/>
+        <Node id="10" parent_id="9" name="Bone14" trans="0.74318,-0.117506,0.658692,51.3568,0.0189411,0.987758,0.154838,-7.62939e-006,-0.668823,-0.102596,0.736308,-7.62939e-005,0,0,0,1"/>
+        <Node id="11" parent_id="10" name="Bone15" trans="0.953246,-0.0853645,0.28989,42.4219,0.111358,0.990995,-0.0743589,-1.52588e-005,-0.280932,0.103164,0.954167,0.00698852,0,0,0,1"/>
+        <Node id="12" parent_id="11" name="Bone16" trans="0.947392,-0.0377702,0.31784,34.2904,-0.0269179,0.980093,0.196703,2.28882e-005,-0.318942,-0.194911,0.927516,-0.00561523,0,0,0,1"/>
+        <Node id="13" parent_id="12" name="Bone17" trans="0.936005,-0.00764769,0.351903,25.2617,-0.00173068,0.999652,0.0263281,1.52588e-005,-0.351982,-0.0252523,0.935666,3.05176e-005,0,0,0,1"/>
+        <Node id="14" parent_id="13" name="Bone18" trans="0.959337,0.0283251,0.280838,58.2212,0.00146297,0.99444,-0.105296,1.52588e-005,-0.282259,0.101425,0.953962,-3.05176e-005,0,0,0,1"/>
+        <Node id="15" parent_id="14" name="Bone19" trans="0.999965,-0.00833784,0.000156641,82.1247,0.00833789,0.999965,-0.000441708,9.15527e-005,-0.000153095,0.000443004,1,3.05176e-005,0,0,0,1"/>
+        <Node id="16" parent_id="7" name="Bone20" trans="-0.905518,-0.424308,6.34231e-007,23.3699,-0.00701029,0.0149623,0.999863,-18.1203,-0.424251,0.905394,-0.0165232,-1.47972,0,0,0,1"/>
+        <Node id="17" parent_id="7" name="Bone25" trans="-0.84282,0.538196,-2.58908e-007,23.37,0.00889605,0.0139307,-0.999863,18.1203,-0.538122,-0.842705,-0.0165289,-1.47962,0,0,0,1"/>
+        <Node id="18" parent_id="17" name="Bone26" trans="0.700897,0.713263,-7.52509e-007,75.8681,-0.713263,0.700897,-3.5502e-006,-0.000221252,-2.00467e-006,2.99513e-006,1,2.09808e-005,0,0,0,1"/>
+    </NodeList>
+</Model>

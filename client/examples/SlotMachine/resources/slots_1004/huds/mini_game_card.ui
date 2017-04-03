@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="210" height="200" window_state="6">
+    <Picture id="m_Picture" x="0" y="24" z="0" width="210" height="200" window_state="4">
+        <piece_info value="slots_1004_panel021"/>
+        <RichLabel id="m_Value" x="69" y="78" z="0" width="72" height="40" window_state="4">
+            <text value="150"/>
+            <font_size value="60"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47999999"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_Value_Yellow_1" x="48" y="40" z="0" width="113" height="76" window_state="4">
+            <text value="GAME
+OVER"/>
+            <font_size value="56"/>
+            <text_color value="cs_yellow"/>
+            <rich_label_state value="5"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.37"/>
+            <outline_center value="0.49000001"/>
+            <outline_color value="cs_BrownTxt"/>
+            <line_height value="38"/>
+        </RichLabel>
+    </Picture>
+    <Button id="m_Button" x="-3" y="75" z="0" width="217" height="118" window_state="6" style="bs_slots_1004_panel013">
+        <line_height value="30"/>
+    </Button>
+</Panel>

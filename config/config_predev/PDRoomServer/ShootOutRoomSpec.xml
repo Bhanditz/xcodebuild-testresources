@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!-- 
+    FirstRoomId：房间类型
+    RoundId：SHOOTOUT比赛的轮次
+    seat：房间最大人数上限
+    NeedCoins：进入第一轮比赛需要的参赛费，部分参赛费作为第一轮的奖励
+    RankReward：玩家名次对应的奖励数额，不同轮次游戏对应的奖励不同,最多支持前5名
+    lostExp：每一次比牌，输牌的玩家获得的经验值
+    winExp：每一次比牌，赢牌的玩家获得的经验值
+-->
+<root>
+    <Room FirstRoomId="0" RoundId="1" NeedCoins="20000" NeedCash="0"  RankReward1="20000"   RankReward2="10000" RankReward3="5000" RankReward4="0" RankReward5="0" lostExp="0" winExp="0"/>
+    <Room FirstRoomId="1" RoundId="2" NeedCoins="0"  NeedCash="0"    RankReward1="150000"  RankReward2="100000" RankReward3="50000" RankReward4="0" RankReward5="0" lostExp="0" winExp="0"/>
+    <Room FirstRoomId="2" RoundId="3" NeedCoins="0"  NeedCash="0"   RankReward1="5000000" RankReward2="2000000" RankReward3="1000000" RankReward4="500000" RankReward5="250000" lostExp="0" winExp="0"/>
+</root>
+

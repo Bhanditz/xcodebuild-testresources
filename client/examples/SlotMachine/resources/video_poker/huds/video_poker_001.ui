@@ -1,0 +1,2826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <piece_info value="vpoker_001_bg_01"/>
+    </Picture>
+    <Panel id="m_PanelAllHands" x="135" y="87" z="0" width="860" height="470" window_state="65542" style="ngs_panel_bg">
+        <Grid implement_class="GridHands" id="m_GridHandsMedium" x="94" y="-7" z="0" width="675" height="270" window_state="65550" style="ngs_panel_bg">
+            <Panel implement_class="PanelHand" id="m_PanelHandTemplate0" x="15" y="56" z="0" width="645" height="160" window_state="6">
+                <Button implement_class="ButtonCard" id="m_BtnCard0" x="27" y="31" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.4" y="1.4" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard1" x="156" y="31" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.4" y="1.4" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard2" x="285" y="31" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.4" y="1.4" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard3" x="414" y="31" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.4" y="1.4" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard4" x="543" y="31" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="1.4" y="1.4" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Picture id="m_PictureWinAmount" x="14" y="15" z="0" width="620" height="35" window_state="6" style="ngs_vpoker_001_panel_017">
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <RichLabel id="m_RichLabelWinAmount" x="0" y="2" z="0" width="620" height="30" window_state="6">
+                        <text value="You Win $100,103"/>
+                        <font_size value="32"/>
+                        <text_style value="1"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.039999999"/>
+                        <glyph_center value="0.44999999"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture" x="9" y="94" z="0" width="637" height="50" window_state="6" style="ngs_vpoker_001_panel_049">
+                    <RichLabel id="m_RichLabelWinName" x="1" y="7" z="0" width="637" height="30" window_state="6">
+                        <text value="VIDEOPOKER_ROOM_TIPS_JACKSORBETTER"/>
+                        <font_size value="35"/>
+                        <text_style value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <word_spacing value="2"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LabelHandNameHelp" x="2" y="7" z="0" width="315" height="30" window_state="4">
+                        <text value="VIDEOPOKER_ROOM_TIPS_NAMEHELP"/>
+                        <font_size value="35"/>
+                        <text_align_h value="1"/>
+                        <text_style value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <word_spacing value="2"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LabelWinValueHelp" x="312" y="7" z="0" width="315" height="30" window_state="4">
+                        <text value="VIDEOPOKER_ROOM_TIPS_WIN"/>
+                        <font_size value="35"/>
+                        <text_align_h value="3"/>
+                        <text_style value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <word_spacing value="2"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+        </Grid>
+        <Panel implement_class="PanelHand" id="m_PanelHand1" x="-19" y="261" z="0" width="890" height="249" window_state="6">
+            <Picture id="m_PictureWinAmount" x="-46" y="-4" z="0" width="997" height="40" window_state="6" style="ngs_vpoker_001_panel_017">
+                <RichLabel id="m_RichLabelWinAmount" x="210" y="5" z="0" width="576" height="30" window_state="6">
+                    <text value="You Win $100,103"/>
+                    <font_size value="35"/>
+                    <text_style value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <word_spacing value="1.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button implement_class="ButtonCard" id="m_BtnCard0" x="72" y="72" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                <scale x="1.6" y="1.6" z="1.6"/>
+                <line_height value="30"/>
+                <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_073"/>
+                </Picture>
+                <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                    <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                    <piece_info value="vpoker_001_icon_04"/>
+                </Picture>
+                <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                    <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                    <piece_info value="vpoker_001_icon_034"/>
+                </Picture>
+                <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.38" y="0.38" z="0.38"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                    <scale x="0.62" y="0.62" z="0.62"/>
+                    <piece_info value="vpoker_001_icon_030"/>
+                </Picture>
+                <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_012"/>
+                </Picture>
+                <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                    <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                    <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.22" y="1.24" z="1.26"/>
+                        <color_scale x="1" y="1" z="1" w="1.2"/>
+                        <action_id value="animation_vp_hold01"/>
+                        <piece_info value="hold_glow02"/>
+                    </Picture>
+                    <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.23" y="1.255" z="1.26"/>
+                        <piece_info value="hold_glow01"/>
+                    </Picture>
+                </Panel>
+                <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                    <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                    <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                    <sprite_state value="1"/>
+                    <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Sprite>
+            </Button>
+            <Button implement_class="ButtonCard" id="m_BtnCard1" x="242" y="72" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                <scale x="1.6" y="1.6" z="1.6"/>
+                <line_height value="30"/>
+                <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_073"/>
+                </Picture>
+                <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                    <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                    <piece_info value="vpoker_001_icon_04"/>
+                </Picture>
+                <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                    <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                    <piece_info value="vpoker_001_icon_034"/>
+                </Picture>
+                <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.38" y="0.38" z="0.38"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                    <scale x="0.62" y="0.62" z="0.62"/>
+                    <piece_info value="vpoker_001_icon_030"/>
+                </Picture>
+                <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_012"/>
+                </Picture>
+                <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                    <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                    <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.22" y="1.24" z="1.26"/>
+                        <color_scale x="1" y="1" z="1" w="1.2"/>
+                        <action_id value="animation_vp_hold01"/>
+                        <piece_info value="hold_glow02"/>
+                    </Picture>
+                    <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.23" y="1.255" z="1.26"/>
+                        <piece_info value="hold_glow01"/>
+                    </Picture>
+                </Panel>
+                <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                    <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                    <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                    <sprite_state value="1"/>
+                    <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Sprite>
+            </Button>
+            <Button implement_class="ButtonCard" id="m_BtnCard2" x="414" y="72" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                <scale x="1.6" y="1.6" z="1.6"/>
+                <line_height value="30"/>
+                <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_073"/>
+                </Picture>
+                <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                    <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                    <piece_info value="vpoker_001_icon_04"/>
+                </Picture>
+                <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                    <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                    <piece_info value="vpoker_001_icon_034"/>
+                </Picture>
+                <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.38" y="0.38" z="0.38"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                    <scale x="0.62" y="0.62" z="0.62"/>
+                    <piece_info value="vpoker_001_icon_030"/>
+                </Picture>
+                <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_012"/>
+                </Picture>
+                <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                    <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                    <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.22" y="1.24" z="1.26"/>
+                        <color_scale x="1" y="1" z="1" w="1.2"/>
+                        <action_id value="animation_vp_hold01"/>
+                        <piece_info value="hold_glow02"/>
+                    </Picture>
+                    <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.23" y="1.255" z="1.26"/>
+                        <piece_info value="hold_glow01"/>
+                    </Picture>
+                </Panel>
+                <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                    <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                    <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                    <sprite_state value="1"/>
+                    <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Sprite>
+            </Button>
+            <Button implement_class="ButtonCard" id="m_BtnCard3" x="583" y="72" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                <scale x="1.6" y="1.6" z="1.6"/>
+                <line_height value="30"/>
+                <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_073"/>
+                </Picture>
+                <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                    <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                    <piece_info value="vpoker_001_icon_04"/>
+                </Picture>
+                <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                    <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                    <piece_info value="vpoker_001_icon_034"/>
+                </Picture>
+                <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.38" y="0.38" z="0.38"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                    <scale x="0.62" y="0.62" z="0.62"/>
+                    <piece_info value="vpoker_001_icon_030"/>
+                </Picture>
+                <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_012"/>
+                </Picture>
+                <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                    <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                    <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.22" y="1.24" z="1.26"/>
+                        <color_scale x="1" y="1" z="1" w="1.2"/>
+                        <action_id value="animation_vp_hold01"/>
+                        <piece_info value="hold_glow02"/>
+                    </Picture>
+                    <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.23" y="1.255" z="1.26"/>
+                        <piece_info value="hold_glow01"/>
+                    </Picture>
+                </Panel>
+                <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                    <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                    <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                    <sprite_state value="1"/>
+                    <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Sprite>
+            </Button>
+            <Button implement_class="ButtonCard" id="m_BtnCard4" x="745" y="72" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                <scale x="1.6" y="1.6" z="1.6"/>
+                <line_height value="30"/>
+                <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_073"/>
+                </Picture>
+                <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                    <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                    <piece_info value="vpoker_001_icon_04"/>
+                </Picture>
+                <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                    <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                    <piece_info value="vpoker_001_icon_034"/>
+                </Picture>
+                <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                    <scale x="0.38" y="0.38" z="0.38"/>
+                    <piece_info value="vpoker_001_panel_061"/>
+                </Picture>
+                <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                    <scale x="0.62" y="0.62" z="0.62"/>
+                    <piece_info value="vpoker_001_icon_030"/>
+                </Picture>
+                <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                    <scale x="0.63999999" y="0.58999997" z="1"/>
+                    <piece_info value="vpoker_001_panel_012"/>
+                </Picture>
+                <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                    <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                    <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.22" y="1.24" z="1.26"/>
+                        <color_scale x="1" y="1" z="1" w="1.2"/>
+                        <action_id value="animation_vp_hold01"/>
+                        <piece_info value="hold_glow02"/>
+                    </Picture>
+                    <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                        <scale x="1.23" y="1.255" z="1.26"/>
+                        <piece_info value="hold_glow01"/>
+                    </Picture>
+                </Panel>
+                <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                    <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                    <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                    <sprite_state value="1"/>
+                    <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                        <rotation x="0" y="3.1415927" z="0"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                    </Sprite>
+                </Sprite>
+            </Button>
+            <Picture id="m_Picture" x="39" y="114" z="0" width="823" height="50" window_state="6" style="ngs_vpoker_001_panel_049">
+                <RichLabel id="m_RichLabelWinName" x="0" y="7" z="0" width="823" height="30" window_state="6">
+                    <text value="VIDEOPOKER_ROOM_TIPS_JACKSORBETTER"/>
+                    <font_size value="35"/>
+                    <text_style value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LabelHandNameHelp" x="11" y="7" z="0" width="200" height="30" window_state="4">
+                    <text value="VIDEOPOKER_ROOM_TIPS_NAMEHELP"/>
+                    <font_size value="35"/>
+                    <text_align_h value="1"/>
+                    <text_style value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_LabelWinValueHelp" x="611" y="7" z="0" width="200" height="30" window_state="4">
+                    <text value="VIDEOPOKER_ROOM_TIPS_WIN"/>
+                    <font_size value="35"/>
+                    <text_align_h value="3"/>
+                    <text_style value="1"/>
+                    <font_id value="LatoReg"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <word_spacing value="2"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Particle id="m_ParticleLeft" x="730" y="-37" z="0" width="32" height="32" window_state="14">
+                    <particle_state value="0"/>
+                    <package_file value="video_poker/particles/vp_particular.ptc"/>
+                    <particle_name value="Loading_effect01"/>
+                </Particle>
+                <Particle id="m_ParticleRight" x="57" y="-37" z="0" width="32" height="32" window_state="14">
+                    <scale x="-1" y="1" z="1"/>
+                    <particle_state value="0"/>
+                    <package_file value="video_poker/particles/vp_particular.ptc"/>
+                    <particle_name value="Loading_effect02"/>
+                </Particle>
+                <Picture id="m_PictureEffect" x="85" y="-32" z="0" width="648" height="100" window_state="6" style="ngs_vpoker_001_panel_017">
+                    <scale x="1.2" y="1.2" z="1.2"/>
+                    <blend_mode value="2"/>
+                    <action_id value="animation_Plight01"/>
+                    <piece_info value="p_light"/>
+                </Picture>
+            </Picture>
+        </Panel>
+        <Grid implement_class="GridHands" id="m_GridHandsSmall" x="86" y="-7" z="0" width="685" height="270" window_state="65550" style="ngs_panel_bg">
+            <Panel implement_class="PanelHand" id="m_PanelHandTemplate0" x="31" y="14" z="0" width="210" height="80" window_state="6">
+                <Button implement_class="ButtonCard" id="m_BtnCard0" x="-3" y="-11" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="0.69999999" y="0.69999999" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard1" x="30" y="-11" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="0.69999999" y="0.69999999" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard2" x="66" y="-11" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="0.69999999" y="0.69999999" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard3" x="99" y="-11" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="0.69999999" y="0.69999999" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Button implement_class="ButtonCard" id="m_BtnCard4" x="132" y="-11" z="0" width="79" height="102" window_state="6" style="bs_vpoker_001_panel_044">
+                    <scale x="0.69999999" y="0.69999999" z="1"/>
+                    <line_height value="30"/>
+                    <Picture id="m_PicFaceCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_073"/>
+                    </Picture>
+                    <Picture id="m_PicCardNumber" x="-9" y="-6" z="0" width="57" height="49" window_state="14">
+                        <scale x="0.55000001" y="0.55000001" z="0.55000001"/>
+                        <piece_info value="vpoker_001_icon_04"/>
+                    </Picture>
+                    <Picture id="m_PicWild" x="-9" y="1" z="0" width="96" height="96" window_state="14">
+                        <scale x="0.67000002" y="0.67000002" z="0.67000002"/>
+                        <piece_info value="vpoker_001_icon_034"/>
+                    </Picture>
+                    <Picture id="m_PicCardSuitAlternative" x="-9" y="20" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicSuitDuringWild" x="-29" y="-2" z="0" width="97" height="96" window_state="14">
+                        <scale x="0.38" y="0.38" z="0.38"/>
+                        <piece_info value="vpoker_001_panel_061"/>
+                    </Picture>
+                    <Picture id="m_PicHold" x="-19" y="40" z="0" width="117" height="63" window_state="14">
+                        <scale x="0.62" y="0.62" z="0.62"/>
+                        <piece_info value="vpoker_001_icon_030"/>
+                    </Picture>
+                    <Picture id="m_PicBackCard" x="0" y="0" z="0" width="79" height="102" window_state="14">
+                        <scale x="0.63999999" y="0.58999997" z="1"/>
+                        <piece_info value="vpoker_001_panel_012"/>
+                    </Picture>
+                    <Panel id="m_PanelHoldEffect" x="-24" y="-39" z="0" width="126" height="180" window_state="14">
+                        <scale x="0.56999999" y="0.52999997" z="0.56999999"/>
+                        <Picture id="m_HoldGlow02" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.22" y="1.24" z="1.26"/>
+                            <color_scale x="1" y="1" z="1" w="1.2"/>
+                            <action_id value="animation_vp_hold01"/>
+                            <piece_info value="hold_glow02"/>
+                        </Picture>
+                        <Picture id="m_HoldGlow01" x="16" y="42" z="0" width="96" height="96" window_state="14">
+                            <scale x="1.23" y="1.255" z="1.26"/>
+                            <piece_info value="hold_glow01"/>
+                        </Picture>
+                    </Panel>
+                    <Sprite id="m_SpriteGlowWin" x="-31" y="-49" z="0" width="100" height="200" window_state="14">
+                        <scale x="0.64999998" y="0.60000002" z="0.64999998"/>
+                        <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                        <sprite_state value="1"/>
+                        <Sprite id="m_SpriteGlowHold" x="63" y="0" z="0" width="100" height="200" window_state="14">
+                            <rotation x="0" y="3.1415927" z="0"/>
+                            <sprite_file value="video_poker/sprites/card_EffectLoop.xml"/>
+                            <sprite_state value="1"/>
+                        </Sprite>
+                    </Sprite>
+                </Button>
+                <Picture id="m_PictureWinAmount" x="-30" y="5" z="0" width="270" height="35" window_state="6" style="ngs_vpoker_001_panel_017">
+                    <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                    <color_scale x="1" y="1" z="1" w="0.80000001"/>
+                    <RichLabel id="m_RichLabelWinAmount" x="0" y="2" z="0" width="270" height="30" window_state="6">
+                        <text value="You Win $100,103"/>
+                        <font_size value="35"/>
+                        <text_style value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture" x="-30" y="37" z="0" width="268" height="40" window_state="6" style="ngs_vpoker_001_panel_038">
+                    <scale x="0.69999999" y="0.69999999" z="1"/>
+                    <RichLabel id="m_RichLabelWinName" x="1" y="4" z="0" width="268" height="30" window_state="6">
+                        <text value="VIDEOPOKER_ROOM_TIPS_JACKSORBETTER"/>
+                        <font_size value="35"/>
+                        <text_style value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LabelHandNameHelp" x="1" y="4" z="0" width="130" height="30" window_state="4">
+                        <text value="VIDEOPOKER_ROOM_TIPS_NAMEHELP"/>
+                        <font_size value="35"/>
+                        <text_align_h value="1"/>
+                        <text_style value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_LabelWinValueHelp" x="138" y="4" z="0" width="130" height="30" window_state="4">
+                        <text value="VIDEOPOKER_ROOM_TIPS_WIN"/>
+                        <font_size value="35"/>
+                        <text_align_h value="3"/>
+                        <text_style value="1"/>
+                        <font_id value="MyraidPro"/>
+                        <rich_label_state value="4"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+        </Grid>
+    </Panel>
+    <Panel id="m_PanelPaytablesAll" x="55" y="68" z="0" width="1052" height="279" window_state="65542">
+        <Panel implement_class="PanelPaytableB" id="m_PaytableB" x="-42" y="-15" z="0" width="1097" height="302" window_state="65542" style="ngs_panel_bg">
+            <Panel id="m_Panel" x="-38" y="20" z="0" width="1125" height="280" window_state="6">
+                <Picture id="m_PicLeftCellsA" x="74" y="12" z="0" width="184" height="262" window_state="6" style="ngs_vpoker_001_panel_048"/>
+                <Picture id="m_PicLeftCellsB" x="74" y="12" z="0" width="183" height="218" window_state="6" style="ngs_vpoker_001_panel_062"/>
+                <Picture id="m_PicRightCellsA" x="931" y="12" z="0" width="184" height="262" window_state="6" style="ngs_vpoker_001_panel_048"/>
+                <Picture id="m_PicRightCellsB" x="931" y="12" z="0" width="183" height="218" window_state="6" style="ngs_vpoker_001_panel_062"/>
+                <Picture id="m_PictureHighlightBg0" x="81" y="17" z="0" width="169" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg1" x="81" y="59" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg2" x="81" y="101" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg3" x="81" y="143" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg4" x="81" y="185" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg5" x="81" y="227" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg6" x="939" y="17" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg7" x="939" y="59" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg8" x="939" y="101" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg9" x="939" y="143" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg10" x="939" y="185" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <Picture id="m_PictureHighlightBg11" x="939" y="227" z="0" width="168" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                <RichLabel id="m_RichLabelWinBetRow0" x="82" y="36" z="0" width="167" height="20" window_state="6">
+                    <text value="250"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow1" x="82" y="78" z="0" width="167" height="20" window_state="6">
+                    <text value="50"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow2" x="82" y="120" z="0" width="167" height="20" window_state="6">
+                    <text value="25"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow3" x="82" y="163" z="0" width="167" height="20" window_state="6">
+                    <text value="9"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow4" x="82" y="204" z="0" width="167" height="20" window_state="6">
+                    <text value="6"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow5" x="82" y="246" z="0" width="167" height="20" window_state="6">
+                    <text value="6"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow6" x="940" y="36" z="0" width="167" height="20" window_state="6">
+                    <text value="4"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow7" x="940" y="78" z="0" width="167" height="20" window_state="6">
+                    <text value="3"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow8" x="940" y="120" z="0" width="167" height="20" window_state="6">
+                    <text value="2"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow9" x="940" y="163" z="0" width="167" height="20" window_state="6">
+                    <text value="1"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow10" x="940" y="204" z="0" width="167" height="20" window_state="6">
+                    <text value="1"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinBetRow11" x="940" y="246" z="0" width="167" height="20" window_state="6">
+                    <text value="1"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow0" x="82" y="17" z="0" width="167" height="20" window_state="6">
+                    <text value="Royal Flush"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow1" x="82" y="60" z="0" width="167" height="20" window_state="6">
+                    <text value="Straight Flush"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow2" x="82" y="102" z="0" width="167" height="20" window_state="6">
+                    <text value="Four of a kind"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow3" x="82" y="144" z="0" width="167" height="20" window_state="6">
+                    <text value="Full House"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow4" x="82" y="186" z="0" width="167" height="20" window_state="6">
+                    <text value="Flush"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow5" x="82" y="226" z="0" width="167" height="20" window_state="6">
+                    <text value="Flush"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow6" x="940" y="17" z="0" width="167" height="20" window_state="6">
+                    <text value="straight"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow7" x="940" y="60" z="0" width="167" height="20" window_state="6">
+                    <text value="Three of a Kind"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow8" x="940" y="102" z="0" width="167" height="20" window_state="6">
+                    <text value="Two Pair"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow9" x="940" y="144" z="0" width="167" height="20" window_state="6">
+                    <text value="Jacks or Better"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow10" x="940" y="186" z="0" width="167" height="20" window_state="6">
+                    <text value="Jacks or Better"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabelWinNameRow11" x="940" y="226" z="0" width="167" height="20" window_state="6">
+                    <text value="Jacks or Better"/>
+                    <font_size value="22"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel implement_class="PanelPaytableA" id="m_PaytableA" x="-8" y="18" z="0" width="1043" height="258" window_state="65542" style="ngs_panel_bg">
+            <Picture id="m_Picture" x="0" y="2" z="0" width="1042" height="254" window_state="6" style="ngs_vpoker_001_panel_034"/>
+            <Picture id="m_PictureColumnHighlight" x="323" y="6" z="0" width="128" height="250" window_state="6">
+                <scale x="1.08" y="0.95999998" z="1.08"/>
+                <piece_info value="vpoker_001_panel_036"/>
+            </Picture>
+            <List implement_class="PaytableWinTypesListA" id="m_ListWinTypes" x="15" y="10" z="0" width="1010" height="240" window_state="262150">
+                <scroll_state value="46"/>
+                <content_size x="0" y="27" z="0"/>
+                <page_size x="1" y="100" z="1"/>
+                <slider_bar value="m_SliderBar"/>
+                <Panel implement_class="PaytableRowA" id="m_PanelRowTemplate0" x="0" y="0" z="0" width="1010" height="27" window_state="6">
+                    <RichLabel id="m_RichLabelWinName" x="16" y="0" z="0" width="218" height="25" window_state="14">
+                        <text value="Royal Flush"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier0" x="310" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="250"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier1" x="449" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="500"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <smooth value="0.059999999"/>
+                        <glyph_center value="0.47999999"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier2" x="588" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="750"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier3" x="727" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="1000"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier4" x="866" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="1250"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_PictureRowBg" x="-1" y="0" z="0" width="1028" height="25" window_state="14" style="ngs_vpoker_001_panel_034a"/>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet0" x="303" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet1" x="443" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet2" x="583" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet3" x="723" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet4" x="863" y="0" z="0" width="148" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Picture id="m_PictureWinHighlight" x="0" y="-7" z="0" width="1010" height="40" window_state="12">
+                        <action_id value="animation_videopoker_play"/>
+                        <Picture id="m_PictureBg" x="0" y="0" z="0" width="1010" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                        <RichLabel id="m_RichLabelWinName" x="18" y="5" z="0" width="251" height="30" window_state="6">
+                            <text value="JACKS OR BETTER"/>
+                            <text_color value="cs_White"/>
+                            <text_align_h value="1"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet0" x="341" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="3"/>
+                            <text_color value="cs_White"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet1" x="481" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="4"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet2" x="620" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="5"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet3" x="758" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="6"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet4" x="898" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="7"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                    </Picture>
+                </Panel>
+            </List>
+            <List implement_class="PaytableWinTypesListA" id="m_ListWinHighlightRows" x="15" y="10" z="0" width="1010" height="240" window_state="262158">
+                <scroll_state value="46"/>
+                <content_size x="0" y="27" z="0"/>
+                <page_size x="1" y="100" z="1"/>
+                <slider_bar value="m_SliderBar"/>
+                <Panel implement_class="PaytableRowA" id="m_PanelRowTemplate0" x="0" y="0" z="0" width="1010" height="27" window_state="6">
+                    <RichLabel id="m_RichLabelWinName" x="16" y="0" z="0" width="218" height="25" window_state="14">
+                        <text value="Royal Flush"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier0" x="310" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="250"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier1" x="449" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="500"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <smooth value="0.059999999"/>
+                        <glyph_center value="0.47999999"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier2" x="588" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="750"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier3" x="727" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="1000"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelBetMultiplier4" x="866" y="0" z="0" width="128" height="25" window_state="14">
+                        <text value="1250"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_PictureRowBg" x="-1" y="0" z="0" width="1028" height="25" window_state="14" style="ngs_vpoker_001_panel_034a"/>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet0" x="303" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet1" x="443" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet2" x="583" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet3" x="723" y="0" z="0" width="140" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Button implement_class="ButtonIndexed" id="m_ButtonBet4" x="863" y="0" z="0" width="148" height="28" window_state="6" style="ngs_panel_bg">
+                        <line_height value="30"/>
+                    </Button>
+                    <Picture id="m_PictureWinHighlight" x="0" y="-7" z="0" width="1010" height="40" window_state="12">
+                        <action_id value="animation_videopoker_play"/>
+                        <Picture id="m_PictureBg" x="0" y="0" z="0" width="1010" height="40" window_state="6" style="ngs_vpoker_001_panel_038"/>
+                        <RichLabel id="m_RichLabelWinName" x="18" y="5" z="0" width="251" height="30" window_state="6">
+                            <text value="JACKS OR BETTER"/>
+                            <text_color value="cs_White"/>
+                            <text_align_h value="1"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet0" x="341" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="3"/>
+                            <text_color value="cs_White"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet1" x="481" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="4"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet2" x="620" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="5"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet3" x="758" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="6"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                        <RichLabel id="m_RichLabelWinBet4" x="898" y="5" z="0" width="96" height="30" window_state="6">
+                            <text value="7"/>
+                            <text_color value="cs_yellow"/>
+                            <text_align_h value="3"/>
+                            <text_style value="3"/>
+                            <font_id value="LatoReg"/>
+                            <rich_label_state value="4"/>
+                            <smooth value="0.050000001"/>
+                            <glyph_center value="0.5"/>
+                            <outline_center value="0.5"/>
+                            <line_height value="30"/>
+                        </RichLabel>
+                    </Picture>
+                </Panel>
+            </List>
+            <List id="m_List_02" x="14" y="4" z="0" width="1012" height="246" window_state="262150">
+                <scroll_state value="6"/>
+                <content_size x="0" y="255" z="0"/>
+                <page_size x="1" y="100" z="1"/>
+                <slider_bar value="m_SliderBar"/>
+                <Panel id="m_PanelColumn00" x="0" y="0" z="0" width="1016" height="27" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow0" x="29" y="3" z="0" width="218" height="26" window_state="6">
+                        <text value="Royal Flush"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow0" x="441" y="3" z="0" width="138" height="26" window_state="6">
+                        <text value="500"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow0" x="302" y="3" z="0" width="138" height="26" window_state="6">
+                        <text value="250"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <text_align_h value="3"/>
+                        <smooth value="0.059999999"/>
+                        <glyph_center value="0.47999999"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow0" x="580" y="3" z="0" width="138" height="26" window_state="6">
+                        <text value="750"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow0" x="719" y="3" z="0" width="138" height="26" window_state="6">
+                        <text value="1000"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow0" x="858" y="3" z="0" width="138" height="26" window_state="6">
+                        <text value="1250"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_yellowTxt02"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel id="m_PanelColumn1" x="0" y="27" z="0" width="992" height="25" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow1" x="29" y="3" z="0" width="218" height="22" window_state="6">
+                        <text value="Traight Flush"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow1" x="312" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="50"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow1" x="451" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="100"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow1" x="590" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="150"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow1" x="729" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="200"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow1" x="868" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="250"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="2" y="2" z="0" width="1010" height="25" window_state="6" style="ngs_vpoker_001_panel_034a"/>
+                </Panel>
+                <Panel id="m_PanelColumn2" x="0" y="52" z="0" width="1000" height="25" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow2" x="29" y="1" z="0" width="218" height="27" window_state="6">
+                        <text value="Four of a kind"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow2" x="312" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="25"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow2" x="451" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="50"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow2" x="590" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="75"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow2" x="729" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="100"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow2" x="868" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="125"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel id="m_PanelColumn3" x="0" y="77" z="0" width="1000" height="26" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow3" x="29" y="3" z="0" width="218" height="20" window_state="6">
+                        <text value="Full House"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow3" x="312" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="9"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow3" x="451" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="18"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow3" x="590" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="27"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow3" x="729" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="36"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow3" x="868" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="40"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="3" y="5" z="0" width="1010" height="25" window_state="6" style="ngs_vpoker_001_panel_034a"/>
+                </Panel>
+                <Panel id="m_PanelColumn4" x="0" y="103" z="0" width="998" height="25" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow4" x="29" y="3" z="0" width="218" height="26" window_state="6">
+                        <text value="Flush"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow4" x="312" y="5" z="0" width="128" height="26" window_state="6">
+                        <text value="6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow4" x="451" y="5" z="0" width="128" height="26" window_state="6">
+                        <text value="12"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow4" x="590" y="5" z="0" width="128" height="26" window_state="6">
+                        <text value="18"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow4" x="729" y="5" z="0" width="128" height="26" window_state="6">
+                        <text value="24"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow4" x="868" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="30"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel id="m_PanelColumn5" x="0" y="128" z="0" width="1028" height="25" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow5" x="29" y="2" z="0" width="218" height="25" window_state="6">
+                        <text value="Straight"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow5" x="312" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow5" x="451" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="8"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow5" x="590" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="12"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow5" x="729" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="16"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow5" x="868" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="20"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <Picture id="m_Picture" x="3" y="4" z="0" width="1010" height="25" window_state="6" style="ngs_vpoker_001_panel_034a"/>
+                </Panel>
+                <Panel id="m_RichLabelWinNameRow6" x="0" y="153" z="0" width="996" height="23" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow6" x="28" y="1" z="0" width="218" height="26" window_state="6">
+                        <text value="Three of a Kind"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow6" x="312" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="3"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow6" x="451" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="9"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow6" x="590" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="9"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow6" x="729" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="12"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow6" x="868" y="2" z="0" width="128" height="26" window_state="6">
+                        <text value="15"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel id="m_RichLabelWinRow7" x="0" y="176" z="0" width="990" height="27" window_state="6">
+                    <Picture id="m_Picture" x="3" y="5" z="0" width="1010" height="25" window_state="6" style="ngs_vpoker_001_panel_034a"/>
+                    <RichLabel id="m_RichLabelWinNameRow7" x="29" y="5" z="0" width="218" height="23" window_state="6">
+                        <text value="Two Pair"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="312" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="451" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="590" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="729" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="8"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="868" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="10"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel id="m_RichLabelWinNameRow8" x="0" y="203" z="0" width="995" height="25" window_state="6">
+                    <RichLabel id="m_RichLabelWinNameRow8" x="29" y="3" z="0" width="218" height="27" window_state="6">
+                        <text value="Jacks or Better"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow8" x="312" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="1"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow8" x="451" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow8" x="590" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="3"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow8" x="729" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow8" x="868" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="5"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+                <Panel id="m_RichLabelWinNameRow1" x="0" y="228" z="0" width="990" height="27" window_state="6">
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="1010" height="25" window_state="6" style="ngs_vpoker_001_panel_034a"/>
+                    <RichLabel id="m_RichLabelWinNameRow7" x="29" y="5" z="0" width="218" height="23" window_state="6">
+                        <text value="Two Pair"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="1"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="312" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="451" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="590" y="4" z="0" width="128" height="26" window_state="6">
+                        <text value="6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="729" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="8"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                    <RichLabel id="m_RichLabelWinRow7" x="868" y="3" z="0" width="128" height="26" window_state="6">
+                        <text value="10"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_color10"/>
+                        <text_align_h value="3"/>
+                        <font_id value="LatoReg"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Panel>
+            </List>
+            <SliderBar id="m_SliderBar" x="1018" y="11" z="0" width="10" height="237" window_state="4" style="ngs_vpoker_001_panel_037a">
+                <color_scale x="1" y="1" z="1" w="0"/>
+                <progress value="0"/>
+                <progress_max value="9"/>
+                <progress_page value="8"/>
+                <progress_style value="ngs_vpoker_001_panel_037"/>
+            </SliderBar>
+        </Panel>
+    </Panel>
+    <Picture id="m_PictureMessagePressDeal" x="184" y="419" z="0" width="768" height="75" window_state="14" style="ngs_vpoker_001_panel_017">
+        <RichLabel id="m_RichLabel" x="79" y="12" z="0" width="610" height="50" window_state="6">
+            <text value="VIDEOPOKER_ROOM_TIPS_DEALTOPLAY"/>
+            <font_size value="60"/>
+            <text_color value="cs_yellowTxt03"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <Panel id="m_PanelHeaderDetails" x="1" y="1" z="0" width="1136" height="84" window_state="14">
+        <Picture id="m_PictureHeader" x="-17" y="-13" z="0" width="1165" height="98" window_state="6">
+            <Picture id="m_PicEdge" x="4" y="-2" z="0" width="1163" height="96" window_state="6" style="ngs_vpoker_001_panel_07">
+                <Picture id="m_Picture" x="336" y="81" z="0" width="487" height="2" window_state="4" style="ngs_vpoker_001_panel_09">
+                    <color_scale x="1" y="1" z="1" w="0.60000002"/>
+                </Picture>
+            </Picture>
+            <Picture id="m_Picture" x="336" y="81" z="0" width="487" height="2" window_state="4" style="ngs_vpoker_001_panel_09">
+                <color_scale x="1" y="1" z="1" w="0.60000002"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_Picture" x="283" y="-15" z="0" width="568" height="86" window_state="6">
+            <piece_info value="vpoker_001_panel_100"/>
+        </Picture>
+        <RichLabel id="m_RichLabelThemeName" x="452" y="22" z="0" width="230" height="30" window_state="6">
+            <text value="VIDEOPOKER_ROOM_TITLE_JACKSORBETTER"/>
+            <font_size value="55"/>
+            <text_style value="1"/>
+            <font_id value="Bebas"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="cs_black_txt"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_DummySettingsButton" x="1027" y="2" z="0" width="91" height="88" window_state="6" style="bs_vpoker_001_button_043">
+            <line_height value="30"/>
+        </Button>
+    </Panel>
+    <Panel implement_class="LobbyPopupMenu" id="m_PanelMenu" x="840" y="0" z="0" width="365" height="643" window_state="4">
+        <Picture id="m_PicBg" x="36" y="-1" z="0" width="260" height="643" window_state="6" style="ngs_casino_lobby_panel11"/>
+        <Picture id="m_PicMask" x="-165" y="-12" z="0" width="531" height="323" window_state="6">
+            <piece_info value="casino_common_panel30"/>
+        </Picture>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem0" x="34" y="102" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="14" z="0" width="160" height="56" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="3" z="0" width="140" height="50" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="VIDEOPOKER_ROOM_MENU_VPLOBBY"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="26"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Lobby" x="10" y="15" z="0" width="45" height="45" window_state="14">
+                    <piece_info value="casino_common_menu1"/>
+                </Picture>
+            </Button>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnItem1" x="34" y="213" z="0" width="260" height="90" window_state="6">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="78" y="14" z="0" width="160" height="56" window_state="262158">
+                <scroll_state value="36"/>
+                <RichLabel id="m_RichLabel" x="10" y="3" z="0" width="140" height="50" window_state="14">
+                    <anchor_point x="0" y="0.5" z="0"/>
+                    <action_id value="value_poker"/>
+                    <text value="VIDEOPOKER_ROOM_MENU_HELP"/>
+                    <font_size value="35"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="26"/>
+                </RichLabel>
+            </ScrollContainer>
+            <Button id="m_BtnInner" x="-1" y="3" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <Picture id="m_Help" x="28" y="17" z="0" width="21" height="40" window_state="14">
+                    <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                    <piece_info value="casino_common_menu2"/>
+                </Picture>
+            </Button>
+        </Button>
+    </Panel>
+    <Panel implement_class="PanelBaseWager" id="m_PanelBaseWager" x="139" y="1" z="0" width="262" height="566" window_state="6">
+        <TabButton id="m_TabButton" x="0" y="0" z="0" width="262" height="566" window_state="6">
+            <line_height value="30"/>
+            <checked value="1"/>
+            <ToggleButton implement_class="ToggleButtonBaseWager" id="m_ToggleButton1" x="2" y="289" z="0" width="258" height="90" window_state="6">
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="3"/>
+                <text_offset x="-20" y="0" z="0"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="3"/>
+                <line_height value="30"/>
+                <checked_bg_style value="bs_vpoker_001_panel_039a"/>
+                <unchecked_bg_style value="bs_vpoker_001_panel_039"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_yellowTxt02"/>
+                <RichLabel id="m_RichLabel" x="71" y="24" z="0" width="171" height="44" window_state="14">
+                    <text value="1,000,000"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture1" x="9" y="20" z="0" width="62" height="53" window_state="14">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="vpoker_001_icon_02"/>
+                </Picture>
+                <Picture id="m_PictureHorizontalLine" x="3" y="86" z="0" width="253" height="4" window_state="6">
+                    <piece_info value="vpoker_001_panel_041"/>
+                </Picture>
+            </ToggleButton>
+            <ToggleButton implement_class="ToggleButtonBaseWager" id="m_ToggleButton2" x="2" y="378" z="0" width="258" height="84" window_state="6">
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="3"/>
+                <text_offset x="-20" y="0" z="0"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="3"/>
+                <line_height value="30"/>
+                <checked_bg_style value="bs_vpoker_001_panel_038a"/>
+                <unchecked_bg_style value="bs_vpoker_001_panel_038"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_yellowTxt02"/>
+                <RichLabel id="m_RichLabel" x="71" y="20" z="0" width="171" height="44" window_state="14">
+                    <text value="100,000,000"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture1" x="9" y="16" z="0" width="62" height="53" window_state="14">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="vpoker_001_icon_02"/>
+                </Picture>
+                <Picture id="m_PictureHorizontalLine" x="3" y="81" z="0" width="251" height="3" window_state="6">
+                    <piece_info value="vpoker_001_panel_041"/>
+                </Picture>
+            </ToggleButton>
+            <ToggleButton implement_class="ToggleButtonBaseWager" id="m_ToggleButton3" x="2" y="461" z="0" width="258" height="98" window_state="6">
+                <font_size value="35"/>
+                <text_color value="cs_yellowTxt02"/>
+                <text_align_h value="3"/>
+                <text_offset x="-20" y="-4" z="0"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="3"/>
+                <line_height value="30"/>
+                <checked_bg_style value="bs_vpoker_001_panel_040a"/>
+                <unchecked_bg_style value="bs_vpoker_001_panel_040"/>
+                <checked_text_color_style value="cs_White"/>
+                <unchecked_text_color_style value="cs_yellowTxt02"/>
+                <RichLabel id="m_RichLabel" x="71" y="19" z="0" width="171" height="44" window_state="14">
+                    <text value="200"/>
+                    <font_size value="40"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="3"/>
+                    <text_style value="32"/>
+                    <font_id value="LatoReg"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture1" x="9" y="15" z="0" width="62" height="53" window_state="14">
+                    <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+                    <piece_info value="vpoker_001_icon_02"/>
+                </Picture>
+                <Picture id="m_PictureHorizontalLine" x="3" y="82" z="0" width="251" height="3" window_state="4">
+                    <scale x="0.98000002" y="1" z="1"/>
+                    <piece_info value="vpoker_001_panel_041"/>
+                </Picture>
+            </ToggleButton>
+            <Picture id="m_Picture" x="7" y="461" z="0" width="248" height="82" window_state="4" style="ngs_vpoker_001_panel_050"/>
+        </TabButton>
+    </Panel>
+    <Panel id="m_MainButtonPanel" x="0" y="555" z="0" width="1136" height="84" window_state="6">
+        <Button id="m_ButtonBetMax" x="724" y="7" z="0" width="179" height="83" window_state="6" style="bs_vpoker_001_button_0400">
+            <text value="VIDEOPOKER_ROOM_BUTTON_BETMAX"/>
+            <text_color value="cs_white01"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="4"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_ButtonHands" x="9" y="7" z="0" width="166" height="82" window_state="6" style="bs_vpoker_001_button_046">
+            <text value="VIDEOPOKER_ROOM_BUTTON_HAND"/>
+            <text_color value="cs_white01"/>
+            <text_style value="1"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_ButtonDeal" x="908" y="2" z="0" width="505" height="88" window_state="262" style="bs_vpoker_001_button_028">
+            <text value="VIDEOPOKER_ROOM_BUTTON_DEAL"/>
+            <font_size value="50"/>
+            <text_color value="cs_white01"/>
+            <text_offset x="0" y="-3" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_ButtonDraw" x="908" y="2" z="0" width="521" height="88" window_state="262" style="bs_vpoker_001_button_028a">
+            <text value="VIDEOPOKER_ROOM_BUTTON_DRAW"/>
+            <font_size value="50"/>
+            <text_color value="cs_white01"/>
+            <text_offset x="0" y="-2" z="0"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_ButtonBaseWager" x="174" y="7" z="0" width="171" height="82" window_state="6" style="bs_vpoker_001_button_040">
+            <text value="VIDEOPOKER_ROOM_BUTTON_RANGE"/>
+            <text_color value="cs_white01"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Button id="m_ButtonBetUp" x="345" y="7" z="0" width="166" height="82" window_state="262" style="bs_vpoker_001_button_0450">
+            <text value="BET ONE
+$999.999.999"/>
+            <font_size value="28"/>
+            <text_color value="cs_white01"/>
+            <font_id value="MyraidPro"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </Button>
+        <Picture id="m_PictureTotalWin" x="511" y="12" z="0" width="213" height="72" window_state="6" style="ngs_vpoker_001_panel_046">
+            <RichLabel id="m_LabelTotalWin" x="19" y="10" z="0" width="174" height="30" window_state="6">
+                <text value="VIDEOPOKER_ROOM_TEXT_TOTALWIN"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LabelTotalWinAmount" x="19" y="37" z="0" width="174" height="30" window_state="6">
+                <text value="$999.999.999"/>
+                <text_color value="cs_yellow"/>
+                <font_id value="LatoReg"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Picture id="m_Picture1" x="298" y="-1" z="0" width="96" height="96" window_state="14">
+            <piece_info value="vpoker_001_panel_047"/>
+        </Picture>
+        <Picture id="m_Picture2" x="676" y="0" z="0" width="96" height="96" window_state="14">
+            <piece_info value="vpoker_001_panel_047"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_PanelTitleBar" x="1" y="1" z="0" width="1136" height="83" window_state="4">
+        <Picture id="m_Picture" x="284" y="161" z="0" width="568" height="320" window_state="4">
+            <scale x="2" y="2" z="2"/>
+        </Picture>
+        <Picture id="m_PicEdge" x="-15" y="-13" z="0" width="1171" height="96" window_state="4"/>
+        <Picture id="m_PicTotalCoins" x="-1" y="1" z="0" width="423" height="69" window_state="6">
+            <Picture id="m_Picture2" x="49" y="14" z="0" width="211" height="46" window_state="6"/>
+            <Picture id="m_Picture1" x="-60" y="-65" z="0" width="196" height="203" window_state="6">
+                <scale x="0.27000001" y="0.27000001" z="0.27000001"/>
+            </Picture>
+            <RichLabel id="m_LblCoin" x="71" y="16" z="0" width="150" height="40" window_state="6">
+                <text value="800,000,000"/>
+                <font_size value="33"/>
+                <text_align_h value="1"/>
+                <smooth value="0.039999999"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Panel id="m_PanelBuy" x="247" y="5" z="0" width="240" height="63" window_state="4">
+            <Button id="m_BtnFreeChip" x="98" y="9" z="0" width="136" height="46" window_state="6">
+                <text_offset x="6" y="0" z="0"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="19"/>
+            </Button>
+            <RichLabel id="m_LblFreeTime" x="133" y="14" z="0" width="85" height="36" window_state="14">
+                <text value="FREE
+COINS!"/>
+                <font_size value="25"/>
+                <text_style value="32"/>
+                <font_id value="DroidSansFallback"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="18"/>
+            </RichLabel>
+            <Button id="m_Button" x="5" y="9" z="0" width="126" height="46" window_state="6">
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+                <RichLabel id="m_RichLabel" x="15" y="8" z="0" width="96" height="30" window_state="14">
+                    <text value="BUY"/>
+                    <font_size value="34"/>
+                    <text_color value="cs_White"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <outline_color value="cs_White"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+        </Panel>
+        <Picture id="m_Picture" x="353" y="13" z="0" width="106" height="46" window_state="4">
+            <RichLabel id="m_RichLabel" x="41" y="3" z="0" width="54" height="40" window_state="4">
+                <text value="FREE!
+35:20"/>
+                <font_size value="28"/>
+                <text_style value="8"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.47999999"/>
+                <outline_center value="0.54000002"/>
+                <line_height value="20"/>
+            </RichLabel>
+        </Picture>
+        <Picture id="m_PicUserInfo" x="512" y="1" z="0" width="0" height="0" window_state="260">
+            <Panel id="m_Panel" x="47" y="13" z="0" width="193" height="46" window_state="6"/>
+            <Picture id="m_ExpProgressBase" x="46" y="37" z="0" width="203" height="20" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            </Picture>
+            <ProgressBarH implement_class="ProgressExpHBar" id="m_ExpProgress" x="39" y="37" z="0" width="190" height="20" window_state="14">
+                <progress value="35"/>
+                <progress_max value="140"/>
+                <edge_picture_offset x="0" y="0" z="0"/>
+                <edge_picture_scale x="1" y="1" z="1"/>
+            </ProgressBarH>
+            <Picture id="m_Picture" x="-11" y="-14" z="0" width="96" height="96" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            </Picture>
+            <PictureMask implement_class="PictureHead" id="m_Picture1" x="9" y="6" z="0" width="56" height="56" window_state="6">
+                <dynamic_attr key="default" type="string" value="casino_lobby_icon01b"/>
+                <dynamic_attr key="mask" type="bool" value="true"/>
+                <scale_mode value="4"/>
+                <mask_piece value="casino_mask_portrait"/>
+            </PictureMask>
+            <RichLabel id="m_LbUserName" x="74" y="5" z="0" width="201" height="30" window_state="4">
+                <text value="COME ON BABY"/>
+                <font_size value="26"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <font_id value="DynamicFont"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblLevel" x="72" y="11" z="0" width="91" height="30" window_state="14">
+                <text value="Level 29"/>
+                <text_align_h value="1"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Button id="m_BtnVIP" x="816" y="14" z="0" width="132" height="46" window_state="4">
+            <line_height value="30"/>
+            <Picture id="m_PicStar" x="-31" y="-5" z="0" width="57" height="59" window_state="6"/>
+            <RichLabel id="m_LblStar" x="32" y="2" z="0" width="79" height="35" window_state="14">
+                <text value="STAR 1"/>
+                <font_size value="35"/>
+                <text_align_h value="1"/>
+                <font_id value="DroidSansFallback"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <Button id="m_BtnMenu" x="1039" y="6" z="0" width="78" height="83" window_state="262">
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </Button>
+        <Picture id="m_PicTips" x="555" y="75" z="0" width="277" height="118" window_state="6">
+            <Picture id="m_PicTipsArrow" x="25" y="-10" z="0" width="24" height="15" window_state="6"/>
+            <RichLabel id="m_LblLevelInfo1" x="15" y="9" z="0" width="161" height="96" window_state="6">
+                <text value="EXP to Next Level:
+Next Level Reward:
+Max Bet Increased:
+Unlock:"/>
+                <font_size value="25"/>
+                <text_color value="cs_lightgrey"/>
+                <text_align_h value="3"/>
+                <text_align_v value="1"/>
+                <font_id value="MyraidPro"/>
+                <rich_label_state value="4"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <outline_color value="null"/>
+                <line_height value="24"/>
+            </RichLabel>
+            <Panel id="m_RightPanel" x="181" y="5" z="0" width="85" height="100" window_state="6">
+                <RichLabel id="m_LblLevelInfo2" x="0" y="0" z="0" width="85" height="100" window_state="6">
+                    <text value="1,000
+     5,000
+300
+     Test"/>
+                    <text_color value="cs_White"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <rich_label_state value="4"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <outline_color value="null"/>
+                    <line_height value="24"/>
+                </RichLabel>
+                <Picture id="m_PicCoin" x="-86" y="-61" z="0" width="196" height="203" window_state="6">
+                    <scale x="0.1" y="0.1" z="0.1"/>
+                </Picture>
+                <Picture id="m_PicUnlock" x="-15" y="60" z="0" width="57" height="59" window_state="6">
+                    <scale x="0.5" y="0.5" z="0.5"/>
+                </Picture>
+            </Panel>
+        </Picture>
+        <Picture id="m_PicExpUpdate" x="-1" y="4" z="0" width="0" height="0" window_state="260">
+            <Panel id="m_Panel" x="47" y="13" z="0" width="193" height="46" window_state="6"/>
+            <Picture id="m_Picture" x="-11" y="-14" z="0" width="96" height="96" window_state="6">
+                <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            </Picture>
+            <PictureMask implement_class="PictureHead" id="m_Picture1" x="9" y="6" z="0" width="56" height="56" window_state="6">
+                <dynamic_attr key="default" type="string" value="casino_lobby_icon01b"/>
+                <dynamic_attr key="mask" type="bool" value="true"/>
+                <scale_mode value="4"/>
+                <mask_piece value="casino_mask_portrait"/>
+            </PictureMask>
+            <RichLabel id="m_LbUserName" x="74" y="5" z="0" width="201" height="30" window_state="4">
+                <text value="COME ON BABY"/>
+                <font_size value="26"/>
+                <text_align_h value="1"/>
+                <text_align_v value="1"/>
+                <font_id value="DynamicFont"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblLevel" x="72" y="11" z="0" width="91" height="30" window_state="14">
+                <text value="Level 29"/>
+                <text_align_h value="1"/>
+                <outline_color value="null"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <ProgressBarH implement_class="ProgressExpHBar" id="m_ExpProgress" x="69" y="37" z="0" width="150" height="20" window_state="14">
+                <edge_picture_offset x="0" y="0" z="0"/>
+                <edge_picture_scale x="1" y="1" z="1"/>
+            </ProgressBarH>
+        </Picture>
+    </Panel>
+</Panel>

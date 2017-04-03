@@ -1,0 +1,167 @@
+
+dragon.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 240, 348
+  size: 136, 544
+  orig: 136, 544
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 348
+  size: 236, 544
+  orig: 236, 544
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: true
+  xy: 131, 166
+  size: 52, 19
+  orig: 52, 19
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 222, 314
+  size: 63, 32
+  orig: 63, 32
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 2, 220
+  size: 156, 126
+  orig: 156, 126
+  offset: 0, 0
+  index: -1
+jaw_1
+  rotate: false
+  xy: 378, 760
+  size: 90, 40
+  orig: 90, 40
+  offset: 0, 0
+  index: -1
+jaw_2
+  rotate: false
+  xy: 2, 127
+  size: 84, 91
+  orig: 84, 91
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 2, 77
+  size: 64, 48
+  orig: 64, 48
+  offset: 0, 0
+  index: -1
+l_claws
+  rotate: false
+  xy: 378, 697
+  size: 34, 61
+  orig: 34, 61
+  offset: 0, 0
+  index: -1
+l_finger_1a
+  rotate: false
+  xy: 378, 635
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+l_finger_1b
+  rotate: false
+  xy: 470, 770
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+l_finger_2
+  rotate: false
+  xy: 378, 665
+  size: 33, 30
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+l_finger_3
+  rotate: false
+  xy: 414, 702
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+l_palm
+  rotate: false
+  xy: 222, 276
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 88, 152
+  size: 41, 66
+  orig: 41, 66
+  offset: 0, 0
+  index: -1
+r_arm_shadow
+  rotate: false
+  xy: 160, 272
+  size: 60, 74
+  orig: 60, 74
+  offset: 0, 0
+  index: -1
+r_claws
+  rotate: true
+  xy: 160, 232
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+r_finger_1a
+  rotate: false
+  xy: 2, 2
+  size: 33, 27
+  orig: 33, 27
+  offset: 0, 0
+  index: -1
+r_finger_1b
+  rotate: true
+  xy: 323, 317
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+r_finger_2
+  rotate: false
+  xy: 287, 316
+  size: 34, 30
+  orig: 34, 30
+  offset: 0, 0
+  index: -1
+r_finger_3
+  rotate: false
+  xy: 414, 728
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+r_palm
+  rotate: false
+  xy: 2, 31
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+wing_1
+  rotate: false
+  xy: 378, 802
+  size: 116, 90
+  orig: 116, 90
+  offset: 0, 0
+  index: -1

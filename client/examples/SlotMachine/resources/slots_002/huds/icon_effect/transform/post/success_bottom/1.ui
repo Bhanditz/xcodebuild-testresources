@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6" style="ngs_panel_bg">
+    <Picture id="ref" x="0" y="0" z="0" width="156" height="100" window_state="6">
+        <piece_info value="slots_002_icon25"/>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="156" height="100" window_state="6">
+        <action_id value="animation_Sparta_spartaappear"/>
+        <piece_info value="slots_002_icon13"/>
+    </Picture>
+</Panel>

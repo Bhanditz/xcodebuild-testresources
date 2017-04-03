@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="theme805" file_name="theme805.png" width="1024" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="theme805_bg01" image_id="theme805" x="1" y="580" width="494" height="88"/>
+    <Piece id="theme805_bg02" image_id="theme805" x="0" y="0" width="494" height="579"/>
+    <Piece id="theme805_icon01" image_id="theme805" x="495" y="111" width="156" height="148"/>
+    <Piece id="theme805_icon02" image_id="theme805" x="495" y="260" width="156" height="148"/>
+    <Piece id="theme805_icon03" image_id="theme805" x="495" y="409" width="156" height="148"/>
+    <Piece id="theme805_icon04" image_id="theme805" x="496" y="558" width="156" height="148"/>
+    <Piece id="theme805_icon05" image_id="theme805" x="652" y="111" width="156" height="148"/>
+    <Piece id="theme805_icon06" image_id="theme805" x="652" y="260" width="75" height="75"/>
+    <Piece id="theme805_icon07" image_id="theme805" x="652" y="336" width="75" height="75"/>
+    <Piece id="theme805_icon08" image_id="theme805" x="652" y="412" width="65" height="50"/>
+    <Piece id="theme805_icon09" image_id="theme805" x="495" y="1" width="456" height="109"/>
+  </PieceList>
+</ImagePiece>

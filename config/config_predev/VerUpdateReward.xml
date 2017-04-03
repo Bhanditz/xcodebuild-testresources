@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+  	版本更新奖励。
+	
+	每次运营更改更新提示的配置，服务器需要同步增加一条更新提示奖励的配置记录。
+	客户端在每次更新了版本之后向服务器发送当前最新版本号，由服务端来判断玩家跨了几条更新记录，
+	并根据配置记录来判断需要给予玩家多少的更新提示奖励。
+	
+	heightOrder * 10000 + midOrder * 100 + lowOrder;
+	
+	plat:
+	1 Windows平台
+    2 安卓平台
+    3 IOS平台
+    4 WEB平台
+    5 winphone
+    6 亚马逊
+ 
+-->
+<root>
+	<ver plat="2" >
+		<update ver="1.1.0" reward="30000" />
+	</ver>
+	<ver plat="2" >
+		<update ver="1.2.0" reward="30000" />
+	</ver>
+	<ver plat="2" >
+		<update ver="1.3.0" reward="30000" />
+	</ver>
+	<ver plat="2" >
+		<update ver="1.3.1" reward="30000" />
+	</ver>
+	<ver plat="2" >
+		<update ver="1.3.2" reward="30000" />
+	</ver>
+ </root>
+ 

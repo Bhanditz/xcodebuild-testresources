@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1156" height="660" window_state="6">
+    <Picture id="m_Bg" x="38" y="-130" z="0" width="1156" height="660" window_state="6">
+        <scale x="1.1" y="1.1" z="1.1"/>
+        <piece_info value="slots_001_bg07"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_CollectionLayer" x="46" y="10" z="0" width="732" height="153" window_state="6">
+        <Picture id="m_Picture" x="13" y="42" z="0" width="181" height="94" window_state="262">
+            <piece_info value="slots_001_text07"/>
+        </Picture>
+        <Picture id="m_Bonus0" x="194" y="38" z="0" width="78" height="102" window_state="262">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <piece_info value="slots_001_card04"/>
+            <Picture id="m_Bonus_Glowsmall" x="-7" y="-9" z="0" width="90" height="120" window_state="6">
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_cardglow02"/>
+                <piece_info value="bigbonus_glow_small"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_Bonus1" x="272" y="38" z="0" width="78" height="102" window_state="262">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <piece_info value="slots_001_card04"/>
+            <Picture id="m_Bonus_Glowsmall" x="-7" y="-9" z="0" width="90" height="120" window_state="6">
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_cardglow02"/>
+                <piece_info value="bigbonus_glow_small"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_Bonus2" x="350" y="38" z="0" width="78" height="102" window_state="262">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <piece_info value="slots_001_card04"/>
+            <Picture id="m_Bonus_Glowsmall" x="-7" y="-9" z="0" width="90" height="120" window_state="6">
+                <blend_mode value="2"/>
+                <action_id value="animation_volcano_cardglow02"/>
+                <piece_info value="bigbonus_glow_small"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_Picture4" x="460" y="43" z="0" width="154" height="92" window_state="262">
+            <piece_info value="slots_001_text08"/>
+        </Picture>
+        <Picture id="m_FreeSpin0" x="616" y="37" z="0" width="78" height="103" window_state="262">
+            <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+            <piece_info value="slots_001_card05"/>
+        </Picture>
+        <Picture id="m_BigbonusFrame" x="88" y="37" z="0" width="262" height="100" window_state="260">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bonuspick_frame"/>
+            <piece_info value="bigbonus_frame"/>
+        </Picture>
+        <Picture id="m_FreegameFrame" x="493" y="36" z="0" width="171" height="98" window_state="260">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bonuspick_frame"/>
+            <piece_info value="freegame_frame"/>
+        </Picture>
+    </Panel>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1156" height="750" window_state="6" style="ngs_slots_001_panel13">
+        <color_scale x="1" y="1" z="1" w="0.89999998"/>
+    </Picture>
+    <Particle id="m_Particle" x="532" y="86" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg">
+        <blend_mode value="2"/>
+        <particle_state value="0"/>
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="bonus pick"/>
+    </Particle>
+    <Particle id="m_Particle1" x="543" y="549" z="0" width="32" height="32" window_state="4" style="ngs_panel_bg">
+        <scale x="1" y="-1" z="1"/>
+        <blend_mode value="2"/>
+        <particle_state value="0"/>
+        <package_file value="slots_001/particles/lucky_volcano.ptc"/>
+        <particle_name value="bonus pick"/>
+    </Particle>
+    <Picture id="m_Slate" x="0" y="162" z="0" width="1156" height="586" window_state="6">
+        <action_id value="animation_bonuspick_panel"/>
+        <piece_info value="slots_001_panel03"/>
+        <scale_mode value="3"/>
+        <RichLabel id="m_RichLabel" x="373" y="45" z="0" width="389" height="60" window_state="6">
+            <text value="SLOTS_VOLCANO_PICKCARD_TITLE"/>
+            <font_size value="60"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_yellowTxt04"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Panel id="m_TipPanel" x="463" y="10" z="0" width="210" height="130" window_state="6">
+            <action_id value="animation_bigwin_TextScale02"/>
+            <RichLabel id="m_RichLabel2" x="-90" y="35" z="0" width="389" height="60" window_state="6">
+                <text value="SLOTS_VOLCANO_PICKCARD_TITLE"/>
+                <font_size value="60"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_DescLayer" x="52" y="69" z="0" width="1033" height="130" window_state="6">
+            <Picture id="m_Picture1" x="70" y="73" z="0" width="895" height="40" window_state="6">
+                <RichLabel id="m_RichLabel1" x="211" y="-7" z="0" width="489" height="50" window_state="6">
+                    <text value="SLOTS_VOLCANO_PICKCARD_TEXT_MINIGAME"/>
+                    <font_size value="38"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+        </Panel>
+        <Panel id="m_CardsLayer" x="0" y="41" z="0" width="1156" height="438" window_state="6">
+            <Picture id="m_Picture1" x="422" y="10" z="0" width="291" height="47" window_state="6"/>
+            <Panel id="m_Panel" x="39" y="151" z="0" width="1058" height="298" window_state="6"/>
+            <Button id="m_Card0" x="8" y="155" z="0" width="212" height="280" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+                <Panel id="m_Front" x="0" y="-1" z="0" width="212" height="280" window_state="14">
+                    <Picture id="m_FreeSpin" x="3" y="10" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card03"/>
+                    </Picture>
+                    <Picture id="m_FreeSpin_Glow" x="43" y="80" z="0" width="124" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="freegame_glow"/>
+                    </Picture>
+                    <Picture id="m_Bonus" x="3" y="12" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card06"/>
+                    </Picture>
+                    <Picture id="m_Bonus_Glow" x="42" y="82" z="0" width="123" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="bigbonus_glow"/>
+                    </Picture>
+                    <PictureMask id="m_SpriteSweep" x="54" y="81" z="0" width="100" height="135" window_state="14">
+                        <scale x="2" y="-2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardsweep"/>
+                        <piece_info value="card_glow"/>
+                        <mask_scale value="0.23999999"/>
+                        <mask_offset x="-0.60000002" y="0" z="0"/>
+                    </PictureMask>
+                </Panel>
+                <ButtonAction id="m_Back" x="3" y="12" z="0" width="200" height="270" window_state="4" style="bs_slots_001_card02">
+                    <action_id value="animation_volcano_cardglow"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.029999999"/>
+                </ButtonAction>
+            </Button>
+            <Button id="m_Card1" x="194" y="155" z="0" width="212" height="280" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+                <Panel id="m_Front" x="0" y="-1" z="0" width="212" height="280" window_state="14">
+                    <Picture id="m_FreeSpin" x="3" y="10" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card03"/>
+                    </Picture>
+                    <Picture id="m_FreeSpin_Glow" x="43" y="80" z="0" width="124" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="freegame_glow"/>
+                    </Picture>
+                    <Picture id="m_Bonus" x="3" y="12" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card06"/>
+                    </Picture>
+                    <Picture id="m_Bonus_Glow" x="42" y="82" z="0" width="123" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="bigbonus_glow"/>
+                    </Picture>
+                    <PictureMask id="m_SpriteSweep" x="54" y="81" z="0" width="100" height="135" window_state="14">
+                        <scale x="2" y="-2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardsweep"/>
+                        <piece_info value="card_glow"/>
+                        <mask_scale value="0.23999999"/>
+                        <mask_offset x="-0.60000002" y="0" z="0"/>
+                    </PictureMask>
+                </Panel>
+                <ButtonAction id="m_Back" x="3" y="12" z="0" width="200" height="270" window_state="4" style="bs_slots_001_card02">
+                    <action_id value="animation_volcano_cardglow"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.029999999"/>
+                </ButtonAction>
+            </Button>
+            <Button id="m_Card2" x="380" y="155" z="0" width="212" height="280" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+                <Panel id="m_Front" x="0" y="-1" z="0" width="212" height="280" window_state="14">
+                    <Picture id="m_FreeSpin" x="3" y="10" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card03"/>
+                    </Picture>
+                    <Picture id="m_FreeSpin_Glow" x="43" y="80" z="0" width="124" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="freegame_glow"/>
+                    </Picture>
+                    <Picture id="m_Bonus" x="3" y="12" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card06"/>
+                    </Picture>
+                    <Picture id="m_Bonus_Glow" x="42" y="82" z="0" width="123" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="bigbonus_glow"/>
+                    </Picture>
+                    <PictureMask id="m_SpriteSweep" x="54" y="81" z="0" width="100" height="135" window_state="14">
+                        <scale x="2" y="-2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardsweep"/>
+                        <piece_info value="card_glow"/>
+                        <mask_scale value="0.23999999"/>
+                        <mask_offset x="-0.60000002" y="0" z="0"/>
+                    </PictureMask>
+                </Panel>
+                <ButtonAction id="m_Back" x="3" y="12" z="0" width="200" height="270" window_state="4" style="bs_slots_001_card02">
+                    <action_id value="animation_volcano_cardglow"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.029999999"/>
+                </ButtonAction>
+            </Button>
+            <Button id="m_Card3" x="566" y="155" z="0" width="212" height="280" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+                <Panel id="m_Front" x="0" y="-1" z="0" width="212" height="280" window_state="14">
+                    <Picture id="m_FreeSpin" x="3" y="10" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card03"/>
+                    </Picture>
+                    <Picture id="m_FreeSpin_Glow" x="43" y="80" z="0" width="124" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="freegame_glow"/>
+                    </Picture>
+                    <Picture id="m_Bonus" x="3" y="12" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card06"/>
+                    </Picture>
+                    <Picture id="m_Bonus_Glow" x="42" y="82" z="0" width="123" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="bigbonus_glow"/>
+                    </Picture>
+                    <PictureMask id="m_SpriteSweep" x="54" y="81" z="0" width="100" height="135" window_state="14">
+                        <scale x="2" y="-2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardsweep"/>
+                        <piece_info value="card_glow"/>
+                        <mask_scale value="0.23999999"/>
+                        <mask_offset x="-0.60000002" y="0" z="0"/>
+                    </PictureMask>
+                </Panel>
+                <ButtonAction id="m_Back" x="3" y="12" z="0" width="200" height="270" window_state="4" style="bs_slots_001_card02">
+                    <action_id value="animation_volcano_cardglow"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.029999999"/>
+                </ButtonAction>
+            </Button>
+            <Button id="m_Card4" x="752" y="155" z="0" width="212" height="280" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+                <Panel id="m_Front" x="0" y="-1" z="0" width="212" height="280" window_state="14">
+                    <Picture id="m_FreeSpin" x="3" y="10" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card03"/>
+                    </Picture>
+                    <Picture id="m_FreeSpin_Glow" x="43" y="80" z="0" width="124" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="freegame_glow"/>
+                    </Picture>
+                    <Picture id="m_Bonus" x="3" y="12" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card06"/>
+                    </Picture>
+                    <Picture id="m_Bonus_Glow" x="42" y="82" z="0" width="123" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="bigbonus_glow"/>
+                    </Picture>
+                    <PictureMask id="m_SpriteSweep" x="54" y="81" z="0" width="100" height="135" window_state="14">
+                        <scale x="2" y="-2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardsweep"/>
+                        <piece_info value="card_glow"/>
+                        <mask_scale value="0.23999999"/>
+                        <mask_offset x="-0.60000002" y="0" z="0"/>
+                    </PictureMask>
+                </Panel>
+                <ButtonAction id="m_Back" x="3" y="12" z="0" width="200" height="270" window_state="4" style="bs_slots_001_card02">
+                    <action_id value="animation_volcano_cardglow"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.029999999"/>
+                </ButtonAction>
+            </Button>
+            <Button id="m_Card5" x="938" y="155" z="0" width="212" height="280" window_state="6">
+                <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+                <line_height value="30"/>
+                <Panel id="m_Front" x="0" y="-1" z="0" width="212" height="280" window_state="14">
+                    <Picture id="m_FreeSpin" x="3" y="10" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card03"/>
+                    </Picture>
+                    <Picture id="m_FreeSpin_Glow" x="43" y="80" z="0" width="124" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="freegame_glow"/>
+                    </Picture>
+                    <Picture id="m_Bonus" x="3" y="12" z="0" width="200" height="270" window_state="270">
+                        <piece_info value="slots_001_card06"/>
+                    </Picture>
+                    <Picture id="m_Bonus_Glow" x="42" y="82" z="0" width="123" height="166" window_state="4">
+                        <scale x="2" y="2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardglow01"/>
+                        <piece_info value="bigbonus_glow"/>
+                    </Picture>
+                    <PictureMask id="m_SpriteSweep" x="54" y="81" z="0" width="100" height="135" window_state="14">
+                        <scale x="2" y="-2" z="2"/>
+                        <blend_mode value="2"/>
+                        <action_id value="animation_volcano_cardsweep"/>
+                        <piece_info value="card_glow"/>
+                        <mask_scale value="0.23999999"/>
+                        <mask_offset x="-0.60000002" y="0" z="0"/>
+                    </PictureMask>
+                </Panel>
+                <ButtonAction id="m_Back" x="3" y="12" z="0" width="200" height="270" window_state="4" style="bs_slots_001_card02">
+                    <action_id value="animation_volcano_cardglow"/>
+                    <line_height value="30"/>
+                    <action_scale value="0.029999999"/>
+                </ButtonAction>
+            </Button>
+        </Panel>
+    </Picture>
+    <Picture id="m_bonuspick" x="310" y="415" z="0" width="535" height="93" window_state="4">
+        <scale x="2" y="2" z="2"/>
+        <action_id value="animation_bonuspick_panelword"/>
+        <piece_info value="slots_001_text40"/>
+    </Picture>
+    <Picture id="m_glow1" x="437" y="377" z="0" width="284" height="160" window_state="268">
+        <scale x="4" y="4" z="4"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_bonuspick_panelglow02"/>
+        <piece_info value="slots_001_vfx04"/>
+    </Picture>
+    <Picture id="m_glow" x="436" y="375" z="0" width="284" height="157" window_state="268">
+        <scale x="4" y="4" z="4"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_bonuspick_panelglow01"/>
+        <piece_info value="slots_001_vfx03"/>
+    </Picture>
+    <Panel id="m_Panel_FreeGame" x="0" y="-1" z="0" width="1136" height="640" window_state="4">
+        <Picture id="m_Picture" x="520" y="272" z="0" width="96" height="96" window_state="14">
+            <piece_info value="slots_001_bg05"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="0" y="0" z="0" width="0" height="0" window_state="4">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite" x="0" y="0" z="0" width="0" height="0" window_state="4">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite" x="0" y="0" z="0" width="0" height="0" window_state="4">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite" x="0" y="0" z="0" width="0" height="0" window_state="4">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite" x="0" y="0" z="0" width="0" height="0" window_state="4">
+            <sprite_state value="0"/>
+        </Sprite>
+        <Panel id="m_Panel" x="195" y="39" z="0" width="746" height="550" window_state="6">
+            <Picture id="m_Picture_Stone" x="184" y="90" z="0" width="445" height="411" window_state="6">
+                <piece_info value="slots_001_freegame04"/>
+            </Picture>
+            <Panel id="m_Panel_Text" x="96" y="80" z="0" width="609" height="420" window_state="6">
+                <Picture id="m_Picture_Magma" x="-11" y="-7" z="0" width="632" height="258" window_state="14">
+                    <piece_info value="slots_001_freegame01"/>
+                </Picture>
+                <Picture id="m_Picture_FreeGame" x="201" y="357" z="0" width="235" height="88" window_state="14">
+                    <piece_info value="slots_001_freegame02"/>
+                </Picture>
+                <Picture id="m_Picture_7" x="100" y="232" z="0" width="203" height="202" window_state="14">
+                    <piece_info value="slots_001_freegame03"/>
+                </Picture>
+                <Picture id="m_Picture_7light" x="156" y="276" z="0" width="93" height="112" window_state="6">
+                    <scale x="2" y="2" z="2"/>
+                </Picture>
+            </Panel>
+        </Panel>
+        <Sprite id="m_Sprite" x="0" y="0" z="0" width="0" height="0" window_state="4">
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+</Panel>

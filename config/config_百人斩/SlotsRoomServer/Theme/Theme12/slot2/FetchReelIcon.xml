@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		获取整列图标
+			模式 0 随机抽取掉落的列  1 按传入的序号掉落特定列
+		
+	<FetchReelIcon id="1">
+		<Target Symbol="10"/>
+		<ReelGroupAmount>
+			<Amount amount="0" weight="7"/>
+			<Amount amount="1" weight="85"/>
+			<Amount amount="2" weight="7"/>
+			<Amount amount="3" weight="1"/>
+			<Amount amount="4" weight="0"/>
+			<Amount amount="5" weight="0"/>
+		</ReelGroupAmount>
+		<Reel>
+				<ReelGroup weight="15">
+						<Reel id="1" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="2" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="3" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="4" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="5" />
+				</ReelGroup>
+		</Reel>
+	</FetchReelIcon>
+ -->
+<root>
+	<FetchReelIcon id="1" Mode="1">
+		<Target Symbol="31"/>
+		
+		<ReelIndex index="1">
+			<Reel id="1"/>
+		</ReelIndex>
+		<ReelIndex index="2">
+			<Reel id="2"/>
+		</ReelIndex>
+		<ReelIndex index="3">
+			<Reel id="3"/>
+		</ReelIndex>
+		<ReelIndex index="4">
+			<Reel id="4"/>
+		</ReelIndex>
+		<ReelIndex index="5">
+			<Reel id="5"/>
+		</ReelIndex>
+		
+		<ReelIndex index="6">
+			<Reel id="1"/>
+		</ReelIndex>
+		<ReelIndex index="7">
+			<Reel id="1"/>
+			<Reel id="2"/>
+		</ReelIndex>
+		<ReelIndex index="8">
+			<Reel id="2"/>
+			<Reel id="3"/>
+		</ReelIndex>
+		<ReelIndex index="9">
+			<Reel id="3"/>
+			<Reel id="4"/>
+		</ReelIndex>
+		<ReelIndex index="10">
+			<Reel id="4"/>
+			<Reel id="5"/>
+		</ReelIndex>
+		
+		<ReelIndex index="11">
+			<Reel id="1"/>
+		</ReelIndex>
+		<ReelIndex index="12">
+			<Reel id="1"/>
+			<Reel id="2"/>
+		</ReelIndex>
+		<ReelIndex index="13">
+			<Reel id="1"/>
+			<Reel id="2"/>
+			<Reel id="3"/>
+		</ReelIndex>
+		<ReelIndex index="14">
+			<Reel id="2"/>
+			<Reel id="3"/>
+			<Reel id="4"/>
+		</ReelIndex>
+		<ReelIndex index="15">
+			<Reel id="3"/>
+			<Reel id="4"/>
+			<Reel id="5"/>
+		</ReelIndex>
+		
+		<ReelIndex index="16">
+			<Reel id="1"/>
+		</ReelIndex>
+		<ReelIndex index="17">
+			<Reel id="1"/>
+			<Reel id="2"/>
+		</ReelIndex>
+		<ReelIndex index="18">
+			<Reel id="1"/>
+			<Reel id="2"/>
+			<Reel id="3"/>
+		</ReelIndex>
+		<ReelIndex index="19">
+			<Reel id="1"/>
+			<Reel id="2"/>
+			<Reel id="3"/>
+			<Reel id="4"/>
+		</ReelIndex>
+		<ReelIndex index="20">
+			<Reel id="2"/>
+			<Reel id="3"/>
+			<Reel id="4"/>
+			<Reel id="5"/>
+		</ReelIndex>
+		
+		<ReelIndex index="21">
+			<Reel id="1"/>
+		</ReelIndex>
+		<ReelIndex index="22">
+			<Reel id="1"/>
+			<Reel id="2"/>
+		</ReelIndex>
+		<ReelIndex index="23">
+			<Reel id="1"/>
+			<Reel id="2"/>
+			<Reel id="3"/>
+		</ReelIndex>
+		<ReelIndex index="24">
+			<Reel id="1"/>
+			<Reel id="2"/>
+			<Reel id="3"/>
+			<Reel id="4"/>
+		</ReelIndex>
+		<ReelIndex index="25">
+			<Reel id="1"/>
+			<Reel id="2"/>
+			<Reel id="3"/>
+			<Reel id="4"/>
+			<Reel id="5"/>
+		</ReelIndex>
+		
+	</FetchReelIcon>
+</root>

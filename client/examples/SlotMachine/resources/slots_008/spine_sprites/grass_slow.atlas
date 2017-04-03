@@ -1,0 +1,27 @@
+
+grass_slow.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grass1
+  rotate: false
+  xy: 2, 42
+  size: 149, 69
+  orig: 149, 69
+  offset: 0, 0
+  index: -1
+grass3
+  rotate: false
+  xy: 153, 34
+  size: 140, 77
+  orig: 140, 77
+  offset: 0, 0
+  index: -1
+grass4
+  rotate: false
+  xy: 2, 2
+  size: 52, 38
+  orig: 52, 38
+  offset: 0, 0
+  index: -1

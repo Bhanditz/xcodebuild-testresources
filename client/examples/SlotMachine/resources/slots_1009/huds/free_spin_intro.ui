@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1009_panel028"/>
+    <Picture id="m_Picture" x="329" y="180" z="0" width="478" height="323" window_state="6">
+        <piece_info value="slots_1009_panel006"/>
+    </Picture>
+    <Panel id="m_Billing" x="294" y="90" z="0" width="555" height="433" window_state="4"/>
+    <Picture id="m_CongratsPic" x="299" y="100" z="0" width="533" height="87" window_state="6">
+        <piece_info value="slots_1009_panel025"/>
+    </Picture>
+    <Picture id="m_Picture2" x="470" y="390" z="0" width="189" height="30" window_state="260">
+        <piece_info value="slots_1009_panel027"/>
+    </Picture>
+    <Picture id="m_Picture1" x="449" y="247" z="0" width="231" height="54" window_state="4">
+        <piece_info value="slots_1009_panel024"/>
+    </Picture>
+    <RichLabel id="m_FreeSpinLbl" x="463" y="308" z="0" width="216" height="70" window_state="6">
+        <text value="999"/>
+        <font_size value="80"/>
+        <text_color value="cs_yellowTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.41999999"/>
+        <outline_center value="0.5"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt04"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_StartBtn" x="460" y="429" z="0" width="222" height="72" window_state="6" style="bs_slots_1009_button004">
+        <line_height value="30"/>
+    </Button>
+    <RichLabel id="m_RichLabel" x="523" y="267" z="0" width="96" height="30" window_state="6" style="ngs_panel_bg">
+        <text value="SLOTS_TUTSGOLD2_FREESPININTRO_TEXT_YOUWIN"/>
+        <font_size value="45"/>
+        <text_color value="cs_GreenTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.02"/>
+        <glyph_center value="0.40000001"/>
+        <outline_center value="0.49000001"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt02"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel1" x="523" y="387" z="0" width="96" height="30" window_state="6" style="ngs_panel_bg">
+        <text value="SLOTS_TUTSGOLD2_FREESPININTRO_TEXT_FREESPINS"/>
+        <font_size value="40"/>
+        <text_color value="cs_GreenTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.02"/>
+        <glyph_center value="0.40000001"/>
+        <outline_center value="0.49000001"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt02"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

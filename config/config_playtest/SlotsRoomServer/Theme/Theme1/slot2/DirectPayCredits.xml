@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<!--
+	Direct Pay Credits 直接赔付筹码
+		id: 序列号
+		FixCredits：固定保底值
+		BetPercentage：下注额的比例
+		LvPercentage：玩家等级对应基准值的比例
+
+		TriggerSymbol：触发的符号组合
+			Symbol:触发符号定义
+				id:符号ID
+				Amount:符号数量
+
+		SegmentPercentages：分段赔付设置
+			segment：分段
+				Percentage:赔付比例
+				Weightage:权重
+
+-->
+<root>
+
+</root>

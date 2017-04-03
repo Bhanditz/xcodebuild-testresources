@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model mesh="megawin.meshdata">
+    <MaterialList>
+        <Material id="0" name="Material__4-material" two_side="0" shader="mesh_ex_basic.shader">
+            <texture index="0" key="u_texDiffuse" file="bigwinr.png"/>
+            <texture index="1" key="u_texNormal" file="bigwin_nm.png"/>
+            <vec3 key="u_lightDir" value="0,0,-1"/>
+        </Material>
+    </MaterialList>
+    <MeshList>
+        <Mesh id="0" name="objdefault002" material="0" num_verts="2840" num_faces="1840" vertex="VA_POSITION|VA_TEXCOORD0|VA_NORMAL|VA_TANGENT"/>
+    </MeshList>
+    <NodeList>
+        <Node id="0" parent_id="-1" name="unnamed" trans="0.01,0,0,0,0,0,0.01,0,0,-0.01,0,0,0,0,0,1"/>
+        <Node id="1" parent_id="0" name="EnvironmentAmbientLight" trans="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"/>
+        <Node id="2" parent_id="0" name="objdefault002" trans="1,0,0,3.87223,0,1,0,4.29153e-006,0,0,1,0,0,0,0,1"/>
+        <Node id="3" parent_id="2" name="$ColladaAutoName$_14" meshes="0" trans="0.636608,0,0,-123.839,0,0.267889,0,-10.341,0,0,0.636608,-353.604,0,0,0,1"/>
+    </NodeList>
+</Model>

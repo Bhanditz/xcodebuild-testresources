@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="payline_remain.png" width="512" height="512" scale_x="1.42857" scale_y="1.42857" blend="1" loop="-1">
+    <sprite n="00000" x="202" y="302" w="154" h="98" oX="7" oW="168" oH="98" dr="60"/>
+    <sprite n="00001" x="358" y="202" w="98" h="154" oX="7" oW="168" oH="98" r="y" dr="60"/>
+    <sprite n="00002" x="2" y="260" w="98" h="156" oX="5" oW="168" oH="98" r="y" dr="60"/>
+    <sprite n="00003" x="2" y="102" w="98" h="156" oX="5" oW="168" oH="98" r="y" dr="60"/>
+    <sprite n="00004" x="318" y="2" w="156" h="98" oX="5" oW="168" oH="98" dr="60"/>
+    <sprite n="00005" x="160" y="2" w="156" h="98" oX="5" oW="168" oH="98" dr="60"/>
+    <sprite n="00006" x="102" y="358" w="98" h="152" oX="10" oW="168" oH="98" r="y" dr="60"/>
+    <sprite n="00007" x="202" y="202" w="154" h="98" oX="8" oW="168" oH="98" dr="60"/>
+    <sprite n="00008" x="102" y="202" w="98" h="154" oX="9" oW="168" oH="98" r="y" dr="60"/>
+    <sprite n="00009" x="2" y="2" w="156" h="98" oX="6" oW="168" oH="98" dr="60"/>
+    <sprite n="00010" x="258" y="102" w="154" h="98" oX="7" oW="168" oH="98" dr="60"/>
+    <sprite n="00011" x="102" y="102" w="154" h="98" oX="7" oW="168" oH="98" dr="60"/>
+</TextureAtlas>

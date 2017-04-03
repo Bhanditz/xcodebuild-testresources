@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="slots_004_extends" file_name="slots_004_extends.png" width="1024" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="casino_lobby_slot_small4" image_id="slots_004_extends" x="582" y="0" width="250" height="190"/>
+    <Piece id="slots_004_loading_icon_1" image_id="slots_004_extends" x="0" y="0" width="289" height="292"/>
+    <Piece id="slots_004_loading_icon_2" image_id="slots_004_extends" x="330" y="0" width="250" height="220"/>
+    <Piece id="slots_004_loading_icon_3" image_id="slots_004_extends" x="0" y="294" width="289" height="292"/>
+    <Piece id="slots_004_loading_icon_4" image_id="slots_004_extends" x="834" y="0" width="80" height="80"/>
+    <Piece id="slots_004_loading_icon_5" image_id="slots_004_extends" x="252" y="882" width="76" height="107"/>
+    <Piece id="slots_004_loading_icon_6" image_id="slots_004_extends" x="0" y="588" width="289" height="292"/>
+    <Piece id="slots_004_loading_icon_7" image_id="slots_004_extends" x="0" y="882" width="250" height="110"/>
+  </PieceList>
+</ImagePiece>

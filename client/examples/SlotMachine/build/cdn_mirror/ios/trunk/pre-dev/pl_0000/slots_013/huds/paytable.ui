@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_bg" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+        <Picture id="m_bg" x="0" y="0" z="0" width="1136" height="640" window_state="270">
+            <piece_info value="slots_013_bg_02"/>
+        </Picture>
+        <PictureMirror id="m_PictureMirror" x="-1" y="0" z="0" width="1138" height="640" window_state="270">
+            <piece_info value="slots_013_panel_06"/>
+        </PictureMirror>
+    </Panel>
+    <Panel id="m_Pages" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Panel id="m_Page1" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+            <Panel id="m_Panel1" x="340" y="219" z="0" width="90" height="87" window_state="6">
+                <scale x="3.5" y="3.5" z="3.5"/>
+                <Picture id="m_Picture1" x="7" y="21" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture2" x="7" y="36" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture3" x="7" y="51" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture4" x="22" y="13" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture5" x="22" y="28" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture6" x="22" y="43" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture7" x="22" y="58" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture8" x="37" y="6" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture9" x="37" y="20" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture10" x="37" y="35" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture11" x="37" y="50" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture12" x="37" y="65" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture13" x="52" y="13" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture14" x="52" y="28" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture15" x="52" y="43" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture16" x="52" y="58" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture17" x="67" y="21" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture18" x="67" y="36" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture19" x="67" y="51" z="0" width="16" height="16" window_state="270"/>
+                <Panel id="m_Jiantou" x="-17" y="28" z="0" width="109" height="31" window_state="6">
+                    <scale x="0.47" y="0.47" z="0.47"/>
+                </Panel>
+            </Panel>
+            <Panel id="m_Panel2" x="704" y="219" z="0" width="90" height="87" window_state="6">
+                <scale x="3.5" y="3.5" z="3.5"/>
+                <rotation x="0" y="3.1415927" z="0"/>
+                <Picture id="m_Picture1" x="7" y="21" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture2" x="7" y="36" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture3" x="7" y="51" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture4" x="22" y="13" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture5" x="22" y="28" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture6" x="22" y="43" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture7" x="22" y="58" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture8" x="37" y="6" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture9" x="37" y="20" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture10" x="37" y="35" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture11" x="37" y="50" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture12" x="37" y="65" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture13" x="52" y="13" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture14" x="52" y="28" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture15" x="52" y="43" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture16" x="52" y="58" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture17" x="67" y="21" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture18" x="67" y="36" z="0" width="16" height="16" window_state="270"/>
+                <Picture id="m_Picture19" x="67" y="51" z="0" width="16" height="16" window_state="270"/>
+                <Panel id="m_Jiantou" x="-17" y="28" z="0" width="109" height="31" window_state="6">
+                    <scale x="0.47" y="0.47" z="0.47"/>
+                </Panel>
+            </Panel>
+            <RichLabel id="m_RichLabel" x="520" y="420" z="0" width="96" height="30" window_state="14">
+                <text value="720-Way Multiway:Win by matching any symbol in any position in adjacent columns."/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="520" y="460" z="0" width="96" height="30" window_state="14">
+                <text value="Having the same symbol in the same column multiplies your winnings"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="520" y="502" z="0" width="96" height="30" window_state="14">
+                <text value="720-Way Multiway: Win by matching left to right, or right to left."/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Panel id="m_Page2" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+            <RichLabel id="m_RichLabel" x="520" y="119" z="0" width="96" height="30" window_state="6">
+                <text value="The following pay table is based on bets
+of 5,000 Coins."/>
+                <font_size value="24"/>
+                <text_color value="cs_line_color_14"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Panel1" x="158" y="183" z="0" width="306" height="160" window_state="6">
+                <Picture id="m_Picture" x="10" y="25" z="0" width="150" height="110" window_state="270"/>
+                <RichLabel id="m_RichLabel" x="181" y="25" z="0" width="96" height="30" window_state="6">
+                    <text value="BOUNS"/>
+                    <text_color value="cs_line_color_14"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="171" y="85" z="0" width="96" height="30" window_state="14">
+                    <text value="5 BOUNS in any
+position triggers
+the Free Game 
+bonus."/>
+                    <font_size value="22"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel2" x="158" y="353" z="0" width="306" height="160" window_state="6">
+                <Picture id="m_Picture" x="10" y="25" z="0" width="148" height="111" window_state="270"/>
+                <RichLabel id="m_RichLabel" x="181" y="25" z="0" width="96" height="30" window_state="6">
+                    <text value="WILD"/>
+                    <text_color value="cs_line_color_14"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="171" y="85" z="0" width="96" height="30" window_state="14">
+                    <text value="Substitutes any
+symbol except
+BONUS."/>
+                    <font_size value="22"/>
+                    <text_align_h value="1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel3" x="516" y="158" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-25" y="-22" z="0" width="148" height="136" window_state="270">
+                    <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="5,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="10,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="20,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel4" x="516" y="255" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-25" y="-11" z="0" width="147" height="116" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="2,500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="6,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="15,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel5" x="516" y="352" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-25" y="-11" z="0" width="148" height="117" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="2,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="5,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="15,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel6" x="516" y="448" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-11" y="-13" z="0" width="120" height="120" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="1,500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="3,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="7,500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel6" x="760" y="158" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-11" y="-13" z="0" width="130" height="116" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="1,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="2,500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="7,500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel7" x="760" y="255" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-11" y="-13" z="0" width="129" height="125" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="2,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="7,500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel8" x="760" y="352" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-11" y="-13" z="0" width="135" height="119" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="2,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="6,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel9" x="760" y="448" z="0" width="210" height="93" window_state="6">
+                <Picture id="m_Picture" x="-11" y="-13" z="0" width="135" height="119" window_state="270">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="74" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="3 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="117" y="5" z="0" width="96" height="30" window_state="14">
+                    <text value="500"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="74" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="4 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="117" y="29" z="0" width="96" height="30" window_state="14">
+                    <text value="2,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="74" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="5 - "/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel5" x="117" y="57" z="0" width="96" height="30" window_state="14">
+                    <text value="6,000"/>
+                    <font_size value="28"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page3" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+            <Panel id="m_Panel" x="116" y="119" z="0" width="904" height="419" window_state="6"/>
+            <Picture id="m_Picture" x="813" y="136" z="0" width="150" height="110" window_state="262"/>
+            <RichLabel id="m_RichLabel" x="160" y="143" z="0" width="616" height="30" window_state="14">
+                <text value="Free Games are triggered by matching 5 together."/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="160" y="185" z="0" width="616" height="30" window_state="14">
+                <text value="The following can be selected:
+"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel2" x="160" y="385" z="0" width="616" height="30" window_state="14">
+                <text value="Spit Fire Multiplier"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel4" x="160" y="441" z="0" width="616" height="30" window_state="14">
+                <text value="After each free spin, total wins will be multiplied by 1 random"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel5" x="160" y="469" z="0" width="616" height="30" window_state="14">
+                <text value="Spit Fire Multiplier. The range of Multipliers is based on the"/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel6" x="160" y="499" z="0" width="616" height="30" window_state="14">
+                <text value="selection from the Choose Your Free Spin window."/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Panel id="m_Panel1" x="351" y="333" z="0" width="151" height="117" window_state="6">
+                <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+                <Picture id="m_Picture1" x="0" y="0" z="0" width="151" height="117" window_state="262"/>
+                <RichLabel id="m_RichLabel3" x="28" y="15" z="0" width="96" height="81" window_state="6">
+                    <text value="12x"/>
+                    <font_id value="slots_015_1"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel1" x="122" y="189" z="0" width="208" height="216" window_state="6">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <action_id value="slot015_freespin"/>
+                <Picture id="m_Picture3" x="0" y="0" z="0" width="208" height="216" window_state="262"/>
+                <RichLabel id="m_RichLabel" x="56" y="5" z="0" width="96" height="98" window_state="14">
+                    <text value="12"/>
+                    <font_size value="50"/>
+                    <font_id value="weijing02"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="56" y="67" z="0" width="96" height="98" window_state="14">
+                    <text value="FREE SPIN"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_blue1"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="32" y="94" z="0" width="96" height="98" window_state="14">
+                    <text value="2X"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="83" y="94" z="0" width="96" height="98" window_state="14">
+                    <text value="4X"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="56" y="126" z="0" width="96" height="57" window_state="14">
+                    <text value="to
+RANDOM MULTIPLIER
+"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_line_color_01"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel2" x="263" y="190" z="0" width="207" height="216" window_state="6">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <action_id value="slot015_freespin"/>
+                <Picture id="m_Picture2" x="0" y="0" z="0" width="207" height="216" window_state="262"/>
+                <RichLabel id="m_RichLabel" x="55" y="5" z="0" width="96" height="98" window_state="14">
+                    <text value="7"/>
+                    <font_size value="50"/>
+                    <font_id value="weijing02"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="55" y="67" z="0" width="96" height="98" window_state="14">
+                    <text value="FREE SPIN"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_blue1"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="32" y="93" z="0" width="96" height="98" window_state="14">
+                    <text value="4X"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="80" y="93" z="0" width="96" height="98" window_state="14">
+                    <text value="7X"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="55" y="127" z="0" width="96" height="57" window_state="14">
+                    <text value="to
+RANDOM MULTIPLIER
+"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_line_color_01"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Panel3" x="408" y="195" z="0" width="196" height="204" window_state="6">
+                <scale x="0.60000002" y="0.60000002" z="0.60000002"/>
+                <action_id value="slot015_freespin"/>
+                <Picture id="m_Picture1" x="0" y="0" z="0" width="196" height="204" window_state="262"/>
+                <RichLabel id="m_RichLabel" x="50" y="-1" z="0" width="96" height="98" window_state="14">
+                    <text value="4"/>
+                    <font_size value="50"/>
+                    <font_id value="weijing02"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="50" y="61" z="0" width="96" height="98" window_state="14">
+                    <text value="FREE SPIN"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_blue1"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="26" y="87" z="0" width="96" height="98" window_state="14">
+                    <text value="7X"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel3" x="74" y="87" z="0" width="96" height="98" window_state="14">
+                    <text value="12X"/>
+                    <text_color value="cs_yellow"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel4" x="50" y="121" z="0" width="96" height="57" window_state="14">
+                    <text value="to
+RANDOM MULTIPLIER
+"/>
+                    <font_size value="25"/>
+                    <text_color value="cs_line_color_01"/>
+                    <font_id value="Bebas"/>
+                    <rich_label_state value="1"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.56999999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page4" x="0" y="0" z="0" width="1136" height="640" window_state="4">
+            <Panel id="m_Panel" x="116" y="119" z="0" width="904" height="419" window_state="6"/>
+            <Picture id="m_Picture" x="163" y="146" z="0" width="148" height="111" window_state="262"/>
+            <Picture id="m_Picture1" x="36" y="201" z="0" width="502" height="394" window_state="262">
+                <scale x="0.5" y="0.5" z="0.5"/>
+            </Picture>
+            <RichLabel id="m_RichLabel" x="340" y="186" z="0" width="616" height="30" window_state="14">
+                <text value="When you get WILDs, coins will fly out and into the
+Treasure Chest. The Chest Bonus is triggered when the 
+Treasure Chest is full."/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_RichLabel1" x="441" y="383" z="0" width="616" height="30" window_state="14">
+                <text value="Find 3 matching items among the twelve
+items displayed to win the Chest Bonus
+prize."/>
+                <text_align_h value="1"/>
+                <word_spacing value="1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+    </Panel>
+    <Button id="m_NextBtn" x="740" y="507" z="0" width="52" height="65" window_state="262" style="bs_slots_013_button_06">
+        <rotation x="0" y="3.1415927" z="0"/>
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BackBtn" x="402" y="507" z="0" width="332" height="66" window_state="262" style="bs_slots_013_button_07">
+        <text_offset x="0" y="-5" z="0"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.44999999"/>
+        <outline_center value="0.2"/>
+        <word_spacing value="1"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="32" y="37" z="0" width="196" height="40" window_state="12">
+            <text value="BACK TO GAME"/>
+            <font_size value="34"/>
+            <text_color value="cs_line_color_10"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38999999"/>
+            <outline_center value="0.47999999"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_PrevBtn" x="343" y="507" z="0" width="52" height="65" window_state="262" style="bs_slots_013_button_06">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

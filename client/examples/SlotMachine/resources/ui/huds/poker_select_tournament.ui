@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_BG" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="lobby_bg02"/>
+    </Picture>
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="70" window_state="6" style="ngs_casino_common_panel01a">
+        <Picture id="m_PicTitle" x="359" y="8" z="0" width="417" height="67" window_state="6">
+            <scale x="1.25" y="1.25" z="1.25"/>
+            <piece_info value="casino_common_panel12b"/>
+        </Picture>
+        <RichLabel id="m_LblTitle" x="268" y="5" z="0" width="600" height="65" window_state="6">
+            <text value="TEXASPOKER_SNG_BUYIN_TEXT_TITLE"/>
+            <font_size value="55"/>
+            <font_id value="Bebas"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Picture>
+    <Panel implement_class="PanelSeekBarH" id="m_PanelSeekBar" x="76" y="283" z="0" width="984" height="122" window_state="6">
+        <ProgressBarH id="m_PbrH" x="111" y="19" z="0" width="756" height="80" window_state="6">
+            <scale x="1" y="0.69999999" z="1"/>
+            <edge_picture_offset x="0" y="0" z="0"/>
+            <edge_picture_scale x="1" y="1" z="1"/>
+            <Panel id="m_Panel" x="3" y="32" z="0" width="750" height="16" window_state="14" style="ngs_poker_common_icon_049"/>
+        </ProgressBarH>
+        <ButtonAction implement_class="ButtonAction" id="m_BtnThumb" x="317" y="10" z="0" width="101" height="97" window_state="6" style="bs_casino_common_icon06">
+            <outline_color value="null"/>
+            <line_height value="30"/>
+            <action_scale value="0.050000001"/>
+        </ButtonAction>
+        <Button id="m_BtnMinus" x="24" y="19" z="0" width="78" height="80" window_state="262" style="bs_casino_common_btn01">
+            <outline_color value="null"/>
+            <line_height value="30"/>
+            <Picture id="m_PicMinus" x="19" y="33" z="0" width="39" height="8" window_state="14">
+                <piece_info value="poker_common_button_007"/>
+            </Picture>
+        </Button>
+        <Button id="m_BtnPlus" x="877" y="19" z="0" width="78" height="80" window_state="6" style="bs_casino_common_btn01">
+            <outline_color value="null"/>
+            <line_height value="30"/>
+            <Picture id="m_PicPlus" x="20" y="18" z="0" width="38" height="38" window_state="14">
+                <piece_info value="casino_common_icon27"/>
+            </Picture>
+        </Button>
+    </Panel>
+    <Panel implement_class="PanelLinesWithArrow" id="m_PanelLines" x="160" y="244" z="0" width="816" height="50" window_state="6">
+        <color_scale x="1" y="1" z="1" w="0.60000002"/>
+        <Picture id="m_PicLeft" x="-10" y="18" z="0" width="272" height="8" window_state="6" style="ngs_poker_common_icon_050">
+            <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+        </Picture>
+        <Picture id="m_PicArrow" x="262" y="16" z="0" width="36" height="21" window_state="6">
+            <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+            <piece_info value="poker_common_icon_093"/>
+        </Picture>
+        <Picture id="m_PicRight" x="298" y="18" z="0" width="534" height="8" window_state="6" style="ngs_poker_common_icon_050">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <color_scale x="1.5" y="1.5" z="1.5" w="1.5"/>
+        </Picture>
+    </Panel>
+    <RichLabel id="m_LblBuyInMax" x="520" y="184" z="0" width="585" height="35" window_state="262">
+        <text value="TEXASPOKER_SNG_BUYIN_TEXT_RANK1_#0"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblBuyInMax1" x="668" y="185" z="0" width="136" height="30" window_state="6">
+        <text value="TEXASPOKER_SNG_BUYIN_TEXT_RANK2_#0"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblBuyInMax2" x="832" y="184" z="0" width="158" height="32" window_state="6">
+        <text value="TEXASPOKER_SNG_BUYIN_TEXT_RANK3_#0"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Panel id="m_PanelRoomInfo" x="170" y="123" z="0" width="818" height="77" window_state="6">
+        <RichLabel id="m_LblBuyIn" x="21" y="19" z="0" width="275" height="41" window_state="6">
+            <text value="$#-  + $#- "/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="1"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblBonus0" x="350" y="19" z="0" width="100" height="40" window_state="6">
+            <text value="$#- "/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="1"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblBonus1" x="498" y="19" z="0" width="120" height="41" window_state="6">
+            <text value="$#- "/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="1"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblBonus2" x="662" y="19" z="0" width="120" height="41" window_state="6">
+            <text value="$#- "/>
+            <font_size value="45"/>
+            <text_color value="cs_White"/>
+            <text_align_h value="1"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <outline_color value="null"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <RichLabel id="m_LblBalance" x="318" y="443" z="0" width="500" height="30" window_state="6">
+        <text value="You Account Balance: $#- "/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_LblBuyInMax3" x="191" y="184" z="0" width="208" height="32" window_state="6">
+        <text value="TEXASPOKER_SNG_BUYIN_TEXT_BUYINFEE"/>
+        <font_size value="35"/>
+        <text_color value="cs_Sallow"/>
+        <text_align_h value="1"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <outline_color value="null"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <Button id="m_BtnPurchase" x="545" y="497" z="0" width="442" height="94" window_state="4" style="ngs_casino_common_btn014b">
+        <text value="TEXASPOKER_SNG_BUYIN_BUTTON_BUYCHIPS"/>
+        <font_size value="65"/>
+        <text_offset x="0" y="-5" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BtnPlayNow" x="545" y="497" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn012">
+        <text value="TEXASPOKER_SNG_BUYIN_BUTTON_PLAYNOW"/>
+        <font_size value="65"/>
+        <text_offset x="0" y="-5" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BtnClose" x="1033" y="6" z="0" width="78" height="83" window_state="6" style="bs_casino_common_btn01">
+        <line_height value="30"/>
+        <Picture id="m_Picture" x="22" y="23" z="0" width="35" height="35" window_state="14">
+            <scale x="0.94999999" y="0.94999999" z="0.94999999"/>
+            <piece_info value="casino_common_btn010"/>
+        </Picture>
+    </Button>
+    <ToggleButton implement_class="ToggleButtonSlider" id="m_TgBtnRoomType" x="267" y="513" z="0" width="100" height="50" window_state="6" style="ngs_poker_common_button_005">
+        <scale x="1.3" y="1.3" z="1.3"/>
+        <text_offset x="-85" y="0" z="0"/>
+        <line_height value="30"/>
+        <checked value="1"/>
+        <Picture id="m_PicThumb" x="-13" y="-13" z="0" width="78" height="80" window_state="14">
+            <scale x="0.61000001" y="0.61000001" z="0.61000001"/>
+            <piece_info value="casino_common_btn01"/>
+            <Picture id="m_PicThumb2" x="21" y="17" z="0" width="35" height="38" window_state="14">
+                <scale x="1.2" y="1.2" z="1.2"/>
+                <piece_info value="poker_common_icon_096"/>
+            </Picture>
+        </Picture>
+        <RichLabel id="m_LblLeft" x="-85" y="9" z="0" width="73" height="30" window_state="6">
+            <text value="TEXASPOKER_SNG_BUYIN_TEXT_SPEED_FAST"/>
+            <text_color value="cs_lightgrey"/>
+            <text_align_h value="3"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_LblRight" x="110" y="9" z="0" width="117" height="30" window_state="6">
+            <text value="TEXASPOKER_SNG_BUYIN_TEXT_SPEED_NORMAL"/>
+            <text_color value="cs_darkgrey"/>
+            <text_align_h value="1"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </ToggleButton>
+</Panel>

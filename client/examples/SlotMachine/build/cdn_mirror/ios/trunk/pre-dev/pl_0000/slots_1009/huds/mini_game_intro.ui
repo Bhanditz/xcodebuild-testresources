@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_Mask" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_slots_1009_panel028"/>
+    <Picture id="m_Picture" x="329" y="180" z="0" width="478" height="323" window_state="6">
+        <piece_info value="slots_1009_panel006"/>
+    </Picture>
+    <Button id="m_StartBtn" x="460" y="429" z="0" width="222" height="72" window_state="6" style="bs_slots_1009_button004">
+        <line_height value="30"/>
+    </Button>
+    <Picture id="m_CongratsPic" x="299" y="100" z="0" width="533" height="87" window_state="6">
+        <piece_info value="slots_1009_panel025"/>
+    </Picture>
+    <Picture id="m_YouWinPic" x="451" y="238" z="0" width="231" height="54" window_state="4">
+        <piece_info value="slots_1009_panel024"/>
+    </Picture>
+    <RichLabel id="m_Description" x="414" y="270" z="0" width="306" height="90" window_state="4">
+        <text value="THE"/>
+        <font_size value="34"/>
+        <text_color value="cs_GreenTxt"/>
+        <text_style value="8"/>
+        <rich_label_state value="5"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.44"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_Description1" x="388" y="324" z="0" width="366" height="30" window_state="6">
+        <text value="SLOTS_TUTSGOLD2_MINIGAMEINTRO_TEXT_BONUSGAME"/>
+        <font_size value="57"/>
+        <text_color value="cs_line_color_14"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.039999999"/>
+        <glyph_center value="0.37"/>
+        <outline_center value="0.47"/>
+        <outline_color value="cs_redTxt02"/>
+        <line_height value="30"/>
+    </RichLabel>
+    <RichLabel id="m_RichLabel" x="523" y="267" z="0" width="96" height="30" window_state="6" style="ngs_panel_bg">
+        <text value="SLOTS_TUTSGOLD2_MINIGAMEINTRO_TEXT_YOUWIN"/>
+        <font_size value="45"/>
+        <text_color value="cs_GreenTxt02"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.02"/>
+        <glyph_center value="0.40000001"/>
+        <outline_center value="0.49000001"/>
+        <word_spacing value="3"/>
+        <outline_color value="cs_yellowTxt02"/>
+        <line_height value="30"/>
+    </RichLabel>
+</Panel>

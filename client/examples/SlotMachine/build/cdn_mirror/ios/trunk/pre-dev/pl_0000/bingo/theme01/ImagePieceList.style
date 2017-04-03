@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="theme01_icon" file_name="theme01_icon.png" width="512" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="theme01_bg02" image_id="theme01_icon" x="0" y="0" width="440" height="472"/>
+    <Piece id="theme01_btn01" image_id="theme01_icon" x="1" y="473" width="441" height="75"/>
+    <Piece id="theme01_icon01" image_id="theme01_icon" x="1" y="549" width="156" height="148"/>
+    <Piece id="theme01_icon02" image_id="theme01_icon" x="1" y="698" width="156" height="148"/>
+    <Piece id="theme01_icon03" image_id="theme01_icon" x="1" y="847" width="156" height="148"/>
+    <Piece id="theme01_icon04" image_id="theme01_icon" x="158" y="549" width="156" height="148"/>
+    <Piece id="theme01_icon05" image_id="theme01_icon" x="315" y="549" width="156" height="148"/>
+  </PieceList>
+</ImagePiece>

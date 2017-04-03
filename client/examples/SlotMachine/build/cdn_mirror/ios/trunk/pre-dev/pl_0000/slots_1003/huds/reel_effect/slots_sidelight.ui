@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="850" height="436" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture1" x="-82" y="-80" z="0" width="986" height="561" window_state="4">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+        <piece_info value="slots_1003_panel016"/>
+    </Picture>
+    <Particle id="m_Particle" x="-34" y="438" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle1" x="862" y="438" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle1_1" x="329" y="434" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle0" x="155" y="434" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle2" x="503" y="434" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+    <Particle id="m_Particle3" x="677" y="434" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="middlelight"/>
+    </Particle>
+</Panel>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		Feature: 收集图标
+				symbol 收集的目标图标
+				CollectCount 
+				10.增减筹码，直接配置TotalBet的倍数
+				11.增减FreeSpin次数
+				12.增减收集等级
+				13.切换轮盘
+				14.清除收集计数
+ -->
+<root>	
+		<Collect id="1" symbol="51">
+				<CollectTarget id="1" CollectCount="3">
+						<FeatureTrigger Feature="5" Param1="1" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+						<FeatureTrigger Feature="13" Param1="1" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="2" CollectCount="6">
+						<FeatureTrigger Feature="5" Param1="2" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+						<FeatureTrigger Feature="13" Param1="2" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="3" CollectCount="9">
+						<FeatureTrigger Feature="5" Param1="3" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+						<FeatureTrigger Feature="13" Param1="3" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+				<CollectTarget id="4" CollectCount="12">
+						<FeatureTrigger Feature="5" Param1="4" Param2="0" Param3="0" Show="1"/>
+						<FeatureTrigger Feature="12" Param1="1" Param2="0" Param3="0" Show="0"/>
+						<FeatureTrigger Feature="13" Param1="4" Param2="0" Param3="0" Show="0"/>
+				</CollectTarget>
+		</Collect>
+</root>

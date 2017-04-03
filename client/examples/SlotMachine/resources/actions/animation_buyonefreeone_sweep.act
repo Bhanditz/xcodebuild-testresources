@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ActionSequeue>
+	<ActionDelay duration="1.9" />
+	<ActionMaskOffset from_x="0.42" to_x="-0.42"  duration="0.8"/>
+	<ActionDelay duration="1.1" />
+</ActionSequeue>

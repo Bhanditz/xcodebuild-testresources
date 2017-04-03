@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NineGridStyleList>
+  <NineGridStyle id="ngs_common_tipsbg_01">
+    <normal piece_id="poker_common_tipsbg_01" min_x="52" min_y="18" max_x="55" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_button_003" auto_bitmap="true">
+    <normal piece_id="poker_button_003" min_x="85" min_y="0" max_x="90" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_button_008" auto_bitmap="true">
+    <normal piece_id="poker_button_008" min_x="80" min_y="0" max_x="85" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_icon_059">
+    <normal piece_id="poker_icon_059" min_x="70" min_y="15" max_x="75" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_icon_059b" auto_bitmap="true">
+    <normal piece_id="poker_icon_059b" min_x="68" min_y="25" max_x="71" max_y="27"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_multi_button1" auto_bitmap="true">
+    <normal piece_id="poker_multi_button1" min_x="45" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_multi_button2" auto_bitmap="true">
+    <normal piece_id="poker_multi_button2" min_x="18" min_y="18" max_x="23" max_y="20"/>
+    <down piece_id="poker_multi_button2b" min_x="18" min_y="18" max_x="23" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_multi_panel1">
+    <normal piece_id="poker_multi_panel1" min_x="15" min_y="32" max_x="16" max_y="33"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_multi_panel2">
+    <normal piece_id="poker_multi_panel2" min_x="168" min_y="27" max_x="169" max_y="28"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_002">
+    <normal piece_id="poker_panel_002" min_x="0" min_y="9" max_x="0" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_004">
+    <normal piece_id="poker_panel_004" min_x="9" min_y="10" max_x="10" max_y="11"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_005">
+    <normal piece_id="poker_panel_005" min_x="31" min_y="25" max_x="33" max_y="27"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_007">
+    <normal piece_id="poker_panel_007" min_x="6" min_y="0" max_x="7" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_009" auto_bitmap="true">
+    <normal piece_id="poker_panel_009" min_x="15" min_y="5" max_x="17" max_y="6"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_010">
+    <normal piece_id="poker_panel_010" min_x="0" min_y="7" max_x="0" max_y="9"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_011">
+    <normal piece_id="poker_panel_011" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_panel_023">
+    <normal piece_id="poker_panel_023" min_x="87" min_y="9" max_x="88" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_profile_button3" auto_bitmap="true">
+    <normal piece_id="poker_profile_button3" min_x="93" min_y="0" max_x="94" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_purple_background_strip">
+    <normal piece_id="poker_purple_background_strip" min_x="11" min_y="0" max_x="12" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_poker_purple_panel10">
+    <normal piece_id="poker_purple_panel10" min_x="9" min_y="9" max_x="10" max_y="10"/>
+  </NineGridStyle>
+</NineGridStyleList>

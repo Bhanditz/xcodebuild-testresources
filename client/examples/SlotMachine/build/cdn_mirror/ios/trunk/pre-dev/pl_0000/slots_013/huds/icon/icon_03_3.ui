@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="870" height="465" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="870" height="465" window_state="6">
+        <Picture id="m_Bg" x="0" y="0" z="0" width="870" height="465" window_state="262">
+            <piece_info value="slots_013_icon_01a"/>
+        </Picture>
+        <SkinMesh id="m_fonts" x="0" y="0" z="0" width="870" height="465" window_state="2054">
+            <action_id value="animation_slot013_woman@anim00"/>
+            <mesh_file value="slots_013/models/Luxury City_ani.model"/>
+            <mesh_position x="0" y="97" z="0"/>
+            <mesh_scale x="4" y="4" z="4"/>
+            <far_clip_distance value="10000"/>
+            <lights>
+                <element/>
+                <element/>
+            </lights>
+            <mesh_materials>
+                <mesh_id_0>
+                    <material_id value="0"/>
+                </mesh_id_0>
+            </mesh_materials>
+        </SkinMesh>
+        <Picture id="m_Picture1" x="328" y="175" z="0" width="217" height="117" window_state="260">
+            <scale x="4.0599999" y="3.97" z="4"/>
+            <piece_info value="slots_013_icon_01c0"/>
+        </Picture>
+        <Particle id="m_Particle1" x="432" y="233" z="0" width="20" height="20" window_state="4">
+            <blend_mode value="2"/>
+            <particle_state value="0"/>
+            <package_file value="slots_013/particles/lizi.ptc"/>
+            <particle_name value="bigicon blue"/>
+        </Particle>
+        <SkinMesh id="m_woman" x="0" y="0" z="0" width="870" height="465" window_state="2052">
+            <action_id value="animation_slot013_woman@anim00"/>
+            <mesh_file value="slots_013/models/man_ani.model"/>
+            <mesh_position x="10" y="1263" z="0"/>
+            <mesh_scale x="650" y="650" z="650"/>
+            <far_clip_distance value="1000"/>
+            <lights>
+                <element/>
+                <element/>
+            </lights>
+            <mesh_materials>
+                <mesh_id_0>
+                    <material_id value="0"/>
+                </mesh_id_0>
+            </mesh_materials>
+        </SkinMesh>
+    </Panel>
+    <Panel id="vfx" x="330" y="167" z="0" width="210" height="130" window_state="6">
+        <Picture id="m_Picture2" x="-2" y="8" z="0" width="218" height="116" window_state="4">
+            <scale x="4.0599999" y="4" z="4"/>
+            <piece_info value="slots_013_icon_01d"/>
+        </Picture>
+        <Picture id="m_Picture3" x="345" y="-14" z="0" width="96" height="96" window_state="4">
+            <scale x="8" y="8" z="8"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot013_lizi02"/>
+            <piece_info value="slots_013_tusu01"/>
+        </Picture>
+        <Picture id="m_Picture4" x="-138" y="97" z="0" width="96" height="96" window_state="4">
+            <scale x="8" y="8" z="8"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot013_lizi02"/>
+            <piece_info value="slots_013_tusu01"/>
+        </Picture>
+        <Picture id="m_Picture5" x="-373" y="-83" z="0" width="96" height="96" window_state="4">
+            <scale x="4.5" y="4.5" z="4.5"/>
+            <action_id value="animation_slot013_lizi03"/>
+            <piece_info value="slots_013_glow_02"/>
+        </Picture>
+        <Picture id="m_Picture6" x="-60" y="-126" z="0" width="96" height="96" window_state="4">
+            <scale x="4.5" y="4.5" z="4.5"/>
+            <action_id value="animation_slot013_lizi03"/>
+            <piece_info value="slots_013_glow_02"/>
+        </Picture>
+        <Picture id="m_Picture7" x="205" y="243" z="0" width="96" height="96" window_state="4">
+            <scale x="5.5" y="5.5" z="5.5"/>
+            <action_id value="animation_slot013_lizi03"/>
+            <piece_info value="slots_013_glow_02"/>
+        </Picture>
+        <Picture id="m_Picture8" x="436" y="-157" z="0" width="96" height="96" window_state="4">
+            <scale x="5.5" y="5.5" z="5.5"/>
+            <action_id value="animation_slot013_lizi03"/>
+            <piece_info value="slots_013_glow_02"/>
+        </Picture>
+        <Picture id="m_Picture9" x="-132" y="77" z="0" width="96" height="96" window_state="4">
+            <scale x="5.5" y="5.5" z="5.5"/>
+            <action_id value="animation_slot013_lizi03"/>
+            <piece_info value="slots_013_glow_02"/>
+        </Picture>
+        <Picture id="m_Picture10" x="261" y="58" z="0" width="96" height="96" window_state="4">
+            <scale x="5.5" y="5.5" z="5.5"/>
+            <action_id value="animation_slot013_lizi03"/>
+            <piece_info value="slots_013_glow_02"/>
+        </Picture>
+        <Picture id="m_Picture11" x="-99" y="-12" z="0" width="96" height="96" window_state="4">
+            <scale x="1.38" y="1.38" z="1.38"/>
+            <action_id value="animation_slot013_lizi04"/>
+            <piece_info value="slots_013_glow_01"/>
+        </Picture>
+        <Picture id="m_Picture12" x="73" y="56" z="0" width="96" height="96" window_state="4">
+            <scale x="1.73" y="1.73" z="1.73"/>
+            <action_id value="animation_slot013_lizi04"/>
+            <piece_info value="slots_013_glow_01"/>
+        </Picture>
+        <Picture id="m_Picture13" x="-49" y="-30" z="0" width="96" height="96" window_state="4">
+            <scale x="0.74000001" y="0.74000001" z="0.74000001"/>
+            <action_id value="animation_slot013_lizi04"/>
+            <piece_info value="slots_013_glow_01"/>
+        </Picture>
+        <Picture id="m_Picture14" x="46" y="-64" z="0" width="96" height="96" window_state="4">
+            <scale x="0.74000001" y="0.74000001" z="0.74000001"/>
+            <action_id value="animation_slot013_lizi04"/>
+            <piece_info value="slots_013_glow_01"/>
+        </Picture>
+        <Picture id="m_Picture15" x="175" y="158" z="0" width="96" height="96" window_state="4">
+            <action_id value="animation_slot013_lizi04"/>
+            <piece_info value="slots_013_glow_01"/>
+        </Picture>
+        <Picture id="m_Picture16" x="197" y="90" z="0" width="96" height="96" window_state="4">
+            <scale x="1.5" y="1.5" z="1.5"/>
+            <action_id value="animation_slot013_lizi04"/>
+            <piece_info value="slots_013_glow_01"/>
+        </Picture>
+    </Panel>
+</Panel>

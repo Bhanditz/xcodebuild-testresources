@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_MainPanel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="m_DarkBG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11"/>
+    <Picture id="m_PicBG" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_casino_common_panel11"/>
+    <Button id="m_BtnTotalCoins" x="20" y="14" z="0" width="228" height="54" window_state="6" style="ngs_casino_common_btn03">
+        <text_offset x="18" y="0" z="0"/>
+        <font_id value="LatoReg"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+        <Picture id="m_CoinIcon" x="-41" y="-38" z="0" width="118" height="122" window_state="6">
+            <scale x="0.44999999" y="0.44999999" z="0.44999999"/>
+            <piece_info value="casino_common_icon02"/>
+        </Picture>
+        <RichLabel id="m_LblTotalWin" x="53" y="8" z="0" width="157" height="30" window_state="6">
+            <text value="-"/>
+            <text_align_h value="1"/>
+            <text_style value="32"/>
+            <font_id value="LatoReg"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.5"/>
+            <outline_center value="0.5"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Panel id="m_FlyEffectEndPos" x="8" y="9" z="0" width="25" height="25" window_state="6"/>
+    </Button>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+        <Picture id="m_Picture2" x="488" y="201" z="0" width="163" height="163" window_state="4">
+            <scale x="4" y="4" z="4"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_lvup_light01"/>
+            <piece_info value="lvup_light04"/>
+        </Picture>
+        <Picture id="m_Picture3" x="471" y="180" z="0" width="197" height="206" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_lvup_light02"/>
+            <piece_info value="lvup_light03"/>
+        </Picture>
+        <Picture id="m_Picture5" x="330" y="54" z="0" width="474" height="476" window_state="6">
+            <blend_mode value="2"/>
+            <action_id value="animation_lvup_light04"/>
+            <piece_info value="lvup_light02"/>
+        </Picture>
+        <Picture id="m_Picture4" x="446" y="164" z="0" width="242" height="256" window_state="6">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_lvup_light03"/>
+            <piece_info value="lvup_light01"/>
+        </Picture>
+        <Picture id="m_PicCon" x="357" y="32" z="0" width="421" height="97" window_state="6">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <action_id value="animation_lvup_congra"/>
+            <piece_info value="casino_common_icon07b"/>
+        </Picture>
+        <Picture id="m_PicReward" x="414" y="128" z="0" width="307" height="297" window_state="14">
+            <scale x="1.2" y="1.2" z="1.2"/>
+            <piece_info value="casino_common_icon07"/>
+            <RichLabel id="m_LblLvlUp" x="35" y="92" z="0" width="236" height="170" window_state="6">
+                <text value="-"/>
+                <font_size value="150"/>
+                <text_color value="cs_White"/>
+                <font_id value="Bebas"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.43000001"/>
+                <outline_center value="0.5"/>
+                <word_spacing value="0.5"/>
+                <outline_color value="cs_yellowTxt04"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <PictureMask id="m_PictureMask" x="60" y="58" z="0" width="186" height="178" window_state="6">
+                <scale x="1.55" y="1.55" z="1.55"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_lvup_starsweep"/>
+                <piece_info value="lvup_starmask"/>
+                <mask_piece value="lvup_starlight"/>
+                <mask_offset x="-0.5" y="0" z="0"/>
+            </PictureMask>
+        </Picture>
+        <RichLabel id="m_LblMaxLine" x="0" y="459" z="0" width="1135" height="45" window_state="6">
+            <action_id value="animation_lvup_claim02"/>
+            <text value="PLATFORM_LEVELUP_POPUP_TEXT_#0"/>
+            <font_size value="40"/>
+            <text_color value="cs_White"/>
+            <font_id value="MyraidPro"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.33000001"/>
+            <outline_center value="0.5"/>
+            <outline_color value="cs_BrownTxt"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Panel id="m_ClaimPanel" x="346" y="512" z="0" width="443" height="86" window_state="6">
+            <Button id="m_BtnClaim" x="1" y="0" z="0" width="442" height="94" window_state="6" style="ngs_casino_common_btn012">
+                <font_size value="70"/>
+                <text_offset x="0" y="-2" z="0"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </Button>
+            <Panel id="m_FlyEffectBeginPos" x="55" y="33" z="0" width="20" height="20" window_state="14"/>
+            <Panel id="m_FlyEffectEndPos" x="-314" y="-488" z="0" width="20" height="20" window_state="14"/>
+            <Picture id="m_PicClaim1" x="4" y="-17" z="0" width="154" height="119" window_state="14">
+                <scale x="0.5" y="0.5" z="0.5"/>
+                <action_id value="animation_lvup_claim03"/>
+                <piece_info value="casino_common_icon13"/>
+            </Picture>
+            <Picture id="m_PicClaimGlow" x="24" y="8" z="0" width="78" height="70" window_state="4">
+                <scale x="2" y="2" z="2"/>
+                <blend_mode value="2"/>
+                <action_id value="animation_lvup_claim04"/>
+                <piece_info value="chip_glow"/>
+            </Picture>
+            <RichLabel id="m_LblClaim" x="137" y="11" z="0" width="171" height="60" window_state="14">
+                <text value="-"/>
+                <font_size value="65"/>
+                <font_id value="MyraidPro"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <Picture id="m_Picture1" x="448" y="521" z="0" width="241" height="66" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <action_id value="animation_lvup_claim01"/>
+            <piece_info value="botton_white"/>
+        </Picture>
+    </Panel>
+    <Panel id="m_PanCoins" x="-46" y="-39" z="0" width="172" height="148" window_state="6">
+        <Picture id="m_Picture6" x="-12" y="-27" z="0" width="196" height="203" window_state="4">
+            <scale x="0.27500001" y="0.27500001" z="0.27500001"/>
+        </Picture>
+        <Picture id="m_Picture7" x="58" y="46" z="0" width="55" height="56" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="chip_glow01"/>
+        </Picture>
+        <Picture id="m_Picture8" x="29" y="43" z="0" width="139" height="64" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="chip_light"/>
+        </Picture>
+    </Panel>
+    <Particle id="m_Particlel" x="-21" y="651" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="0"/>
+        <package_file value="ui/particles/common.ptc"/>
+        <particle_name value="paper firework l"/>
+    </Particle>
+    <Particle id="m_Particler" x="1146" y="655" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="0"/>
+        <package_file value="ui/particles/common.ptc"/>
+        <particle_name value="paper firework r"/>
+    </Particle>
+</Panel>

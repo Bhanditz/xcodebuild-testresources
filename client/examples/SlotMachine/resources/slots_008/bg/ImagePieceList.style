@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+  <Image id="slots_008_panel_001" file_name="slots_008_panel_001.jpg" width="1136" height="235"/>
+  <Image id="slots_008_panel_006a" file_name="slots_008_panel_006a.jpg" width="1024" height="640"/>
+  <Image id="slots_008_panel_006b" file_name="slots_008_panel_006b.jpg" width="1024" height="640"/>
+  <Image id="slots_008_panel_012" file_name="slots_008_panel_012.jpg" width="1136" height="252"/>
+  <Image id="slots_008_paytable" file_name="slots_008_paytable.jpg" width="1136" height="640"/>
+  </ImageList>
+  
+  <PieceList>
+  <Piece id="slots_008_panel_001" image_id="slots_008_panel_001" x="0" y="0" width="1136" height="235"/>
+  <Piece id="slots_008_panel_006a" image_id="slots_008_panel_006a" x="0" y="0" width="1024" height="640"/>
+  <Piece id="slots_008_panel_006b" image_id="slots_008_panel_006b" x="0" y="0" width="1024" height="640"/>
+  <Piece id="slots_008_panel_012" image_id="slots_008_panel_012" x="0" y="0" width="1136" height="252"/>
+  <Piece id="slots_008_paytable" image_id="slots_008_paytable" x="0" y="0" width="1136" height="640"/>
+  </PieceList>
+ 
+</ImagePiece>

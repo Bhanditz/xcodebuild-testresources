@@ -1,0 +1,89 @@
+
+long.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 582, 505
+  size: 492, 410
+  orig: 492, 410
+  offset: 0, 0
+  index: -1
+front2
+  rotate: false
+  xy: 2, 130
+  size: 568, 338
+  orig: 568, 338
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 286, 35
+  size: 119, 93
+  orig: 119, 93
+  offset: 0, 0
+  index: -1
+wei
+  rotate: false
+  xy: 2, 14
+  size: 282, 114
+  orig: 282, 114
+  offset: 0, 0
+  index: -1
+wingL
+  rotate: false
+  xy: 2, 470
+  size: 578, 527
+  orig: 578, 527
+  offset: 0, 0
+  index: -1
+wingR
+  rotate: false
+  xy: 572, 2
+  size: 297, 466
+  orig: 297, 466
+  offset: 0, 0
+  index: -1
+
+long2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg03
+  rotate: false
+  xy: 2, 288
+  size: 568, 253
+  orig: 568, 253
+  offset: 0, 0
+  index: -1
+bg04
+  rotate: true
+  xy: 572, 313
+  size: 568, 253
+  orig: 568, 253
+  offset: 0, 0
+  index: -1
+front3
+  rotate: false
+  xy: 2, 543
+  size: 568, 338
+  orig: 568, 338
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 308, 46
+  size: 196, 240
+  orig: 196, 240
+  offset: 0, 0
+  index: -1
+wing
+  rotate: false
+  xy: 2, 2
+  size: 304, 284
+  orig: 304, 284
+  offset: 0, 0
+  index: -1

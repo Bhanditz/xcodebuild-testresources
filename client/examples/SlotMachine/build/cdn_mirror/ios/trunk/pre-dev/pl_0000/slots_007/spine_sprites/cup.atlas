@@ -1,0 +1,69 @@
+
+cup.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/beijing
+  rotate: false
+  xy: 154, 76
+  size: 145, 167
+  orig: 145, 167
+  offset: 0, 0
+  index: -1
+images/chabei
+  rotate: false
+  xy: 301, 89
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+images/chahu
+  rotate: false
+  xy: 301, 132
+  size: 113, 111
+  orig: 113, 111
+  offset: 0, 0
+  index: -1
+images/dangao_01
+  rotate: false
+  xy: 363, 92
+  size: 35, 38
+  orig: 35, 38
+  offset: 0, 0
+  index: -1
+images/dangao_02
+  rotate: false
+  xy: 416, 156
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+images/jinbian
+  rotate: false
+  xy: 2, 64
+  size: 150, 179
+  orig: 150, 179
+  offset: 0, 0
+  index: -1
+images/kitty
+  rotate: false
+  xy: 2, 2
+  size: 162, 60
+  orig: 162, 60
+  offset: 0, 0
+  index: -1
+images/panzi_01
+  rotate: false
+  xy: 416, 217
+  size: 75, 26
+  orig: 75, 26
+  offset: 0, 0
+  index: -1
+images/panzi_02
+  rotate: false
+  xy: 416, 190
+  size: 74, 25
+  orig: 74, 25
+  offset: 0, 0
+  index: -1

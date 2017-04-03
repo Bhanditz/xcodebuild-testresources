@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="crown.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="crown_00000.png" x="2" y="100" w="96" h="124" oX="18" oY="9" oW="160" oH="110" r="y" dr="100"/>
+    <sprite n="crown_00001.png" x="380" y="2" w="124" h="96" oX="16" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00002.png" x="100" y="198" w="96" h="122" oX="16" oY="9" oW="160" oH="110" r="y" dr="100"/>
+    <sprite n="crown_00003.png" x="318" y="198" w="118" h="96" oX="21" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00004.png" x="348" y="100" w="122" h="96" oX="20" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00005.png" x="254" y="2" w="124" h="96" oX="17" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00006.png" x="318" y="198" w="118" h="96" oX="21" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00007.png" x="224" y="100" w="122" h="96" oX="21" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00008.png" x="100" y="100" w="122" h="96" oX="16" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00009.png" x="100" y="322" w="96" h="120" oX="19" oY="9" oW="160" oH="110" r="y" dr="100"/>
+    <sprite n="crown_00010.png" x="128" y="2" w="124" h="96" oX="18" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00011.png" x="2" y="350" w="96" h="122" oX="17" oY="9" oW="160" oH="110" r="y" dr="100"/>
+    <sprite n="crown_00012.png" x="198" y="198" w="118" h="96" oX="20" oY="9" oW="160" oH="110" dr="100"/>
+    <sprite n="crown_00013.png" x="2" y="226" w="96" h="122" oX="21" oY="9" oW="160" oH="110" r="y" dr="100"/>
+    <sprite n="crown_00014.png" x="2" y="2" w="124" h="96" oX="18" oY="9" oW="160" oH="110" dr="100"/>
+</TextureAtlas>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="ref" x="0" y="-62" z="0" width="1136" height="640" window_state="4">
+        <scale x="1.123" y="1.123" z="1.123"/>
+        <piece_info value="slots_004_bg_02"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_Panel_small" x="315" y="420" z="0" width="535" height="237" window_state="6">
+        <Sprite id="m_Sprite" x="225" y="-23" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="291" y="14" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="364" y="46" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite3" x="158" y="-39" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite4" x="91" y="1" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="32" y="24" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite6" x="-33" y="47" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel_big" x="312" y="406" z="0" width="535" height="237" window_state="6">
+        <scale x="1.09" y="1.54" z="1"/>
+        <Sprite id="m_Sprite" x="225" y="-23" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="291" y="14" z="0" width="200" height="200" window_state="6">
+            <scale x="0.83999997" y="0.83999997" z="0.83999997"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="352" y="37" z="0" width="200" height="200" window_state="6">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite3" x="154" y="-29" z="0" width="200" height="200" window_state="6">
+            <scale x="-1.09" y="1.09" z="1.09"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite4" x="91" y="1" z="0" width="200" height="200" window_state="6">
+            <scale x="-0.89999998" y="0.89999998" z="0.89999998"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="34" y="8" z="0" width="200" height="200" window_state="6">
+            <scale x="-0.95999998" y="0.95999998" z="0.95999998"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite6" x="-18" y="49" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+</Panel>

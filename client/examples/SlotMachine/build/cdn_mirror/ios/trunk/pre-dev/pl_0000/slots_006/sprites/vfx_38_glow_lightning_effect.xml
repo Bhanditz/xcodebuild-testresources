@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_38_glow_lightning_effect.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="lightaround_00000.png" x="466" y="1" w="34" h="90" oX="235" oY="188" oW="568" oH="320" r="y" dr="100"/>
+    <sprite n="lightaround_00001.png" x="286" y="1" w="178" h="60" oX="192" oY="172" oW="568" oH="320" dr="100"/>
+    <sprite n="lightaround_00002.png" x="1" y="1" w="283" h="95" oX="144" oY="144" oW="568" oH="320" dr="100"/>
+    <sprite n="lightaround_00003.png" x="286" y="63" w="95" h="283" oX="144" oY="144" oW="568" oH="320" r="y" dr="100"/>
+    <sprite n="lightaround_00004.png" x="1" y="98" w="282" h="95" oX="145" oY="144" oW="568" oH="320" dr="100"/>
+    <sprite n="lightaround_00005.png" x="1" y="195" w="282" h="95" oX="145" oY="144" oW="568" oH="320" dr="100"/>
+    <sprite n="lightaround_00006.png" x="1" y="292" w="281" h="93" oX="146" oY="144" oW="568" oH="320" dr="100"/>
+    <sprite n="lightaround_00007.png" x="1" y="387" w="278" h="88" oX="147" oY="145" oW="568" oH="320" dr="100"/>
+    <sprite n="lightaround_00008.png" x="383" y="93" w="84" h="273" oX="150" oY="145" oW="568" oH="320" r="y" dr="100"/>
+</TextureAtlas>

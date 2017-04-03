@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="805" height="469" window_state="6" style="ngs_panel_bg">
+    <PictureMirror id="m_PictureMirror" x="161" y="82" z="0" width="482" height="304" window_state="6">
+        <scale x="2.3199999" y="2.1900001" z="2.04"/>
+        <piece_info value="slot_win_outframe"/>
+    </PictureMirror>
+    <Particle id="m_Particle1" x="392" y="224" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="1008outframe1"/>
+    </Particle>
+    <Particle id="m_Particle" x="392" y="224" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+        <particle_state value="1"/>
+        <package_file value="slots/particles/slot delux.ptc"/>
+        <particle_name value="1008outframe"/>
+    </Particle>
+</Panel>

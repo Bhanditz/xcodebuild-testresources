@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Sparta_animation03.png" width="512" height="1024" blend="1" loop="1">
+    <sprite n="a00015" x="302" y="2" w="208" h="276" oX="82" oY="40" oW="400" oH="450" dr="60"/>
+    <sprite n="a00016" x="2" y="566" w="258" h="278" oX="65" oY="87" oW="400" oH="450" dr="60"/>
+    <sprite n="a00017" x="2" y="286" w="266" h="278" oX="71" oY="89" oW="400" oH="450" dr="60"/>
+    <sprite n="a00018" x="2" y="2" w="298" h="282" oX="56" oY="85" oW="400" oH="450" dr="60"/>
+    <sprite n="a00019" x="270" y="286" w="230" h="260" oX="77" oY="107" oW="400" oH="450" dr="60"/>
+    <sprite n="a00020" x="262" y="566" w="220" h="248" oX="89" oY="99" oW="400" oH="450" dr="60"/>
+    <sprite n="a00021" x="262" y="816" w="246" h="200" oX="94" oY="108" oW="400" oH="450" r="y" dr="60"/>
+    <sprite n="a00022" x="2" y="846" w="176" h="172" oX="114" oY="145" oW="400" oH="450" dr="60"/>
+</TextureAtlas>

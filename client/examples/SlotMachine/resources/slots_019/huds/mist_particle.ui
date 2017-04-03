@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_Panel1" x="0" y="371" z="0" width="1136" height="267" window_state="6">
+        <Sprite id="m_Sprite" x="-1" y="-81" z="0" width="640" height="350" window_state="262">
+            <sprite_file value="slots_019/sprites/freegame smoke.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="498" y="-81" z="0" width="640" height="350" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_019/sprites/freegame smoke.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+</Panel>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		获取整列图标
+	<FetchReelIcon id="1">
+		<Target Symbol="10"/>
+		<ReelGroupAmount>
+			<Amount amount="0" weight="7"/>
+			<Amount amount="1" weight="85"/>
+			<Amount amount="2" weight="7"/>
+			<Amount amount="3" weight="1"/>
+			<Amount amount="4" weight="0"/>
+			<Amount amount="5" weight="0"/>
+		</ReelGroupAmount>
+		<Reel>
+				<ReelGroup weight="15">
+						<Reel id="1" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="2" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="3" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="4" />
+				</ReelGroup>
+				<ReelGroup weight="15">
+						<Reel id="5" />
+				</ReelGroup>
+		</Reel>
+	</FetchReelIcon>
+ -->
+<root>
+
+</root>

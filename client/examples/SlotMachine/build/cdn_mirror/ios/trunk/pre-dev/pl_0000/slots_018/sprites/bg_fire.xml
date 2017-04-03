@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bg_fire.png" width="512" height="512" blend="2" loop="-1">
+    <sprite n="00" x="274" y="180" w="130" h="86" oX="27" oY="23" oW="180" oH="120" dr="60"/>
+    <sprite n="02" x="174" y="224" w="86" h="132" oX="26" oY="23" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="04" x="406" y="90" w="88" h="130" oX="29" oY="21" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="06" x="262" y="268" w="128" h="88" oX="32" oY="20" oW="180" oH="120" dr="60"/>
+    <sprite n="08" x="274" y="90" w="130" h="88" oX="30" oY="20" oW="180" oH="120" dr="60"/>
+    <sprite n="10" x="182" y="358" w="90" h="130" oX="31" oY="18" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="12" x="90" y="374" w="90" h="136" oX="27" oY="18" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="14" x="90" y="90" w="82" h="138" oX="21" oY="25" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="16" x="2" y="90" w="86" h="142" oX="17" oY="23" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="18" x="302" y="2" w="144" h="86" oX="15" oY="23" oW="180" oH="120" dr="60"/>
+    <sprite n="20" x="152" y="2" w="148" h="86" oX="11" oY="23" oW="180" oH="120" dr="60"/>
+    <sprite n="22" x="2" y="2" w="148" h="86" oX="9" oY="22" oW="180" oH="120" dr="60"/>
+    <sprite n="24" x="174" y="90" w="86" h="132" oX="23" oY="22" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="26" x="2" y="376" w="86" h="134" oX="21" oY="22" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="28" x="86" y="234" w="86" h="138" oX="17" oY="21" oW="180" oH="120" r="y" dr="60"/>
+    <sprite n="30" x="2" y="234" w="82" h="140" oX="16" oY="25" oW="180" oH="120" r="y" dr="60"/>
+</TextureAtlas>

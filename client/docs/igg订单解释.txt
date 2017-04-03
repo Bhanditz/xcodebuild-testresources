@@ -1,0 +1,14 @@
+pc_id:id
+pc_name:点卡名称
+pc_point:点卡点数(原来的点数不含免费部份)
+pc_type:点卡类型(1:Cash,2:Coin,3:Gold,4:Silver,6:活动订单)
+pc_flag:点卡标识（1:正常,2:促销,3:热卖,4:新商品,5:送积分,6：送道具
+pc_selected:是否选中
+pc_credit_rate:积分(star point)
+pcc_price_cfg:具体币种金额配置(USD:1|EUR:0|TWD:0|RUB:0) 当前价格
+pcc_original_price_cfg:具体币种金额配置(USD:1|EUR:0|TWD:0|RUB:0) 原始价格（用于表现打折行为）
+pcc_memo:点卡备注
+pc_free_point:免费点数
+pcc_third_party_id:第三方平台ID（SM未启用）
+pcc_presen_count:可限制次数（SM 未启用）
+ppc_end_time:优惠结束时间（SM未启用）

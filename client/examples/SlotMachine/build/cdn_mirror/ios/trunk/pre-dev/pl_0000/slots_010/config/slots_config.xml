@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="10" game="BlackKnight">
+		<BonusGames>
+		</BonusGames>
+		<Icons>
+      <Icon id="1" pieceId="slots_010_panel_006"  bgPieceId="slots_010_icon_010" sprite="" sequenceTime="2.0"/>     <!-- King -->
+      <Icon id="2" pieceId="slots_010_panel_005"  bgPieceId="slots_010_icon_009" sprite="" sequenceTime="2.0"/>     <!-- Queen -->
+      <Icon id="3" pieceId="slots_010_panel_004"  bgPieceId="slots_010_icon_008" sprite="" sequenceTime="2.0"/>     <!-- Soldier -->
+      <Icon id="4" pieceId="slots_010_icon_007"  bgPieceId="slots_010_panel_018" sprite="" sequenceTime="2.0"/>     <!-- Crown -->
+      <Icon id="5" pieceId="slots_010_icon_006"  bgPieceId="slots_010_panel_018" sprite="" sequenceTime="2.0"/>     <!-- Ring -->
+      <Icon id="6" pieceId="slots_010_icon_005"  bgPieceId="slots_010_panel_018" sprite="" sequenceTime="2.0"/>     <!-- Gauntlet -->
+      <Icon id="7" pieceId="slots_010_icon_004"  bgPieceId="slots_010_panel_017" sprite="" sequenceTime="2.0"/>     <!-- A -->
+      <Icon id="8" pieceId="slots_010_icon_003"  bgPieceId="slots_010_panel_017" sprite="" sequenceTime="2.0"/>     <!-- K -->
+      <Icon id="9" pieceId="slots_010_icon_002"  bgPieceId="slots_010_panel_017" sprite="" sequenceTime="2.0"/>     <!-- Q -->
+      <Icon id="10" pieceId="slots_010_icon_001" bgPieceId="slots_010_panel_017" sprite="" sequenceTime="2.0"/>     <!-- J -->
+      <Icon id="31" pieceId="slots_010_panel_006" bgPieceId="" sprite="" render_order="1" sequenceTime="3.0">     <!-- Wild -->
+        <GroupIcon pieceId="slots_010_icon_012b" bgPieceId="" iconsOnX="1" iconsOnY="4" iconWidth="160" iconHeight="440" />
+        <!--<GroupIcon uiFile="slots_010/huds/icon_effect/icon_031_0.ui" iconsOnX="1" iconsOnY="4" iconWidth="160" iconHeight="440"/>-->
+        <!--<GroupIcon pieceId="slots_010_icon_012" bgPieceId="" iconsOnX="1" iconsOnY="4" iconWidth="160" iconHeight="440"/>-->
+	  </Icon>
+      <Icon id="41" pieceId="slots_010_icon_013" bgPieceId="slots_010_icon_013" sprite="" render_order="1"/>     <!-- Bonus Scatter -->
+		</Icons>
+		<Reel>
+			<!-- near win reel for basegame -->
+			<NearWinReel name="basegame" id="2,3,4" alternativeIconIds="31"/>
+			<SpinType name="normal">
+				<BestSpinIconCount value="20"/>
+				<OneReelStartDelayTime value="0.08"/>
+				<OneReelStopDelayTime value="0.4"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="3"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.06"/>
+				<OneReelStopDelayTime value="0.3"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.12"/>
+				<BestSpinCostTime value="0.9"/>
+				<NearWinCostTime value="3"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.0" pieceId="outline_horizontal">
+			<Payline id="1" lineColor="0xFFFFFFFF" />
+		</Paylines>
+		
+		<Paytables winTextColor="cs_white" /> 
+	</Theme>
+</SlotsConfig>

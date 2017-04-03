@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Panel id="m_TranslucentBlack" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.5"/>
+    </Panel>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="14">
+        <Picture id="m_Picture" x="120" y="35" z="0" width="447" height="569" window_state="270">
+            <piece_info value="slots_015_panel_06"/>
+        </Picture>
+        <Picture id="m_Picture1" x="567" y="35" z="0" width="447" height="569" window_state="270">
+            <rotation x="0" y="3.1415927" z="0"/>
+            <piece_info value="slots_015_panel_06"/>
+        </Picture>
+        <RichLabel id="m_RichLabel" x="517" y="109" z="0" width="96" height="78" window_state="14">
+            <text value="CONGRATULATIONS!"/>
+            <font_size value="50"/>
+            <font_id value="shopfont2"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel1" x="328" y="228" z="0" width="480" height="294" window_state="14">
+            <text value="YOU&apos;VE WON
+"/>
+            <text_align_v value="1"/>
+            <font_id value="UnlockNewGame"/>
+            <smooth value="0.30000001"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel2" x="328" y="291" z="0" width="480" height="294" window_state="14">
+            <text value="MINI JACKPOT!"/>
+            <text_align_v value="1"/>
+            <font_id value="UnlockNewGame"/>
+            <smooth value="0.30000001"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel3" x="328" y="369" z="0" width="480" height="294" window_state="14">
+            <text value="0123456789,"/>
+            <font_size value="35"/>
+            <text_align_v value="1"/>
+            <font_id value="slots_015"/>
+            <smooth value="0.30000001"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<!-- 
+	ID结：白盒游戏的编号
+	
+	
+	Trigger结点元素
+		TriggerType:满足条件，触发游戏类型  当前的类型有：1(Random)、2(FreeSpin)
+		TriggerTargetID:触发的目标id
+		TriggerTargetParam1:触发目标参数1
+		TriggerTargetParam2:触发目标参数2
+		
+		类型1(Random) 随机抽取Trigger
+		
+		类型2(FreeSpin)
+		TriggerTargetID: FreeSpin的PackID
+		TriggerTargetParam1: FreeSpin次数
+		
+-->
+
+<root>  
+	<WhiteBox>
+		<ID>1</ID>
+		<TriggerList>
+			<Trigger id="1" TriggerType="2" TriggerTargetID="2" TriggerTargetParam1="5" /> 
+			<Trigger id="2" TriggerType="2" TriggerTargetID="3" TriggerTargetParam1="8" /> 
+			<Trigger id="3" TriggerType="2" TriggerTargetID="4" TriggerTargetParam1="10" /> 
+			<Trigger id="4" TriggerType="2" TriggerTargetID="5" TriggerTargetParam1="15" /> 
+			<Trigger id="5" TriggerType="2" TriggerTargetID="6" TriggerTargetParam1="20" /> 
+		</TriggerList>
+	</WhiteBox>	
+</root>

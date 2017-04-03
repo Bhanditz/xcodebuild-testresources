@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<!--
+	Type:
+		Blackbox
+		FindPair
+ -->
+<root>
+		<BonusGame id="1" Type="FindPair" GameID="1" desc="Rock Age 2 Find Pair Bonus X 3"/>
+		<BonusGame id="2" Type="FindPair" GameID="2" desc="Rock Age 2 Find Pair Bonus X 4"/>
+		<BonusGame id="3" Type="FindPair" GameID="3" desc="Rock Age 2 Find Pair Bonus X 5"/>
+</root>

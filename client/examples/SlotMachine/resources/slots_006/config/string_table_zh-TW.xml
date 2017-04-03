@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata inherit="string_table_INT.xml">
+	<Section name="MessageBox">
+		<ClickToSkip>按我略過</ClickToSkip>
+	</Section>
+	<Section name="ErrorReport">
+		<ErrorReport>錯誤回報</ErrorReport>
+		<NoImplementCutscene>這個過場動畫尚未實作。</NoImplementCutscene>
+	</Section>
+</Metadata>

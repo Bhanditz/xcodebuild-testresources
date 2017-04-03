@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="156" height="100" window_state="6">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="156" height="100" window_state="6">
+        <piece_info value="slots_002_icon13"/>
+    </Picture>
+    <Sprite id="top" x="-3" y="-9" z="0" width="162" height="12" window_state="6">
+        <sprite_file value="slots_002/sprites/Sparta_payline_top.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="right" x="153" y="-3" z="0" width="12" height="112" window_state="6" style="ngs_panel_bg">
+        <sprite_file value="slots_002/sprites/Sparta_payline_right.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="bottom" x="-3" y="97" z="0" width="162" height="12" window_state="6" style="ngs_panel_bg">
+        <sprite_file value="slots_002/sprites/Sparta_payline_bottom.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+    <Sprite id="left" x="-9" y="-3" z="0" width="12" height="112" window_state="6" style="ngs_panel_bg">
+        <sprite_file value="slots_002/sprites/Sparta_payline_left.xml"/>
+        <sprite_state value="1"/>
+    </Sprite>
+</Panel>

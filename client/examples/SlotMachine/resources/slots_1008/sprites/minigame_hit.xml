@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="minigame_hit.png" width="256" height="256" scale_x="3" scale_y="3" blend="1" loop="1">
+    <sprite n="00000" x="194" y="2" w="50" h="68" oX="45" oY="18" oW="128" oH="128" dr="50"/>
+    <sprite n="00001" x="110" y="2" w="78" h="84" oX="30" oY="19" oW="128" oH="128" dr="50"/>
+    <sprite n="00002" x="2" y="2" w="106" h="108" oX="9" oY="4" oW="128" oH="128" dr="50"/>
+    <sprite n="00003" x="2" y="112" w="90" h="108" oX="6" oY="15" oW="128" oH="128" r="y" dr="50"/>
+    <sprite n="00004" x="94" y="112" w="98" h="106" oX="8" oY="14" oW="128" oH="128" r="y" dr="50"/>
+</TextureAtlas>

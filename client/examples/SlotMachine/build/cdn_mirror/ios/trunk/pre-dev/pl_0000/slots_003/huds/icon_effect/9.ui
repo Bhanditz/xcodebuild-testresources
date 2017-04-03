@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="173" height="99" window_state="6">
+    <Panel id="ref" x="14" y="72" z="0" width="173" height="99" window_state="6">
+        <Panel id="bg" x="-14" y="-72" z="0" width="173" height="99" window_state="6">
+            <Picture id="m_Picture" x="44" y="46" z="0" width="84" height="35" window_state="6">
+                <scale x="2" y="2" z="2"/>
+                <piece_info value="slots_003_icon_016"/>
+            </Picture>
+        </Panel>
+    </Panel>
+    <Panel id="m_Panel" x="0" y="0" z="0" width="173" height="99" window_state="6">
+        <action_id value="animation_disco_highpayicon"/>
+        <Sprite id="m_Sprite1" x="-43" y="-25" z="0" width="260" height="147" window_state="6">
+            <sprite_file value="slots_003/sprites/ball_glow.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite" x="-43" y="-25" z="0" width="260" height="149" window_state="6">
+            <sprite_file value="slots_003/sprites/ball.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Picture id="m_Picture" x="-16" y="-10" z="0" width="202" height="120" window_state="262">
+            <blend_mode value="2"/>
+            <piece_info value="ball_glow"/>
+        </Picture>
+    </Panel>
+</Panel>

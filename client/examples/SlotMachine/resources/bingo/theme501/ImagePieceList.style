@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="theme501_icon" file_name="theme501_icon.png" width="1024" height="1024"/>
+  </ImageList>
+  <PieceList>
+    <Piece id="formal_icon_h75" image_id="theme501_icon" x="955" y="48" width="59" height="51"/>
+    <Piece id="formal_panel_h39" image_id="theme501_icon" x="882" y="498" width="39" height="24"/>
+    <Piece id="formal_panel_h40" image_id="theme501_icon" x="922" y="498" width="39" height="24"/>
+    <Piece id="formal_panel_h44" image_id="theme501_icon" x="493" y="1" width="461" height="496"/>
+    <Piece id="theme501_bg02" image_id="theme501_icon" x="0" y="0" width="492" height="594"/>
+    <Piece id="theme501_icon01" image_id="theme501_icon" x="683" y="543" width="156" height="148"/>
+    <Piece id="theme501_icon02" image_id="theme501_icon" x="840" y="543" width="156" height="148"/>
+    <Piece id="theme501_icon03" image_id="theme501_icon" x="683" y="692" width="156" height="148"/>
+    <Piece id="theme501_icon04" image_id="theme501_icon" x="840" y="692" width="156" height="148"/>
+    <Piece id="theme501_icon05" image_id="theme501_icon" x="1" y="841" width="156" height="148"/>
+    <Piece id="theme501_icon06" image_id="theme501_icon" x="1" y="595" width="86" height="86"/>
+    <Piece id="theme501_icon07" image_id="theme501_icon" x="493" y="543" width="189" height="175"/>
+    <Piece id="theme501_icon08" image_id="theme501_icon" x="955" y="100" width="54" height="50"/>
+    <Piece id="theme501_icon09" image_id="theme501_icon" x="493" y="498" width="388" height="26"/>
+    <Piece id="theme501_icon10" image_id="theme501_icon" x="493" y="525" width="378" height="17"/>
+    <Piece id="theme501_icon100" image_id="theme501_icon" x="1" y="719" width="87" height="88"/>
+    <Piece id="theme501_icon11" image_id="theme501_icon" x="955" y="1" width="60" height="46"/>
+  </PieceList>
+</ImagePiece>

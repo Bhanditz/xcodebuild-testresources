@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="high.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="high_00000.png" x="226" y="226" w="110" h="160" r="y" dr="150"/>
+    <sprite n="high_00001.png" x="114" y="388" w="160" h="110" dr="150"/>
+    <sprite n="high_00002.png" x="114" y="226" w="110" h="160" r="y" dr="150"/>
+    <sprite n="high_00003.png" x="276" y="114" w="160" h="110" dr="150"/>
+    <sprite n="high_00004.png" x="114" y="114" w="160" h="110" dr="150"/>
+    <sprite n="high_00005.png" x="2" y="276" w="110" h="160" r="y" dr="150"/>
+    <sprite n="high_00006.png" x="2" y="114" w="110" h="160" r="y" dr="150"/>
+    <sprite n="high_00007.png" x="326" y="2" w="160" h="110" dr="150"/>
+    <sprite n="high_00008.png" x="164" y="2" w="160" h="110" dr="150"/>
+    <sprite n="high_00009.png" x="2" y="2" w="160" h="110" dr="160"/>
+</TextureAtlas>

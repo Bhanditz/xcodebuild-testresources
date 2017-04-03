@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value="slots_005/sound/Jackpot_basegame.ogg"/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value="slots_005/sound/Jackpot_spin.ogg"/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="SPIN_STOP" value=""/>
+		<Sound name="NEAR_WIN" value=""/>
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_READY_STOP" value="slots_005/sound/Jackpot_reelstop.ogg"/>
+		<Sound name="WIN_REPORT_END" value=""/>
+		<Sound name="WIN_REPORT_LV1" value="slots_005/sound/Jackpot_lowwin.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots_005/sound/Jackpot_midwin.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots_005/sound/Jackpot_highwin.ogg"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+    <!--Sound name="BASEGAME_BGM" value="slots_005/sound/jackpot_basegame.ogg"/-->
+    <Sound name="BLACKBOX_BGM" value="slots_005/sound/Jackpot_freegame.ogg"/>
+    <Sound name="BONUS_ICON_APPEAR" value="slots_005/sound/Jackpot_bonus.ogg"/>
+    <Sound name="WILD_ICON_APPEAR" value="slots_005/sound/Jackpot_wild.ogg"/>
+
+    <Sound name="WHEEL_BGM" value="slots_005/sound/Jackpot_wheelbgm.ogg"/>
+    <Sound name="WHEEL_CLICK" value="slots_005/sound/Jackpot_wheelclick.ogg"/>
+    <Sound name="WHEEL_START" value="slots_005/sound/Jackpot_wheelstart.ogg"/>
+    <Sound name="WHEEL_STOP" value="slots_005/sound/Jackpot_wheelstop.ogg"/>
+
+  </SoundInfo>
+</SlotsConfig>

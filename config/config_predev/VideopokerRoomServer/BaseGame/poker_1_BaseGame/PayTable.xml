@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+
+<root>
+		<BasePayRange>	
+			<Level maxlev="49">
+				<Range value="20" />
+				<Range value="200" />
+				<Range value="2000" />
+				<Range value="20000" />
+				<Range value="100000" />
+			</Level>
+			<Level maxlev="79">
+				<Range value="200" />
+				<Range value="1000" />
+				<Range value="5000" />
+				<Range value="50000" />
+				<Range value="200000" />
+			</Level>
+			<Level maxlev="119">
+				<Range value="300" />
+				<Range value="1500" />
+				<Range value="10000" />
+				<Range value="100000" />
+				<Range value="500000" />
+			</Level>
+			<Level maxlev="159">
+				<Range value="600" />
+				<Range value="3000" />
+				<Range value="20000" />
+				<Range value="200000" />
+				<Range value="1000000" />
+			</Level>
+			<Level maxlev="199">
+				<Range value="1000" />
+				<Range value="5000" />
+				<Range value="25000" />
+				<Range value="200000" />
+				<Range value="1000000" />
+			</Level>
+			<Level maxlev="239">
+				<Range value="1500" />
+				<Range value="6000" />
+				<Range value="30000" />
+				<Range value="300000" />
+				<Range value="1500000" />
+			</Level>
+			<Level maxlev="299">
+				<Range value="2000" />
+				<Range value="8000" />
+				<Range value="35000" />
+				<Range value="300000" />
+				<Range value="1500000" />
+			</Level>
+			<Level maxlev="359">
+				<Range value="2500" />
+				<Range value="10000" />
+				<Range value="50000" />
+				<Range value="500000" />
+				<Range value="2000000" />
+			</Level>
+			<Level maxlev="10000">
+				<Range value="3000" />
+				<Range value="15000" />
+				<Range value="50000" />
+				<Range value="500000" />
+				<Range value="2000000" />
+			</Level>
+		</BasePayRange>
+		
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	            <Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 250 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId>
+	            <BetMultiplier> 50 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 3 </Id>
+	            <HandTypeId> 6 </HandTypeId>
+	            <BetMultiplier> 25 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 4 </Id>
+	            <HandTypeId> 7 </HandTypeId>
+	            <BetMultiplier> 9 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 5 </Id>
+	            <HandTypeId> 8 </HandTypeId>
+	            <BetMultiplier> 6 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 6 </Id>
+	            <HandTypeId> 9 </HandTypeId>
+	            <BetMultiplier> 4 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 7 </Id>
+	            <HandTypeId> 10 </HandTypeId>
+	            <BetMultiplier> 3 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 8 </Id>
+	            <HandTypeId> 11 </HandTypeId>
+	            <BetMultiplier> 2 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 9 </Id>
+	            <HandTypeId> 12 </HandTypeId>
+	            <BetMultiplier> 1 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	        	<Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 500 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId>
+	            <BetMultiplier> 100 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 3 </Id>
+	            <HandTypeId> 6 </HandTypeId>
+	            <BetMultiplier> 50 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 4 </Id>
+	            <HandTypeId> 7 </HandTypeId>
+	            <BetMultiplier> 18 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 5 </Id>
+	            <HandTypeId> 8 </HandTypeId>
+	            <BetMultiplier> 12 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 6 </Id>
+	            <HandTypeId> 9 </HandTypeId>
+	            <BetMultiplier> 8 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 7 </Id>
+	            <HandTypeId> 10 </HandTypeId>
+	            <BetMultiplier> 6 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 8 </Id>
+	            <HandTypeId> 11 </HandTypeId>
+	            <BetMultiplier> 4 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 9 </Id>
+	            <HandTypeId> 12 </HandTypeId>
+	            <BetMultiplier> 2 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	        	<Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 750 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId>
+	            <BetMultiplier> 150 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 3 </Id>
+	            <HandTypeId> 6 </HandTypeId>
+	            <BetMultiplier> 75 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 4 </Id>
+	            <HandTypeId> 7 </HandTypeId>
+	            <BetMultiplier> 27 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 5 </Id>
+	            <HandTypeId> 8 </HandTypeId>
+	            <BetMultiplier> 18 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 6 </Id>
+	            <HandTypeId> 9 </HandTypeId>
+	            <BetMultiplier> 12 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 7 </Id>
+	            <HandTypeId> 10 </HandTypeId>
+	            <BetMultiplier> 9 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 8 </Id>
+	            <HandTypeId> 11 </HandTypeId>
+	            <BetMultiplier> 6 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 9 </Id>
+	            <HandTypeId> 12 </HandTypeId>
+	            <BetMultiplier> 3 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	        	<Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 1000 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId>
+	            <BetMultiplier> 200 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 3 </Id>
+	            <HandTypeId> 6 </HandTypeId>
+	            <BetMultiplier> 100 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 4 </Id>
+	            <HandTypeId> 7 </HandTypeId>
+	            <BetMultiplier> 36 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 5 </Id>
+	            <HandTypeId> 8 </HandTypeId>
+	            <BetMultiplier> 24 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 6 </Id>
+	            <HandTypeId> 9 </HandTypeId>
+	            <BetMultiplier> 16 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 7 </Id>
+	            <HandTypeId> 10 </HandTypeId>
+	            <BetMultiplier> 12 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 8 </Id>
+	            <HandTypeId> 11 </HandTypeId>
+	            <BetMultiplier> 8 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 9 </Id>
+	            <HandTypeId> 12 </HandTypeId>
+	            <BetMultiplier> 4 </BetMultiplier>
+	        </BasePayPropety>
+		</PayPropetyColumn>
+		<PayPropetyColumn>
+	        <BasePayPropety>
+	        	<Id> 1 </Id>	<!-- 根据ID的从小到大覆盖牌型 -->
+	            <HandTypeId> 1 </HandTypeId> <!-- 牌型类型 -->
+	            <BetMultiplier> 1250 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 2 </Id>
+	            <HandTypeId> 5 </HandTypeId>
+	            <BetMultiplier> 250 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 3 </Id>
+	            <HandTypeId> 6 </HandTypeId>
+	            <BetMultiplier> 125 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 4 </Id>
+	            <HandTypeId> 7 </HandTypeId>
+	            <BetMultiplier> 45 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 5 </Id>
+	            <HandTypeId> 8 </HandTypeId>
+	            <BetMultiplier> 30 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 6 </Id>
+	            <HandTypeId> 9 </HandTypeId>
+	            <BetMultiplier> 20 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 7 </Id>
+	            <HandTypeId> 10 </HandTypeId>
+	            <BetMultiplier> 15 </BetMultiplier>
+	        </BasePayPropety>
+	        <BasePayPropety>
+	        	<Id> 8 </Id>
+	            <HandTypeId> 11 </HandTypeId>
+	            <BetMultiplier> 10 </BetMultiplier>
+	        </BasePayPropety>
+	         <BasePayPropety>
+	        	<Id> 9 </Id>
+	            <HandTypeId> 12 </HandTypeId>
+	            <BetMultiplier> 5 </BetMultiplier>
+	        </BasePayPropety>
+	</PayPropetyColumn>
+</root>

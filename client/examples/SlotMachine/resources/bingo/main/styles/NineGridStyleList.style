@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NineGridStyleList>
+  <NineGridStyle id="ngs_bingo_border_mask0">
+    <normal piece_id="bingo_border_mask0" min_x="1" min_y="1" max_x="2" max_y="2"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_bs_formal_panel__c58">
+    <normal piece_id="formal_panel__c58" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_013" auto_bitmap="true">
+    <normal piece_id="formal_btn_013" min_x="44" min_y="0" max_x="45" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_014" auto_bitmap="true">
+    <normal piece_id="formal_btn_014" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_015" auto_bitmap="true">
+    <normal piece_id="formal_btn_015" min_x="37" min_y="0" max_x="38" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a13" auto_bitmap="true">
+    <normal piece_id="formal_btn_a13" min_x="31" min_y="0" max_x="32" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a14" auto_bitmap="true">
+    <normal piece_id="formal_btn_a14" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a15" auto_bitmap="true">
+    <normal piece_id="formal_btn_a15" min_x="44" min_y="0" max_x="45" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a16" auto_bitmap="true">
+    <normal piece_id="formal_btn_a16" min_x="47" min_y="0" max_x="48" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a17" auto_bitmap="true">
+    <normal piece_id="formal_btn_a17" min_x="36" min_y="0" max_x="37" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a21" auto_bitmap="true">
+    <normal piece_id="formal_btn_a21" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a22" auto_bitmap="true">
+    <normal piece_id="formal_btn_a22" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a23" auto_bitmap="true">
+    <normal piece_id="formal_btn_a23" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a27">
+    <normal piece_id="formal_btn_a27" min_x="27" min_y="0" max_x="28" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a28">
+    <normal piece_id="formal_btn_a28" min_x="27" min_y="0" max_x="28" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a38" auto_bitmap="true">
+    <normal piece_id="formal_btn_a38" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a51" auto_bitmap="true">
+    <normal piece_id="formal_btn_a51" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a52" auto_bitmap="true">
+    <normal piece_id="formal_btn_a52" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a550" auto_bitmap="true">
+    <normal piece_id="formal_btn_a550" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a57" auto_bitmap="true">
+    <normal piece_id="formal_btn_a57" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a60" auto_bitmap="true">
+    <normal piece_id="formal_btn_a60" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a61" auto_bitmap="true">
+    <normal piece_id="formal_btn_a61" min_x="8" min_y="0" max_x="9" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a62" auto_bitmap="true">
+    <normal piece_id="formal_btn_a62" min_x="54" min_y="0" max_x="55" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a74" auto_bitmap="true">
+    <normal piece_id="formal_btn_a74" min_x="42" min_y="0" max_x="43" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a77" auto_bitmap="true">
+    <normal piece_id="formal_btn_a77" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a78">
+    <normal piece_id="formal_btn_a78" min_x="34" min_y="0" max_x="35" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a79" auto_bitmap="true">
+    <normal piece_id="formal_btn_a79" min_x="18" min_y="0" max_x="19" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a80" auto_bitmap="true">
+    <normal piece_id="formal_btn_a80" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a81" auto_bitmap="true">
+    <normal piece_id="formal_btn_a81" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_a82" auto_bitmap="true">
+    <normal piece_id="formal_btn_a82" min_x="22" min_y="0" max_x="23" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_c02">
+    <normal piece_id="formal_btn_c02" min_x="43" min_y="49" max_x="44" max_y="50"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_c03">
+    <normal piece_id="formal_btn_c03" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_c04" auto_bitmap="true">
+    <normal piece_id="formal_btn_c04" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_h02">
+    <normal piece_id="formal_btn_h02" min_x="31" min_y="0" max_x="32" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_h10" auto_bitmap="true">
+    <normal piece_id="formal_btn_h10" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_h13" auto_bitmap="true">
+    <normal piece_id="formal_btn_h13" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_h14" auto_bitmap="true">
+    <normal piece_id="formal_btn_h14" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_h18">
+    <normal piece_id="formal_btn_h18" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_btn_h22" auto_bitmap="true">
+    <normal piece_id="formal_btn_h22" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_icon_a75">
+    <normal piece_id="formal_icon_a75" min_x="59" min_y="0" max_x="60" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel004">
+    <normal piece_id="formal_panel004" min_x="44" min_y="0" max_x="45" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a009">
+    <normal piece_id="formal_panel__a009" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a03" auto_bitmap="true">
+    <normal piece_id="formal_panel__a03" min_x="34" min_y="0" max_x="35" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a05">
+    <normal piece_id="formal_panel__a05" min_x="1" min_y="0" max_x="2" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a06">
+    <normal piece_id="formal_panel__a06" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a08">
+    <normal piece_id="formal_panel__a08" min_x="48" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a19">
+    <normal piece_id="formal_panel__a19" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a22">
+    <normal piece_id="formal_panel__a22" min_x="34" min_y="0" max_x="35" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a23">
+    <normal piece_id="formal_panel__a23" min_x="129" min_y="0" max_x="130" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a64">
+    <normal piece_id="formal_panel__a64" min_x="59" min_y="0" max_x="60" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a65">
+    <normal piece_id="formal_panel__a65" min_x="144" min_y="0" max_x="145" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a68">
+    <normal piece_id="formal_panel__a68" min_x="54" min_y="0" max_x="55" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a70">
+    <normal piece_id="formal_panel__a70" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a71">
+    <normal piece_id="formal_panel__a71" min_x="0" min_y="17" max_x="0" max_y="18"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a72">
+    <normal piece_id="formal_panel__a72" min_x="0" min_y="18" max_x="0" max_y="19"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a73">
+    <normal piece_id="formal_panel__a73" min_x="17" min_y="0" max_x="18" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__a74">
+    <normal piece_id="formal_panel__a74" min_x="17" min_y="0" max_x="18" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b001" flip_x="true">
+    <normal piece_id="formal_panel__b001" min_x="0" min_y="324" max_x="0" max_y="325"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b1">
+    <normal piece_id="formal_panel__b1" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b10">
+    <normal piece_id="formal_panel__b10" min_x="29" min_y="29" max_x="30" max_y="30"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b101">
+    <normal piece_id="formal_panel__b101" min_x="49" min_y="39" max_x="50" max_y="40"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b102">
+    <normal piece_id="formal_panel__b102" min_x="55" min_y="38" max_x="56" max_y="39"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b103">
+    <normal piece_id="formal_panel__b103" min_x="25" min_y="24" max_x="26" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b104">
+    <normal piece_id="formal_panel__b104" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b105">
+    <normal piece_id="formal_panel__b105" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b13">
+    <normal piece_id="formal_panel__b13" min_x="0" min_y="20" max_x="0" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b14">
+    <normal piece_id="formal_panel__b14" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b16">
+    <normal piece_id="formal_panel__b16" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b17">
+    <normal piece_id="formal_panel__b17" min_x="49" min_y="49" max_x="50" max_y="50"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b2">
+    <normal piece_id="formal_panel__b2" min_x="39" min_y="29" max_x="40" max_y="30"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b21">
+    <normal piece_id="formal_panel__b21" min_x="20" min_y="20" max_x="22" max_y="22"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b26">
+    <normal piece_id="formal_panel__b26" min_x="0" min_y="59" max_x="0" max_y="60"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b27">
+    <normal piece_id="formal_panel__b27" min_x="0" min_y="29" max_x="0" max_y="30"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b36">
+    <normal piece_id="formal_panel__b36" min_x="19" min_y="10" max_x="20" max_y="11"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b38">
+    <normal piece_id="formal_panel__b38" min_x="12" min_y="0" max_x="13" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b41">
+    <normal piece_id="formal_panel__b41" min_x="44" min_y="0" max_x="45" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b42">
+    <normal piece_id="formal_panel__b42" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b4420">
+    <normal piece_id="formal_panel__b4420" min_x="55" min_y="0" max_x="56" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b5">
+    <normal piece_id="formal_panel__b5" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b52">
+    <normal piece_id="formal_panel__b52" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b580">
+    <normal piece_id="formal_panel__b580" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b60">
+    <normal piece_id="formal_panel__b60" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b63">
+    <normal piece_id="formal_panel__b63" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b7">
+    <normal piece_id="formal_panel__b7" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b78">
+    <normal piece_id="formal_panel__b78" min_x="24" min_y="23" max_x="25" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b80">
+    <normal piece_id="formal_panel__b80" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b85">
+    <normal piece_id="formal_panel__b85" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b88">
+    <normal piece_id="formal_panel__b88" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b93">
+    <normal piece_id="formal_panel__b93" min_x="23" min_y="0" max_x="24" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b94">
+    <normal piece_id="formal_panel__b94" min_x="13" min_y="0" max_x="14" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b97">
+    <normal piece_id="formal_panel__b97" min_x="39" min_y="39" max_x="40" max_y="40"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__b98">
+    <normal piece_id="formal_panel__b98" min_x="124" min_y="0" max_x="125" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c010">
+    <normal piece_id="formal_panel__c010" min_x="59" min_y="39" max_x="60" max_y="40"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c15">
+    <normal piece_id="formal_panel__c15" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c16">
+    <normal piece_id="formal_panel__c16" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c17">
+    <normal piece_id="formal_panel__c17" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c20">
+    <normal piece_id="formal_panel__c20" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c21">
+    <normal piece_id="formal_panel__c21" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c22">
+    <normal piece_id="formal_panel__c22" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c25">
+    <normal piece_id="formal_panel__c25" min_x="49" min_y="34" max_x="50" max_y="35"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c26">
+    <normal piece_id="formal_panel__c26" min_x="59" min_y="0" max_x="60" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c27">
+    <normal piece_id="formal_panel__c27" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c28">
+    <normal piece_id="formal_panel__c28" min_x="19" min_y="24" max_x="20" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c41">
+    <normal piece_id="formal_panel__c41" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c42">
+    <normal piece_id="formal_panel__c42" min_x="0" min_y="14" max_x="0" max_y="16"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c43">
+    <normal piece_id="formal_panel__c43" min_x="0" min_y="14" max_x="0" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c44">
+    <normal piece_id="formal_panel__c44" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c45">
+    <normal piece_id="formal_panel__c45" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c48">
+    <normal piece_id="formal_panel__c48" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c49">
+    <normal piece_id="formal_panel__c49" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c62">
+    <normal piece_id="formal_panel__c62" min_x="14" min_y="14" max_x="15" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c65">
+    <normal piece_id="formal_panel__c65" min_x="0" min_y="16" max_x="0" max_y="17"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel__c66">
+    <normal piece_id="formal_panel__c66" min_x="0" min_y="139" max_x="0" max_y="140"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_b028">
+    <normal piece_id="formal_panel__b028" min_x="17" min_y="0" max_x="18" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h01">
+    <normal piece_id="formal_panel_h01" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h02">
+    <normal piece_id="formal_panel_h02" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h09">
+    <normal piece_id="formal_panel_h09" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h13">
+    <normal piece_id="formal_panel_h13" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h20">
+    <normal piece_id="formal_panel_h20" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h22">
+    <normal piece_id="formal_panel_h22" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h25">
+    <normal piece_id="formal_panel_h25" min_x="29" min_y="19" max_x="30" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h30">
+    <normal piece_id="formal_panel_h30" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h31">
+    <normal piece_id="formal_panel_h31" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h32">
+    <normal piece_id="formal_panel_h32" min_x="24" min_y="19" max_x="25" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h33">
+    <normal piece_id="formal_panel_h33" min_x="19" min_y="19" max_x="20" max_y="20"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h34">
+    <normal piece_id="formal_panel_h34" min_x="9" min_y="9" max_x="10" max_y="10"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h37">
+    <normal piece_id="formal_panel_h37" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_formal_panel_h55">
+    <normal piece_id="formal_panel_h55" min_x="0" min_y="29" max_x="0" max_y="30"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_lobby_panel_a72">
+    <normal piece_id="lobby_panel_a72" min_x="24" min_y="0" max_x="25" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_lobby_panel_a73">
+    <normal piece_id="lobby_panel_a73" min_x="57" min_y="0" max_x="58" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_lobby_panel_a74">
+    <normal piece_id="lobby_panel_a74" min_x="48" min_y="0" max_x="49" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_ngs_nine_grid_style7">
+    <normal piece_id="formal_panel__beijing1" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style">
+    <normal piece_id="formal_icon_a75" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style10">
+    <normal piece_id="formal_panel__beijing1" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style11">
+    <normal piece_id="formal_panel__b102" min_x="49" min_y="38" max_x="50" max_y="39"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style12">
+    <normal piece_id="formal_panel__a65" min_x="144" min_y="0" max_x="145" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style13">
+    <normal piece_id="formal_panel__c58" min_x="14" min_y="0" max_x="15" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style14" auto_bitmap="true">
+    <normal piece_id="formal_btn_h10" min_x="59" min_y="0" max_x="60" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style15">
+    <normal piece_id="formal_panel__b029" min_x="19" min_y="0" max_x="20" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style16">
+    <normal piece_id="formal_panel__c62" min_x="13" min_y="14" max_x="14" max_y="15"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style2">
+    <normal piece_id="formal_panel__b36" min_x="22" min_y="24" max_x="23" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style4">
+    <normal piece_id="formal_panel__di10" min_x="49" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_nine_grid_style6">
+    <normal piece_id="formal_panel__b100" min_x="24" min_y="24" max_x="25" max_y="25"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_panel_b15">
+    <normal piece_id="panel_b15" min_x="104" min_y="0" max_x="106" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_panel_h20">
+    <normal piece_id="formal_panel_h20" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_border_bg">
+    <normal piece_id="slots_border_bg" min_x="60" min_y="100" max_x="61" max_y="101"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_border_boosts_btn2" auto_bitmap="true">
+    <normal piece_id="slots_border_boosts_btn2" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_border_boosts_btn4" auto_bitmap="true">
+    <normal piece_id="slots_border_boosts_btn4" min_x="39" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_border_boosts_btn7" auto_bitmap="true">
+    <normal piece_id="slots_border_boosts_btn7" min_x="29" min_y="0" max_x="30" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_border_mask2">
+    <normal piece_id="slots_border_mask2" min_x="9" min_y="9" max_x="11" max_y="11"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_border_mask4">
+    <normal piece_id="slots_border_mask4" min_x="2" min_y="2" max_x="3" max_y="3"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_auto_bg1">
+    <normal piece_id="slots_ingame_auto_bg1" min_x="70" min_y="0" max_x="80" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_auto_btn1_unchuck">
+    <normal piece_id="slots_ingame_auto_btn1_unchuck" min_x="60" min_y="0" max_x="65" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_auto_btn2_chuck">
+    <normal piece_id="slots_ingame_auto_btn2_chuck" min_x="60" min_y="0" max_x="65" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_auto_btn3" auto_bitmap="true">
+    <normal piece_id="slots_ingame_auto_btn3" min_x="24" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_btna2" auto_bitmap="true">
+    <normal piece_id="slots_ingame_btna2" min_x="24" min_y="0" max_x="40" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_btna3" auto_bitmap="true">
+    <normal piece_id="slots_ingame_btna3" min_x="30" min_y="0" max_x="44" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_btna5" auto_bitmap="true">
+    <normal piece_id="slots_ingame_btna5" min_x="30" min_y="0" max_x="44" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_left">
+    <normal piece_id="slots_ingame_left" min_x="40" min_y="0" max_x="50" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_left1">
+    <normal piece_id="slots_ingame_left1" min_x="32" min_y="0" max_x="33" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_ingame_win_bg">
+    <normal piece_id="slots_ingame_win_bg" min_x="80" min_y="0" max_x="90" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_lobby_icon_loading1">
+    <normal piece_id="slots_lobby_icon_loading1" min_x="34" min_y="0" max_x="35" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_lobby_lock_bg1">
+    <normal piece_id="slots_lobby_lock_bg1" min_x="30" min_y="0" max_x="34" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_slots_lobby_lock_bg3">
+    <normal piece_id="slots_lobby_lock_bg3" min_x="15" min_y="0" max_x="16" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_theme1_minigame_09">
+    <normal piece_id="theme1_minigame_09" min_x="48" min_y="0" max_x="52" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_theme1_minigame_label_bg">
+    <normal piece_id="theme1_minigame_label_bg" min_x="0" min_y="1" max_x="0" max_y="3"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_unified_line_03">
+    <normal piece_id="unified_line_03" min_x="9" min_y="0" max_x="10" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngs_unified_loading_bar_a2">
+    <normal piece_id="unified_loading_bar_a2" min_x="20" min_y="0" max_x="22" max_y="0"/>
+  </NineGridStyle>
+  <NineGridStyle id="ngsformal_panel__c250">
+    <normal piece_id="formal_panel__c250" min_x="0" min_y="16" max_x="0" max_y="17"/>
+  </NineGridStyle>
+</NineGridStyleList>

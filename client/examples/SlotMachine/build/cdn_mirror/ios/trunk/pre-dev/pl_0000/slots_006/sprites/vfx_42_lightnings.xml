@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vfx_42_lightnings.png" width="512" height="512" scale_x="2" scale_y="2" blend="2" loop="1">
+    <sprite n="intro_lightning_00001" x="165" y="165" w="191" h="161" dr="120"/>
+    <sprite n="intro_lightning_00002" x="2" y="165" w="161" h="191" r="y" dr="120"/>
+    <sprite n="intro_lightning_00003" x="195" y="2" w="191" h="161" dr="120"/>
+    <sprite n="intro_lightning_00004" x="2" y="2" w="191" h="161" dr="120"/>
+    <sprite n="intro_lightning_00005" x="165" y="328" w="191" h="159" oW="191" oH="161" dr="120"/>
+</TextureAtlas>

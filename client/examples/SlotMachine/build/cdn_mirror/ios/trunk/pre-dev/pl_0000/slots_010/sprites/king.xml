@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="king.png" width="512" height="512" blend="1" loop="1">
+    <sprite n="king___00000.png" x="226" y="226" w="110" h="160" r="y" dr="150"/>
+    <sprite n="king___00001.png" x="114" y="388" w="160" h="110" dr="120"/>
+    <sprite n="king___00002.png" x="114" y="226" w="110" h="160" r="y" dr="120"/>
+    <sprite n="king___00003.png" x="276" y="114" w="160" h="110" dr="130"/>
+    <sprite n="king___00004.png" x="114" y="114" w="160" h="110" dr="180"/>
+    <sprite n="king___00005.png" x="2" y="276" w="110" h="160" r="y" dr="130"/>
+    <sprite n="king___00006.png" x="2" y="114" w="110" h="160" r="y" dr="130"/>
+    <sprite n="king___00007.png" x="326" y="2" w="160" h="110" dr="130"/>
+    <sprite n="king___00008.png" x="164" y="2" w="160" h="110" dr="130"/>
+    <sprite n="king___00009.png" x="2" y="2" w="160" h="110" dr="300"/>
+</TextureAtlas>

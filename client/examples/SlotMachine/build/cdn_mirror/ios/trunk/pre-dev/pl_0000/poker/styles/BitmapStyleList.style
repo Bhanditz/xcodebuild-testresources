@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BitmapStyleList>
+  <BitmapStyle id="bs_poker_button_001" auto_bitmap="true">
+    <normal piece_id="poker_button_001"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_004" auto_bitmap="true">
+    <normal piece_id="poker_button_004"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_005" auto_bitmap="true">
+    <normal piece_id="poker_button_005"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_006" auto_bitmap="true">
+    <normal piece_id="poker_button_006"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_008" auto_bitmap="true">
+    <normal piece_id="poker_button_008"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_009" auto_bitmap="true">
+    <normal piece_id="poker_button_009"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_011" auto_bitmap="true">
+    <normal piece_id="poker_button_011"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_011b" auto_bitmap="true">
+    <normal piece_id="poker_button_011b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_012" auto_bitmap="true">
+    <normal piece_id="poker_button_012"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_012b" auto_bitmap="true">
+    <normal piece_id="poker_button_012b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_021" auto_bitmap="true">
+    <normal piece_id="poker_button_021"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_021b" auto_bitmap="true">
+    <normal piece_id="poker_button_021b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_022" auto_bitmap="true">
+    <normal piece_id="poker_button_022a"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_022b" auto_bitmap="true">
+    <normal piece_id="poker_button_022b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_024" auto_bitmap="true">
+    <normal piece_id="poker_button_024"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_025" auto_bitmap="true">
+    <normal piece_id="poker_button_025"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_button_057" auto_bitmap="true">
+    <normal piece_id="poker_icon_065"/>
+    <down piece_id="poker_icon_057"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_multi_button3" auto_bitmap="true">
+    <normal piece_id="poker_multi_button3"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_multi_button3b" auto_bitmap="true">
+    <normal piece_id="poker_multi_button3b"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_panel_008" auto_bitmap="false">
+    <normal piece_id="poker_panel_008"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_panel_012" auto_bitmap="true">
+    <normal piece_id="poker_panel_012"/>
+  </BitmapStyle>
+  <BitmapStyle id="bs_poker_profile_icon5" auto_bitmap="true">
+    <normal piece_id="poker_profile_icon5"/>
+  </BitmapStyle>
+</BitmapStyleList>

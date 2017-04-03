@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Panel id="m_Panel2" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black">
+        <color_scale x="1" y="1" z="1" w="0.43000001"/>
+    </Panel>
+    <Picture id="m_bg" x="522" y="273" z="0" width="96" height="96" window_state="4">
+        <scale x="1.05" y="1.05" z="1.05"/>
+    </Picture>
+    <Particle id="m_ParBigwinBg" x="552" y="341" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Bigwin bg"/>
+    </Particle>
+    <Particle id="m_ParBigwincoin" x="552" y="796" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Bigwin coin"/>
+    </Particle>
+    <Particle id="m_ParBigwincoin1" x="558" y="760" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Bigwin coin2"/>
+    </Particle>
+    <Particle id="m_ParSuperwinBg" x="552" y="341" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Superwin bg"/>
+    </Particle>
+    <Particle id="m_ParSuperwinIntro" x="552" y="304" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Superwin bg intro"/>
+    </Particle>
+    <Particle id="m_ParSuperwincoin" x="558" y="723" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Superwin coin"/>
+    </Particle>
+    <Picture id="m_Picture" x="426" y="240" z="0" width="284" height="160" window_state="4">
+        <scale x="4" y="4" z="4"/>
+        <piece_info value="megawin_bg"/>
+    </Picture>
+    <Particle id="m_ParMegawinBg" x="552" y="346" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Megawin bg"/>
+    </Particle>
+    <Particle id="m_ParMegawinBg1" x="552" y="345" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Megawin bg2"/>
+    </Particle>
+    <Particle id="m_ParMegawinIntro" x="552" y="304" z="0" width="32" height="32" window_state="4">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Megawin bg intro"/>
+    </Particle>
+    <Particle id="m_ParMegawincoinleft" x="-42" y="715" z="0" width="32" height="32" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Megawin coin left"/>
+    </Particle>
+    <Particle id="m_ParMegawincoinright" x="1152" y="716" z="0" width="32" height="32" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots/particles/bigwin.ptc"/>
+        <particle_name value="Megawin coin right"/>
+    </Particle>
+    <Panel id="m_TogglePanel" x="454" y="591" z="0" width="245" height="30" window_state="6">
+        <ToggleButton id="m_ToggleButton" x="5" y="0" z="0" width="30" height="30" window_state="6">
+            <anchor_point x="3.5" y="0.5" z="0"/>
+            <line_height value="30"/>
+            <checked value="1"/>
+            <checked_bg_style value="bs_slots_btn03"/>
+            <unchecked_bg_style value="bs_slots_btn02"/>
+            <RichLabel id="m_RichLabel_2" x="85" y="0" z="0" width="96" height="30" window_state="6">
+                <text value="SLOTS_COMMON_BIGWIN_TEXT_SHARE"/>
+                <font_id value="LatoReg"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.34999999"/>
+                <outline_center value="0.5"/>
+                <outline_color value="cs_BrownTxt"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </ToggleButton>
+    </Panel>
+    <Button id="m_Button" x="490" y="521" z="0" width="152" height="30" window_state="6" style="bs_slots_btn01">
+        <scale x="3" y="3" z="3"/>
+        <text value="SLOTS_COMMON_BIGWIN_BUTTON_COLLECT"/>
+        <font_size value="25"/>
+        <text_offset x="0" y="-4" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+    </Button>
+    <PictureMirror id="m_PictureMirror" x="249" y="338" z="0" width="641" height="116" window_state="6">
+        <scale x="0.69999999" y="0.69999999" z="0.69999999"/>
+        <piece_info value="slot_bigwin_panel03"/>
+        <RichLabel id="m_richlable" x="273" y="37" z="0" width="96" height="30" window_state="6">
+            <text value="$900,500,000"/>
+            <font_size value="115"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.11"/>
+            <glyph_center value="0.40000001"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2.2"/>
+            <outline_color value="cs_BrownTxt"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </PictureMirror>
+    <Panel id="m_Panel" x="293" y="185" z="0" width="550" height="290" window_state="4">
+        <RichLabel id="m_RichLabel1" x="-250" y="97" z="0" width="1035" height="170" window_state="6">
+            <text value="1000"/>
+            <font_size value="45"/>
+            <text_align_v value="1"/>
+            <text_style value="32"/>
+            <font_id value="Sparta"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel_BG" x="36" y="-40" z="0" width="446" height="170" window_state="6">
+            <font_size value="150"/>
+            <text_color value="cs_yellowTxt03"/>
+            <glyph_center value="0.44999999"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel_SU" x="36" y="-40" z="0" width="446" height="170" window_state="6">
+            <font_size value="150"/>
+            <text_color value="cs_yellowTxt03"/>
+            <glyph_center value="0.44999999"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_RichLabel_MA" x="36" y="-40" z="0" width="446" height="170" window_state="6">
+            <font_size value="150"/>
+            <text_color value="cs_yellowTxt03"/>
+            <glyph_center value="0.44999999"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+    <Panel id="m_Lightnings" x="0" y="0" z="0" width="1137" height="470" window_state="6">
+        <Sprite id="m_Sprite" x="68" y="-1" z="0" width="875" height="400" window_state="4">
+            <sprite_file value="slots/sprites/bigwin_lightning01.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="636" y="2" z="0" width="500" height="640" window_state="4">
+            <sprite_file value="slots/sprites/bigwin_lightning02.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="-2" y="-6" z="0" width="500" height="640" window_state="4">
+            <sprite_file value="slots/sprites/bigwin_lightning03.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite3" x="514" y="-3" z="0" width="625" height="640" window_state="4">
+            <sprite_file value="slots/sprites/bigwin_lightning04.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite4" x="-4" y="-4" z="0" width="625" height="500" window_state="4">
+            <sprite_file value="slots/sprites/bigwin_lightning05.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="13" y="-30" z="0" width="1079" height="463" window_state="4">
+            <sprite_file value="slots/sprites/bigwin_lightning06.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Mesh2" x="506" y="137" z="0" width="100" height="100" window_state="4">
+        <action_id value="animation_bigwin_rotation"/>
+        <Mesh id="m_MegaMesh" x="0" y="0" z="0" width="100" height="100" window_state="2054">
+            <mesh_file value="slots/model/megawin.model"/>
+            <mesh_scale x="280" y="280" z="280"/>
+            <clear_depth value="1"/>
+            <sky_color r="254" g="208" b="163" a="255"/>
+            <sky_brightness value="0.5"/>
+            <lights>
+                <element>
+                    <direction x="-2" y="-4" z="-3"/>
+                    <color r="255" g="247" b="223" a="255"/>
+                </element>
+                <element>
+                    <direction x="1" y="5" z="-3"/>
+                    <color r="253" g="254" b="197" a="255"/>
+                    <brightness value="0.69999999"/>
+                </element>
+            </lights>
+            <fog_distance near="1" far="100"/>
+        </Mesh>
+        <Picture id="m_Picture" x="-151" y="1" z="-33" width="414" height="99" window_state="4">
+            <scale x="2.46" y="2.46" z="2.46"/>
+            <blend_mode value="2"/>
+            <piece_info value="megawin_glow"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="-149" y="17" z="-30" width="417" height="68" window_state="4">
+            <scale x="2.25" y="2.25" z="2.25"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_megawin_sweep"/>
+            <piece_info value="megawin_mask"/>
+            <scale_mode value="2"/>
+            <mask_piece value="megawin_sweep"/>
+            <mask_offset x="-0.57999998" y="0" z="0"/>
+        </PictureMask>
+        <PictureMask id="m_PictureMask1" x="-149" y="19" z="-32" width="417" height="68" window_state="4">
+            <scale x="2.23" y="2.23" z="2.23"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_megawin_sweep01"/>
+            <piece_info value="megawin_mask01"/>
+            <scale_mode value="2"/>
+            <mask_piece value="megawin_sweep01"/>
+            <mask_offset x="-0.63999999" y="0" z="0"/>
+        </PictureMask>
+        <Sprite id="m_Sprite" x="-511" y="-137" z="-33" width="1135" height="375" window_state="4">
+            <sprite_file value="slots/sprites/bigwin_lightning07.xml"/>
+            <sprite_state value="0"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="291" y="6" z="-30" width="100" height="100" window_state="6">
+            <scale x="0.98000002" y="0.98000002" z="0.98000002"/>
+            <sprite_file value="slots/sprites/win_particles.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="-186" y="6" z="-30" width="100" height="100" window_state="6">
+            <scale x="0.98000002" y="0.98000002" z="0.98000002"/>
+            <sprite_file value="slots/sprites/mega_particles.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Mesh1" x="518" y="168" z="0" width="100" height="100" window_state="4">
+        <rotation x="0" y="0.034906585" z="0"/>
+        <action_id value="animation_bigwin_rotation"/>
+        <Mesh id="m_SuperMesh" x="0" y="0" z="0" width="100" height="100" window_state="2054">
+            <scale x="0.97000003" y="0.97000003" z="0.97000003"/>
+            <mesh_file value="slots/model/superwin.model"/>
+            <mesh_scale x="280" y="280" z="280"/>
+            <clear_depth value="1"/>
+            <sky_color r="254" g="208" b="163" a="255"/>
+            <sky_brightness value="0.5"/>
+            <lights>
+                <element>
+                    <direction x="-2" y="-4" z="-3"/>
+                    <color r="255" g="247" b="223" a="255"/>
+                </element>
+                <element>
+                    <direction x="1" y="5" z="-3"/>
+                    <color r="253" g="254" b="197" a="255"/>
+                    <brightness value="0.69999999"/>
+                </element>
+            </lights>
+            <fog_distance near="1" far="100"/>
+        </Mesh>
+        <PictureMask id="m_PictureMask" x="-205" y="11" z="-30" width="509" height="79" window_state="262">
+            <scale x="1.86" y="1.86" z="1.86"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_superwin_sweep"/>
+            <piece_info value="superwin_mask"/>
+            <scale_mode value="2"/>
+            <mask_piece value="superwin_sweep"/>
+            <mask_offset x="-0.62" y="0" z="0"/>
+        </PictureMask>
+        <PictureMask id="m_PictureMask1" x="-205" y="11" z="-32" width="509" height="79" window_state="262">
+            <scale x="1.86" y="1.86" z="1.86"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_superwin_sweep01"/>
+            <piece_info value="superwin_mask01"/>
+            <scale_mode value="2"/>
+            <mask_piece value="superwin_sweep01"/>
+            <mask_offset x="-0.68000001" y="0" z="0"/>
+        </PictureMask>
+        <Picture id="m_Picture2" x="-529" y="-81" z="-40" width="254" height="134" window_state="4">
+            <scale x="0.93000001" y="0.81999999" z="0.81999999"/>
+            <color_scale x="1" y="1" z="1" w="0.60000002"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_superwin_light"/>
+            <piece_info value="bigwin_light"/>
+        </Picture>
+        <Picture id="m_Picture1" x="-230" y="-18" z="-45" width="566" height="108" window_state="4">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <piece_info value="superwin_glow"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="302" y="6" z="-27" width="100" height="100" window_state="6">
+            <scale x="0.97000003" y="0.97000003" z="0.97000003"/>
+            <sprite_file value="slots/sprites/win_particles.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="-199" y="6" z="-27" width="100" height="100" window_state="6">
+            <scale x="0.97000003" y="0.97000003" z="0.97000003"/>
+            <sprite_file value="slots/sprites/super_particles.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Mesh" x="523" y="193" z="0" width="100" height="100" window_state="4">
+        <action_id value="animation_bigwin_rotation"/>
+        <Mesh id="m_BigMesh" x="0" y="0" z="0" width="100" height="100" window_state="2054">
+            <mesh_file value="slots/model/bigwin.model"/>
+            <mesh_scale x="280" y="280" z="280"/>
+            <clear_depth value="1"/>
+            <sky_color r="254" g="208" b="163" a="255"/>
+            <sky_brightness value="0.5"/>
+            <lights>
+                <element>
+                    <direction x="-2" y="-4" z="-3"/>
+                    <color r="255" g="247" b="223" a="255"/>
+                </element>
+                <element>
+                    <direction x="1" y="5" z="-3"/>
+                    <color r="253" g="254" b="197" a="255"/>
+                    <brightness value="0.69999999"/>
+                </element>
+            </lights>
+            <fog_distance near="1" far="20"/>
+        </Mesh>
+        <PictureMask id="m_PictureMask" x="-106" y="18" z="-30" width="313" height="68" window_state="6">
+            <scale x="2.2" y="2.2" z="2.2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bigwin_sweep"/>
+            <piece_info value="bigwin_mask"/>
+            <scale_mode value="2"/>
+            <mask_piece value="bigwin_sweep"/>
+            <mask_offset x="-0.47999999" y="0" z="0"/>
+        </PictureMask>
+        <PictureMask id="m_PictureMask1" x="-106" y="18" z="-32" width="313" height="68" window_state="6">
+            <scale x="2.2" y="2.2" z="2.2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bigwin_sweep01"/>
+            <piece_info value="bigwin_mask01"/>
+            <scale_mode value="2"/>
+            <mask_piece value="bigwin_sweep01"/>
+            <mask_offset x="-0.55000001" y="0" z="0"/>
+        </PictureMask>
+        <Picture id="m_Picture1" x="-390" y="-81" z="-30" width="254" height="134" window_state="4">
+            <scale x="0.93000001" y="0.81999999" z="0.81999999"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_bigwin_light"/>
+            <piece_info value="bigwin_light"/>
+        </Picture>
+        <Picture id="m_Picture2" x="-144" y="-12" z="-45" width="390" height="101" window_state="4">
+            <scale x="1.91" y="1.91" z="1.91"/>
+            <blend_mode value="2"/>
+            <piece_info value="bigwin_glow"/>
+        </Picture>
+        <Sprite id="m_Sprite" x="166" y="6" z="-30" width="100" height="100" window_state="6">
+            <scale x="0.97000003" y="0.97000003" z="0.97000003"/>
+            <sprite_file value="slots/sprites/win_particles.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="-205" y="6" z="-30" width="100" height="100" window_state="6">
+            <scale x="0.97000003" y="0.97000003" z="0.97000003"/>
+            <sprite_file value="slots/sprites/big_particles.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+</Panel>

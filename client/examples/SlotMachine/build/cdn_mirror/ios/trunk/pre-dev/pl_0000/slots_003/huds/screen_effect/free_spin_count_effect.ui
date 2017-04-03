@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="46" height="30" window_state="6">
+    <Panel id="m_FreeSpinControlBar" x="-56" y="-68" z="0" width="1140" height="115" window_state="6">
+        <Picture id="m_bottombacking" x="0" y="11" z="0" width="1137" height="111" window_state="6">
+            <piece_info value="slots_003_panel_027"/>
+        </Picture>
+        <Picture id="m_Picture4" x="4" y="42" z="0" width="155" height="59" window_state="14" style="ngs_slots_003_panel_004">
+            <Picture id="m_Picture4" x="-13" y="2" z="0" width="181" height="26" window_state="14">
+                <piece_info value="slots_003_panel_004b"/>
+            </Picture>
+        </Picture>
+        <Picture id="m_Picture1" x="165" y="42" z="0" width="155" height="59" window_state="14" style="ngs_slots_003_panel_004">
+            <Picture id="m_Picture4" x="-20" y="2" z="0" width="181" height="26" window_state="14">
+                <piece_info value="slots_003_panel_004b"/>
+            </Picture>
+        </Picture>
+        <Button id="m_BtnFreeSpin" x="869" y="-22" z="0" width="267" height="132" window_state="6" style="bs_slots_003_button_009b">
+            <font_size value="25"/>
+            <text_color value="cs_yellowTxt02"/>
+            <text_align_v value="3"/>
+            <text_offset x="0" y="-7" z="0"/>
+            <line_height value="30"/>
+            <Panel id="m_EffectPanel" x="0" y="0" z="0" width="267" height="132" window_state="14">
+                <Picture id="m_Picture" x="63" y="62" z="0" width="149" height="42" window_state="14">
+                    <piece_info value="slots_003_button_010"/>
+                </Picture>
+                <Panel id="m_Panelpress" x="0" y="0" z="0" width="267" height="132" window_state="14">
+                    <Picture id="m_Piclight111" x="82" y="100" z="0" width="114" height="77" window_state="6">
+                        <scale x="2" y="2" z="2"/>
+                        <action_id value="animation_disco_spin01"/>
+                        <piece_info value="spin_highlight"/>
+                    </Picture>
+                    <Picture id="m_Piclight222" x="82" y="100" z="0" width="114" height="77" window_state="6">
+                        <scale x="2" y="2" z="2"/>
+                        <action_id value="animation_disco_spin"/>
+                        <piece_info value="spin_highlight"/>
+                    </Picture>
+                    <Particle id="m_Particle333" x="123" y="122" z="0" width="32" height="32" window_state="14" style="ngs_panel_bg">
+                        <particle_state value="0"/>
+                        <package_file value="slots_003/particles/disco.ptc"/>
+                        <particle_name value="spin press"/>
+                    </Particle>
+                    <Sprite id="m_Sprite_1" x="-97" y="-158" z="0" width="400" height="400" window_state="6">
+                        <sprite_file value="slots_003/sprites/spin_press.xml"/>
+                        <sprite_state value="0"/>
+                    </Sprite>
+                    <Picture id="m_P444" x="67" y="16" z="0" width="200" height="42" window_state="270">
+                        <anchor_point x="0.82999998" y="0.44999999" z="0"/>
+                        <action_id value="animation_disco_spin02"/>
+                        <piece_info value="slots_003_panel_026"/>
+                    </Picture>
+                </Panel>
+            </Panel>
+        </Button>
+        <RichLabel id="m_LblFreeSpinTotalBet" x="173" y="66" z="0" width="136" height="30" window_state="6">
+            <text value="$999"/>
+            <font_size value="26"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.38999999"/>
+            <outline_center value="0.47999999"/>
+            <word_spacing value="2"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_Picture3" x="331" y="34" z="0" width="346" height="68" window_state="14">
+            <piece_info value="slots_003_button_014"/>
+        </Picture>
+        <RichLabel id="m_LblFreeSpinTotalWin" x="340" y="65" z="0" width="328" height="30" window_state="6">
+            <text value="$ 5200"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <glyph_center value="0.31999999"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_yellowTxt07"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Panel id="m_PanelFreeSpinNum" x="4" y="42" z="0" width="155" height="59" window_state="6">
+            <Picture id="m_FreeSpinBackEffect" x="53" y="24" z="0" width="46" height="30" window_state="14"/>
+            <RichLabel id="m_LblCurSpinNum" x="53" y="24" z="0" width="46" height="30" window_state="6">
+                <action_id value="animation_slot003_freegame02"/>
+                <text value="999"/>
+                <font_size value="26"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <RichLabel id="m_LblTotalSpinNum" x="39" y="16" z="0" width="31" height="26" window_state="4">
+                <text value="999"/>
+                <font_size value="26"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.38999999"/>
+                <outline_center value="0.47999999"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Panel>
+        <RichLabel id="m_FreeSpinLbl" x="9" y="45" z="0" width="146" height="30" window_state="6">
+            <text value="SLOTS_COMMON_TEXT_FREESPINS"/>
+            <font_size value="26"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.34999999"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <RichLabel id="m_TotalBetLbl" x="168" y="44" z="0" width="146" height="30" window_state="6">
+            <text value="SLOTS_COMMON_BASEGAME_BUTTON_TOTALBET"/>
+            <font_size value="26"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.039999999"/>
+            <glyph_center value="0.34999999"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Button id="m_Max bet" x="688" y="44" z="0" width="179" height="55" window_state="2" style="bs_slots_003_button_013">
+            <text_color value="cs_yellowTxt02"/>
+            <rich_label_state value="4"/>
+            <line_height value="25"/>
+            <RichLabel id="m_LblBetEachLine" x="38" y="12" z="0" width="102" height="28" window_state="14">
+                <text value="SLOTS_COMMON_FREEGAME_BUTTON_MAXBET"/>
+                <font_size value="28"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.36000001"/>
+                <outline_center value="0.47"/>
+                <word_spacing value="1"/>
+                <outline_color value="cs_color_style1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Button>
+        <RichLabel id="m_LblFreeSpinWinNum" x="438" y="35" z="0" width="130" height="30" window_state="6">
+            <text value="SLOTS_COMMON_BASEGAME_TEXT_TOTALWIN"/>
+            <text_color value="cs_White"/>
+            <rich_label_state value="1"/>
+            <glyph_center value="0.31999999"/>
+            <outline_center value="0.47"/>
+            <word_spacing value="2"/>
+            <outline_color value="cs_yellowTxt07"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Panel>
+</Panel>

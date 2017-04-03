@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="92" y="156" z="0" width="1136" height="640" window_state="6">
+    <Panel implement_class="LobbyPopupMenu" id="m_PanelMenu" x="849" y="-1" z="0" width="365" height="643" window_state="196614">
+        <Picture id="m_PicBg" x="27" y="-1" z="0" width="260" height="643" window_state="6" style="ngs_casino_lobby_panel11"/>
+        <Picture id="m_PicMask" x="-90" y="-5" z="0" width="387" height="323" window_state="6">
+            <piece_info value="casino_lobby_panel09"/>
+        </Picture>
+        <Picture id="m_PicLight" x="183" y="110" z="0" width="30" height="29" window_state="4">
+            <piece_info value="casino_lobby_icon04"/>
+        </Picture>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnMenu0" x="36" y="112" z="0" width="78" height="83" window_state="6" style="bs_casino_lobby_btn01">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="81" y="18" z="0" width="180" height="46" window_state="262150">
+                <RichLabel id="m_ShowName" x="12" y="3" z="0" width="146" height="40" window_state="6">
+                    <action_id value="value"/>
+                    <text value="Settings"/>
+                    <font_size value="35"/>
+                    <text_align_h value="1"/>
+                    <font_id value="MyraidPro"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnMenu1" x="31" y="213" z="0" width="88" height="88" window_state="4" style="bs_casino_lobby_button_01">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="86" y="24" z="0" width="195" height="40" window_state="262150">
+                <RichLabel id="m_ShowName" x="0" y="0" z="0" width="176" height="40" window_state="6">
+                    <action_id value="value"/>
+                    <text value="Friend"/>
+                    <font_size value="32"/>
+                    <text_align_h value="1"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.36000001"/>
+                    <outline_center value="0.47"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+        </Button>
+        <Button implement_class="ButtonPopMenuItem" id="m_BtnMenu1" x="31" y="312" z="0" width="88" height="88" window_state="4" style="bs_casino_lobby_button_01">
+            <line_height value="30"/>
+            <ScrollContainer id="m_ScrollContainer" x="86" y="24" z="0" width="195" height="40" window_state="262150">
+                <RichLabel id="m_ShowName" x="0" y="0" z="0" width="176" height="40" window_state="6">
+                    <action_id value="value"/>
+                    <text value="Settings"/>
+                    <font_size value="32"/>
+                    <text_align_h value="1"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.38"/>
+                    <outline_center value="0.49000001"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </ScrollContainer>
+        </Button>
+    </Panel>
+</Panel>

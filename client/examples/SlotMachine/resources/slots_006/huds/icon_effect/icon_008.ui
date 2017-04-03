@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="140" height="58" window_state="6">
+    <Panel id="m_Panel" x="0" y="0" z="0" width="140" height="58" window_state="6">
+        <Picture id="ic_frame" x="0" y="-5" z="0" width="140" height="63" window_state="6">
+            <piece_info value="slots_006_icon_023a"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="0" y="1" z="0" width="140" height="58" window_state="6">
+            <blend_mode value="2"/>
+            <action_id value="animation_slot006_icon003_shine"/>
+            <piece_info value="icon_003_mask"/>
+            <scale_bottom value="0"/>
+            <mask_piece value="shine_02"/>
+            <mask_scale value="0.43000001"/>
+            <mask_offset x="0" y="0.54000002" z="0"/>
+        </PictureMask>
+        <Picture id="ic_lion" x="0" y="-5" z="0" width="140" height="63" window_state="6">
+            <piece_info value="slots_006_icon_023b"/>
+        </Picture>
+    </Panel>
+</Panel>

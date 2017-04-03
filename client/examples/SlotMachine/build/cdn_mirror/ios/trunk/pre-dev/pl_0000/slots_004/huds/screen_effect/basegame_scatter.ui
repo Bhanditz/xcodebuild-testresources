@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="6">
+    <Picture id="ref" x="0" y="-62" z="0" width="1136" height="640" window_state="4">
+        <scale x="1.123" y="1.123" z="1.123"/>
+        <piece_info value="slots_004_bg_02"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Panel id="m_Panel_small" x="315" y="420" z="0" width="535" height="237" window_state="6">
+        <Sprite id="m_Sprite" x="225" y="-23" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="291" y="14" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="364" y="46" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite3" x="158" y="-39" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite4" x="91" y="1" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="32" y="24" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite6" x="-33" y="47" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Panel id="m_Panel_big" x="312" y="406" z="0" width="535" height="237" window_state="6">
+        <scale x="1.09" y="1.54" z="1"/>
+        <Sprite id="m_Sprite" x="225" y="-23" z="0" width="200" height="200" window_state="6">
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite1" x="291" y="14" z="0" width="200" height="200" window_state="6">
+            <scale x="0.83999997" y="0.83999997" z="0.83999997"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite2" x="352" y="37" z="0" width="200" height="200" window_state="6">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite3" x="154" y="-29" z="0" width="200" height="200" window_state="6">
+            <scale x="-1.09" y="1.09" z="1.09"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite4" x="91" y="1" z="0" width="200" height="200" window_state="6">
+            <scale x="-0.89999998" y="0.89999998" z="0.89999998"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite5" x="34" y="8" z="0" width="200" height="200" window_state="6">
+            <scale x="-0.95999998" y="0.95999998" z="0.95999998"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+        <Sprite id="m_Sprite6" x="-18" y="49" z="0" width="200" height="200" window_state="6">
+            <scale x="-1" y="1" z="1"/>
+            <sprite_file value="slots_004/sprites/bigfire.xml"/>
+            <sprite_state value="1"/>
+        </Sprite>
+    </Panel>
+    <Sprite id="m_Sprite1" x="276" y="-5" z="0" width="600" height="600" window_state="6">
+        <sprite_file value="slots_004/sprites/bigfire_explode_p.spr"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Panel id="m_ControllerPanel" x="-9" y="519" z="0" width="1156" height="136" window_state="4">
+        <Panel id="m_NormalSpinControlBar" x="8" y="-3" z="0" width="1136" height="140" window_state="6">
+            <Picture id="m_Picture" x="0" y="-6" z="0" width="970" height="130" window_state="6">
+                <piece_info value="slots_004_panel_01"/>
+                <scale_mode value="3"/>
+                <RichLabel id="m_Lbl" x="473" y="57" z="0" width="216" height="40" window_state="14">
+                    <text value="WIN"/>
+                    <font_size value="45"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.38999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="4"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Picture>
+            <Button id="m_BtnInfo" x="6" y="45" z="0" width="89" height="77" window_state="6" style="bs_slots_004_btn_05a">
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="0" y="11" z="0" width="86" height="70" window_state="14">
+                    <text value="PLAY TABLE"/>
+                    <font_size value="26"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.31999999"/>
+                    <outline_center value="0.47"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Button id="m_BtnBet" x="117" y="37" z="0" width="226" height="86" window_state="262" style="bs_slots_004_btn_04a">
+                <line_height value="30"/>
+                <RichLabel id="m_LblBetEachLine" x="6" y="54" z="0" width="216" height="30" window_state="14">
+                    <text value="$50"/>
+                    <font_size value="35"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.38999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Lbl" x="12" y="25" z="0" width="209" height="29" window_state="14">
+                    <text value="PLAY TABLE"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.31999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <RichLabel id="m_LblWinNum" x="509" y="88" z="0" width="146" height="30" window_state="6">
+                <text value="$500"/>
+                <font_size value="45"/>
+                <text_color value="cs_White"/>
+                <rich_label_state value="1"/>
+                <smooth value="0.039999999"/>
+                <glyph_center value="0.41"/>
+                <outline_center value="0.47999999"/>
+                <word_spacing value="2"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <ToggleButton id="m_BtnFastSpin" x="821" y="35" z="0" width="98" height="89" window_state="4">
+                <line_height value="30"/>
+                <checked_bg_style value="bs_slots_004_btn_02b"/>
+                <unchecked_bg_style value="bs_slots_004_btn_02a"/>
+            </ToggleButton>
+            <Button id="m_BtnLine" x="95" y="57" z="0" width="127" height="73" window_state="292">
+                <color_scale x="0.75" y="0.75" z="0.75" w="1"/>
+                <line_height value="30"/>
+                <RichLabel id="m_LblLine" x="-9" y="36" z="0" width="146" height="30" window_state="14">
+                    <text value="30"/>
+                    <font_size value="35"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.34999999"/>
+                    <outline_center value="0.47999999"/>
+                    <word_spacing value="2"/>
+                    <outline_color value="cs_yellowTxt04"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <Picture id="m_Picture" x="10" y="14" z="0" width="107" height="24" window_state="14"/>
+            </Button>
+            <Button id="m_BtnMaxBet" x="803" y="31" z="0" width="135" height="92" window_state="6" style="bs_slots_004_btn_03a">
+                <line_height value="30"/>
+                <RichLabel id="m_Lbl" x="0" y="21" z="0" width="116" height="70" window_state="14">
+                    <text value="MAX BET"/>
+                    <font_size value="33"/>
+                    <text_color value="cs_White"/>
+                    <text_style value="8"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.039999999"/>
+                    <glyph_center value="0.31999999"/>
+                    <outline_center value="0.47"/>
+                    <word_spacing value="1"/>
+                    <outline_color value="cs_line_color_09"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+            <Picture id="m_Picture1" x="902" y="-66" z="0" width="235" height="191" window_state="6">
+                <piece_info value="slots_004_panel_02"/>
+            </Picture>
+            <Button id="m_BtnStop" x="939" y="10" z="0" width="185" height="115" window_state="260" style="bs_slots_004_btn_06a">
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_BtnSpin" x="939" y="10" z="0" width="185" height="115" window_state="6" style="bs_slots_004_btn_01a">
+                <line_height value="30"/>
+            </Button>
+            <Button id="m_BtnAutoSpin" x="942" y="10" z="0" width="185" height="115" window_state="4" style="bs_slots_004_btn_06a">
+                <line_height value="30"/>
+                <Picture id="m_Picture" x="35" y="47" z="0" width="153" height="57" window_state="12"/>
+                <RichLabel id="m_LblAutoSpin" x="2" y="-3" z="0" width="158" height="80" window_state="14">
+                    <text value="17 "/>
+                    <font_size value="50"/>
+                    <rich_label_state value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.40000001"/>
+                    <outline_center value="0.46000001"/>
+                    <word_spacing value="2.1099999"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Button>
+        </Panel>
+    </Panel>
+</Panel>

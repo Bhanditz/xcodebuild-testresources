@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel_WonFreeSpins" x="0" y="0" z="0" width="800" height="600" window_state="6">
+    <Picture id="m_Bg" x="0" y="0" z="0" width="1136" height="640" window_state="14" style="cs_black">
+        <color_scale x="0.30000001" y="0.30000001" z="0.30000001" w="0.30000001"/>
+        <scale_mode value="3"/>
+    </Picture>
+    <Picture id="m_Picture" x="443" y="131" z="0" width="250" height="248" window_state="14">
+        <scale x="0.89999998" y="0.89999998" z="0.89999998"/>
+        <action_id value="animation_slot008_bigcoinshadow"/>
+        <piece_info value="shadow"/>
+    </Picture>
+    <SkinMesh id="m_SkinMesh" x="0" y="0" z="0" width="1136" height="640" window_state="2062">
+        <action_id value="animation_slot008_aaaaaa"/>
+        <mesh_file value="slots_008/models/gold.model"/>
+        <mesh_position x="0" y="-50" z="60"/>
+        <mesh_scale x="120" y="120" z="120"/>
+        <sky_color r="252" g="228" b="146" a="255"/>
+        <far_clip_distance value="10000"/>
+        <lights>
+            <element>
+                <direction x="1" y="-2" z="-1"/>
+                <color r="254" g="250" b="216" a="255"/>
+                <brightness value="0.69999999"/>
+                <specular_power value="48"/>
+                <specular_intensity value="3.5"/>
+            </element>
+            <element/>
+        </lights>
+    </SkinMesh>
+    <Picture id="m_vfx2" x="448" y="94" z="0" width="246" height="245" window_state="270">
+        <scale x="2" y="2" z="2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot008_bigcoin01"/>
+        <piece_info value="slots_008_panel_019c"/>
+    </Picture>
+    <Panel id="m_TextFreeSpin" x="154" y="26" z="0" width="823" height="498" window_state="14">
+        <Particle id="m_Particle" x="407" y="180" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_008/particles/buffalo.ptc"/>
+            <particle_name value="coins par"/>
+        </Particle>
+        <Picture id="m_vfx1" x="303" y="76" z="0" width="228" height="228" window_state="6">
+            <scale x="2.05" y="2.05" z="2.05"/>
+            <blend_mode value="2"/>
+            <piece_info value="slots_008_panel_019a"/>
+        </Picture>
+        <Picture id="m_BigCoin" x="229" y="-3" z="0" width="370" height="358" window_state="6">
+            <scale x="1.04" y="1.04" z="1.04"/>
+            <piece_info value="slots_008_panel_019"/>
+        </Picture>
+        <RichLabel id="m_CoinValue" x="309" y="98" z="0" width="210" height="143" window_state="6">
+            <window_layout value="2"/>
+            <window_layout_align_v value="3"/>
+            <window_layout_align_h value="3"/>
+            <tip_align_v value="2"/>
+            <text value="20"/>
+            <text_align_v value="1"/>
+            <text_style value="32"/>
+            <font_id value="Buffalo1"/>
+            <line_height value="30"/>
+        </RichLabel>
+        <Picture id="m_vfx3" x="203" y="-32" z="0" width="400" height="64" window_state="6">
+            <blend_mode value="2"/>
+            <piece_info value="slots_008_panel_019b"/>
+        </Picture>
+        <Picture id="m_vfx4" x="237" y="325" z="0" width="400" height="64" window_state="6">
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <blend_mode value="2"/>
+            <piece_info value="slots_008_panel_019b"/>
+        </Picture>
+        <Picture id="m_vfx2" x="294" y="68" z="0" width="246" height="245" window_state="260">
+            <scale x="2" y="2" z="2"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot008_bigcoin02"/>
+            <piece_info value="slots_008_panel_019c"/>
+        </Picture>
+        <PictureMask id="m_PictureMask" x="322" y="87" z="0" width="183" height="177" window_state="262">
+            <scale x="2.0699999" y="2.0699999" z="2.0699999"/>
+            <color_scale x="0.60000002" y="0.60000002" z="0.60000002" w="0.69999999"/>
+            <blend_mode value="2"/>
+            <action_id value="animation_slot008_bigcoin_light"/>
+            <piece_info value="slots_008_panel_019_mask"/>
+            <mask_piece value="slots_008_panel_019_light"/>
+            <mask_scale value="0.80000001"/>
+            <mask_offset x="-0.52999997" y="0" z="0"/>
+        </PictureMask>
+    </Panel>
+    <Panel id="m_BtnPanel" x="385" y="420" z="0" width="377" height="117" window_state="6">
+        <action_id value="animation_7freegame08"/>
+        <Button id="m_Button" x="43" y="-13" z="0" width="280" height="146" window_state="6" style="bs_slots_008_button_006">
+            <line_height value="30"/>
+        </Button>
+        <Particle id="m_Particle" x="72" y="-8" z="0" width="20" height="20" window_state="6">
+            <particle_state value="0"/>
+            <package_file value="slots_008/particles/buffalo.ptc"/>
+            <particle_name value="start"/>
+        </Particle>
+        <Particle id="m_Particle1" x="278" y="104" z="0" width="20" height="20" window_state="6">
+            <particle_state value="0"/>
+            <package_file value="slots_008/particles/buffalo.ptc"/>
+            <particle_name value="start2"/>
+        </Particle>
+    </Panel>
+    <Panel id="m_RetriggerFreeSpin" x="69" y="193" z="0" width="990" height="250" window_state="12">
+        <Picture id="m_Retrigger" x="0" y="44" z="0" width="999" height="166" window_state="6">
+            <piece_info value="slots_008_panel_017b"/>
+            <RichLabel id="m_TriggerValue" x="149" y="78" z="0" width="90" height="20" window_state="262">
+                <text value="5"/>
+                <font_size value="20"/>
+                <font_id value="Buffalo1"/>
+                <line_height value="30"/>
+            </RichLabel>
+        </Picture>
+        <Particle id="m_Particle" x="485" y="115" z="0" width="20" height="20" window_state="6" style="ngs_panel_bg">
+            <particle_state value="0"/>
+            <package_file value="slots_008/particles/buffalo.ptc"/>
+            <particle_name value="feature"/>
+        </Particle>
+    </Panel>
+</Panel>

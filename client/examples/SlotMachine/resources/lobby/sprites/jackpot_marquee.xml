@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="jackpot_marquee.png" width="256" height="512" scale_x="1.25" scale_y="1.25" blend="2" loop="-1">
+    <sprite n="00000" x="90" y="2" w="86" h="428" oX="37" oY="36" oW="500" oH="160" r="y" dr="150"/>
+    <sprite n="00001" x="2" y="2" w="86" h="428" oX="38" oY="36" oW="500" oH="160" r="y" dr="150"/>
+</TextureAtlas>

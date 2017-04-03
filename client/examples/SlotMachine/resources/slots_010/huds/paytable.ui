@@ -1,0 +1,2146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_Panel" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="ngs_panel_bg">
+    <Picture id="m_Picture" x="56" y="31" z="0" width="1024" height="577" window_state="6">
+        <scale x="1.11" y="1.11" z="1.11"/>
+        <piece_info value="slots_010_paytable"/>
+    </Picture>
+    <Panel id="m_Pages" x="19" y="89" z="0" width="1095" height="455" window_state="6">
+        <Panel id="m_Page1" x="0" y="0" z="0" width="1095" height="455" window_state="6">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <RichLabel id="m_RichLabel" x="399" y="-9" z="0" width="298" height="50" window_state="6">
+                <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_TITLE"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt03"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_divider" x="42" y="41" z="0" width="1013" height="6" window_state="6" style="ngs_slots_010_panel_022"/>
+            <Panel id="m_Panel" x="25" y="60" z="0" width="510" height="377" window_state="6">
+                <Picture id="m_Picture" x="-17" y="-87" z="0" width="200" height="550" window_state="6">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                    <piece_info value="slots_010_icon_012"/>
+                </Picture>
+                <Picture id="m_Picture" x="-17" y="-87" z="0" width="200" height="550" window_state="6" style="ngs_slots_010_panel_007">
+                    <scale x="0.64999998" y="0.64999998" z="0.64999998"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="169" y="19" z="0" width="298" height="50" window_state="6">
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_TEXT_WILD"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="169" y="89" z="0" width="316" height="60" window_state="6">
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_WILD_TEXT1"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <text_style value="8"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="169" y="168" z="0" width="297" height="90" window_state="6">
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_WILD_TEXT2"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <text_style value="8"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel2" x="169" y="306" z="0" width="277" height="60" window_state="6">
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_WILD_TEXT3"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <text_style value="8"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group1" x="577" y="60" z="0" width="510" height="377" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="41"/>
+                <Picture id="m_Picture" x="-2" y="19" z="0" width="160" height="147" window_state="6">
+                    <piece_info value="slots_010_icon_013"/>
+                </Picture>
+                <RichLabel id="m_RichLabel" x="178" y="19" z="0" width="298" height="50" window_state="6">
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_TEXT_SCATTER"/>
+                    <font_size value="50"/>
+                    <text_color value="cs_yellowTxt02"/>
+                    <text_align_h value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_RichLabel1" x="178" y="89" z="0" width="305" height="30" window_state="6">
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_SCATTER_TEXT"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <text_style value="8"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label1" x="177" y="228" z="0" width="521" height="30" window_state="262">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_SCATTER_NUM1"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <text_style value="8"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="177" y="258" z="0" width="521" height="30" window_state="262">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_SCATTER_NUM2"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <text_style value="8"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="177" y="288" z="0" width="521" height="30" window_state="262">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_SCATTER_NUM3"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <text_style value="8"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="214" y="228" z="0" width="521" height="30" window_state="262">
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_SCATTER_NUM4"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="214" y="258" z="0" width="521" height="30" window_state="262">
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_SCATTER_NUM5"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="214" y="288" z="0" width="521" height="30" window_state="262">
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE1_SCATTER_NUM6"/>
+                    <text_color value="cs_white"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page2" x="0" y="0" z="0" width="1095" height="455" window_state="4">
+            <dynamic_attr key="Page" type="string" value="Payout"/>
+            <RichLabel id="m_RichLabel" x="399" y="-9" z="0" width="298" height="50" window_state="6">
+                <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TITLE"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt03"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_divider" x="42" y="41" z="0" width="1013" height="6" window_state="6" style="ngs_slots_010_panel_022"/>
+            <Panel id="m_Group1" x="64" y="58" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="1"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_010_icon_010"/>
+                </Picture>
+                <Picture id="m_IconFrame" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_010_panel_006"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="198" y="6" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM1"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="198" y="36" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM2"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="198" y="66" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM3"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label4" x="198" y="96" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM4"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="235" y="6" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM5"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="235" y="36" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM6"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="235" y="66" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM7"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward4" x="235" y="96" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="2"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM8"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group2" x="409" y="60" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="2"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_010_icon_009"/>
+                </Picture>
+                <Picture id="m_IconFrame" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_010_panel_005"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="198" y="21" z="0" width="480" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM9"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="198" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM10"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="198" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM11"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="235" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM12"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="235" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM13"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="235" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM14"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group3" x="754" y="60" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="3"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_010_icon_008"/>
+                </Picture>
+                <Picture id="m_IconFrame" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <scale x="1.1" y="1.1" z="1.1"/>
+                    <piece_info value="slots_010_panel_004"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="198" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM15"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="198" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM16"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="198" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM17"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="235" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM18"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="235" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM19"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="235" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM20"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group4" x="55" y="193" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="4"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <piece_info value="slots_010_icon_007"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="198" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM21"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="198" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM22"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="198" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM23"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="235" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM24"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="235" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM25"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="235" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM26"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group5" x="409" y="193" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="5"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <piece_info value="slots_010_icon_006"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="198" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM27"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="198" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM28"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="198" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM29"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="235" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM30"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="235" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM31"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="235" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM32"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group6" x="754" y="193" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="6"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <piece_info value="slots_010_icon_005"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="198" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM33"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="198" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM34"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="198" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM35"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="235" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM36"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="235" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM37"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="235" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM38"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group7" x="28" y="321" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="7"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <piece_info value="slots_010_icon_004"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="171" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM39"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="171" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM40"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="171" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM41"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="208" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM42"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="208" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM43"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="208" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM44"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group8" x="290" y="321" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="8"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <piece_info value="slots_010_icon_003"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="171" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM45"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="171" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM46"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="171" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM47"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="208" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM48"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="208" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM49"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="208" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM50"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group9" x="551" y="321" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="9"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <piece_info value="slots_010_icon_002"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="171" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM51"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="171" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM52"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="171" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM53"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="208" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM54"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="208" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM55"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="208" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM56"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+            <Panel id="m_Group10" x="812" y="321" z="0" width="280" height="131" window_state="6">
+                <dynamic_attr key="icon_ids" type="string" value="10"/>
+                <Picture id="m_Icon" x="13" y="11" z="0" width="160" height="110" window_state="6">
+                    <piece_info value="slots_010_icon_001"/>
+                </Picture>
+                <RichLabel id="m_Label1" x="171" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM57"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label2" x="171" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM58"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Label3" x="171" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM59"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward1" x="208" y="21" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="5"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM60"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward2" x="208" y="51" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="4"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM61"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+                <RichLabel id="m_Reward3" x="208" y="81" z="0" width="492" height="30" window_state="262">
+                    <color_scale x="0.89999998" y="0.89999998" z="0.89999998" w="1"/>
+                    <dynamic_attr key="icon_reward" type="int" value="3"/>
+                    <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE2_TEXT_NUM62"/>
+                    <text_color value="cs_yellowTxt03"/>
+                    <text_align_h value="1"/>
+                    <text_align_v value="1"/>
+                    <smooth value="0.050000001"/>
+                    <glyph_center value="0.5"/>
+                    <outline_center value="0.5"/>
+                    <line_height value="30"/>
+                </RichLabel>
+            </Panel>
+        </Panel>
+        <Panel id="m_Page3" x="0" y="0" z="0" width="1095" height="455" window_state="4">
+            <RichLabel id="m_RichLabel" x="399" y="-9" z="0" width="298" height="50" window_state="6">
+                <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TITLE"/>
+                <font_size value="50"/>
+                <text_color value="cs_yellowTxt03"/>
+                <smooth value="0.050000001"/>
+                <glyph_center value="0.5"/>
+                <outline_center value="0.5"/>
+                <line_height value="30"/>
+            </RichLabel>
+            <Picture id="m_divider" x="42" y="41" z="0" width="1013" height="6" window_state="6" style="ngs_slots_010_panel_022"/>
+            <Panel id="m_row0" x="-17" y="51" z="0" width="1132" height="80" window_state="6">
+                <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+                <Picture id="m_Picture" x="22" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM1"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture1" x="167" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM6"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="312" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM11"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="456" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM16"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="599" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM21"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="742" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM26"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="886" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM31"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="1030" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM36"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row1" x="-17" y="130" z="0" width="1132" height="80" window_state="6">
+                <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+                <Picture id="m_Picture" x="22" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM2"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture1" x="167" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM7"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="312" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM12"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="456" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM17"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="599" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM22"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="742" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM27"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="886" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM32"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="1030" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM37"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row2" x="-17" y="209" z="0" width="1132" height="80" window_state="6">
+                <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+                <Picture id="m_Picture" x="22" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM3"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture1" x="167" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM8"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="312" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM13"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="456" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM18"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="599" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM23"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="742" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM28"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="886" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM33"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="1030" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM38"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row3" x="-17" y="288" z="0" width="1132" height="80" window_state="6">
+                <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+                <Picture id="m_Picture" x="22" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM4"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture1" x="167" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM9"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="312" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="70" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM14"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="456" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM19"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="599" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM24"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="742" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM29"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="886" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM34"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="1030" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM39"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+            <Panel id="m_row4" x="-17" y="367" z="0" width="1132" height="80" window_state="6">
+                <scale x="0.92000002" y="0.92000002" z="0.92000002"/>
+                <Picture id="m_Picture" x="22" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM5"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture1" x="167" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="16" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM10"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture2" x="312" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM15"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture3" x="456" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-27" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM20"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture4" x="599" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM25"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture5" x="742" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM30"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture6" x="886" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="3" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="20" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-28" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM35"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+                <Picture id="m_Picture7" x="1030" y="5" z="0" width="90" height="85" window_state="262">
+                    <piece_info value="slots_010_panel_020"/>
+                    <Picture id="m_Picture" x="3" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture1" x="20" y="37" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture2" x="37" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture3" x="54" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <Picture id="m_Picture4" x="71" y="54" z="0" width="16" height="16" window_state="6">
+                        <piece_info value="slots_010_panel_021"/>
+                    </Picture>
+                    <RichLabel id="m_RichLabel" x="-26" y="18" z="0" width="26" height="30" window_state="6">
+                        <text value="SLOTS_KNIGHTS_PAYTABLE_PAGE3_TEXT_NUM40"/>
+                        <font_size value="25"/>
+                        <text_color value="cs_white"/>
+                        <smooth value="0.050000001"/>
+                        <glyph_center value="0.5"/>
+                        <outline_center value="0.5"/>
+                        <line_height value="30"/>
+                    </RichLabel>
+                </Picture>
+            </Panel>
+        </Panel>
+    </Panel>
+    <Button id="m_NextBtn" x="342" y="550" z="0" width="52" height="85" window_state="6" style="bs_slots_010_btn_015">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+    <Button id="m_BackBtn" x="387" y="548" z="0" width="361" height="87" window_state="262" style="bs_slots_010_btn_014">
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <rich_label_state value="1"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.039999999"/>
+        <outline_center value="0.2"/>
+        <outline_color value="cs_lightgrey"/>
+        <line_height value="30"/>
+        <RichLabel id="m_RichLabel" x="61" y="21" z="0" width="239" height="45" window_state="14">
+            <text value="SLOTS_KNIGHTS_PAYTABLE_BUTTON_BACKTOGAME"/>
+            <font_size value="45"/>
+            <text_color value="cs_white"/>
+            <rich_label_state value="1"/>
+            <smooth value="0.050000001"/>
+            <glyph_center value="0.38999999"/>
+            <outline_center value="0.51999998"/>
+            <outline_color value="cs_slots_010_text_06"/>
+            <line_height value="30"/>
+        </RichLabel>
+    </Button>
+    <Button id="m_PrevBtn" x="743" y="550" z="0" width="52" height="85" window_state="6" style="bs_slots_010_btn_015">
+        <rotation x="0" y="3.1415927" z="0"/>
+        <font_size value="45"/>
+        <text_color value="cs_yellowTxt"/>
+        <text_style value="1"/>
+        <line_height value="30"/>
+    </Button>
+</Panel>

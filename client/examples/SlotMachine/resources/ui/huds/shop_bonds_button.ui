@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="m_PanBuyOneGetOne" x="0" y="0" z="0" width="1100" height="171" window_state="6">
+    <Button id="m_BtnBuyOneGetOne" x="872" y="35" z="0" width="189" height="105" window_state="6" style="ngs_casino_common_btn037">
+        <action_id value="animation_common_bottonlight"/>
+        <font_size value="55"/>
+        <text_offset x="0" y="-5" z="0"/>
+        <font_id value="MyraidPro"/>
+        <smooth value="0.050000001"/>
+        <glyph_center value="0.5"/>
+        <outline_center value="0.5"/>
+        <line_height value="30"/>
+        <Picture id="m_Picture1" x="3" y="10" z="0" width="182" height="78" window_state="14">
+            <scale x="0.80000001" y="0.80000001" z="0.80000001"/>
+            <piece_info value="casino_common_icon48a"/>
+        </Picture>
+    </Button>
+</Panel>

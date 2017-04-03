@@ -1,0 +1,39 @@
+//// common.sh
+
+#ifndef IS_MATERIAL_TEMPLATE
+
+#ifdef GL_ES
+	#ifdef PIXEL_SHADER
+		//precision mediump float;
+		precision highp float;
+	#endif
+#endif
+
+//============================
+// Definitions
+//============================
+#define NUM_MATERIAL_TEXCOORDS		1
+#define MATERIAL_TEXCOORD_0			1
+
+#endif	// #ifndef IS_MATERIAL_TEMPLATE
+
+//============================
+// Uniforms
+//============================
+uniform mat4	u_matWorldToClip;
+uniform vec3	u_cameraPosition;				// view position in world
+
+// Redefine function name
+#define lerp	mix
+
+///////////////////////////////////////////////////////////////////////////////
+vec3 unpackNormal(vec3 textureSample)
+{
+	return (2.0 * textureSample - 1.0);
+}
+///////////////////////////////////////////////////////////////////////////////
+float computeLinearFogFactor(vec3 inWorldPosition, vec2 inFogDist)
+{	
+	return clamp((inFogDist.y - distance(inWorldPosition, u_cameraPosition)) / (inFogDist.y - inFogDist.x), 0.0, 1.0);
+}
+///////////////////////////////////////////////////////////////////////////////

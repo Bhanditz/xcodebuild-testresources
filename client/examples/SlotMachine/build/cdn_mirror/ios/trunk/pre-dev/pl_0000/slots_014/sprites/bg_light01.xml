@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bg_light01.png" width="512" height="512" scale_x="4" scale_y="4" blend="2" loop="1">
+    <sprite n="000" x="326" y="164" w="160" h="175" r="y" dr="120"/>
+    <sprite n="002" x="179" y="341" w="175" h="160" dr="120"/>
+    <sprite n="004" x="164" y="164" w="160" h="175" r="y" dr="120"/>
+    <sprite n="006" x="2" y="341" w="175" h="160" dr="120"/>
+    <sprite n="008" x="2" y="164" w="160" h="175" r="y" dr="120"/>
+    <sprite n="010" x="179" y="2" w="175" h="160" dr="120"/>
+    <sprite n="012" x="2" y="2" w="175" h="160" dr="120"/>
+</TextureAtlas>

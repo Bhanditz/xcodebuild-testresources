@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<SlotsConfig>		
+	<SoundInfo>
+		<!-- Default sound use by slots -->
+		<Sound name="SPIN_BGM" value=""/>
+		<Sound name="FREESPIN_BGM" value=""/>
+		<Sound name="SPIN_CLICK" value=""/>
+		<Sound name="STOP_CLICK" value=""/>
+		<Sound name="REEL_READY_STOP" value=""/>
+		<Sound name="NEAR_WIN" value="slots_019/sound/BBCIRCUS_near_win.ogg" />
+		<Sound name="PAYTABLE_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_BACK_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_PREV_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="PAYTABLE_NEXT_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="MAX_BET_CLICK" value="lobby/sound/common_se_clickbutton.ogg" volume="0.3"/>
+		<Sound name="SELECTOR_UP_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="SELECTOR_DOWN_CLICK" value="lobby/sound/common_se_clickbutton.ogg"/>
+		<Sound name="REEL_STOP" value="slots_019/sound/BBCIRCUS_reel_stop1.ogg"/>
+		<Sound name="WIN_REPORT_END" value="slots/sound/SE_SWinEnd.ogg"/>
+		<Sound name="WIN_REPORT_LV1" value="slots/sound/SE_SWinLow.ogg"/>
+		<Sound name="WIN_REPORT_LV2" value="slots/sound/SE_SWinMedium.ogg"/>
+		<Sound name="WIN_REPORT_LV3" value="slots/sound/SE_SWinLarge.ogg"/>
+		<Sound name="BET1" value=""/>
+		<Sound name="BET2" value=""/>
+		<Sound name="BET3" value=""/>
+		<Sound name="BET4" value=""/>
+		<Sound name="BET5" value=""/>
+		<Sound name="BET6" value=""/>
+		<Sound name="BET7" value=""/>
+		
+		<!-- other sounds for each slot -->
+		<Sound name="NEAR_WIN_THEN_MISS" value="slots_019/sound/BBCIRCUS_near_win_miss.ogg" />
+		<Sound name="HIGH_PAYLINE_1" value="slots_019/sound/BBCIRCUS_high_payout_1_win.ogg" />
+		<Sound name="HIGH_PAYLINE_2" value="slots_019/sound/BBCIRCUS_high_payout_2_win.ogg" />
+		<Sound name="HIGH_PAYLINE_3" value="slots_019/sound/BBCIRCUS_high_payout_3_win.ogg" />
+		<Sound name="HIGH_PAYLINE_4" value="slots_019/sound/BBCIRCUS_high_payout_4_win.ogg" />
+		<Sound name="HIGH_PAYLINE_5" value="slots_019/sound/BBCIRCUS_high_payout_5_win.ogg" />
+		<Sound name="HIGH_PAYLINE_31" value="slots_019/sound/BBCIRCUS_wild_icon_win.ogg" />
+		<Sound name="CURTAIN_COVER_1" value="slots_019/sound/BBCIRCUS_curtain_cover_1.ogg" />
+		<Sound name="CURTAIN_COVER_2" value="slots_019/sound/BBCIRCUS_curtain_cover_2.ogg" />
+		<Sound name="CURTAIN_COVER_3" value="slots_019/sound/BBCIRCUS_curtain_cover_3.ogg" />
+		<Sound name="SFX_CURTAIN_BURST" value="slots_019/sound/BBCIRCUS_wild_feature_open.ogg" />
+		
+		<!-- base game -->
+		<Sound name="BASEGAME_SPIN" value="slots_019/sound/BBCIRCUS_reel_spin.ogg"/>
+		<Sound name="BASEGAME_AMBIENT" value="slots_019/sound/BBCIRCUS_base_game_BGM.ogg"/>
+		<Sound name="BONUS_APPEAR_1" value="slots_019/sound/BBCIRCUS_scatter_icon_appear.ogg" />
+		<Sound name="BONUS_APPEAR_2" value="slots_019/sound/BBCIRCUS_scatter_icon_appear.ogg" />
+		<Sound name="BONUS_APPEAR_3" value="slots_019/sound/BBCIRCUS_scatter_icon_appear.ogg" />
+		<Sound name="TRIGGER_BONUS" value="slots_019/sound/BBCIRCUS_free_game_success.ogg"/>
+		<Sound name="TRIGGER_PARTICLE_FLY" value=""/>
+		<Sound name="BONUS_START_LOOP" value=""/>
+
+		<!-- free game -->
+		<Sound name="FREEGAME_POPUP_LOOP" value="slots_019/sound/BBCIRCUS_free_game_start_pop_up_loop.ogg"/>
+		<Sound name="FREEGAME_SPIN" value="slots_019/sound/BBCIRCUS_free_game_BGM.ogg"/>
+		<Sound name="FREEGAME_RESULT_START" value="slots_019/sound/BBCIRCUS_chip_increment_start.ogg"/>
+		<Sound name="FREEGAME_RESULT_COUNT" value="slots_019/sound/BBCIRCUS_chip_increment_loop.ogg"/>
+		<Sound name="FREEGAME_RESULT_END" value="slots_019/sound/BBCIRCUS_chip_increment_end.ogg"/>
+
+  </SoundInfo>
+</SlotsConfig>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImagePiece>
+  <ImageList>
+    <Image id="gm" file_name="gm.jpg" width="1019" height="471"/>
+  </ImageList>
+  <PieceList>
+	<Piece id="gm" image_id="gm" x="0" y="0" width="1019" height="471"/>
+  </PieceList>
+</ImagePiece>

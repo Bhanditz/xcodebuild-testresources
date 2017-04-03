@@ -1,0 +1,34 @@
+Assumption on target folder structure:
+Windows [WIN]:
+D:\Development\project\casino
+
+Mac [OSX]:
+/Development/project/casino
+
+Required tools (already built-in on OSX, just need to install and configure on WIN):
+command line svn
+command line git
+
+Build resources: Do in WIN
+1. svn co clean casino project to target
+2. cd to D:\Development\project\casino\client\examples\SlotMachine\build
+3. run: ./build.sh pre-dev release ios en_us (or other configuration, but it has to be release, as we need to compress texture and upload to cdn)
+-. this step will build the local assets and put it in a newly created directory: D:\Development\project\casino\client\examples\SlotMachine\proj.ios\ios_resources
+-. the local assets in ios_resources is also uploaded to gitlab in: http://10.6.0.253/casinodeluxe/ios_resources.git (we need to pull it later in OSX)
+
+Build iOS binary: Do in OSX
+The entire build pipeline (xcode archive + upload to iTunes connect) is done in /Development/project/casino/client/docs/hakim/tools/builder/just-build-main.sh
+(The builder-main.sh variation can even automatically pull the latest version for you, if you are using git-svn, but if you are not, stick with the just-build-main.sh)
+1. checkout the ios_resources project to /Development/project/casino/client/examples/SlotMachine/proj.ios/ios_resources
+2. open up the main xcode project located in /Development/project/casino/client/examples/SlotMachine/proj.ios/CasinoByIGG.xcodeproj
+3. make sure that everything under ios_resources are added as Folder Reference to Resources folder in xcode
+4. check and make sure all the source codes are sync-ed to the xcode project, as deleted files and/or new files not yet added to the xcodeproj will cause errors which will only be shown at the end of the build (very long time, really)
+5. skip this step if you are using git-svn and/or running the builder-main.sh as it will automatically do this for you
+-. make sure the "Bundle Version" in info.plist is incremented and not lower than the current one iTunes Connect (failing to do this will cause archive rejected by Apple)
+-. open up just-build-main.sh and comment out "sh setup-casino-bundle-version.sh"
+6. run just-build-main.sh
+-. as it is going to take very long time, to avoid missing on any important output, you can do this:
+-. cd /Development/project
+-. sh ./casino/client/docs/hakim/tools/builder/just-build-main.sh > build_output.log
+-. tail -f build_output.log
+-. wait for the iTunes Connect notification :)

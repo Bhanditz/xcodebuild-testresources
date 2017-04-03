@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="slots_001_icon_13_2" x="302" y="177" z="0" width="147" height="138" window_state="6">
+    <Picture id="slots_001_icon_10bg" x="0" y="0" z="0" width="147" height="137" window_state="270">
+        <piece_info value="slots_001_icon_10bg"/>
+    </Picture>
+    <Sprite id="m_Sprite" x="-46" y="-156" z="0" width="240" height="300" window_state="14">
+        <sprite_file value="slots_001/sprites/volcano03.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Sprite id="m_Sprite1" x="-46" y="-156" z="0" width="240" height="300" window_state="14">
+        <sprite_file value="slots_001/sprites/volcano01.xml"/>
+        <sprite_state value="0"/>
+    </Sprite>
+    <Picture id="m_Picture" x="-17" y="-27" z="0" width="179" height="179" window_state="6">
+        <scale x="1.2" y="1.2" z="1.2"/>
+        <blend_mode value="2"/>
+        <action_id value="animation_slot001_icon11bomb"/>
+        <piece_info value="vol_bomb"/>
+    </Picture>
+</Panel>

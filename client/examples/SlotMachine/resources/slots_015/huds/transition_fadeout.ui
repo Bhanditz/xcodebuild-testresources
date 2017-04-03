@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel id="root" x="0" y="0" z="0" width="1136" height="640" window_state="262150">
+    <Picture id="m_Picture" x="0" y="0" z="0" width="1136" height="640" window_state="6" style="cs_black_txt"/>
+    <Particle id="m_Particle" x="702" y="-143" z="0" width="20" height="20" window_state="6">
+        <particle_state value="0"/>
+        <package_file value="slots_015/particles/viking.ptc"/>
+        <particle_name value="rainy"/>
+    </Particle>
+</Panel>

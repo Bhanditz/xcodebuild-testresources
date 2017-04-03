@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<SlotsConfig>
+	<Theme id="4" game="bufflo">
+		<BonusGames>
+			<BonusGame id="1" game="bufflo_free">
+			</BonusGame>
+		</BonusGames>
+		<Icons>
+			<!-- High Pay 1 -->
+			<Icon id="1" pieceId="slots_008_icon_011"  bgPieceId="" sprite="" sequenceTime="2.66">
+			</Icon>
+			<!-- High Pay 2 -->
+			<Icon id="2" pieceId="slots_008_icon_010"  bgPieceId="" sprite="" sequenceTime="3.98">
+			</Icon>
+			<!-- High Pay 3 -->
+			<Icon id="3" pieceId="slots_008_icon_009"  bgPieceId="" sprite="" sequenceTime="1.42">
+			</Icon>
+			<!-- High Pay 4 -->
+			<Icon id="4" pieceId="slots_008_icon_008"  bgPieceId="" sprite="" sequenceTime="1.42">
+			</Icon>
+			<!-- High Pay 5 -->
+			<Icon id="5" pieceId="slots_008_icon_007"  bgPieceId="" sprite="" sequenceTime="1.42">
+			</Icon>
+			<!-- Low Pay A -->
+			<Icon id="6" pieceId="slots_008_icon_006"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay K -->
+			<Icon id="7" pieceId="slots_008_icon_005"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay Q -->
+			<Icon id="8" pieceId="slots_008_icon_004"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay J -->
+			<Icon id="9" pieceId="slots_008_icon_003"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay 10 -->
+			<Icon id="10" pieceId="slots_008_icon_002"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Low Pay 9 -->
+			<Icon id="11" pieceId="slots_008_icon_001"  bgPieceId="" sprite="">
+			</Icon>
+			<!-- Wild -->
+			<Icon id="31" pieceId="slots_008_icon_013" bgPieceId="" sprite="" sequenceTime="1.98">
+			</Icon>
+			<!-- Bonus Scatter -->
+			<Icon id="41" pieceId="slots_008_icon_012" bgPieceId="" sprite="" sequenceTime="2.8">
+			</Icon>
+			<!-- Collector -->
+			<!--Icon id="51" pieceId="slots_004_icon_001" bgPieceId="" sprite="">
+				<GroupIcon pieceId="slots_004_icon_010a" iconsOnX="2" iconsOnY="2" iconWidth="250" iconHeight="220"/>
+			</Icon-->
+		</Icons>
+		<Reel>
+			<NearWinInfo name="basegame" ReelIds="2,3,4" /> 			
+			<!--NearWinReel name="freegame" id="2,3,4" /-->
+			<SpinType name="normal">
+				<BestSpinIconCount value="18"/>
+				<OneReelStartDelayTime value="0.08"/>
+				<OneReelStopDelayTime value="0.4"/>
+				<OneReelPullDownTime value="0.08"/>
+				<OneReelRollBackTime value="0.08"/>
+				<BestSpinCostTime value="1.0"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="fast">
+				<BestSpinIconCount value="22"/>
+				<OneReelStartDelayTime value="0.06"/>
+				<OneReelStopDelayTime value="0.3"/>
+				<OneReelPullDownTime value="0.10"/>
+				<OneReelRollBackTime value="0.10"/>
+				<BestSpinCostTime value="0.9"/>
+				<NearWinCostTime value="2.2"/>
+			</SpinType>
+			<SpinType name="quick_stop">
+				<BestSpinIconCount value="0.0"/>
+				<OneReelStopDelayTime value="0.0"/>
+				<BestSpinCostTime value="0.05"/>
+				<OneReelPullDownTime value="0.0"/>
+				<OneReelRollBackTime value="0.0"/>
+			</SpinType>
+		</Reel>
+		
+		<StateTime>
+			<ScatterReportCountUpTime value="0.5" rate="1"/>
+			<ScatterReportCountUpTime value="1.0" rate="5"/>
+			<ScatterReportCountUpTime value="2.0" rate="10"/>
+			<WinReportCountUpTime value="0.5" rate="1"/>
+			<WinReportCountUpTime value="1.0" rate="5"/>
+			<WinReportCountUpTime value="2.0" rate="10"/>
+			<CountUpDelayTime value="0.4"/>
+		</StateTime>
+		
+		<!-- line color format 0xRRGGBBAA-->
+		<Paylines defaultColor="0xFFFFFFFF" showAllTime="1.0" sequenceTime="1.0" pieceId="slots_008_winning_line">  
+			<!--Payline id="1" lineColor="0x9FCD22FF" /-->
+		</Paylines>
+		
+		<Paytables winTextColor="cs_lightgreen" /> 
+		
+	</Theme>
+</SlotsConfig>

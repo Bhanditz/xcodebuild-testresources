@@ -1,0 +1,76 @@
+
+freespin_start.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+freespins_0000_txt_start
+  rotate: false
+  xy: 438, 70
+  size: 265, 70
+  orig: 265, 70
+  offset: 0, 0
+  index: -1
+freespins_0002_txt_freespins
+  rotate: false
+  xy: 438, 430
+  size: 350, 77
+  orig: 350, 77
+  offset: 0, 0
+  index: -1
+freespins_0004_star_masked
+  rotate: false
+  xy: 2, 97
+  size: 434, 410
+  orig: 434, 410
+  offset: 0, 0
+  index: -1
+freespins_0008_star1b
+  rotate: true
+  xy: 438, 142
+  size: 147, 237
+  orig: 147, 237
+  offset: 0, 0
+  index: -1
+freespins_0009_star2b
+  rotate: false
+  xy: 790, 354
+  size: 204, 153
+  orig: 204, 153
+  offset: 0, 0
+  index: -1
+freespins_0010_star3b
+  rotate: false
+  xy: 705, 22
+  size: 179, 123
+  orig: 179, 123
+  offset: 0, 0
+  index: -1
+freespins_btn_start_half
+  rotate: false
+  xy: 677, 147
+  size: 170, 142
+  orig: 170, 142
+  offset: 0, 0
+  index: -1
+freespins_ribbon_half
+  rotate: false
+  xy: 438, 291
+  size: 262, 137
+  orig: 262, 137
+  offset: 0, 0
+  index: -1
+retriggered
+  rotate: false
+  xy: 2, 2
+  size: 386, 93
+  orig: 386, 93
+  offset: 0, 0
+  index: -1
+txt_7
+  rotate: false
+  xy: 849, 170
+  size: 154, 182
+  orig: 154, 182
+  offset: 0, 0
+  index: -1

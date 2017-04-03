@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+  聊天系统
+  		WorldChat:世界聊天配置
+  			interval:间隔
+-->
+<root>
+	<WorldChat interval="60"></WorldChat>
+ </root>
+ 
