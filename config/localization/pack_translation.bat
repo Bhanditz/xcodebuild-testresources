@@ -1,5 +1,5 @@
 echo "inside pack_translation.bat"
-@echo off
+::@echo off
 
 if "%1"=="" goto restart
 set LANGUAGE=%1
