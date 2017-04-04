@@ -262,12 +262,15 @@ NOW_TIME=$(date "+%H%M")
 echo "NOW_TIME = $NOW_TIME"
 
 DEBUG_CURRENT_DIR="$(cd . && pwd)"
-echo "${DEBUG_CURRENT_DIR}"
+echo "DEBUG_CURRENT_DIR = ${DEBUG_CURRENT_DIR}" # /cygdrive/g/Program Files (x86)/Jenkins/workspace/test-build-resources/config/localization
 
 cd "${DIR}"
+DEBUG_CURRENT_DIR="$(cd . && pwd)"
+echo "DIR = ${DIR}"
+echo "DEBUG_CURRENT_DIR = ${DEBUG_CURRENT_DIR}"
 # update config file
 if [ "$OPT_UPDATE_CONFIG" = "true" ]; then
-    echo "updating config.cpp"
+    echo "updating config files"
     # get config file
 	CONFIG_FILE_H="$APP_ROOT"/templates/CvsConfig.h.template
     CONFIG_FILE_CPP="$APP_ROOT"/templates/CvsConfig.cpp.template
@@ -279,7 +282,7 @@ if [ "$OPT_UPDATE_CONFIG" = "true" ]; then
     # update config file
 	if [ "$ENGINE_VER" != "$LAST_ENGINE_VER" ] || [ "$CASINO_VER" != "$LAST_CASINO_VER" ]; then
 		echo "updating config.h"
-		bash ./update_config_h.sh "${CONFIG_FILE_H}" "../../libCasino/sources/CvsConfig.h" "${ENGINE_VER_MAJOR}" "${ENGINE_VER_MINOR}" "${ENGINE_VER_PATCH}" "${CASINO_VER_MAJOR}" "${CASINO_VER_MINOR}" "${CASINO_VER_PATCH}"
+		bash "./update_config_h.sh" "${CONFIG_FILE_H}" "../../libCasino/sources/CvsConfig.h" "${ENGINE_VER_MAJOR}" "${ENGINE_VER_MINOR}" "${ENGINE_VER_PATCH}" "${CASINO_VER_MAJOR}" "${CASINO_VER_MINOR}" "${CASINO_VER_PATCH}"
 	fi
 	echo "updating config.cpp"
     bash ./update_config_cpp.sh "${CONFIG_FILE_CPP}" "../../libCasino/sources/CvsConfig.cpp" "${LANGUAGE}" "${SVN_NUMBER}" "${NOW_DATE}" "${LANGUAGE}" "${PLATFORM}" "${BUILD_VERSION}" "${CHANNEL}" "${ENGINE_VER}"

@@ -1,4 +1,14 @@
 # update template file to config file
+echo "inside update_config.h.sh"
+echo "param 0 : $0"
+echo "param 1 : $1"
+echo "param 2 : $2"
+echo "param 3 : $3"
+echo "param 4 : $4"
+echo "param 5 : $5"
+echo "param 6 : $6"
+echo "param 7 : $7"
+echo "param 8 : $8"
 
 # check template file
 if [ ! -f $1 ]; then
