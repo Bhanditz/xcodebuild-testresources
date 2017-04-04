@@ -1,0 +1,17 @@
+﻿/*!
+ * \file CvsConfig.cpp
+ * \date 2-7-2013 13:37:06
+ * 
+ * 
+ * \author zjhlogo (zjhlogo@gmail.com)
+ */
+#include "GameConfig.h"
+
+const DEVICE_PLATFORM Config::DEFAULT_DEVICE_PLATFORM = DP_$WCPLAT_U$;
+const Config::ENVIRONMENT Config::DEFAULT_ENVIRONMENT = Config::ENV_$WCENV_U$;
+const Config::LANGUAGES Config::DEFAULT_LANGUAGES = Config::LANG_$WCLANG_U$;
+
+const tstring Config::SVN_VERSION = _SO("$WCREV$");
+const tstring Config::FULL_VERSION_STRING = _SO("ver: $WCBUILD$_$WCNOW$ ($WCREV$)");
+const tstring Config::ENGINE_VERSION_STRING = _SO("engine: $WCENGINE_VER$");
+
