@@ -238,6 +238,7 @@ which svn
 which git
 svn --version
 git --version
+svn upgrade
 
 # get svn number
 export LC_MESSAGES=en_US
