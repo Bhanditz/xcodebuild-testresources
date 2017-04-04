@@ -161,6 +161,9 @@ APP_ROOT="$( cd "$DIR/.." && pwd )"
 echo "DIR = ${DIR}"
 echo "APP_ROOT = $APP_ROOT"
 
+SVN_ROOT="$( cd "$DIR/../../../.." && pwd )"
+echo "SVN_ROOT = ${SVN_ROOT}"
+
 ART_ROOT="$( cd "$APP_ROOT/../../arts" && pwd )"
 echo "ART_ROOT = $ART_ROOT"
 
@@ -238,7 +241,9 @@ which svn
 which git
 svn --version
 git --version
+pushd "${SVN_ROOT}"
 svn upgrade
+popd
 
 # get svn number
 export LC_MESSAGES=en_US
