@@ -1,7 +1,7 @@
 # usage function: ./build_ios_resources.sh commit_msg_file.txt
 echo "cloning ios_resources"
 rm -rf ../proj.ios/ios_resources/
-git clone http://10.6.0.253/casinodeluxe/ios_resources.git ../proj.ios/ios_resources
+git clone http://ios.resources.builder:bzbeegitlab@10.6.0.253/casinodeluxe/ios_resources.git ../proj.ios/ios_resources
 echo "updating ios_resources"
 rm -r ../proj.ios/ios_resources/*
 #cp ../proj.android/assets/* ../proj.ios/ios_resources/

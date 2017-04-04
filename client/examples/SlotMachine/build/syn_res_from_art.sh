@@ -1,3 +1,5 @@
+echo "inside syn_res_from_art.sh"
+
 if [ "$OPT_SYN_RES_FROM_ART" = "true" ]; then
 	echo -e "\033[0;35msync res from art...\033[0m"
 	
