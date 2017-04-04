@@ -1,4 +1,5 @@
 # update template file to config file
+echo "inside update_config_cpp.sh"
 
 # check template file
 if [ ! -f $1 ]; then

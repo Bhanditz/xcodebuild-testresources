@@ -247,12 +247,12 @@ popd
 
 # get svn number
 export LC_MESSAGES=en_US
-DEBUG_CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo "DEBUG_CURRENT_DIR = ${DEBUG_CURRENT_DIR}"
+DEBUG_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+echo "DEBUG_SCRIPT_DIR = ${DEBUG_SCRIPT_DIR}"
 SVN_NUMBER=$(svn info ../../ | awk '/^Revision:/{print $2}')
 echo "SVN_NUMBER = $SVN_NUMBER"
-SVN_NUMBER=$(svn info ../../../ | awk '/^Revision:/{print $2}')
-echo "SVN_NUMBER = $SVN_NUMBER"
+#SVN_NUMBER=$(svn info ../../../ | awk '/^Revision:/{print $2}')
+#echo "SVN_NUMBER = $SVN_NUMBER"
 
 # get now date
 NOW_DATE=$(date "+%Y%m%d")
@@ -260,6 +260,9 @@ echo "NOW_DATE = $NOW_DATE"
 
 NOW_TIME=$(date "+%H%M")
 echo "NOW_TIME = $NOW_TIME"
+
+DEBUG_CURRENT_DIR="$(cd . && pwd)"
+echo "${DEBUG_CURRENT_DIR}"
 
 cd "${DIR}"
 # update config file
@@ -270,14 +273,16 @@ if [ "$OPT_UPDATE_CONFIG" = "true" ]; then
     CONFIG_FILE_CPP="$APP_ROOT"/templates/CvsConfig.cpp.template
     echo "CONFIG_FILE_H = $CONFIG_FILE_H"
 	echo "CONFIG_FILE_CPP = $CONFIG_FILE_CPP"
+    echo "CONFIG_FILE_H = ${CONFIG_FILE_H}"
+    echo "CONFIG_FILE_CPP = ${CONFIG_FILE_CPP}"
 
     # update config file
 	if [ "$ENGINE_VER" != "$LAST_ENGINE_VER" ] || [ "$CASINO_VER" != "$LAST_CASINO_VER" ]; then
 		echo "updating config.h"
-		bash ./update_config_h.sh "$CONFIG_FILE_H" ../../libCasino/sources/CvsConfig.h $ENGINE_VER_MAJOR $ENGINE_VER_MINOR $ENGINE_VER_PATCH $CASINO_VER_MAJOR $CASINO_VER_MINOR $CASINO_VER_PATCH
+		bash ./update_config_h.sh "${CONFIG_FILE_H}" "../../libCasino/sources/CvsConfig.h" "${ENGINE_VER_MAJOR}" "${ENGINE_VER_MINOR}" "${ENGINE_VER_PATCH}" "${CASINO_VER_MAJOR}" "${CASINO_VER_MINOR}" "${CASINO_VER_PATCH}"
 	fi
 	echo "updating config.cpp"
-    bash ./update_config_cpp.sh "$CONFIG_FILE_CPP" ../../libCasino/sources/CvsConfig.cpp "${LANGUAGE}" $SVN_NUMBER $NOW_DATE $LANGUAGE $PLATFORM $BUILD_VERSION $CHANNEL $ENGINE_VER
+    bash ./update_config_cpp.sh "${CONFIG_FILE_CPP}" "../../libCasino/sources/CvsConfig.cpp" "${LANGUAGE}" "${SVN_NUMBER}" "${NOW_DATE}" "${LANGUAGE}" "${PLATFORM}" "${BUILD_VERSION}" "${CHANNEL}" "${ENGINE_VER}"
 	
 
     # check update status

@@ -65,6 +65,7 @@ CASINO_VER_PATCH="$8"
 echo "CASINO_VER_PATCH = ${CASINO_VER_PATCH}"
 
 # replace sub version number and date
+#echo "sed -e \"s/[$]WCENGINE_VER_MAJOR[$]/${ENGINE_VER_MAJOR}/g\" -e \"s/[$]WCENGINE_VER_MINOR[$]/${ENGINE_VER_MINOR}/g\" -e \"s/[$]WCENGINE_VER_PATCH[$]/${ENGINE_VER_PATCH}/g\" -e \"s/[$]WCCASINO_VER_MAJOR[$]/${CASINO_VER_MAJOR}/g" -e "s/[$]WCCASINO_VER_MINOR[$]/${CASINO_VER_MINOR}/g" -e "s/[$]WCCASINO_VER_PATCH[$]/${CASINO_VER_PATCH}/g\" $TEMPLATE_FILE > $CONFIG_FILE"
 sed -e "s/[$]WCENGINE_VER_MAJOR[$]/${ENGINE_VER_MAJOR}/g" -e "s/[$]WCENGINE_VER_MINOR[$]/${ENGINE_VER_MINOR}/g" -e "s/[$]WCENGINE_VER_PATCH[$]/${ENGINE_VER_PATCH}/g" -e "s/[$]WCCASINO_VER_MAJOR[$]/${CASINO_VER_MAJOR}/g" -e "s/[$]WCCASINO_VER_MINOR[$]/${CASINO_VER_MINOR}/g" -e "s/[$]WCCASINO_VER_PATCH[$]/${CASINO_VER_PATCH}/g" $TEMPLATE_FILE > $CONFIG_FILE
 
 echo "update template file $1 to config file $2 complete"
