@@ -15,7 +15,7 @@ echo "param 8 : $8"
 #    echo "Error, TEMPLATE_FILE not specified"
 #    exit 1
 #fi
-#TEMPLATE_FILE="$1"
+TEMPLATE_FILE="$1"
 echo "TEMPLATE_FILE = ${TEMPLATE_FILE}"
 
 # check config file
