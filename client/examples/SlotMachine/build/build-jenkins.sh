@@ -234,6 +234,11 @@ if [ ! "$?" = "0" ]; then
 #    exit 1
 fi
 
+which svn
+which git
+svn --version
+git --version
+
 # get svn number
 export LC_MESSAGES=en_US
 DEBUG_CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
