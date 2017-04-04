@@ -61,6 +61,9 @@ opt:
 EOF
 }
 
+echo "whoami: $(whoami)"
+whoami
+
 # check version parameter valid
 if [ ! "$1" == "pre-dev" ] && [ ! "$1" == "dev" ] && [ ! "$1" == "demo" ] && [ ! "$1" == "pre-alpha" ] && [ ! "$1" == "slash100" ] && [ ! "$1" == "production" ]; then
     print_usage
